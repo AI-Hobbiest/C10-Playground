@@ -36,8 +36,13 @@ async function readJson(request) {
 }
 function validPassword(password) { return typeof password==="string"&&password.length>=12&&password.length<=256&&/[A-Za-z]/.test(password)&&/\d/.test(password); }
 function makeTempPassword() {
-  const alphabet="ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789!@#$%";
-  let out="";for(const byte of randomBytes(20))out+=alphabet[byte%alphabet.length];return out;
+  const letters="ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
+  const digits="23456789";
+  const alphabet=letters+digits+"!@#$%";
+  const bytes=randomBytes(20),chars=[letters[bytes[0]%letters.length],digits[bytes[1]%digits.length]];
+  for(let i=2;i<20;i++)chars.push(alphabet[bytes[i]%alphabet.length]);
+  for(let i=chars.length-1;i>0;i--){const j=randomBytes(1)[0]%(i+1);[chars[i],chars[j]]=[chars[j],chars[i]];}
+  return chars.join("");
 }
 function passwordSalt() { return base64url(randomBytes(16)); }
 async function passwordHash(password,salt) {
