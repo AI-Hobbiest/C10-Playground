@@ -64,6 +64,33 @@
             },
             "difficulty": {
               "type": "string"
+            },
+            "images": {
+              "type": "array",
+              "description": "Optional question diagrams or figures. Use relative image asset paths for curated banks, or PNG/JPEG/WebP/GIF base64 data URIs for bundled/imported questions.",
+              "items": {
+                "type": "object",
+                "required": [
+                  "src",
+                  "alt"
+                ],
+                "properties": {
+                  "src": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Relative asset path or raster image data URI."
+                  },
+                  "alt": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Accessible description of the diagram."
+                  },
+                  "caption": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
             }
           },
           "additionalProperties": true
