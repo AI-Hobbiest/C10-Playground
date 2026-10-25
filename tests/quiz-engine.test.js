@@ -27,8 +27,8 @@ class FakeElement {
 const subjectBank = [{
   chapter_no:1,title:"Mini Algebra",key:"mini-algebra",
   questions:[
-    {id:1,question:"Two plus two equals?",options:["3","4","5","6"],answer:1,explanation:"Two plus two equals four.",difficulty:"Easy"},
-    {id:2,question:"Three plus one equals?",options:["2","3","4","5"],answer:2,explanation:"Three plus one equals four.",difficulty:"Easy"}
+    {id:1,question:"Two plus two equals?",options:["3","4","5","6"],answer:1,explanation:"Two plus two equals four.",difficulty:"Easy",images:[{src:"./data/images/mathematics/number-line.png",alt:"Number line from zero to four",caption:"Number line"}]},
+    {id:2,question:"Three plus one equals?",options:["2","3","4","5"],answer:2,explanation:"Three plus one equals four.",difficulty:"Easy",images:[{src:"data:image/png;base64,iVBORw0KGgo=",alt:"A four-part diagram"}]}
   ]
 }];
 
@@ -47,10 +47,10 @@ function makeEnvironment(seed = new Map(), subject = "mathematics"){
     "status","welcome","session","results","review","subjectIcon","subjectTitle","subjectSubtitle","chapterPill",
     "numberPill","difficultyPill","timerPill","progressBar","questionText","options","feedback","sessionHint",
     "nextBtn","skipBtn","submitBtn","startBtn","reviewBtn","clearBtn","againBtn","reviewAnswersBtn","backBtn",
-    "retrySetBtn","resultCopy","resultTitle","scorePct","resultStats","reviewPill","reviewList"
+    "retrySetBtn","resultCopy","resultTitle","scorePct","resultStats","reviewPill","reviewList","questionMedia","imageViewer","imageViewerImage","imageViewerCaption","imageViewerClose"
   ];
   allIds.forEach(id=>elements[id]=new FakeElement(id));
-  ["session","results","review","status"].forEach(id=>elements[id].classList.add("hide"));
+  ["session","results","review","status","imageViewer","questionMedia"].forEach(id=>elements[id].classList.add("hide"));
   elements["nextBtn"].tagName="BUTTON";elements["skipBtn"].tagName="BUTTON";
   elements["submitBtn"].tagName="BUTTON";elements["startBtn"].tagName="BUTTON";
   elements["reviewBtn"].tagName="BUTTON";elements["clearBtn"].tagName="BUTTON";
@@ -93,6 +93,14 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   assert.equal(first.elements.chapterTotal.textContent,"1");
   first.elements.startBtn.click();
   assert.equal(first.elements.session.classList.contains("hide"),false);
+  assert.equal(first.elements.questionMedia.children.length,1,"question illustration renders in practice");
+  const firstFigure=first.elements.questionMedia.children[0];
+  const zoomTrigger=firstFigure.children[0];
+  zoomTrigger.click();
+  assert.equal(first.elements.imageViewer.classList.contains("hide"),false,"diagram can be enlarged");
+  assert.ok(first.elements.imageViewerImage.src,"viewer loads the selected diagram");
+  first.elements.imageViewerClose.click();
+  assert.equal(first.elements.imageViewer.classList.contains("hide"),true,"diagram viewer closes accessibly");
   first.elements.options.children[0].click();
   first.elements.nextBtn.click();
   const ledgerEntry=[...first.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
@@ -122,6 +130,9 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   assert.equal(wrapped.data.answerRecords.length,2);
   assert.equal(wrapped.data.attempts[0].profileId,savedProfileId);
   assert.ok(Number.isInteger(wrapped.data.attempts[0].durationSeconds));
+  resumed.elements.reviewAnswersBtn.click();
+  assert.equal(resumed.elements.review.classList.contains("hide"),false,"answer review opens after test");
+  assert.ok(resumed.elements.reviewList.children.some(item=>item.children.some(child=>String(child.className).includes("question-review-media"))),"question diagrams also render in answer review");
 
   const science=makeEnvironment(new Map(),"science");
   await delay();
@@ -132,5 +143,5 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   const scienceWrapped=JSON.parse(scienceLedger[1]);
   assert.equal(scienceWrapped.data.activeAttempt.subjectId,"science");
   assert.equal(scienceWrapped.data.activeAttempt.status,"in-progress");
-  console.log("Quiz integration tests passed: answer autosave, page-refresh recovery, completion, result persistence, stable profile identity, answer-record linkage, and Science shared-engine registration.");
+  console.log("Quiz integration tests passed: answer autosave, page-refresh recovery, completion, result persistence, stable profile identity, answer-record linkage, Science shared-engine registration, diagram rendering, enlarging, closing and review rendering.");
 })().catch(error=>{console.error(error);process.exitCode=1;});
