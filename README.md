@@ -34,9 +34,9 @@ The four JSON banks are starter banks, **not yet 100 questions per chapter**. Qu
 
 ## Practice engine
 
-The shared practice engine supports chapter/topic selection, Learn mode, Test mode, Retry missed, Mixed practice and Timed Exam. Students can select no live timer, elapsed-time tracking, or a 10/20/30/60-minute countdown. Countdown sessions submit automatically when time expires. Answers and active attempts are saved locally; a same-browser refresh can restore a session. Completed records include score, duration, answer status and stable question/option IDs.
+All five subjects use the shared practice engine: Science, Mathematics, English, Social Science and Hindi. It supports chapter/topic selection, Learn mode, Test mode, Retry missed, Mixed practice and Timed Exam. Students can select no live timer, elapsed-time tracking, or a 10/20/30/60-minute countdown. Countdown sessions submit automatically when time expires. Answers and active attempts are saved locally; a same-browser refresh can restore a session. Completed records include score, duration, answer status and stable question/option IDs.
 
-Science still uses its earlier standalone quiz engine. The shared session/history, XP and graphs do not yet incorporate Science attempts; bringing it onto the common session engine is a follow-on integration task.
+Science retains its existing compressed source payload so there is no manually maintained duplicate bank. During deployment, GitHub Actions validates the 14 chapter sets / 1,400 MCQs and generates the deployment copy of data/science.json, which is then consumed by the same question-bank normalizer, session ledger, local history and XP/levels/badges as the other subjects. The old science.html URL remains as a compatibility redirect to practice.html?subject=science.
 
 ## Phase 1 — data foundation
 
@@ -85,7 +85,7 @@ The app is static, uses no paid charting library and makes no new API calls for 
 
 ## Deployment and checks
 
-GitHub Actions assembles and deploys the site to GitHub Pages. It validates the Science payload and question-bank structure, then runs automated tests for foundation migration, test-session calculations/recovery, student profile validation, JSON backup/restore, XP/levels/badges and responsive navigation.
+GitHub Actions assembles and deploys the site to GitHub Pages. It validates the Science payload and generates/tests the shared Science bank, checks each subject question-bank structure, then runs automated tests for foundation migration, test-session calculations/recovery, Science normalization and routing, student profile validation, JSON backup/restore, XP/levels/badges and responsive navigation.
 
 ## Syllabus and usage note
 
