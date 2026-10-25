@@ -26,11 +26,11 @@ for(const [name,html] of [["homepage",homepage],["practice",practice],["profile"
  assert.ok(html.includes("./css/app-shell.css"),name+" links shared navigation styles");
  assert.ok(html.includes("./js/app-shell.js"),name+" loads shared navigation behavior");
 }
-assert.ok(science.includes("./css/app-shell.css"),"Science injects side-menu styles into embedded module");
-assert.ok(science.includes("./js/app-shell.js"),"Science injects side-menu behavior into embedded module");
+assert.ok(science.includes("practice.html?subject=science"),"Science compatibility page routes to the shared practice engine");
+assert.ok(science.includes("window.location.replace"),"Science redirects promptly instead of loading the retired standalone module");
 assert.ok(dashboard.includes("./css/app-shell.css"));
 assert.ok(dashboard.includes("./js/app-shell.js"));
 for(const section of ["dashboard","rewards"])assert.ok(dashboard.includes('id="'+section+'"'));
 for(const field of ["profile","history","backup"])assert.ok(profile.includes('id="'+field+'"'));
 new Function(nav);
-console.log("Navigation tests passed: responsive shell on all entry pages, correct menu targets, keyboard closing, active root resolution, and dashboard/profile anchor contracts.");
+console.log("Navigation tests passed: responsive shell on app pages, Science compatibility redirect, correct menu targets, keyboard closing, active root resolution, and dashboard/profile anchor contracts.");
