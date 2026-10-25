@@ -361,8 +361,12 @@ export default {
     const url=new URL(request.url),path=url.pathname,method=request.method.toUpperCase();
     if(method==="OPTIONS")return new Response(null,{status:204,headers:headersFor(request,env)});
     try {
+      if(path==="/student-login"&&method==="GET")return await showStudentLogin(request,env);
+      if(path==="/student-account"&&method==="GET")return await showStudentAccount(request,env);
       if(path==="/api/health"&&method==="GET")return await health(request,env);
       if(path==="/api/auth/github/start"&&method==="GET")return await githubStart(request,env);
+      if(path==="/api/auth/student-exchange"&&method==="POST")return await exchangeHandoff(request,env,await readJson(request),"account-return");
+      if(path==="/api/auth/account-exchange"&&method==="POST")return await exchangeHandoff(request,env,await readJson(request),"account-access");
       if(path==="/api/auth/github/callback"&&method==="GET")return await githubCallback(request,env);
       if(path==="/api/auth/exchange"&&method==="POST")return await exchangeGithubCode(request,env);
       if(path==="/api/student/login"&&method==="POST")return await studentLogin(request,env);
@@ -382,6 +386,8 @@ export default {
       if(path==="/api/student/change-password"&&method==="POST"){if(who.role!=="student")return fail(request,env,403,"Student account required.");return await changeStudentPassword(request,env,who);}
       if(path==="/api/student/attempts"&&method==="GET"){if(who.role!=="student")return fail(request,env,403,"Student account required.");return await getStudentAttempts(request,env,who);}
       if(path==="/api/student/attempts"&&method==="POST"){if(who.role!=="student")return fail(request,env,403,"Student account required.");return await saveStudentAttempt(request,env,who);}
+      if(path==="/api/student/account-link"&&method==="POST")return await studentAccountLink(request,env,who);
+      if(path==="/api/student/account-return"&&method==="POST")return await studentAccountReturn(request,env,who);
 
       if(who.role!=="admin"||!adminAllowed(env,who.github_login))return fail(request,env,403,"Authorised GitHub administrator required.");
       if(path==="/api/admin/classes"&&method==="GET")return await adminListClasses(request,env);
