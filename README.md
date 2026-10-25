@@ -11,6 +11,10 @@ A mobile-friendly, non-commercial CBSE Class 10 practice portal hosted on GitHub
 - Social Science: https://ai-hobbiest.github.io/C10-Playground/practice.html?subject=social-science
 - Hindi Course A/B starter practice: https://ai-hobbiest.github.io/C10-Playground/practice.html?subject=hindi
 
+## Branding and visual theme
+
+The portal uses the **Midnight Indigo + Electric Coral + Mint** visual theme, with the attribution “Conceptualised by JP Ganathe” on the homepage and subject experiences. Shared theme styles live in `css/branding.css` so the look can be updated consistently without rewriting each module.
+
 ## What is available now?
 
 | Subject | Coverage in this version | Starter questions |
