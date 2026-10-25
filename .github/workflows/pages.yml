@@ -31,7 +31,10 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html _site/index.html
-          if [ -f science.html ]; then cp science.html _site/science.html; fi
+          cp science.html _site/science.html
+          cp .nojekyll _site/.nojekyll
+          mkdir -p _site/science-payload
+          cp science-payload/part-*.txt _site/science-payload/
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
