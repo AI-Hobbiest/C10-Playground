@@ -635,8 +635,8 @@
     populateAdminStateSelect($("centralStudentState"));populateAdminStateSelect($("editCentralStudentState"));
     if(!window.C10Api||!window.C10Api.isConfigured()){
       if(login)login.disabled=true;
-      setAccountStatus("Central account service is not configured yet. Local question/class/resource drafts remain available, but GitHub sign-in, central student accounts and live reports are disabled.","error");
-      setStatus("centralStudentStatus","Not connected. Deploy the Worker, initialise D1 and set js/api-config.js before creating central accounts.","error");
+      setAccountStatus("In-app GitHub sign-in and Cloudflare central accounts are deferred. Only GitHub repository maintainers can publish changes; use the repository-file account tool for student passwords.","");
+      setStatus("centralStudentStatus","Central accounts are deferred. Use the repository-file account panel above for this starter version.","");
       return;
     }
     try{
