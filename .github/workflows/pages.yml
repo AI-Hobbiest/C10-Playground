@@ -33,12 +33,15 @@ jobs:
           cp index.html _site/index.html
           cp science.html _site/science.html
           cp practice.html _site/practice.html
+          cp profile.html _site/profile.html
           cp .nojekyll _site/.nojekyll
           mkdir -p _site/js _site/data _site/css _site/data/contracts/v1
           cp css/branding.css _site/css/branding.css
           cp js/storage.js _site/js/storage.js
           cp js/question-bank.js _site/js/question-bank.js
           cp js/session-model.js _site/js/session-model.js
+          cp js/profile-model.js _site/js/profile-model.js
+          cp js/profile-manager.js _site/js/profile-manager.js
           cp js/quiz-engine.js _site/js/quiz-engine.js
           cp data/*.json _site/data/
           cp data/contracts/v1/* _site/data/contracts/v1/
@@ -84,10 +87,17 @@ jobs:
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
           }
-          for (const file of ['practice.html','css/branding.css','js/storage.js','js/question-bank.js','js/session-model.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+          for (const file of ['practice.html','profile.html','css/branding.css','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
+          const profilePage=fs.readFileSync('_site/profile.html','utf8');
+          if (!profilePage.includes('id="studentId"') || !profilePage.includes('id="school"') || !profilePage.includes('id="city"') || !profilePage.includes('id="state"') || !profilePage.includes('id="classLevel"')) throw new Error('Profile fields are missing.');
+          if (!profilePage.includes('Export JSON backup') || !profilePage.includes('Import JSON backup')) throw new Error('Profile backup controls are missing.');
+          const profileScripts=['./js/storage.js','./js/profile-model.js','./js/profile-manager.js'].map(src=>profilePage.indexOf(src));
+          if (profileScripts.some(index=>index<0) || !(profileScripts[0]<profileScripts[1] && profileScripts[1]<profileScripts[2])) throw new Error('Profile scripts are missing or out of order.');
           const homepage=fs.readFileSync('_site/index.html','utf8');
+          if (!homepage.includes('./profile.html')) throw new Error('Homepage profile link is missing.');
+          
           for (const slug of ['subject=mathematics','subject=english','subject=social-science','subject=hindi']) {
             if (!homepage.includes(slug)) throw new Error('Homepage link is missing '+slug);
           }
@@ -109,6 +119,8 @@ jobs:
         run: node tests/session-model.test.js
       - name: Test quiz engine autosave and recovery
         run: node tests/quiz-engine.test.js
+      - name: Test profile model and privacy fields
+        run: node tests/profile-model.test.js
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
