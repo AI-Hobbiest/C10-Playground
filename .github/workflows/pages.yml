@@ -145,12 +145,12 @@ jobs:
                       throw new Error('Image '+(imageIndex+1)+' needs a source and alt text in '+name+', question '+question.id);
                     }
                     const src=image.src.trim();
-                    const dataUri=/^data:image\\/(?:png|jpeg|webp|gif);base64,[A-Za-z0-9+/]+={0,2}$/i.test(src);
-                    const relative=/^(?:\\.\\/|\\/)?[A-Za-z0-9._~!%()-]+(?:\\/[A-Za-z0-9._~!%()-]+)*$/.test(src) &&
+                    const dataUri=/^data:image\/(?:png|jpeg|webp|gif);base64,[A-Za-z0-9+/]+={0,2}$/i.test(src);
+                    const relative=/^(?:\.\/|\/)?[A-Za-z0-9._~!%()-]+(?:\/[A-Za-z0-9._~!%()-]+)*$/.test(src) &&
                       !src.startsWith('//') && !src.split('/').includes('..') && !src.includes(':');
                     if (!dataUri && !relative) throw new Error('Unsafe image source '+src+' in '+name+', question '+question.id);
                     if (!dataUri) {
-                      const assetPath=src.replace(/^\\.\\//,'').replace(/^\\//,'');
+                      const assetPath=src.replace(/^\.\//,'').replace(/^\//,'');
                       if (!fs.existsSync('_site/'+assetPath)) throw new Error('Missing image asset '+src+' referenced by '+name+', question '+question.id);
                     }
                   }
