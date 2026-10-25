@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#211b48">
 <meta name="description" content="Manage your C10 Playground learner profile and local test history.">
 <title>My Profile & Test History | C10 Playground</title>
-<link rel="stylesheet" href="./css/branding.css">
+<link rel="stylesheet" href="./css/branding.css"><link rel="stylesheet" href="./css/app-shell.css">
 <style>
 .profile-wrap{max-width:1040px;margin:25px auto;padding:0 18px 48px}
 .profile-grid{display:grid;grid-template-columns:minmax(0, .9fr) minmax(0,1.1fr);gap:18px;align-items:start}
@@ -51,7 +51,7 @@ hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
 <main class="profile-wrap">
   <div id="pageStatus" class="status" role="status" aria-live="polite"></div>
   <div class="profile-grid">
-    <section class="profile-card">
+    <section id="profile" class="profile-card c10-page-anchor">
       <h2>Student profile</h2>
       <p class="status">Use a nickname if you prefer. The Student ID is generated automatically and cannot be edited.</p>
       <form id="profileForm" novalidate>
@@ -94,7 +94,7 @@ hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
         </div>
       </form>
     </section>
-    <section class="profile-card">
+    <section id="history" class="profile-card c10-page-anchor">
       <div class="section-head">
         <div>
           <h2>Learning history</h2>
@@ -109,7 +109,7 @@ hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
       </div>
       <div id="historyList" class="history-list"><p class="status">No completed tests saved yet. Finish a practice session and it will appear here.</p></div>
       <hr class="soft">
-      <h2>Backup &amp; restore</h2>
+      <h2 id="backup" class="c10-page-anchor">Backup &amp; restore</h2>
       <p class="status">Export your profile, progress, saved answers and test history as one versioned JSON file. Importing a backup replaces the local profile and records for the subjects included in that file.</p>
       <div class="profile-actions">
         <button class="btn" id="exportBtn" type="button">Export JSON backup</button>
@@ -124,5 +124,6 @@ hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
 <script src="./js/storage.js"></script>
 <script src="./js/profile-model.js"></script>
 <script src="./js/profile-manager.js"></script>
+<script src="./js/app-shell.js"></script>
 </body>
 </html>
