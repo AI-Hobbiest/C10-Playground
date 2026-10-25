@@ -35,6 +35,23 @@ jobs:
           cp .nojekyll _site/.nojekyll
           mkdir -p _site/science-payload
           cp science-payload/part-*.txt _site/science-payload/
+      - name: Validate Science module payload
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const zlib = require('zlib');
+          const encoded = fs.readFileSync('_site/science-payload/part-01.txt','utf8').trim()
+            + Array.from({length:16},(_,i)=>fs.readFileSync('_site/science-payload/part-'+String(i+2).padStart(2,'0')+'.txt','utf8').trim()).join('');
+          const html = zlib.gunzipSync(Buffer.from(encoded,'base64')).toString('utf8');
+          const match = html.match(/const EMBEDDED_CHAPTERS = (\[[\s\S]*?\]);\s*\nlet chapters/);
+          if (!match) throw new Error('Embedded chapter data was not found.');
+          const chapters = JSON.parse(match[1]);
+          const count = chapters.reduce((sum,chapter)=>sum+chapter.questions.length,0);
+          if (chapters.length !== 14 || count !== 1400 || !html.includes('id="chapter"') || !html.includes("$('chapter').innerHTML=chapters.map")) {
+            throw new Error('Science validation failed: '+chapters.length+' chapters, '+count+' questions, dropdown='+html.includes('id="chapter"'));
+          }
+          console.log('Validated '+chapters.length+' chapter sets and '+count+' questions; dropdown initialization is present.');
+          NODE
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
