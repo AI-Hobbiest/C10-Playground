@@ -7,7 +7,12 @@
     "schemaVersion",
     "kind",
     "profileId",
+    "studentId",
     "displayName",
+    "school",
+    "classLevel",
+    "city",
+    "state",
     "createdAt",
     "updatedAt"
   ],
@@ -35,20 +40,72 @@
       "type": "string",
       "format": "date-time"
     },
-    "preferences": {
-      "type": "object",
-      "properties": {
-        "language": {
-          "type": "string"
-        },
-        "reducedMotion": {
-          "type": "boolean"
-        },
-        "soundEffects": {
-          "type": "boolean"
-        }
-      },
-      "additionalProperties": false
+    "studentId": {
+      "type": "string",
+      "pattern": "^C10-[A-Z0-9-]{4,20}$"
+    },
+    "school": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "classLevel": {
+      "type": "string",
+      "enum": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    "city": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh",
+        "Goa",
+        "Gujarat",
+        "Haryana",
+        "Himachal Pradesh",
+        "Jharkhand",
+        "Karnataka",
+        "Kerala",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Odisha",
+        "Punjab",
+        "Rajasthan",
+        "Sikkim",
+        "Tamil Nadu",
+        "Telangana",
+        "Tripura",
+        "Uttar Pradesh",
+        "Uttarakhand",
+        "West Bengal",
+        "Andaman and Nicobar Islands",
+        "Chandigarh",
+        "Dadra and Nagar Haveli and Daman and Diu",
+        "Delhi",
+        "Jammu and Kashmir",
+        "Ladakh",
+        "Lakshadweep",
+        "Puducherry"
+      ]
     }
   },
   "additionalProperties": false
