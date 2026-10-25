@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/C10-Playground/data/contracts/v1/answer-record.schema.json",
+  "title": "C10 Playground Answer Record v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "answerRecordId",
+    "attemptId",
+    "questionId",
+    "answeredAt",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "kind": {
+      "const": "answer-record"
+    },
+    "answerRecordId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "attemptId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "questionId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "selectedOptionId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "correctOptionId": {
+      "type": "string"
+    },
+    "isCorrect": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "answered",
+        "skipped",
+        "unanswered"
+      ]
+    },
+    "timeSpentSeconds": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "answeredAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}
