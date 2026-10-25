@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "kind": "c10-student-accounts",
+  "kdf": "PBKDF2-SHA-256",
+  "defaultIterations": 600000,
+  "accounts": []
+}

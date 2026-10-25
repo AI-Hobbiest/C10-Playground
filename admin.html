@@ -20,21 +20,21 @@
 </header>
 <main class="admin-wrap">
   <div class="admin-notice">
-    <strong>Admin access:</strong> the Admin Workspace is for authorised administrators only. Sign in with an approved GitHub account before using the editing, student-management or reporting tabs. Student sign-in is username + password only; students do not need GitHub accounts. Content publication still requires repository write permission. Never paste a GitHub password, token or student password into this page.
+    <strong>Admin publishing:</strong> this workspace creates local drafts and downloadable JSON files. It has no in-app admin authentication or GitHub write token. Only a trusted repository maintainer should commit changes to GitHub. Student sign-in uses a public flat file and is a convenience feature, not secure access control. Never use personal or reused passwords.
   </div>
   <section class="admin-panel active" id="adminAuthBanner" style="gap:12px">
     <div class="admin-form-grid">
       <div style="grid-column:1/-1">
-        <h2>Administrator sign-in</h2>
-        <p class="admin-muted">Only the administrator signs in with GitHub. Students use their own username and password. Central accounts and live reports become available after the account API is configured.</p>
+        <h2>Publishing permissions</h2>
+        <p class="admin-muted">GitHub sign-in inside this app is deferred. Publish approved content and account-file updates directly through GitHub using repository write permissions.</p>
       </div>
     </div>
     <div class="admin-actions">
-      <button class="admin-btn" id="adminLoginBtn" type="button">Continue with GitHub</button>
+      <button class="admin-btn" id="adminLoginBtn" type="button" hidden>Continue with GitHub</button>
       <button class="admin-btn secondary" id="adminLogoutBtn" type="button" hidden>Sign out</button>
       <span id="adminIdentity" class="admin-chip" hidden></span>
     </div>
-    <div id="adminAuthStatus" class="admin-status" role="status" aria-live="polite">Checking account service configuration…</div>
+    <div id="adminAuthStatus" class="admin-status" role="status" aria-live="polite">In-app admin sign-in is deferred. GitHub repository permissions control publishing.</div>
   </section>
   <div class="admin-grid" aria-label="Workspace summary">
     <div class="admin-stat"><strong id="statQuestions">—</strong><span>Questions in loaded bank</span></div>
@@ -62,7 +62,7 @@
           <div class="admin-feature"><strong>Knowledge resources</strong><p>Maintain a resource manifest for books, notes, question-bank PDFs and image-reference PDFs. Download and publish files separately.</p></div>
           <div class="admin-feature"><strong>Student reports</strong><p>Import student backup JSON files supplied by students. View profiles and progress, edit an imported profile snapshot, and export reports or revised backups.</p></div>
         </div>
-        <div class="admin-notice"><strong>Account-service requirement:</strong> the GitHub Pages site cannot securely hold passwords or a shared account database. The existing account API and D1 database must be configured for student username/password sign-in, admin account management, password resets and live reports. Until then, only local practice and manual JSON backup features are available.</div>
+        <div class="admin-notice"><strong>Current account approach:</strong> student password hashes live in <code>data/student-accounts.json</code>. This file is public in the repository, so usernames and password hashes are visible and can be attacked offline. Use classroom-only passwords that students never reuse elsewhere. Account creation/reset downloads an updated JSON file; a repository maintainer must review and commit it before it takes effect. Cross-device sync and secure authentication are deferred.</div>
         <div id="overviewStatus" class="admin-status" role="status">Loading class catalogue and resource manifest…</div>
       </section>
 
@@ -122,7 +122,7 @@
           <div class="admin-field"><label for="classId">Class ID</label><input id="classId" placeholder="e.g. 5 or 10"></div>
           <div class="admin-field"><label for="classLabel">Display label</label><input id="classLabel" placeholder="e.g. Class 5"></div>
         </div>
-        <div class="admin-actions"><button class="admin-btn" id="addClassBtn" type="button">＋ Add class</button><button class="admin-btn secondary" id="exportClassesBtn" type="button">Export classes.json</button><button class="admin-btn secondary" id="reloadClassesBtn" type="button">Reload published list</button></div><div class="admin-actions"><button class="admin-btn secondary" id="syncClassesBtn" type="button">Sync catalogue to central accounts</button></div><p class="admin-inline-help">Requires GitHub Admin sign-in and configured Cloudflare API. Synchronises class IDs/labels/status into the account database used to validate student accounts.</p>
+        <div class="admin-actions"><button class="admin-btn" id="addClassBtn" type="button">＋ Add class</button><button class="admin-btn secondary" id="exportClassesBtn" type="button">Export classes.json</button><button class="admin-btn secondary" id="reloadClassesBtn" type="button">Reload published list</button></div><div class="admin-actions"><button class="admin-btn secondary" id="syncClassesBtn" type="button" hidden>Sync catalogue to central accounts</button></div><p class="admin-inline-help" hidden>Central class synchronisation is deferred until a backend is configured.</p>
         <div id="classesStatus" class="admin-status" role="status"></div>
         <div id="classesTable" class="admin-table-wrap"></div>
       </section>
@@ -148,9 +148,32 @@
       </section>
 
       <section class="admin-panel" id="tab-students">
+        <section class="admin-content" id="flatFileAccountsPanel" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
+          <h3>Student accounts · repository file</h3>
+          <p class="admin-muted">Create a username or reset a password. The page generates a salted PBKDF2-SHA-256 hash and downloads an updated <code>student-accounts.json</code>. Review it and commit it to <code>data/student-accounts.json</code> in GitHub. Changes become active after Pages redeploys.</p>
+          <div class="admin-notice"><strong>Important:</strong> this is a simple starter, not secure authentication. The repository is public; the username, salt and password hash can be read by anyone and weak passwords may be guessed offline. Do not store real names, emails, school details or reused passwords in this file.</div>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="staticAccountUsername">New username</label><input id="staticAccountUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" placeholder="e.g. learner_01"></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn" id="createStaticAccountBtn" type="button">Create account &amp; download JSON</button><button class="admin-btn secondary" id="reloadStaticAccountsBtn" type="button">Reload published account file</button></div>
+          <hr class="admin-rule">
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="resetStaticAccountUsername">Reset password for</label><select id="resetStaticAccountUsername"><option value="">Load accounts first</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="resetStaticAccountBtn" type="button">Generate reset password &amp; download JSON</button></div>
+          <div id="staticAccountStatus" class="admin-status" role="status">Loading the published account file…</div>
+          <div id="staticAccountTempBox" hidden>
+            <p><strong>Temporary password — share privately with the student.</strong></p>
+            <textarea id="staticAccountTempPassword" rows="2" readonly></textarea>
+            <div class="admin-actions"><button class="admin-btn secondary" id="copyStaticAccountTempPasswordBtn" type="button">Copy temporary password</button></div>
+          </div>
+          <h4>Accounts in the published/local draft</h4>
+          <div id="staticAccountsTable" class="admin-table-wrap"></div>
+        </section>
+
         <h2>Student profile management and progress reports</h2>
-        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
-          <h3>Central student accounts · live</h3>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px" hidden>
+          <h3>Central student accounts · live (deferred)</h3>
           <p class="admin-muted">Requires authorised GitHub Admin sign-in and the configured Cloudflare account service. These are real central accounts, not imported backup copies.</p>
           <div class="admin-form-grid">
             <div class="admin-field"><label for="centralStudentUsername">Username</label><input id="centralStudentUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" required placeholder="e.g. learner2026"></div>
@@ -170,8 +193,8 @@
           </div>
           <div id="centralStudentsTable" class="admin-table-wrap"></div>
         </section>
-        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
-          <h3>Live progress report</h3>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px" hidden>
+          <h3>Live progress report (deferred)</h3>
           <div class="admin-form-grid">
             <div class="admin-field"><label for="liveProgressClass">Class filter</label><select id="liveProgressClass"><option value="">All classes</option></select></div>
             <div class="admin-field"><label for="liveProgressSubject">Subject filter</label><select id="liveProgressSubject"><option value="">All subjects</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select></div>
@@ -181,7 +204,7 @@
           <div id="liveProgressTable" class="admin-table-wrap"></div>
         </section>
         <p class="admin-muted">Import one or more student backup JSON files received from the existing portal. The files remain in this browser session. You can inspect reports, edit an imported profile snapshot, download a revised backup, or remove a record from this local workbench.</p>
-        <div class="admin-notice"><strong>Current architecture limitation:</strong> student progress is stored on each student's device. This workspace cannot automatically see all learners or remotely edit/delete their device data. Student password reset/set is unavailable because V1 has no student passwords or central accounts.</div>
+        <div class="admin-notice"><strong>Current limitation:</strong> quiz history remains on each student's device. Import backup JSON files for reports. Passwords are managed separately through the public hashed account file above; account login does not sync or protect local progress.</div>
         <div class="admin-field"><label for="studentBackups">Import student backup files (multiple allowed)</label><input class="admin-file" id="studentBackups" type="file" accept=".json,application/json" multiple></div>
         <div class="admin-actions"><button class="admin-btn secondary" type="button" id="clearStudentsBtn">Clear imported data from this workbench</button><button class="admin-btn secondary" type="button" id="exportReportBtn">Download progress report CSV</button></div>
         <div id="studentStatus" class="admin-status" role="status">No student backups loaded.</div>
@@ -191,9 +214,9 @@
 
       <section class="admin-panel" id="tab-leaderboard">
         <h2>Leaderboards</h2>
-        <p class="admin-muted">The first table below ranks imported backup files. Use the live leaderboard to rank centrally stored student accounts across devices.</p>
-        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
-          <h3>Live class / subject leaderboard</h3>
+        <p class="admin-muted">Rankings below are calculated from student backup JSON files that the administrator imports. Cross-device live rankings are deferred.</p>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px" hidden>
+          <h3>Live class / subject leaderboard (deferred)</h3>
           <div class="admin-form-grid">
             <div class="admin-field"><label for="liveLeaderClass">Class filter</label><select id="liveLeaderClass"><option value="">All classes</option></select></div>
             <div class="admin-field"><label for="liveLeaderSubject">Subject filter</label><select id="liveLeaderSubject"><option value="">Overall</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select></div>
@@ -214,12 +237,12 @@
 
       <section class="admin-panel" id="tab-access">
         <h2>Admin access and account security</h2>
-        <p class="admin-muted">The Admin Workspace intentionally contains no shared password, GitHub token or password reset store.</p>
+        <p class="admin-muted">The Admin Workspace contains no GitHub write token or server-side authentication. Publishing account files and content is controlled by GitHub repository permissions.</p>
         <div class="admin-feature-list">
           <div class="admin-feature"><strong>Publishing access</strong><p>Use your GitHub account to commit approved JSON and asset files. Publishing access is controlled by repository permissions, not by this page.</p><p><a href="https://github.com/AI-Hobbiest/C10-Playground/settings/access" target="_blank" rel="noopener noreferrer">Open repository access settings →</a></p></div>
           <div class="admin-feature"><strong>Add another admin</strong><p>Grant repository access to that person's own GitHub account with the least permissions they need. Remove their access in GitHub when no longer required. Do not share your personal GitHub password.</p><p><a href="https://github.com/AI-Hobbiest/C10-Playground/settings" target="_blank" rel="noopener noreferrer">Open repository settings →</a></p></div>
         </div>
-        <div class="admin-notice"><strong>Student passwords:</strong> don't invent or store passwords in profile JSON, class lists or local browser storage. If student sign-in and reset are required later, add a proper authentication provider and enforce account changes on the server.</div>
+        <div class="admin-notice"><strong>Student passwords:</strong> only salted hashes are committed in <code>data/student-accounts.json</code>. Because the file is public and verification happens in the browser, this is not a secure login system. Use unique classroom-only passwords, never reuse passwords, and migrate to a server-side verifier before using accounts for protected data.</div>
       </section>
 
       <section class="admin-panel" id="tab-operations">
@@ -230,7 +253,7 @@
           <div class="admin-feature"><strong>Keep repository size under control</strong><p>Prefer compressed, appropriately sized diagrams. Avoid duplicate textbook PDFs, large videos and base64 images embedded in thousands of questions.</p></div>
           <div class="admin-feature"><strong>Back up private data</strong><p>Keep individual student backups in a private location. Never commit student backup files, passwords, access tokens or private reports to this public repository.</p></div>
         </div>
-        <div class="admin-notice"><strong>Recommended later addition:</strong> a server-backed student directory and role-based audit trail, only if you decide that central account management and live reports justify the added infrastructure.</div>
+        <div class="admin-notice"><strong>Later improvements:</strong> server-side authentication, private account storage, admin-only account management, cross-device progress sync, centrally collected attempts and live reports. Cloudflare Worker + D1 remains an option, but is not needed for the current starter phase.</div>
         <p><a href="./">← Back to Student Portal</a></p>
       </section>
     </div>
@@ -272,9 +295,8 @@
 <script src="./js/question-bank.js"></script>
 <script src="./js/session-model.js"></script>
 <script src="./js/profile-model.js"></script>
-<script src="./js/api-config.js"></script>
-<script src="./js/api-client.js"></script>
 <script src="./js/admin-manager.js"></script>
+<script src="./js/static-account-admin.js"></script>
 <script src="./js/app-shell.js"></script>
 </body>
 </html>

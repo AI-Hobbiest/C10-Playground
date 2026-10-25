@@ -46,8 +46,10 @@ jobs:
           cp js/question-bank.js _site/js/question-bank.js
           cp js/session-model.js _site/js/session-model.js
           cp js/profile-model.js _site/js/profile-model.js
+          cp js/student-auth.js _site/js/student-auth.js
           cp js/profile-manager.js _site/js/profile-manager.js
           cp js/admin-manager.js _site/js/admin-manager.js
+          cp js/static-account-admin.js _site/js/static-account-admin.js
           cp js/app-shell.js _site/js/app-shell.js
           cp js/gamification.js _site/js/gamification.js
           cp js/dashboard-manager.js _site/js/dashboard-manager.js
@@ -159,7 +161,7 @@ jobs:
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
           }
-          for (const file of ['practice.html','profile.html','dashboard.html','admin.html','css/admin.css','js/admin-manager.js','data/classes.json','data/knowledge-base.json','css/branding.css','css/app-shell.css','css/question-media.css','js/app-shell.js','js/gamification.js','js/dashboard-manager.js','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/science.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+          for (const file of ['practice.html','profile.html','dashboard.html','admin.html','css/admin.css','js/admin-manager.js','js/student-auth.js','js/static-account-admin.js','data/student-accounts.json','data/classes.json','data/knowledge-base.json','css/branding.css','css/app-shell.css','css/question-media.css','js/app-shell.js','js/gamification.js','js/dashboard-manager.js','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/science.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
           const admin=fs.readFileSync('_site/admin.html','utf8');
@@ -176,8 +178,8 @@ jobs:
           const profilePage=fs.readFileSync('_site/profile.html','utf8');
           if (!profilePage.includes('id="studentId"') || !profilePage.includes('id="school"') || !profilePage.includes('id="city"') || !profilePage.includes('id="state"') || !profilePage.includes('id="classLevel"')) throw new Error('Profile fields are missing.');
           if (!profilePage.includes('Export JSON backup') || !profilePage.includes('Import JSON backup')) throw new Error('Profile backup controls are missing.');
-          const profileScripts=['./js/storage.js','./js/profile-model.js','./js/profile-manager.js'].map(src=>profilePage.indexOf(src));
-          if (profileScripts.some(index=>index<0) || !(profileScripts[0]<profileScripts[1] && profileScripts[1]<profileScripts[2])) throw new Error('Profile scripts are missing or out of order.');
+          const profileScripts=['./js/storage.js','./js/profile-model.js','./js/student-auth.js','./js/profile-manager.js'].map(src=>profilePage.indexOf(src));
+          if (profileScripts.some(index=>index<0) || !profileScripts.every((index,i)=>i===0||profileScripts[i-1]<index)) throw new Error('Profile scripts are missing or out of order.');
           const dashboard=fs.readFileSync('_site/dashboard.html','utf8');
           for (const required of ['id="dashboardTitle"','id="levelNumber"','id="levelProgressFill"','id="scoreTrendChart"','id="subjectAccuracyChart"','id="weeklyActivityChart"','id="badgeGrid"']) {
             if (!dashboard.includes(required)) throw new Error('Dashboard feature missing: '+required);
@@ -227,7 +229,7 @@ jobs:
       - name: Test levels XP badges and responsive navigation
         run: node tests/gamification.test.js && node tests/app-shell.test.js
       - name: Test Admin Workspace data handling and safety boundaries
-        run: node tests/admin-workspace.test.js && node tests/account-contract.test.js
+        run: node tests/admin-workspace.test.js && node tests/account-contract.test.js && node tests/static-accounts.test.js
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
