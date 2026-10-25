@@ -14,7 +14,7 @@
   let classCatalog=structuredCloneSafe(EMPTY_CLASSES);
   let knowledgeManifest=structuredCloneSafe(EMPTY_MANIFEST);
   let bankSubject="science",bank=[],selectedChapter=0,selectedQuestion=-1,selectedImages=[];
-  let bankDirty=false,bankLoaded=false;
+  let bankDirty=false,bankLoaded=false,classesDirty=false,manifestDirty=false;
   let pendingAssets=[],selectedImageFile=null,selectedImageUrl="";
   let pendingResources=[],selectedResourceFile=null,selectedResourceUrl="";
   let studentBackups=[],editingStudentProfileId=null;
@@ -320,7 +320,7 @@
       if(!response.ok)throw new Error("Could not load classes.json.");
       const data=await response.json();
       if(!data||data.kind!=="class-catalog"||!Array.isArray(data.classes))throw new Error("Published class catalogue has an invalid shape.");
-      classCatalog=data;renderClasses();renderLeaderClassOptions();updateSummary();setStatus("classesStatus","Loaded "+activeClasses().length+" active classes.","success");
+      classCatalog=data;classesDirty=false;renderClasses();renderLeaderClassOptions();updateSummary();setStatus("classesStatus","Loaded "+activeClasses().length+" active classes.","success");
       setStatus("overviewStatus","Class catalogue and knowledge-base manifest loaded. This workspace prepares local drafts; it does not publish files.");
     }catch(error){setStatus("classesStatus",error.message||"Class catalogue failed to load.","error");}
   }
@@ -332,15 +332,15 @@
     classCatalog.classes.slice().sort((a,b)=>(Number(a.sortOrder)||0)-(Number(b.sortOrder)||0)).forEach(item=>{
       const tr=make("tr");tr.append(make("td","",item.classId),make("td","",item.label),make("td","",item.active===false?"Inactive":"Active"));
       const td=make("td");td.appendChild(button(item.active===false?"Activate":"Deactivate","secondary",()=>{
-        item.active=item.active===false;renderClasses();renderLeaderClassOptions();setStatus("classesStatus","Class change is a local draft. Export classes.json to keep it.","success");updateSummary();
+        item.active=item.active===false;classesDirty=true;renderClasses();renderLeaderClassOptions();setStatus("classesStatus","Class change is a local draft. Export classes.json to keep it.","success");updateSummary();
       }));
       td.appendChild(button("Rename","secondary",()=>{
         const label=prompt("Display label for "+item.classId,item.label);
-        if(label&&label.trim()){item.label=label.trim();renderClasses();renderLeaderClassOptions();setStatus("classesStatus","Class label updated in this draft. Export classes.json.","success");}
+        if(label&&label.trim()){item.label=label.trim();classesDirty=true;renderClasses();renderLeaderClassOptions();setStatus("classesStatus","Class label updated in this draft. Export classes.json.","success");}
       }));
       td.appendChild(button("Remove","danger",()=>{
         if(!confirm("Remove "+item.label+" from the published class catalogue draft? Existing historic backups are not deleted."))return;
-        classCatalog.classes=classCatalog.classes.filter(x=>x!==item);renderClasses();renderLeaderClassOptions();setStatus("classesStatus","Class removed from this draft. Export classes.json.","success");updateSummary();
+        classCatalog.classes=classCatalog.classes.filter(x=>x!==item);classesDirty=true;renderClasses();renderLeaderClassOptions();setStatus("classesStatus","Class removed from this draft. Export classes.json.","success");updateSummary();
       }));
       tr.appendChild(td);body.appendChild(tr);
     });
@@ -352,11 +352,11 @@
     if(!/^[A-Za-z0-9_-]{1,20}$/.test(id)){setStatus("classesStatus","Class ID must use 1–20 letters, numbers, hyphens or underscores.","error");return;}
     if(!label){setStatus("classesStatus","Enter a display label.","error");return;}
     if(classCatalog.classes.some(x=>String(x.classId).toLowerCase()===id.toLowerCase())){setStatus("classesStatus","That class ID already exists.","error");return;}
-    classCatalog.classes.push({classId:id,label,sortOrder:classCatalog.classes.length+1,active:true});
+    classCatalog.classes.push({classId:id,label,sortOrder:classCatalog.classes.length+1,active:true});classesDirty=true;
     $("classId").value="";$("classLabel").value="";
     renderClasses();renderLeaderClassOptions();updateSummary();setStatus("classesStatus","Added class to local draft. Export classes.json and publish it via GitHub.","success");
   }
-  function exportClasses(){downloadJson(classCatalog,"classes.json");setStatus("classesStatus","Exported classes.json. Upload it to data/classes.json to publish the class catalogue.","success");}
+  function exportClasses(){downloadJson(classCatalog,"classes.json");classesDirty=false;setStatus("classesStatus","Exported classes.json. Upload it to data/classes.json to publish the class catalogue.","success");}
   function renderLeaderClassOptions(){
     const select=$("leaderClass"),previous=select.value;select.innerHTML="";
     const first=make("option","","All imported classes");first.value="";select.appendChild(first);
@@ -398,7 +398,7 @@
       subject:$("resourceSubject").value,chapter:$("resourceChapter").value.trim(),path,
       rightsNote:$("resourceRights").value.trim(),mimeType:selectedResourceFile.type||"application/octet-stream",
       sizeBytes:selectedResourceFile.size,status:"draft"};
-    knowledgeManifest.resources.push(resource);
+    knowledgeManifest.resources.push(resource);manifestDirty=true;
     pendingResources.push({resource,file:selectedResourceFile,previewUrl:selectedResourceUrl});
     selectedResourceFile=null;selectedResourceUrl="";$("resourceFile").value="";
     $("resourceTitle").value="";$("resourceChapter").value="";$("resourcePath").value="";$("resourceRights").value="";
@@ -427,14 +427,14 @@
       tr.append(make("td","",resource.title),make("td","",resource.type),make("td","",resource.subject||"—"),make("td","",resource.path),make("td","",resource.status||"manifest"));
       const actions=make("td");actions.appendChild(button("Remove","danger",()=>{
         if(!confirm("Remove this resource entry from the local manifest? This does not delete any file already published in GitHub."))return;
-        knowledgeManifest.resources=knowledgeManifest.resources.filter(x=>x.resourceId!==resource.resourceId);
+        knowledgeManifest.resources=knowledgeManifest.resources.filter(x=>x.resourceId!==resource.resourceId);manifestDirty=true;
         pendingResources=pendingResources.filter(x=>x.resource.resourceId!==resource.resourceId);
         renderKnowledgeTable();renderPendingResources();
       }));tr.appendChild(actions);body.appendChild(tr);
     });
     table.appendChild(body);container.appendChild(table);
   }
-  function exportManifest(){downloadJson(knowledgeManifest,"knowledge-base.json");setStatus("knowledgeStatus","Exported knowledge-base.json. Upload it to data/knowledge-base.json. Upload resource files separately and ensure rights permit public redistribution.","success");}
+  function exportManifest(){downloadJson(knowledgeManifest,"knowledge-base.json");manifestDirty=false;setStatus("knowledgeStatus","Exported knowledge-base.json. Upload it to data/knowledge-base.json. Upload resource files separately and ensure rights permit public redistribution.","success");}
   $("importManifestBtn").addEventListener("click",()=>$("manifestFile").click());
   async function importManifest(event){
     const file=event.target.files&&event.target.files[0];event.target.value="";if(!file)return;
@@ -442,7 +442,7 @@
       const data=await parseJsonFile(file);
       if(!data||data.kind!=="knowledge-base-manifest"||!Array.isArray(data.resources))throw new Error("Unsupported knowledge-base manifest.");
       if(data.resources.some(r=>!r.resourceId||!r.title||!r.path||!r.type))throw new Error("Every resource needs an ID, title, type and path.");
-      knowledgeManifest=data;renderKnowledgeTable();setStatus("knowledgeStatus","Imported resource manifest as a local draft.","success");
+      knowledgeManifest=data;manifestDirty=true;renderKnowledgeTable();setStatus("knowledgeStatus","Imported resource manifest as a local draft.","success");
     }catch(error){setStatus("knowledgeStatus",error.message||"Unable to import manifest.","error");}
   }
 
@@ -633,6 +633,11 @@
     document.addEventListener("keydown",event=>{if(event.key==="Escape"&&!$("profileEditorModal").classList.contains("hide"))closeProfileEditor();});
     $("saveStudentProfileBtn").addEventListener("click",saveEditedStudent);
     $("downloadStudentBackupBtn").addEventListener("click",()=>{const record=getEditingStudent();if(record)downloadStudentBackup(record);});
+    if(window.addEventListener)window.addEventListener("beforeunload",event=>{
+      if(bankDirty||classesDirty||manifestDirty||pendingAssets.length||pendingResources.length||studentBackups.length){
+        event.preventDefault();event.returnValue="";
+      }
+    });
     loadClasses();loadManifest();loadBank();renderStudents();renderKnowledgeTable();renderPendingResources();renderPendingAssets();updateSummary();
   }
   init();
