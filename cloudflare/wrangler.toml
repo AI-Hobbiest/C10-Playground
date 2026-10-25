@@ -1,0 +1,17 @@
+name = "c10-playground-api"
+main = "worker.js"
+compatibility_date = "2026-10-25"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "c10-playground"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+[vars]
+# Set these values for your deployment. Never put GITHUB_CLIENT_SECRET in this file.
+FRONTEND_ORIGIN = "https://ai-hobbiest.github.io"
+FRONTEND_ADMIN_URL = "https://ai-hobbiest.github.io/C10-Playground/admin.html"
+API_PUBLIC_URL = "https://REPLACE_WITH_WORKER_SUBDOMAIN.workers.dev"
+ADMIN_GITHUB_USERS = "REPLACE_WITH_YOUR_GITHUB_LOGIN"
