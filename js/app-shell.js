@@ -6,7 +6,7 @@
     {label:"Dashboard",icon:"🏡",href:"./dashboard.html",page:"dashboard.html"},
     {label:"All subjects",icon:"📚",href:"./index.html",page:"index.html"},
     {section:"SUBJECTS"},
-    {label:"Science",icon:"🧪",href:"./science.html",page:"science.html"},
+    {label:"Science",icon:"🧪",href:"./practice.html?subject=science",page:"practice.html",subject:"science"},
     {label:"Mathematics",icon:"📐",href:"./practice.html?subject=mathematics",page:"practice.html",subject:"mathematics"},
     {label:"English",icon:"📖",href:"./practice.html?subject=english",page:"practice.html",subject:"english"},
     {label:"Social Science",icon:"🌍",href:"./practice.html?subject=social-science",page:"practice.html",subject:"social-science"},
