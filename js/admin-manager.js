@@ -602,8 +602,8 @@
     $("bankFile").addEventListener("change",importBank);
     $("bankSubject").addEventListener("change",()=>{
       const next=$("bankSubject").value;if(next===bankSubject)return;
-      if(bankDirty&&!confirm("Discard unexported changes before switching subjects?")){$("bankSubject").value=bankSubject;return;}
-      bankSubject=next;loadBank();
+      loadBank();
+      if(bankSubject!==next)$("bankSubject").value=bankSubject;
     });
     $("bankChapter").addEventListener("change",()=>{selectedChapter=Number($("bankChapter").value)||0;selectedQuestion=-1;renderQuestions();clearQuestionEditor();});
     $("addChapterBtn").addEventListener("click",addChapter);
