@@ -55,6 +55,39 @@ jobs:
             throw new Error('Science validation failed: '+chapters.length+' chapters, '+count+' questions, dropdown='+html.includes('id="chapter"'));
           }
           console.log('Validated '+chapters.length+' chapter sets and '+count+' questions; dropdown initialization is present.');
+          const expected = {
+            mathematics: { chapters: 14, questions: 112 },
+            english: { chapters: 37, questions: 120 },
+            'social-science': { chapters: 22, questions: 110 },
+            hindi: { chapters: 27, questions: 92 }
+          };
+          for (const [name, totals] of Object.entries(expected)) {
+            const data = JSON.parse(fs.readFileSync('_site/data/'+name+'.json','utf8'));
+            const questionCount = data.reduce((sum, chapter) => sum + chapter.questions.length, 0);
+            if (data.length !== totals.chapters || questionCount !== totals.questions) {
+              throw new Error(name+' bank count mismatch: '+data.length+' chapters, '+questionCount+' questions.');
+            }
+            for (const chapter of data) {
+              if (!chapter.title || !chapter.questions.length) throw new Error(name+' has an empty chapter.');
+              for (const question of chapter.questions) {
+                if (!question.question || !Array.isArray(question.options) || question.options.length !== 4 ||
+                    !Number.isInteger(question.answer) || question.answer < 0 || question.answer > 3 ||
+                    !question.explanation) {
+                  throw new Error('Malformed MCQ in '+name+', chapter '+chapter.title+', id '+question.id);
+                }
+              }
+            }
+            console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
+          }
+          for (const file of ['practice.html','js/quiz-engine.js','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+            if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
+          }
+          const homepage=fs.readFileSync('_site/index.html','utf8');
+          for (const slug of ['subject=mathematics','subject=english','subject=social-science','subject=hindi']) {
+            if (!homepage.includes(slug)) throw new Error('Homepage link is missing '+slug);
+          }
+          console.log('Validated all subject links and assets.');
+
           NODE
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
