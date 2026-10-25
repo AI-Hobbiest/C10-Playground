@@ -158,6 +158,53 @@ function restoreAttempt(saved){
     currentAttempt=null;setText("status","An older saved session could not be resumed. Your completed attempts remain saved.");$("status").classList.remove("hide");
   }
 }
+let imageViewerTrigger=null;
+function openQuestionImage(image,trigger){
+  const viewer=$("imageViewer"),viewerImage=$("imageViewerImage"),caption=$("imageViewerCaption");
+  if(!viewer||!viewerImage||!caption)return;
+  viewerImage.src=image.src;viewerImage.alt=image.alt;
+  setText("imageViewerCaption",image.caption||image.alt);
+  imageViewerTrigger=trigger||null;
+  viewer.classList.remove("hide");
+  const closeButton=$("imageViewerClose");
+  if(closeButton&&typeof closeButton.focus==="function")closeButton.focus();
+}
+function closeQuestionImage(){
+  const viewer=$("imageViewer");
+  if(viewer)viewer.classList.add("hide");
+  const trigger=imageViewerTrigger;imageViewerTrigger=null;
+  if(trigger&&typeof trigger.focus==="function")trigger.focus();
+}
+function appendQuestionImages(container,question,className=""){
+  container.innerHTML="";
+  container.className="question-media"+(className?" "+className:"");
+  const images=Array.isArray(question.images)?question.images:[];
+  container.classList.toggle("hide",images.length===0);
+  if(!images.length)return;
+  images.forEach(imageData=>{
+    const figure=document.createElement("figure");figure.className="question-figure";
+    const trigger=document.createElement("button");trigger.type="button";trigger.className="question-image-trigger";
+    trigger.setAttribute("aria-label","Enlarge image: "+imageData.alt);
+    const image=document.createElement("img");image.className="question-image";
+    image.src=imageData.src;image.alt=imageData.alt;image.decoding="async";
+    trigger.appendChild(image);
+    trigger.addEventListener("click",()=>openQuestionImage(imageData,trigger));
+    figure.appendChild(trigger);
+    if(imageData.caption){
+      const caption=document.createElement("figcaption");caption.className="question-image-caption";caption.textContent=imageData.caption;
+      figure.appendChild(caption);
+    }
+    container.appendChild(figure);
+  });
+}
+function initQuestionImageViewer(){
+  const viewer=$("imageViewer"),closeButton=$("imageViewerClose");
+  if(closeButton)closeButton.onclick=closeQuestionImage;
+  if(viewer)viewer.addEventListener("click",event=>{if(event.target===viewer)closeQuestionImage();});
+  document.addEventListener("keydown",event=>{
+    if(event.key==="Escape"&&viewer&&!viewer.classList.contains("hide"))closeQuestionImage();
+  });
+}
 function renderQuestion(){
   if(!currentAttempt||!session[index])return;
   const question=session[index];const previous=answers[index];picked=previous?(previous.status==="skipped"?-1:previous.selected):null;
@@ -166,6 +213,7 @@ function renderQuestion(){
   setText("numberPill","Question "+(index+1)+" / "+session.length);
   setText("difficultyPill",question.difficulty||"Practice");
   setText("questionText",question.question);
+  appendQuestionImages($("questionMedia"),question);
   $("progressBar").style.width=(index/session.length*100)+"%";
   $("options").innerHTML="";$("feedback").innerHTML="";
   question.options.forEach((text,i)=>{
@@ -312,10 +360,14 @@ function showReview(){
     const question=answer.question,box=document.createElement("article");box.className="topic";
     const heading=document.createElement("strong");heading.textContent=(i+1)+". "+(question.chapterTitle||"Question")+" · "+(answer.status==="unanswered"?"Unanswered":answer.status==="skipped"?"Skipped":answer.correct?"Correct":"Review");
     const prompt=document.createElement("p");prompt.textContent=question.question;
+    box.append(heading,prompt);
+    if(Array.isArray(question.images)&&question.images.length){
+      const media=document.createElement("div");appendQuestionImages(media,question,"question-review-media");box.appendChild(media);
+    }
     const selected=document.createElement("p");selected.className="muted";selected.textContent="Your answer: "+(answer.selected===null?"—":question.options[answer.selected]);
     const correct=document.createElement("p");correct.className="muted";correct.textContent="Correct answer: "+question.options[question.answer];
     const explanation=document.createElement("p");explanation.textContent=question.explanation||"";
-    box.append(heading,prompt,selected,correct,explanation);$("reviewList").appendChild(box);
+    box.append(selected,correct,explanation);$("reviewList").appendChild(box);
   });
 }
 function reviewMissed(){
@@ -344,6 +396,7 @@ function resetProgress(){
   setText("modeHint","Progress and local test history cleared on this device.");
 }
 function init(){
+  initQuestionImageViewer();
   if(!config){setText("status","Unknown subject link.");$("status").classList.remove("hide");return;}
   document.querySelectorAll("[data-mode]").forEach(button=>button.onclick=()=>{
     if(ledger.activeAttempt&&ledger.activeAttempt.status==="in-progress"){setText("modeHint","Finish or resume the saved session before changing mode.");return;}
