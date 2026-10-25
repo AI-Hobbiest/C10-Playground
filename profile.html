@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#211b48">
+<meta name="description" content="Manage your C10 Playground learner profile and local test history.">
+<title>My Profile & Test History | C10 Playground</title>
+<link rel="stylesheet" href="./css/branding.css">
+<style>
+.profile-wrap{max-width:1040px;margin:25px auto;padding:0 18px 48px}
+.profile-grid{display:grid;grid-template-columns:minmax(0, .9fr) minmax(0,1.1fr);gap:18px;align-items:start}
+.profile-card{background:#fff;border:1px solid var(--c10-line);border-radius:20px;padding:clamp(18px,3vw,26px);box-shadow:0 12px 34px rgba(48,35,111,.065)}
+.profile-card h2{margin:0 0 7px;font-size:1.2rem}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label{font-weight:750;font-size:.86rem}
+.field input,.field select{width:100%;border:1px solid #d8d3ee;border-radius:11px;padding:12px 13px;font:inherit;color:#211d3b;background:#fff;min-width:0}
+.field input[readonly]{background:#f2f0ff;color:#5140b7;font-weight:800;letter-spacing:.045em}
+.microcopy{font-size:.78rem;color:var(--c10-muted);line-height:1.45}
+.notice{border:1px solid #ded8ff;background:#f7f5ff;color:#514a79;border-radius:12px;padding:12px 14px;font-size:.84rem;line-height:1.5;margin:16px 0}
+.profile-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px}
+.summary-tile{border:1px solid var(--c10-line);border-radius:14px;background:#fff;padding:13px}
+.summary-tile strong{display:block;font-size:1.35rem;color:#5140b7;overflow-wrap:anywhere}
+.summary-tile span{font-size:.78rem;color:var(--c10-muted)}
+.history-list{display:grid;gap:10px;margin-top:14px}
+.history-row{border:1px solid var(--c10-line);border-radius:14px;padding:13px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center}
+.history-title{font-weight:800;line-height:1.35}
+.history-meta{font-size:.78rem;color:var(--c10-muted);line-height:1.5;margin-top:4px}
+.history-score{text-align:right;white-space:nowrap}
+.history-score strong{font-size:1.1rem;color:#5140b7;display:block}
+.status{font-size:.85rem;color:var(--c10-muted);line-height:1.5}
+.section-head{display:flex;justify-content:space-between;gap:10px;align-items:start}
+.small-pill{border-radius:999px;background:#efedff;color:#5140b7;font-weight:750;font-size:.74rem;padding:5px 9px}
+hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
+#backupFile{display:none}
+@media(max-width:760px){.profile-grid{grid-template-columns:1fr}.summary-grid{gap:7px}.summary-tile{padding:10px}.summary-tile strong{font-size:1.16rem}}
+@media(max-width:430px){.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.history-row{grid-template-columns:minmax(0,1fr) auto}.summary-tile span{font-size:.72rem}}
+</style>
+</head>
+<body>
+<header>
+  <a href="./" style="color:#e9e5ff;text-decoration:none;font-weight:750;display:inline-block;margin-bottom:13px">← All subjects</a>
+  <div class="eyebrow">C10 Playground · Learner space</div>
+  <h1>My profile &amp; test history</h1>
+  <p>Your profile and learning records stay in this browser. Export a backup before moving to another device.</p>
+  <div class="brand-signature">Conceptualised by <strong>JP Ganathe</strong></div>
+</header>
+<main class="profile-wrap">
+  <div id="pageStatus" class="status" role="status" aria-live="polite"></div>
+  <div class="profile-grid">
+    <section class="profile-card">
+      <h2>Student profile</h2>
+      <p class="status">Use a nickname if you prefer. The Student ID is generated automatically and cannot be edited.</p>
+      <form id="profileForm" novalidate>
+        <div class="form-grid">
+          <div class="field full">
+            <label for="studentId">Student ID</label>
+            <input id="studentId" name="studentId" readonly>
+            <span class="microcopy">Generated locally; not a school-issued ID.</span>
+          </div>
+          <div class="field full">
+            <label for="displayName">Display name / nickname</label>
+            <input id="displayName" name="displayName" maxlength="40" autocomplete="nickname" required placeholder="e.g. Learner 01">
+          </div>
+          <div class="field full">
+            <label for="school">School</label>
+            <input id="school" name="school" maxlength="120" autocomplete="organization" required placeholder="Enter school name">
+          </div>
+          <div class="field">
+            <label for="classLevel">Class</label>
+            <select id="classLevel" name="classLevel" required>
+              <option value="6">Class 6</option><option value="7">Class 7</option><option value="8">Class 8</option>
+              <option value="9">Class 9</option><option value="10">Class 10</option><option value="11">Class 11</option><option value="12">Class 12</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="city">City</label>
+            <input id="city" name="city" maxlength="80" autocomplete="address-level2" required placeholder="Enter city">
+          </div>
+          <div class="field full">
+            <label for="state">State / Union Territory</label>
+            <select id="state" name="state" required>
+              <option value="">Choose an Indian state or Union Territory</option>
+            </select>
+          </div>
+        </div>
+        <div class="notice">No email address, phone number, date of birth or section is collected. School and location are stored locally with your learning records; avoid using a real name in your nickname if you want to minimise identification.</div>
+        <div class="profile-actions">
+          <button class="btn" type="submit">Save profile</button>
+          <a class="btn secondary" href="./">Back to subjects</a>
+        </div>
+      </form>
+    </section>
+    <section class="profile-card">
+      <div class="section-head">
+        <div>
+          <h2>Learning history</h2>
+          <p class="status">Completed sessions saved on this browser across supported practice subjects.</p>
+        </div>
+        <span class="small-pill" id="historyBadge">Local only</span>
+      </div>
+      <div class="summary-grid">
+        <div class="summary-tile"><strong id="attemptCount">0</strong><span>Completed tests</span></div>
+        <div class="summary-tile"><strong id="averageScore">—</strong><span>Average score</span></div>
+        <div class="summary-tile"><strong id="totalTime">00:00</strong><span>Total time</span></div>
+      </div>
+      <div id="historyList" class="history-list"><p class="status">No completed tests saved yet. Finish a practice session and it will appear here.</p></div>
+      <hr class="soft">
+      <h2>Backup &amp; restore</h2>
+      <p class="status">Export your profile, progress, saved answers and test history as one versioned JSON file. Importing a backup replaces the local profile and records for the subjects included in that file.</p>
+      <div class="profile-actions">
+        <button class="btn" id="exportBtn" type="button">Export JSON backup</button>
+        <button class="btn secondary" id="importBtn" type="button">Import JSON backup</button>
+        <input id="backupFile" type="file" accept="application/json,.json">
+      </div>
+      <p class="microcopy">Keep backups private. They contain your school and location fields plus test answers and scores. This page does not upload the file to GitHub or a server.</p>
+    </section>
+  </div>
+</main>
+<footer class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong></footer>
+<script src="./js/storage.js"></script>
+<script src="./js/profile-model.js"></script>
+<script src="./js/profile-manager.js"></script>
+</body>
+</html>
