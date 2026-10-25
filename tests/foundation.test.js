@@ -67,11 +67,13 @@ function makeContext(seed = {}) {
   const normalizer = seeded.context.window.C10QuestionBank;
   const legacy = [{
     chapter_no: 1, title: "Real Numbers", key: "real_numbers",
-    questions: [{ id: 1, question: "Two plus two?", options: ["5", "4", "3", "6"], answer: 1, explanation: "Two and two make four." }]
+    questions: [{ id: 1, question: "Two plus two?", options: ["5", "4", "3", "6"], answer: 1, explanation: "Two and two make four.", images: [{src:"./data/images/mathematics/number-line.png",alt:"Number line showing the number four",caption:"Number line"}] }]
   }];
   const legacyQ = normalizer.normalize(legacy, "mathematics")[0].questions[0];
   assert.equal(legacyQ.questionKey, "mathematics/real_numbers/q-1");
   assert.equal(legacyQ.options[legacyQ.answer], "4");
+  assert.equal(legacyQ.images[0].alt, "Number line showing the number four");
+  assert.equal(legacyQ.images[0].caption, "Number line");
 
   const canonical = {
     schemaVersion: 1, kind: "question-bank", subjectId: "mathematics", title: "Mathematics",
@@ -80,13 +82,18 @@ function makeContext(seed = {}) {
       questions: [{
         questionId: "linear-equations-q001", type: "mcq", prompt: "Choose the correct value.",
         options: [{ optionId: "a", text: "10" }, { optionId: "b", text: "12" }],
-        correctOptionId: "b", explanation: "The correct value is twelve.", difficulty: "easy"
+        correctOptionId: "b", explanation: "The correct value is twelve.", difficulty: "easy",
+        images: [{src:"data:image/png;base64,iVBORw0KGgo=",alt:"A line graph",caption:"Graph of the function"}]
       }]
     }]
   };
   const canonicalQ = normalizer.normalize(canonical, "mathematics")[0].questions[0];
   assert.equal(canonicalQ.questionKey, "mathematics/algebra/q-linear-equations-q001");
   assert.equal(canonicalQ.options[canonicalQ.answer], "12");
+  assert.equal(canonicalQ.images[0].src, "data:image/png;base64,iVBORw0KGgo=");
+  assert.equal(canonicalQ.images[0].caption, "Graph of the function");
+  assert.throws(() => normalizer.normalize([{chapter_no:1,title:"Unsafe",questions:[{id:1,question:"Q?",options:["A","B"],answer:0,explanation:"E",images:[{src:"javascript:alert(1)",alt:"Unsafe"}]}]}],"mathematics"), /relative asset path or a PNG/);
+  assert.throws(() => normalizer.normalize([{chapter_no:1,title:"No alt",questions:[{id:1,question:"Q?",options:["A","B"],answer:0,explanation:"E",images:[{src:"./image.png",alt:""}]}]}],"mathematics"), /needs descriptive alt text/);
   assert.throws(() => normalizer.normalize({ chapters: [] }, "mathematics"), /legacy chapter array/);
 }
 
