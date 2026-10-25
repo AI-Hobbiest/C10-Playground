@@ -18,6 +18,7 @@
   let pendingAssets=[],selectedImageFile=null,selectedImageUrl="";
   let pendingResources=[],selectedResourceFile=null,selectedResourceUrl="";
   let studentBackups=[],editingStudentProfileId=null;
+  let adminIdentity=null,centralStudents=[],centralProgressRows=[],centralLeaderboardRows=[],editingCentralStudentId=null;
   const pendingAssetByPath=new Map();
 
   function structuredCloneSafe(value){return JSON.parse(JSON.stringify(value));}
@@ -595,8 +596,237 @@
     $("statClasses").textContent=String(activeClasses().length);
     $("statStudents").textContent=String(studentBackups.length);
   }
+  function setAccountStatus(message,type=""){setStatus("adminAuthStatus",message,type);}
+  function isAdminAuthenticated(){return !!adminIdentity&&adminIdentity.role==="admin"&&window.C10Api&&window.C10Api.isAuthenticated();}
+  function guardAdmin(action){if(!isAdminAuthenticated()){setAccountStatus("Sign in with an authorised GitHub administrator after configuring the API service.","error");return false;}return true;}
+  function populateAdminStateSelect(select){
+    if(!select)return;const current=select.value;select.innerHTML="";
+    const first=make("option","","Choose State / UT");first.value="";select.appendChild(first);
+    (window.C10ProfileModel.statesAndUTs||[]).forEach(item=>{const opt=make("option","",item.name);opt.value=item.name;select.appendChild(opt);});
+    if(current)select.value=current;
+  }
+  async function populateCentralClassSelects(){
+    if(!isAdminAuthenticated())return;
+    try{
+      const response=await window.C10Api.adminClasses(),classes=response.classes||[];
+      const targets=["centralStudentClass","editCentralStudentClass","editStudentClass"];
+      targets.forEach(id=>{
+        const select=$(id);if(!select)return;const current=select.value;select.innerHTML="";
+        classes.filter(item=>Number(item.active)===1||item.active===true).forEach(item=>{const opt=make("option","",item.label);opt.value=String(item.classId);select.appendChild(opt);});
+        if(current&&[...select.options].some(option=>option.value===current))select.value=current;
+      });
+      ["liveProgressClass","liveLeaderClass"].forEach(id=>{
+        const select=$(id);if(!select)return;const current=select.value;select.innerHTML="";
+        const all=make("option","","All classes");all.value="";select.appendChild(all);
+        classes.filter(item=>Number(item.active)===1||item.active===true).forEach(item=>{const opt=make("option","",item.label);opt.value=String(item.classId);select.appendChild(opt);});
+        if([...select.options].some(option=>option.value===current))select.value=current;
+      });
+    }catch(error){setStatus("centralStudentStatus","Could not load central classes: "+error.message,"error");}
+  }
+  async function initAdminAuth(){
+    const login=$("adminLoginBtn"),logoutBtn=$("adminLogoutBtn");
+    (window.C10ProfileModel.statesAndUTs||[]).forEach(()=>{});
+    populateAdminStateSelect($("centralStudentState"));populateAdminStateSelect($("editCentralStudentState"));
+    if(!window.C10Api||!window.C10Api.isConfigured()){
+      if(login)login.disabled=true;
+      setAccountStatus("Central account service is not configured yet. Local question/class/resource drafts remain available, but GitHub sign-in, central student accounts and live reports are disabled.","error");
+      setStatus("centralStudentStatus","Not connected. Deploy the Worker, initialise D1 and set js/api-config.js before creating central accounts.","error");
+      return;
+    }
+    try{
+      const exchanged=await window.C10Api.completeGithubCallback();
+      const current=await window.C10Api.currentUser();
+      if(current&&current.user&&current.user.role==="admin"){
+        adminIdentity=current.user;
+        if(login)login.hidden=true;if(logoutBtn)logoutBtn.hidden=false;
+        $("adminIdentity").hidden=false;$("adminIdentity").textContent="Signed in: "+(adminIdentity.githubLogin||adminIdentity.username);
+        setAccountStatus("GitHub identity verified. Central account actions are enabled.","success");
+        await populateCentralClassSelects();
+        await refreshCentralStudents();
+      }else if(current&&current.user&&current.user.role==="student"){
+        await window.C10Api.logout();
+        setAccountStatus("This is a student account, not an authorised administrator.","error");
+      }else{
+        setAccountStatus("API is configured. Sign in with an approved GitHub account to use central account management.","");
+      }
+    }catch(error){setAccountStatus(error.message||"Unable to verify the GitHub session.","error");}
+    if(login)login.disabled=false;
+    if(login)login.addEventListener("click",async()=>{try{await window.C10Api.githubLogin();}catch(error){setAccountStatus(error.message,"error");}});
+    if(logoutBtn)logoutBtn.addEventListener("click",async()=>{try{await window.C10Api.logout();}catch(_){}adminIdentity=null;login.hidden=false;logoutBtn.hidden=true;$("adminIdentity").hidden=true;setAccountStatus("Signed out. Local drafts remain in this tab; central operations require sign-in.");centralStudents=[];renderCentralStudents();});
+  }
+  function showTemporaryPassword(password,message){
+    $("centralTempPasswordBox").hidden=false;$("centralTempPassword").value=password||"";
+    setStatus("centralStudentStatus",message||"Temporary password created. Copy and share privately; it will not be shown again.","success");
+  }
+  async function createCentralStudent(){
+    if(!guardAdmin())return;
+    const payload={
+      studentId:$("centralStudentId").value.trim(),
+      displayName:$("centralStudentName").value.trim(),
+      school:$("centralStudentSchool").value.trim(),classId:$("centralStudentClass").value,
+      city:$("centralStudentCity").value.trim(),state:$("centralStudentState").value
+    };
+    try{
+      const result=await window.C10Api.createStudent(payload);
+      $("centralStudentId").value=result.student.studentId||"";
+      showTemporaryPassword(result.temporaryPassword,"Student account "+result.student.studentId+" created. Copy the temporary password now; the student must change it at first sign-in.");
+      await refreshCentralStudents();
+    }catch(error){setStatus("centralStudentStatus",error.message,"error");}
+  }
+  function renderCentralStudents(){
+    const container=$("centralStudentsTable");if(!container)return;container.innerHTML="";
+    if(!isAdminAuthenticated()){container.appendChild(make("div","admin-empty","Sign in with an authorised GitHub account to view centrally managed student accounts."));return;}
+    if(!centralStudents.length){container.appendChild(make("div","admin-empty","No central student accounts yet. Create the first account above."));return;}
+    const table=make("table","admin-table"),thead=make("thead"),head=make("tr");
+    ["Student ID","Student","Class","Status","Tests","Avg. score","Actions"].forEach(label=>head.appendChild(make("th","",label)));
+    thead.appendChild(head);table.appendChild(thead);const body=make("tbody");
+    centralStudents.forEach(student=>{
+      const tr=make("tr");
+      tr.append(make("td","",student.studentId),make("td","",student.displayName+" · "+student.school),make("td","",student.classId),make("td","",student.status==="active"&&Number(student.enabled)===1?"Active":"Suspended"),make("td","",student.attemptCount||0),make("td","",student.averageScore==null?"—":student.averageScore+"%"));
+      const actions=make("td");
+      actions.appendChild(button("Edit","secondary",()=>openCentralStudentEditor(student)));
+      actions.appendChild(button("Reset password","secondary",()=>resetCentralStudentPassword(student)));
+      actions.appendChild(button(student.status==="active"?"Suspend":"Activate","secondary",()=>toggleCentralStudent(student)));
+      actions.appendChild(button("Remove","danger",()=>removeCentralStudent(student)));
+      tr.appendChild(actions);body.appendChild(tr);
+    });
+    table.appendChild(body);container.appendChild(table);
+  }
+  async function refreshCentralStudents(){
+    if(!guardAdmin())return;
+    try{
+      const result=await window.C10Api.adminStudents();centralStudents=result.students||[];
+      renderCentralStudents();updateSummary();
+      setStatus("centralStudentStatus",centralStudents.length+" central account(s) loaded from the database.","success");
+      await refreshLiveProgress();await refreshLiveLeaderboard();
+    }catch(error){setStatus("centralStudentStatus",error.message,"error");}
+  }
+  function openCentralStudentEditor(student){
+    editingCentralStudentId=student.studentId;
+    $("editCentralStudentName").value=student.displayName||"";
+    $("editCentralStudentSchool").value=student.school||"";
+    $("editCentralStudentClass").value=String(student.classId||"");
+    $("editCentralStudentCity").value=student.city||"";
+    $("editCentralStudentState").value=student.state||"";
+    $("editCentralStudentStatus").value=student.status==="suspended"||Number(student.enabled)===0?"suspended":"active";
+    $("centralStudentEditStatus").textContent="Editing central account "+student.studentId+".";
+    $("centralStudentEditorModal").classList.remove("hide");
+  }
+  function closeCentralStudentEditor(){ $("centralStudentEditorModal").classList.add("hide");editingCentralStudentId=null; }
+  async function saveCentralStudent(){
+    if(!guardAdmin()||!editingCentralStudentId)return;
+    const payload={displayName:$("editCentralStudentName").value.trim(),school:$("editCentralStudentSchool").value.trim(),
+      classId:$("editCentralStudentClass").value,city:$("editCentralStudentCity").value.trim(),
+      state:$("editCentralStudentState").value,status:$("editCentralStudentStatus").value};
+    try{
+      await window.C10Api.updateStudent(editingCentralStudentId,payload);
+      setStatus("centralStudentEditStatus","Central profile saved.","success");closeCentralStudentEditor();await refreshCentralStudents();
+    }catch(error){setStatus("centralStudentEditStatus",error.message,"error");}
+  }
+  async function resetCentralStudentPassword(student){
+    if(!guardAdmin()||!confirm("Reset the password for "+student.studentId+"? Their existing sessions will be revoked."))return;
+    try{
+      const result=await window.C10Api.resetStudentPassword(student.studentId);
+      showTemporaryPassword(result.temporaryPassword,"Password reset for "+student.studentId+". Share this temporary password privately; they must change it after signing in.");
+      await refreshCentralStudents();
+    }catch(error){setStatus("centralStudentStatus",error.message,"error");}
+  }
+  async function toggleCentralStudent(student){
+    if(!guardAdmin())return;
+    const status=student.status==="active"&&Number(student.enabled)===1?"suspended":"active";
+    try{await window.C10Api.updateStudent(student.studentId,{status});await refreshCentralStudents();}
+    catch(error){setStatus("centralStudentStatus",error.message,"error");}
+  }
+  async function removeCentralStudent(student){
+    if(!guardAdmin()||!confirm("Disable login and remove "+student.studentId+" from active reports? Historical test results are retained for audit."))return;
+    try{await window.C10Api.removeStudent(student.studentId);await refreshCentralStudents();}
+    catch(error){setStatus("centralStudentStatus",error.message,"error");}
+  }
+  async function syncClassesToCentral(){
+    if(!guardAdmin())return;
+    try{
+      const result=await window.C10Api.adminClasses(),remote=result.classes||[],byId=new Map(remote.map(item=>[String(item.classId),item]));
+      let updated=0,created=0;
+      for(const item of classCatalog.classes){
+        const previous=byId.get(String(item.classId));
+        if(!previous){await window.C10Api.createClass({classId:String(item.classId),label:item.label,sortOrder:item.sortOrder||0});created++;}
+        else{await window.C10Api.updateClass(item.classId,{label:item.label,sortOrder:item.sortOrder||0,active:item.active!==false});updated++;}
+      }
+      await populateCentralClassSelects();
+      setStatus("classesStatus","Synced class catalogue to central accounts ("+created+" created, "+updated+" updated).","success");
+    }catch(error){setStatus("classesStatus",error.message,"error");}
+  }
+  function drawRemoteTable(id,headers,rows,emptyText){
+    const container=$(id);container.innerHTML="";
+    if(!rows.length){container.appendChild(make("div","admin-empty",emptyText));return;}
+    const table=make("table","admin-table"),thead=make("thead"),head=make("tr");
+    headers.forEach(x=>head.appendChild(make("th","",x)));thead.appendChild(head);table.appendChild(thead);
+    const body=make("tbody");
+    rows.forEach(row=>{const tr=make("tr");row.forEach(value=>tr.appendChild(make("td","",value==null||value===""?"—":value)));body.appendChild(tr);});
+    table.appendChild(body);container.appendChild(table);
+  }
+  async function refreshLiveProgress(){
+    if(!guardAdmin())return;
+    try{
+      const result=await window.C10Api.progressReport($("liveProgressClass").value,$("liveProgressSubject").value);
+      centralProgressRows=result.rows||[];
+      drawRemoteTable("liveProgressTable",["Student","Class","Subject","Mode","Score","Submitted"],centralProgressRows.map(row=>[
+        row.displayName+" · "+row.studentId,row.classId,row.subjectId,row.mode,
+        row.attemptId==null?"No attempts":String(row.score)+"/"+String(row.maxScore)+" ("+row.percentage+"%)",
+        row.submittedAt?new Date(row.submittedAt).toLocaleString():"—"
+      ]),"No central progress records match these filters.");
+      setStatus("liveProgressStatus",centralProgressRows.filter(row=>row.attemptId).length+" completed attempt row(s) returned from the central database.","success");
+    }catch(error){setStatus("liveProgressStatus",error.message,"error");}
+  }
+  function exportLiveProgress(){
+    if(!guardAdmin())return;
+    downloadCsv([["Student ID","Display name","Class","Subject","Mode","Attempt ID","Status","Score","Max score","Percentage","Started at","Submitted at","Duration seconds"],
+      ...centralProgressRows.map(row=>[row.studentId,row.displayName,row.classId,row.subjectId,row.mode,row.attemptId,row.status,row.score,row.maxScore,row.percentage,row.startedAt,row.submittedAt,row.durationSeconds])],
+      "c10-live-progress-"+new Date().toISOString().slice(0,10)+".csv");
+  }
+  async function refreshLiveLeaderboard(){
+    if(!guardAdmin())return;
+    try{
+      const result=await window.C10Api.leaderboard($("liveLeaderClass").value,$("liveLeaderSubject").value);
+      centralLeaderboardRows=result.leaderboard||[];
+      drawRemoteTable("liveLeaderboardTable",["Rank","Student","Class","Tests","Average","Best","Last activity"],centralLeaderboardRows.map(row=>[
+        row.rank,row.displayName+" · "+row.studentId,row.classId,row.testsCompleted,
+        row.averageScore==null?"—":row.averageScore+"%",row.bestScore==null?"—":row.bestScore+"%",
+        row.lastActivity?new Date(row.lastActivity).toLocaleDateString():"—"
+      ]),"No centrally stored attempts match these filters.");
+      setStatus("liveLeaderboardStatus",centralLeaderboardRows.length+" student(s) ranked using central attempt records.","success");
+    }catch(error){setStatus("liveLeaderboardStatus",error.message,"error");}
+  }
+  function exportLiveLeaderboard(){
+    if(!guardAdmin())return;
+    downloadCsv([["Rank","Student ID","Display name","School","Class","Completed tests","Average score","Best score","Last activity"],
+      ...centralLeaderboardRows.map(row=>[row.rank,row.studentId,row.displayName,row.school,row.classId,row.testsCompleted,row.averageScore,row.bestScore,row.lastActivity])],
+      "c10-live-leaderboard-"+new Date().toISOString().slice(0,10)+".csv");
+  }
+
   function init(){
     initTabs();
+    initAdminAuth();
+    $("createCentralStudentBtn").addEventListener("click",createCentralStudent);
+    $("refreshCentralStudentsBtn").addEventListener("click",refreshCentralStudents);
+    $("copyCentralTempPasswordBtn").addEventListener("click",async()=>{
+      const text=$("centralTempPassword").value;if(!text)return;
+      try{await navigator.clipboard.writeText(text);setStatus("centralStudentStatus","Temporary password copied. Store/share it privately and securely.","success");}
+      catch(_){$("centralTempPassword").focus();$("centralTempPassword").select();setStatus("centralStudentStatus","Copying was blocked by the browser. The temporary password is selected; copy it manually and keep it private.");}
+    });
+    $("closeCentralStudentEditor").addEventListener("click",closeCentralStudentEditor);
+    $("centralStudentEditorModal").addEventListener("click",event=>{if(event.target===$("centralStudentEditorModal"))closeCentralStudentEditor();});
+    $("saveCentralStudentBtn").addEventListener("click",saveCentralStudent);
+    $("syncClassesBtn").addEventListener("click",syncClassesToCentral);
+    $("refreshLiveProgressBtn").addEventListener("click",refreshLiveProgress);
+    $("exportLiveProgressBtn").addEventListener("click",exportLiveProgress);
+    $("liveProgressClass").addEventListener("change",refreshLiveProgress);
+    $("liveProgressSubject").addEventListener("change",refreshLiveProgress);
+    $("refreshLiveLeaderboardBtn").addEventListener("click",refreshLiveLeaderboard);
+    $("exportLiveLeaderboardBtn").addEventListener("click",exportLiveLeaderboard);
+    $("liveLeaderClass").addEventListener("change",refreshLiveLeaderboard);
+    $("liveLeaderSubject").addEventListener("change",refreshLiveLeaderboard);
+
     $("loadBankBtn").addEventListener("click",loadBank);
     $("chooseBankBtn").addEventListener("click",()=>$("bankFile").click());
     $("bankFile").addEventListener("change",importBank);
