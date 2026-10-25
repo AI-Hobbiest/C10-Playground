@@ -51,7 +51,7 @@ for(const file of ["js/storage.js","js/profile-model.js","js/profile-manager.js"
 }
 (async()=>{
  assert.equal(getElementById("studentId").value,"C10-12345678");
- assert.equal(getElementById("state").children.length,37,"placeholder plus 28 states and 8 UTs");
+ assert.equal(getElementById("state").children.length,36,"28 states and 8 UTs are populated by the model");
  assert.equal(getElementById("attemptCount").textContent,"1","existing completed attempt is shown");
  assert.equal(getElementById("averageScore").textContent,"80%");
  assert.equal(getElementById("totalTime").textContent,"00:10:00");
