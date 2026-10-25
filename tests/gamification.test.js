@@ -43,6 +43,7 @@ const nav=fs.readFileSync("js/app-shell.js","utf8");
 assert.ok(nav.includes("./dashboard.html"));
 assert.ok(nav.includes("./dashboard.html#rewards"));
 const css=fs.readFileSync("css/app-shell.css","utf8");
-assert.ok(css.includes("@media(max-width:900px)"));
+assert.ok(css.includes("@media(max-width:1100px)"),"tablet layouts switch to the compact navigation");
+assert.ok(css.includes(".c10-sidebar a.c10-nav-link:visited"),"global anchor theme cannot reduce sidebar link contrast");
 assert.ok(css.includes(".c10-sidebar.open"));
 console.log("Gamification tests passed: XP calculations, level thresholds, streaks, subjects, badges, graph inputs and responsive navigation contracts.");
