@@ -107,3 +107,12 @@ INSERT OR IGNORE INTO classes(class_id,label,sort_order,active,created_at,update
 VALUES ('11','Class 11',11,1,datetime('now'),datetime('now'));
 INSERT OR IGNORE INTO classes(class_id,label,sort_order,active,created_at,updated_at)
 VALUES ('12','Class 12',12,1,datetime('now'),datetime('now'));
+
+CREATE TABLE IF NOT EXISTS handoff_codes (
+  code_hash TEXT PRIMARY KEY,
+  user_id TEXT NOT NULL REFERENCES users(id),
+  code_type TEXT NOT NULL CHECK (code_type IN ('student-login','account-access','account-return')),
+  expires_at TEXT NOT NULL,
+  created_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_handoff_expiry ON handoff_codes(expires_at);
