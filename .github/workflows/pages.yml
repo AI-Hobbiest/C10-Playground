@@ -32,7 +32,11 @@ jobs:
           mkdir -p _site
           cp index.html _site/index.html
           cp science.html _site/science.html
+          cp practice.html _site/practice.html
           cp .nojekyll _site/.nojekyll
+          mkdir -p _site/js _site/data
+          cp js/quiz-engine.js _site/js/quiz-engine.js
+          cp data/*.json _site/data/
           mkdir -p _site/science-payload
           cp science-payload/part-*.txt _site/science-payload/
       - name: Validate Science module payload
