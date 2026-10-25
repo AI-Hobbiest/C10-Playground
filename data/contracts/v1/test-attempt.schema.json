@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/C10-Playground/data/contracts/v1/test-attempt.schema.json",
+  "title": "C10 Playground Test Attempt v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "attemptId",
+    "profileId",
+    "subjectId",
+    "mode",
+    "source",
+    "questionBankVersion",
+    "status",
+    "startedAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "kind": {
+      "const": "test-attempt"
+    },
+    "attemptId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "profileId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "subjectId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "mode": {
+      "enum": [
+        "learn",
+        "practice",
+        "mixed-practice",
+        "test",
+        "timed-exam",
+        "pdf-practice",
+        "pdf-exam"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "type",
+        "sourceId"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "subject-bank",
+            "chapter-bank",
+            "pdf-upload"
+          ]
+        },
+        "sourceId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceVersion": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "questionBankVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "in-progress",
+        "submitted",
+        "timed-out",
+        "abandoned"
+      ]
+    },
+    "startedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "submittedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "durationSeconds": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "timeLimitSeconds": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "maxScore": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "correctCount": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "questionCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "questionIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "answerRecordIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      }
+    }
+  },
+  "additionalProperties": false
+}
