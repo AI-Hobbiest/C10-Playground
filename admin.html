@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#211b48">
+<meta name="description" content="Local authoring and reporting workspace for C10 Playground.">
+<title>Admin Workspace | C10 Playground</title>
+<link rel="stylesheet" href="./css/branding.css">
+<link rel="stylesheet" href="./css/app-shell.css">
+<link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+<header class="admin-hero">
+  <div class="admin-kicker">C10 Playground · Content operations</div>
+  <h1>Admin Workspace</h1>
+  <p>Manage question banks, diagrams, class catalogue, learning resources and imported student reports. Prepare clean data packages for authorised GitHub publication.</p>
+  <div class="brand-signature">Conceptualised by <strong>JP Ganathe</strong></div>
+</header>
+<main class="admin-wrap">
+  <div class="admin-notice">
+    <strong>Security boundary:</strong> this is a local authoring workspace, not an authenticated admin login. Changes stay in this browser until you export them. Student backups are processed locally and are not uploaded to this site. Never paste a GitHub password, token or student password here. Publishing requires an authorised GitHub account.
+  </div>
+  <div class="admin-grid" aria-label="Workspace summary">
+    <div class="admin-stat"><strong id="statQuestions">—</strong><span>Questions in loaded bank</span></div>
+    <div class="admin-stat"><strong id="statClasses">—</strong><span>Active classes</span></div>
+    <div class="admin-stat"><strong id="statStudents">0</strong><span>Student backups loaded in this session</span></div>
+  </div>
+  <div class="admin-workspace">
+    <nav class="admin-tabs" aria-label="Admin workspace sections">
+      <button class="admin-tab-button active" data-tab="overview" type="button"><span class="admin-tab-icon">🏠</span>Overview</button>
+      <button class="admin-tab-button" data-tab="banks" type="button"><span class="admin-tab-icon">🧩</span>Question banks</button>
+      <button class="admin-tab-button" data-tab="classes" type="button"><span class="admin-tab-icon">🏫</span>Classes</button>
+      <button class="admin-tab-button" data-tab="knowledge" type="button"><span class="admin-tab-icon">📚</span>Knowledge base</button>
+      <button class="admin-tab-button" data-tab="students" type="button"><span class="admin-tab-icon">👩‍🎓</span>Students &amp; reports</button>
+      <button class="admin-tab-button" data-tab="leaderboard" type="button"><span class="admin-tab-icon">🏆</span>Leaderboards</button>
+      <button class="admin-tab-button" data-tab="access" type="button"><span class="admin-tab-icon">🔐</span>Admin access</button>
+      <button class="admin-tab-button" data-tab="operations" type="button"><span class="admin-tab-icon">🛠️</span>Operations</button>
+    </nav>
+    <div class="admin-content">
+      <section class="admin-panel active" id="tab-overview">
+        <h2>Workspace overview</h2>
+        <p class="admin-muted">Use this workbench to prepare, validate and export content. Publishing is a separate, authorised GitHub action.</p>
+        <div class="admin-feature-list">
+          <div class="admin-feature"><strong>Question and image management</strong><p>Edit a subject bank, chapters, options, answers, explanations and optional image metadata. Download image assets individually and upload them to their referenced paths.</p></div>
+          <div class="admin-feature"><strong>Class catalogue</strong><p>Add, rename, disable or remove classes from the catalogue, then export the JSON used by the profile page.</p></div>
+          <div class="admin-feature"><strong>Knowledge resources</strong><p>Maintain a resource manifest for books, notes, question-bank PDFs and image-reference PDFs. Download and publish files separately.</p></div>
+          <div class="admin-feature"><strong>Student reports</strong><p>Import student backup JSON files supplied by students. View profiles and progress, edit an imported profile snapshot, and export reports or revised backups.</p></div>
+        </div>
+        <div class="admin-notice"><strong>Not available in this static version:</strong> centrally stored student accounts, remote profile deletion, or setting/resetting student passwords. The current student portal has no password-based accounts or server-side student database. Those capabilities need a real authentication and data service.</div>
+        <div id="overviewStatus" class="admin-status" role="status">Loading class catalogue and resource manifest…</div>
+      </section>
+
+      <section class="admin-panel" id="tab-banks">
+        <h2>Question bank editor</h2>
+        <p class="admin-muted">Changes are drafts in this workspace. Export the JSON and all referenced image assets, then publish them together via GitHub. Digital question-bank PDFs will be handled by the next builder phase.</p>
+        <div class="admin-form-grid">
+          <div class="admin-field"><label for="bankSubject">Subject</label><select id="bankSubject"><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select></div>
+          <div class="admin-field"><label>Load or import bank JSON</label><div class="admin-actions"><button class="admin-btn secondary" type="button" id="loadBankBtn">Load published bank</button><button class="admin-btn secondary" type="button" id="chooseBankBtn">Import JSON</button><input hidden type="file" id="bankFile" accept=".json,application/json"></div></div>
+        </div>
+        <div id="bankStatus" class="admin-status" role="status">Choose a subject and load its published bank.</div>
+        <hr class="admin-rule">
+        <div class="admin-split">
+          <div class="admin-content">
+            <div class="admin-field"><label for="bankChapter">Chapter / topic</label><select id="bankChapter"><option value="">Load a bank first</option></select></div>
+            <div class="admin-field"><label for="newChapterTitle">New chapter title</label><input id="newChapterTitle" placeholder="e.g. Light — Reflection and Refraction"></div>
+            <div class="admin-actions"><button class="admin-btn secondary" type="button" id="addChapterBtn">＋ Add chapter</button><button class="admin-btn secondary" type="button" id="renameChapterBtn">Rename selected</button><button class="admin-btn danger" type="button" id="deleteChapterBtn">Remove chapter</button></div>
+            <h3>Questions in selected chapter</h3>
+            <div id="questionList" class="admin-list"><div class="admin-empty">Load a bank to view its questions.</div></div>
+            <button class="admin-btn" type="button" id="newQuestionBtn">＋ New question</button>
+          </div>
+          <div class="admin-content">
+            <h3 id="questionEditorTitle">Question editor</h3>
+            <div class="admin-form-grid">
+              <div class="admin-field"><label for="qId">Question ID</label><input id="qId" placeholder="e.g. science-light-001"></div>
+              <div class="admin-field"><label for="qDifficulty">Difficulty</label><select id="qDifficulty"><option>Easy</option><option selected>Medium</option><option>Hard</option><option>Unspecified</option></select></div>
+              <div class="admin-field full"><label for="qPrompt">Question text</label><textarea id="qPrompt" placeholder="Write the question clearly."></textarea></div>
+              <div class="admin-field"><label for="qOption0">Option A</label><input id="qOption0"></div>
+              <div class="admin-field"><label for="qOption1">Option B</label><input id="qOption1"></div>
+              <div class="admin-field"><label for="qOption2">Option C</label><input id="qOption2"></div>
+              <div class="admin-field"><label for="qOption3">Option D</label><input id="qOption3"></div>
+              <div class="admin-field"><label for="qAnswer">Correct answer</label><select id="qAnswer"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></div>
+              <div class="admin-field full"><label for="qExplanation">Explanation</label><textarea id="qExplanation" placeholder="Explain why the correct answer is right."></textarea></div>
+            </div>
+            <hr class="admin-rule">
+            <h3>Question diagrams and images</h3>
+            <p class="admin-inline-help">Use a relative asset path, not a temporary browser URL. Uploaded images are downloaded separately and must be committed to the matching repository path. Use PNG, JPEG or WebP and keep image files reasonably small.</p>
+            <div class="admin-form-grid">
+              <div class="admin-field full"><label for="imageFile">Select image asset</label><input class="admin-file" type="file" id="imageFile" accept="image/png,image/jpeg,image/webp,image/gif"></div>
+              <div class="admin-field full"><label for="imagePath">Repository asset path</label><input id="imagePath" placeholder="./assets/questions/science/diagram.png"></div>
+              <div class="admin-field full"><label for="imageAlt">Alternative text (required)</label><input id="imageAlt" placeholder="Describe the diagram for accessibility"></div>
+              <div class="admin-field full"><label for="imageCaption">Caption (optional)</label><input id="imageCaption" placeholder="e.g. Fig. 1 — Experimental setup"></div>
+            </div>
+            <div class="admin-actions"><button class="admin-btn secondary" type="button" id="addImageBtn">Attach image to question</button></div>
+            <div id="questionImageList" class="admin-content"><div class="admin-empty">No question selected.</div></div>
+            <h3>New image files awaiting download</h3>
+            <div id="pendingAssets" class="admin-content"><div class="admin-empty">No new image assets.</div></div>
+            <div class="admin-actions"><button class="admin-btn" type="button" id="saveQuestionBtn">Save question draft</button><button class="admin-btn secondary" type="button" id="exportBankBtn">Export bank JSON</button><button class="admin-btn danger" type="button" id="deleteQuestionBtn">Delete question</button></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="admin-panel" id="tab-classes">
+        <h2>Class catalogue</h2>
+        <p class="admin-muted">The catalogue drives the Student Profile class dropdown. Export the file and publish it to <code>data/classes.json</code> via GitHub after review. Removing a class does not delete any historic student records.</p>
+        <div class="admin-form-grid">
+          <div class="admin-field"><label for="classId">Class ID</label><input id="classId" placeholder="e.g. 5 or 10"></div>
+          <div class="admin-field"><label for="classLabel">Display label</label><input id="classLabel" placeholder="e.g. Class 5"></div>
+        </div>
+        <div class="admin-actions"><button class="admin-btn" id="addClassBtn" type="button">＋ Add class</button><button class="admin-btn secondary" id="exportClassesBtn" type="button">Export classes.json</button><button class="admin-btn secondary" id="reloadClassesBtn" type="button">Reload published list</button></div>
+        <div id="classesStatus" class="admin-status" role="status"></div>
+        <div id="classesTable" class="admin-table-wrap"></div>
+      </section>
+
+      <section class="admin-panel" id="tab-knowledge">
+        <h2>Knowledge base and source files</h2>
+        <p class="admin-muted">Track books, course notes, question-bank PDFs and image-reference PDFs. This is an inventory/manifest, not a document parser yet. The upcoming builder will process selectable text from digital PDFs; scanned/image-only PDFs and OCR are excluded.</p>
+        <div class="admin-notice"><strong>Public-repository warning:</strong> a PDF or image committed to this repository will be publicly downloadable. Only publish resources you own or are permitted to redistribute. Do not put private student data here.</div>
+        <div class="admin-form-grid">
+          <div class="admin-field full"><label for="resourceFile">Select resource file</label><input class="admin-file" type="file" id="resourceFile" accept=".pdf,application/pdf,image/png,image/jpeg,image/webp,.txt,.md,.json"></div>
+          <div class="admin-field"><label for="resourceTitle">Resource title</label><input id="resourceTitle" placeholder="e.g. Science revision notes"></div>
+          <div class="admin-field"><label for="resourceType">Resource type</label><select id="resourceType"><option value="textbook-pdf">Textbook PDF</option><option value="question-bank-pdf">Question-bank PDF</option><option value="image-reference-pdf">Image-reference PDF</option><option value="notes">Notes / study guide</option><option value="image-asset">Standalone image</option><option value="other">Other</option></select></div>
+          <div class="admin-field"><label for="resourceSubject">Subject</label><select id="resourceSubject"><option value="">Not subject-specific</option><option>Science</option><option>Mathematics</option><option>English</option><option>Social Science</option><option>Hindi</option></select></div>
+          <div class="admin-field"><label for="resourceChapter">Chapter / topic (optional)</label><input id="resourceChapter" placeholder="Chapter or unit"></div>
+          <div class="admin-field full"><label for="resourcePath">Repository path</label><input id="resourcePath" placeholder="knowledge/science/revision-notes.pdf"></div>
+          <div class="admin-field full"><label for="resourceRights">Rights / source note</label><textarea id="resourceRights" placeholder="Owner, source URL, licence, permission note, or why this file may be redistributed"></textarea></div>
+        </div>
+        <div class="admin-actions"><button class="admin-btn" id="addResourceBtn" type="button">＋ Add resource to manifest</button><button class="admin-btn secondary" id="exportManifestBtn" type="button">Export manifest JSON</button><button class="admin-btn secondary" id="importManifestBtn" type="button">Import manifest JSON</button><input hidden type="file" id="manifestFile" accept=".json,application/json"></div>
+        <div id="knowledgeStatus" class="admin-status" role="status"></div>
+        <div id="pendingResources" class="admin-content"><div class="admin-empty">No resource files selected in this session.</div></div>
+        <h3>Published knowledge-base manifest</h3>
+        <div id="knowledgeTable" class="admin-table-wrap"></div>
+      </section>
+
+      <section class="admin-panel" id="tab-students">
+        <h2>Student profile management and progress reports</h2>
+        <p class="admin-muted">Import one or more student backup JSON files received from the existing portal. The files remain in this browser session. You can inspect reports, edit an imported profile snapshot, download a revised backup, or remove a record from this local workbench.</p>
+        <div class="admin-notice"><strong>Current architecture limitation:</strong> student progress is stored on each student's device. This workspace cannot automatically see all learners or remotely edit/delete their device data. Student password reset/set is unavailable because V1 has no student passwords or central accounts.</div>
+        <div class="admin-field"><label for="studentBackups">Import student backup files (multiple allowed)</label><input class="admin-file" id="studentBackups" type="file" accept=".json,application/json" multiple></div>
+        <div class="admin-actions"><button class="admin-btn secondary" type="button" id="clearStudentsBtn">Clear imported data from this workbench</button><button class="admin-btn secondary" type="button" id="exportReportBtn">Download progress report CSV</button></div>
+        <div id="studentStatus" class="admin-status" role="status">No student backups loaded.</div>
+        <div id="studentsTable" class="admin-table-wrap"></div>
+        <div class="admin-footnote">Student backup files contain personal profile and performance data. Keep them private. This page does not upload them to GitHub or any server.</div>
+      </section>
+
+      <section class="admin-panel" id="tab-leaderboard">
+        <h2>Leaderboards</h2>
+        <p class="admin-muted">Rank the student backups imported in the Students &amp; reports tab. Scores are computed from completed shared-engine attempts only. This is not a live, server-wide leaderboard.</p>
+        <div class="admin-form-grid">
+          <div class="admin-field"><label for="leaderClass">Class filter</label><select id="leaderClass"><option value="">All imported classes</option></select></div>
+          <div class="admin-field"><label for="leaderSubject">Subject</label><select id="leaderSubject"><option value="">Overall</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select></div>
+        </div>
+        <div id="leaderboardStatus" class="admin-status" role="status">Import student backups to calculate rankings.</div>
+        <div id="leaderboardTable" class="admin-table-wrap"></div>
+        <div class="admin-actions"><button class="admin-btn secondary" type="button" id="exportLeaderboardBtn">Download leaderboard CSV</button></div>
+        <div class="admin-footnote">Use class/subject reports for support, not as the only measure of a student's ability. Only imported data appears here; there is no cross-device sync yet.</div>
+      </section>
+
+      <section class="admin-panel" id="tab-access">
+        <h2>Admin access and account security</h2>
+        <p class="admin-muted">The Admin Workspace intentionally contains no shared password, GitHub token or password reset store.</p>
+        <div class="admin-feature-list">
+          <div class="admin-feature"><strong>Publishing access</strong><p>Use your GitHub account to commit approved JSON and asset files. Publishing access is controlled by repository permissions, not by this page.</p><p><a href="https://github.com/AI-Hobbiest/C10-Playground/settings/access" target="_blank" rel="noopener noreferrer">Open repository access settings →</a></p></div>
+          <div class="admin-feature"><strong>Add another admin</strong><p>Grant repository access to that person's own GitHub account with the least permissions they need. Remove their access in GitHub when no longer required. Do not share your personal GitHub password.</p><p><a href="https://github.com/AI-Hobbiest/C10-Playground/settings" target="_blank" rel="noopener noreferrer">Open repository settings →</a></p></div>
+        </div>
+        <div class="admin-notice"><strong>Student passwords:</strong> don't invent or store passwords in profile JSON, class lists or local browser storage. If student sign-in and reset are required later, add a proper authentication provider and enforce account changes on the server.</div>
+      </section>
+
+      <section class="admin-panel" id="tab-operations">
+        <h2>Operations and release checklist</h2>
+        <div class="admin-feature-list">
+          <div class="admin-feature"><strong>Before publishing</strong><p>Export changed bank JSON, download each new image/resource file, upload every file to the exact referenced path, and check that all image references resolve.</p></div>
+          <div class="admin-feature"><strong>Validate</strong><p>Wait for GitHub Actions to pass. Invalid JSON, malformed MCQs or missing assets should be fixed before publication.</p></div>
+          <div class="admin-feature"><strong>Keep repository size under control</strong><p>Prefer compressed, appropriately sized diagrams. Avoid duplicate textbook PDFs, large videos and base64 images embedded in thousands of questions.</p></div>
+          <div class="admin-feature"><strong>Back up private data</strong><p>Keep individual student backups in a private location. Never commit student backup files, passwords, access tokens or private reports to this public repository.</p></div>
+        </div>
+        <div class="admin-notice"><strong>Recommended later addition:</strong> a server-backed student directory and role-based audit trail, only if you decide that central account management and live reports justify the added infrastructure.</div>
+        <p><a href="./">← Back to Student Portal</a></p>
+      </section>
+    </div>
+  </div>
+</main>
+<div id="profileEditorModal" class="image-viewer hide" role="dialog" aria-modal="true" aria-labelledby="profileEditorTitle">
+  <div class="image-viewer-card" style="width:min(650px,100%);">
+    <button type="button" class="image-viewer-close" id="closeProfileEditor" aria-label="Close student profile editor">×</button>
+    <h2 id="profileEditorTitle">Edit imported student profile</h2>
+    <p class="admin-muted">This changes only the backup currently loaded in this workbench. The student must import the revised backup to update their own device.</p>
+    <div class="admin-form-grid">
+      <div class="admin-field full"><label for="editStudentName">Display name</label><input id="editStudentName"></div>
+      <div class="admin-field"><label for="editStudentClass">Class</label><select id="editStudentClass"></select></div>
+      <div class="admin-field"><label for="editStudentSchool">School</label><input id="editStudentSchool"></div>
+      <div class="admin-field"><label for="editStudentCity">City</label><input id="editStudentCity"></div>
+      <div class="admin-field"><label for="editStudentState">State / UT</label><input id="editStudentState"></div>
+    </div>
+    <div class="admin-actions"><button type="button" class="admin-btn" id="saveStudentProfileBtn">Save profile to imported backup</button><button type="button" class="admin-btn secondary" id="downloadStudentBackupBtn">Download revised backup</button></div>
+    <div id="studentEditStatus" class="admin-status" role="status"></div>
+  </div>
+</div>
+<script src="./js/storage.js"></script>
+<script src="./js/question-bank.js"></script>
+<script src="./js/session-model.js"></script>
+<script src="./js/profile-model.js"></script>
+<script src="./js/admin-manager.js"></script>
+<script src="./js/app-shell.js"></script>
+</body>
+</html>
