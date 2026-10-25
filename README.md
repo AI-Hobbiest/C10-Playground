@@ -41,7 +41,7 @@ Progress is stored in `localStorage` in the browser on the device. It does not c
 
 ## Deployment
 
-The GitHub Actions workflow deploys `index.html`, `science.html`, `practice.html`, the shared storage adapter, question-bank normalizer, quiz engine, versioned contract files, JSON banks and Science payload when commits are pushed to `main`. The website is static and requires no server-side code.
+The GitHub Actions workflow deploys `index.html`, `science.html`, `practice.html`, the shared storage adapter, question-bank normalizer, session model, quiz engine, versioned contract files, JSON banks and Science payload, with automated foundation and session tests when commits are pushed to `main`. The website is static and requires no server-side code.
 
 ## Syllabus and usage note
 
