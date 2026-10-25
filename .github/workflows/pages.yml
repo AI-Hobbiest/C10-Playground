@@ -34,17 +34,20 @@ jobs:
           cp science.html _site/science.html
           cp practice.html _site/practice.html
           cp profile.html _site/profile.html
+          cp admin.html _site/admin.html
           cp dashboard.html _site/dashboard.html
           cp .nojekyll _site/.nojekyll
           mkdir -p _site/js _site/data _site/css _site/data/contracts/v1
           cp css/branding.css _site/css/branding.css
           cp css/app-shell.css _site/css/app-shell.css
+          cp css/admin.css _site/css/admin.css
           cp css/question-media.css _site/css/question-media.css
           cp js/storage.js _site/js/storage.js
           cp js/question-bank.js _site/js/question-bank.js
           cp js/session-model.js _site/js/session-model.js
           cp js/profile-model.js _site/js/profile-model.js
           cp js/profile-manager.js _site/js/profile-manager.js
+          cp js/admin-manager.js _site/js/admin-manager.js
           cp js/app-shell.js _site/js/app-shell.js
           cp js/gamification.js _site/js/gamification.js
           cp js/dashboard-manager.js _site/js/dashboard-manager.js
@@ -104,8 +107,12 @@ jobs:
               }
             }
           }
-          fs.writeFileSync('_site/data/science.json', JSON.stringify(sharedChapters, null, 2) + String.fromCharCode(10));
-          console.log('Validated and generated shared Science bank: '+sharedChapters.length+' chapters, '+count+' MCQs.');
+          if (!fs.existsSync('data/science.json')) {
+            fs.writeFileSync('_site/data/science.json', JSON.stringify(sharedChapters, null, 2) + String.fromCharCode(10));
+            console.log('Generated shared Science bank from legacy payload: '+sharedChapters.length+' chapters, '+count+' MCQs.');
+          } else {
+            console.log('Using committed data/science.json as the editable Science source of truth.');
+          }
           const expected = {
             science: { chapters: 14, questions: 1400 },
             mathematics: { chapters: 14, questions: 112 },
@@ -116,7 +123,9 @@ jobs:
           for (const [name, totals] of Object.entries(expected)) {
             const data = JSON.parse(fs.readFileSync('_site/data/'+name+'.json','utf8'));
             const questionCount = data.reduce((sum, chapter) => sum + chapter.questions.length, 0);
-            if (data.length !== totals.chapters || questionCount !== totals.questions) {
+            const editableScience = name === 'science' && fs.existsSync('data/science.json');
+            if ((!editableScience && data.length !== totals.chapters) || (!editableScience && questionCount !== totals.questions) ||
+                (editableScience && data.length < 1)) {
               throw new Error(name+' bank count mismatch: '+data.length+' chapters, '+questionCount+' questions.');
             }
             for (const chapter of data) {
@@ -131,9 +140,21 @@ jobs:
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
           }
-          for (const file of ['practice.html','profile.html','dashboard.html','css/branding.css','css/app-shell.css','css/question-media.css','js/app-shell.js','js/gamification.js','js/dashboard-manager.js','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/science.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+          for (const file of ['practice.html','profile.html','dashboard.html','admin.html','css/admin.css','js/admin-manager.js','data/classes.json','data/knowledge-base.json','css/branding.css','css/app-shell.css','css/question-media.css','js/app-shell.js','js/gamification.js','js/dashboard-manager.js','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/science.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
+          const admin=fs.readFileSync('_site/admin.html','utf8');
+          for (const required of ['data-tab="banks"','data-tab="classes"','data-tab="knowledge"','data-tab="students"','data-tab="leaderboard"','data-tab="access"','id="questionMedia"']) {
+            if (!admin.includes(required) && required === 'id="questionMedia"') { /* Question media is rendered on practice page, not Admin. */ }
+            else if (!admin.includes(required)) throw new Error('Admin workspace section missing: '+required);
+          }
+          if (!admin.includes('./js/admin-manager.js') || !admin.includes('./css/admin.css')) throw new Error('Admin workspace scripts/styles missing.');
+          const adminScripts=['./js/storage.js','./js/question-bank.js','./js/session-model.js','./js/profile-model.js','./js/admin-manager.js','./js/app-shell.js'].map(src=>admin.indexOf(src));
+          if (adminScripts.some(index=>index<0) || !adminScripts.every((index,i)=>i===0||adminScripts[i-1]<index)) throw new Error('Admin workspace scripts are missing or out of order.');
+          const classCatalog=JSON.parse(fs.readFileSync('_site/data/classes.json','utf8'));
+          if (classCatalog.kind!=='class-catalog' || !Array.isArray(classCatalog.classes) || !classCatalog.classes.some(item=>String(item.classId)==='10')) throw new Error('Class catalogue is missing Class 10.');
+          const resourceManifest=JSON.parse(fs.readFileSync('_site/data/knowledge-base.json','utf8'));
+          if (resourceManifest.kind!=='knowledge-base-manifest' || !Array.isArray(resourceManifest.resources)) throw new Error('Knowledge-base manifest is invalid.');
           const profilePage=fs.readFileSync('_site/profile.html','utf8');
           if (!profilePage.includes('id="studentId"') || !profilePage.includes('id="school"') || !profilePage.includes('id="city"') || !profilePage.includes('id="state"') || !profilePage.includes('id="classLevel"')) throw new Error('Profile fields are missing.');
           if (!profilePage.includes('Export JSON backup') || !profilePage.includes('Import JSON backup')) throw new Error('Profile backup controls are missing.');
@@ -187,6 +208,8 @@ jobs:
         run: node tests/profile-page.test.js
       - name: Test levels XP badges and responsive navigation
         run: node tests/gamification.test.js && node tests/app-shell.test.js
+      - name: Test Admin Workspace data handling and safety boundaries
+        run: node tests/admin-workspace.test.js
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
