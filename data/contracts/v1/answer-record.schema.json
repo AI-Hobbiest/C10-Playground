@@ -66,6 +66,18 @@
         "null"
       ],
       "format": "date-time"
+    },
+    "selectedOptionText": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "correctOptionText": {
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "additionalProperties": false
