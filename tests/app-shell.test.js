@@ -19,7 +19,9 @@ assert.ok(homepage.includes('practice.html?subject=science'),"homepage Science t
 assert.ok(nav.includes("aria-expanded"));
 assert.ok(nav.includes('event.key==="Escape"'));
 assert.ok(nav.includes('const file=last.includes(".")?last:"index.html"'),"GitHub Pages project root resolves as index");
-assert.ok(css.includes("@media(max-width:900px)"));
+assert.ok(css.includes("@media(max-width:1100px)"),"tablet-sized viewports use the compact slide-in menu");
+assert.ok(css.includes(".c10-sidebar a.c10-nav-link:visited"),"sidebar link color overrides the global anchor theme");
+assert.ok(css.includes(".c10-sidebar a.c10-nav-link.active:visited"),"active link remains readable on the dark sidebar");
 assert.ok(css.includes(".c10-sidebar.open"));
 assert.ok(css.includes(".c10-mobilebar{display:none}"),"mobile bar is hidden on desktop");
 assert.ok(css.includes(".c10-nav-scrim.visible"));
@@ -35,4 +37,4 @@ assert.ok(dashboard.includes("./js/app-shell.js"));
 for(const section of ["dashboard","rewards"])assert.ok(dashboard.includes('id="'+section+'"'));
 for(const field of ["profile","history","backup"])assert.ok(profile.includes('id="'+field+'"'));
 new Function(nav);
-console.log("Navigation tests passed: responsive shell on app pages, Science compatibility redirect, correct menu targets, keyboard closing, active root resolution, and dashboard/profile anchor contracts.");
+console.log("Navigation tests passed: sidebar contrast, tablet/mobile responsive shell, Science compatibility redirect, correct menu targets, keyboard closing, active root resolution, and dashboard/profile anchor contracts.");
