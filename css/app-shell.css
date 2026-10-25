@@ -10,8 +10,10 @@ body.c10-shell-ready{padding-left:var(--c10-sidebar-width)}
 .c10-nav-label{font-size:.66rem;font-weight:850;letter-spacing:.14em;text-transform:uppercase;color:#bcb6ee;padding:11px 10px 6px}
 .c10-nav-list{display:grid;gap:4px}
 .c10-nav-link{display:flex;gap:11px;align-items:center;min-height:42px;padding:9px 11px;border:1px solid transparent;border-radius:12px;text-decoration:none;color:#e7e4ff;font-size:.87rem;font-weight:680;transition:background .16s ease,border-color .16s ease;line-height:1.25}
-.c10-nav-link:hover,.c10-nav-link:focus-visible{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.13);color:#fff}
-.c10-nav-link.active{background:linear-gradient(100deg,rgba(255,107,112,.2),rgba(143,112,255,.23));border-color:rgba(211,202,255,.27);color:#fff}
+.c10-sidebar a.c10-nav-link,.c10-sidebar a.c10-nav-link:visited{color:#e7e4ff}
+.c10-sidebar a.c10-nav-link:hover,.c10-sidebar a.c10-nav-link:focus-visible{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.13);color:#fff}
+.c10-sidebar a.c10-nav-link.active,.c10-sidebar a.c10-nav-link.active:visited{background:linear-gradient(100deg,rgba(255,107,112,.2),rgba(143,112,255,.23));border-color:rgba(211,202,255,.27);color:#fff}
+
 .c10-nav-icon{width:22px;display:inline-grid;place-items:center;font-size:1.05rem;flex:none}
 .c10-nav-divider{height:1px;background:var(--c10-shell-line);margin:12px 8px 7px}
 .c10-sidebar-bottom{margin-top:auto;padding:13px 9px 3px;color:#bcb6ee;font-size:.72rem;line-height:1.6}
@@ -20,7 +22,7 @@ body.c10-shell-ready{padding-left:var(--c10-sidebar-width)}
 .c10-nav-scrim{display:none}
 .c10-shell-credit{display:block;margin-top:5px;color:#fff;font-weight:800}
 .c10-page-anchor{scroll-margin-top:72px}
-@media(max-width:900px){
+@media(max-width:1100px){
   body.c10-shell-ready{padding-left:0;padding-top:60px}
   .c10-mobilebar{position:fixed;inset:0 0 auto 0;height:60px;z-index:1001;display:flex;align-items:center;gap:12px;padding:0 14px;background:#211b48;color:#fff;box-shadow:0 6px 20px rgba(25,17,65,.18)}
   .c10-menu-toggle{display:inline-grid;place-items:center;height:40px;width:42px;border:1px solid rgba(255,255,255,.24);border-radius:12px;background:rgba(255,255,255,.09);color:#fff;font-size:1.35rem;cursor:pointer;flex:none}
