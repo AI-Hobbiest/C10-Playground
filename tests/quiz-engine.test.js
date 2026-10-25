@@ -20,6 +20,7 @@ class FakeElement {
   get innerHTML(){return this._innerHTML;}
   appendChild(child){this.children.push(child);return child;}
   append(...children){children.forEach(child=>this.appendChild(child));}
+  setAttribute(name,value){this.attributes[name]=String(value);}
   querySelectorAll(selector){if(selector==="button")return this.children.filter(child=>child.tagName==="BUTTON");return [];}
   addEventListener(type,handler){this.handlers[type]=handler;}
   click(){if(this.disabled)return;if(typeof this.onclick==="function")this.onclick({target:this});if(this.handlers.click)this.handlers.click({target:this});}
