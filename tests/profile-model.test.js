@@ -21,7 +21,9 @@ assert.equal(normalized.classLevel,"10");
 assert.equal(model.validateProfile(normalized),true);
 assert.equal(model.validateProfile({...normalized,displayName:""}),false);
 assert.equal(model.validateProfile({...normalized,state:"Dubai"}),false);
-assert.equal(model.validateProfile({...normalized,classLevel:"5"}),false);
+assert.equal(model.validateProfile({...normalized,classLevel:"5"}),true,"class IDs can be added through the Admin class catalogue");
+assert.equal(model.validateProfile({...normalized,classLevel:"class-5"}),true);
+assert.equal(model.validateProfile({...normalized,classLevel:"bad class!"}),false);
 
 const backup={
  schemaVersion:1,kind:"c10-playground-backup",exportedAt:"2026-10-25T10:00:00.000Z",
@@ -41,7 +43,7 @@ assert.equal(model.isValidBackup({...backup,profile:{...normalized,school:""}}),
 
 const schema=JSON.parse(fs.readFileSync("data/contracts/v1/student-profile.schema.json","utf8"));
 for(const required of ["studentId","displayName","school","classLevel","city","state"])assert.ok(schema.required.includes(required));
-assert.equal(schema.properties.classLevel.enum.length,7);
+assert.equal(schema.properties.classLevel.pattern,"^[A-Za-z0-9_-]{1,20}$");
 for(const name of ["school","city","state"])assert.ok(schema.properties[name]);
 
 new Function(fs.readFileSync("js/profile-manager.js","utf8"));
