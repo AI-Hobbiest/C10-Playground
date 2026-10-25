@@ -184,8 +184,10 @@
   function isValidBackup(bundle) {
     if(!bundle||bundle.schemaVersion!==1||bundle.kind!=="c10-playground-backup"||
        !validateProfile(bundle.profile)||!bundle.subjectData||typeof bundle.subjectData!=="object")return false;
+    const expectedSubjects=["science","mathematics","english","social-science","hindi"];
+    if(!expectedSubjects.every(subject=>Object.prototype.hasOwnProperty.call(bundle.subjectData,subject)))return false;
     for(const [subject,data] of Object.entries(bundle.subjectData)){
-      if(!/^(mathematics|english|social-science|hindi)$/.test(subject)||!data||typeof data!=="object")return false;
+      if(!/^(science|mathematics|english|social-science|hindi)$/.test(subject)||!data||typeof data!=="object")return false;
       if(data.progress && (!Array.isArray(data.progress.missed)||!Array.isArray(data.progress.attempts)||
          !Number.isFinite(data.progress.answered)||!Number.isFinite(data.progress.correct)))return false;
       if(data.ledger && (!Array.isArray(data.ledger.attempts)||!Array.isArray(data.ledger.answerRecords)||
