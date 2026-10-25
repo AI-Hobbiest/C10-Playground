@@ -20,13 +20,13 @@
 </header>
 <main class="admin-wrap">
   <div class="admin-notice">
-    <strong>Security boundary:</strong> this is a local authoring workspace, not an authenticated admin login. Changes stay in this browser until you export them. Student backups are processed locally and are not uploaded to this site. Never paste a GitHub password, token or student password here. Publishing requires an authorised GitHub account.
+    <strong>Admin access:</strong> the Admin Workspace is for authorised administrators only. Sign in with an approved GitHub account before using the editing, student-management or reporting tabs. Student sign-in is username + password only; students do not need GitHub accounts. Content publication still requires repository write permission. Never paste a GitHub password, token or student password into this page.
   </div>
   <section class="admin-panel active" id="adminAuthBanner" style="gap:12px">
     <div class="admin-form-grid">
       <div style="grid-column:1/-1">
         <h2>Administrator sign-in</h2>
-        <p class="admin-muted">Sign in with your GitHub account to manage central student accounts, reset passwords, and view live reports. The backend must be configured first.</p>
+        <p class="admin-muted">Only the administrator signs in with GitHub. Students use their own username and password. Central accounts and live reports become available after the account API is configured.</p>
       </div>
     </div>
     <div class="admin-actions">
@@ -62,7 +62,7 @@
           <div class="admin-feature"><strong>Knowledge resources</strong><p>Maintain a resource manifest for books, notes, question-bank PDFs and image-reference PDFs. Download and publish files separately.</p></div>
           <div class="admin-feature"><strong>Student reports</strong><p>Import student backup JSON files supplied by students. View profiles and progress, edit an imported profile snapshot, and export reports or revised backups.</p></div>
         </div>
-        <div class="admin-notice"><strong>Not available in this static version:</strong> centrally stored student accounts, remote profile deletion, or setting/resetting student passwords. The current student portal has no password-based accounts or server-side student database. Those capabilities need a real authentication and data service.</div>
+        <div class="admin-notice"><strong>Account-service requirement:</strong> the GitHub Pages site cannot securely hold passwords or a shared account database. The existing account API and D1 database must be configured for student username/password sign-in, admin account management, password resets and live reports. Until then, only local practice and manual JSON backup features are available.</div>
         <div id="overviewStatus" class="admin-status" role="status">Loading class catalogue and resource manifest…</div>
       </section>
 
@@ -153,7 +153,8 @@
           <h3>Central student accounts · live</h3>
           <p class="admin-muted">Requires authorised GitHub Admin sign-in and the configured Cloudflare account service. These are real central accounts, not imported backup copies.</p>
           <div class="admin-form-grid">
-            <div class="admin-field"><label for="centralStudentId">Student ID (optional)</label><input id="centralStudentId" placeholder="Leave blank to generate"></div>
+            <div class="admin-field"><label for="centralStudentUsername">Username</label><input id="centralStudentUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" required placeholder="e.g. learner2026"></div>
+            <div class="admin-field"><label for="centralStudentId">Student ID (internal, optional)</label><input id="centralStudentId" placeholder="Leave blank to generate"></div>
             <div class="admin-field"><label for="centralStudentName">Display name</label><input id="centralStudentName" maxlength="80"></div>
             <div class="admin-field"><label for="centralStudentSchool">School</label><input id="centralStudentSchool" maxlength="160"></div>
             <div class="admin-field"><label for="centralStudentClass">Class</label><select id="centralStudentClass"><option value="10">Class 10</option></select></div>

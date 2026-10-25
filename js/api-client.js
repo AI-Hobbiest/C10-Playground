@@ -53,8 +53,8 @@
     const result=await request("/api/student/account-link",{method:"POST",body:{}});
     window.location.href=result.url;
   }
-  async function loginStudent(studentId,password){
-    const result=await request("/api/student/login",{method:"POST",auth:false,body:{studentId,password}});
+  async function loginStudent(username,password){
+    const result=await request("/api/student/login",{method:"POST",auth:false,body:{username,password}});
     saveSession(result);
     return result;
   }

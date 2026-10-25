@@ -227,7 +227,7 @@ jobs:
       - name: Test levels XP badges and responsive navigation
         run: node tests/gamification.test.js && node tests/app-shell.test.js
       - name: Test Admin Workspace data handling and safety boundaries
-        run: node tests/admin-workspace.test.js
+        run: node tests/admin-workspace.test.js && node tests/account-contract.test.js
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:

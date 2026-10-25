@@ -277,13 +277,13 @@
     const signedIn=!!remoteUser&&remoteUser.role==="student";
     $("studentLoginBtn").disabled=!configured;
     $("studentLoginPassword").disabled=!configured;
-    $("studentLoginId").disabled=!configured;
+    $("studentLoginUsername").disabled=!configured;
     $("studentLogoutBtn").hidden=!signedIn;
     $("studentLoginForm").hidden=signedIn;
     $("studentChangePasswordForm").hidden=!(signedIn&&remoteUser.mustChangePassword);
     if(!configured)accountStatus("Central sign-in is not configured. Local practice and private JSON backups still work.");
-    else if(signedIn&&remoteUser.mustChangePassword)accountStatus("Signed in as "+remoteUser.studentId+". Change the temporary password before syncing progress.");
-    else if(signedIn)accountStatus("Signed in as "+remoteUser.studentId+". Profile and completed tests can sync with this account.");
+    else if(signedIn&&remoteUser.mustChangePassword)accountStatus("Signed in as "+remoteUser.username+". Change the temporary password before syncing progress.");
+    else if(signedIn)accountStatus("Signed in as "+remoteUser.username+". Profile and completed tests can sync with this account.");
   }
   function applyRemoteProfile(remoteProfile){
     profile=window.C10ProfileModel.normalizeProfile(remoteProfile,remoteProfile.profileId);
@@ -298,15 +298,15 @@
   async function studentLogin(event){
     event.preventDefault();
     if(!window.C10Api||!window.C10Api.isConfigured()){accountStatus("The Cloudflare account service is not configured yet.",true);return;}
-    const id=$("studentLoginId").value.trim(),password=$("studentLoginPassword").value;
+    const username=$("studentLoginUsername").value.trim().toLowerCase(),password=$("studentLoginPassword").value;
     try{
-      const result=await window.C10Api.loginStudent(id,password);
+      const result=await window.C10Api.loginStudent(username,password);
       remoteUser=result.user;remoteUser.mustChangePassword=!!result.user.mustChangePassword;
       applyRemoteProfile(result.profile);
       $("currentStudentPassword").value=password;$("studentLoginPassword").value="";
       updateAccountUI();
-      if(remoteUser.mustChangePassword)accountStatus("Welcome, "+remoteUser.studentId+". Please change your temporary password now.");
-      else{accountStatus("Signed in successfully. Loading your central progress…");await refreshRemoteAttempts();accountStatus("Signed in as "+remoteUser.studentId+". Your account and completed tests are connected.");}
+      if(remoteUser.mustChangePassword)accountStatus("Welcome, "+remoteUser.username+". Please change your temporary password now.");
+      else{accountStatus("Signed in successfully. Loading your central progress…");await refreshRemoteAttempts();accountStatus("Signed in as "+remoteUser.username+". Your account and completed tests are connected.");}
       renderHistory();
     }catch(error){accountStatus(error.message||"Student sign-in failed.",true);}
   }

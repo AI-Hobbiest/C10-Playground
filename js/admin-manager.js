@@ -62,6 +62,12 @@
     return found?found.label:(id?"Class "+id:"—");
   }
   function setTab(name){
+    const protectedTabs=new Set(["banks","classes","knowledge","students","leaderboard","operations"]);
+    const apiReady=!!(window.C10Api&&window.C10Api.isConfigured());
+    if(apiReady&&protectedTabs.has(name)&&!isAdminAuthenticated()){
+      setAccountStatus("This section is locked. Sign in with an approved GitHub administrator to continue.","error");
+      name="access";
+    }
     document.querySelectorAll(".admin-tab-button").forEach(item=>item.classList.toggle("active",item.dataset.tab===name));
     document.querySelectorAll(".admin-panel").forEach(item=>item.classList.toggle("active",item.id==="tab-"+name));
     if(name==="leaderboard")renderLeaderboard();
@@ -661,6 +667,7 @@
   async function createCentralStudent(){
     if(!guardAdmin())return;
     const payload={
+      username:$("centralStudentUsername").value.trim().toLowerCase(),
       studentId:$("centralStudentId").value.trim(),
       displayName:$("centralStudentName").value.trim(),
       school:$("centralStudentSchool").value.trim(),classId:$("centralStudentClass").value,
@@ -668,8 +675,9 @@
     };
     try{
       const result=await window.C10Api.createStudent(payload);
+      $("centralStudentUsername").value=result.student.username||payload.username;
       $("centralStudentId").value=result.student.studentId||"";
-      showTemporaryPassword(result.temporaryPassword,"Student account "+result.student.studentId+" created. Copy the temporary password now; the student must change it at first sign-in.");
+      showTemporaryPassword(result.temporaryPassword,"Student account "+result.student.username+" created (Student ID "+result.student.studentId+"). Copy the temporary password now; the student must change it at first sign-in.");
       await refreshCentralStudents();
     }catch(error){setStatus("centralStudentStatus",error.message,"error");}
   }
@@ -678,11 +686,11 @@
     if(!isAdminAuthenticated()){container.appendChild(make("div","admin-empty","Sign in with an authorised GitHub account to view centrally managed student accounts."));return;}
     if(!centralStudents.length){container.appendChild(make("div","admin-empty","No central student accounts yet. Create the first account above."));return;}
     const table=make("table","admin-table"),thead=make("thead"),head=make("tr");
-    ["Student ID","Student","Class","Status","Tests","Avg. score","Actions"].forEach(label=>head.appendChild(make("th","",label)));
+    ["Username","Student ID","Student","Class","Status","Tests","Avg. score","Actions"].forEach(label=>head.appendChild(make("th","",label)));
     thead.appendChild(head);table.appendChild(thead);const body=make("tbody");
     centralStudents.forEach(student=>{
       const tr=make("tr");
-      tr.append(make("td","",student.studentId),make("td","",student.displayName+" · "+student.school),make("td","",student.classId),make("td","",student.status==="active"&&Number(student.enabled)===1?"Active":"Suspended"),make("td","",student.attemptCount||0),make("td","",student.averageScore==null?"—":student.averageScore+"%"));
+      tr.append(make("td","",student.username||"—"),make("td","",student.studentId),make("td","",student.displayName+" · "+student.school),make("td","",student.classId),make("td","",student.status==="active"&&Number(student.enabled)===1?"Active":"Suspended"),make("td","",student.attemptCount||0),make("td","",student.averageScore==null?"—":student.averageScore+"%"));
       const actions=make("td");
       actions.appendChild(button("Edit","secondary",()=>openCentralStudentEditor(student)));
       actions.appendChild(button("Reset password","secondary",()=>resetCentralStudentPassword(student)));

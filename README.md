@@ -35,11 +35,13 @@ The four committed JSON banks are starter banks, **not yet 100 questions per cha
 
 ## Admin Workspace
 
-Open the Admin Workspace at https://ai-hobbiest.github.io/C10-Playground/admin.html. It provides local question-bank editing/export (including chapter/question/image metadata), editable class catalogue, knowledge-resource manifest management, import of multiple student backup files for progress reports and leaderboards, and export of CSV/JSON files.
+Open the Admin Workspace at https://ai-hobbiest.github.io/C10-Playground/admin.html. The administrator signs in with an approved GitHub account; students do **not** use GitHub. Editing, account-management and reporting tabs are gated in the interface for signed-in administrators. Publishing question banks, class lists, and knowledge resources still requires repository write permission and a reviewed GitHub change.
 
-**This is not an authenticated admin login.** Changes are prepared in the current browser tab and must be exported. New image/PDF files are downloaded separately and must be manually uploaded to their referenced repository paths. Publishing is controlled by GitHub account permissions and the deployment workflow; no GitHub password or token is embedded in the website. Additional admins are granted access through the repository's GitHub settings.
+Students sign in with a **username and password** created by the administrator. A separate generated Student ID is kept for profile/history/report references and is not the login username. The service creates a one-time temporary password; the student must change it after first sign-in. Administrators can view central accounts, reset passwords, suspend or remove access, edit profiles, and view live progress/leaderboards.
 
-Student profiles and progress still live on individual devices. The workspace can report only on backup JSON files explicitly imported by the operator; it cannot remotely edit/delete student device records. Student password setting/reset is not available because the portal has no central student accounts or password store. Do not publish student backups or private documents to this public repository. The `data/classes.json` file controls active class choices; `data/knowledge-base.json` is a metadata manifest and does not itself store files.
+The existing account API is in `cloudflare/worker.js`, with its D1 schema in `cloudflare/schema.sql`. GitHub Pages cannot securely run a password verifier or shared database by itself, so the central features remain disabled until the Worker and D1 database are deployed and `js/api-config.js` contains the Worker URL. Setup instructions are in [cloudflare/SETUP.md](cloudflare/SETUP.md). No GitHub OAuth secret or student password belongs in the public repository.
+
+The local backup-import/reporting tools remain available as code in this version, but should be used only by the administrator. Student backups are processed in the browser and are not uploaded automatically. Do not commit student backups or private documents to this public repository. The `data/classes.json` file controls the class choices used by profiles; `data/knowledge-base.json` is a metadata manifest, not a document store.
 
 ## Practice engine
 
@@ -98,9 +100,7 @@ XP, levels, streaks and badges are **derived from saved completed attempts**, no
 
 ## Local storage and privacy limits
 
-Student records remain in the browser on the device. There is no server-side account, automatic cross-device sync, or server-enforced single-device session yet. Clearing browser storage can remove records, so export JSON backups regularly and keep them private. Manual JSON transfer is the current way to move a profile and records between devices.
-
-The app is static, uses no paid charting library and makes no new API calls for dashboard data. Charts are rendered locally with HTML/CSS.
+When the account API is not configured, student profiles, attempts, XP, levels, streaks and badges remain in that browser's local storage. Clearing browser storage can remove records, so students should export JSON backups and keep them private. When a student signs in to the configured central account service, the profile and completed test records can sync across devices. Historical local records are not automatically assigned to a new account; import or reconcile backups deliberately rather than silently attaching them to the first login.
 
 ## Deployment and checks
 
