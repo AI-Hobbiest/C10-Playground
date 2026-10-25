@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/C10-Playground/data/contracts/v1/student-profile.schema.json",
+  "title": "C10 Playground Student Profile v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "profileId",
+    "displayName",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "kind": {
+      "const": "student-profile"
+    },
+    "profileId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "preferences": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "reducedMotion": {
+          "type": "boolean"
+        },
+        "soundEffects": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
