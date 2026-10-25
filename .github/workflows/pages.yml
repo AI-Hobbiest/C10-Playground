@@ -67,8 +67,46 @@ jobs:
           if (chapters.length !== 14 || count !== 1400 || !html.includes('id="chapter"') || !html.includes("$('chapter').innerHTML=chapters.map")) {
             throw new Error('Science validation failed: '+chapters.length+' chapters, '+count+' questions, dropdown='+html.includes('id="chapter"'));
           }
-          console.log('Validated '+chapters.length+' chapter sets and '+count+' questions; dropdown initialization is present.');
+          // Generate the shared-engine bank from the already validated compressed Science source.
+          const sharedChapters = chapters.map((chapter, chapterIndex) => ({
+            chapter_no: chapter.chapter_no || chapter.chapterNo || chapterIndex + 1,
+            title: chapter.title,
+            key: chapter.key || chapter.chapterKey,
+            questions: chapter.questions.map((question, questionIndex) => {
+              const options = question.options || question.choices;
+              const rawAnswer = question.answer ?? question.correctAnswer ?? question.correctOption ?? question.correct_option;
+              let answer = Number(rawAnswer);
+              if (!Number.isInteger(answer) && typeof rawAnswer === 'string') {
+                const letter = rawAnswer.trim().toUpperCase();
+                if (/^[A-D]$/.test(letter)) answer = letter.charCodeAt(0) - 65;
+                else answer = Array.isArray(options) ? options.findIndex(option => String(option).trim() === rawAnswer.trim()) : -1;
+              }
+              return {
+                id: question.id ?? question.questionId ?? questionIndex + 1,
+                question: question.question || question.prompt || question.text,
+                options,
+                answer,
+                explanation: question.explanation || question.rationale || 'Review the related concept in your textbook, then try this question again.',
+                difficulty: question.difficulty || 'Medium'
+              };
+            })
+          }));
+          for (const chapter of sharedChapters) {
+            if (!chapter.title || !Array.isArray(chapter.questions) || !chapter.questions.length) {
+              throw new Error('Science shared bank has an empty chapter.');
+            }
+            for (const question of chapter.questions) {
+              if (!question.question || !Array.isArray(question.options) || question.options.length !== 4 ||
+                  !Number.isInteger(question.answer) || question.answer < 0 || question.answer > 3 ||
+                  !question.explanation) {
+                throw new Error('Malformed Science MCQ in chapter '+chapter.title+', id '+question.id);
+              }
+            }
+          }
+          fs.writeFileSync('_site/data/science.json', JSON.stringify(sharedChapters, null, 2) + String.fromCharCode(10));
+          console.log('Validated and generated shared Science bank: '+sharedChapters.length+' chapters, '+count+' MCQs.');
           const expected = {
+            science: { chapters: 14, questions: 1400 },
             mathematics: { chapters: 14, questions: 112 },
             english: { chapters: 37, questions: 120 },
             'social-science': { chapters: 22, questions: 110 },
@@ -92,7 +130,7 @@ jobs:
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
           }
-          for (const file of ['practice.html','profile.html','dashboard.html','css/branding.css','css/app-shell.css','js/app-shell.js','js/gamification.js','js/dashboard-manager.js','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+          for (const file of ['practice.html','profile.html','dashboard.html','css/branding.css','css/app-shell.css','js/app-shell.js','js/gamification.js','js/dashboard-manager.js','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/science.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
           const profilePage=fs.readFileSync('_site/profile.html','utf8');
@@ -113,6 +151,10 @@ jobs:
             if (!homepage.includes(slug)) throw new Error('Homepage link is missing '+slug);
           }
           if (!homepage.includes('Conceptualised by') || !homepage.includes('JP Ganathe')) throw new Error('Homepage attribution is missing.');
+          const sciencePage=fs.readFileSync('_site/science.html','utf8');
+          if (!sciencePage.includes('practice.html?subject=science')) throw new Error('Science compatibility route does not forward to the shared engine.');
+          const quizEngine=fs.readFileSync('_site/js/quiz-engine.js','utf8');
+          if (!quizEngine.includes('science: { title:"Science"')) throw new Error('Science is missing from the shared engine subject registry.');
           const practice=fs.readFileSync('_site/practice.html','utf8');
           if (!practice.includes('Conceptualised by')) throw new Error('Practice-page attribution is missing.');
           const sequence=['./js/storage.js','./js/question-bank.js','./js/session-model.js','./js/quiz-engine.js'].map(src=>practice.indexOf(src));
