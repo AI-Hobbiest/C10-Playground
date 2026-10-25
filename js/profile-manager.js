@@ -56,6 +56,32 @@
     });
   }
 
+  async function populateClasses(){
+    const select=$("classLevel");
+    if(typeof fetch!=="function")return;
+    const selected=String(profile.classLevel||select.value||"10");
+    try{
+      const response=await fetch("./data/classes.json",{cache:"no-store"});
+      if(!response.ok)throw new Error("Class catalogue unavailable.");
+      const data=await response.json();
+      if(!data||data.kind!=="class-catalog"||!Array.isArray(data.classes))throw new Error("Class catalogue is invalid.");
+      select.innerHTML="";
+      data.classes.filter(item=>item.active!==false).sort((a,b)=>(Number(a.sortOrder)||0)-(Number(b.sortOrder)||0)).forEach(item=>{
+        const option=document.createElement("option");
+        option.value=String(item.classId);option.textContent=String(item.label||("Class "+item.classId));
+        select.appendChild(option);
+      });
+      if(!data.classes.some(item=>String(item.classId)===selected&&item.active!==false)){
+        const legacy=document.createElement("option");
+        legacy.value=selected;legacy.textContent="Class "+selected+" (not currently listed)";
+        select.appendChild(legacy);
+      }
+      select.value=selected;
+    }catch(error){
+      setStatus("Class catalogue could not be loaded. The existing class selection is retained.",true);
+    }
+  }
+
   function renderForm(){
     $("studentId").value=profile.studentId;
     $("displayName").value=profile.displayName;
@@ -223,7 +249,7 @@
   }
 
   function init(){
-    populateStates();renderForm();renderHistory();
+    populateStates();renderForm();populateClasses();renderHistory();
     $("profileForm").addEventListener("submit",saveProfile);
     $("exportBtn").addEventListener("click",downloadBackup);
     $("importBtn").addEventListener("click",()=>$("backupFile").click());
