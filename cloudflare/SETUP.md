@@ -1,4 +1,6 @@
-# C10 Playground account-service setup
+# C10 Playground account-service setup — deferred
+
+> **Not part of the current release.** The current GitHub Pages MVP uses `data/student-accounts.json` and does not require Cloudflare. Follow this document only if you later decide that secure server-side authentication, private account storage, cross-device sync or central reports are necessary.
 
 This is a one-time setup for the **optional central account service** behind the GitHub Pages site.
 
