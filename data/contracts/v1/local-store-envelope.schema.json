@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/C10-Playground/data/contracts/v1/local-store-envelope.schema.json",
+  "title": "C10 Playground Local Store Envelope v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "recordId",
+    "updatedAt",
+    "data"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "kind": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recordId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "data": {}
+  },
+  "additionalProperties": false
+}
