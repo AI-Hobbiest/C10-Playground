@@ -21,7 +21,7 @@
   const prior = profileStore.load();
   const profileId = prior.profileId || window.C10Storage.createId();
   let profile = window.C10ProfileModel.normalizeProfile(prior,profileId);
-  let remoteUser=null,remoteAttempts=[];
+  let remoteUser=null,remoteAttempts=[],localAccount=window.C10StudentAuth&&window.C10StudentAuth.currentUser?window.C10StudentAuth.currentUser():null;
   if(!window.C10ProfileModel.validateProfile(profile)){
     profileStore.save(profile);
   }
@@ -122,7 +122,8 @@
         profile=window.C10ProfileModel.normalizeProfile(result.profile,result.profile.profileId);profileStore.save(profile);renderForm();
         setStatus("Profile saved locally and synced to your student account.");
       }catch(error){setStatus("Profile saved on this device, but central sync failed: "+error.message,true);}
-    }else setStatus("Profile saved on this device. Sign in with your student account to sync it across devices.");
+    }else if(localAccount)setStatus("Profile saved on this device. Student account sign-in does not sync data yet; export a JSON backup before changing devices.");
+    else setStatus("Profile saved on this device. Progress and history remain local; export a JSON backup before changing devices.");
     renderHistory();
   }
 
@@ -274,16 +275,23 @@
   }
   function updateAccountUI(){
     const configured=!!(window.C10Api&&window.C10Api.isConfigured());
-    const signedIn=!!remoteUser&&remoteUser.role==="student";
-    $("studentLoginBtn").disabled=!configured;
-    $("studentLoginPassword").disabled=!configured;
-    $("studentLoginUsername").disabled=!configured;
+    const signedInRemote=!!remoteUser&&remoteUser.role==="student";
+    const signedIn=signedInRemote||!!localAccount;
+    $("studentLoginBtn").disabled=!(configured||!!window.C10StudentAuth);
+    $("studentLoginPassword").disabled=!(configured||!!window.C10StudentAuth);
+    $("studentLoginUsername").disabled=!(configured||!!window.C10StudentAuth);
     $("studentLogoutBtn").hidden=!signedIn;
     $("studentLoginForm").hidden=signedIn;
-    $("studentChangePasswordForm").hidden=!(signedIn&&remoteUser.mustChangePassword);
-    if(!configured)accountStatus("Central sign-in is not configured. Local practice and private JSON backups still work.");
-    else if(signedIn&&remoteUser.mustChangePassword)accountStatus("Signed in as "+remoteUser.username+". Change the temporary password before syncing progress.");
-    else if(signedIn)accountStatus("Signed in as "+remoteUser.username+". Profile and completed tests can sync with this account.");
+    $("studentChangePasswordForm").hidden=!(signedInRemote&&remoteUser.mustChangePassword);
+    if(configured){
+      if(!signedIn)accountStatus("Sign in with the username and password provided by the administrator.");
+      else if(signedInRemote&&remoteUser.mustChangePassword)accountStatus("Signed in as "+remoteUser.username+". Change the temporary password before syncing progress.");
+      else if(signedInRemote)accountStatus("Signed in as "+remoteUser.username+". Profile and completed tests sync with this account.");
+    }else if(localAccount){
+      accountStatus("Signed in as "+localAccount.username+" on this browser. This simple account file does not sync history or protect quiz content; ask the admin to reset your password if needed.");
+    }else if(window.C10StudentAuth){
+      accountStatus("Sign in with your assigned username and password. Progress stays in this browser; the account file is a simple starter, not secure access control.");
+    }else accountStatus("Student account file unavailable. Local practice and JSON backups still work.");
   }
   function applyRemoteProfile(remoteProfile){
     profile=window.C10ProfileModel.normalizeProfile(remoteProfile,remoteProfile.profileId);
@@ -297,34 +305,51 @@
   }
   async function studentLogin(event){
     event.preventDefault();
-    if(!window.C10Api||!window.C10Api.isConfigured()){accountStatus("The Cloudflare account service is not configured yet.",true);return;}
     const username=$("studentLoginUsername").value.trim().toLowerCase(),password=$("studentLoginPassword").value;
     try{
-      const result=await window.C10Api.loginStudent(username,password);
-      remoteUser=result.user;remoteUser.mustChangePassword=!!result.user.mustChangePassword;
-      applyRemoteProfile(result.profile);
-      $("currentStudentPassword").value=password;$("studentLoginPassword").value="";
+      if(window.C10Api&&window.C10Api.isConfigured()){
+        const result=await window.C10Api.loginStudent(username,password);
+        remoteUser=result.user;remoteUser.mustChangePassword=!!result.user.mustChangePassword;
+        applyRemoteProfile(result.profile);
+        $("currentStudentPassword").value=password;$("studentLoginPassword").value="";
+        updateAccountUI();
+        if(remoteUser.mustChangePassword)accountStatus("Welcome, "+remoteUser.username+". Please change the temporary password now.");
+        else{accountStatus("Signed in successfully. Loading your central progress…");await refreshRemoteAttempts();accountStatus("Signed in as "+remoteUser.username+". Your account and completed tests are connected.");}
+        renderHistory();
+        return;
+      }
+      if(!window.C10StudentAuth)throw new Error("Student account file is unavailable. Local practice and backups still work.");
+      const result=await window.C10StudentAuth.login(username,password);
+      localAccount=result.account;
+      $("studentLoginPassword").value="";
       updateAccountUI();
-      if(remoteUser.mustChangePassword)accountStatus("Welcome, "+remoteUser.username+". Please change your temporary password now.");
-      else{accountStatus("Signed in successfully. Loading your central progress…");await refreshRemoteAttempts();accountStatus("Signed in as "+remoteUser.username+". Your account and completed tests are connected.");}
       renderHistory();
     }catch(error){accountStatus(error.message||"Student sign-in failed.",true);}
   }
   async function restoreStudentSession(){
-    if(!window.C10Api||!window.C10Api.isConfigured()||!window.C10Api.isAuthenticated()){updateAccountUI();return;}
-    try{
-      const result=await window.C10Api.currentUser();
-      if(!result||!result.user||result.user.role!=="student"){updateAccountUI();return;}
-      remoteUser=result.user;
-      if(result.profile)applyRemoteProfile(result.profile);
-      updateAccountUI();
-      if(!remoteUser.mustChangePassword)await refreshRemoteAttempts();
-      else accountStatus("Your temporary password must be changed before you can sync progress.");
-    }catch(error){updateAccountUI();accountStatus("Account session expired or unavailable. Sign in again to sync.",true);}
+    if(window.C10Api&&window.C10Api.isConfigured()&&window.C10Api.isAuthenticated()){
+      try{
+        const result=await window.C10Api.currentUser();
+        if(!result||!result.user||result.user.role!=="student"){updateAccountUI();return;}
+        remoteUser=result.user;
+        if(result.profile)applyRemoteProfile(result.profile);
+        updateAccountUI();
+        if(!remoteUser.mustChangePassword)await refreshRemoteAttempts();
+        else accountStatus("Your temporary password must be changed before you can sync progress.");
+      }catch(error){updateAccountUI();accountStatus("Account session expired or unavailable. Sign in again to sync.",true);}
+      return;
+    }
+    if(window.C10StudentAuth){
+      try{localAccount=await window.C10StudentAuth.restoreSession();}
+      catch(_){localAccount=null;}
+    }
+    updateAccountUI();
   }
   async function studentLogout(){
-    try{await window.C10Api.logout();}catch(_){}
-    remoteUser=null;remoteAttempts=[];
+    if(remoteUser&&window.C10Api){try{await window.C10Api.logout();}catch(_){}}
+    if(window.C10StudentAuth)window.C10StudentAuth.logout();
+    remoteUser=null;remoteAttempts=[];localAccount=null;
+    $("studentLoginPassword").value="";
     $("currentStudentPassword").value="";$("newStudentPassword").value="";$("confirmStudentPassword").value="";
     updateAccountUI();accountStatus("Signed out. Local progress remains on this device.");renderHistory();
   }
