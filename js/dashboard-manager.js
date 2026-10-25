@@ -2,7 +2,7 @@
 (() => {
   "use strict";
   const SUBJECTS={
-    mathematics:"Mathematics",english:"English","social-science":"Social Science",hindi:"Hindi"
+    science:"Science",mathematics:"Mathematics",english:"English","social-science":"Social Science",hindi:"Hindi"
   };
   const $=id=>document.getElementById(id);
   const profileStore=window.C10Storage.createLocalStore({
