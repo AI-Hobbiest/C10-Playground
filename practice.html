@@ -8,6 +8,7 @@
 </style>
 <link rel="stylesheet" href="./css/branding.css">
 <link rel="stylesheet" href="./css/app-shell.css">
+<link rel="stylesheet" href="./css/question-media.css">
 </head>
 <body>
 <header><a href="./">← All subjects</a><div class="eyebrow">C10-Playground · CBSE Class 10</div><h1><span id="subjectIcon">📚</span> <span id="subjectTitle">Practice</span></h1><p id="subjectSubtitle">Choose a chapter and practise at your pace.</p><div class="brand-signature">Conceptualised by <strong>JP Ganathe</strong></div></header>
@@ -24,10 +25,17 @@
 <section class="quiz" aria-live="polite">
 <div id="status" class="muted hide"></div>
 <div id="welcome"><div class="eyebrow" style="color:#5b7285">Ready when you are</div><h2 style="font-size:1.8rem;margin-top:10px">Build understanding, one question at a time.</h2><p class="muted">Choose a chapter and start practice. Learn mode explains each answer immediately. Test mode holds feedback until the end. Retry missed brings back questions you previously answered incorrectly.</p><div class="topicgrid"><div class="topic"><strong>🧠 Learn</strong><span>Instant feedback and explanations</span></div><div class="topic"><strong>⏱️ Test</strong><span>Answer first, review afterwards</span></div><div class="topic"><strong>🔁 Retry missed</strong><span>Focus on concepts to strengthen</span></div><div class="topic"><strong>📈 Progress</strong><span>Track attempts on this device</span></div></div><div class="hint">The other subject banks are a starter set and will be expanded chapter by chapter. Check your school’s latest syllabus before exam revision.</div></div>
-<div id="session" class="hide"><div class="quiztop"><span class="pill" id="chapterPill">Chapter</span><span class="pill" id="numberPill">Question 1 / 10</span><span class="pill" id="difficultyPill">Medium</span><span class="pill hide" id="timerPill">Elapsed · 00:00</span></div><div class="progress"><i id="progressBar"></i></div><p class="qtext" id="questionText"></p><div class="answers" id="options"></div><div id="feedback"></div><div class="foot"><span class="muted" id="sessionHint">Choose one answer.</span><div class="btnrow" style="margin:0"><button class="btn secondary" id="skipBtn">Skip</button><button class="btn secondary" id="submitBtn">Submit now</button><button class="btn" id="nextBtn" disabled>Next →</button></div></div></div>
+<div id="session" class="hide"><div class="quiztop"><span class="pill" id="chapterPill">Chapter</span><span class="pill" id="numberPill">Question 1 / 10</span><span class="pill" id="difficultyPill">Medium</span><span class="pill hide" id="timerPill">Elapsed · 00:00</span></div><div class="progress"><i id="progressBar"></i></div><p class="qtext" id="questionText"></p><div id="questionMedia" class="question-media hide" aria-label="Question diagrams"></div><div class="answers" id="options"></div><div id="feedback"></div><div class="foot"><span class="muted" id="sessionHint">Choose one answer.</span><div class="btnrow" style="margin:0"><button class="btn secondary" id="skipBtn">Skip</button><button class="btn secondary" id="submitBtn">Submit now</button><button class="btn" id="nextBtn" disabled>Next →</button></div></div></div>
 <div id="results" class="hide"><div class="result"><div class="eyebrow" style="color:#5b7285">Session complete</div><div class="score"><div><strong id="scorePct">0%</strong><br><span>correct</span></div></div><h2 id="resultTitle">Nice work!</h2><p class="muted" id="resultCopy"></p><div class="topicgrid" id="resultStats"></div><div class="btnrow" style="justify-content:center"><button class="btn" id="againBtn">Practise again</button><button class="btn secondary" id="reviewAnswersBtn">Review answers</button></div></div></div>
 <div id="review" class="hide"><div class="quiztop"><h2>Review your answers</h2><span class="pill" id="reviewPill"></span></div><div id="reviewList"></div><div class="btnrow"><button class="btn" id="backBtn">Back to practice</button><button class="btn secondary" id="retrySetBtn">Retry missed in this session</button></div></div>
 </section></div></main>
+<div id="imageViewer" class="image-viewer hide" role="dialog" aria-modal="true" aria-label="Enlarged question image" tabindex="-1">
+<div class="image-viewer-card">
+<button type="button" id="imageViewerClose" class="image-viewer-close" aria-label="Close enlarged image">×</button>
+<img id="imageViewerImage" class="image-viewer-image" alt="">
+<p id="imageViewerCaption" class="image-viewer-caption"></p>
+</div>
+</div>
 <footer>Original practice questions for revision. Some school syllabi include additional or deleted topics; confirm the course and current syllabus with your teacher. Keep noticing what you understand and what still needs practice.</footer>
 <script src="./js/storage.js"></script>
 <script src="./js/question-bank.js"></script>
