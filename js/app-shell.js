@@ -33,7 +33,8 @@
   function isActive(item,current){
     if(item.page!==current.file)return false;
     if(item.subject)return item.subject===current.subject;
-    if(item.hash)return current.hash===item.hash;
+    if(item.hash)return current.hash===item.hash || (current.file==="profile.html" && !current.hash && item.hash==="#profile");
+    if(item.page==="dashboard.html")return current.hash!=="#rewards";
     if(item.page==="profile.html")return !["#profile","#history","#rewards","#backup"].includes(current.hash);
     return item.page!=="practice.html"&&!item.hash;
   }
