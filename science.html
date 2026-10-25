@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#122c44">
+<title>Science Practice | C10-Playground</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:#f4f8fb;color:#172f45;font:16px/1.6 system-ui,-apple-system,Segoe UI,Arial,sans-serif}main{max-width:560px;background:white;border:1px solid #dce7ee;border-radius:18px;padding:28px;box-shadow:0 10px 36px #17354a0e}h1{margin:0 0 8px;font-size:1.55rem}.muted{color:#5b7285}.spinner{width:28px;height:28px;border:3px solid #dce7ee;border-top-color:#167e86;border-radius:50%;animation:spin .8s linear infinite;margin:16px 0}@keyframes spin{to{transform:rotate(360deg)}}a{color:#167e86;font-weight:700}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.78rem}
+</style>
+</head>
+<body>
+<main>
+<h1>C10-Playground · Science</h1>
+<div id="status" class="muted">Loading the Science practice module…</div>
+<div id="spinner" class="spinner" aria-hidden="true"></div>
+<p class="muted">The question bank is being assembled securely in your browser. This may take a few seconds on a slow connection.</p>
+<p><a href="./">← Back to all subjects</a></p>
+</main>
+<script>
+(async function(){
+  const status=document.getElementById('status');
+  const spinner=document.getElementById('spinner');
+  try{
+    if(typeof DecompressionStream==='undefined') throw new Error('This browser does not support gzip decompression. Please update Safari or open the portal in a recent browser.');
+    const parts=await Promise.all(Array.from({length:17},(_,index)=>{
+      const name='part-'+String(index+1).padStart(2,'0')+'.txt';
+      return fetch('./science-payload/'+name,{cache:'no-store'}).then(response=>{
+        if(!response.ok) throw new Error('Could not load '+name+' (HTTP '+response.status+').');
+        return response.text();
+      });
+    }));
+    const encoded=parts.join('').trim();
+    const binary=atob(encoded);
+    const bytes=new Uint8Array(binary.length);
+    for(let i=0;i<binary.length;i++) bytes[i]=binary.charCodeAt(i);
+    const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+    const html=await new Response(stream).text();
+    if(!html.includes('EMBEDDED_CHAPTERS') && !html.includes('chapterSelect') && !html.includes('Chapter')) throw new Error('The loaded module did not pass its content check.');
+    document.open();
+    document.write(html);
+    document.close();
+  }catch(error){
+    spinner.style.display='none';
+    status.textContent='Science practice could not be loaded.';
+    const detail=document.createElement('pre');
+    detail.textContent=String(error && error.message || error);
+    const p=document.createElement('p');
+    p.appendChild(detail);
+    document.querySelector('main').appendChild(p);
+    console.error(error);
+  }
+})();
+</script>
+</body>
+</html>
