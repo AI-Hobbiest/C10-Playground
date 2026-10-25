@@ -172,6 +172,8 @@ jobs:
         run: node tests/session-model.test.js
       - name: Test quiz engine autosave and recovery
         run: node tests/quiz-engine.test.js
+      - name: Test Science shared-engine migration
+        run: node tests/science-integration.test.js
       - name: Test profile model and privacy fields
         run: node tests/profile-model.test.js
       - name: Test profile page save/history and JSON backup
