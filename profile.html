@@ -51,10 +51,10 @@ hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
 <main class="profile-wrap">
   <section class="profile-card" id="studentAccountPanel" style="margin-bottom:18px">
     <h2>Student account &amp; cross-device sync</h2>
-    <p class="status">Sign in with the Student ID and temporary password provided by the portal administrator. Once the account service is configured, your profile and completed tests can sync across devices.</p>
+    <p class="status">Sign in with the username and temporary password provided by the portal administrator. Once the account service is configured, your profile and completed tests can sync across devices.</p>
     <div id="studentAccountStatus" class="notice" role="status" aria-live="polite">Central sign-in is not configured yet. Local practice and backups continue to work.</div>
     <form id="studentLoginForm" class="form-grid" novalidate>
-      <div class="field"><label for="studentLoginId">Student ID</label><input id="studentLoginId" autocomplete="username" placeholder="C10-XXXXXXXX" required></div>
+      <div class="field"><label for="studentLoginUsername">Username</label><input id="studentLoginUsername" autocomplete="username" autocapitalize="none" placeholder="Your username" maxlength="32" required></div>
       <div class="field"><label for="studentLoginPassword">Password</label><input id="studentLoginPassword" type="password" autocomplete="current-password" required></div>
       <div class="field full"><button class="btn" id="studentLoginBtn" type="submit">Sign in &amp; sync</button> <button class="btn secondary" id="studentLogoutBtn" type="button" hidden>Sign out</button></div>
     </form>
