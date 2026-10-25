@@ -63,7 +63,8 @@
   }
   function setTab(name){
     const protectedTabs=new Set(["banks","classes","knowledge","students","leaderboard","operations"]);
-    if(protectedTabs.has(name)&&!isAdminAuthenticated()){
+    const apiReady=!!(window.C10Api&&window.C10Api.isConfigured());
+    if(apiReady&&protectedTabs.has(name)&&!isAdminAuthenticated()){
       setAccountStatus("This section is locked. Sign in with an approved GitHub administrator to continue.","error");
       name="access";
     }
