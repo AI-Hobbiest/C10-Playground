@@ -30,7 +30,7 @@ The portal uses the **Midnight Indigo + Electric Coral + Mint** theme and the at
 | Social Science | History, Geography, Political Science, Economics and marked enrichment topics | 110 |
 | Hindi | General grammar/comprehension and selected Course A/B literature topics | 92 |
 
-The four JSON banks are starter banks, **not yet 100 questions per chapter**. Questions are original practice items rather than copied from commercial question banks. English prompts discuss literature themes and events without reproducing textbook passages. Social Science includes some enrichment/map/project-related topics; confirm which chapters are included in the student’s exam. Hindi literature coverage is a selection and should be matched to the student’s actual Hindi Course A or Course B syllabus.
+The four committed JSON banks are starter banks, **not yet 100 questions per chapter**. The Science bank is generated from its existing compressed source during deployment. Questions are original practice items rather than copied from commercial question banks. English prompts discuss literature themes and events without reproducing textbook passages. Social Science includes some enrichment/map/project-related topics; confirm which chapters are included in the student’s exam. Hindi literature coverage is a selection and should be matched to the student’s actual Hindi Course A or Course B syllabus.
 
 ## Practice engine
 
