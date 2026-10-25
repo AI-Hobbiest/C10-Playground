@@ -1,6 +1,7 @@
 (() => {
 "use strict";
 const SUBJECTS = {
+  science: { title:"Science", icon:"🧪", subtitle:"Explore biology, chemistry and physics through concept checks, explanations and exam-style practice." },
   mathematics: { title:"Mathematics", icon:"📐", subtitle:"Reason it out, work step by step, and use each mistake to sharpen the method." },
   english: { title:"English", icon:"📚", subtitle:"Practise reading, grammar and original questions about the prescribed literature." },
   "social-science": { title:"Social Science", icon:"🌍", subtitle:"Connect historical evidence, geography, democratic ideas and economic choices." },
