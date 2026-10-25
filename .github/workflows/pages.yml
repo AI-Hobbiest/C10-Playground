@@ -147,7 +147,7 @@ jobs:
           const homepage=fs.readFileSync('_site/index.html','utf8');
           if (!homepage.includes('./profile.html')) throw new Error('Homepage profile link is missing.');
           
-          for (const slug of ['subject=mathematics','subject=english','subject=social-science','subject=hindi']) {
+          for (const slug of ['subject=science','subject=mathematics','subject=english','subject=social-science','subject=hindi']) {
             if (!homepage.includes(slug)) throw new Error('Homepage link is missing '+slug);
           }
           if (!homepage.includes('Conceptualised by') || !homepage.includes('JP Ganathe')) throw new Error('Homepage attribution is missing.');
