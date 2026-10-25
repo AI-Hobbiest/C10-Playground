@@ -87,7 +87,7 @@ jobs:
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
           }
-          for (const file of ['practice.html','profile.html','css/branding.css','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+          for (const file of ['practice.html','profile.html','css/branding.css','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
           const profilePage=fs.readFileSync('_site/profile.html','utf8');
@@ -106,7 +106,7 @@ jobs:
           if (!practice.includes('Conceptualised by')) throw new Error('Practice-page attribution is missing.');
           const sequence=['./js/storage.js','./js/question-bank.js','./js/session-model.js','./js/quiz-engine.js'].map(src=>practice.indexOf(src));
           if (sequence.some(index=>index<0) || !(sequence[0]<sequence[1] && sequence[1]<sequence[2])) throw new Error('Practice dependencies are missing or out of order.');
-          for (const file of ['question-bank.schema.json','question-bank-import.schema.json','student-profile.schema.json','answer-record.schema.json','test-attempt.schema.json','local-store-envelope.schema.json']) {
+          for (const file of ['question-bank.schema.json','question-bank-import.schema.json','student-profile.schema.json','answer-record.schema.json','test-attempt.schema.json','local-store-envelope.schema.json','backup.schema.json']) {
             const schema=JSON.parse(fs.readFileSync('_site/data/contracts/v1/'+file,'utf8'));
             if (!schema.$schema || !schema.title) throw new Error('Invalid contract metadata: '+file);
           }
