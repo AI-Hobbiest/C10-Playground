@@ -15,7 +15,7 @@ assert.ok(nav.includes('href:"./profile.html#profile"'));
 assert.ok(nav.includes('href:"./profile.html#history"'));
 assert.ok(nav.includes('href:"./profile.html#backup"'));
 assert.ok(nav.includes("aria-expanded"));
-assert.ok(nav.includes("event.key==="Escape""));
+assert.ok(nav.includes('event.key==="Escape"'));
 assert.ok(nav.includes('const file=last.includes(".")?last:"index.html"'),"GitHub Pages project root resolves as index");
 assert.ok(css.includes("@media(max-width:900px)"));
 assert.ok(css.includes(".c10-sidebar.open"));
