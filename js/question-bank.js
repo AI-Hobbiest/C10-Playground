@@ -4,6 +4,26 @@
   const slug = value => String(value || "chapter").normalize("NFKD").toLowerCase()
     .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "chapter";
 
+  function normalizeImages(images) {
+    if (images == null) return [];
+    if (!Array.isArray(images)) throw new Error("Question images must be an array.");
+    return images.map((image, index) => {
+      if (!image || typeof image !== "object") {
+        throw new Error("Invalid image metadata at image " + (index + 1) + ".");
+      }
+      const src = String(image.src || "").trim();
+      const alt = String(image.alt || "").trim();
+      const isRasterDataUri = /^data:image\/(?:png|jpeg|webp|gif);base64,[A-Za-z0-9+/]+={0,2}$/i.test(src);
+      const isRelativeAsset = /^(?:\.\/|\/)?[A-Za-z0-9._~!  function normalize(data, subjectId) {'()+,;=@%-]+(?:\/[A-Za-z0-9._~!  function normalize(data, subjectId) {'()+,;=@%-]+)*$/.test(src) &&
+        !src.startsWith("//") && !src.split("/").includes("..") && !src.includes(":");
+      if (!src || (!isRasterDataUri && !isRelativeAsset)) {
+        throw new Error("Image " + (index + 1) + " must use a relative asset path or a PNG, JPEG, WebP or GIF data URI.");
+      }
+      if (!alt) throw new Error("Image " + (index + 1) + " needs descriptive alt text.");
+      return { src, alt, caption: String(image.caption || "").trim() };
+    });
+  }
+
   function normalize(data, subjectId) {
     let source = data;
     if (data && !Array.isArray(data) && data.kind === "question-bank" &&
@@ -20,7 +40,8 @@
           answer: (question.options || []).findIndex(option => option.optionId === question.correctOptionId),
           explanation: question.explanation,
           difficulty: question.difficulty,
-          questionId: question.questionId
+          questionId: question.questionId,
+          images: question.images || []
         }))
       }));
     }
@@ -78,6 +99,7 @@
             chapter_no: chapterNo,
             chapterKey,
             chapterTitle: chapter.title,
+            images: normalizeImages(question.images),
             questionKey: String(subjectId) + "/" + chapterKey + "/q-" + id
           };
         })
@@ -88,6 +110,7 @@
   window.C10QuestionBank = Object.freeze({
     schemaVersion: 1,
     normalize,
+    normalizeImages,
     keyFor: (question, subjectId) => String(question.questionKey ||
       (String(subjectId) + "/" + String(question.chapterKey || ("chapter-" + question.chapter_no)) + "/q-" + question.id))
   });
