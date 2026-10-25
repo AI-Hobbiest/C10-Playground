@@ -22,6 +22,20 @@
   <div class="admin-notice">
     <strong>Security boundary:</strong> this is a local authoring workspace, not an authenticated admin login. Changes stay in this browser until you export them. Student backups are processed locally and are not uploaded to this site. Never paste a GitHub password, token or student password here. Publishing requires an authorised GitHub account.
   </div>
+  <section class="admin-panel active" id="adminAuthBanner" style="gap:12px">
+    <div class="admin-form-grid">
+      <div style="grid-column:1/-1">
+        <h2>Administrator sign-in</h2>
+        <p class="admin-muted">Sign in with your GitHub account to manage central student accounts, reset passwords, and view live reports. The backend must be configured first.</p>
+      </div>
+    </div>
+    <div class="admin-actions">
+      <button class="admin-btn" id="adminLoginBtn" type="button">Continue with GitHub</button>
+      <button class="admin-btn secondary" id="adminLogoutBtn" type="button" hidden>Sign out</button>
+      <span id="adminIdentity" class="admin-chip" hidden></span>
+    </div>
+    <div id="adminAuthStatus" class="admin-status" role="status" aria-live="polite">Checking account service configuration…</div>
+  </section>
   <div class="admin-grid" aria-label="Workspace summary">
     <div class="admin-stat"><strong id="statQuestions">—</strong><span>Questions in loaded bank</span></div>
     <div class="admin-stat"><strong id="statClasses">—</strong><span>Active classes</span></div>
@@ -108,7 +122,7 @@
           <div class="admin-field"><label for="classId">Class ID</label><input id="classId" placeholder="e.g. 5 or 10"></div>
           <div class="admin-field"><label for="classLabel">Display label</label><input id="classLabel" placeholder="e.g. Class 5"></div>
         </div>
-        <div class="admin-actions"><button class="admin-btn" id="addClassBtn" type="button">＋ Add class</button><button class="admin-btn secondary" id="exportClassesBtn" type="button">Export classes.json</button><button class="admin-btn secondary" id="reloadClassesBtn" type="button">Reload published list</button></div>
+        <div class="admin-actions"><button class="admin-btn" id="addClassBtn" type="button">＋ Add class</button><button class="admin-btn secondary" id="exportClassesBtn" type="button">Export classes.json</button><button class="admin-btn secondary" id="reloadClassesBtn" type="button">Reload published list</button></div><div class="admin-actions"><button class="admin-btn secondary" id="syncClassesBtn" type="button">Sync catalogue to central accounts</button></div><p class="admin-inline-help">Requires GitHub Admin sign-in and configured Cloudflare API. Synchronises class IDs/labels/status into the account database used to validate student accounts.</p>
         <div id="classesStatus" class="admin-status" role="status"></div>
         <div id="classesTable" class="admin-table-wrap"></div>
       </section>
@@ -135,6 +149,36 @@
 
       <section class="admin-panel" id="tab-students">
         <h2>Student profile management and progress reports</h2>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
+          <h3>Central student accounts · live</h3>
+          <p class="admin-muted">Requires authorised GitHub Admin sign-in and the configured Cloudflare account service. These are real central accounts, not imported backup copies.</p>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="centralStudentId">Student ID (optional)</label><input id="centralStudentId" placeholder="Leave blank to generate"></div>
+            <div class="admin-field"><label for="centralStudentName">Display name</label><input id="centralStudentName" maxlength="80"></div>
+            <div class="admin-field"><label for="centralStudentSchool">School</label><input id="centralStudentSchool" maxlength="160"></div>
+            <div class="admin-field"><label for="centralStudentClass">Class</label><select id="centralStudentClass"><option value="10">Class 10</option></select></div>
+            <div class="admin-field"><label for="centralStudentCity">City</label><input id="centralStudentCity" maxlength="100"></div>
+            <div class="admin-field"><label for="centralStudentState">State / UT</label><select id="centralStudentState"><option value="">Choose State / UT</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn" type="button" id="createCentralStudentBtn">Create student account</button><button class="admin-btn secondary" type="button" id="refreshCentralStudentsBtn">Refresh accounts</button></div>
+          <div id="centralStudentStatus" class="admin-status" role="status">Sign in with GitHub after setting up the API to enable central accounts.</div>
+          <div id="centralTempPasswordBox" hidden>
+            <strong>Temporary password — copy and share privately now. It will not be shown again.</strong>
+            <textarea id="centralTempPassword" readonly rows="2"></textarea>
+            <button class="admin-btn secondary" type="button" id="copyCentralTempPasswordBtn">Copy temporary password</button>
+          </div>
+          <div id="centralStudentsTable" class="admin-table-wrap"></div>
+        </section>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
+          <h3>Live progress report</h3>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="liveProgressClass">Class filter</label><select id="liveProgressClass"><option value="">All classes</option></select></div>
+            <div class="admin-field"><label for="liveProgressSubject">Subject filter</label><select id="liveProgressSubject"><option value="">All subjects</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="refreshLiveProgressBtn" type="button">Refresh live report</button><button class="admin-btn secondary" id="exportLiveProgressBtn" type="button">Download live CSV</button></div>
+          <div id="liveProgressStatus" class="admin-status" role="status">Sign in and configure the API to retrieve central progress records.</div>
+          <div id="liveProgressTable" class="admin-table-wrap"></div>
+        </section>
         <p class="admin-muted">Import one or more student backup JSON files received from the existing portal. The files remain in this browser session. You can inspect reports, edit an imported profile snapshot, download a revised backup, or remove a record from this local workbench.</p>
         <div class="admin-notice"><strong>Current architecture limitation:</strong> student progress is stored on each student's device. This workspace cannot automatically see all learners or remotely edit/delete their device data. Student password reset/set is unavailable because V1 has no student passwords or central accounts.</div>
         <div class="admin-field"><label for="studentBackups">Import student backup files (multiple allowed)</label><input class="admin-file" id="studentBackups" type="file" accept=".json,application/json" multiple></div>
@@ -146,7 +190,17 @@
 
       <section class="admin-panel" id="tab-leaderboard">
         <h2>Leaderboards</h2>
-        <p class="admin-muted">Rank the student backups imported in the Students &amp; reports tab. Scores are computed from completed shared-engine attempts only. This is not a live, server-wide leaderboard.</p>
+        <p class="admin-muted">The first table below ranks imported backup files. Use the live leaderboard to rank centrally stored student accounts across devices.</p>
+        <section class="admin-content" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
+          <h3>Live class / subject leaderboard</h3>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="liveLeaderClass">Class filter</label><select id="liveLeaderClass"><option value="">All classes</option></select></div>
+            <div class="admin-field"><label for="liveLeaderSubject">Subject filter</label><select id="liveLeaderSubject"><option value="">Overall</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="refreshLiveLeaderboardBtn" type="button">Refresh live leaderboard</button><button class="admin-btn secondary" id="exportLiveLeaderboardBtn" type="button">Download live leaderboard CSV</button></div>
+          <div id="liveLeaderboardStatus" class="admin-status" role="status">Sign in and configure the API to retrieve live rankings.</div>
+          <div id="liveLeaderboardTable" class="admin-table-wrap"></div>
+        </section>
         <div class="admin-form-grid">
           <div class="admin-field"><label for="leaderClass">Class filter</label><select id="leaderClass"><option value="">All imported classes</option></select></div>
           <div class="admin-field"><label for="leaderSubject">Subject</label><select id="leaderSubject"><option value="">Overall</option><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select></div>
@@ -197,10 +251,28 @@
     <div id="studentEditStatus" class="admin-status" role="status"></div>
   </div>
 </div>
+<div id="centralStudentEditorModal" class="image-viewer hide" role="dialog" aria-modal="true" aria-labelledby="centralStudentEditorTitle">
+  <div class="image-viewer-card" style="width:min(650px,100%)">
+    <button type="button" class="image-viewer-close" id="closeCentralStudentEditor" aria-label="Close student account editor">×</button>
+    <h2 id="centralStudentEditorTitle">Edit central student account</h2>
+    <div class="admin-form-grid">
+      <div class="admin-field full"><label for="editCentralStudentName">Display name</label><input id="editCentralStudentName"></div>
+      <div class="admin-field"><label for="editCentralStudentSchool">School</label><input id="editCentralStudentSchool"></div>
+      <div class="admin-field"><label for="editCentralStudentClass">Class</label><select id="editCentralStudentClass"></select></div>
+      <div class="admin-field"><label for="editCentralStudentCity">City</label><input id="editCentralStudentCity"></div>
+      <div class="admin-field"><label for="editCentralStudentState">State / UT</label><select id="editCentralStudentState"></select></div>
+      <div class="admin-field full"><label for="editCentralStudentStatus">Account status</label><select id="editCentralStudentStatus"><option value="active">Active</option><option value="suspended">Suspended</option></select></div>
+    </div>
+    <div class="admin-actions"><button type="button" class="admin-btn" id="saveCentralStudentBtn">Save central profile</button></div>
+    <div id="centralStudentEditStatus" class="admin-status" role="status"></div>
+  </div>
+</div>
 <script src="./js/storage.js"></script>
 <script src="./js/question-bank.js"></script>
 <script src="./js/session-model.js"></script>
 <script src="./js/profile-model.js"></script>
+<script src="./js/api-config.js"></script>
+<script src="./js/api-client.js"></script>
 <script src="./js/admin-manager.js"></script>
 <script src="./js/app-shell.js"></script>
 </body>
