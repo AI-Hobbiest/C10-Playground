@@ -14,7 +14,7 @@
     {section:"MY LEARNING"},
     {label:"My profile",icon:"👤",href:"./profile.html#profile",page:"profile.html",hash:"#profile"},
     {label:"Test history",icon:"📈",href:"./profile.html#history",page:"profile.html",hash:"#history"},
-    {label:"Levels & rewards",icon:"🏆",href:"./profile.html#rewards",page:"profile.html",hash:"#rewards"},
+    {label:"Levels & rewards",icon:"🏆",href:"./dashboard.html#rewards",page:"dashboard.html",hash:"#rewards"},
     {label:"Backup & restore",icon:"💾",href:"./profile.html#backup",page:"profile.html",hash:"#backup"}
   ];
 
