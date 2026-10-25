@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/C10-Playground/data/contracts/v1/question-bank-import.schema.json",
+  "title": "C10 Playground Legacy Question Bank Import",
+  "description": "Compatibility schema for existing JSON banks. New banks should use question-bank.schema.json.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "chapter_no",
+      "title",
+      "questions"
+    ],
+    "properties": {
+      "chapter_no": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "key": {
+        "type": "string"
+      },
+      "section": {
+        "type": "string"
+      },
+      "questions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "question",
+            "options",
+            "answer",
+            "explanation"
+          ],
+          "properties": {
+            "id": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            },
+            "question": {
+              "type": "string",
+              "minLength": 1
+            },
+            "options": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "string"
+              }
+            },
+            "answer": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "explanation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "difficulty": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        }
+      }
+    },
+    "additionalProperties": true
+  }
+}
