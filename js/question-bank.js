@@ -14,7 +14,7 @@
       const src = String(image.src || "").trim();
       const alt = String(image.alt || "").trim();
       const isRasterDataUri = /^data:image\/(?:png|jpeg|webp|gif);base64,[A-Za-z0-9+/]+={0,2}$/i.test(src);
-      const isRelativeAsset = /^(?:\\.\\/|\\/)?[A-Za-z0-9._~!%()-]+(?:\\/[A-Za-z0-9._~!%()-]+)*$/.test(src) &&
+      const isRelativeAsset = /^(?:\.\/|\/)?[A-Za-z0-9._~!%()-]+(?:\/[A-Za-z0-9._~!%()-]+)*$/.test(src) &&
         !src.startsWith("//") && !src.split("/").includes("..") && !src.includes(":");
       if (!src || (!isRasterDataUri && !isRelativeAsset)) {
         throw new Error("Image " + (index + 1) + " must use a relative asset path or a PNG, JPEG, WebP or GIF data URI.");
