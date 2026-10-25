@@ -35,13 +35,13 @@ The four committed JSON banks are starter banks, **not yet 100 questions per cha
 
 ## Admin Workspace
 
-Open the Admin Workspace at https://ai-hobbiest.github.io/C10-Playground/admin.html. The administrator signs in with an approved GitHub account; students do **not** use GitHub. Editing, account-management and reporting tabs are gated in the interface for signed-in administrators. Publishing question banks, class lists, and knowledge resources still requires repository write permission and a reviewed GitHub change.
+Open the Admin Workspace at https://ai-hobbiest.github.io/C10-Playground/admin.html. The page prepares local drafts and exports JSON. It has no in-app admin login or GitHub write token; only a trusted GitHub repository maintainer can publish changes.
 
-Students sign in with a **username and password** created by the administrator. A separate generated Student ID is kept for profile/history/report references and is not the login username. The service creates a one-time temporary password; the student must change it after first sign-in. Administrators can view central accounts, reset passwords, suspend or remove access, edit profiles, and view live progress/leaderboards.
+For the starter phase, students can sign in with a **username and password** from `data/student-accounts.json`. Passwords are stored as salted PBKDF2-SHA-256 hashes, never as plaintext. The administrator creates an account or resets a password in the Admin Workspace, downloads the updated JSON file, then commits that file to GitHub. The new account/password becomes active after GitHub Pages redeploys. Use usernames that do not identify students and unique classroom-only passwords.
 
-The existing account API is in `cloudflare/worker.js`, with its D1 schema in `cloudflare/schema.sql`. GitHub Pages cannot securely run a password verifier or shared database by itself, so the central features remain disabled until the Worker and D1 database are deployed and `js/api-config.js` contains the Worker URL. Setup instructions are in [cloudflare/SETUP.md](cloudflare/SETUP.md). No GitHub OAuth secret or student password belongs in the public repository.
+**Security limitation:** this repository and account file are public. Anyone can read usernames, salts and hashes and attempt offline password guesses. Verification happens in the browser and can be bypassed; this is not real authentication or a way to protect quiz content. Do not use personal, reused or confidential passwords, and do not store student profile data in the account file. Server-side authentication, private account storage, admin-only account management, cross-device sync and live reports are deferred. The existing Cloudflare Worker and D1 source in `cloudflare/` is retained only as a possible later improvement.
 
-The local backup-import/reporting tools remain available as code in this version, but should be used only by the administrator. Student backups are processed in the browser and are not uploaded automatically. Do not commit student backups or private documents to this public repository. The `data/classes.json` file controls the class choices used by profiles; `data/knowledge-base.json` is a metadata manifest, not a document store.
+The local backup-import/reporting tools remain available, but student backups are processed in the browser and are not uploaded automatically. Do not commit student backups or private documents to this public repository. The `data/classes.json` file controls class choices used by profiles; `data/knowledge-base.json` is a metadata manifest, not a document store.
 
 ## Practice engine
 
@@ -100,7 +100,7 @@ XP, levels, streaks and badges are **derived from saved completed attempts**, no
 
 ## Local storage and privacy limits
 
-When the account API is not configured, student profiles, attempts, XP, levels, streaks and badges remain in that browser's local storage. Clearing browser storage can remove records, so students should export JSON backups and keep them private. When a student signs in to the configured central account service, the profile and completed test records can sync across devices. Historical local records are not automatically assigned to a new account; import or reconcile backups deliberately rather than silently attaching them to the first login.
+Student profiles, attempts, XP, levels, streaks and badges remain in that browser's local storage, whether or not the student signs in. Clearing browser storage can remove records, so students should export JSON backups and keep them private. The starter account file verifies a username/password locally but does not sync data across devices. Import or reconcile backups deliberately when moving devices.
 
 ## Deployment and checks
 
