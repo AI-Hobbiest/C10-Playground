@@ -95,7 +95,7 @@ function makeContext(seed = {}) {
   const contractDir = "data/contracts/v1";
   for (const file of [
     "question-bank.schema.json", "question-bank-import.schema.json", "student-profile.schema.json",
-    "answer-record.schema.json", "test-attempt.schema.json", "local-store-envelope.schema.json"
+    "answer-record.schema.json", "test-attempt.schema.json", "local-store-envelope.schema.json", "backup.schema.json"
   ]) {
     const schema = JSON.parse(read(path.join(contractDir, file)));
     assert.equal(schema.$schema, "https://json-schema.org/draft/2020-12/schema", file + " has a declared JSON Schema version");
