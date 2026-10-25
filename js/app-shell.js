@@ -25,7 +25,8 @@
     return element;
   }
   function getLocation(){
-    const file=location.pathname.split("/").filter(Boolean).pop()||"index.html";
+    const last=location.pathname.split("/").filter(Boolean).pop()||"index.html";
+    const file=last.includes(".")?last:"index.html";
     const params=new URLSearchParams(location.search);
     return {file,subject:params.get("subject")||"",hash:location.hash||""};
   }
