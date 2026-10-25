@@ -54,6 +54,8 @@ jobs:
           cp js/quiz-engine.js _site/js/quiz-engine.js
           cp data/*.json _site/data/
           cp data/contracts/v1/* _site/data/contracts/v1/
+          if [ -d assets ]; then cp -R assets _site/assets; fi
+          if [ -d knowledge ]; then cp -R knowledge _site/knowledge; fi
           mkdir -p _site/science-payload
           cp science-payload/part-*.txt _site/science-payload/
       - name: Validate Science module payload
@@ -136,6 +138,23 @@ jobs:
                     !question.explanation) {
                   throw new Error('Malformed MCQ in '+name+', chapter '+chapter.title+', id '+question.id);
                 }
+                if (question.images !== undefined) {
+                  if (!Array.isArray(question.images)) throw new Error('Images must be an array in '+name+', chapter '+chapter.title+', question '+question.id);
+                  for (const [imageIndex, image] of question.images.entries()) {
+                    if (!image || typeof image.src !== 'string' || !image.alt || !image.alt.trim()) {
+                      throw new Error('Image '+(imageIndex+1)+' needs a source and alt text in '+name+', question '+question.id);
+                    }
+                    const src=image.src.trim();
+                    const dataUri=/^data:image\\/(?:png|jpeg|webp|gif);base64,[A-Za-z0-9+/]+={0,2}$/i.test(src);
+                    const relative=/^(?:\\.\\/|\\/)?[A-Za-z0-9._~!%()-]+(?:\\/[A-Za-z0-9._~!%()-]+)*$/.test(src) &&
+                      !src.startsWith('//') && !src.split('/').includes('..') && !src.includes(':');
+                    if (!dataUri && !relative) throw new Error('Unsafe image source '+src+' in '+name+', question '+question.id);
+                    if (!dataUri) {
+                      const assetPath=src.replace(/^\\.\\//,'').replace(/^\\//,'');
+                      if (!fs.existsSync('_site/'+assetPath)) throw new Error('Missing image asset '+src+' referenced by '+name+', question '+question.id);
+                    }
+                  }
+                }
               }
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
@@ -144,9 +163,8 @@ jobs:
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
           const admin=fs.readFileSync('_site/admin.html','utf8');
-          for (const required of ['data-tab="banks"','data-tab="classes"','data-tab="knowledge"','data-tab="students"','data-tab="leaderboard"','data-tab="access"','id="questionMedia"']) {
-            if (!admin.includes(required) && required === 'id="questionMedia"') { /* Question media is rendered on practice page, not Admin. */ }
-            else if (!admin.includes(required)) throw new Error('Admin workspace section missing: '+required);
+          for (const required of ['data-tab="banks"','data-tab="classes"','data-tab="knowledge"','data-tab="students"','data-tab="leaderboard"','data-tab="access"','data-tab="operations"']) {
+            if (!admin.includes(required)) throw new Error('Admin workspace section missing: '+required);
           }
           if (!admin.includes('./js/admin-manager.js') || !admin.includes('./css/admin.css')) throw new Error('Admin workspace scripts/styles missing.');
           const adminScripts=['./js/storage.js','./js/question-bank.js','./js/session-model.js','./js/profile-model.js','./js/admin-manager.js','./js/app-shell.js'].map(src=>admin.indexOf(src));
