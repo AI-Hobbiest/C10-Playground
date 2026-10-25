@@ -367,7 +367,23 @@ function finish(status="submitted",askConfirmation=false){
   saveLedger();
   answers=currentAttempt.answers.map((record,i)=>runtimeAnswer(record,session[i]));
   lastMissed=answers.filter(answer=>!answer||!answer.correct).map(answer=>answer.question);
+  const cloudAttempt={
+    ...completedAttempt,
+    questions:session.map(question=>({id:question.id,questionKey:keyFor(question)})),
+    answers:currentAttempt.answers
+  };
   renderResults(summary);currentAttempt=null;show("results");
+  if(window.C10Api&&window.C10Api.isConfigured()&&window.C10Api.isAuthenticated()){
+    window.C10Api.currentUser().then(identity=>{
+      if(!identity||!identity.user||identity.user.role!=="student")return null;
+      if(identity.mustChangePassword||identity.user.mustChangePassword)throw new Error("Change your temporary password on the Profile page before syncing.");
+      return window.C10Api.saveStudentAttempt(cloudAttempt);
+    }).then(result=>{
+      if(result&&$("resultCopy"))setText("resultCopy",$("resultCopy").textContent+" Synced to your central student account.");
+    }).catch(error=>{
+      if($("resultCopy"))setText("resultCopy",$("resultCopy").textContent+" Cloud sync failed ("+error.message+"). Your local result is still saved.");
+    });
+  }
 }
 function renderResults(summary){
   const result=summary.attempt;
