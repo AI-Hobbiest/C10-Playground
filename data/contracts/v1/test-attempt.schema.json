@@ -143,6 +143,18 @@
         "type": "string",
         "format": "uuid"
       }
+    },
+    "answeredCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "skippedCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unansweredCount": {
+      "type": "integer",
+      "minimum": 0
     }
   },
   "additionalProperties": false
