@@ -34,7 +34,8 @@ jobs:
           cp science.html _site/science.html
           cp practice.html _site/practice.html
           cp .nojekyll _site/.nojekyll
-          mkdir -p _site/js _site/data
+          mkdir -p _site/js _site/data _site/css
+          cp css/branding.css _site/css/branding.css
           cp js/quiz-engine.js _site/js/quiz-engine.js
           cp data/*.json _site/data/
           mkdir -p _site/science-payload
@@ -79,14 +80,16 @@ jobs:
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
           }
-          for (const file of ['practice.html','js/quiz-engine.js','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+          for (const file of ['practice.html','css/branding.css','js/quiz-engine.js','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
           const homepage=fs.readFileSync('_site/index.html','utf8');
           for (const slug of ['subject=mathematics','subject=english','subject=social-science','subject=hindi']) {
             if (!homepage.includes(slug)) throw new Error('Homepage link is missing '+slug);
           }
-          console.log('Validated all subject links and assets.');
+          if (!homepage.includes('Conceptualised by') || !homepage.includes('JP Ganathe')) throw new Error('Homepage attribution is missing.');
+          if (!fs.readFileSync('_site/practice.html','utf8').includes('Conceptualised by')) throw new Error('Practice-page attribution is missing.');
+          console.log('Validated all subject links, branding and assets.');
 
           NODE
       - name: Upload static site
