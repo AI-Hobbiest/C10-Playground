@@ -110,6 +110,7 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   assert.equal(wrapped.data.activeAttempt.status,"in-progress");
   assert.equal(wrapped.data.activeAttempt.currentIndex,1);
   assert.ok(wrapped.data.activeAttempt.answers[0],"first answer autosaved");
+  assert.ok(wrapped.data.activeAttempt.questions.some(question=>question.images&&question.images.some(image=>image.sourceInQuestionBank===true&&!image.src)),"embedded image data is not duplicated into the local session snapshot");
   const savedProfileId=wrapped.data.activeAttempt.profileId;
 
   const resumed=makeEnvironment(first.values);
@@ -117,6 +118,8 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   assert.equal(resumed.elements.session.classList.contains("hide"),false,"saved attempt resumes after reload");
   assert.equal(resumed.elements.numberPill.textContent,"Question 2 / 2");
   assert.equal(resumed.elements.options.children.length,4);
+  assert.equal(resumed.elements.questionMedia.children.length,1,"diagram is restored from the question bank after refresh");
+  assert.ok(resumed.elements.questionMedia.children[0].children[0].children[0].src,"restored diagram has its original source");
   resumed.elements.options.children[0].click();
   resumed.elements.nextBtn.click();
   assert.equal(resumed.elements.results.classList.contains("hide"),false,"last answer submits completed attempt");
