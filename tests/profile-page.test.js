@@ -8,6 +8,7 @@ class FakeElement {
   set innerHTML(value){this._innerHTML=String(value);this.children=[];}
   get innerHTML(){return this._innerHTML;}
   appendChild(child){this.children.push(child);return child;}
+  append(...children){children.forEach(child=>this.appendChild(child));}
   addEventListener(event,handler){this.handlers[event]=handler;}
   click(){this.clicked=true;if(this.handlers.click)return this.handlers.click({target:this});}
   remove(){this.removed=true;}
