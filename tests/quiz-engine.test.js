@@ -32,7 +32,7 @@ const subjectBank = [{
   ]
 }];
 
-function makeEnvironment(seed = new Map()){
+function makeEnvironment(seed = new Map(), subject = "mathematics"){
   const values=new Map(seed);
   const ids=new FakeElement("mode-buttons");
   ids.children=[];
@@ -73,7 +73,7 @@ function makeEnvironment(seed = new Map()){
   const context={
     window:{addEventListener:()=>{}},document,localStorage,console,Date,Math,JSON,Object,Array,Number,String,
     TypeError,Uint8Array,encodeURIComponent,URLSearchParams,
-    location:{search:"?subject=mathematics"},
+    location:{search:"?subject="+subject},
     crypto:{randomUUID:()=>("00000000-0000-4000-8000-"+String(++uuidCounter).padStart(12,"0"))},
     fetch:()=>Promise.resolve({ok:true,json:()=>Promise.resolve(subjectBank)}),
     setInterval:()=>1,clearInterval:()=>{},confirm:()=>true
@@ -123,5 +123,14 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   assert.equal(wrapped.data.attempts[0].profileId,savedProfileId);
   assert.ok(Number.isInteger(wrapped.data.attempts[0].durationSeconds));
 
-  console.log("Quiz integration tests passed: answer autosave, page-refresh recovery, completion, result persistence, stable profile identity, and answer-record linkage.");
+  const science=makeEnvironment(new Map(),"science");
+  await delay();
+  assert.equal(science.elements.subjectTitle.textContent,"Science Practice","Science is registered in the common engine");
+  science.elements.startBtn.click();
+  const scienceLedger=[...science.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("science"));
+  assert.ok(scienceLedger,"Science sessions use the shared attempt ledger");
+  const scienceWrapped=JSON.parse(scienceLedger[1]);
+  assert.equal(scienceWrapped.data.activeAttempt.subjectId,"science");
+  assert.equal(scienceWrapped.data.activeAttempt.status,"in-progress");
+  console.log("Quiz integration tests passed: answer autosave, page-refresh recovery, completion, result persistence, stable profile identity, answer-record linkage, and Science shared-engine registration.");
 })().catch(error=>{console.error(error);process.exitCode=1;});
