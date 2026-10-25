@@ -51,15 +51,8 @@
     },
     "classLevel": {
       "type": "string",
-      "enum": [
-        "6",
-        "7",
-        "8",
-        "9",
-        "10",
-        "11",
-        "12"
-      ]
+      "pattern": "^[A-Za-z0-9_-]{1,20}$",
+      "description": "Stable class ID from the class catalogue."
     },
     "city": {
       "type": "string",
