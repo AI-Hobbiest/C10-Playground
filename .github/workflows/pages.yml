@@ -34,10 +34,13 @@ jobs:
           cp science.html _site/science.html
           cp practice.html _site/practice.html
           cp .nojekyll _site/.nojekyll
-          mkdir -p _site/js _site/data _site/css
+          mkdir -p _site/js _site/data _site/css _site/data/contracts/v1
           cp css/branding.css _site/css/branding.css
+          cp js/storage.js _site/js/storage.js
+          cp js/question-bank.js _site/js/question-bank.js
           cp js/quiz-engine.js _site/js/quiz-engine.js
           cp data/*.json _site/data/
+          cp data/contracts/v1/* _site/data/contracts/v1/
           mkdir -p _site/science-payload
           cp science-payload/part-*.txt _site/science-payload/
       - name: Validate Science module payload
@@ -80,7 +83,7 @@ jobs:
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
           }
-          for (const file of ['practice.html','css/branding.css','js/quiz-engine.js','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+          for (const file of ['practice.html','css/branding.css','js/storage.js','js/question-bank.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
           const homepage=fs.readFileSync('_site/index.html','utf8');
@@ -88,10 +91,19 @@ jobs:
             if (!homepage.includes(slug)) throw new Error('Homepage link is missing '+slug);
           }
           if (!homepage.includes('Conceptualised by') || !homepage.includes('JP Ganathe')) throw new Error('Homepage attribution is missing.');
-          if (!fs.readFileSync('_site/practice.html','utf8').includes('Conceptualised by')) throw new Error('Practice-page attribution is missing.');
-          console.log('Validated all subject links, branding and assets.');
+          const practice=fs.readFileSync('_site/practice.html','utf8');
+          if (!practice.includes('Conceptualised by')) throw new Error('Practice-page attribution is missing.');
+          const sequence=['./js/storage.js','./js/question-bank.js','./js/quiz-engine.js'].map(src=>practice.indexOf(src));
+          if (sequence.some(index=>index<0) || !(sequence[0]<sequence[1] && sequence[1]<sequence[2])) throw new Error('Practice dependencies are missing or out of order.');
+          for (const file of ['question-bank.schema.json','question-bank-import.schema.json','student-profile.schema.json','answer-record.schema.json','test-attempt.schema.json','local-store-envelope.schema.json']) {
+            const schema=JSON.parse(fs.readFileSync('_site/data/contracts/v1/'+file,'utf8'));
+            if (!schema.$schema || !schema.title) throw new Error('Invalid contract metadata: '+file);
+          }
+          console.log('Validated subject links, branding, versioned contracts and deployed assets.');
 
           NODE
+      - name: Test foundation contracts and migration
+        run: node tests/foundation.test.js
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
