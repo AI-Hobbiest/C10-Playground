@@ -7,6 +7,7 @@ A mobile-friendly, non-commercial CBSE Class 10 learning and MCQ practice portal
 - Home / all subjects: https://ai-hobbiest.github.io/C10-Playground/
 - Learner dashboard, levels and rewards: https://ai-hobbiest.github.io/C10-Playground/dashboard.html
 - Student profile, test history and JSON backup: https://ai-hobbiest.github.io/C10-Playground/profile.html
+- Admin Workspace (local authoring and reports): https://ai-hobbiest.github.io/C10-Playground/admin.html
 - Science: https://ai-hobbiest.github.io/C10-Playground/science.html
 - Mathematics: https://ai-hobbiest.github.io/C10-Playground/practice.html?subject=mathematics
 - English: https://ai-hobbiest.github.io/C10-Playground/practice.html?subject=english
@@ -31,6 +32,14 @@ The portal uses the **Midnight Indigo + Electric Coral + Mint** theme and the at
 | Hindi | General grammar/comprehension and selected Course A/B literature topics | 92 |
 
 The four committed JSON banks are starter banks, **not yet 100 questions per chapter**. The Science bank is generated from its existing compressed source during deployment. Questions are original practice items rather than copied from commercial question banks. English prompts discuss literature themes and events without reproducing textbook passages. Social Science includes some enrichment/map/project-related topics; confirm which chapters are included in the student’s exam. Hindi literature coverage is a selection and should be matched to the student’s actual Hindi Course A or Course B syllabus.
+
+## Admin Workspace
+
+Open the Admin Workspace at https://ai-hobbiest.github.io/C10-Playground/admin.html. It provides local question-bank editing/export (including chapter/question/image metadata), editable class catalogue, knowledge-resource manifest management, import of multiple student backup files for progress reports and leaderboards, and export of CSV/JSON files.
+
+**This is not an authenticated admin login.** Changes are prepared in the current browser tab and must be exported. New image/PDF files are downloaded separately and must be manually uploaded to their referenced repository paths. Publishing is controlled by GitHub account permissions and the deployment workflow; no GitHub password or token is embedded in the website. Additional admins are granted access through the repository's GitHub settings.
+
+Student profiles and progress still live on individual devices. The workspace can report only on backup JSON files explicitly imported by the operator; it cannot remotely edit/delete student device records. Student password setting/reset is not available because the portal has no central student accounts or password store. Do not publish student backups or private documents to this public repository. The `data/classes.json` file controls active class choices; `data/knowledge-base.json` is a metadata manifest and does not itself store files.
 
 ## Practice engine
 
@@ -95,7 +104,7 @@ The app is static, uses no paid charting library and makes no new API calls for 
 
 ## Deployment and checks
 
-GitHub Actions assembles and deploys the site to GitHub Pages. It validates the Science payload and generates/tests the shared Science bank, checks each subject question-bank structure, then runs automated tests for foundation migration, test-session calculations/recovery, Science normalization and routing, student profile validation, JSON backup/restore, XP/levels/badges and responsive navigation.
+GitHub Actions assembles and deploys the site to GitHub Pages. It validates the Science payload and generates/tests the shared Science bank when no committed `data/science.json` exists; when that file exists, it becomes the editable source of truth. It checks each subject question-bank structure and any referenced image assets, then runs automated tests for foundation migration, test-session calculations/recovery, Science normalization and routing, student profile validation, Admin Workspace data handling, JSON backup/restore, XP/levels/badges and responsive navigation.
 
 ## Syllabus and usage note
 
