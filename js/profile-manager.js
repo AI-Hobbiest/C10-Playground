@@ -21,6 +21,7 @@
   const prior = profileStore.load();
   const profileId = prior.profileId || window.C10Storage.createId();
   let profile = window.C10ProfileModel.normalizeProfile(prior,profileId);
+  let remoteUser=null,remoteAttempts=[];
   if(!window.C10ProfileModel.validateProfile(profile)){
     profileStore.save(profile);
   }
@@ -104,7 +105,7 @@
     return value;
   }
 
-  function saveProfile(event){
+  async function saveProfile(event){
     event.preventDefault();
     const proposed=readForm();
     if(!window.C10ProfileModel.validateProfile(proposed)){
@@ -114,10 +115,14 @@
       else if(!window.C10ProfileModel.statesAndUTs.some(item=>item.name===$("state").value))$("state").focus();
       return;
     }
-    profile=proposed;
-    profileStore.save(profile);
-    renderForm();
-    setStatus("Profile saved on this device. Your Student ID is "+profile.studentId+".");
+    profile=proposed;profileStore.save(profile);renderForm();
+    if(window.C10Api&&window.C10Api.isAuthenticated()&&remoteUser&&remoteUser.role==="student"){
+      try{
+        const result=await window.C10Api.updateStudentProfile({displayName:profile.displayName,school:profile.school,classId:profile.classLevel,city:profile.city,state:profile.state});
+        profile=window.C10ProfileModel.normalizeProfile(result.profile,result.profile.profileId);profileStore.save(profile);renderForm();
+        setStatus("Profile saved locally and synced to your student account.");
+      }catch(error){setStatus("Profile saved on this device, but central sync failed: "+error.message,true);}
+    }else setStatus("Profile saved on this device. Sign in with your student account to sync it across devices.");
     renderHistory();
   }
 
@@ -129,6 +134,13 @@
         if(attempt.profileId && attempt.profileId!==profile.profileId)continue;
         rows.push({...attempt,subjectId:attempt.subjectId||subject,subjectTitle:title});
       }
+    }
+    const seen=new Set(rows.map(row=>String(row.attemptId||"")));
+    for(const attempt of remoteAttempts){
+      if(seen.has(String(attempt.attemptId)))continue;
+      const title=SUBJECTS[attempt.subjectId]||attempt.subjectId||"Practice";
+      rows.push({...attempt,subjectId:attempt.subjectId,subjectTitle:title,correctCount:attempt.score,questionCount:attempt.maxScore});
+      seen.add(String(attempt.attemptId));
     }
     return rows.sort((a,b)=>String(b.submittedAt||b.startedAt).localeCompare(String(a.submittedAt||a.startedAt)));
   }
@@ -196,12 +208,20 @@
         ledger:subjectStore("test-attempt-ledger",subject).load()
       };
     }
-    return {
-      schemaVersion:1,kind:"c10-playground-backup",
-      exportedAt:now(),
-      profile:clone(profile),
-      subjectData
-    };
+    for(const attempt of remoteAttempts){
+      const ledger=subjectData[attempt.subjectId]&&subjectData[attempt.subjectId].ledger;
+      if(!ledger||ledger.attempts.some(item=>String(item.attemptId)===String(attempt.attemptId)))continue;
+      ledger.attempts.push({
+        schemaVersion:1,kind:"test-attempt",attemptId:attempt.attemptId,profileId:profile.profileId,
+        subjectId:attempt.subjectId,mode:attempt.mode,source:{type:"central-sync",sourceId:attempt.subjectId},
+        questionBankVersion:"central-v1",status:attempt.status,startedAt:attempt.startedAt,
+        submittedAt:attempt.submittedAt,durationSeconds:attempt.durationSeconds,timeLimitSeconds:null,
+        score:attempt.score,maxScore:attempt.maxScore,correctCount:attempt.score,questionCount:attempt.maxScore,
+        answeredCount:0,skippedCount:0,unansweredCount:0,questionIds:attempt.payload&&attempt.payload.questionIds||[],answerRecordIds:[]
+      });
+    }
+    for(const subject of Object.keys(SUBJECTS))subjectData[subject].ledger.attempts.sort((a,b)=>String(b.submittedAt||"").localeCompare(String(a.submittedAt||"")));
+    return {schemaVersion:1,kind:"c10-playground-backup",exportedAt:now(),profile:clone(profile),subjectData};
   }
 
   function downloadBackup(){
@@ -248,9 +268,87 @@
     }
   }
 
+  function accountStatus(message,isError=false){
+    const el=$("studentAccountStatus");if(!el)return;
+    el.textContent=message;el.className="notice"+(isError?" admin-status error":"");
+  }
+  function updateAccountUI(){
+    const configured=!!(window.C10Api&&window.C10Api.isConfigured());
+    const signedIn=!!remoteUser&&remoteUser.role==="student";
+    $("studentLoginBtn").disabled=!configured;
+    $("studentLoginPassword").disabled=!configured;
+    $("studentLoginId").disabled=!configured;
+    $("studentLogoutBtn").hidden=!signedIn;
+    $("studentLoginForm").hidden=signedIn;
+    $("studentChangePasswordForm").hidden=!(signedIn&&remoteUser.mustChangePassword);
+    if(!configured)accountStatus("Central sign-in is not configured. Local practice and private JSON backups still work.");
+    else if(signedIn&&remoteUser.mustChangePassword)accountStatus("Signed in as "+remoteUser.studentId+". Change the temporary password before syncing progress.");
+    else if(signedIn)accountStatus("Signed in as "+remoteUser.studentId+". Profile and completed tests can sync with this account.");
+  }
+  function applyRemoteProfile(remoteProfile){
+    profile=window.C10ProfileModel.normalizeProfile(remoteProfile,remoteProfile.profileId);
+    profileStore.save(profile);renderForm();
+  }
+  async function refreshRemoteAttempts(){
+    if(!remoteUser||remoteUser.role!=="student"||remoteUser.mustChangePassword)return;
+    try{
+      const result=await window.C10Api.getStudentAttempts();remoteAttempts=result.attempts||[];renderHistory();
+    }catch(error){accountStatus("Signed in, but cloud history could not be loaded: "+error.message,true);}
+  }
+  async function studentLogin(event){
+    event.preventDefault();
+    if(!window.C10Api||!window.C10Api.isConfigured()){accountStatus("The Cloudflare account service is not configured yet.",true);return;}
+    const id=$("studentLoginId").value.trim(),password=$("studentLoginPassword").value;
+    try{
+      const result=await window.C10Api.loginStudent(id,password);
+      remoteUser=result.user;remoteUser.mustChangePassword=!!result.user.mustChangePassword;
+      applyRemoteProfile(result.profile);
+      $("currentStudentPassword").value=password;$("studentLoginPassword").value="";
+      updateAccountUI();
+      if(remoteUser.mustChangePassword)accountStatus("Welcome, "+remoteUser.studentId+". Please change your temporary password now.");
+      else{accountStatus("Signed in successfully. Loading your central progress…");await refreshRemoteAttempts();accountStatus("Signed in as "+remoteUser.studentId+". Your account and completed tests are connected.");}
+      renderHistory();
+    }catch(error){accountStatus(error.message||"Student sign-in failed.",true);}
+  }
+  async function restoreStudentSession(){
+    if(!window.C10Api||!window.C10Api.isConfigured()||!window.C10Api.isAuthenticated()){updateAccountUI();return;}
+    try{
+      const result=await window.C10Api.currentUser();
+      if(!result||!result.user||result.user.role!=="student"){updateAccountUI();return;}
+      remoteUser=result.user;
+      if(result.profile)applyRemoteProfile(result.profile);
+      updateAccountUI();
+      if(!remoteUser.mustChangePassword)await refreshRemoteAttempts();
+      else accountStatus("Your temporary password must be changed before you can sync progress.");
+    }catch(error){updateAccountUI();accountStatus("Account session expired or unavailable. Sign in again to sync.",true);}
+  }
+  async function studentLogout(){
+    try{await window.C10Api.logout();}catch(_){}
+    remoteUser=null;remoteAttempts=[];
+    $("currentStudentPassword").value="";$("newStudentPassword").value="";$("confirmStudentPassword").value="";
+    updateAccountUI();accountStatus("Signed out. Local progress remains on this device.");renderHistory();
+  }
+  async function changeStudentPassword(event){
+    event.preventDefault();
+    const current=$("currentStudentPassword").value,newPass=$("newStudentPassword").value,confirmPass=$("confirmStudentPassword").value;
+    if(newPass!==confirmPass){accountStatus("New password and confirmation do not match.",true);return;}
+    if(newPass.length<12||!/[A-Za-z]/.test(newPass)||!/[0-9]/.test(newPass)){accountStatus("Use at least 12 characters including letters and numbers.",true);return;}
+    try{
+      await window.C10Api.changeStudentPassword(current,newPass);
+      $("currentStudentPassword").value="";$("newStudentPassword").value="";$("confirmStudentPassword").value="";
+      const result=await window.C10Api.currentUser();remoteUser=result.user;updateAccountUI();
+      accountStatus("Password changed. Your account is ready to sync across devices.");
+      await refreshRemoteAttempts();
+    }catch(error){accountStatus(error.message||"Unable to change password.",true);}
+  }
+
   function init(){
     populateStates();renderForm();populateClasses();renderHistory();
     $("profileForm").addEventListener("submit",saveProfile);
+    $("studentLoginForm").addEventListener("submit",studentLogin);
+    $("studentLogoutBtn").addEventListener("click",studentLogout);
+    $("studentChangePasswordForm").addEventListener("submit",changeStudentPassword);
+    updateAccountUI();restoreStudentSession();
     $("exportBtn").addEventListener("click",downloadBackup);
     $("importBtn").addEventListener("click",()=>$("backupFile").click());
     $("backupFile").addEventListener("change",importBackup);
