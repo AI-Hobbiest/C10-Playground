@@ -27,6 +27,7 @@
     "subjectData": {
       "type": "object",
       "required": [
+        "science",
         "mathematics",
         "english",
         "social-science",
@@ -43,6 +44,9 @@
           "$ref": "#/$defs/subjectData"
         },
         "hindi": {
+          "$ref": "#/$defs/subjectData"
+        },
+        "science": {
           "$ref": "#/$defs/subjectData"
         }
       },
