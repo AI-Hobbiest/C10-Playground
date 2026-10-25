@@ -3,7 +3,7 @@
   "use strict";
   const links = [
     {section:"LEARN"},
-    {label:"Dashboard",icon:"🏡",href:"./profile.html#dashboard",page:"profile.html",hash:"#dashboard"},
+    {label:"Dashboard",icon:"🏡",href:"./dashboard.html",page:"dashboard.html"},
     {label:"All subjects",icon:"📚",href:"./index.html",page:"index.html"},
     {section:"SUBJECTS"},
     {label:"Science",icon:"🧪",href:"./science.html",page:"science.html"},
