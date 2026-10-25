@@ -50,16 +50,16 @@ hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
 </header>
 <main class="profile-wrap">
   <section class="profile-card" id="studentAccountPanel" style="margin-bottom:18px">
-    <h2>Student account &amp; cross-device sync</h2>
-    <p class="status">Sign in with the username and temporary password provided by the portal administrator. Once the account service is configured, your profile and completed tests can sync across devices.</p>
-    <div id="studentAccountStatus" class="notice" role="status" aria-live="polite">Central sign-in is not configured yet. Local practice and backups continue to work.</div>
+    <h2>Student account</h2>
+    <p class="status">Use the username and password provided by the portal administrator. This starter version checks a public repository account file; it does not protect quiz content or sync history across devices.</p>
+    <div id="studentAccountStatus" class="notice" role="status" aria-live="polite">Loading student account file… Progress and test history remain in this browser.</div>
     <form id="studentLoginForm" class="form-grid" novalidate>
       <div class="field"><label for="studentLoginUsername">Username</label><input id="studentLoginUsername" autocomplete="username" autocapitalize="none" placeholder="Your username" maxlength="32" required></div>
       <div class="field"><label for="studentLoginPassword">Password</label><input id="studentLoginPassword" type="password" autocomplete="current-password" required></div>
-      <div class="field full"><button class="btn" id="studentLoginBtn" type="submit">Sign in &amp; sync</button> <button class="btn secondary" id="studentLogoutBtn" type="button" hidden>Sign out</button></div>
+      <div class="field full"><button class="btn" id="studentLoginBtn" type="submit">Sign in</button> <button class="btn secondary" id="studentLogoutBtn" type="button" hidden>Sign out</button></div>
     </form>
     <form id="studentChangePasswordForm" class="form-grid" hidden novalidate>
-      <div class="field full"><h3 id="changePasswordTitle">Change password</h3><p class="microcopy">Temporary passwords must be changed after first sign-in. Use at least 12 characters including letters and numbers.</p></div>
+      <div class="field full"><h3 id="changePasswordTitle">Password reset</h3><p class="microcopy">For this starter version, ask the administrator to reset the password and publish the updated account file.</p></div>
       <div class="field"><label for="currentStudentPassword">Current password</label><input id="currentStudentPassword" type="password" autocomplete="current-password" required></div>
       <div class="field"><label for="newStudentPassword">New password</label><input id="newStudentPassword" type="password" autocomplete="new-password" minlength="12" required></div>
       <div class="field full"><label for="confirmStudentPassword">Confirm new password</label><input id="confirmStudentPassword" type="password" autocomplete="new-password" minlength="12" required></div>
@@ -140,8 +140,7 @@ hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
 <footer class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong></footer>
 <script src="./js/storage.js"></script>
 <script src="./js/profile-model.js"></script>
-<script src="./js/api-config.js"></script>
-<script src="./js/api-client.js"></script>
+<script src="./js/student-auth.js"></script>
 <script src="./js/profile-manager.js"></script>
 <script src="./js/app-shell.js"></script>
 </body>
