@@ -21,8 +21,6 @@ const progressStore = window.C10Storage.createLocalStore({
 });
 let store={...emptyStore(),...progressStore.load()};
 const shuffle = a => { const b=[...a]; for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b };
-const slug = value => String(value||"chapter").normalize("NFKD").toLowerCase()
-  .replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"") || "chapter";
 const k = q => String(q.questionKey || (subject+"/"+(q.chapterKey||("chapter-"+q.chapter_no))+"/q-"+q.id));
 function show(id){["welcome","session","results","review"].forEach(x=>$(x).classList.toggle("hide",x!==id))}
 function setText(id,value){$(id).textContent=value}
@@ -33,34 +31,6 @@ function updateStats(){
 }
 function allQuestions(){return chapters.flatMap(c=>c.questions.map(q=>({...q,chapter_no:c.chapter_no,chapterTitle:c.title})))}
 function save(){progressStore.save(store);updateStats()}
-function normalizeBank(data){
-  let source=data;
-  if(data && !Array.isArray(data) && data.kind==="question-bank" && data.schemaVersion===1 && Array.isArray(data.chapters)){
-    source=data.chapters.map((chapter,i)=>({
-      chapter_no:chapter.chapterNo||i+1,title:chapter.title,key:chapter.chapterId,section:chapter.section,
-      questions:(chapter.questions||[]).map(question=>({
-        id:question.questionId,question:question.prompt,options:(question.options||[]).map(option=>option.text),
-        answer:(question.options||[]).findIndex(option=>option.optionId===question.correctOptionId),
-        explanation:question.explanation,difficulty:question.difficulty,questionId:question.questionId
-      }))
-    }));
-  }
-  if(!Array.isArray(source)) throw new Error("Question bank must be a legacy chapter array or a schemaVersion 1 question-bank object.");
-  return source.map((c,i)=>{
-    const chapterNo=Number(c.chapter_no||c.chapterNo||i+1);
-    const chapterKey=String(c.key||c.chapterId||slug(c.title));
-    return {...c,chapter_no:chapterNo,key:chapterKey,chapterKey,questions:(c.questions||[]).map((q,j)=>{
-      const rawId=q.questionId??q.id??("q-"+(j+1));
-      const id=String(rawId);
-      let options=Array.isArray(q.options)?q.options.map(option=>typeof option==="string"?option:String(option.text??"")):[];
-      let correctIndex=Number.isInteger(q.answer)?q.answer:options.findIndex((_,n)=>q.options[n]&&q.options[n].optionId===q.correctOptionId);
-      if(options.length<2||correctIndex<0||correctIndex>=options.length) throw new Error("Invalid options or correct answer in "+c.title+", question "+id+".");
-      const pairs=options.map((text,index)=>({text,correct:index===correctIndex}));
-      for(let n=pairs.length-1;n>0;n--){const z=Math.floor(Math.random()*(n+1));[pairs[n],pairs[z]]=[pairs[z],pairs[n]];}
-      return {...q,id,legacyId:String(q.id??q.questionId??(j+1)),options:pairs.map(x=>x.text),answer:pairs.findIndex(x=>x.correct),chapter_no:chapterNo,chapterKey,chapterTitle:c.title,questionKey:subject+"/"+chapterKey+"/q-"+id};
-    })};
-  });
-}
 function remapLegacyQuestionRefs(){
  const remap=new Map();
  allQuestions().forEach(q=>{remap.set(String(q.chapter_no)+":"+String(q.legacyId),k(q));remap.set(String(q.chapter_no)+":"+String(q.id),k(q));});
@@ -71,7 +41,7 @@ function remapLegacyQuestionRefs(){
  if(before!==JSON.stringify({missed:store.missed,attempts:store.attempts})) save();
 }
 function loadBank(data){
- chapters=normalizeBank(data);
+ chapters=window.C10QuestionBank.normalize(data,subject);
  remapLegacyQuestionRefs();
  $("chapter").innerHTML=chapters.map((c,i)=>'<option value="'+i+'">'+String(c.chapter_no).padStart(2,"0")+' · '+c.title+' ('+c.questions.length+')</option>').join("");
  const n=chapters.reduce((s,c)=>s+c.questions.length,0);
