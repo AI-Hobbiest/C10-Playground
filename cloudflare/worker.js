@@ -188,6 +188,8 @@ async function changeStudentPassword(request,env,who) {
   if(user.password_salt&&user.password_hash&&!equalText(await passwordHash(current,user.password_salt),user.password_hash))return fail(request,env,401,"Current password is incorrect.");
   const salt=passwordSalt(),hash=await passwordHash(next,salt),now=isoNow();
   await env.DB.prepare("UPDATE users SET password_salt=?,password_hash=?,must_change_password=0,updated_at=? WHERE id=?").bind(salt,hash,now,who.user_id).run();
+  const currentTokenHash=await sha256((request.headers.get("Authorization")||"").slice(7));
+  await env.DB.prepare("DELETE FROM auth_sessions WHERE user_id=? AND token_hash<>?").bind(who.user_id,currentTokenHash).run();
   await writeAudit(env,who.user_id,"student-password-changed",who.student_id,{});
   return json(request,env,{ok:true,message:"Password changed successfully."});
 }
@@ -329,6 +331,10 @@ export default {
       if(path==="/api/student/login"&&method==="POST")return await studentLogin(request,env);
 
       const auth=await requireAuth(request,env);if(auth.error)return auth.error;const who=auth.who;
+      if(who.role==="student"&&Number(who.must_change_password)===1&&
+         !((path==="/api/auth/me"&&method==="GET")||(path==="/api/auth/logout"&&method==="POST")||(path==="/api/student/change-password"&&method==="POST"))) {
+        return fail(request,env,403,"Change your temporary password before accessing student data.");
+      }
       if(path==="/api/auth/me"&&method==="GET"){
         await env.DB.prepare("UPDATE auth_sessions SET last_seen_at=? WHERE token_hash=?").bind(isoNow(),await sha256((request.headers.get("Authorization")||"").slice(7))).run();
         return json(request,env,{ok:true,user:publicUser(who),profile:who.role==="student"?profileFor(who):null,mustChangePassword:Number(who.must_change_password)===1});
