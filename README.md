@@ -1,14 +1,16 @@
 # C10-Playground
 
-A growing, mobile-friendly, non-commercial Class 10 CBSE learning portal. Version 1 starts with Science practice; Mathematics, English, Social Science and Hindi/second-language modules are planned.
+A growing, mobile-friendly, non-commercial Class 10 CBSE learning portal. Science is the first available module; Mathematics, English, Social Science and Hindi/second-language modules are planned for later phases.
 
-## One-time GitHub Pages setup
+## Live site
 
-1. Open repository **Settings → Pages**.
-2. Under **Build and deployment → Source**, select **GitHub Actions** and save if prompted. The GitHub integration can commit site files but cannot enable Pages for the repository itself.
-3. Open **Actions** and select **Deploy C10-Playground to GitHub Pages**. Each new commit to `main` will then trigger deployment.
-4. When the workflow succeeds, the home page should be available at `https://AI-Hobbiest.github.io/C10-Playground/`.
+- Home: https://AI-Hobbiest.github.io/C10-Playground/
+- Science practice: https://AI-Hobbiest.github.io/C10-Playground/science.html
 
-The site is a static website. No Python or build step is needed on student devices. The full Science practice module with its embedded question bank still needs to be committed as `science.html` before the Science card can open it.
+The Science loader assembles the compressed, embedded question bank in the browser. It does not fetch a separate JSON file, which avoids the local-file question-loading issue seen in the first iPad test. Use a recent browser with gzip `DecompressionStream` support and an internet connection.
 
-This is a non-commercial revision aid. Please verify chapter coverage against the student's current school syllabus. Scores stored by the practice app are local to each browser and do not sync across devices yet.
+## Deployment
+
+GitHub Actions deploys the static site on pushes to `main`. The workflow includes `index.html`, the Science loader, and the compressed Science payload parts. No Python is required on student devices.
+
+This is an independent, non-commercial revision aid. Verify chapter coverage against the student's current school syllabus. Practice scores/progress are stored locally in the browser on the device and do not currently sync across devices. Additional subjects and student profiles/history are future phases, not included yet.
