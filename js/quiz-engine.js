@@ -24,7 +24,7 @@ function updateStats(){
 function allQuestions(){return chapters.flatMap(c=>c.questions.map(q=>({...q,chapter_no:c.chapter_no,chapterTitle:c.title})))}
 function save(){localStorage.setItem(storeKey,JSON.stringify(store));updateStats()}
 function loadBank(data){
- chapters=data.map((c,i)=>({...c,chapter_no:c.chapter_no||i+1,questions:c.questions.map((q,j)=>({...q,id:q.id||j+1,chapter_no:c.chapter_no||i+1,chapterTitle:c.title}))}));
+ chapters=data.map((c,i)=>({...c,chapter_no:c.chapter_no||i+1,questions:c.questions.map((q,j)=>{const pairs=q.options.map((text,index)=>({text,correct:index===q.answer}));for(let n=pairs.length-1;n>0;n--){const z=Math.floor(Math.random()*(n+1));[pairs[n],pairs[z]]=[pairs[z],pairs[n]];}return {...q,options:pairs.map(x=>x.text),answer:pairs.findIndex(x=>x.correct),id:q.id||j+1,chapter_no:c.chapter_no||i+1,chapterTitle:c.title};})}));
  $("chapter").innerHTML=chapters.map((c,i)=>'<option value="'+i+'">'+String(c.chapter_no).padStart(2,"0")+' · '+c.title+' ('+c.questions.length+')</option>').join("");
  const n=chapters.reduce((s,c)=>s+c.questions.length,0);
  setText("chapterTotal",chapters.length);setText("questionTotal",n);
