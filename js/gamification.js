@@ -95,7 +95,7 @@
     const subjectIds=[...new Set(attempts.map(attempt=>attempt.subjectId).filter(Boolean))];
     const subjects=SUBJECTS.map(subject=>{
       const matching=attempts.filter(attempt=>attempt.subjectId===subject.id);
-      const totalQuestions=matching.reduce((sum,attempt)=>sum+Number(attempt.questionCount||attempt.maxScore||0),0);
+      const totalQuestions=matching.reduce((sum,attempt)=>sum+Number(attempt.answeredCount??attempt.questionCount??attempt.maxScore??0),0);
       const correct=matching.reduce((sum,attempt)=>sum+Number(attempt.correctCount??attempt.score??0),0);
       return {...subject,tests:matching.length,questionCount:totalQuestions,correct,
         accuracy:totalQuestions?Math.round(correct/totalQuestions*100):0,
