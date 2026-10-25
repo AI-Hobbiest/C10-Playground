@@ -36,12 +36,22 @@
     const raw=String(location.hash||"");
     if(!raw.startsWith("#"))return null;
     const params=new URLSearchParams(raw.slice(1));
-    const err=params.get("auth_error"),code=params.get("auth_code");
-    if(!err&&!code)return null;
+    const err=params.get("auth_error"),githubCode=params.get("auth_code"),studentCode=params.get("student_code");
+    if(!err&&!githubCode&&!studentCode)return null;
     history.replaceState(null,"",location.pathname+location.search);
-    if(err)throw new Error("GitHub sign-in failed: "+err.replace(/_/g," ")+". Check that your GitHub login is in the admin allowlist.");
-    const result=await request("/api/auth/exchange",{method:"POST",auth:false,body:{code}});
+    if(err)throw new Error("Sign-in failed: "+err.replace(/_/g," ")+". Check the account setup and authorised GitHub login.");
+    const result=studentCode
+      ?await request("/api/auth/student-exchange",{method:"POST",auth:false,body:{code:studentCode}})
+      :await request("/api/auth/exchange",{method:"POST",auth:false,body:{code:githubCode}});
     return saveSession(result);
+  }
+  async function studentLoginPage(){
+    if(!isConfigured())throw new Error("Student accounts are not configured yet. The account service must be deployed first.");
+    window.location.href=BASE+"/student-login";
+  }
+  async function openStudentAccount(){
+    const result=await request("/api/student/account-link",{method:"POST",body:{}});
+    window.location.href=result.url;
   }
   async function loginStudent(studentId,password){
     const result=await request("/api/student/login",{method:"POST",auth:false,body:{studentId,password}});
@@ -61,7 +71,7 @@
   function currentRole(){return cachedUser&&cachedUser.role||null;}
   window.C10Api=Object.freeze({
     isConfigured,isAuthenticated,currentRole,request,api,githubLogin,completeGithubCallback,
-    loginStudent,currentUser,logout,getToken:()=>sessionToken,
+    loginStudent,currentUser,logout,getToken:()=>sessionToken,studentLoginPage,openStudentAccount,
     studentMe:()=>request("/api/student/me"),
     updateStudentProfile:profile=>request("/api/student/profile",{method:"PATCH",body:profile}),
     changeStudentPassword:(currentPassword,newPassword)=>request("/api/student/change-password",{method:"POST",body:{currentPassword,newPassword}}),
