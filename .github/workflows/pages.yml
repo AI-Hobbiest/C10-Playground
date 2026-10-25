@@ -107,6 +107,8 @@ jobs:
         run: node tests/foundation.test.js
       - name: Test session timing and result model
         run: node tests/session-model.test.js
+      - name: Test quiz engine autosave and recovery
+        run: node tests/quiz-engine.test.js
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
