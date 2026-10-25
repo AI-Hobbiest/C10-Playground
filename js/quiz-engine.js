@@ -49,7 +49,37 @@ function updateStats(){
 }
 function allQuestions(){return chapters.flatMap(chapter=>chapter.questions.map(question=>({...question,chapter_no:chapter.chapter_no,chapterTitle:chapter.title})));}
 function saveProgress(){progressStore.save(progress);updateStats();}
-function saveLedger(){ledgerStore.save(ledger);}
+function compactLedgerForStorage(value){
+  const stored=clone(value);
+  const active=stored.activeAttempt;
+  if(active&&Array.isArray(active.questions)){
+    active.questions=active.questions.map(question=>{
+      const snapshot={...question};
+      if(Array.isArray(snapshot.images)){
+        snapshot.images=snapshot.images.map(image=>{
+          if(image&&typeof image.src==="string"&&/^data:image\//i.test(image.src)){
+            const {src,...metadata}=image;
+            return {...metadata,sourceInQuestionBank:true};
+          }
+          return image;
+        });
+      }
+      return snapshot;
+    });
+  }
+  return stored;
+}
+function restoreQuestionBankImages(questions){
+  const byKey=new Map(allQuestions().map(question=>[keyFor(question),question]));
+  return questions.map(question=>{
+    if(Array.isArray(question.images)&&question.images.some(image=>image&&image.sourceInQuestionBank===true)){
+      const source=byKey.get(String(question.questionKey||keyFor(question)));
+      if(source)question.images=clone(source.images||[]);
+    }
+    return question;
+  });
+}
+function saveLedger(){ledgerStore.save(compactLedgerForStorage(ledger));}
 function upsertAnswerRecord(record){
   const position=ledger.answerRecords.findIndex(item=>item.answerRecordId===record.answerRecordId);
   if(position>=0)ledger.answerRecords[position]=record;else ledger.answerRecords.push(record);
@@ -143,6 +173,7 @@ function runtimeAnswer(record,question){
 function restoreAttempt(saved){
   try{
     if(!Array.isArray(saved.questions)||!saved.questions.length||!Array.isArray(saved.answers)||saved.answers.length!==saved.questions.length)throw new Error("Saved attempt shape is invalid.");
+    saved.questions=restoreQuestionBankImages(clone(saved.questions));
     currentAttempt=saved;session=clone(saved.questions);answers=saved.answers.map((record,i)=>runtimeAnswer(record,session[i]));
     index=Math.max(0,Math.min(Number(saved.currentIndex)||0,session.length-1));
     mode=saved.uiMode||({ "mixed-practice":"random","timed-exam":"timed","practice":"retry" }[saved.mode]||saved.mode||"learn");
