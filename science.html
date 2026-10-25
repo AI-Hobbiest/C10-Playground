@@ -4,55 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#211b48">
+<meta http-equiv="refresh" content="0;url=./practice.html?subject=science">
 <title>Science Practice | C10-Playground</title>
+<link rel="stylesheet" href="./css/branding.css">
 <style>
-*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:#f4f8fb;color:#172f45;font:16px/1.6 system-ui,-apple-system,Segoe UI,Arial,sans-serif}main{max-width:560px;background:white;border:1px solid #dce7ee;border-radius:18px;padding:28px;box-shadow:0 10px 36px #17354a0e}h1{margin:0 0 8px;font-size:1.55rem}.muted{color:#5b7285}.spinner{width:28px;height:28px;border:3px solid #dce7ee;border-top-color:#167e86;border-radius:50%;animation:spin .8s linear infinite;margin:16px 0}@keyframes spin{to{transform:rotate(360deg)}}a{color:#167e86;font-weight:700}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.78rem}
+body{font:16px/1.6 system-ui,sans-serif;margin:0;padding:2rem;background:#f4f6ff;color:#211b48}
+main{max-width:42rem;margin:10vh auto;background:white;padding:2rem;border-radius:1.2rem}
+a{color:#b93c66;font-weight:700}
 </style>
+<script>window.location.replace("./practice.html?subject=science");</script>
 </head>
-<body>
-<main>
-<h1>C10-Playground · Science</h1>
-<div id="status" class="muted">Loading the Science practice module…</div>
-<div id="spinner" class="spinner" aria-hidden="true"></div>
-<p class="muted">The question bank is being assembled securely in your browser. This may take a few seconds on a slow connection.</p>
-<p><a href="./">← Back to all subjects</a></p>
-</main>
-<script>
-(async function(){
-  const status=document.getElementById('status');
-  const spinner=document.getElementById('spinner');
-  try{
-    if(typeof DecompressionStream==='undefined') throw new Error('This browser does not support gzip decompression. Please update Safari or open the portal in a recent browser.');
-    const parts=await Promise.all(Array.from({length:17},(_,index)=>{
-      const name='part-'+String(index+1).padStart(2,'0')+'.txt';
-      return fetch('./science-payload/'+name,{cache:'no-store'}).then(response=>{
-        if(!response.ok) throw new Error('Could not load '+name+' (HTTP '+response.status+').');
-        return response.text();
-      });
-    }));
-    const encoded=parts.join('').trim();
-    const binary=atob(encoded);
-    const bytes=new Uint8Array(binary.length);
-    for(let i=0;i<binary.length;i++) bytes[i]=binary.charCodeAt(i);
-    const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
-    let html=await new Response(stream).text();
-    if(!html.includes('EMBEDDED_CHAPTERS') && !html.includes('chapterSelect') && !html.includes('Chapter')) throw new Error('The loaded module did not pass its content check.');
-    html=html.replace(/<\/head>/i, '<meta name="theme-color" content="#211b48"><link rel="stylesheet" href="./css/branding.css"><link rel="stylesheet" href="./css/app-shell.css"></head>');
-    html=html.replace(/<\/body>/i, '<footer class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong></footer><script src="./js/app-shell.js"></script></body>');
-    document.open();
-    document.write(html);
-    document.close();
-  }catch(error){
-    spinner.style.display='none';
-    status.textContent='Science practice could not be loaded.';
-    const detail=document.createElement('pre');
-    detail.textContent=String(error && error.message || error);
-    const p=document.createElement('p');
-    p.appendChild(detail);
-    document.querySelector('main').appendChild(p);
-    console.error(error);
-  }
-})();
-</script>
-</body>
+<body><main>
+<h1>Opening Science Practice…</h1>
+<p>Science now uses the shared practice engine for Learn, Test, Retry Missed, Mixed Practice and Timed Exam sessions.</p>
+<p><a href="./practice.html?subject=science">Continue to Science Practice →</a></p>
+</main></body>
 </html>
