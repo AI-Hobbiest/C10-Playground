@@ -121,6 +121,8 @@ jobs:
         run: node tests/quiz-engine.test.js
       - name: Test profile model and privacy fields
         run: node tests/profile-model.test.js
+      - name: Test profile page save/history and JSON backup
+        run: node tests/profile-page.test.js
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
