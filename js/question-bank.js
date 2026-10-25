@@ -54,7 +54,14 @@
           if (!question.explanation) {
             throw new Error("Explanation is missing in " + chapter.title + ", question " + id + ".");
           }
-          const pairs = options.map((text, index) => ({ text, correct: index === answer }));
+          const optionIds = Array.isArray(question.options)
+            ? question.options.map((option, index) => typeof option === "string"
+              ? "option-" + (index + 1)
+              : String(option.optionId ?? ("option-" + (index + 1))))
+            : [];
+          const pairs = options.map((text, index) => ({
+            text, optionId: optionIds[index], correct: index === answer
+          }));
           for (let n = pairs.length - 1; n > 0; n--) {
             const z = Math.floor(Math.random() * (n + 1));
             [pairs[n], pairs[z]] = [pairs[z], pairs[n]];
@@ -65,6 +72,8 @@
             id,
             legacyId: String(question.id ?? question.questionId ?? (j + 1)),
             options: pairs.map(pair => pair.text),
+            optionIds: pairs.map(pair => pair.optionId),
+            correctOptionId: (pairs.find(pair => pair.correct) || {}).optionId || ("option-" + (answer + 1)),
             answer: pairs.findIndex(pair => pair.correct),
             chapter_no: chapterNo,
             chapterKey,
