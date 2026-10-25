@@ -27,14 +27,16 @@ const backup={
  schemaVersion:1,kind:"c10-playground-backup",exportedAt:"2026-10-25T10:00:00.000Z",
  profile:normalized,
  subjectData:{
-  science:{progress:{missed:[],answered:0,correct:0,attempts:[]},ledger:{attempts:[],activeAttempt:null,answerRecords:[]}},\n  mathematics:{progress:{missed:[],answered:2,correct:1,attempts:[]},ledger:{attempts:[],activeAttempt:null,answerRecords:[]}},
+  science:{progress:{missed:[],answered:0,correct:0,attempts:[]},ledger:{attempts:[],activeAttempt:null,answerRecords:[]}},
+  mathematics:{progress:{missed:[],answered:2,correct:1,attempts:[]},ledger:{attempts:[],activeAttempt:null,answerRecords:[]}},
   english:{progress:{missed:[],answered:0,correct:0,attempts:[]},ledger:{attempts:[],activeAttempt:null,answerRecords:[]}},
   "social-science":{progress:{missed:[],answered:0,correct:0,attempts:[]},ledger:{attempts:[],activeAttempt:null,answerRecords:[]}},
   hindi:{progress:{missed:[],answered:0,correct:0,attempts:[]},ledger:{attempts:[],activeAttempt:null,answerRecords:[]}}
  }
 };
 assert.equal(model.isValidBackup(backup),true);
-assert.equal(model.isValidBackup({...backup,kind:"wrong-kind"}),false);\nconst withoutScience=JSON.parse(JSON.stringify(backup));delete withoutScience.subjectData.science;assert.equal(model.isValidBackup(withoutScience),false);
+assert.equal(model.isValidBackup({...backup,kind:"wrong-kind"}),false);
+const withoutScience=JSON.parse(JSON.stringify(backup));delete withoutScience.subjectData.science;assert.equal(model.isValidBackup(withoutScience),false);
 assert.equal(model.isValidBackup({...backup,profile:{...normalized,school:""}}),false);
 
 const schema=JSON.parse(fs.readFileSync("data/contracts/v1/student-profile.schema.json","utf8"));
