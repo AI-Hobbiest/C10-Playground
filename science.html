@@ -37,8 +37,8 @@
     const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
     let html=await new Response(stream).text();
     if(!html.includes('EMBEDDED_CHAPTERS') && !html.includes('chapterSelect') && !html.includes('Chapter')) throw new Error('The loaded module did not pass its content check.');
-    html=html.replace(/<\/head>/i, '<meta name="theme-color" content="#211b48"><link rel="stylesheet" href="./css/branding.css"></head>');
-    html=html.replace(/<\/body>/i, '<footer class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong></footer></body>');
+    html=html.replace(/<\/head>/i, '<meta name="theme-color" content="#211b48"><link rel="stylesheet" href="./css/branding.css"><link rel="stylesheet" href="./css/app-shell.css"></head>');
+    html=html.replace(/<\/body>/i, '<footer class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong></footer><script src="./js/app-shell.js"></script></body>');
     document.open();
     document.write(html);
     document.close();
