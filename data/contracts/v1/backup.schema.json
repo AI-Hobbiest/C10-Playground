@@ -1,0 +1,132 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-hobbiest.github.io/C10-Playground/data/contracts/v1/backup.schema.json",
+  "title": "C10 Playground Local Backup v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "kind",
+    "exportedAt",
+    "profile",
+    "subjectData"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "kind": {
+      "const": "c10-playground-backup"
+    },
+    "exportedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "profile": {
+      "$ref": "./student-profile.schema.json"
+    },
+    "subjectData": {
+      "type": "object",
+      "required": [
+        "mathematics",
+        "english",
+        "social-science",
+        "hindi"
+      ],
+      "properties": {
+        "mathematics": {
+          "$ref": "#/$defs/subjectData"
+        },
+        "english": {
+          "$ref": "#/$defs/subjectData"
+        },
+        "social-science": {
+          "$ref": "#/$defs/subjectData"
+        },
+        "hindi": {
+          "$ref": "#/$defs/subjectData"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "progress": {
+      "type": "object",
+      "required": [
+        "missed",
+        "answered",
+        "correct",
+        "attempts"
+      ],
+      "properties": {
+        "missed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "answered": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "correct": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "attempts": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "ledger": {
+      "type": "object",
+      "required": [
+        "attempts",
+        "activeAttempt",
+        "answerRecords"
+      ],
+      "properties": {
+        "attempts": {
+          "type": "array",
+          "items": {
+            "$ref": "./test-attempt.schema.json"
+          }
+        },
+        "activeAttempt": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "answerRecords": {
+          "type": "array",
+          "items": {
+            "$ref": "./answer-record.schema.json"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "subjectData": {
+      "type": "object",
+      "required": [
+        "progress",
+        "ledger"
+      ],
+      "properties": {
+        "progress": {
+          "$ref": "#/$defs/progress"
+        },
+        "ledger": {
+          "$ref": "#/$defs/ledger"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
