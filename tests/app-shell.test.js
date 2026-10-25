@@ -18,7 +18,8 @@ assert.ok(nav.includes("aria-expanded"));
 assert.ok(nav.includes('event.key==="Escape"'));
 assert.ok(nav.includes('const file=last.includes(".")?last:"index.html"'),"GitHub Pages project root resolves as index");
 assert.ok(css.includes("@media(max-width:900px)"));
-assert.ok(css.includes(".c10-sidebar.open"));\nassert.ok(css.includes(".c10-mobilebar{display:none}"),"mobile bar is hidden on desktop");
+assert.ok(css.includes(".c10-sidebar.open"));
+assert.ok(css.includes(".c10-mobilebar{display:none}"),"mobile bar is hidden on desktop");
 assert.ok(css.includes(".c10-nav-scrim.visible"));
 assert.ok(css.includes("prefers-reduced-motion"));
 for(const [name,html] of [["homepage",homepage],["practice",practice],["profile",profile]]) {
