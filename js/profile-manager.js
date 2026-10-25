@@ -2,6 +2,7 @@
 (() => {
   "use strict";
   const SUBJECTS = {
+    science:"Science",
     mathematics:"Mathematics",
     english:"English",
     "social-science":"Social Science",
