@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#211b48">
+<meta name="description" content="Track your learning level, XP, achievements and practice progress in C10 Playground.">
+<title>Learning Dashboard | C10 Playground</title>
+<link rel="stylesheet" href="./css/branding.css"><link rel="stylesheet" href="./css/app-shell.css">
+<style>
+.dash-wrap{max-width:1120px;margin:25px auto;padding:0 18px 50px;display:grid;gap:16px}
+.dash-hero{position:relative;overflow:hidden;border-radius:22px;padding:clamp(22px,4vw,34px);color:#fff;background:radial-gradient(circle at 90% 10%,rgba(255,107,112,.42),transparent 16rem),linear-gradient(130deg,#211b48 0%,#4533a4 66%,#6250e8 100%);box-shadow:0 15px 38px rgba(48,35,111,.16)}
+.dash-hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center}
+.dash-kicker{color:#d4ceff;text-transform:uppercase;letter-spacing:.15em;font-size:.72rem;font-weight:850}
+.dash-hero h1{font-size:clamp(1.55rem,4vw,2.35rem);line-height:1.12;margin:8px 0;color:#fff}
+.dash-hero p{color:#e4e0ff;max-width:570px;line-height:1.55;margin:0}
+.level-orb{width:112px;height:112px;border-radius:28px;display:grid;place-content:center;text-align:center;border:1px solid rgba(255,255,255,.32);background:rgba(255,255,255,.11);backdrop-filter:blur(8px);transform:rotate(3deg)}
+.level-orb strong{font-size:2.4rem;line-height:1}.level-orb span{font-size:.7rem;font-weight:850;letter-spacing:.1em;text-transform:uppercase;margin-top:5px}
+.xp-block{margin-top:23px;position:relative;z-index:1}.xp-line{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:.82rem;font-weight:750;color:#fff;margin-bottom:8px}
+.xp-track{height:10px;border-radius:99px;background:rgba(255,255,255,.22);overflow:hidden}.xp-track i{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,#bff3df,#ffd166,#ff9eaa);transition:width .3s ease}
+.dash-stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}
+.dash-stat{background:#fff;border:1px solid var(--c10-line);border-radius:17px;padding:15px;min-width:0;box-shadow:0 7px 22px rgba(48,35,111,.04)}
+.dash-stat-icon{font-size:1.3rem}.dash-stat strong{font-size:clamp(1.2rem,2.3vw,1.65rem);display:block;color:var(--c10-ink);margin:5px 0 2px;overflow-wrap:anywhere}.dash-stat span{font-size:.77rem;color:var(--c10-muted);line-height:1.35}
+.dash-charts{display:grid;grid-template-columns:1fr 1fr;gap:15px}.dash-panel{background:#fff;border:1px solid var(--c10-line);border-radius:19px;padding:clamp(15px,2vw,22px);min-width:0;box-shadow:0 8px 24px rgba(48,35,111,.04)}
+.dash-panel h2,.dash-panel h3{font-size:1rem;margin:0 0 5px;color:var(--c10-ink)}.dash-help{font-size:.78rem;color:var(--c10-muted);line-height:1.45;margin:0 0 15px}
+.dash-panel-head{display:flex;align-items:start;justify-content:space-between;gap:12px}.dash-tag{font-size:.69rem;font-weight:850;white-space:nowrap;border-radius:999px;padding:5px 8px;background:#efedff;color:#5140b7}
+.trend-chart{display:flex;align-items:stretch;gap:8px;min-height:164px;overflow-x:auto;padding:0 2px 3px}
+.trend-item{min-width:29px;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px}.trend-value{font-size:.68rem;font-weight:800;color:#5543c4}
+.trend-track{height:112px;width:100%;max-width:32px;display:flex;align-items:flex-end;border-radius:8px;background:#f1efff;overflow:hidden}.trend-bar{width:100%;min-height:3px;border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,#ff888c,#7661f0)}
+.trend-label{max-width:44px;font-size:.66rem;color:var(--c10-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.empty-chart{min-height:120px;display:grid;place-items:center;text-align:center;color:var(--c10-muted);font-size:.84rem;line-height:1.5;padding:12px}
+.subject-bars{display:grid;gap:13px}.subject-bar-row{display:grid;grid-template-columns:minmax(86px,.75fr) minmax(0,1.5fr) 42px;gap:9px;align-items:center}
+.subject-bar-label{font-size:.79rem;font-weight:750;color:var(--c10-ink);overflow-wrap:anywhere}.subject-track{height:11px;border-radius:99px;background:#efedff;overflow:hidden}.subject-fill{height:100%;border-radius:inherit;background:linear-gradient(90deg,#6250e8,#5bc8a5)}
+.subject-percent{text-align:right;font-size:.76rem;font-weight:850;color:#5543c4}
+.week-chart{display:flex;gap:9px;align-items:flex-end;min-height:142px;padding-top:10px}.week-day{flex:1;min-width:0;text-align:center;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:flex-end;height:126px}
+.week-count{font-size:.68rem;color:var(--c10-muted);font-weight:750}.week-track{height:82px;width:100%;max-width:31px;display:flex;align-items:flex-end;border-radius:8px;background:#f1efff;overflow:hidden}
+.week-fill{width:100%;border-radius:7px 7px 2px 2px;background:linear-gradient(180deg,#ff8b8f,#6250e8);min-height:0}.week-label{font-size:.68rem;font-weight:750;color:var(--c10-muted)}
+.badge-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.achievement{border:1px solid var(--c10-line);border-radius:15px;padding:13px;text-align:center;background:#fff;min-width:0}
+.achievement.earned{border-color:#d4eddf;background:linear-gradient(160deg,#f4fff9,#fff)}.achievement.locked{opacity:.57;filter:saturate(.35)}
+.achievement-emoji{font-size:1.8rem;line-height:1.4}.achievement strong{display:block;font-size:.8rem;line-height:1.3;margin:7px 0 4px}.achievement span{display:block;font-size:.7rem;color:var(--c10-muted);line-height:1.4}
+.dash-links{display:flex;flex-wrap:wrap;gap:9px;margin-top:14px}.dash-links .btn{margin:0;text-decoration:none}
+@media(max-width:900px){.dash-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.badge-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:620px){.dash-charts{grid-template-columns:1fr}.dash-hero-grid{grid-template-columns:minmax(0,1fr) 78px;gap:10px}.level-orb{width:76px;height:76px;border-radius:22px}.level-orb strong{font-size:1.8rem}.level-orb span{font-size:.6rem}.dash-hero p{font-size:.88rem}.badge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.subject-bar-row{grid-template-columns:minmax(82px,.75fr) minmax(0,1.5fr) 38px}}
+@media(max-width:390px){.dash-hero-grid{grid-template-columns:1fr}.level-orb{position:absolute;right:0;top:0;width:64px;height:64px}.dash-hero h1{max-width:78%;font-size:1.5rem}.dash-stat{padding:12px}.badge-grid{gap:7px}}
+</style>
+</head>
+<body>
+<header style="padding:25px max(18px,calc((100vw - 1120px)/2))">
+  <div class="eyebrow">C10 Playground · Learner dashboard</div>
+  <div class="brand-signature">Conceptualised by <strong>JP Ganathe</strong></div>
+</header>
+<main class="dash-wrap">
+  <section class="dash-hero">
+    <div class="dash-hero-grid">
+      <div><div class="dash-kicker">Your learning journey</div><h1 id="dashboardTitle">Ready to level up?</h1><p id="dashboardIntro">Every question you tackle helps build your skills. Keep practising and collect XP along the way.</p></div>
+      <div class="level-orb" aria-label="Current level"><strong id="levelNumber">1</strong><span>LEVEL</span></div>
+    </div>
+    <div class="xp-block"><div class="xp-line"><span id="levelTitle">🌱 Curious Starter</span><span id="xpProgressLabel">0 / 100 XP</span></div>
+      <div class="xp-track" role="progressbar" aria-label="Progress to next level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="levelProgress"><i id="levelProgressFill"></i></div>
+      <div class="xp-line" style="margin-top:8px;margin-bottom:0"><span id="levelNextHint">Complete your first test to earn XP.</span><span id="xpTotalLabel">0 XP earned</span></div>
+    </div>
+  </section>
+  <div class="dash-stat-grid">
+    <div class="dash-stat"><div class="dash-stat-icon">✨</div><strong id="dashXpStat">0</strong><span>Total experience points</span></div>
+    <div class="dash-stat"><div class="dash-stat-icon">🧩</div><strong id="dashTestsStat">0</strong><span>Completed tests</span></div>
+    <div class="dash-stat"><div class="dash-stat-icon">🔥</div><strong id="dashStreakStat">0 days</strong><span>Current practice streak</span></div>
+    <div class="dash-stat"><div class="dash-stat-icon">🏅</div><strong id="dashBadgesStat">0 / 11</strong><span>Achievements unlocked</span></div>
+  </div>
+  <div class="dash-charts">
+    <section class="dash-panel"><div class="dash-panel-head"><div><h2>Score journey</h2><p class="dash-help">Your last 10 completed tests, from oldest to newest.</p></div><span class="dash-tag">TREND</span></div><div id="scoreTrendChart" class="trend-chart" role="img" aria-label="Score trend from the last ten tests"><div class="empty-chart">Complete a test to start your score graph.</div></div></section>
+    <section class="dash-panel"><div class="dash-panel-head"><div><h2>Subject strength</h2><p class="dash-help">Accuracy across answered questions in each subject.</p></div><span class="dash-tag">SKILLS</span></div><div id="subjectAccuracyChart" class="subject-bars" role="img" aria-label="Accuracy by subject"><div class="empty-chart">Subject results will appear here after practice.</div></div></section>
+    <section class="dash-panel"><div class="dash-panel-head"><div><h2>Weekly rhythm</h2><p class="dash-help">Number of completed tests by day over the last 7 days.</p></div><span class="dash-tag">HABIT</span></div><div id="weeklyActivityChart" class="week-chart" role="img" aria-label="Completed tests over the last seven days"><div class="empty-chart">Your recent practice activity will show up here.</div></div></section>
+    <section class="dash-panel"><div class="dash-panel-head"><div><h2>How levels work</h2><p class="dash-help">Earn experience through completed tests and correct answers.</p></div><span class="dash-tag">LEVEL UP</span></div><div class="notice" style="margin:0">Every completed test earns 10 XP. Each correct answer earns 2 XP, with extra bonuses for 70% and 90% accuracy. XP and badges are calculated from saved results, so they don't double-count when the page is reopened.</div><div class="dash-links"><a class="btn" href="./index.html">Choose a subject</a><a class="btn secondary" href="./profile.html#profile">My profile</a></div></section>
+  </div>
+  <section id="rewards" class="dash-panel"><div class="dash-panel-head"><div><h2>Achievements &amp; rewards</h2><p class="dash-help">Little milestones that celebrate effort, accuracy and exploring new subjects.</p></div><span id="badgeCountLabel" class="dash-tag">0 unlocked</span></div><div id="badgeGrid" class="badge-grid"><div class="empty-chart">Your first achievement is just a test away.</div></div></section>
+  <footer class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong></footer>
+</main>
+<script src="./js/storage.js"></script>
+<script src="./js/profile-model.js"></script>
+<script src="./js/gamification.js"></script>
+<script src="./js/dashboard-manager.js"></script>
+<script src="./js/app-shell.js"></script>
+</body></html>
