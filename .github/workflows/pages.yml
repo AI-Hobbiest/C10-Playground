@@ -39,6 +39,7 @@ jobs:
           mkdir -p _site/js _site/data _site/css _site/data/contracts/v1
           cp css/branding.css _site/css/branding.css
           cp css/app-shell.css _site/css/app-shell.css
+          cp css/question-media.css _site/css/question-media.css
           cp js/storage.js _site/js/storage.js
           cp js/question-bank.js _site/js/question-bank.js
           cp js/session-model.js _site/js/session-model.js
@@ -130,7 +131,7 @@ jobs:
             }
             console.log('Validated '+name+': '+data.length+' topics, '+questionCount+' MCQs.');
           }
-          for (const file of ['practice.html','profile.html','dashboard.html','css/branding.css','css/app-shell.css','js/app-shell.js','js/gamification.js','js/dashboard-manager.js','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/science.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
+          for (const file of ['practice.html','profile.html','dashboard.html','css/branding.css','css/app-shell.css','css/question-media.css','js/app-shell.js','js/gamification.js','js/dashboard-manager.js','js/storage.js','js/question-bank.js','js/session-model.js','js/profile-model.js','js/profile-manager.js','js/quiz-engine.js','data/contracts/v1/question-bank.schema.json','data/contracts/v1/question-bank-import.schema.json','data/contracts/v1/student-profile.schema.json','data/contracts/v1/answer-record.schema.json','data/contracts/v1/test-attempt.schema.json','data/contracts/v1/local-store-envelope.schema.json','data/contracts/v1/backup.schema.json','data/science.json','data/mathematics.json','data/english.json','data/social-science.json','data/hindi.json']) {
             if (!fs.existsSync('_site/'+file)) throw new Error('Missing deployed site file: '+file);
           }
           const profilePage=fs.readFileSync('_site/profile.html','utf8');
@@ -157,6 +158,12 @@ jobs:
           if (!quizEngine.includes('science: { title:"Science"')) throw new Error('Science is missing from the shared engine subject registry.');
           const practice=fs.readFileSync('_site/practice.html','utf8');
           if (!practice.includes('Conceptualised by')) throw new Error('Practice-page attribution is missing.');
+          if (!practice.includes('id="questionMedia"') || !practice.includes('id="imageViewer"') || !practice.includes('./css/question-media.css')) throw new Error('Practice page is missing question-image UI.');
+          const imageBankSchema=JSON.parse(fs.readFileSync('_site/data/contracts/v1/question-bank.schema.json','utf8'));
+          const questionSchema=imageBankSchema.properties.chapters.items.properties.questions.items;
+          if (!questionSchema.properties.images) throw new Error('Question-bank contract is missing optional image metadata.');
+          const imageImportSchema=JSON.parse(fs.readFileSync('_site/data/contracts/v1/question-bank-import.schema.json','utf8'));
+          if (!imageImportSchema.items.properties.questions.items.properties.images) throw new Error('Legacy import contract is missing optional image metadata.');
           const sequence=['./js/storage.js','./js/question-bank.js','./js/session-model.js','./js/quiz-engine.js'].map(src=>practice.indexOf(src));
           if (sequence.some(index=>index<0) || !(sequence[0]<sequence[1] && sequence[1]<sequence[2])) throw new Error('Practice dependencies are missing or out of order.');
           for (const file of ['question-bank.schema.json','question-bank-import.schema.json','student-profile.schema.json','answer-record.schema.json','test-attempt.schema.json','local-store-envelope.schema.json','backup.schema.json']) {
