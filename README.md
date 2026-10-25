@@ -38,6 +38,16 @@ All five subjects use the shared practice engine: Science, Mathematics, English,
 
 Science retains its existing compressed source payload so there is no manually maintained duplicate bank. During deployment, GitHub Actions validates the 14 chapter sets / 1,400 MCQs and generates the deployment copy of data/science.json, which is then consumed by the same question-bank normalizer, session ledger, local history and XP/levels/badges as the other subjects. The old science.html URL remains as a compatibility redirect to practice.html?subject=science.
 
+## Question images and diagrams
+
+The shared question model now supports optional `images` metadata on each question. Each image has a source, meaningful alternative text and an optional caption. Sources may be a relative asset path (recommended for curated question banks) or a PNG/JPEG/WebP/GIF base64 data URI (useful when packaging a figure with an imported question). Text-only questions remain valid and unchanged.
+
+The practice screen and answer review render the figures responsively, and students can open an enlarged view. Image metadata passes through the common normalizer, so shuffled answer options do not change which question owns its diagram. Unsafe schemes such as JavaScript URLs are rejected by the normalizer. The existing starter banks do not yet contain curated diagrams; this change establishes the capability and data contract before bulk question-bank creation.
+
+### PDF builder scope
+
+The planned question-bank builder will target **text-based PDFs with selectable text**. Scanned/image-only PDFs and OCR are out of scope for now. For Science and Mathematics, the workflow must let the author associate a relevant figure with the question and preview that association before approving a generated bank; it must not silently guess when a diagram/question match is uncertain.
+
 ## Phase 1 — data foundation
 
 - Versioned JSON Schema contracts live in `data/contracts/v1/`.
