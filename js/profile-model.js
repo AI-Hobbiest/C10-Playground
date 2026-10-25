@@ -176,7 +176,7 @@
       /^C10-[A-Z0-9-]{4,20}$/.test(String(profile.studentId||"")) &&
       typeof profile.displayName==="string" && profile.displayName.trim().length>0 &&
       typeof profile.school==="string" && profile.school.trim().length>0 &&
-      typeof profile.classLevel==="string" && /^(6|7|8|9|10|11|12)$/.test(profile.classLevel) &&
+      typeof profile.classLevel==="string" && /^[A-Za-z0-9_-]{1,20}$/.test(profile.classLevel) &&
       typeof profile.city==="string" && profile.city.trim().length>0 &&
       STATES_AND_UTS.some(item=>item.name===profile.state) &&
       typeof profile.createdAt==="string" && typeof profile.updatedAt==="string";
