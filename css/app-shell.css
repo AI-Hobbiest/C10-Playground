@@ -15,7 +15,8 @@ body.c10-shell-ready{padding-left:var(--c10-sidebar-width)}
 .c10-nav-icon{width:22px;display:inline-grid;place-items:center;font-size:1.05rem;flex:none}
 .c10-nav-divider{height:1px;background:var(--c10-shell-line);margin:12px 8px 7px}
 .c10-sidebar-bottom{margin-top:auto;padding:13px 9px 3px;color:#bcb6ee;font-size:.72rem;line-height:1.6}
-.c10-mobilebar{display:none}\n.c10-menu-toggle{display:none}
+.c10-mobilebar{display:none}
+.c10-menu-toggle{display:none}
 .c10-nav-scrim{display:none}
 .c10-shell-credit{display:block;margin-top:5px;color:#fff;font-weight:800}
 .c10-page-anchor{scroll-margin-top:72px}
