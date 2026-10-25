@@ -19,7 +19,7 @@ assert.ok(worker.includes('const username=String(body.username||"").trim().toLow
 assert.ok(worker.includes("u.username AS username,p.student_id AS studentId"), "admin reports expose username and Student ID separately");
 assert.ok(worker.includes('name:"PBKDF2"') || worker.includes('name: "PBKDF2"'), "passwords are derived with PBKDF2");
 assert.ok(worker.includes("failures>=8"), "login attempts are rate-limited");
-assert.ok(worker.includes("const chars=[letters[bytes[0]%letters.length],digits[bytes[1]%digits.length]]"), "temporary passwords always contain letters and digits");
+assert.ok(worker.includes("chars=[letters[bytes[0]%letters.length],digits[bytes[1]%digits.length]]"), "temporary passwords always contain letters and digits");
 assert.ok(schema.includes("username TEXT NOT NULL UNIQUE COLLATE NOCASE"), "database uniquely stores usernames without case sensitivity");
 assert.ok(admin.includes("apiReady&&protectedTabs.has(name)&&!isAdminAuthenticated()"), "admin content tabs are gated once the account service is configured");
 console.log("Account contract tests passed: admin-only GitHub identity, student username/password, password safeguards and separate Student ID.");
