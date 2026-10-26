@@ -334,12 +334,19 @@
   function renderClasses(){
     const container=$("classesTable");container.innerHTML="";
     const table=make("table","admin-table"),thead=make("thead"),hr=make("tr");
-    ["Class ID","Display label","Status","Actions"].forEach(x=>hr.appendChild(make("th","",x)));thead.appendChild(hr);table.appendChild(thead);
+    ["Class ID","Display label","Subjects","Status","Actions"].forEach(x=>hr.appendChild(make("th","",x)));thead.appendChild(hr);table.appendChild(thead);
     const body=make("tbody");
     classCatalog.classes.slice().sort((a,b)=>(Number(a.sortOrder)||0)-(Number(b.sortOrder)||0)).forEach(item=>{
-      const tr=make("tr");tr.append(make("td","",item.classId),make("td","",item.label),make("td","",item.active===false?"Inactive":"Active"));
+      const tr=make("tr");tr.append(make("td","",item.classId),make("td","",item.label),make("td","",(item.subjects||[]).map(id=>SUBJECTS[id]||id).join(", ")||"None mapped"),make("td","",item.active===false?"Inactive":"Active"));
       const td=make("td");td.appendChild(button(item.active===false?"Activate":"Deactivate","secondary",()=>{
         item.active=item.active===false;classesDirty=true;renderClasses();renderLeaderClassOptions();setStatus("classesStatus","Class change is a local draft. Export classes.json to keep it.","success");updateSummary();
+      }));
+      td.appendChild(button("Edit subjects","secondary",()=>{
+        const current=(item.subjects||[]).join(",");
+        const value=prompt("Enter subject IDs separated by commas: science, mathematics, english, social-science, hindi",current);
+        if(value===null)return;
+        const chosen=[...new Set(value.split(",").map(x=>x.trim()).filter(x=>Object.prototype.hasOwnProperty.call(SUBJECTS,x)))];
+        item.subjects=chosen;classesDirty=true;renderClasses();setStatus("classesStatus","Subject mapping updated in this local draft. Export classes.json and publish it to make the change live.","success");
       }));
       td.appendChild(button("Rename","secondary",()=>{
         const label=prompt("Display label for "+item.classId,item.label);
@@ -359,8 +366,10 @@
     if(!/^[A-Za-z0-9_-]{1,20}$/.test(id)){setStatus("classesStatus","Class ID must use 1–20 letters, numbers, hyphens or underscores.","error");return;}
     if(!label){setStatus("classesStatus","Enter a display label.","error");return;}
     if(classCatalog.classes.some(x=>String(x.classId).toLowerCase()===id.toLowerCase())){setStatus("classesStatus","That class ID already exists.","error");return;}
-    classCatalog.classes.push({classId:id,label,sortOrder:classCatalog.classes.length+1,active:true});classesDirty=true;
-    $("classId").value="";$("classLabel").value="";
+    const subjectSelect=$("classSubjects");
+    const subjects=subjectSelect?[...subjectSelect.selectedOptions].map(option=>option.value).filter(id=>Object.prototype.hasOwnProperty.call(SUBJECTS,id)):[];
+    classCatalog.classes.push({classId:id,label,sortOrder:classCatalog.classes.length+1,active:true,subjects});classesDirty=true;
+    $("classId").value="";$("classLabel").value="";if($("classSubjects"))[...$("classSubjects").options].forEach(option=>option.selected=false);
     renderClasses();renderLeaderClassOptions();updateSummary();setStatus("classesStatus","Added class to local draft. Export classes.json and publish it via GitHub.","success");
   }
   function exportClasses(){downloadJson(classCatalog,"classes.json");classesDirty=false;setStatus("classesStatus","Exported classes.json. Upload it to data/classes.json to publish the class catalogue.","success");}
