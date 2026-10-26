@@ -1827,7 +1827,12 @@
         ],
         "answer": 1,
         "explanation": "Mandela reflects on South Africa’s transition to a democratic government.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "inauguration",
+          "democracy"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -1840,7 +1845,12 @@
         ],
         "answer": 1,
         "explanation": "He presents courage as triumph over fear, not the absence of fear.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "courage",
+          "theme"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -1853,7 +1863,1758 @@
         ],
         "answer": 1,
         "explanation": "He connects personal freedom with the freedom and dignity of others.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "freedom",
+          "theme"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "On what date does Mandela describe his inauguration as South Africa’s president?",
+        "options": [
+          "10 May 1994",
+          "15 August 1947",
+          "27 April 1996",
+          "11 February 1990"
+        ],
+        "answer": 0,
+        "explanation": "The chapter opens with the inauguration on 10 May 1994.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "historical context",
+          "inauguration"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "Where does the inauguration ceremony take place?",
+        "options": [
+          "Union Buildings in Pretoria",
+          "Robben Island prison yard",
+          "Cape Town harbour",
+          "Johannesburg railway station"
+        ],
+        "answer": 0,
+        "explanation": "The inauguration takes place at the Union Buildings in Pretoria.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "setting",
+          "inauguration"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "What kind of government is formed at the inauguration?",
+        "options": [
+          "A white-minority government",
+          "A democratic, non-racial government",
+          "A military government",
+          "A hereditary monarchy"
+        ],
+        "answer": 1,
+        "explanation": "The ceremony marks the birth of South Africa’s first democratic, non-racial government.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "democracy",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "What does Mandela call the system of racial domination that South Africa had endured?",
+        "options": [
+          "Apartheid",
+          "Federalism",
+          "Isolationism",
+          "Colonial trade"
+        ],
+        "answer": 0,
+        "explanation": "Mandela reflects on the injustice of apartheid and its racial domination.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "apartheid",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "What ‘extraordinary human disaster’ does Mandela refer to?",
+        "options": [
+          "Apartheid and its system of racial oppression",
+          "A drought affecting farms",
+          "A military parade",
+          "The end of a national anthem"
+        ],
+        "answer": 0,
+        "explanation": "He calls apartheid an extraordinary human disaster because of its destructive racial injustice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "apartheid",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "What is the ‘glorious human achievement’ at the end of the disaster?",
+        "options": [
+          "The victory of racial domination",
+          "The emergence of a democratic, non-racial South Africa",
+          "The return of colonial rule",
+          "The end of all political participation"
+        ],
+        "answer": 1,
+        "explanation": "Mandela celebrates the transition to democracy and equal citizenship.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "democracy",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "Who attends the inauguration ceremony?",
+        "options": [
+          "Only Mandela’s family",
+          "Leaders and dignitaries from many countries",
+          "Only former prison guards",
+          "Only members of one political party"
+        ],
+        "answer": 1,
+        "explanation": "Mandela notes the presence of international leaders at the historic ceremony.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "inauguration",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "What does the military flypast symbolise in Mandela’s account?",
+        "options": [
+          "The military’s loyalty to the newly elected democratic government",
+          "An attempt to intimidate the voters",
+          "Support for renewed apartheid",
+          "A celebration of foreign rule"
+        ],
+        "answer": 0,
+        "explanation": "The military display demonstrates loyalty to a government chosen freely and fairly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "democracy"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Why is the salute of former generals especially meaningful to Mandela?",
+        "options": [
+          "They had once represented a system that could have arrested him",
+          "They were his childhood classmates",
+          "They had helped him write his speeches",
+          "They had never supported the old regime"
+        ],
+        "answer": 0,
+        "explanation": "Mandela remembers that these officers might previously have arrested him under apartheid.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "historical contrast",
+          "apartheid"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "What do the two national anthems at the ceremony represent?",
+        "options": [
+          "The coexistence of groups once divided by apartheid",
+          "The replacement of South Africa by another country",
+          "A return to racial separation",
+          "The end of public ceremonies"
+        ],
+        "answer": 0,
+        "explanation": "The formerly divided groups share the ceremony and its national symbols.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "reconciliation"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "Which anthem is identified as the old anthem of the Republic?",
+        "options": [
+          "Die Stem",
+          "Nkosi Sikelel-iAfrika",
+          "God Save the King",
+          "La Marseillaise"
+        ],
+        "answer": 0,
+        "explanation": "The chapter identifies Die Stem as the old anthem of the Republic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "national symbols",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "How does Mandela describe the ideals of the new South Africa?",
+        "options": [
+          "Freedom, dignity and equality",
+          "Wealth for one group only",
+          "Permanent racial hierarchy",
+          "Obedience without rights"
+        ],
+        "answer": 0,
+        "explanation": "His reflections focus on freedom from oppression and dignity for all people.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "themes",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "What is Mandela’s central understanding of courage?",
+        "options": [
+          "Never feeling fear",
+          "Triumphing over fear",
+          "Avoiding every difficult task",
+          "Making others afraid"
+        ],
+        "answer": 1,
+        "explanation": "Mandela explains courage as triumph over fear rather than the absence of fear.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "courage",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "According to Mandela, is a brave person someone who never feels afraid?",
+        "options": [
+          "Yes, fear and courage cannot coexist",
+          "No, courage involves overcoming fear",
+          "Yes, only fearless people can lead",
+          "No, because fear always defeats people"
+        ],
+        "answer": 1,
+        "explanation": "Mandela acknowledges fear and describes courage as mastering it.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "courage",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "What does Mandela say about a person who oppresses others?",
+        "options": [
+          "The oppressor is also not truly free",
+          "The oppressor is always happy",
+          "Oppression gives everyone freedom",
+          "The oppressor has no responsibility"
+        ],
+        "answer": 0,
+        "explanation": "Mandela argues that the oppressor is trapped by hatred and prejudice too.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "freedom",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Why does Mandela say that freedom is indivisible?",
+        "options": [
+          "One person’s freedom is connected with the freedom of others",
+          "Freedom belongs only to leaders",
+          "Freedom means avoiding all duties",
+          "Freedom is unrelated to society"
+        ],
+        "answer": 0,
+        "explanation": "He sees personal freedom as incomplete while others remain oppressed.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "freedom",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does Mandela mean by the ‘twin obligations’ in his life?",
+        "options": [
+          "Obligations to family and to his people or community",
+          "Duties to two employers",
+          "Two school examinations",
+          "Responsibilities only to the government"
+        ],
+        "answer": 0,
+        "explanation": "He describes obligations to his family and to his people and country.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "obligations",
+          "personal reflection"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Why does Mandela say he could not fulfil both obligations freely under apartheid?",
+        "options": [
+          "The system restricted his rights and made him choose between them",
+          "His family refused to see him",
+          "He did not want to work",
+          "He was never interested in public life"
+        ],
+        "answer": 0,
+        "explanation": "Apartheid prevented him from living freely as both a family member and a person serving his people.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "apartheid",
+          "obligations"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "What does Mandela say about children and freedom?",
+        "options": [
+          "Children are born hating others",
+          "No one is born hating another person",
+          "Only adults can learn prejudice",
+          "Children cannot change their beliefs"
+        ],
+        "answer": 1,
+        "explanation": "Mandela argues that hatred is learned, not inborn.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "human nature",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "According to Mandela, if people can learn to hate, what else can they learn?",
+        "options": [
+          "Love",
+          "Indifference only",
+          "Fear permanently",
+          "Obedience without thought"
+        ],
+        "answer": 0,
+        "explanation": "He believes people can be taught to love because love comes more naturally than hate.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "human nature",
+          "hope"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "What childhood idea of freedom does Mandela describe?",
+        "options": [
+          "Freedom to enjoy ordinary activities and live without restrictions",
+          "Freedom to rule the country",
+          "Freedom to own a factory",
+          "Freedom from all schoolwork forever"
+        ],
+        "answer": 0,
+        "explanation": "As a child, he thought of freedom through everyday activities and the absence of restrictions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "childhood",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "How does Mandela’s understanding of freedom change as he grows older?",
+        "options": [
+          "It expands from personal liberty to freedom for his people",
+          "It shrinks to owning possessions",
+          "It becomes only the freedom to travel",
+          "It disappears completely"
+        ],
+        "answer": 0,
+        "explanation": "He comes to understand that freedom must include dignity and rights for all his people.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personal growth",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "What did Mandela initially believe about the freedom of a boy?",
+        "options": [
+          "It meant being able to run, play and live without constraints",
+          "It meant becoming president immediately",
+          "It meant having no family",
+          "It meant being wealthy"
+        ],
+        "answer": 0,
+        "explanation": "His childhood understanding centres on everyday personal choices and play.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "childhood",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "What does Mandela recognise as he matures?",
+        "options": [
+          "His own freedom is linked to the freedom of others",
+          "Only his private happiness matters",
+          "Apartheid affects only adults",
+          "Political rights are unnecessary"
+        ],
+        "answer": 0,
+        "explanation": "He becomes aware that his freedom is connected to the freedom of his people.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personal growth",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Which organisation is associated with Mandela’s struggle against apartheid?",
+        "options": [
+          "African National Congress (ANC)",
+          "League of Nations",
+          "European Union",
+          "South African Chamber of Mines only"
+        ],
+        "answer": 0,
+        "explanation": "Mandela’s political work is connected with the African National Congress.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "ANC",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "What does the chapter suggest about the sacrifices made by freedom fighters?",
+        "options": [
+          "They helped make democratic freedom possible",
+          "They were unnecessary to social change",
+          "They supported permanent racial domination",
+          "They worked only for personal wealth"
+        ],
+        "answer": 0,
+        "explanation": "Mandela honours the sacrifices of those who struggled for liberation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sacrifice",
+          "history"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "Why does Mandela feel overwhelmed by a sense of history on inauguration day?",
+        "options": [
+          "He sees the day as the outcome of a long struggle and great sacrifices",
+          "He has forgotten the events of the past",
+          "He thinks the ceremony is unimportant",
+          "He is only concerned about the weather"
+        ],
+        "answer": 0,
+        "explanation": "The inauguration represents a major change after decades of racial oppression and resistance.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "historical context",
+          "reflection"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "What is the significance of the new South African flag during the ceremony?",
+        "options": [
+          "It symbolises the newly united nation",
+          "It represents a return to apartheid",
+          "It belongs to a foreign army",
+          "It marks the end of democracy"
+        ],
+        "answer": 0,
+        "explanation": "The flag is a visible symbol of the new South Africa.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "national symbols",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "What does the joining of the national anthems suggest?",
+        "options": [
+          "Formerly divided communities are beginning to share a national identity",
+          "The old divisions remain unchanged by definition",
+          "One community has left the country",
+          "The ceremony rejects reconciliation"
+        ],
+        "answer": 0,
+        "explanation": "The shared anthems illustrate the hope for a united society after apartheid.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "reconciliation",
+          "national symbols"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "What were Mandela’s ‘comrades’ in the struggle?",
+        "options": [
+          "People who fought alongside him for freedom",
+          "His childhood playmates only",
+          "Foreign military officers",
+          "Employees at the Union Buildings"
+        ],
+        "answer": 0,
+        "explanation": "The word refers to fellow participants in the struggle for liberation.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "vocabulary",
+          "struggle"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "In context, what does ‘spectacular array’ mean?",
+        "options": [
+          "An impressive display",
+          "A private argument",
+          "A small, ordinary group",
+          "A written law"
+        ],
+        "answer": 0,
+        "explanation": "Mandela uses the phrase for the impressive formation of aircraft at the ceremony.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does the expression ‘not unmindful of’ mean in the chapter?",
+        "options": [
+          "Aware of",
+          "Completely unaware of",
+          "Dismissive of",
+          "Opposed to"
+        ],
+        "answer": 0,
+        "explanation": "The phrase means that Mandela was conscious of the historical significance of the moment.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "language"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "What does Mandela’s reflection on the generals’ salute emphasise?",
+        "options": [
+          "How dramatically South Africa’s political order had changed",
+          "That he had never opposed the old system",
+          "That all military leaders were his relatives",
+          "That the inauguration was not democratic"
+        ],
+        "answer": 0,
+        "explanation": "The salute illustrates the shift from repression to loyalty to a democratically elected government.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "historical contrast",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "What does Mandela say about the relationship between oppressor and oppressed?",
+        "options": [
+          "Neither is fully free while the system of oppression persists",
+          "Only the oppressed lose their humanity",
+          "The oppressor’s freedom depends on wealth alone",
+          "The two groups never affect one another"
+        ],
+        "answer": 0,
+        "explanation": "He argues that oppression damages both the oppressed and the oppressor.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "freedom",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "What is one purpose of Mandela’s account of his inauguration?",
+        "options": [
+          "To reflect on the meaning of freedom and the nation’s transformation",
+          "To describe only the decorations of the ceremony",
+          "To criticise voting itself",
+          "To provide a guide to Pretoria"
+        ],
+        "answer": 0,
+        "explanation": "The ceremony provides the frame for reflections on freedom, sacrifice and reconciliation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "purpose",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Which feature makes Mandela’s account more than a description of a ceremony?",
+        "options": [
+          "He connects the event to history, injustice and human dignity",
+          "He lists only the names of guests",
+          "He avoids discussing the past",
+          "He focuses only on the weather"
+        ],
+        "answer": 0,
+        "explanation": "He interprets the ceremony as a turning point in a long struggle for equality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "purpose",
+          "reflection"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "How did apartheid affect ordinary people in Mandela’s account?",
+        "options": [
+          "It denied people basic freedoms and dignity because of race",
+          "It guaranteed equal opportunity",
+          "It prevented all forms of discrimination",
+          "It made racial identity irrelevant"
+        ],
+        "answer": 0,
+        "explanation": "Apartheid was a system of racial domination that restricted the freedom of non-white South Africans.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "apartheid",
+          "human rights"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Which value is most clearly expressed by Mandela’s new vision for South Africa?",
+        "options": [
+          "Equality across racial groups",
+          "Permanent dominance by a minority",
+          "Exclusion from public life",
+          "Revenge against every individual"
+        ],
+        "answer": 0,
+        "explanation": "The new democratic ideal rejects racial domination and supports equal freedom.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "values",
+          "democracy"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Why does Mandela acknowledge international leaders at the inauguration?",
+        "options": [
+          "Their presence recognises the historic transition and support for the new democracy",
+          "They had written his childhood diary",
+          "They were there to restore apartheid",
+          "They had all served the same prison sentence"
+        ],
+        "answer": 0,
+        "explanation": "The guests reflect the international importance of the democratic transition.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "inauguration",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "What did the aircraft formation show beyond military precision?",
+        "options": [
+          "The military’s allegiance to the democratic government",
+          "The military’s refusal to accept the election",
+          "A plan to cancel the ceremony",
+          "A return to minority rule"
+        ],
+        "answer": 0,
+        "explanation": "The display signals the armed forces’ loyalty to the newly elected government.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "democracy"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which statement best describes the chapter’s tone about the inauguration?",
+        "options": [
+          "Reflective and hopeful",
+          "Mocking and dismissive",
+          "Entirely fearful",
+          "Carefree and comic"
+        ],
+        "answer": 0,
+        "explanation": "Mandela describes the historic ceremony with reflection, solemnity and hope for the future.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "inauguration"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "Which idea is central to Mandela’s discussion of human freedom?",
+        "options": [
+          "Freedom must include the dignity and liberty of all",
+          "Freedom is only private comfort",
+          "Freedom can exist under any level of racial domination",
+          "Freedom belongs only to the powerful"
+        ],
+        "answer": 0,
+        "explanation": "His reflections link individual liberty to the wider freedom of society.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "freedom",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "What does Mandela imply about prejudice?",
+        "options": [
+          "People learn it from society and can learn to reject it",
+          "It is fixed at birth and cannot change",
+          "It is always harmless",
+          "Only children experience it"
+        ],
+        "answer": 0,
+        "explanation": "He states that people are not born hating others; hatred is learned.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "prejudice",
+          "human nature"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which statement best captures Mandela’s hope for future generations?",
+        "options": [
+          "They can learn love and build a more humane society",
+          "They must continue inherited hatred",
+          "They should avoid all responsibility",
+          "They should restore racial hierarchy"
+        ],
+        "answer": 0,
+        "explanation": "His belief that hate is learned supports the possibility of learning love and equality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "hope",
+          "human nature"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "What does the word ‘deprivation’ most nearly mean in a discussion of freedom?",
+        "options": [
+          "Being denied something necessary or valued",
+          "Receiving an award",
+          "Making a public speech",
+          "Having extra free time"
+        ],
+        "answer": 0,
+        "explanation": "Deprivation refers to being denied something important, including basic rights or necessities.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "What does the text suggest about rights and responsibilities?",
+        "options": [
+          "Personal rights are connected with responsibilities toward others",
+          "Rights remove every duty",
+          "Only leaders have responsibilities",
+          "Family responsibilities always matter more than society"
+        ],
+        "answer": 0,
+        "explanation": "Mandela’s twin obligations show that personal and social responsibilities are connected.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "obligations",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "Why did Mandela find it difficult to live as he wished under apartheid?",
+        "options": [
+          "The laws and system restricted his choices and his people’s rights",
+          "He had no interest in freedom",
+          "His family owned the government",
+          "He was unable to understand the language"
+        ],
+        "answer": 0,
+        "explanation": "Apartheid restricted normal freedoms and made it difficult to fulfil both family and public obligations.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "apartheid",
+          "personal reflection"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "What is the main purpose of Mandela’s description of his childhood freedom?",
+        "options": [
+          "To show how his understanding of freedom developed over time",
+          "To prove children have no responsibilities",
+          "To describe a military ceremony",
+          "To explain the national flag"
+        ],
+        "answer": 0,
+        "explanation": "His early view of freedom contrasts with his later understanding of collective liberation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "personal growth"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "What change takes place in Mandela’s view of his own freedom?",
+        "options": [
+          "He comes to see that his people’s freedom is essential too",
+          "He decides his personal liberty is all that matters",
+          "He stops caring about political rights",
+          "He gives up on equality"
+        ],
+        "answer": 0,
+        "explanation": "His ideas broaden from personal freedoms to the liberation of his community and nation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personal growth",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Which example best represents the idea of shared freedom?",
+        "options": [
+          "A society in which rights and dignity are protected for every racial group",
+          "One group can control all other groups",
+          "Only wealthy people can vote",
+          "One leader can remove everyone’s rights"
+        ],
+        "answer": 0,
+        "explanation": "Shared freedom means that liberty and dignity are not restricted to one racial group.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "application",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Which statement is most consistent with Mandela’s view of love and hate?",
+        "options": [
+          "Hate is learned, so people can also learn love",
+          "Love is only possible among relatives",
+          "Hate is natural and permanent",
+          "People have no control over their attitudes"
+        ],
+        "answer": 0,
+        "explanation": "Mandela argues that if people can learn to hate, they can be taught to love.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "human nature",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does Mandela’s description of the inauguration reveal about reconciliation?",
+        "options": [
+          "Formerly divided groups take part in a shared public event",
+          "All past suffering is forgotten instantly",
+          "Only one racial group attends",
+          "The military refuses to accept the new state"
+        ],
+        "answer": 0,
+        "explanation": "The ceremony includes symbols of a shared nation after a period of racial division.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "reconciliation",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Why is the presence of former generals at the ceremony historically striking?",
+        "options": [
+          "They salute a leader whom the old system might once have arrested",
+          "They are visiting Mandela’s childhood home",
+          "They refuse to recognise the election",
+          "They are the authors of the national anthem"
+        ],
+        "answer": 0,
+        "explanation": "Mandela recalls that, under the previous system, those officers might have arrested him.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "historical contrast",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which expression best captures Mandela’s view of oppression?",
+        "options": [
+          "It diminishes the humanity of both sides",
+          "It benefits every person equally",
+          "It affects laws but never people",
+          "It is necessary for true freedom"
+        ],
+        "answer": 0,
+        "explanation": "Mandela presents oppression as harmful to both the oppressed and the oppressor.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "What can be inferred from Mandela’s acknowledgment of those who sacrificed for freedom?",
+        "options": [
+          "The democratic achievement was collective, not his alone",
+          "He believes one individual did everything",
+          "He thinks past struggles were unnecessary",
+          "He rejects the role of ordinary citizens"
+        ],
+        "answer": 0,
+        "explanation": "He recognises the contributions and sacrifices of many people in the freedom struggle.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sacrifice",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "What is the relationship between the inauguration and the sacrifices Mandela recalls?",
+        "options": [
+          "The ceremony represents the result of a long struggle",
+          "The ceremony happened before any struggle began",
+          "The sacrifices had no connection with democracy",
+          "The inauguration reversed the liberation movement"
+        ],
+        "answer": 0,
+        "explanation": "The inauguration is presented as the achievement of a long movement toward freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "history",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "Which detail most strongly marks the inauguration as a turning point?",
+        "options": [
+          "A government elected freely and fairly assumes power",
+          "The ceremony uses a large stage",
+          "The weather is clear",
+          "The audience sits quietly"
+        ],
+        "answer": 0,
+        "explanation": "The new government and the armed forces’ loyalty to it demonstrate a historic political change.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "turning point",
+          "democracy"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "What does Mandela’s use of the word ‘comrades’ convey?",
+        "options": [
+          "Solidarity among people who struggled together",
+          "A formal title for foreign leaders",
+          "A relationship between shopkeepers",
+          "A family relationship only"
+        ],
+        "answer": 0,
+        "explanation": "‘Comrades’ expresses solidarity among fellow participants in the liberation struggle.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "solidarity"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which of the following best reflects the chapter’s view of leadership?",
+        "options": [
+          "Leadership should support the freedom and dignity of all people",
+          "Leaders should secure liberty only for themselves",
+          "Leaders must preserve racial division",
+          "Leadership means avoiding responsibility"
+        ],
+        "answer": 0,
+        "explanation": "Mandela links the new government with equal freedom and dignity rather than domination.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "leadership",
+          "values"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Which statement about the military display is correct?",
+        "options": [
+          "It showed disciplined formations and loyalty to the democratic government",
+          "It announced the cancellation of the election",
+          "It was a parade for the former apartheid government",
+          "It was unrelated to the ceremony"
+        ],
+        "answer": 0,
+        "explanation": "Mandela explicitly describes the display as a demonstration of the military’s loyalty to democracy.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "text detail",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "What does the new flag’s appearance in the sky contribute to the scene?",
+        "options": [
+          "A visual symbol of the new national identity",
+          "A warning that the ceremony is ending in defeat",
+          "A sign of foreign occupation",
+          "A reminder that the old laws remain unchanged"
+        ],
+        "answer": 0,
+        "explanation": "The colourful new flag symbolises the new South African nation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "national symbols"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "How does Mandela describe the change in the relationship between racial groups on inauguration day?",
+        "options": [
+          "Formerly divided groups participate in a shared national moment",
+          "One group is completely absent",
+          "They formally renew racial separation",
+          "They refuse to recognise the national symbols"
+        ],
+        "answer": 0,
+        "explanation": "The shared anthems and ceremony suggest the start of a different national relationship.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "reconciliation",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which option best states the chapter’s message about prejudice?",
+        "options": [
+          "A society can choose to teach respect instead of hatred",
+          "Prejudice is unavoidable and should be accepted",
+          "Only laws can create love",
+          "Children are born with fixed racial hatred"
+        ],
+        "answer": 0,
+        "explanation": "Mandela’s argument that hatred is learned implies that different values can also be taught.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "human nature"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "What does Mandela’s phrase ‘a long walk to freedom’ suggest in the context of the chapter?",
+        "options": [
+          "Freedom was achieved through a prolonged and difficult struggle",
+          "The inauguration required a long physical walk only",
+          "Freedom arrived without sacrifice",
+          "The nation had never faced injustice"
+        ],
+        "answer": 0,
+        "explanation": "The title points to the extended struggle and sacrifices preceding democratic freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Which answer best describes the chapter’s structure?",
+        "options": [
+          "A personal account of an inauguration expands into reflections on history and freedom",
+          "A list of laws with no personal reflection",
+          "A fictional mystery set in a prison",
+          "A debate between two unrelated speakers"
+        ],
+        "answer": 0,
+        "explanation": "Mandela begins with the ceremony and uses it to reflect on the past, freedom and human dignity.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "structure",
+          "narration"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Which of the following is the best example of contrast in the chapter?",
+        "options": [
+          "The old racial order is contrasted with the new democratic South Africa",
+          "The Union Buildings are contrasted with a school timetable",
+          "Two unrelated weather reports are compared",
+          "The post office is compared with a market"
+        ],
+        "answer": 0,
+        "explanation": "The chapter emphasises the change from apartheid to a democratic, non-racial state.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary technique",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "Why does Mandela describe the new government as non-racial?",
+        "options": [
+          "It rejects political rule based on racial domination",
+          "It allows only one racial group to vote",
+          "It removes all citizens from politics",
+          "It makes ancestry the only qualification for leadership"
+        ],
+        "answer": 0,
+        "explanation": "The new democratic government symbolises a rejection of apartheid’s racial hierarchy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "democracy",
+          "apartheid"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which conclusion about freedom is most strongly supported by the text?",
+        "options": [
+          "Freedom includes the ability to live with dignity and without racial oppression",
+          "Freedom means being free of every social connection",
+          "Freedom belongs only to a nation’s president",
+          "Freedom is unrelated to equality"
+        ],
+        "answer": 0,
+        "explanation": "Mandela connects freedom with dignity, equality and the liberation of others.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "freedom",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "What does the chapter imply about the possibility of personal change?",
+        "options": [
+          "People can outgrow narrow ideas and develop a broader sense of responsibility",
+          "People’s beliefs never change",
+          "Childhood understanding is always complete",
+          "Only older people can learn anything"
+        ],
+        "answer": 0,
+        "explanation": "Mandela’s own changing understanding of freedom shows personal growth over time.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personal growth",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Which is the most accurate inference from Mandela’s ‘twin obligations’?",
+        "options": [
+          "He values both family ties and duties toward his wider community",
+          "He considers family unimportant",
+          "He has no duties to his country",
+          "He believes public service and family are always unrelated"
+        ],
+        "answer": 0,
+        "explanation": "Mandela describes responsibilities to loved ones and to his people as important obligations.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "obligations",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "What does Mandela’s account suggest about the value of remembering history?",
+        "options": [
+          "Remembering past injustice helps explain the significance of freedom",
+          "History should be ignored after elections",
+          "Only military history matters",
+          "The past cannot influence the present"
+        ],
+        "answer": 0,
+        "explanation": "He links the inauguration to the earlier system of racial domination and the sacrifices made to end it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "history",
+          "reflection"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "Which statement is most consistent with the chapter’s message about equality?",
+        "options": [
+          "A society is more humane when no racial group is denied dignity or rights",
+          "Equality means one group should dominate another",
+          "Equal rights are unnecessary in a democracy",
+          "Only leaders deserve equal treatment"
+        ],
+        "answer": 0,
+        "explanation": "Mandela’s vision is based on dignity and freedom for all, not racial privilege.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "equality",
+          "values"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which part of the chapter most directly demonstrates hope for the future?",
+        "options": [
+          "Mandela’s belief that people can learn love and live freely together",
+          "His description of the old apartheid system alone",
+          "The fact that the ceremony had aircraft",
+          "The mention of prison guards"
+        ],
+        "answer": 0,
+        "explanation": "His belief in the possibility of learning love supports hope for a more humane society.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "hope",
+          "human nature"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Why does Mandela mention the old and new anthems together?",
+        "options": [
+          "To symbolise a transition from division toward shared nationhood",
+          "To prove that music is more important than rights",
+          "To suggest that the election was cancelled",
+          "To show that the population has one language"
+        ],
+        "answer": 0,
+        "explanation": "The anthems show previously opposed groups participating in the same national moment.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "reconciliation"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Which word best describes Mandela’s attitude toward the inauguration?",
+        "options": [
+          "Reflective",
+          "Careless",
+          "Cynical",
+          "Uninterested"
+        ],
+        "answer": 0,
+        "explanation": "He treats the day as historically significant and reflects on what it means.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "inauguration"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which sentence best expresses the relationship between freedom and responsibility in this chapter?",
+        "options": [
+          "A person’s freedom is incomplete while others remain oppressed",
+          "Freedom requires avoiding all responsibility",
+          "Responsibility matters only to public officials",
+          "A person can be truly free while denying others their rights"
+        ],
+        "answer": 0,
+        "explanation": "Mandela explicitly links his own liberty with the freedom of his people.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "freedom",
+          "obligations"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What does Mandela’s experience as a freedom fighter help him understand?",
+        "options": [
+          "The cost of oppression and the importance of collective liberty",
+          "That political equality is unnecessary",
+          "That courage means having no fear at all",
+          "That only one person can change history"
+        ],
+        "answer": 0,
+        "explanation": "His experience informs his view that freedom requires struggle and shared responsibility.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personal reflection",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which statement best explains why the chapter is titled ‘Long Walk to Freedom’?",
+        "options": [
+          "It highlights the lengthy struggle from oppression to democratic rights",
+          "It refers only to the distance between two buildings",
+          "It describes a family holiday",
+          "It suggests that freedom was easily obtained"
+        ],
+        "answer": 0,
+        "explanation": "The title frames freedom as the result of a long and difficult national struggle.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "title",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "What does Mandela’s description of the crowd and ceremony help the reader appreciate?",
+        "options": [
+          "The national and international importance of the democratic transition",
+          "The daily routine of a post office",
+          "The agricultural cycle of South Africa",
+          "The private life of one general"
+        ],
+        "answer": 0,
+        "explanation": "The scale of the ceremony underscores the historic significance of the inauguration.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "inauguration"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "What is the strongest lesson of the chapter about courage?",
+        "options": [
+          "Courage is shown by facing fear and continuing to act",
+          "Courage means never feeling any emotion",
+          "Courage requires defeating every opponent",
+          "Courage means hiding from difficult choices"
+        ],
+        "answer": 0,
+        "explanation": "Mandela defines courage as triumph over fear rather than having no fear.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "courage",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which conclusion about apartheid is supported by Mandela’s reflection?",
+        "options": [
+          "It imposed a system of racial domination that denied freedom and dignity",
+          "It ensured equal treatment among races",
+          "It existed only during the inauguration",
+          "It was supported by all South Africans equally"
+        ],
+        "answer": 0,
+        "explanation": "Mandela describes apartheid as a system of racial domination and oppression.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "apartheid",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "Which action most strongly symbolises that the armed forces had accepted the new order?",
+        "options": [
+          "The generals salute Mandela and pledge loyalty to the new government",
+          "The planes disappear before the ceremony",
+          "The national anthems are not played",
+          "The crowd leaves early"
+        ],
+        "answer": 0,
+        "explanation": "The salute and pledge show the military’s loyalty to the democratic government.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "democracy"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which idea does Mandela communicate through the shared singing of anthems once despised by the groups?",
+        "options": [
+          "People can begin to accept symbols associated with those they once opposed",
+          "Symbols can never change their meaning",
+          "Music prevents reconciliation",
+          "The old divisions must continue forever"
+        ],
+        "answer": 0,
+        "explanation": "The shared performance suggests a changing relationship between formerly divided communities.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "reconciliation"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which statement would Mandela most likely agree with, based on the chapter?",
+        "options": [
+          "A free society must recognise the humanity and rights of all",
+          "One group’s liberty requires another’s permanent subordination",
+          "Hatred is inherited and cannot be changed",
+          "Courage is possible only without fear"
+        ],
+        "answer": 0,
+        "explanation": "His reflections support equal dignity, learned love and freedom for all.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "application",
+          "values"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Which of these best explains the significance of the inauguration to South African history?",
+        "options": [
+          "It marked the beginning of a democratic, non-racial government after apartheid",
+          "It introduced apartheid for the first time",
+          "It ended all civic responsibilities",
+          "It replaced elections with military rule"
+        ],
+        "answer": 0,
+        "explanation": "The inauguration marks the transfer to a democratically elected non-racial government.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "historical context",
+          "inauguration"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "What does Mandela’s reflection on his own life reveal?",
+        "options": [
+          "His ideas about freedom developed from personal needs to collective responsibility",
+          "He never changed his childhood views",
+          "He rejected his community throughout life",
+          "He believed freedom only meant wealth"
+        ],
+        "answer": 0,
+        "explanation": "He explains how his understanding grew from ordinary personal freedom to freedom for his people.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personal growth",
+          "reflection"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "Which phrase best captures Mandela’s idea of reconciliation?",
+        "options": [
+          "Formerly divided people build a shared future with dignity for all",
+          "One group must remain permanently superior",
+          "The past should never be discussed",
+          "People should avoid all national symbols"
+        ],
+        "answer": 0,
+        "explanation": "The new government, shared anthems and national symbols point toward unity after racial division.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "reconciliation",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "What does the word ‘domination’ most nearly mean in the context of apartheid?",
+        "options": [
+          "Control or rule over others",
+          "Equal participation",
+          "Voluntary cooperation",
+          "Public celebration"
+        ],
+        "answer": 0,
+        "explanation": "Apartheid involved one racial group exercising power and control over others.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "apartheid"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "What does ‘dignity’ mean in the chapter’s discussion of freedom?",
+        "options": [
+          "The worth and respect every person deserves",
+          "A person’s wealth only",
+          "The right to command others",
+          "A medal awarded at ceremonies"
+        ],
+        "answer": 0,
+        "explanation": "Mandela’s vision of freedom includes respect for the humanity of every person.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "What is the best reason Mandela recalls both suffering and achievement?",
+        "options": [
+          "To show how costly the struggle was and why the democratic change matters",
+          "To suggest that suffering should be repeated",
+          "To deny that the nation changed",
+          "To present a list of unrelated events"
+        ],
+        "answer": 0,
+        "explanation": "The contrast gives weight to the achievement of ending racial domination.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "structure",
+          "historical context"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which statement about the new South Africa is consistent with Mandela’s vision?",
+        "options": [
+          "Citizens of different races can share equal rights and responsibilities",
+          "Political rights should depend on skin colour",
+          "Only one racial group should sing the national anthem",
+          "The army should rule without elections"
+        ],
+        "answer": 0,
+        "explanation": "Mandela celebrates a non-racial democracy in which freedom and dignity belong to all.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "democracy",
+          "values"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "Which kind of freedom did Mandela come to value beyond personal choice?",
+        "options": [
+          "Freedom for his people to live with dignity and equal rights",
+          "Freedom to avoid every family obligation",
+          "Freedom to become wealthy regardless of others",
+          "Freedom to silence political opponents"
+        ],
+        "answer": 0,
+        "explanation": "His mature understanding connects personal liberty to his people’s liberation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "freedom",
+          "personal growth"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which option best captures the chapter’s central argument?",
+        "options": [
+          "A just society requires collective freedom, courage and equal dignity",
+          "Only personal ambition brings freedom",
+          "Military power alone creates justice",
+          "People are born with permanent hatred"
+        ],
+        "answer": 0,
+        "explanation": "The chapter links freedom to courage, resistance to oppression and human equality.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "summary",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "What does Mandela’s story suggest about the source of prejudice?",
+        "options": [
+          "It can be taught by social conditions rather than being inborn",
+          "It is an unchangeable trait from birth",
+          "It only comes from education",
+          "It is necessary for democracy"
+        ],
+        "answer": 0,
+        "explanation": "Mandela states that no one is born hating another person; hatred is learned.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "prejudice",
+          "human nature"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Which detail gives the chapter a hopeful ending to its historical reflection?",
+        "options": [
+          "The birth of a democratic, non-racial government",
+          "The continuation of apartheid",
+          "The arrest of the new president",
+          "The disappearance of the national flag"
+        ],
+        "answer": 0,
+        "explanation": "The inauguration represents a new beginning after racial oppression.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "hope",
+          "inauguration"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which is the strongest inference about Mandela’s concept of freedom?",
+        "options": [
+          "It is both individual and collective",
+          "It is only a private feeling",
+          "It belongs only to those in office",
+          "It excludes obligations to others"
+        ],
+        "answer": 0,
+        "explanation": "His discussion of twin obligations and indivisible freedom makes liberty both personal and social.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "inference",
+          "freedom"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What is the function of Mandela’s memories of his childhood?",
+        "options": [
+          "They provide a contrast with his later, wider understanding of liberty",
+          "They explain the technical details of aircraft",
+          "They describe how the national flag was designed",
+          "They recount the origin of the postal service"
+        ],
+        "answer": 0,
+        "explanation": "His childhood understanding sets up the development of his mature view of freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "personal growth"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
