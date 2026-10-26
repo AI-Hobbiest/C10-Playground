@@ -114,6 +114,7 @@
   function showPassword(password) { $("staticAccountTempBox").hidden = false; $("staticAccountTempPassword").value = password; }
   async function createAccount() {
     try {
+      if (!classOptions.length) await loadClasses();
       if (!database) database = await loadDatabase();
       const username = $("staticAccountUsername").value.trim().toLowerCase();
       if (!/^[a-z0-9._-]{3,32}$/.test(username)) throw new Error("Use 3–32 characters: lowercase letters, numbers, dot, underscore or hyphen.");
@@ -128,8 +129,9 @@
       status("Account prepared. Commit the downloaded student-accounts.json to data/student-accounts.json; it is not active until the file is published.");
     } catch (error) { status(error.message || "Unable to create account.", true); }
   }
-  function updateStudentClass() {
+  async function updateStudentClass() {
     try {
+      if (!classOptions.length) await loadClasses();
       if (!database) throw new Error("Load the published account file first.");
       const username=$("manageStaticAccountUsername").value, classId=$("manageStaticAccountClass").value;
       const account=database.accounts.find(item=>item.username===username);
