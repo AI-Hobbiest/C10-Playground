@@ -21762,7 +21762,12 @@
         ],
         "answer": 1,
         "explanation": "The loss becomes a small lesson in accepting what cannot be recovered.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "The Ball Poem",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -21775,7 +21780,12 @@
         ],
         "answer": 1,
         "explanation": "Replacing the object immediately would avoid the emotional learning at the poem’s centre.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Ball Poem",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -21788,7 +21798,1758 @@
         ],
         "answer": 1,
         "explanation": "The ball carries the boy’s memories and feelings, not merely its price.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Ball Poem",
+          "poetry"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about the lost ball is supported by the poem?",
+        "options": [
+          "A boy loses his ball when it bounces away into the water.",
+          "the ball is stolen from a shop",
+          "the boy gives the ball away willingly",
+          "the ball is carried off by a teacher"
+        ],
+        "answer": 0,
+        "explanation": "The ball’s disappearance creates the central emotional situation.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "loss"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the lost ball contribute to the poem’s meaning?",
+        "options": [
+          "The boy is happy to get rid of it",
+          "The accidental loss begins the boy’s painful experience of losing something dear.",
+          "The event has no effect on him",
+          "The poem is about buying a new kite"
+        ],
+        "answer": 1,
+        "explanation": "The ball’s disappearance creates the central emotional situation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "loss"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Which interpretation of the lost ball best fits the poem?",
+        "options": [
+          "The event has no effect on him",
+          "The boy is happy to get rid of it",
+          "The accidental loss begins the boy’s painful experience of losing something dear.",
+          "The poem is about buying a new kite"
+        ],
+        "answer": 2,
+        "explanation": "The ball’s disappearance creates the central emotional situation.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "loss"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "Which revision note about the lost ball is accurate?",
+        "options": [
+          "the ball is carried off by a teacher",
+          "the ball is stolen from a shop",
+          "the boy gives the ball away willingly",
+          "A boy loses his ball when it bounces away into the water."
+        ],
+        "answer": 3,
+        "explanation": "The ball’s disappearance creates the central emotional situation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "loss"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Why is the lost ball important to the poem’s message?",
+        "options": [
+          "The accidental loss begins the boy’s painful experience of losing something dear.",
+          "The boy is happy to get rid of it",
+          "The event has no effect on him",
+          "The poem is about buying a new kite"
+        ],
+        "answer": 0,
+        "explanation": "The ball’s disappearance creates the central emotional situation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "loss"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Which detail about the boy’s reaction is supported by the poem?",
+        "options": [
+          "he immediately laughs and forgets it",
+          "The boy stands still and watches the ball disappear.",
+          "he buys a new ball at once",
+          "he starts playing with a different child"
+        ],
+        "answer": 1,
+        "explanation": "The boy’s response shows that the loss matters to him.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "What does the boy’s reaction contribute to the poem’s meaning?",
+        "options": [
+          "He is eager to forget all memories",
+          "His reaction shows indifference",
+          "His stillness suggests shock and a deep personal attachment.",
+          "He is happy that the ball is gone"
+        ],
+        "answer": 2,
+        "explanation": "The boy’s response shows that the loss matters to him.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "Which interpretation of the boy’s reaction best fits the poem?",
+        "options": [
+          "He is happy that the ball is gone",
+          "His reaction shows indifference",
+          "He is eager to forget all memories",
+          "His stillness suggests shock and a deep personal attachment."
+        ],
+        "answer": 3,
+        "explanation": "The boy’s response shows that the loss matters to him.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Which revision note about the boy’s reaction is accurate?",
+        "options": [
+          "The boy stands still and watches the ball disappear.",
+          "he immediately laughs and forgets it",
+          "he buys a new ball at once",
+          "he starts playing with a different child"
+        ],
+        "answer": 0,
+        "explanation": "The boy’s response shows that the loss matters to him.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Why is the boy’s reaction important to the poem’s message?",
+        "options": [
+          "His reaction shows indifference",
+          "His stillness suggests shock and a deep personal attachment.",
+          "He is eager to forget all memories",
+          "He is happy that the ball is gone"
+        ],
+        "answer": 1,
+        "explanation": "The boy’s response shows that the loss matters to him.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "Which detail about the ball’s significance is supported by the poem?",
+        "options": [
+          "a ticket for a bus ride",
+          "a school textbook only",
+          "The ball represents more than an ordinary toy to the boy.",
+          "a stranger’s property"
+        ],
+        "answer": 2,
+        "explanation": "The ball’s importance comes from the memories and attachment it holds.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "symbolism",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does the ball’s significance contribute to the poem’s meaning?",
+        "options": [
+          "It symbolises a political election only",
+          "It can be replaced without any emotional effect",
+          "It has no connection to the boy’s life",
+          "It carries personal memories and emotional value."
+        ],
+        "answer": 3,
+        "explanation": "The ball’s importance comes from the memories and attachment it holds.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "Which interpretation of the ball’s significance best fits the poem?",
+        "options": [
+          "It carries personal memories and emotional value.",
+          "It can be replaced without any emotional effect",
+          "It has no connection to the boy’s life",
+          "It symbolises a political election only"
+        ],
+        "answer": 0,
+        "explanation": "The ball’s importance comes from the memories and attachment it holds.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which revision note about the ball’s significance is accurate?",
+        "options": [
+          "a school textbook only",
+          "The ball represents more than an ordinary toy to the boy.",
+          "a ticket for a bus ride",
+          "a stranger’s property"
+        ],
+        "answer": 1,
+        "explanation": "The ball’s importance comes from the memories and attachment it holds.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "Why is the ball’s significance important to the poem’s message?",
+        "options": [
+          "It has no connection to the boy’s life",
+          "It can be replaced without any emotional effect",
+          "It carries personal memories and emotional value.",
+          "It symbolises a political election only"
+        ],
+        "answer": 2,
+        "explanation": "The ball’s importance comes from the memories and attachment it holds.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which detail about the water is supported by the poem?",
+        "options": [
+          "it is carried home by the boy",
+          "it rolls under a classroom desk",
+          "it is placed safely in a drawer",
+          "The ball disappears into water and cannot easily be retrieved."
+        ],
+        "answer": 3,
+        "explanation": "The ball’s movement into the water makes the loss final for the boy.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "setting",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does the water contribute to the poem’s meaning?",
+        "options": [
+          "The water marks the point at which the loss becomes irreversible.",
+          "The water returns the ball immediately",
+          "The ball is never actually lost",
+          "The water symbolises a school subject"
+        ],
+        "answer": 0,
+        "explanation": "The ball’s movement into the water makes the loss final for the boy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Which interpretation of the water best fits the poem?",
+        "options": [
+          "The water returns the ball immediately",
+          "The water marks the point at which the loss becomes irreversible.",
+          "The ball is never actually lost",
+          "The water symbolises a school subject"
+        ],
+        "answer": 1,
+        "explanation": "The ball’s movement into the water makes the loss final for the boy.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "setting",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which revision note about the water is accurate?",
+        "options": [
+          "it is placed safely in a drawer",
+          "it rolls under a classroom desk",
+          "The ball disappears into water and cannot easily be retrieved.",
+          "it is carried home by the boy"
+        ],
+        "answer": 2,
+        "explanation": "The ball’s movement into the water makes the loss final for the boy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "Why is the water important to the poem’s message?",
+        "options": [
+          "The water symbolises a school subject",
+          "The water returns the ball immediately",
+          "The ball is never actually lost",
+          "The water marks the point at which the loss becomes irreversible."
+        ],
+        "answer": 3,
+        "explanation": "The ball’s movement into the water makes the loss final for the boy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Which detail about buying another ball is supported by the poem?",
+        "options": [
+          "The poem suggests that purchasing another ball cannot replace this particular loss.",
+          "a new ball would restore every memory",
+          "the boy has no feelings about possessions",
+          "the poet orders the boy to stop playing"
+        ],
+        "answer": 0,
+        "explanation": "A replacement cannot carry exactly the same memories as the lost ball.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What does buying another ball contribute to the poem’s meaning?",
+        "options": [
+          "All objects have identical emotional value",
+          "Objects may be replaced materially without restoring the meaning of the original object.",
+          "The poem says money always solves grief",
+          "The loss is only about a price"
+        ],
+        "answer": 1,
+        "explanation": "A replacement cannot carry exactly the same memories as the lost ball.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of buying another ball best fits the poem?",
+        "options": [
+          "The poem says money always solves grief",
+          "All objects have identical emotional value",
+          "Objects may be replaced materially without restoring the meaning of the original object.",
+          "The loss is only about a price"
+        ],
+        "answer": 2,
+        "explanation": "A replacement cannot carry exactly the same memories as the lost ball.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which revision note about buying another ball is accurate?",
+        "options": [
+          "the poet orders the boy to stop playing",
+          "a new ball would restore every memory",
+          "the boy has no feelings about possessions",
+          "The poem suggests that purchasing another ball cannot replace this particular loss."
+        ],
+        "answer": 3,
+        "explanation": "A replacement cannot carry exactly the same memories as the lost ball.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Why is buying another ball important to the poem’s message?",
+        "options": [
+          "Objects may be replaced materially without restoring the meaning of the original object.",
+          "All objects have identical emotional value",
+          "The poem says money always solves grief",
+          "The loss is only about a price"
+        ],
+        "answer": 0,
+        "explanation": "A replacement cannot carry exactly the same memories as the lost ball.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which detail about the boy’s grief is supported by the poem?",
+        "options": [
+          "he is punished for losing the ball",
+          "The boy’s sadness is presented as a real and important response.",
+          "he is pleased by the loss",
+          "he is angry only at a shopkeeper"
+        ],
+        "answer": 1,
+        "explanation": "The boy’s emotional response is central to the poem.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "emotion",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What does the boy’s grief contribute to the poem’s meaning?",
+        "options": [
+          "His sadness disappears before the ball is lost",
+          "The poem says children cannot feel real grief",
+          "The poem treats his grief seriously instead of dismissing it as childish.",
+          "The poet mocks him for caring"
+        ],
+        "answer": 2,
+        "explanation": "The boy’s emotional response is central to the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which interpretation of the boy’s grief best fits the poem?",
+        "options": [
+          "The poet mocks him for caring",
+          "The poem says children cannot feel real grief",
+          "His sadness disappears before the ball is lost",
+          "The poem treats his grief seriously instead of dismissing it as childish."
+        ],
+        "answer": 3,
+        "explanation": "The boy’s emotional response is central to the poem.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "emotion",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which revision note about the boy’s grief is accurate?",
+        "options": [
+          "The boy’s sadness is presented as a real and important response.",
+          "he is punished for losing the ball",
+          "he is pleased by the loss",
+          "he is angry only at a shopkeeper"
+        ],
+        "answer": 0,
+        "explanation": "The boy’s emotional response is central to the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is the boy’s grief important to the poem’s message?",
+        "options": [
+          "The poem says children cannot feel real grief",
+          "The poem treats his grief seriously instead of dismissing it as childish.",
+          "His sadness disappears before the ball is lost",
+          "The poet mocks him for caring"
+        ],
+        "answer": 1,
+        "explanation": "The boy’s emotional response is central to the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Which detail about responsibility is supported by the poem?",
+        "options": [
+          "he must never own another object",
+          "an adult can undo every loss for him",
+          "The boy must begin to understand how to live with loss.",
+          "he should blame the water forever"
+        ],
+        "answer": 2,
+        "explanation": "The poem uses the event to show a difficult lesson about growing up.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does responsibility contribute to the poem’s meaning?",
+        "options": [
+          "A new ball will prevent every future loss",
+          "Maturity means never feeling sadness",
+          "Responsibility is unrelated to choices",
+          "Loss becomes part of learning responsibility and maturity."
+        ],
+        "answer": 3,
+        "explanation": "The poem uses the event to show a difficult lesson about growing up.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "Which interpretation of responsibility best fits the poem?",
+        "options": [
+          "Loss becomes part of learning responsibility and maturity.",
+          "Maturity means never feeling sadness",
+          "Responsibility is unrelated to choices",
+          "A new ball will prevent every future loss"
+        ],
+        "answer": 0,
+        "explanation": "The poem uses the event to show a difficult lesson about growing up.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which revision note about responsibility is accurate?",
+        "options": [
+          "an adult can undo every loss for him",
+          "The boy must begin to understand how to live with loss.",
+          "he must never own another object",
+          "he should blame the water forever"
+        ],
+        "answer": 1,
+        "explanation": "The poem uses the event to show a difficult lesson about growing up.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "Why is responsibility important to the poem’s message?",
+        "options": [
+          "Responsibility is unrelated to choices",
+          "Maturity means never feeling sadness",
+          "Loss becomes part of learning responsibility and maturity.",
+          "A new ball will prevent every future loss"
+        ],
+        "answer": 2,
+        "explanation": "The poem uses the event to show a difficult lesson about growing up.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Which detail about the adult’s response is supported by the poem?",
+        "options": [
+          "the speaker confiscates all his toys",
+          "the speaker immediately buys ten balls",
+          "the speaker laughs and scolds the boy",
+          "The speaker does not simply offer to buy the boy a replacement."
+        ],
+        "answer": 3,
+        "explanation": "The poem focuses on what the boy must learn from the experience.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What does the adult’s response contribute to the poem’s meaning?",
+        "options": [
+          "The boy needs to experience the meaning of the loss rather than be distracted by a substitute.",
+          "The poet says the loss is trivial",
+          "The adult tries to erase the memory",
+          "The poem is only about shopping"
+        ],
+        "answer": 0,
+        "explanation": "The poem focuses on what the boy must learn from the experience.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Which interpretation of the adult’s response best fits the poem?",
+        "options": [
+          "The poet says the loss is trivial",
+          "The boy needs to experience the meaning of the loss rather than be distracted by a substitute.",
+          "The adult tries to erase the memory",
+          "The poem is only about shopping"
+        ],
+        "answer": 1,
+        "explanation": "The poem focuses on what the boy must learn from the experience.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Which revision note about the adult’s response is accurate?",
+        "options": [
+          "the speaker laughs and scolds the boy",
+          "the speaker immediately buys ten balls",
+          "The speaker does not simply offer to buy the boy a replacement.",
+          "the speaker confiscates all his toys"
+        ],
+        "answer": 2,
+        "explanation": "The poem focuses on what the boy must learn from the experience.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why is the adult’s response important to the poem’s message?",
+        "options": [
+          "The poem is only about shopping",
+          "The poet says the loss is trivial",
+          "The adult tries to erase the memory",
+          "The boy needs to experience the meaning of the loss rather than be distracted by a substitute."
+        ],
+        "answer": 3,
+        "explanation": "The poem focuses on what the boy must learn from the experience.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which detail about the boy’s silence is supported by the poem?",
+        "options": [
+          "The boy does not immediately speak or move after losing the ball.",
+          "he gives a long speech to a crowd",
+          "he shouts orders at the water",
+          "he begins singing"
+        ],
+        "answer": 0,
+        "explanation": "The stillness lets the reader sense the boy’s shock and grief.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does the boy’s silence contribute to the poem’s meaning?",
+        "options": [
+          "His silence proves he feels no attachment",
+          "Silence communicates the depth of his sadness.",
+          "He is asleep",
+          "He is preparing a speech about sports"
+        ],
+        "answer": 1,
+        "explanation": "The stillness lets the reader sense the boy’s shock and grief.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which interpretation of the boy’s silence best fits the poem?",
+        "options": [
+          "He is asleep",
+          "His silence proves he feels no attachment",
+          "Silence communicates the depth of his sadness.",
+          "He is preparing a speech about sports"
+        ],
+        "answer": 2,
+        "explanation": "The stillness lets the reader sense the boy’s shock and grief.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which revision note about the boy’s silence is accurate?",
+        "options": [
+          "he begins singing",
+          "he gives a long speech to a crowd",
+          "he shouts orders at the water",
+          "The boy does not immediately speak or move after losing the ball."
+        ],
+        "answer": 3,
+        "explanation": "The stillness lets the reader sense the boy’s shock and grief.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "Why is the boy’s silence important to the poem’s message?",
+        "options": [
+          "Silence communicates the depth of his sadness.",
+          "His silence proves he feels no attachment",
+          "He is asleep",
+          "He is preparing a speech about sports"
+        ],
+        "answer": 0,
+        "explanation": "The stillness lets the reader sense the boy’s shock and grief.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about the meaning of loss is supported by the poem?",
+        "options": [
+          "something that happens only to adults",
+          "The poem presents loss as a part of life that people must eventually face.",
+          "a problem solved by money every time",
+          "an experience that can always be avoided"
+        ],
+        "answer": 1,
+        "explanation": "The event gives the boy an early experience of a universal human challenge.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the meaning of loss contribute to the poem’s meaning?",
+        "options": [
+          "Loss is only a game",
+          "The poem promises nobody will lose anything",
+          "Learning to accept loss is part of emotional growth.",
+          "The boy’s grief has no lesson"
+        ],
+        "answer": 2,
+        "explanation": "The event gives the boy an early experience of a universal human challenge.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Which interpretation of the meaning of loss best fits the poem?",
+        "options": [
+          "The boy’s grief has no lesson",
+          "The poem promises nobody will lose anything",
+          "Loss is only a game",
+          "Learning to accept loss is part of emotional growth."
+        ],
+        "answer": 3,
+        "explanation": "The event gives the boy an early experience of a universal human challenge.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "Which revision note about the meaning of loss is accurate?",
+        "options": [
+          "The poem presents loss as a part of life that people must eventually face.",
+          "something that happens only to adults",
+          "a problem solved by money every time",
+          "an experience that can always be avoided"
+        ],
+        "answer": 0,
+        "explanation": "The event gives the boy an early experience of a universal human challenge.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Why is the meaning of loss important to the poem’s message?",
+        "options": [
+          "The poem promises nobody will lose anything",
+          "Learning to accept loss is part of emotional growth.",
+          "Loss is only a game",
+          "The boy’s grief has no lesson"
+        ],
+        "answer": 1,
+        "explanation": "The event gives the boy an early experience of a universal human challenge.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Which detail about the ball’s memories is supported by the poem?",
+        "options": [
+          "it belongs to a stranger",
+          "it is valuable only because it is expensive",
+          "The original ball is connected to the boy’s own experiences and memories.",
+          "it is a symbol of a teacher’s authority"
+        ],
+        "answer": 2,
+        "explanation": "The ball matters because of the private associations the boy has with it.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "symbolism",
+          "memory"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does the ball’s memories contribute to the poem’s meaning?",
+        "options": [
+          "The only important issue is the price",
+          "The poem treats all balls as interchangeable",
+          "The ball contains no memories",
+          "Its meaning cannot be duplicated by an identical object."
+        ],
+        "answer": 3,
+        "explanation": "The ball matters because of the private associations the boy has with it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "memory"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Which interpretation of the ball’s memories best fits the poem?",
+        "options": [
+          "Its meaning cannot be duplicated by an identical object.",
+          "The poem treats all balls as interchangeable",
+          "The ball contains no memories",
+          "The only important issue is the price"
+        ],
+        "answer": 0,
+        "explanation": "The ball matters because of the private associations the boy has with it.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "memory"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which revision note about the ball’s memories is accurate?",
+        "options": [
+          "it is valuable only because it is expensive",
+          "The original ball is connected to the boy’s own experiences and memories.",
+          "it belongs to a stranger",
+          "it is a symbol of a teacher’s authority"
+        ],
+        "answer": 1,
+        "explanation": "The ball matters because of the private associations the boy has with it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "memory"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Why is the ball’s memories important to the poem’s message?",
+        "options": [
+          "The ball contains no memories",
+          "The poem treats all balls as interchangeable",
+          "Its meaning cannot be duplicated by an identical object.",
+          "The only important issue is the price"
+        ],
+        "answer": 2,
+        "explanation": "The ball matters because of the private associations the boy has with it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "memory"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "Which detail about the title is supported by the poem?",
+        "options": [
+          "it describes a travelling adventure",
+          "it announces a sports tournament",
+          "it names the boy’s school",
+          "The title focuses on the ball as the central object of the boy’s experience."
+        ],
+        "answer": 3,
+        "explanation": "The title identifies the object whose loss prompts the poem’s reflection.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "title",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What does the title contribute to the poem’s meaning?",
+        "options": [
+          "An ordinary object becomes the focus of a lesson about loss.",
+          "The ball is unimportant to the poem",
+          "The poem is mainly about the poet’s childhood",
+          "The title refers to a planet"
+        ],
+        "answer": 0,
+        "explanation": "The title identifies the object whose loss prompts the poem’s reflection.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which interpretation of the title best fits the poem?",
+        "options": [
+          "The ball is unimportant to the poem",
+          "An ordinary object becomes the focus of a lesson about loss.",
+          "The poem is mainly about the poet’s childhood",
+          "The title refers to a planet"
+        ],
+        "answer": 1,
+        "explanation": "The title identifies the object whose loss prompts the poem’s reflection.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "title",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which revision note about the title is accurate?",
+        "options": [
+          "it names the boy’s school",
+          "it announces a sports tournament",
+          "The title focuses on the ball as the central object of the boy’s experience.",
+          "it describes a travelling adventure"
+        ],
+        "answer": 2,
+        "explanation": "The title identifies the object whose loss prompts the poem’s reflection.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Why is the title important to the poem’s message?",
+        "options": [
+          "The title refers to a planet",
+          "The ball is unimportant to the poem",
+          "The poem is mainly about the poet’s childhood",
+          "An ordinary object becomes the focus of a lesson about loss."
+        ],
+        "answer": 3,
+        "explanation": "The title identifies the object whose loss prompts the poem’s reflection.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which detail about the poet’s tone is supported by the poem?",
+        "options": [
+          "The tone is thoughtful and sympathetic toward the boy.",
+          "mocking and dismissive",
+          "celebratory and triumphant",
+          "formal and bureaucratic"
+        ],
+        "answer": 0,
+        "explanation": "The thoughtful tone encourages readers to take the boy’s feelings seriously.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What does the poet’s tone contribute to the poem’s meaning?",
+        "options": [
+          "The poem makes fun of all grief",
+          "The speaker recognises the emotional importance of the boy’s loss.",
+          "The poet is indifferent to the scene",
+          "The tone is an instruction manual"
+        ],
+        "answer": 1,
+        "explanation": "The thoughtful tone encourages readers to take the boy’s feelings seriously.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which interpretation of the poet’s tone best fits the poem?",
+        "options": [
+          "The poet is indifferent to the scene",
+          "The poem makes fun of all grief",
+          "The speaker recognises the emotional importance of the boy’s loss.",
+          "The tone is an instruction manual"
+        ],
+        "answer": 2,
+        "explanation": "The thoughtful tone encourages readers to take the boy’s feelings seriously.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which revision note about the poet’s tone is accurate?",
+        "options": [
+          "formal and bureaucratic",
+          "mocking and dismissive",
+          "celebratory and triumphant",
+          "The tone is thoughtful and sympathetic toward the boy."
+        ],
+        "answer": 3,
+        "explanation": "The thoughtful tone encourages readers to take the boy’s feelings seriously.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Why is the poet’s tone important to the poem’s message?",
+        "options": [
+          "The speaker recognises the emotional importance of the boy’s loss.",
+          "The poem makes fun of all grief",
+          "The poet is indifferent to the scene",
+          "The tone is an instruction manual"
+        ],
+        "answer": 0,
+        "explanation": "The thoughtful tone encourages readers to take the boy’s feelings seriously.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Which detail about the idea of ownership is supported by the poem?",
+        "options": [
+          "ownership is always meaningless",
+          "The poem suggests that owning something can involve emotional attachment and responsibility.",
+          "people should never value objects",
+          "only the price of an object matters"
+        ],
+        "answer": 1,
+        "explanation": "The boy’s attachment shows that an object can matter for reasons beyond cost.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "What does the idea of ownership contribute to the poem’s meaning?",
+        "options": [
+          "The poem says memories are bought in a shop",
+          "The ball has value only as rubbish",
+          "Possessions may become tied to memory and personal experience.",
+          "The boy’s ownership is never established"
+        ],
+        "answer": 2,
+        "explanation": "The boy’s attachment shows that an object can matter for reasons beyond cost.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of the idea of ownership best fits the poem?",
+        "options": [
+          "The boy’s ownership is never established",
+          "The ball has value only as rubbish",
+          "The poem says memories are bought in a shop",
+          "Possessions may become tied to memory and personal experience."
+        ],
+        "answer": 3,
+        "explanation": "The boy’s attachment shows that an object can matter for reasons beyond cost.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which revision note about the idea of ownership is accurate?",
+        "options": [
+          "The poem suggests that owning something can involve emotional attachment and responsibility.",
+          "ownership is always meaningless",
+          "people should never value objects",
+          "only the price of an object matters"
+        ],
+        "answer": 0,
+        "explanation": "The boy’s attachment shows that an object can matter for reasons beyond cost.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Why is the idea of ownership important to the poem’s message?",
+        "options": [
+          "The ball has value only as rubbish",
+          "Possessions may become tied to memory and personal experience.",
+          "The poem says memories are bought in a shop",
+          "The boy’s ownership is never established"
+        ],
+        "answer": 1,
+        "explanation": "The boy’s attachment shows that an object can matter for reasons beyond cost.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which detail about growing up is supported by the poem?",
+        "options": [
+          "it is a formal lesson taught at school",
+          "it proves childhood has no feelings",
+          "The boy’s experience is presented as a lesson in maturity.",
+          "it shows the boy becoming a professional player"
+        ],
+        "answer": 2,
+        "explanation": "The poem connects the boy’s first deep loss with the process of growing up.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What does growing up contribute to the poem’s meaning?",
+        "options": [
+          "The lesson is unrelated to life",
+          "Maturity means acquiring every replacement",
+          "The loss makes the boy permanently unable to learn",
+          "Facing loss without an easy substitute is part of growing emotionally."
+        ],
+        "answer": 3,
+        "explanation": "The poem connects the boy’s first deep loss with the process of growing up.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which interpretation of growing up best fits the poem?",
+        "options": [
+          "Facing loss without an easy substitute is part of growing emotionally.",
+          "Maturity means acquiring every replacement",
+          "The loss makes the boy permanently unable to learn",
+          "The lesson is unrelated to life"
+        ],
+        "answer": 0,
+        "explanation": "The poem connects the boy’s first deep loss with the process of growing up.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which revision note about growing up is accurate?",
+        "options": [
+          "it proves childhood has no feelings",
+          "The boy’s experience is presented as a lesson in maturity.",
+          "it is a formal lesson taught at school",
+          "it shows the boy becoming a professional player"
+        ],
+        "answer": 1,
+        "explanation": "The poem connects the boy’s first deep loss with the process of growing up.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is growing up important to the poem’s message?",
+        "options": [
+          "The loss makes the boy permanently unable to learn",
+          "Maturity means acquiring every replacement",
+          "Facing loss without an easy substitute is part of growing emotionally.",
+          "The lesson is unrelated to life"
+        ],
+        "answer": 2,
+        "explanation": "The poem connects the boy’s first deep loss with the process of growing up.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "maturity"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which detail about the impossibility of retrieval is supported by the poem?",
+        "options": [
+          "the boy never notices the ball is missing",
+          "the old ball can easily be returned by money",
+          "every memory comes back with a new object",
+          "Once the ball disappears, its particular history cannot be restored by taking another ball."
+        ],
+        "answer": 3,
+        "explanation": "The poem distinguishes between replacing an object and recovering its personal meaning.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What does the impossibility of retrieval contribute to the poem’s meaning?",
+        "options": [
+          "Loss is not always reversible in the way a purchase is.",
+          "The poem treats money as an exact substitute for experience",
+          "The ball is still in the boy’s hand",
+          "The loss has no emotional consequences"
+        ],
+        "answer": 0,
+        "explanation": "The poem distinguishes between replacing an object and recovering its personal meaning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which interpretation of the impossibility of retrieval best fits the poem?",
+        "options": [
+          "The poem treats money as an exact substitute for experience",
+          "Loss is not always reversible in the way a purchase is.",
+          "The ball is still in the boy’s hand",
+          "The loss has no emotional consequences"
+        ],
+        "answer": 1,
+        "explanation": "The poem distinguishes between replacing an object and recovering its personal meaning.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which revision note about the impossibility of retrieval is accurate?",
+        "options": [
+          "every memory comes back with a new object",
+          "the old ball can easily be returned by money",
+          "Once the ball disappears, its particular history cannot be restored by taking another ball.",
+          "the boy never notices the ball is missing"
+        ],
+        "answer": 2,
+        "explanation": "The poem distinguishes between replacing an object and recovering its personal meaning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Why is the impossibility of retrieval important to the poem’s message?",
+        "options": [
+          "The loss has no emotional consequences",
+          "The poem treats money as an exact substitute for experience",
+          "The ball is still in the boy’s hand",
+          "Loss is not always reversible in the way a purchase is."
+        ],
+        "answer": 3,
+        "explanation": "The poem distinguishes between replacing an object and recovering its personal meaning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which detail about the boy’s learning is supported by the poem?",
+        "options": [
+          "The boy begins to learn what loss feels like through direct experience.",
+          "he learns only from a textbook definition",
+          "he is told he must never play again",
+          "he discovers the ball was never his"
+        ],
+        "answer": 0,
+        "explanation": "The boy encounters a truth about life through his own grief.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "What does the boy’s learning contribute to the poem’s meaning?",
+        "options": [
+          "He learns nothing about life",
+          "Experience makes the lesson emotionally real.",
+          "The poem tells him to avoid every responsibility",
+          "The experience is only a maths problem"
+        ],
+        "answer": 1,
+        "explanation": "The boy encounters a truth about life through his own grief.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which interpretation of the boy’s learning best fits the poem?",
+        "options": [
+          "The poem tells him to avoid every responsibility",
+          "He learns nothing about life",
+          "Experience makes the lesson emotionally real.",
+          "The experience is only a maths problem"
+        ],
+        "answer": 2,
+        "explanation": "The boy encounters a truth about life through his own grief.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which revision note about the boy’s learning is accurate?",
+        "options": [
+          "he discovers the ball was never his",
+          "he learns only from a textbook definition",
+          "he is told he must never play again",
+          "The boy begins to learn what loss feels like through direct experience."
+        ],
+        "answer": 3,
+        "explanation": "The boy encounters a truth about life through his own grief.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Why is the boy’s learning important to the poem’s message?",
+        "options": [
+          "Experience makes the lesson emotionally real.",
+          "He learns nothing about life",
+          "The poem tells him to avoid every responsibility",
+          "The experience is only a maths problem"
+        ],
+        "answer": 0,
+        "explanation": "The boy encounters a truth about life through his own grief.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which detail about the poem’s language is supported by the poem?",
+        "options": [
+          "technical scientific jargon",
+          "The poem uses simple language to present a serious emotional experience.",
+          "legal instructions",
+          "a complex list of ingredients"
+        ],
+        "answer": 1,
+        "explanation": "The contrast between a simple event and a deep lesson is central to the poem.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "style",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does the poem’s language contribute to the poem’s meaning?",
+        "options": [
+          "The speaker avoids describing emotion",
+          "The poem hides its topic through specialist terms",
+          "Accessible language helps the reader focus on the boy’s feelings and the meaning of loss.",
+          "The poem is written as a school timetable"
+        ],
+        "answer": 2,
+        "explanation": "The contrast between a simple event and a deep lesson is central to the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which interpretation of the poem’s language best fits the poem?",
+        "options": [
+          "The poem is written as a school timetable",
+          "The poem hides its topic through specialist terms",
+          "The speaker avoids describing emotion",
+          "Accessible language helps the reader focus on the boy’s feelings and the meaning of loss."
+        ],
+        "answer": 3,
+        "explanation": "The contrast between a simple event and a deep lesson is central to the poem.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "style",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "Which revision note about the poem’s language is accurate?",
+        "options": [
+          "The poem uses simple language to present a serious emotional experience.",
+          "technical scientific jargon",
+          "legal instructions",
+          "a complex list of ingredients"
+        ],
+        "answer": 0,
+        "explanation": "The contrast between a simple event and a deep lesson is central to the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Why is the poem’s language important to the poem’s message?",
+        "options": [
+          "The poem hides its topic through specialist terms",
+          "Accessible language helps the reader focus on the boy’s feelings and the meaning of loss.",
+          "The speaker avoids describing emotion",
+          "The poem is written as a school timetable"
+        ],
+        "answer": 1,
+        "explanation": "The contrast between a simple event and a deep lesson is central to the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about the boy and the observer is supported by the poem?",
+        "options": [
+          "the speaker immediately changes the subject to tea",
+          "the speaker confiscates the boy’s ball",
+          "The speaker watches the boy’s grief rather than taking the experience away from him.",
+          "the speaker tells him not to care"
+        ],
+        "answer": 2,
+        "explanation": "The observing voice does not erase the boy’s emotional experience with a quick solution.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the boy and the observer contribute to the poem’s meaning?",
+        "options": [
+          "The speaker is unaware of the loss",
+          "The speaker removes every consequence",
+          "The speaker claims grief is impossible",
+          "The poem allows the boy to confront the experience and begin learning from it."
+        ],
+        "answer": 3,
+        "explanation": "The observing voice does not erase the boy’s emotional experience with a quick solution.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which interpretation of the boy and the observer best fits the poem?",
+        "options": [
+          "The poem allows the boy to confront the experience and begin learning from it.",
+          "The speaker removes every consequence",
+          "The speaker claims grief is impossible",
+          "The speaker is unaware of the loss"
+        ],
+        "answer": 0,
+        "explanation": "The observing voice does not erase the boy’s emotional experience with a quick solution.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which revision note about the boy and the observer is accurate?",
+        "options": [
+          "the speaker confiscates the boy’s ball",
+          "The speaker watches the boy’s grief rather than taking the experience away from him.",
+          "the speaker immediately changes the subject to tea",
+          "the speaker tells him not to care"
+        ],
+        "answer": 1,
+        "explanation": "The observing voice does not erase the boy’s emotional experience with a quick solution.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Why is the boy and the observer important to the poem’s message?",
+        "options": [
+          "The speaker claims grief is impossible",
+          "The speaker removes every consequence",
+          "The poem allows the boy to confront the experience and begin learning from it.",
+          "The speaker is unaware of the loss"
+        ],
+        "answer": 2,
+        "explanation": "The observing voice does not erase the boy’s emotional experience with a quick solution.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which detail about the poem’s central message is supported by the poem?",
+        "options": [
+          "growing up means refusing to feel",
+          "all sorrow can be removed by shopping",
+          "objects never matter to people",
+          "The poem suggests that loss teaches people about attachment and responsibility."
+        ],
+        "answer": 3,
+        "explanation": "The boy’s encounter with loss becomes a lesson about life beyond the ball.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What does the poem’s central message contribute to the poem’s meaning?",
+        "options": [
+          "Accepting loss is part of becoming emotionally mature.",
+          "The poem praises indifference",
+          "The boy’s feelings are irrelevant",
+          "The poem is a guide to purchasing sports equipment"
+        ],
+        "answer": 0,
+        "explanation": "The boy’s encounter with loss becomes a lesson about life beyond the ball.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
