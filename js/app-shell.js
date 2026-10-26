@@ -108,16 +108,19 @@
       link.append(node("span","c10-nav-icon",item.icon),node("span","",item.label));link.addEventListener("click",()=>closeMenu());list.appendChild(link);
     });
     if(auth.role!=="guest"){
-      const logout=node("button","c10-nav-link c10-nav-action");
-      logout.type="button";logout.append(node("span","c10-nav-icon","↪"),node("span","", "Sign out"));
-      logout.addEventListener("click",async()=>{
-        logout.disabled=true;
-        try{if(window.C10Api&&window.C10Api.isAuthenticated())await window.C10Api.logout();}catch(_){}
-        if(window.C10StudentAuth&&window.C10StudentAuth.logout)window.C10StudentAuth.logout();
-        try{sessionStorage.removeItem("c10playground_static_student_v1");sessionStorage.removeItem("c10playground_api_session");sessionStorage.removeItem("examguru_mvp_admin_session_v1");}catch(_){}
-        location.replace("./index.html");
-      });
-      list.appendChild(logout);
+      const header=document.querySelector("header");
+      if(header&&!document.getElementById("c10HeaderSignout")){
+        const logout=node("button","c10-header-signout","↪ Sign out");
+        logout.id="c10HeaderSignout";logout.type="button";logout.setAttribute("aria-label","Sign out of ExamGuru");
+        logout.addEventListener("click",async()=>{
+          logout.disabled=true;
+          try{if(window.C10Api&&window.C10Api.isAuthenticated())await window.C10Api.logout();}catch(_){}
+          if(window.C10StudentAuth&&window.C10StudentAuth.logout)window.C10StudentAuth.logout();
+          try{sessionStorage.removeItem("c10playground_static_student_v1");sessionStorage.removeItem("c10playground_api_session");sessionStorage.removeItem("examguru_mvp_admin_session_v1");}catch(_){}
+          location.replace("./index.html");
+        });
+        header.appendChild(logout);
+      }
     }
     sidebar.appendChild(list);
     const bottom=node("div","c10-sidebar-bottom");
