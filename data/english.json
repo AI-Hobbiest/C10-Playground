@@ -19954,7 +19954,12 @@
         ],
         "answer": 1,
         "explanation": "The poet uses comic exaggeration rather than formal zoological instruction.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "How to Tell Wild Animals",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -19967,7 +19972,12 @@
         ],
         "answer": 1,
         "explanation": "The descriptions turn dangerous encounters into comic situations.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "How to Tell Wild Animals",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -19980,7 +19990,1758 @@
         ],
         "answer": 1,
         "explanation": "Its comic tone signals that the advice is not meant as practical instruction.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "How to Tell Wild Animals",
+          "poetry"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about the poem’s situation is supported by the poem?",
+        "options": [
+          "The speaker offers humorous clues for identifying wild animals during a jungle encounter.",
+          "the rules for driving a bus",
+          "a guide to growing tea",
+          "a formal wildlife census"
+        ],
+        "answer": 0,
+        "explanation": "The speaker uses comic advice rather than a serious zoological guide.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the poem’s situation contribute to the poem’s meaning?",
+        "options": [
+          "It is a scientific field manual",
+          "The poem turns animal identification into a playful, exaggerated exercise.",
+          "It gives exact safety procedures",
+          "It avoids humour completely"
+        ],
+        "answer": 1,
+        "explanation": "The speaker uses comic advice rather than a serious zoological guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Which interpretation of the poem’s situation best fits the poem?",
+        "options": [
+          "It gives exact safety procedures",
+          "It is a scientific field manual",
+          "The poem turns animal identification into a playful, exaggerated exercise.",
+          "It avoids humour completely"
+        ],
+        "answer": 2,
+        "explanation": "The speaker uses comic advice rather than a serious zoological guide.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "Which revision note about the poem’s situation is accurate?",
+        "options": [
+          "a formal wildlife census",
+          "the rules for driving a bus",
+          "a guide to growing tea",
+          "The speaker offers humorous clues for identifying wild animals during a jungle encounter."
+        ],
+        "answer": 3,
+        "explanation": "The speaker uses comic advice rather than a serious zoological guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Why is the poem’s situation important to the poem’s effect?",
+        "options": [
+          "The poem turns animal identification into a playful, exaggerated exercise.",
+          "It is a scientific field manual",
+          "It gives exact safety procedures",
+          "It avoids humour completely"
+        ],
+        "answer": 0,
+        "explanation": "The speaker uses comic advice rather than a serious zoological guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Which detail about the Bengal tiger is supported by the poem?",
+        "options": [
+          "an Asian lion",
+          "A large tawny animal with black stripes is identified as a Bengal tiger.",
+          "a chameleon",
+          "a hyena"
+        ],
+        "answer": 1,
+        "explanation": "The black stripes against tawny fur are the key clue in the poem.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "What does the Bengal tiger contribute to the poem’s meaning?",
+        "options": [
+          "It is recognised only by tears",
+          "The tiger is identified by changing colour",
+          "The description relies on the tiger’s recognisable coat pattern.",
+          "It is identified by a hug"
+        ],
+        "answer": 2,
+        "explanation": "The black stripes against tawny fur are the key clue in the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "Which interpretation of the Bengal tiger best fits the poem?",
+        "options": [
+          "It is identified by a hug",
+          "The tiger is identified by changing colour",
+          "It is recognised only by tears",
+          "The description relies on the tiger’s recognisable coat pattern."
+        ],
+        "answer": 3,
+        "explanation": "The black stripes against tawny fur are the key clue in the poem.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Which revision note about the Bengal tiger is accurate?",
+        "options": [
+          "A large tawny animal with black stripes is identified as a Bengal tiger.",
+          "an Asian lion",
+          "a chameleon",
+          "a hyena"
+        ],
+        "answer": 0,
+        "explanation": "The black stripes against tawny fur are the key clue in the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Why is the Bengal tiger important to the poem’s effect?",
+        "options": [
+          "The tiger is identified by changing colour",
+          "The description relies on the tiger’s recognisable coat pattern.",
+          "It is recognised only by tears",
+          "It is identified by a hug"
+        ],
+        "answer": 1,
+        "explanation": "The black stripes against tawny fur are the key clue in the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "Which detail about the Asian lion is supported by the poem?",
+        "options": [
+          "a crocodile",
+          "a chameleon",
+          "A tawny beast whose roar signals danger is presented as an Asian lion.",
+          "a leopard"
+        ],
+        "answer": 2,
+        "explanation": "The lion’s roar and tawny appearance help distinguish it in the speaker’s joking guide.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does the Asian lion contribute to the poem’s meaning?",
+        "options": [
+          "It is a small lizard",
+          "The lion is identified by its changing colour",
+          "It is recognised by smiling",
+          "The poem uses the animal’s appearance and roar as comic clues."
+        ],
+        "answer": 3,
+        "explanation": "The lion’s roar and tawny appearance help distinguish it in the speaker’s joking guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "Which interpretation of the Asian lion best fits the poem?",
+        "options": [
+          "The poem uses the animal’s appearance and roar as comic clues.",
+          "The lion is identified by its changing colour",
+          "It is recognised by smiling",
+          "It is a small lizard"
+        ],
+        "answer": 0,
+        "explanation": "The lion’s roar and tawny appearance help distinguish it in the speaker’s joking guide.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which revision note about the Asian lion is accurate?",
+        "options": [
+          "a chameleon",
+          "A tawny beast whose roar signals danger is presented as an Asian lion.",
+          "a crocodile",
+          "a leopard"
+        ],
+        "answer": 1,
+        "explanation": "The lion’s roar and tawny appearance help distinguish it in the speaker’s joking guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "Why is the Asian lion important to the poem’s effect?",
+        "options": [
+          "It is recognised by smiling",
+          "The lion is identified by its changing colour",
+          "The poem uses the animal’s appearance and roar as comic clues.",
+          "It is a small lizard"
+        ],
+        "answer": 2,
+        "explanation": "The lion’s roar and tawny appearance help distinguish it in the speaker’s joking guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which detail about the leopard is supported by the poem?",
+        "options": [
+          "a broad smile",
+          "black stripes only",
+          "a changing colour",
+          "The leopard is identified by its spots and its tendency to leap on the observer."
+        ],
+        "answer": 3,
+        "explanation": "The poem links the leopard with spots and sudden leaps.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "animal clues",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does the leopard contribute to the poem’s meaning?",
+        "options": [
+          "The repeated leap is an exaggerated way of teaching identification.",
+          "The leopard is harmless if ignored",
+          "The leopard is identified by weeping",
+          "The leopard has no spots"
+        ],
+        "answer": 0,
+        "explanation": "The poem links the leopard with spots and sudden leaps.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Which interpretation of the leopard best fits the poem?",
+        "options": [
+          "The leopard is harmless if ignored",
+          "The repeated leap is an exaggerated way of teaching identification.",
+          "The leopard is identified by weeping",
+          "The leopard has no spots"
+        ],
+        "answer": 1,
+        "explanation": "The poem links the leopard with spots and sudden leaps.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "animal clues",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which revision note about the leopard is accurate?",
+        "options": [
+          "a changing colour",
+          "black stripes only",
+          "The leopard is identified by its spots and its tendency to leap on the observer.",
+          "a broad smile"
+        ],
+        "answer": 2,
+        "explanation": "The poem links the leopard with spots and sudden leaps.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "Why is the leopard important to the poem’s effect?",
+        "options": [
+          "The leopard has no spots",
+          "The leopard is harmless if ignored",
+          "The leopard is identified by weeping",
+          "The repeated leap is an exaggerated way of teaching identification."
+        ],
+        "answer": 3,
+        "explanation": "The poem links the leopard with spots and sudden leaps.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Which detail about the bear is supported by the poem?",
+        "options": [
+          "The poem jokingly suggests that a bear may be recognised by hugging the person tightly.",
+          "changing its colour",
+          "smiling like a hyena",
+          "having black stripes"
+        ],
+        "answer": 0,
+        "explanation": "The idea of identifying a bear through its embrace is intentionally comic.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "animal clues",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What does the bear contribute to the poem’s meaning?",
+        "options": [
+          "A bear is identified by crying",
+          "The clue turns a dangerous encounter into absurd humour.",
+          "A bear is described as a harmless pet",
+          "A bear is identified by a long tail changing colour"
+        ],
+        "answer": 1,
+        "explanation": "The idea of identifying a bear through its embrace is intentionally comic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of the bear best fits the poem?",
+        "options": [
+          "A bear is described as a harmless pet",
+          "A bear is identified by crying",
+          "The clue turns a dangerous encounter into absurd humour.",
+          "A bear is identified by a long tail changing colour"
+        ],
+        "answer": 2,
+        "explanation": "The idea of identifying a bear through its embrace is intentionally comic.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "animal clues",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which revision note about the bear is accurate?",
+        "options": [
+          "having black stripes",
+          "changing its colour",
+          "smiling like a hyena",
+          "The poem jokingly suggests that a bear may be recognised by hugging the person tightly."
+        ],
+        "answer": 3,
+        "explanation": "The idea of identifying a bear through its embrace is intentionally comic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Why is the bear important to the poem’s effect?",
+        "options": [
+          "The clue turns a dangerous encounter into absurd humour.",
+          "A bear is identified by crying",
+          "A bear is described as a harmless pet",
+          "A bear is identified by a long tail changing colour"
+        ],
+        "answer": 0,
+        "explanation": "The idea of identifying a bear through its embrace is intentionally comic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which detail about the hyena is supported by the poem?",
+        "options": [
+          "weeping like a crocodile",
+          "The hyena is associated with a smiling expression in the poem.",
+          "stripes on yellow fur",
+          "a colour-changing body"
+        ],
+        "answer": 1,
+        "explanation": "The smiling hyena is one of the poem’s memorable comic clues.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What does the hyena contribute to the poem’s meaning?",
+        "options": [
+          "It is identified by hugging someone",
+          "The hyena is defined by its roar alone",
+          "The description relies on a popular way of interpreting the animal’s expression.",
+          "It is described as a lizard"
+        ],
+        "answer": 2,
+        "explanation": "The smiling hyena is one of the poem’s memorable comic clues.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which interpretation of the hyena best fits the poem?",
+        "options": [
+          "It is described as a lizard",
+          "The hyena is defined by its roar alone",
+          "It is identified by hugging someone",
+          "The description relies on a popular way of interpreting the animal’s expression."
+        ],
+        "answer": 3,
+        "explanation": "The smiling hyena is one of the poem’s memorable comic clues.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which revision note about the hyena is accurate?",
+        "options": [
+          "The hyena is associated with a smiling expression in the poem.",
+          "weeping like a crocodile",
+          "stripes on yellow fur",
+          "a colour-changing body"
+        ],
+        "answer": 0,
+        "explanation": "The smiling hyena is one of the poem’s memorable comic clues.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is the hyena important to the poem’s effect?",
+        "options": [
+          "The hyena is defined by its roar alone",
+          "The description relies on a popular way of interpreting the animal’s expression.",
+          "It is identified by hugging someone",
+          "It is described as a lizard"
+        ],
+        "answer": 1,
+        "explanation": "The smiling hyena is one of the poem’s memorable comic clues.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Which detail about the crocodile is supported by the poem?",
+        "options": [
+          "black stripes like a tiger",
+          "a smile like a hyena",
+          "The crocodile is linked with tears in the poem.",
+          "a spotted coat like a leopard"
+        ],
+        "answer": 2,
+        "explanation": "The tears provide the humorous clue for recognising the crocodile.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "animal clues",
+          "wordplay"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does the crocodile contribute to the poem’s meaning?",
+        "options": [
+          "It is identified by stripes",
+          "The crocodile is identified by a hug",
+          "It changes colour like a chameleon",
+          "The description draws on the familiar idea of crocodile tears."
+        ],
+        "answer": 3,
+        "explanation": "The tears provide the humorous clue for recognising the crocodile.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "wordplay"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "Which interpretation of the crocodile best fits the poem?",
+        "options": [
+          "The description draws on the familiar idea of crocodile tears.",
+          "The crocodile is identified by a hug",
+          "It changes colour like a chameleon",
+          "It is identified by stripes"
+        ],
+        "answer": 0,
+        "explanation": "The tears provide the humorous clue for recognising the crocodile.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "animal clues",
+          "wordplay"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which revision note about the crocodile is accurate?",
+        "options": [
+          "a smile like a hyena",
+          "The crocodile is linked with tears in the poem.",
+          "black stripes like a tiger",
+          "a spotted coat like a leopard"
+        ],
+        "answer": 1,
+        "explanation": "The tears provide the humorous clue for recognising the crocodile.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "wordplay"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "Why is the crocodile important to the poem’s effect?",
+        "options": [
+          "It changes colour like a chameleon",
+          "The crocodile is identified by a hug",
+          "The description draws on the familiar idea of crocodile tears.",
+          "It is identified by stripes"
+        ],
+        "answer": 2,
+        "explanation": "The tears provide the humorous clue for recognising the crocodile.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "wordplay"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Which detail about the chameleon is supported by the poem?",
+        "options": [
+          "a bear that hugs",
+          "a large striped cat",
+          "a roaring tawny beast",
+          "The chameleon is described as a small lizard-like creature that can change colour."
+        ],
+        "answer": 3,
+        "explanation": "The chameleon’s ability to change colour is its key trait in the poem.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What does the chameleon contribute to the poem’s meaning?",
+        "options": [
+          "Its colour-changing ability makes it difficult to notice against a background.",
+          "It is always bright red",
+          "It is identified by its roar",
+          "It has the same coat pattern as a tiger"
+        ],
+        "answer": 0,
+        "explanation": "The chameleon’s ability to change colour is its key trait in the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Which interpretation of the chameleon best fits the poem?",
+        "options": [
+          "It is always bright red",
+          "Its colour-changing ability makes it difficult to notice against a background.",
+          "It is identified by its roar",
+          "It has the same coat pattern as a tiger"
+        ],
+        "answer": 1,
+        "explanation": "The chameleon’s ability to change colour is its key trait in the poem.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Which revision note about the chameleon is accurate?",
+        "options": [
+          "a roaring tawny beast",
+          "a large striped cat",
+          "The chameleon is described as a small lizard-like creature that can change colour.",
+          "a bear that hugs"
+        ],
+        "answer": 2,
+        "explanation": "The chameleon’s ability to change colour is its key trait in the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why is the chameleon important to the poem’s effect?",
+        "options": [
+          "It has the same coat pattern as a tiger",
+          "It is always bright red",
+          "It is identified by its roar",
+          "Its colour-changing ability makes it difficult to notice against a background."
+        ],
+        "answer": 3,
+        "explanation": "The chameleon’s ability to change colour is its key trait in the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which detail about the poem’s second-person address is supported by the poem?",
+        "options": [
+          "The speaker addresses the reader directly as someone encountering wild animals.",
+          "the reader is never addressed",
+          "the poem is written as a court order",
+          "the speaker addresses only a king"
+        ],
+        "answer": 0,
+        "explanation": "The direct address places the reader inside the imagined encounter.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "narrative voice",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does the poem’s second-person address contribute to the poem’s meaning?",
+        "options": [
+          "It creates an impersonal scientific report",
+          "Direct address makes the advice feel immediate and playful.",
+          "It removes the reader from the situation",
+          "It turns the poem into a private diary"
+        ],
+        "answer": 1,
+        "explanation": "The direct address places the reader inside the imagined encounter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative voice",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which interpretation of the poem’s second-person address best fits the poem?",
+        "options": [
+          "It removes the reader from the situation",
+          "It creates an impersonal scientific report",
+          "Direct address makes the advice feel immediate and playful.",
+          "It turns the poem into a private diary"
+        ],
+        "answer": 2,
+        "explanation": "The direct address places the reader inside the imagined encounter.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "narrative voice",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which revision note about the poem’s second-person address is accurate?",
+        "options": [
+          "the speaker addresses only a king",
+          "the reader is never addressed",
+          "the poem is written as a court order",
+          "The speaker addresses the reader directly as someone encountering wild animals."
+        ],
+        "answer": 3,
+        "explanation": "The direct address places the reader inside the imagined encounter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative voice",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "Why is the poem’s second-person address important to the poem’s effect?",
+        "options": [
+          "Direct address makes the advice feel immediate and playful.",
+          "It creates an impersonal scientific report",
+          "It removes the reader from the situation",
+          "It turns the poem into a private diary"
+        ],
+        "answer": 0,
+        "explanation": "The direct address places the reader inside the imagined encounter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narrative voice",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about exaggerated danger is supported by the poem?",
+        "options": [
+          "all animals are safely behind glass",
+          "The poem often suggests the observer may be attacked while identifying an animal.",
+          "the reader is studying a picture book only",
+          "the speaker describes a quiet picnic"
+        ],
+        "answer": 1,
+        "explanation": "The absurdly risky clues are part of the poem’s humour.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "humour",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does exaggerated danger contribute to the poem’s meaning?",
+        "options": [
+          "Danger is absent throughout",
+          "The poem gives a reliable safety manual",
+          "Exaggeration creates comic tension rather than realistic field guidance.",
+          "The speaker promises the reader will never be touched"
+        ],
+        "answer": 2,
+        "explanation": "The absurdly risky clues are part of the poem’s humour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Which interpretation of exaggerated danger best fits the poem?",
+        "options": [
+          "The speaker promises the reader will never be touched",
+          "The poem gives a reliable safety manual",
+          "Danger is absent throughout",
+          "Exaggeration creates comic tension rather than realistic field guidance."
+        ],
+        "answer": 3,
+        "explanation": "The absurdly risky clues are part of the poem’s humour.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "humour",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "Which revision note about exaggerated danger is accurate?",
+        "options": [
+          "The poem often suggests the observer may be attacked while identifying an animal.",
+          "all animals are safely behind glass",
+          "the reader is studying a picture book only",
+          "the speaker describes a quiet picnic"
+        ],
+        "answer": 0,
+        "explanation": "The absurdly risky clues are part of the poem’s humour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Why is exaggerated danger important to the poem’s effect?",
+        "options": [
+          "The poem gives a reliable safety manual",
+          "Exaggeration creates comic tension rather than realistic field guidance.",
+          "Danger is absent throughout",
+          "The speaker promises the reader will never be touched"
+        ],
+        "answer": 1,
+        "explanation": "The absurdly risky clues are part of the poem’s humour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "exaggeration"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Which detail about the repeated leap is supported by the poem?",
+        "options": [
+          "a hyena smiles once",
+          "a chameleon changes colour twice",
+          "The leopard’s repeated attack is described as if it would confirm the identification.",
+          "a lion refuses to roar"
+        ],
+        "answer": 2,
+        "explanation": "The repeated leap makes the advice intentionally impractical and comic.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "repetition",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does the repeated leap contribute to the poem’s meaning?",
+        "options": [
+          "The leopard never moves",
+          "The poem suggests one leap proves the animal is harmless",
+          "The action is a serious scientific test",
+          "Repetition heightens the absurdity of the proposed test."
+        ],
+        "answer": 3,
+        "explanation": "The repeated leap makes the advice intentionally impractical and comic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "repetition",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Which interpretation of the repeated leap best fits the poem?",
+        "options": [
+          "Repetition heightens the absurdity of the proposed test.",
+          "The poem suggests one leap proves the animal is harmless",
+          "The action is a serious scientific test",
+          "The leopard never moves"
+        ],
+        "answer": 0,
+        "explanation": "The repeated leap makes the advice intentionally impractical and comic.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "repetition",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which revision note about the repeated leap is accurate?",
+        "options": [
+          "a chameleon changes colour twice",
+          "The leopard’s repeated attack is described as if it would confirm the identification.",
+          "a hyena smiles once",
+          "a lion refuses to roar"
+        ],
+        "answer": 1,
+        "explanation": "The repeated leap makes the advice intentionally impractical and comic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "repetition",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Why is the repeated leap important to the poem’s effect?",
+        "options": [
+          "The action is a serious scientific test",
+          "The poem suggests one leap proves the animal is harmless",
+          "Repetition heightens the absurdity of the proposed test.",
+          "The leopard never moves"
+        ],
+        "answer": 2,
+        "explanation": "The repeated leap makes the advice intentionally impractical and comic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "repetition",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "Which detail about the poem’s tone is supported by the poem?",
+        "options": [
+          "angry at a named person",
+          "solemn and legalistic",
+          "sad and mournful throughout",
+          "The poem’s tone is playful and humorous despite the dangerous animals."
+        ],
+        "answer": 3,
+        "explanation": "The descriptions are designed to amuse rather than provide a realistic guide.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What does the poem’s tone contribute to the poem’s meaning?",
+        "options": [
+          "Comic exaggeration allows the speaker to describe danger light-heartedly.",
+          "The speaker mourns every animal",
+          "The poem is a scientific lecture",
+          "The poem rejects all rhyme and humour"
+        ],
+        "answer": 0,
+        "explanation": "The descriptions are designed to amuse rather than provide a realistic guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which interpretation of the poem’s tone best fits the poem?",
+        "options": [
+          "The speaker mourns every animal",
+          "Comic exaggeration allows the speaker to describe danger light-heartedly.",
+          "The poem is a scientific lecture",
+          "The poem rejects all rhyme and humour"
+        ],
+        "answer": 1,
+        "explanation": "The descriptions are designed to amuse rather than provide a realistic guide.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which revision note about the poem’s tone is accurate?",
+        "options": [
+          "sad and mournful throughout",
+          "solemn and legalistic",
+          "The poem’s tone is playful and humorous despite the dangerous animals.",
+          "angry at a named person"
+        ],
+        "answer": 2,
+        "explanation": "The descriptions are designed to amuse rather than provide a realistic guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Why is the poem’s tone important to the poem’s effect?",
+        "options": [
+          "The poem rejects all rhyme and humour",
+          "The speaker mourns every animal",
+          "The poem is a scientific lecture",
+          "Comic exaggeration allows the speaker to describe danger light-heartedly."
+        ],
+        "answer": 3,
+        "explanation": "The descriptions are designed to amuse rather than provide a realistic guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which detail about rhyming style is supported by the poem?",
+        "options": [
+          "The poem uses regular end-rhymes and a jaunty rhythm.",
+          "no verse lines",
+          "only formal prose",
+          "a strict scientific table"
+        ],
+        "answer": 0,
+        "explanation": "The rhymes contribute to the verse’s comic and memorable quality.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What does rhyming style contribute to the poem’s meaning?",
+        "options": [
+          "Rhyme is absent from the poem",
+          "The light rhythm supports the playful catalogue of animals.",
+          "The poem is a legal contract",
+          "The speaker uses only equations"
+        ],
+        "answer": 1,
+        "explanation": "The rhymes contribute to the verse’s comic and memorable quality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which interpretation of rhyming style best fits the poem?",
+        "options": [
+          "The poem is a legal contract",
+          "Rhyme is absent from the poem",
+          "The light rhythm supports the playful catalogue of animals.",
+          "The speaker uses only equations"
+        ],
+        "answer": 2,
+        "explanation": "The rhymes contribute to the verse’s comic and memorable quality.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which revision note about rhyming style is accurate?",
+        "options": [
+          "a strict scientific table",
+          "no verse lines",
+          "only formal prose",
+          "The poem uses regular end-rhymes and a jaunty rhythm."
+        ],
+        "answer": 3,
+        "explanation": "The rhymes contribute to the verse’s comic and memorable quality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Why is rhyming style important to the poem’s effect?",
+        "options": [
+          "The light rhythm supports the playful catalogue of animals.",
+          "Rhyme is absent from the poem",
+          "The poem is a legal contract",
+          "The speaker uses only equations"
+        ],
+        "answer": 0,
+        "explanation": "The rhymes contribute to the verse’s comic and memorable quality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Which detail about the animal catalogue is supported by the poem?",
+        "options": [
+          "it tells one continuous family story",
+          "The poem moves from one animal description to another.",
+          "it only describes one bird",
+          "it is a single formal letter"
+        ],
+        "answer": 1,
+        "explanation": "The poem is organised as a series of brief, comic animal portraits.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "structure",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "What does the animal catalogue contribute to the poem’s meaning?",
+        "options": [
+          "The poem avoids descriptions",
+          "All the animals appear in one identical scene",
+          "The list-like structure allows each animal to receive its own humorous clue.",
+          "The structure is a long novel"
+        ],
+        "answer": 2,
+        "explanation": "The poem is organised as a series of brief, comic animal portraits.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of the animal catalogue best fits the poem?",
+        "options": [
+          "The structure is a long novel",
+          "All the animals appear in one identical scene",
+          "The poem avoids descriptions",
+          "The list-like structure allows each animal to receive its own humorous clue."
+        ],
+        "answer": 3,
+        "explanation": "The poem is organised as a series of brief, comic animal portraits.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "structure",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which revision note about the animal catalogue is accurate?",
+        "options": [
+          "The poem moves from one animal description to another.",
+          "it tells one continuous family story",
+          "it only describes one bird",
+          "it is a single formal letter"
+        ],
+        "answer": 0,
+        "explanation": "The poem is organised as a series of brief, comic animal portraits.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Why is the animal catalogue important to the poem’s effect?",
+        "options": [
+          "All the animals appear in one identical scene",
+          "The list-like structure allows each animal to receive its own humorous clue.",
+          "The poem avoids descriptions",
+          "The structure is a long novel"
+        ],
+        "answer": 1,
+        "explanation": "The poem is organised as a series of brief, comic animal portraits.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which detail about inaccurate advice is supported by the poem?",
+        "options": [
+          "it teaches how to avoid all animals safely",
+          "it gives detailed professional wildlife training",
+          "The speaker’s advice is intentionally dangerous and impractical.",
+          "it provides exact medical treatment"
+        ],
+        "answer": 2,
+        "explanation": "The advice is comic exaggeration, not a real safety procedure.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "irony",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What does inaccurate advice contribute to the poem’s meaning?",
+        "options": [
+          "There is no irony",
+          "The poem must be followed literally to stay safe",
+          "The speaker is a wildlife ranger giving serious instructions",
+          "The poem makes the reader laugh by pretending a dangerous encounter is a useful identification test."
+        ],
+        "answer": 3,
+        "explanation": "The advice is comic exaggeration, not a real safety procedure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "irony",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which interpretation of inaccurate advice best fits the poem?",
+        "options": [
+          "The poem makes the reader laugh by pretending a dangerous encounter is a useful identification test.",
+          "The poem must be followed literally to stay safe",
+          "The speaker is a wildlife ranger giving serious instructions",
+          "There is no irony"
+        ],
+        "answer": 0,
+        "explanation": "The advice is comic exaggeration, not a real safety procedure.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "irony",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which revision note about inaccurate advice is accurate?",
+        "options": [
+          "it gives detailed professional wildlife training",
+          "The speaker’s advice is intentionally dangerous and impractical.",
+          "it teaches how to avoid all animals safely",
+          "it provides exact medical treatment"
+        ],
+        "answer": 1,
+        "explanation": "The advice is comic exaggeration, not a real safety procedure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "irony",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is inaccurate advice important to the poem’s effect?",
+        "options": [
+          "The speaker is a wildlife ranger giving serious instructions",
+          "The poem must be followed literally to stay safe",
+          "The poem makes the reader laugh by pretending a dangerous encounter is a useful identification test.",
+          "There is no irony"
+        ],
+        "answer": 2,
+        "explanation": "The advice is comic exaggeration, not a real safety procedure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "irony",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which detail about the wordplay is supported by the poem?",
+        "options": [
+          "formal laws about property",
+          "only numerical data",
+          "mathematical formulae",
+          "The descriptions use familiar ideas about animal expressions and appearances."
+        ],
+        "answer": 3,
+        "explanation": "The smiling hyena and weeping crocodile are examples of comic language.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "wordplay",
+          "literary devices"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What does the wordplay contribute to the poem’s meaning?",
+        "options": [
+          "Wordplay makes the clues memorable and humorous.",
+          "The poem uses no figurative language",
+          "The descriptions are entirely literal science",
+          "The speaker avoids any humour"
+        ],
+        "answer": 0,
+        "explanation": "The smiling hyena and weeping crocodile are examples of comic language.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "wordplay",
+          "literary devices"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which interpretation of the wordplay best fits the poem?",
+        "options": [
+          "The poem uses no figurative language",
+          "Wordplay makes the clues memorable and humorous.",
+          "The descriptions are entirely literal science",
+          "The speaker avoids any humour"
+        ],
+        "answer": 1,
+        "explanation": "The smiling hyena and weeping crocodile are examples of comic language.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "wordplay",
+          "literary devices"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which revision note about the wordplay is accurate?",
+        "options": [
+          "mathematical formulae",
+          "only numerical data",
+          "The descriptions use familiar ideas about animal expressions and appearances.",
+          "formal laws about property"
+        ],
+        "answer": 2,
+        "explanation": "The smiling hyena and weeping crocodile are examples of comic language.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "wordplay",
+          "literary devices"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Why is the wordplay important to the poem’s effect?",
+        "options": [
+          "The speaker avoids any humour",
+          "The poem uses no figurative language",
+          "The descriptions are entirely literal science",
+          "Wordplay makes the clues memorable and humorous."
+        ],
+        "answer": 3,
+        "explanation": "The smiling hyena and weeping crocodile are examples of comic language.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "wordplay",
+          "literary devices"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which detail about the speaker’s attitude is supported by the poem?",
+        "options": [
+          "The speaker sounds confident while giving absurd suggestions.",
+          "uncertain and silent throughout",
+          "frightened to mention any animal",
+          "formal and strictly scientific"
+        ],
+        "answer": 0,
+        "explanation": "The speaker’s confidence makes the exaggerated clues funnier.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "speaker",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "What does the speaker’s attitude contribute to the poem’s meaning?",
+        "options": [
+          "The speaker warns the reader in a serious safety briefing",
+          "The contrast between confident delivery and impractical advice creates irony.",
+          "The advice is deliberately omitted",
+          "The poem has no speaker"
+        ],
+        "answer": 1,
+        "explanation": "The speaker’s confidence makes the exaggerated clues funnier.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which interpretation of the speaker’s attitude best fits the poem?",
+        "options": [
+          "The advice is deliberately omitted",
+          "The speaker warns the reader in a serious safety briefing",
+          "The contrast between confident delivery and impractical advice creates irony.",
+          "The poem has no speaker"
+        ],
+        "answer": 2,
+        "explanation": "The speaker’s confidence makes the exaggerated clues funnier.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "speaker",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which revision note about the speaker’s attitude is accurate?",
+        "options": [
+          "formal and strictly scientific",
+          "uncertain and silent throughout",
+          "frightened to mention any animal",
+          "The speaker sounds confident while giving absurd suggestions."
+        ],
+        "answer": 3,
+        "explanation": "The speaker’s confidence makes the exaggerated clues funnier.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Why is the speaker’s attitude important to the poem’s effect?",
+        "options": [
+          "The contrast between confident delivery and impractical advice creates irony.",
+          "The speaker warns the reader in a serious safety briefing",
+          "The advice is deliberately omitted",
+          "The poem has no speaker"
+        ],
+        "answer": 0,
+        "explanation": "The speaker’s confidence makes the exaggerated clues funnier.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which detail about wild animals is supported by the poem?",
+        "options": [
+          "all are harmless household pets",
+          "The poem portrays wild animals as potentially dangerous to a person who meets them.",
+          "all are plants",
+          "all live in cities and use buses"
+        ],
+        "answer": 1,
+        "explanation": "The humorous clues are framed around the possibility of a dangerous encounter.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does wild animals contribute to the poem’s meaning?",
+        "options": [
+          "The poem focuses on garden tools",
+          "The animals are never dangerous in the imagined scenes",
+          "The sense of danger provides the setup for the poem’s jokes.",
+          "The speaker studies only domesticated cats"
+        ],
+        "answer": 2,
+        "explanation": "The humorous clues are framed around the possibility of a dangerous encounter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which interpretation of wild animals best fits the poem?",
+        "options": [
+          "The speaker studies only domesticated cats",
+          "The animals are never dangerous in the imagined scenes",
+          "The poem focuses on garden tools",
+          "The sense of danger provides the setup for the poem’s jokes."
+        ],
+        "answer": 3,
+        "explanation": "The humorous clues are framed around the possibility of a dangerous encounter.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "Which revision note about wild animals is accurate?",
+        "options": [
+          "The poem portrays wild animals as potentially dangerous to a person who meets them.",
+          "all are harmless household pets",
+          "all are plants",
+          "all live in cities and use buses"
+        ],
+        "answer": 0,
+        "explanation": "The humorous clues are framed around the possibility of a dangerous encounter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Why is wild animals important to the poem’s effect?",
+        "options": [
+          "The animals are never dangerous in the imagined scenes",
+          "The sense of danger provides the setup for the poem’s jokes.",
+          "The poem focuses on garden tools",
+          "The speaker studies only domesticated cats"
+        ],
+        "answer": 1,
+        "explanation": "The humorous clues are framed around the possibility of a dangerous encounter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about the chameleon’s camouflage is supported by the poem?",
+        "options": [
+          "it has tears like a crocodile",
+          "its coat always has black stripes",
+          "The chameleon’s changing colour can make it difficult to spot.",
+          "it roars like a lion"
+        ],
+        "answer": 2,
+        "explanation": "The colour-changing detail supports the chameleon description.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the chameleon’s camouflage contribute to the poem’s meaning?",
+        "options": [
+          "It is a large tawny cat",
+          "The chameleon is always conspicuous",
+          "Its main clue is a hug",
+          "Camouflage explains why the creature might be overlooked."
+        ],
+        "answer": 3,
+        "explanation": "The colour-changing detail supports the chameleon description.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which interpretation of the chameleon’s camouflage best fits the poem?",
+        "options": [
+          "Camouflage explains why the creature might be overlooked.",
+          "The chameleon is always conspicuous",
+          "Its main clue is a hug",
+          "It is a large tawny cat"
+        ],
+        "answer": 0,
+        "explanation": "The colour-changing detail supports the chameleon description.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which revision note about the chameleon’s camouflage is accurate?",
+        "options": [
+          "its coat always has black stripes",
+          "The chameleon’s changing colour can make it difficult to spot.",
+          "it has tears like a crocodile",
+          "it roars like a lion"
+        ],
+        "answer": 1,
+        "explanation": "The colour-changing detail supports the chameleon description.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Why is the chameleon’s camouflage important to the poem’s effect?",
+        "options": [
+          "Its main clue is a hug",
+          "The chameleon is always conspicuous",
+          "Camouflage explains why the creature might be overlooked.",
+          "It is a large tawny cat"
+        ],
+        "answer": 2,
+        "explanation": "The colour-changing detail supports the chameleon description.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "animal clues",
+          "adaptation"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which detail about the comic effect is supported by the poem?",
+        "options": [
+          "it is a mournful elegy",
+          "it gives only serious scientific explanations",
+          "it describes a peaceful wedding",
+          "The poem pairs dangerous encounters with ridiculous instructions."
+        ],
+        "answer": 3,
+        "explanation": "The humour comes from treating absurdly dangerous situations as a simple identification game.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What does the comic effect contribute to the poem’s meaning?",
+        "options": [
+          "The mismatch between danger and advice is a major source of humour.",
+          "The instructions are realistic emergency training",
+          "The poem has no playful element",
+          "The speaker refuses to identify animals"
+        ],
+        "answer": 0,
+        "explanation": "The humour comes from treating absurdly dangerous situations as a simple identification game.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
