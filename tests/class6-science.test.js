@@ -30,6 +30,7 @@ assert.equal(new Set(questions.map(question=>question.questionKey)).size,36,"Cla
 for(const question of questions)assert.ok(question.options.includes(question.options[question.answer])&&question.explanation);
 const engine=fs.readFileSync("js/quiz-engine.js","utf8");
 assert.ok(engine.includes('classId === "6" && subject === "science" ? "class-6-science" : subject'),"Class 6 Science selects its own JSON bank");
+assert.ok(engine.includes('sessionStorage.getItem("c10playground_static_student_v1")'),"quiz engine reads the same static student session as the navigation");
 assert.ok(engine.includes('recordId:bankId'),"progress and attempts are isolated by class-specific bank");
 assert.ok(engine.includes('fetch("./data/"+bankId+".json"'),"the shared engine loads the selected class bank");
 console.log("Class 6 Science pilot passed: 12 chapters, 36 validated MCQs, class configuration and class-specific bank/progress routing.");
