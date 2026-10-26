@@ -5,7 +5,10 @@
   const username=document.getElementById("username");
   const password=document.getElementById("password");
   const submit=document.getElementById("loginSubmit");
-  const github=document.getElementById("githubAdminLogin");
+  const adminForm=document.getElementById("adminLoginForm");
+  const adminUsername=document.getElementById("adminUsername");
+  const adminPassword=document.getElementById("adminPassword");
+  const adminSubmit=document.getElementById("adminLoginSubmit");
   const status=document.getElementById("loginStatus");
   const say=(message,type="")=>{status.textContent=message;status.className="login-status"+(type?" "+type:"");};
   function hasStudentSession(){try{return !!JSON.parse(sessionStorage.getItem("c10playground_static_student_v1")||"null")?.username;}catch(_){return false;}}
@@ -25,12 +28,33 @@
     }catch(error){say(error&&error.message?error.message:"Unable to sign in. Check your username and password.","error");}
     finally{submit.disabled=false;submit.innerHTML='Sign in to ExamGuru <span aria-hidden="true">→</span>';}
   });
-  github.addEventListener("click",()=>{
-    if(!window.C10Api||!window.C10Api.isConfigured()){
-      say("GitHub admin sign-in is not connected yet. It requires the secure account service, GitHub OAuth credentials and a server-side allowlist. No GitHub username will be trusted by this page alone.","error");
-      return;
-    }
-    github.disabled=true;say("Redirecting to GitHub for administrator verification…");
-    try{window.C10Api.githubLogin();}catch(error){github.disabled=false;say(error.message||"GitHub sign-in could not be started.","error");}
+  const ADMIN_USERNAME="Jayaprakashganathe@gmail.com";
+  // SHA-256 digest of the temporary MVP password; this is obfuscation, not secure auth.
+  const ADMIN_PASSWORD_SHA256="c5c784554396ac628057cbad338efdf79fe7b1d797317728cf4b52d14af18ae2";
+  async function sha256(text){
+    const bytes=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(text));
+    return Array.from(new Uint8Array(bytes),byte=>byte.toString(16).padStart(2,"0")).join("");
+  }
+  adminForm.addEventListener("submit",async event=>{
+    event.preventDefault();
+    if(!adminForm.reportValidity())return;
+    adminSubmit.disabled=true;
+    try{
+      const enteredUsername=adminUsername.value.trim().toLowerCase();
+      const enteredHash=await sha256(adminPassword.value);
+      if(enteredUsername!==ADMIN_USERNAME.toLowerCase()||enteredHash!==ADMIN_PASSWORD_SHA256){
+        throw new Error("Admin username or password is incorrect.");
+      }
+      sessionStorage.setItem("examguru_mvp_admin_session_v1",JSON.stringify({username:ADMIN_USERNAME,role:"admin",signedInAt:Date.now()}));
+      sessionStorage.removeItem("c10playground_static_student_v1");
+      adminPassword.value="";
+      say("Admin sign-in successful. Opening Admin Workspace…","success");
+      location.assign("./admin.html");
+    }catch(error){
+      say(error&&error.message?error.message:"Unable to sign in as administrator.","error");
+    }finally{adminSubmit.disabled=false;}
   });
+  const params=new URLSearchParams(location.search);
+  if(params.get("admin")==="login-required")say("Please sign in with the administrator account to open the Admin Workspace.","error");
+
 })();
