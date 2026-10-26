@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#211b48">
 <meta name="description" content="Local authoring and reporting workspace for C10 Playground.">
 <title>Admin Workspace | C10 Playground</title>
-<script>try{const s=JSON.parse(sessionStorage.getItem("examguru_mvp_admin_session_v1")||"null");if(!s||s.role!=="admin"||s.username!=="Jayaprakashganathe@gmail.com")location.replace("./index.html?admin=login-required");}catch(_){location.replace("./index.html?admin=login-required");}</script>
+<script>try{const s=JSON.parse(sessionStorage.getItem("examguru_mvp_admin_session_v1")||"null");if((!s||s.role!=="admin"||s.username!=="Jayaprakashganathe@gmail.com")&&!sessionStorage.getItem("c10playground_api_session"))location.replace("./index.html?admin=login-required");}catch(_){location.replace("./index.html?admin=login-required");}</script>
 <link rel="stylesheet" href="./css/branding.css">
 <link rel="stylesheet" href="./css/app-shell.css">
 <link rel="stylesheet" href="./css/admin.css">
@@ -63,7 +63,7 @@
           <div class="admin-feature"><strong>Knowledge resources</strong><p>Maintain a resource manifest for books, notes, question-bank PDFs and image-reference PDFs. Download and publish files separately.</p></div>
           <div class="admin-feature"><strong>Student reports</strong><p>Import student backup JSON files supplied by students. View profiles and progress, edit an imported profile snapshot, and export reports or revised backups.</p></div>
         </div>
-        <div class="admin-notice"><strong>Current account approach:</strong> student password hashes live in <code>data/student-accounts.json</code>. This file is public in the repository, so usernames and password hashes are visible and can be attacked offline. Use classroom-only passwords that students never reuse elsewhere. Account creation, password reset and class promotion download an updated JSON file; a repository maintainer must review and commit it before it takes effect. Cross-device sync and secure authentication are deferred.</div>
+        <div class="admin-notice"><strong>Current account approach:</strong> student password hashes live in <code>data/student-accounts.json</code>. This file is public in the repository, so usernames and password hashes are visible and can be attacked offline. Use classroom-only passwords that students never reuse elsewhere. Central account creation and password resets are managed directly by the account service below. No student account JSON is published to GitHub.</div>
         <div id="overviewStatus" class="admin-status" role="status">Loading class catalogue and resource manifest…</div>
       </section>
 
@@ -149,9 +149,9 @@
       </section>
 
       <section class="admin-panel" id="tab-students">
-        <section class="admin-content" id="flatFileAccountsPanel" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
-          <h3>Student accounts · repository file</h3>
-          <p class="admin-muted">Create a username or reset a password. The page generates a salted PBKDF2-SHA-256 hash and downloads an updated <code>student-accounts.json</code>. Review it and commit it to <code>data/student-accounts.json</code> in GitHub. Changes become active after Pages redeploys.</p>
+        <section class="admin-content" id="flatFileAccountsPanel" hidden style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
+          <h3>Legacy student accounts · disabled</h3>
+          <p class="admin-muted">This legacy JSON workflow is disabled. Use the central account service below to create student accounts directly in ExamGuru.</p>
           <div class="admin-notice"><strong>Important:</strong> this is a simple starter, not secure authentication. The repository is public; the username, salt and password hash can be read by anyone and weak passwords may be guessed offline. Do not store real names, emails, school details or reused passwords in this file.</div>
           <div class="admin-form-grid">
             <div class="admin-field"><label for="staticAccountUsername">New username</label><input id="staticAccountUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" placeholder="e.g. learner_01"></div><div class="admin-field"><label for="staticAccountClass">Assigned class</label><select id="staticAccountClass"><option value="10">Class 10</option></select></div>
