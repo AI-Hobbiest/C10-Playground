@@ -9,6 +9,9 @@ const SUBJECTS = {
 };
 const $ = id => document.getElementById(id);
 const subject = new URLSearchParams(location.search).get("subject") || "mathematics";
+const activeStudent = window.C10StudentAuth && window.C10StudentAuth.currentUser ? window.C10StudentAuth.currentUser() : null;
+const classId = String(activeStudent && activeStudent.classId || "10");
+const bankId = classId === "6" && subject === "science" ? "class-6-science" : subject;
 const config = SUBJECTS[subject];
 let chapters=[], mode="learn", session=[], index=0, picked=null, answers=[], lastMissed=[];
 let currentAttempt=null, completedAttempt=null, clockHandle=null, ledger;
@@ -16,7 +19,7 @@ const emptyProgress = () => ({missed:[],answered:0,correct:0,attempts:[]});
 const validProgress = value => !!value && Array.isArray(value.missed) &&
   Number.isFinite(value.answered) && Number.isFinite(value.correct) && Array.isArray(value.attempts);
 const progressStore = window.C10Storage.createLocalStore({
-  kind:"subject-progress", recordId:subject, legacyKey:"c10playground_v1_"+subject,
+  kind:"subject-progress", recordId:bankId, legacyKey:classId === "10" ? "c10playground_v1_"+subject : bankId,
   defaults:emptyProgress, validate:validProgress
 });
 let progress={...emptyProgress(),...progressStore.load()};
@@ -24,7 +27,7 @@ const emptyLedger = () => ({attempts:[],activeAttempt:null,answerRecords:[]});
 const validLedger = value => !!value && Array.isArray(value.attempts) &&
   Array.isArray(value.answerRecords) && (value.activeAttempt===null || typeof value.activeAttempt==="object");
 const ledgerStore = window.C10Storage.createLocalStore({
-  kind:"test-attempt-ledger", recordId:subject, defaults:emptyLedger, validate:validLedger
+  kind:"test-attempt-ledger", recordId:bankId, defaults:emptyLedger, validate:validLedger
 });
 ledger={...emptyLedger(),...ledgerStore.load()};
 const profileStore = window.C10Storage.createLocalStore({
@@ -38,7 +41,7 @@ const shuffle = array => {
   for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}
   return copy;
 };
-const keyFor = question => window.C10QuestionBank.keyFor(question,subject);
+const keyFor = question => window.C10QuestionBank.keyFor(question,bankId);
 const clone = value => JSON.parse(JSON.stringify(value));
 function show(id){["welcome","session","results","review"].forEach(name=>$(name).classList.toggle("hide",name!==id));}
 function setText(id,value){$(id).textContent=String(value);}
@@ -100,13 +103,15 @@ function remapLegacyQuestionRefs(){
   if(before!==JSON.stringify({missed:progress.missed,attempts:progress.attempts}))saveProgress();
 }
 function loadBank(data){
-  chapters=window.C10QuestionBank.normalize(data,subject);
+  chapters=window.C10QuestionBank.normalize(data,bankId);
   remapLegacyQuestionRefs();
   $("chapter").innerHTML=chapters.map((chapter,i)=>'<option value="'+i+'" selected>'+String(chapter.chapter_no).padStart(2,"0")+' · '+chapter.title+' ('+chapter.questions.length+')</option>').join("");
   const total=chapters.reduce((sum,chapter)=>sum+chapter.questions.length,0);
   setText("chapterTotal",chapters.length);setText("questionTotal",total);
-  setText("subjectIcon",config.icon);setText("subjectTitle",config.title+" Practice");setText("subjectSubtitle",config.subtitle);
-  document.title=config.title+" | C10-Playground";
+  setText("subjectIcon",config.icon);setText("subjectTitle",config.title+(classId==="6"?" · Class 6":"")+" Practice");
+  setText("subjectSubtitle",classId==="6"&&subject==="science"?"NCERT Curiosity · Class 6 Science. Build foundations through observation, everyday examples and clear explanations.":config.subtitle);
+  if($("classEyebrow"))setText("classEyebrow",classId==="6"&&subject==="science"?"CBSE Class 6 · NCERT Curiosity":"C10-Playground · CBSE Class 10");
+  document.title=(classId==="6"&&subject==="science"?"Class 6 Science":config.title)+" | ExamGuru";
   setText("modeHint",chapters[0].questions.length+" questions in this chapter. Learn mode shows explanations as you go.");
   updateStats();
   if(ledger.activeAttempt && ledger.activeAttempt.status==="in-progress")restoreAttempt(ledger.activeAttempt);
@@ -465,7 +470,7 @@ function init(){
   $("chapter").onchange=()=>{if(!chapters.length)return;const chosen=selectedChapters();const count=chosen.reduce((sum,chapter)=>sum+chapter.questions.length,0);setText("modeHint",count+" questions available across "+chosen.length+" selected chapter(s).");};
   document.addEventListener("visibilitychange",()=>{if(document.hidden)persistCurrentAttempt();});
   window.addEventListener("pagehide",persistCurrentAttempt);
-  fetch("./data/"+subject+".json",{cache:"no-store"}).then(response=>{if(!response.ok)throw new Error("Could not load question bank (HTTP "+response.status+").");return response.json();})
+  fetch("./data/"+bankId+".json",{cache:"no-store"}).then(response=>{if(!response.ok)throw new Error("Could not load question bank (HTTP "+response.status+").");return response.json();})
     .then(loadBank).catch(error=>{setText("status","Question bank could not load: "+error.message);$("status").classList.remove("hide");});
 }
 init();
