@@ -76,7 +76,7 @@
   function initTabs(){
     document.querySelectorAll(".admin-tab-button").forEach(item=>item.addEventListener("click",()=>setTab(item.dataset.tab)));
     const validTabs=new Set(["overview","banks","classes","knowledge","students","leaderboard","access","operations"]);
-    const syncTabFromHash=()=>{const name=location.hash.replace(/^#tab-/,"");if(validTabs.has(name))setTab(name);};
+    const syncTabFromHash=()=>{const hash=typeof location!=="undefined"?location.hash:"";const name=hash.replace(/^#tab-/,"");if(validTabs.has(name))setTab(name);};
     if(typeof window.addEventListener==="function")window.addEventListener("hashchange",syncTabFromHash);
     syncTabFromHash();
   }
