@@ -59,9 +59,13 @@
       <button class="btn login-submit" id="loginSubmit" type="submit">Sign in to ExamGuru <span aria-hidden="true">→</span></button>
     </form>
     <div class="login-divider">ADMIN ACCESS</div>
-    <button class="github-admin" id="githubAdminLogin" type="button"><span aria-hidden="true">◉</span><span>Continue with GitHub <small>· authorised admins only</small></span></button>
+    <form id="adminLoginForm" novalidate>
+      <div class="login-field"><label for="adminUsername">Admin username</label><input id="adminUsername" name="adminUsername" type="email" autocomplete="username" spellcheck="false" required placeholder="Admin email"></div>
+      <div class="login-field"><label for="adminPassword">Admin password</label><input id="adminPassword" name="adminPassword" type="password" autocomplete="current-password" maxlength="256" required placeholder="Admin password"></div>
+      <button class="github-admin" id="adminLoginSubmit" type="submit"><span aria-hidden="true">🔐</span><span>Sign in as administrator</span></button>
+    </form>
     <p id="loginStatus" class="login-status" role="status" aria-live="polite">Student accounts are issued by the administrator. There is no public self-registration.</p>
-    <p class="login-footnote">GitHub sign-in is reserved for accounts explicitly allowlisted by the ExamGuru app administrator. Being a GitHub user or repository collaborator alone does not grant app-admin access.</p>
+    <p class="login-footnote">Temporary MVP admin sign-in only. This browser-side check is not secure authentication; do not use it to protect sensitive data. Server-side authentication will be added after core functionality is complete.</p>
   </section>
 </main>
 <footer class="login-footer">ExamGuru · Independent learning project · Conceptualised by JP Ganathe</footer>
