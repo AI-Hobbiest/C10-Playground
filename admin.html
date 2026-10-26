@@ -62,7 +62,7 @@
           <div class="admin-feature"><strong>Knowledge resources</strong><p>Maintain a resource manifest for books, notes, question-bank PDFs and image-reference PDFs. Download and publish files separately.</p></div>
           <div class="admin-feature"><strong>Student reports</strong><p>Import student backup JSON files supplied by students. View profiles and progress, edit an imported profile snapshot, and export reports or revised backups.</p></div>
         </div>
-        <div class="admin-notice"><strong>Current account approach:</strong> student password hashes live in <code>data/student-accounts.json</code>. This file is public in the repository, so usernames and password hashes are visible and can be attacked offline. Use classroom-only passwords that students never reuse elsewhere. Account creation/reset downloads an updated JSON file; a repository maintainer must review and commit it before it takes effect. Cross-device sync and secure authentication are deferred.</div>
+        <div class="admin-notice"><strong>Current account approach:</strong> student password hashes live in <code>data/student-accounts.json</code>. This file is public in the repository, so usernames and password hashes are visible and can be attacked offline. Use classroom-only passwords that students never reuse elsewhere. Account creation, password reset and class promotion download an updated JSON file; a repository maintainer must review and commit it before it takes effect. Cross-device sync and secure authentication are deferred.</div>
         <div id="overviewStatus" class="admin-status" role="status">Loading class catalogue and resource manifest…</div>
       </section>
 
@@ -153,7 +153,7 @@
           <p class="admin-muted">Create a username or reset a password. The page generates a salted PBKDF2-SHA-256 hash and downloads an updated <code>student-accounts.json</code>. Review it and commit it to <code>data/student-accounts.json</code> in GitHub. Changes become active after Pages redeploys.</p>
           <div class="admin-notice"><strong>Important:</strong> this is a simple starter, not secure authentication. The repository is public; the username, salt and password hash can be read by anyone and weak passwords may be guessed offline. Do not store real names, emails, school details or reused passwords in this file.</div>
           <div class="admin-form-grid">
-            <div class="admin-field"><label for="staticAccountUsername">New username</label><input id="staticAccountUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" placeholder="e.g. learner_01"></div>
+            <div class="admin-field"><label for="staticAccountUsername">New username</label><input id="staticAccountUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" placeholder="e.g. learner_01"></div><div class="admin-field"><label for="staticAccountClass">Assigned class</label><select id="staticAccountClass"><option value="10">Class 10</option></select></div>
           </div>
           <div class="admin-actions"><button class="admin-btn" id="createStaticAccountBtn" type="button">Create account &amp; download JSON</button><button class="admin-btn secondary" id="reloadStaticAccountsBtn" type="button">Reload published account file</button></div>
           <hr class="admin-rule">
@@ -161,6 +161,14 @@
             <div class="admin-field"><label for="resetStaticAccountUsername">Reset password for</label><select id="resetStaticAccountUsername"><option value="">Load accounts first</option></select></div>
           </div>
           <div class="admin-actions"><button class="admin-btn secondary" id="resetStaticAccountBtn" type="button">Generate reset password &amp; download JSON</button></div>
+          <hr class="admin-rule">
+          <h4>Promote / change assigned class</h4>
+          <p class="admin-muted">Choose a student and the new class. This updates the account JSON draft; students cannot edit their assigned class in their profile.</p>
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="manageStaticAccountUsername">Student account</label><select id="manageStaticAccountUsername"><option value="">Load accounts first</option></select></div>
+            <div class="admin-field"><label for="manageStaticAccountClass">New assigned class</label><select id="manageStaticAccountClass"><option value="10">Class 10</option></select></div>
+          </div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="updateStaticAccountClassBtn" type="button">Update class &amp; download JSON</button></div>
           <div id="staticAccountStatus" class="admin-status" role="status">Loading the published account file…</div>
           <div id="staticAccountTempBox" hidden>
             <p><strong>Temporary password — share privately with the student.</strong></p>

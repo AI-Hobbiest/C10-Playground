@@ -39,12 +39,12 @@
     }, key, 256);
     return encodeBase64(new Uint8Array(bits));
   }
-  function accountPublicView(row) { return { username: row.username, role: "student" }; }
+  function accountPublicView(row) { return { username: row.username, role: "student", classId: String(row.classId || "10") }; }
   function readSession() {
     try {
       const value = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
       if (!value || typeof value.username !== "string") return null;
-      return { username: value.username, role: "student" };
+      return { username: value.username, role: "student", classId: String(value.classId || "10") };
     } catch (_) { return null; }
   }
   async function login(usernameInput, password) {
@@ -62,7 +62,7 @@
     const calculated = await deriveHash(password, account.salt, iterations);
     if (!equalHash(calculated, account.passwordHash)) throw new Error("Invalid username or password.");
     const user = accountPublicView(account);
-    sessionStorage.setItem(SESSION_KEY, JSON.stringify({ username: user.username }));
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify({ username: user.username, classId: user.classId }));
     return { account: user };
   }
   async function restoreSession() {
