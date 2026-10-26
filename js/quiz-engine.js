@@ -114,7 +114,7 @@ function loadBank(data){
 function currentPool(){
   const chosen=selectedChapters();
   const selectedQuestions=chosen.flatMap(chapter=>chapter.questions);
-  if(mode==="random")return shuffle(allQuestions());
+  if(mode==="random")return shuffle(selectedQuestions);
   if(mode==="retry"){
     const chapterKeys=new Set(chosen.map(chapter=>String(chapter.chapter_no)));
     return shuffle(allQuestions().filter(question=>progress.missed.includes(keyFor(question))&&chapterKeys.has(String(question.chapter_no))));
@@ -454,7 +454,7 @@ function init(){
   document.querySelectorAll("[data-mode]").forEach(button=>button.onclick=()=>{
     if(ledger.activeAttempt&&ledger.activeAttempt.status==="in-progress"){setText("modeHint","Finish or resume the saved session before changing mode.");return;}
     mode=button.dataset.mode;document.querySelectorAll("[data-mode]").forEach(item=>item.classList.toggle("active",item===button));
-    const hints={learn:"Learn mode explains each answer immediately.",test:"Test mode holds feedback until submission and saves answers as you go.",retry:"Retry questions previously answered incorrectly in the chosen chapter.",random:"Mixed practice draws questions across all chapters.",timed:"Timed exam holds feedback until submission and automatically submits when the countdown reaches zero."};
+    const hints={learn:"Learn mode explains each answer immediately.",test:"Test mode holds feedback until submission and saves answers as you go.",retry:"Retry questions previously answered incorrectly in the chosen chapter.",random:"Mixed practice draws questions across your selected chapters.",timed:"Timed exam holds feedback until submission and automatically submits when the countdown reaches zero."};
     setText("modeHint",hints[mode]);
     if(mode==="timed"&&["off","elapsed"].includes($("timerSetting").value))$("timerSetting").value="1200";
   });
