@@ -6,6 +6,7 @@
     {section:"LEARN",auth:"student"},
     {label:"Dashboard",icon:"🏡",href:"./dashboard.html",page:"dashboard.html",auth:"student"},
     {label:"All subjects",icon:"📚",href:"./dashboard.html#subjects",page:"dashboard.html",hash:"#subjects",auth:"student"},
+    {label:"Levels & rewards",icon:"🏆",href:"./dashboard.html#rewards",page:"dashboard.html",hash:"#rewards",auth:"student"},
     {section:"SUBJECTS",auth:"student"},
     {label:"Science",icon:"🧪",href:"./practice.html?subject=science",page:"practice.html",subject:"science",auth:"student"},
     {label:"Mathematics",icon:"📐",href:"./practice.html?subject=mathematics",page:"practice.html",subject:"mathematics",auth:"student"},
