@@ -68,7 +68,7 @@
       const main=document.getElementById("dashboard");
       if(main){
         const target=current.hash==="#subjects"?"subjects":current.hash==="#rewards"?"rewards":"";
-        Array.from(main.children).forEach(child=>{child.hidden=!!target&&child.id!==target;});
+        Array.from(main.children).forEach(child=>{child.hidden=!!target&&child.id!==target&&child.tagName!=="FOOTER";});
       }
       return;
     }
