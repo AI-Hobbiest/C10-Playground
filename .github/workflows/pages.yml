@@ -204,7 +204,7 @@ jobs:
             throw new Error('Login handler does not authenticate students and route to dashboard.');
           }
           const shell=fs.readFileSync('_site/js/app-shell.js','utf8');
-          for (const required of ['c10-auth-changed','dashboard.html','profile.html','signOut']) {
+          for (const required of ['c10-auth-changed','dashboard.html','profile.html','Sign out']) {
             if (!shell.includes(required)) throw new Error('Role-aware navigation is missing '+required);
           }
           const dashboardLanding=fs.readFileSync('_site/dashboard.html','utf8');
