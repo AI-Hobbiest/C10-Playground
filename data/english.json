@@ -12675,7 +12675,12 @@
         ],
         "answer": 1,
         "explanation": "She finds that every household has experienced loss.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "The Sermon at Benares",
+          "comprehension"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -12688,7 +12693,12 @@
         ],
         "answer": 1,
         "explanation": "The teaching helps Kisa Gotami see suffering as part of the human condition.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Sermon at Benares",
+          "comprehension"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -12701,7 +12711,1758 @@
         ],
         "answer": 1,
         "explanation": "The search lets her discover personally what a direct explanation could not convey.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Sermon at Benares",
+          "comprehension"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about Kisa Gotami’s loss is supported by the chapter?",
+        "options": [
+          "Kisa Gotami’s only son dies.",
+          "her husband leaves the village",
+          "her house is destroyed",
+          "she loses her harvest"
+        ],
+        "answer": 0,
+        "explanation": "The death of her only child is the central crisis that begins her search.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the episode involving Kisa Gotami’s loss suggest?",
+        "options": [
+          "She is pleased by the event",
+          "Her grief drives her to search urgently for a way to restore her child.",
+          "She asks for help with a school exam",
+          "She has no emotional response"
+        ],
+        "answer": 1,
+        "explanation": "The death of her only child is the central crisis that begins her search.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Why is Kisa Gotami’s loss important in the narrative?",
+        "options": [
+          "She asks for help with a school exam",
+          "She is pleased by the event",
+          "Her grief drives her to search urgently for a way to restore her child.",
+          "She has no emotional response"
+        ],
+        "answer": 2,
+        "explanation": "The death of her only child is the central crisis that begins her search.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "When revising Her search for medicine, which statement is accurate?",
+        "options": [
+          "she searches for a missing animal",
+          "she looks for a new school",
+          "she asks for a bus ticket",
+          "Kisa carries the dead child from house to house asking for medicine."
+        ],
+        "answer": 3,
+        "explanation": "She asks people for medicine because she hopes the child can be restored to life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Which interpretation of Her search for medicine best fits the story?",
+        "options": [
+          "Her grief initially prevents her from accepting that the child has died.",
+          "She has already accepted the loss calmly",
+          "She is seeking a job",
+          "She wants to sell the child’s clothes"
+        ],
+        "answer": 0,
+        "explanation": "She asks people for medicine because she hopes the child can be restored to life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "What does the text communicate through Her search for medicine?",
+        "options": [
+          "She has already accepted the loss calmly",
+          "Her grief initially prevents her from accepting that the child has died.",
+          "She is seeking a job",
+          "She wants to sell the child’s clothes"
+        ],
+        "answer": 1,
+        "explanation": "She asks people for medicine because she hopes the child can be restored to life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "Which option correctly describes People’s reaction?",
+        "options": [
+          "they ask her to teach them",
+          "they believe she is a famous doctor",
+          "Some people think Kisa Gotami has lost her senses because of grief.",
+          "they think her child is asleep"
+        ],
+        "answer": 2,
+        "explanation": "Her desperate search appears unreasonable to others because the child is dead.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "grief",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "What broader idea is illustrated by People’s reaction?",
+        "options": [
+          "The child has recovered",
+          "The neighbours know she has found a cure",
+          "The people are celebrating",
+          "The intensity of grief can make someone behave in ways others do not understand."
+        ],
+        "answer": 3,
+        "explanation": "Her desperate search appears unreasonable to others because the child is dead.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "grief",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "What is the significance of People’s reaction in this account?",
+        "options": [
+          "The intensity of grief can make someone behave in ways others do not understand.",
+          "The neighbours know she has found a cure",
+          "The people are celebrating",
+          "The child has recovered"
+        ],
+        "answer": 0,
+        "explanation": "Her desperate search appears unreasonable to others because the child is dead.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "grief",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Which detail about Seeking the Buddha is supported by the chapter?",
+        "options": [
+          "a tea garden manager",
+          "Kisa Gotami is directed to the Buddha for help.",
+          "a village baker",
+          "a bus conductor"
+        ],
+        "answer": 1,
+        "explanation": "Kisa approaches the Buddha hoping he can help her child.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "What does the episode involving Seeking the Buddha suggest?",
+        "options": [
+          "The Buddha sends her to a marketplace",
+          "The Buddha promises a medicine immediately",
+          "The encounter moves the story from desperate searching toward spiritual understanding.",
+          "The Buddha refuses to listen"
+        ],
+        "answer": 2,
+        "explanation": "Kisa approaches the Buddha hoping he can help her child.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "Why is Seeking the Buddha important in the narrative?",
+        "options": [
+          "The Buddha refuses to listen",
+          "The Buddha promises a medicine immediately",
+          "The Buddha sends her to a marketplace",
+          "The encounter moves the story from desperate searching toward spiritual understanding."
+        ],
+        "answer": 3,
+        "explanation": "Kisa approaches the Buddha hoping he can help her child.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "When revising The Buddha’s condition, which statement is accurate?",
+        "options": [
+          "The Buddha asks Kisa to bring mustard seeds from a house where no one has ever died.",
+          "gold from a wealthy home",
+          "water from a river",
+          "a book from a school"
+        ],
+        "answer": 0,
+        "explanation": "The mustard-seed task is designed to help her understand the universality of death.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "symbolism",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which interpretation of The Buddha’s condition best fits the story?",
+        "options": [
+          "The condition is easy because no family has lost anyone",
+          "The task helps her discover that death has touched every household.",
+          "The task is simply to purchase seeds",
+          "The Buddha asks her to avoid all other people"
+        ],
+        "answer": 1,
+        "explanation": "The mustard-seed task is designed to help her understand the universality of death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "What does the text communicate through The Buddha’s condition?",
+        "options": [
+          "The task is simply to purchase seeds",
+          "The condition is easy because no family has lost anyone",
+          "The task helps her discover that death has touched every household.",
+          "The Buddha asks her to avoid all other people"
+        ],
+        "answer": 2,
+        "explanation": "The mustard-seed task is designed to help her understand the universality of death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which option correctly describes Mustard seeds?",
+        "options": [
+          "the seeds grow only on mountains",
+          "the seeds are unknown in the village",
+          "the Buddha forbids her from asking",
+          "Mustard seeds themselves are easy to obtain, but the special household condition is not."
+        ],
+        "answer": 3,
+        "explanation": "The task’s difficulty comes from the absence of a household free from bereavement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What broader idea is illustrated by Mustard seeds?",
+        "options": [
+          "The real obstacle is finding a family untouched by death.",
+          "The story says mustard seeds do not exist",
+          "The only problem is their price",
+          "She must plant them before returning"
+        ],
+        "answer": 0,
+        "explanation": "The task’s difficulty comes from the absence of a household free from bereavement.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "What is the significance of Mustard seeds in this account?",
+        "options": [
+          "The story says mustard seeds do not exist",
+          "The real obstacle is finding a family untouched by death.",
+          "The only problem is their price",
+          "She must plant them before returning"
+        ],
+        "answer": 1,
+        "explanation": "The task’s difficulty comes from the absence of a household free from bereavement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which detail about Door-to-door search is supported by the chapter?",
+        "options": [
+          "she stays inside the Buddha’s dwelling",
+          "she visits only one house",
+          "Kisa visits many homes to ask for the mustard seeds.",
+          "she travels to another country"
+        ],
+        "answer": 2,
+        "explanation": "She makes the search herself and hears about losses in each household.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "What does the episode involving Door-to-door search suggest?",
+        "options": [
+          "She finds the special seeds immediately",
+          "Every household has escaped death",
+          "The villagers do not answer",
+          "Repeated encounters show her that loss is shared by many families."
+        ],
+        "answer": 3,
+        "explanation": "She makes the search herself and hears about losses in each household.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Why is Door-to-door search important in the narrative?",
+        "options": [
+          "Repeated encounters show her that loss is shared by many families.",
+          "Every household has escaped death",
+          "The villagers do not answer",
+          "She finds the special seeds immediately"
+        ],
+        "answer": 0,
+        "explanation": "She makes the search herself and hears about losses in each household.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "When revising The search’s result, which statement is accurate?",
+        "options": [
+          "she finds one in every street",
+          "Kisa cannot find a household where no one has died.",
+          "the Buddha gives her a list of such homes",
+          "she decides mustard seeds do not grow"
+        ],
+        "answer": 1,
+        "explanation": "Each household has experienced bereavement, so the condition cannot be fulfilled.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "realisation"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of The search’s result best fits the story?",
+        "options": [
+          "The villagers invent their losses",
+          "Death has affected only her family",
+          "She begins to understand that death is common to all people.",
+          "The condition is irrelevant"
+        ],
+        "answer": 2,
+        "explanation": "Each household has experienced bereavement, so the condition cannot be fulfilled.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "realisation"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "What does the text communicate through The search’s result?",
+        "options": [
+          "The condition is irrelevant",
+          "Death has affected only her family",
+          "The villagers invent their losses",
+          "She begins to understand that death is common to all people."
+        ],
+        "answer": 3,
+        "explanation": "Each household has experienced bereavement, so the condition cannot be fulfilled.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "realisation"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Which option correctly describes Kisa’s realisation?",
+        "options": [
+          "Kisa realises she is not alone in suffering a family loss.",
+          "she is the only person to experience grief",
+          "other households have never known death",
+          "the Buddha has hidden her child"
+        ],
+        "answer": 0,
+        "explanation": "The search shifts her perspective from personal sorrow to a universal truth.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "character arc",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "What broader idea is illustrated by Kisa’s realisation?",
+        "options": [
+          "She rejects every other family’s story",
+          "Shared human experience helps her see beyond her own grief.",
+          "She becomes certain death can be avoided",
+          "She stops thinking about the child completely"
+        ],
+        "answer": 1,
+        "explanation": "The search shifts her perspective from personal sorrow to a universal truth.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character arc",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What is the significance of Kisa’s realisation in this account?",
+        "options": [
+          "She becomes certain death can be avoided",
+          "She rejects every other family’s story",
+          "Shared human experience helps her see beyond her own grief.",
+          "She stops thinking about the child completely"
+        ],
+        "answer": 2,
+        "explanation": "The search shifts her perspective from personal sorrow to a universal truth.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character arc",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which detail about The dead child is supported by the chapter?",
+        "options": [
+          "she brings the child to a tea garden",
+          "she takes the child to a school",
+          "she hides the child in a bus",
+          "After recognising the truth, Kisa leaves her dead child in the forest."
+        ],
+        "answer": 3,
+        "explanation": "Leaving the child reflects her gradual acceptance that death cannot be undone.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "acceptance"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "What does the episode involving The dead child suggest?",
+        "options": [
+          "This action marks a change from desperate denial toward acceptance.",
+          "She is still convinced the child is alive",
+          "She has found medicine",
+          "She is preparing a celebration"
+        ],
+        "answer": 0,
+        "explanation": "Leaving the child reflects her gradual acceptance that death cannot be undone.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "acceptance"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is The dead child important in the narrative?",
+        "options": [
+          "She is still convinced the child is alive",
+          "This action marks a change from desperate denial toward acceptance.",
+          "She has found medicine",
+          "She is preparing a celebration"
+        ],
+        "answer": 1,
+        "explanation": "Leaving the child reflects her gradual acceptance that death cannot be undone.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "acceptance"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "When revising Returning to the Buddha, which statement is accurate?",
+        "options": [
+          "she goes back to the first house",
+          "she returns to the bus driver",
+          "Kisa returns to the Buddha after her search.",
+          "she leaves the village forever"
+        ],
+        "answer": 2,
+        "explanation": "Her return follows her realisation that death touches every household.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "Which interpretation of Returning to the Buddha best fits the story?",
+        "options": [
+          "She is no longer interested in understanding",
+          "She has found a house with no deaths",
+          "She returns only to demand money",
+          "She is now ready to hear the teaching behind the mustard-seed task."
+        ],
+        "answer": 3,
+        "explanation": "Her return follows her realisation that death touches every household.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "What does the text communicate through Returning to the Buddha?",
+        "options": [
+          "She is now ready to hear the teaching behind the mustard-seed task.",
+          "She has found a house with no deaths",
+          "She returns only to demand money",
+          "She is no longer interested in understanding"
+        ],
+        "answer": 0,
+        "explanation": "Her return follows her realisation that death touches every household.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which option correctly describes The purpose of the task?",
+        "options": [
+          "it teaches her how to grow crops",
+          "The mustard-seed exercise teaches Kisa about the universality of death.",
+          "it tests her mathematics",
+          "it helps her buy medicine"
+        ],
+        "answer": 1,
+        "explanation": "The search lets Kisa discover the lesson for herself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "teaching method",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "What broader idea is illustrated by The purpose of the task?",
+        "options": [
+          "It promises that death can be reversed",
+          "It is mainly a shopping errand",
+          "The Buddha guides her to understanding through experience rather than a direct lecture alone.",
+          "It is a contest between neighbours"
+        ],
+        "answer": 2,
+        "explanation": "The search lets Kisa discover the lesson for herself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "teaching method",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "What is the significance of The purpose of the task in this account?",
+        "options": [
+          "It is a contest between neighbours",
+          "It is mainly a shopping errand",
+          "It promises that death can be reversed",
+          "The Buddha guides her to understanding through experience rather than a direct lecture alone."
+        ],
+        "answer": 3,
+        "explanation": "The search lets Kisa discover the lesson for herself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "teaching method",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "Which detail about Mortality is supported by the chapter?",
+        "options": [
+          "The Buddha teaches that all people are subject to death.",
+          "only elderly people die",
+          "only the poor experience death",
+          "death can be avoided by wealth"
+        ],
+        "answer": 0,
+        "explanation": "The chapter emphasises that no one can avoid death simply by wishing it away.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "What does the episode involving Mortality suggest?",
+        "options": [
+          "The lesson says children never die",
+          "Mortality is a shared condition of human life.",
+          "The lesson applies only to Kisa",
+          "The teaching promises immortality"
+        ],
+        "answer": 1,
+        "explanation": "The chapter emphasises that no one can avoid death simply by wishing it away.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Why is Mortality important in the narrative?",
+        "options": [
+          "The lesson applies only to Kisa",
+          "The lesson says children never die",
+          "Mortality is a shared condition of human life.",
+          "The teaching promises immortality"
+        ],
+        "answer": 2,
+        "explanation": "The chapter emphasises that no one can avoid death simply by wishing it away.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "When revising Youth and age, which statement is accurate?",
+        "options": [
+          "only the ill are mortal",
+          "only adults die",
+          "only children die",
+          "The teaching makes clear that both young and old are subject to death."
+        ],
+        "answer": 3,
+        "explanation": "The story broadens the lesson beyond one person or one age group.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which interpretation of Youth and age best fits the story?",
+        "options": [
+          "Age does not make anyone exempt from death.",
+          "Young people are guaranteed to live forever",
+          "Old age alone causes every death",
+          "The message excludes children"
+        ],
+        "answer": 0,
+        "explanation": "The story broadens the lesson beyond one person or one age group.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does the text communicate through Youth and age?",
+        "options": [
+          "Young people are guaranteed to live forever",
+          "Age does not make anyone exempt from death.",
+          "Old age alone causes every death",
+          "The message excludes children"
+        ],
+        "answer": 1,
+        "explanation": "The story broadens the lesson beyond one person or one age group.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which option correctly describes The ripe-fruit comparison?",
+        "options": [
+          "a mountain that never changes",
+          "a seed that never grows",
+          "The teaching compares mortals to ripe fruit that is in danger of falling.",
+          "a river that flows backwards"
+        ],
+        "answer": 2,
+        "explanation": "The ripe-fruit image illustrates the vulnerability of all living beings.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "What broader idea is illustrated by The ripe-fruit comparison?",
+        "options": [
+          "The image promises eternal youth",
+          "The fruit represents permanent safety",
+          "The comparison is about bus travel",
+          "The image presents death as an inevitable part of life."
+        ],
+        "answer": 3,
+        "explanation": "The ripe-fruit image illustrates the vulnerability of all living beings.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "What is the significance of The ripe-fruit comparison in this account?",
+        "options": [
+          "The image presents death as an inevitable part of life.",
+          "The fruit represents permanent safety",
+          "The comparison is about bus travel",
+          "The image promises eternal youth"
+        ],
+        "answer": 0,
+        "explanation": "The ripe-fruit image illustrates the vulnerability of all living beings.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "Buddha"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about The potter’s vessels is supported by the chapter?",
+        "options": [
+          "ships crossing the sea",
+          "The teaching compares human life to earthen vessels made by a potter.",
+          "tea cups in a shop only",
+          "books in a library"
+        ],
+        "answer": 1,
+        "explanation": "The potter image reinforces that all made things are subject to breaking.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "impermanence"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the episode involving The potter’s vessels suggest?",
+        "options": [
+          "The vessels are used to measure bus fares",
+          "All vessels last forever",
+          "Vessels can break at different times, just as death comes to people at different stages.",
+          "The comparison is only about craftwork"
+        ],
+        "answer": 2,
+        "explanation": "The potter image reinforces that all made things are subject to breaking.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "impermanence"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Why is The potter’s vessels important in the narrative?",
+        "options": [
+          "The comparison is only about craftwork",
+          "All vessels last forever",
+          "The vessels are used to measure bus fares",
+          "Vessels can break at different times, just as death comes to people at different stages."
+        ],
+        "answer": 3,
+        "explanation": "The potter image reinforces that all made things are subject to breaking.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "impermanence"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "When revising Early and late death, which statement is accurate?",
+        "options": [
+          "The potter’s vessels may break before or after they are fully made.",
+          "all break at exactly the same moment",
+          "none of them can break",
+          "only unfinished vessels exist"
+        ],
+        "answer": 0,
+        "explanation": "The comparison focuses on different timings but a shared outcome.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Which interpretation of Early and late death best fits the story?",
+        "options": [
+          "The teaching says only the young die",
+          "People may die at different ages, but mortality remains universal.",
+          "The timing of death can always be predicted",
+          "The analogy excludes completed vessels"
+        ],
+        "answer": 1,
+        "explanation": "The comparison focuses on different timings but a shared outcome.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "What does the text communicate through Early and late death?",
+        "options": [
+          "The timing of death can always be predicted",
+          "The teaching says only the young die",
+          "People may die at different ages, but mortality remains universal.",
+          "The analogy excludes completed vessels"
+        ],
+        "answer": 2,
+        "explanation": "The comparison focuses on different timings but a shared outcome.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "Which option correctly describes Grief and peace?",
+        "options": [
+          "lamentation guarantees happiness",
+          "grief can always restore the dead",
+          "complaint reverses time",
+          "The teaching warns that overwhelming lamentation does not bring peace of mind."
+        ],
+        "answer": 3,
+        "explanation": "The lesson distinguishes love and memory from futile attempts to reverse death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "What broader idea is illustrated by Grief and peace?",
+        "options": [
+          "Dwelling only on sorrow can deepen suffering rather than undo loss.",
+          "The teaching says grief must be displayed publicly",
+          "The point is to forget every loved one",
+          "The story suggests no one should care"
+        ],
+        "answer": 0,
+        "explanation": "The lesson distinguishes love and memory from futile attempts to reverse death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "What is the significance of Grief and peace in this account?",
+        "options": [
+          "The teaching says grief must be displayed publicly",
+          "Dwelling only on sorrow can deepen suffering rather than undo loss.",
+          "The point is to forget every loved one",
+          "The story suggests no one should care"
+        ],
+        "answer": 1,
+        "explanation": "The lesson distinguishes love and memory from futile attempts to reverse death.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Which detail about The arrow of sorrow is supported by the chapter?",
+        "options": [
+          "building a house",
+          "placing an arrow in a bow",
+          "The teaching uses the image of drawing out an arrow to describe letting go of grief.",
+          "planting mustard seeds"
+        ],
+        "answer": 2,
+        "explanation": "The arrow image conveys the need to remove what prolongs suffering.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "What does the episode involving The arrow of sorrow suggest?",
+        "options": [
+          "The arrow is a medical cure for death",
+          "The image is about winning a battle",
+          "The lesson is to ignore every emotion",
+          "Releasing obsessive lamentation is presented as a path toward peace."
+        ],
+        "answer": 3,
+        "explanation": "The arrow image conveys the need to remove what prolongs suffering.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "Why is The arrow of sorrow important in the narrative?",
+        "options": [
+          "Releasing obsessive lamentation is presented as a path toward peace.",
+          "The image is about winning a battle",
+          "The lesson is to ignore every emotion",
+          "The arrow is a medical cure for death"
+        ],
+        "answer": 0,
+        "explanation": "The arrow image conveys the need to remove what prolongs suffering.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "When revising Acceptance, which statement is accurate?",
+        "options": [
+          "she becomes more certain the child is alive",
+          "Kisa’s search gradually leads her toward accepting the child’s death.",
+          "she refuses to listen to anyone",
+          "she stops looking for any meaning"
+        ],
+        "answer": 1,
+        "explanation": "Her changed understanding is the key development in her character.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character arc",
+          "acceptance"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which interpretation of Acceptance best fits the story?",
+        "options": [
+          "She discovers a medicine that reverses death",
+          "She finds a family untouched by loss",
+          "Acceptance begins when she recognises that death is not unique to her family.",
+          "She proves the Buddha wrong"
+        ],
+        "answer": 2,
+        "explanation": "Her changed understanding is the key development in her character.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character arc",
+          "acceptance"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "What does the text communicate through Acceptance?",
+        "options": [
+          "She proves the Buddha wrong",
+          "She finds a family untouched by loss",
+          "She discovers a medicine that reverses death",
+          "Acceptance begins when she recognises that death is not unique to her family."
+        ],
+        "answer": 3,
+        "explanation": "Her changed understanding is the key development in her character.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character arc",
+          "acceptance"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which option correctly describes Personal grief and universal suffering?",
+        "options": [
+          "Kisa first sees her loss as an exceptional tragedy.",
+          "she begins by teaching the village about death",
+          "she believes no one can ever grieve",
+          "she has no feeling for the child"
+        ],
+        "answer": 0,
+        "explanation": "The story broadens personal grief into a shared human experience.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What broader idea is illustrated by Personal grief and universal suffering?",
+        "options": [
+          "The villagers have all been spared loss",
+          "The search helps her recognise that suffering and death affect every household.",
+          "The task shows Kisa is uniquely unlucky in all things",
+          "Death exists only in her imagination"
+        ],
+        "answer": 1,
+        "explanation": "The story broadens personal grief into a shared human experience.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "What is the significance of Personal grief and universal suffering in this account?",
+        "options": [
+          "The task shows Kisa is uniquely unlucky in all things",
+          "The villagers have all been spared loss",
+          "The search helps her recognise that suffering and death affect every household.",
+          "Death exists only in her imagination"
+        ],
+        "answer": 2,
+        "explanation": "The story broadens personal grief into a shared human experience.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which detail about Buddha’s teaching method is supported by the chapter?",
+        "options": [
+          "he asks her to build a house",
+          "he asks her to memorise a timetable",
+          "he immediately gives her a medicine",
+          "The Buddha gives Kisa a task that leads her to discover the lesson herself."
+        ],
+        "answer": 3,
+        "explanation": "The mustard-seed search becomes a practical way to show that death is universal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "teaching method",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "What does the episode involving Buddha’s teaching method suggest?",
+        "options": [
+          "Learning through experience helps her grasp an abstract truth.",
+          "The task is unrelated to her grief",
+          "The lesson depends on a written exam",
+          "The Buddha avoids teaching her"
+        ],
+        "answer": 0,
+        "explanation": "The mustard-seed search becomes a practical way to show that death is universal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "teaching method",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Why is Buddha’s teaching method important in the narrative?",
+        "options": [
+          "The task is unrelated to her grief",
+          "Learning through experience helps her grasp an abstract truth.",
+          "The lesson depends on a written exam",
+          "The Buddha avoids teaching her"
+        ],
+        "answer": 1,
+        "explanation": "The mustard-seed search becomes a practical way to show that death is universal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "teaching method",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "When revising Mustard seed symbolism, which statement is accurate?",
+        "options": [
+          "a reward for winning a race",
+          "a guarantee of immortality",
+          "The mustard seeds stand for a task that seems simple but reveals a difficult truth.",
+          "a symbol of wealth alone"
+        ],
+        "answer": 2,
+        "explanation": "The important condition attached to the seeds is what gives the task meaning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of Mustard seed symbolism best fits the story?",
+        "options": [
+          "They show that no family experiences loss",
+          "The seeds cure death in the story",
+          "They are a prize unrelated to the plot",
+          "The seeds become a means of learning about bereavement shared by all families."
+        ],
+        "answer": 3,
+        "explanation": "The important condition attached to the seeds is what gives the task meaning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "What does the text communicate through Mustard seed symbolism?",
+        "options": [
+          "The seeds become a means of learning about bereavement shared by all families.",
+          "The seeds cure death in the story",
+          "They are a prize unrelated to the plot",
+          "They show that no family experiences loss"
+        ],
+        "answer": 0,
+        "explanation": "The important condition attached to the seeds is what gives the task meaning.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Which option correctly describes Kisa’s state of mind?",
+        "options": [
+          "she is calmly planning a holiday",
+          "At first Kisa is overwhelmed by sorrow and hope for a cure.",
+          "she feels no loss",
+          "she is only interested in money"
+        ],
+        "answer": 1,
+        "explanation": "Her grief motivates the search; the search gradually changes how she understands death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "What broader idea is illustrated by Kisa’s state of mind?",
+        "options": [
+          "She starts the story as a teacher of the Buddha",
+          "She never changes her outlook",
+          "Her later realisation marks a shift in understanding.",
+          "She ignores her child’s death"
+        ],
+        "answer": 2,
+        "explanation": "Her grief motivates the search; the search gradually changes how she understands death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What is the significance of Kisa’s state of mind in this account?",
+        "options": [
+          "She ignores her child’s death",
+          "She never changes her outlook",
+          "She starts the story as a teacher of the Buddha",
+          "Her later realisation marks a shift in understanding."
+        ],
+        "answer": 3,
+        "explanation": "Her grief motivates the search; the search gradually changes how she understands death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which detail about The villagers’ role is supported by the chapter?",
+        "options": [
+          "The households Kisa visits share stories of people they have lost.",
+          "they all claim nobody has died",
+          "they refuse to talk about anyone",
+          "they provide a single universal cure"
+        ],
+        "answer": 0,
+        "explanation": "The repeated reports of loss guide Kisa toward the lesson.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "community"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "What does the episode involving The villagers’ role suggest?",
+        "options": [
+          "The villagers prove Kisa’s child is alive",
+          "Their experiences help her see that grief is not unique to her.",
+          "They all hide their bereavements",
+          "Their stories are unrelated to the mustard seeds"
+        ],
+        "answer": 1,
+        "explanation": "The repeated reports of loss guide Kisa toward the lesson.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "community"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is The villagers’ role important in the narrative?",
+        "options": [
+          "They all hide their bereavements",
+          "The villagers prove Kisa’s child is alive",
+          "Their experiences help her see that grief is not unique to her.",
+          "Their stories are unrelated to the mustard seeds"
+        ],
+        "answer": 2,
+        "explanation": "The repeated reports of loss guide Kisa toward the lesson.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "community"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "When revising Death and social status, which statement is accurate?",
+        "options": [
+          "only poor families experience bereavement",
+          "only rulers die",
+          "wealth can guarantee safety from death",
+          "The lesson of mortality applies regardless of a person’s social position."
+        ],
+        "answer": 3,
+        "explanation": "The universality of death extends across households and circumstances.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "Which interpretation of Death and social status best fits the story?",
+        "options": [
+          "No household is exempt from loss because of status or possessions.",
+          "The story says rich people cannot die",
+          "The teaching applies only to monks",
+          "The lesson depends on a family’s income"
+        ],
+        "answer": 0,
+        "explanation": "The universality of death extends across households and circumstances.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "What does the text communicate through Death and social status?",
+        "options": [
+          "The story says rich people cannot die",
+          "No household is exempt from loss because of status or possessions.",
+          "The teaching applies only to monks",
+          "The lesson depends on a family’s income"
+        ],
+        "answer": 1,
+        "explanation": "The universality of death extends across households and circumstances.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which option correctly describes Human impermanence?",
+        "options": [
+          "nothing in the world ever changes",
+          "life is completely permanent",
+          "The teaching presents life as brief and subject to change.",
+          "death affects only strangers"
+        ],
+        "answer": 2,
+        "explanation": "The Buddha’s message focuses on the unavoidable changes and limits of mortal life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "impermanence"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "What broader idea is illustrated by Human impermanence?",
+        "options": [
+          "The teaching is only about farming",
+          "The lesson promises permanent happiness through possessions",
+          "The story rejects any change",
+          "Recognising impermanence helps people understand the limits of attachment to worldly life."
+        ],
+        "answer": 3,
+        "explanation": "The Buddha’s message focuses on the unavoidable changes and limits of mortal life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "impermanence"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "What is the significance of Human impermanence in this account?",
+        "options": [
+          "Recognising impermanence helps people understand the limits of attachment to worldly life.",
+          "The lesson promises permanent happiness through possessions",
+          "The story rejects any change",
+          "The teaching is only about farming"
+        ],
+        "answer": 0,
+        "explanation": "The Buddha’s message focuses on the unavoidable changes and limits of mortal life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "impermanence"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "Which detail about Lamentation is supported by the chapter?",
+        "options": [
+          "lamentation can bring the child back",
+          "The teaching distinguishes grieving from endless lamentation that cannot restore the dead.",
+          "grief should always be hidden from everyone",
+          "sorrow always creates peace"
+        ],
+        "answer": 1,
+        "explanation": "Lamentation cannot reverse death, so the teaching points toward acceptance.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "What does the episode involving Lamentation suggest?",
+        "options": [
+          "The teaching demands that people never remember the dead",
+          "The Buddha says love is wrong",
+          "The lesson encourages moving beyond fruitless suffering toward peace.",
+          "The lesson says grief changes the past"
+        ],
+        "answer": 2,
+        "explanation": "Lamentation cannot reverse death, so the teaching points toward acceptance.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Why is Lamentation important in the narrative?",
+        "options": [
+          "The lesson says grief changes the past",
+          "The Buddha says love is wrong",
+          "The teaching demands that people never remember the dead",
+          "The lesson encourages moving beyond fruitless suffering toward peace."
+        ],
+        "answer": 3,
+        "explanation": "Lamentation cannot reverse death, so the teaching points toward acceptance.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "grief"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "When revising Kisa’s transformation, which statement is accurate?",
+        "options": [
+          "Kisa returns with a different understanding after visiting the households.",
+          "she returns convinced no one else suffers",
+          "she returns with proof that death can be reversed",
+          "she has forgotten the reason for her search"
+        ],
+        "answer": 0,
+        "explanation": "Her search changes her understanding of both her own loss and human mortality.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "character arc",
+          "realisation"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which interpretation of Kisa’s transformation best fits the story?",
+        "options": [
+          "She has not heard anyone’s story",
+          "Her experience transforms her from desperate denial toward insight.",
+          "She has found the special household",
+          "She is more certain she alone has suffered"
+        ],
+        "answer": 1,
+        "explanation": "Her search changes her understanding of both her own loss and human mortality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character arc",
+          "realisation"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does the text communicate through Kisa’s transformation?",
+        "options": [
+          "She has found the special household",
+          "She has not heard anyone’s story",
+          "Her experience transforms her from desperate denial toward insight.",
+          "She is more certain she alone has suffered"
+        ],
+        "answer": 2,
+        "explanation": "Her search changes her understanding of both her own loss and human mortality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character arc",
+          "realisation"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which option correctly describes The chapter’s message?",
+        "options": [
+          "sorrow can restore the dead",
+          "death can be reversed by a special plant",
+          "only children are mortal",
+          "The story teaches that death is universal and cannot be avoided."
+        ],
+        "answer": 3,
+        "explanation": "The mustard-seed task illustrates the universality of death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "What broader idea is illustrated by The chapter’s message?",
+        "options": [
+          "Recognising this shared truth helps Kisa begin to let go of despair.",
+          "Mortality is limited to one family",
+          "The lesson is that money prevents death",
+          "The story says no one ever experiences grief"
+        ],
+        "answer": 0,
+        "explanation": "The mustard-seed task illustrates the universality of death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "What is the significance of The chapter’s message in this account?",
+        "options": [
+          "Mortality is limited to one family",
+          "Recognising this shared truth helps Kisa begin to let go of despair.",
+          "The lesson is that money prevents death",
+          "The story says no one ever experiences grief"
+        ],
+        "answer": 1,
+        "explanation": "The mustard-seed task illustrates the universality of death.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about The role of experience is supported by the chapter?",
+        "options": [
+          "she avoids all other households",
+          "she learns only from a written exam",
+          "Kisa discovers the lesson by visiting ordinary families rather than hearing it only as an abstract statement.",
+          "she receives the truth from a medicine seller"
+        ],
+        "answer": 2,
+        "explanation": "Her repeated encounters with bereaved families drive the realisation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "teaching method"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the episode involving The role of experience suggest?",
+        "options": [
+          "The lesson is unrelated to their stories",
+          "The experience confirms no one has ever died",
+          "The villagers provide an antidote",
+          "Direct encounters make the universality of death concrete for her."
+        ],
+        "answer": 3,
+        "explanation": "Her repeated encounters with bereaved families drive the realisation.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "structure",
+          "teaching method"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Why is The role of experience important in the narrative?",
+        "options": [
+          "Direct encounters make the universality of death concrete for her.",
+          "The experience confirms no one has ever died",
+          "The villagers provide an antidote",
+          "The lesson is unrelated to their stories"
+        ],
+        "answer": 0,
+        "explanation": "Her repeated encounters with bereaved families drive the realisation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "teaching method"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "When revising The child’s death, which statement is accurate?",
+        "options": [
+          "it is reversed when she finds mustard seeds",
+          "The death of Kisa’s child is not presented as an event that can be undone.",
+          "the Buddha immediately brings the child back",
+          "the child wakes up on the journey"
+        ],
+        "answer": 1,
+        "explanation": "The mustard-seed task teaches acceptance of mortality rather than physical restoration.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Which interpretation of The child’s death best fits the story?",
+        "options": [
+          "Kisa never accepts the loss",
+          "The story promises every death can be reversed",
+          "The narrative moves toward acceptance rather than a miraculous cure.",
+          "The villagers show the child is merely sleeping"
+        ],
+        "answer": 2,
+        "explanation": "The mustard-seed task teaches acceptance of mortality rather than physical restoration.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "What does the text communicate through The child’s death?",
+        "options": [
+          "The villagers show the child is merely sleeping",
+          "The story promises every death can be reversed",
+          "Kisa never accepts the loss",
+          "The narrative moves toward acceptance rather than a miraculous cure."
+        ],
+        "answer": 3,
+        "explanation": "The mustard-seed task teaches acceptance of mortality rather than physical restoration.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "Which theme best unites Kisa Gotami’s search and the Buddha’s teaching?",
+        "options": [
+          "Understanding that death touches every family can help someone move beyond isolated grief",
+          "A special plant can reverse any death",
+          "Only one family experiences suffering",
+          "The best way to mourn is to refuse help"
+        ],
+        "answer": 0,
+        "explanation": "The repeated household visits teach Kisa that bereavement is universal.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
