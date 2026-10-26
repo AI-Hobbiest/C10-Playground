@@ -129,6 +129,7 @@
     const mobileCopy=node("div","");mobileCopy.append(node("div","c10-mobile-title","ExamGuru"),node("div","c10-mobile-sub",auth.role==="guest"?"Sign in to continue":"Learn · Practise · Level up"));mobileBar.append(toggle,mobileCopy);
     const scrim=node("button","c10-nav-scrim");scrim.type="button";scrim.setAttribute("aria-label","Close navigation menu");scrim.addEventListener("click",closeMenu);
     document.body.prepend(sidebar);document.body.prepend(mobileBar);document.body.prepend(scrim);document.body.classList.add("c10-shell-ready");
+    if(subjectConfig)applyConfiguredSubjectVisibility(subjectConfig);
     window.addEventListener("keydown",event=>{if(event.key==="Escape")closeMenu();});
     window.addEventListener("hashchange",()=>{if(sidebar.classList.contains("open"))closeMenu();applySectionFocus();});
   }
