@@ -40,17 +40,17 @@
       try{
         const result=await window.C10Api.currentUser();
         if(result&&result.user&&result.user.role==="admin")return {role:"admin",username:result.user.githubLogin||result.user.username||""};
-        if(result&&result.user&&result.user.role==="student")return {role:"student",username:result.user.username||""};
+        if(result&&result.user&&result.user.role==="student")return {role:"student",username:result.user.username||"",classId:String(result.user.classId||"10")};
       }catch(_){}
     }
     const student=readStaticStudent();
-    return student?{role:"student",username:student.username}: {role:"guest",username:""};
+    return student?{role:"student",username:student.username,classId:String(student.classId||"10")}: {role:"guest",username:""};
   }
   async function createNav(){
     if(document.getElementById("c10Sidebar"))return;
     const current=getLocation(),auth=await authState();
     const sidebar=node("aside","c10-sidebar");sidebar.id="c10Sidebar";sidebar.setAttribute("aria-label","Main navigation");
-    const brand=node("div","c10-brand");brand.append(node("div","c10-brand-mark","EG"));
+    const brand=node("div","c10-brand");const mark=node("div","c10-brand-mark");const logo=node("img");logo.src="./assets/examguru-saraswati.svg";logo.alt="";logo.width=38;logo.height=38;mark.appendChild(logo);brand.appendChild(mark);
     const brandCopy=node("div","c10-brand-copy");brandCopy.append(node("div","c10-brand-title","ExamGuru"),node("div","c10-brand-sub","Learn · Practise · Level up"));brand.appendChild(brandCopy);sidebar.appendChild(brand);
     const list=node("nav","c10-nav-list");list.setAttribute("aria-label","Learning and account");
     links.forEach(item=>{
@@ -75,7 +75,7 @@
     sidebar.appendChild(list);
     const bottom=node("div","c10-sidebar-bottom");
     bottom.append(node("div","",auth.role==="guest"?"Sign in to open your learning dashboard.":"Signed in"+(auth.username?" as "+auth.username:"")+"."));
-    bottom.append(node("span","c10-shell-credit","Conceptualised by JP Ganathe"));sidebar.appendChild(bottom);
+    sidebar.appendChild(bottom);
     const mobileBar=node("div","c10-mobilebar"),toggle=node("button","c10-menu-toggle","☰");
     toggle.type="button";toggle.setAttribute("aria-label","Open navigation menu");toggle.setAttribute("aria-controls","c10Sidebar");toggle.setAttribute("aria-expanded","false");
     toggle.addEventListener("click",()=>sidebar.classList.contains("open")?closeMenu():openMenu());
