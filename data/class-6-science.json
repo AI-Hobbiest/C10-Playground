@@ -1,0 +1,554 @@
+[
+  {
+    "chapter_no": 1,
+    "title": "The Wonderful World of Science",
+    "key": "the-wonderful-world-of-science",
+    "questions": [
+      {
+        "id": "c6s01q01",
+        "question": "Which action best represents scientific inquiry?",
+        "options": [
+          "Accepting a claim without checking it",
+          "Observing carefully and testing an idea",
+          "Choosing the most popular answer",
+          "Avoiding questions about nature"
+        ],
+        "answer": 1,
+        "explanation": "Scientific inquiry uses observations, questions and tests to build evidence-based explanations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s01q02",
+        "question": "A student wants to know whether sunlight affects plant growth. What should be changed deliberately?",
+        "options": [
+          "The type of plant in every pot",
+          "The amount of water for each plant",
+          "The amount of sunlight received",
+          "The soil and pot size for every plant"
+        ],
+        "answer": 2,
+        "explanation": "To test sunlight fairly, vary sunlight while keeping other important conditions as similar as possible.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s01q03",
+        "question": "Why do scientists repeat an experiment?",
+        "options": [
+          "To make the result look more exciting",
+          "To check whether the result is reliable",
+          "To avoid recording observations",
+          "To guarantee the expected result"
+        ],
+        "answer": 1,
+        "explanation": "Repeated trials help identify errors and show whether a result is consistent.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 2,
+    "title": "Diversity in the Living World",
+    "key": "diversity-in-the-living-world",
+    "questions": [
+      {
+        "id": "c6s02q01",
+        "question": "Which feature is commonly used to group plants?",
+        "options": [
+          "Whether they can move from place to place",
+          "Whether they make their own food and their body features",
+          "Their favourite habitat only",
+          "Their age only"
+        ],
+        "answer": 1,
+        "explanation": "Scientists group plants using observable features such as roots, stems, leaves and ways of reproducing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s02q02",
+        "question": "Which animal is an invertebrate?",
+        "options": [
+          "Fish",
+          "Frog",
+          "Earthworm",
+          "Lizard"
+        ],
+        "answer": 2,
+        "explanation": "An earthworm has no backbone, so it is an invertebrate.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s02q03",
+        "question": "A camel is well suited to desert life mainly because it has features that help it to:",
+        "options": [
+          "Live only underwater",
+          "Survive in hot, dry conditions",
+          "Make its own food",
+          "Breathe through gills"
+        ],
+        "answer": 1,
+        "explanation": "Camels have adaptations that help them manage heat and scarce water in deserts.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 3,
+    "title": "Mindful Eating: A Path to a Healthy Body",
+    "key": "mindful-eating-a-path-to-a-healthy-body",
+    "questions": [
+      {
+        "id": "c6s03q01",
+        "question": "Which meal is most likely to be balanced?",
+        "options": [
+          "Only sweets and juice",
+          "Rice, dal, vegetables and curd",
+          "Only fried snacks",
+          "Only plain rice at every meal"
+        ],
+        "answer": 1,
+        "explanation": "A balanced meal includes different food groups that supply energy, body-building nutrients and protective nutrients.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s03q02",
+        "question": "Which nutrient is especially important for growth and repair of body tissues?",
+        "options": [
+          "Protein",
+          "Water vapour",
+          "Dietary fibre only",
+          "Salt"
+        ],
+        "answer": 0,
+        "explanation": "Proteins help the body grow and repair tissues.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s03q03",
+        "question": "Why should we wash our hands before eating?",
+        "options": [
+          "To make food sweeter",
+          "To remove germs and reduce the chance of illness",
+          "To remove all nutrients from food",
+          "To make digestion stop"
+        ],
+        "answer": 1,
+        "explanation": "Handwashing helps prevent harmful germs from entering the body with food.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 4,
+    "title": "Exploring Magnets",
+    "key": "exploring-magnets",
+    "questions": [
+      {
+        "id": "c6s04q01",
+        "question": "What happens when the north pole of one magnet is brought near the north pole of another?",
+        "options": [
+          "They attract",
+          "They repel",
+          "They lose all magnetism immediately",
+          "They always stick together"
+        ],
+        "answer": 1,
+        "explanation": "Like magnetic poles repel; unlike poles attract.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s04q02",
+        "question": "Which object is most likely to be attracted by a magnet?",
+        "options": [
+          "Iron nail",
+          "Wooden ruler",
+          "Plastic spoon",
+          "Rubber band"
+        ],
+        "answer": 0,
+        "explanation": "Iron is a magnetic material and is attracted by a magnet.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s04q03",
+        "question": "A freely suspended bar magnet comes to rest approximately in which direction?",
+        "options": [
+          "East–west",
+          "North–south",
+          "Up–down",
+          "It always points east"
+        ],
+        "answer": 1,
+        "explanation": "A freely suspended magnet aligns approximately along the north–south direction.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 5,
+    "title": "Measurement of Length and Motion",
+    "key": "measurement-of-length-and-motion",
+    "questions": [
+      {
+        "id": "c6s05q01",
+        "question": "Which is the standard SI unit of length?",
+        "options": [
+          "Centimetre",
+          "Kilometre",
+          "Metre",
+          "Foot"
+        ],
+        "answer": 2,
+        "explanation": "The metre (m) is the SI base unit of length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s05q02",
+        "question": "Which tool is most suitable for measuring the length of a curved line on paper?",
+        "options": [
+          "A flexible thread followed by a ruler",
+          "A thermometer",
+          "A weighing scale",
+          "A compass only"
+        ],
+        "answer": 0,
+        "explanation": "A thread can follow the curve; its straightened length can then be measured with a ruler.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s05q03",
+        "question": "A toy car covers equal distances in equal time intervals. Its motion is:",
+        "options": [
+          "Irregular",
+          "Uniform",
+          "Always circular",
+          "Impossible to describe"
+        ],
+        "answer": 1,
+        "explanation": "Covering equal distances in equal intervals of time is uniform motion.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 6,
+    "title": "Materials Around Us",
+    "key": "materials-around-us",
+    "questions": [
+      {
+        "id": "c6s06q01",
+        "question": "Which property helps us decide whether a material is transparent?",
+        "options": [
+          "Whether light can pass through it clearly",
+          "Whether it is heavy",
+          "Whether it is magnetic",
+          "Whether it dissolves in oil"
+        ],
+        "answer": 0,
+        "explanation": "Transparent materials allow light to pass through so objects can be seen clearly through them.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s06q02",
+        "question": "Which material is generally a good choice for making a cooking pot?",
+        "options": [
+          "Paper",
+          "Cotton",
+          "Metal",
+          "Dry leaves"
+        ],
+        "answer": 2,
+        "explanation": "Metals are commonly used for cooking pots because they conduct heat well and can withstand cooking temperatures.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s06q03",
+        "question": "A material that dissolves in water is described as:",
+        "options": [
+          "Soluble in water",
+          "Magnetic",
+          "Opaque",
+          "Elastic only"
+        ],
+        "answer": 0,
+        "explanation": "A soluble substance forms a solution when it dissolves in water.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 7,
+    "title": "Temperature and its Measurement",
+    "key": "temperature-and-its-measurement",
+    "questions": [
+      {
+        "id": "c6s07q01",
+        "question": "Which instrument is used to measure temperature?",
+        "options": [
+          "Metre scale",
+          "Thermometer",
+          "Measuring tape",
+          "Spring balance"
+        ],
+        "answer": 1,
+        "explanation": "A thermometer is designed to measure temperature.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s07q02",
+        "question": "Why should we not judge temperature only by touching an object?",
+        "options": [
+          "Touch is always more accurate than instruments",
+          "Our sense of touch can be misleading",
+          "Objects have no temperature",
+          "Touch measures mass instead"
+        ],
+        "answer": 1,
+        "explanation": "Touch is subjective and can give misleading impressions; a thermometer provides a measurement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s07q03",
+        "question": "A temperature reading of 30 °C is higher than 20 °C by:",
+        "options": [
+          "5 °C",
+          "10 °C",
+          "20 °C",
+          "50 °C"
+        ],
+        "answer": 1,
+        "explanation": "The difference is 30 − 20 = 10 degrees Celsius.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 8,
+    "title": "A Journey through States of Water",
+    "key": "a-journey-through-states-of-water",
+    "questions": [
+      {
+        "id": "c6s08q01",
+        "question": "Liquid water changing into water vapour from the surface is called:",
+        "options": [
+          "Freezing",
+          "Evaporation",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 1,
+        "explanation": "Evaporation changes liquid water into water vapour from its surface.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s08q02",
+        "question": "What is condensation?",
+        "options": [
+          "Liquid changing into solid",
+          "Gas changing into liquid",
+          "Solid changing into gas only",
+          "Liquid changing into gas"
+        ],
+        "answer": 1,
+        "explanation": "Condensation occurs when water vapour cools and changes into liquid water.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s08q03",
+        "question": "Why do water droplets form on the outside of a cold glass on a humid day?",
+        "options": [
+          "Water leaks through the glass",
+          "Water vapour in the air condenses on the cold surface",
+          "The glass creates new water",
+          "The water inside freezes through the glass"
+        ],
+        "answer": 1,
+        "explanation": "Airborne water vapour cools at the glass surface and condenses into droplets.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 9,
+    "title": "Methods of Separation in Everyday Life",
+    "key": "methods-of-separation-in-everyday-life",
+    "questions": [
+      {
+        "id": "c6s09q01",
+        "question": "Which method can separate stones from rice by hand?",
+        "options": [
+          "Handpicking",
+          "Evaporation",
+          "Condensation",
+          "Churning"
+        ],
+        "answer": 0,
+        "explanation": "Handpicking is useful when unwanted pieces are large enough to identify and remove by hand.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s09q02",
+        "question": "Which method is commonly used to separate insoluble sand from water?",
+        "options": [
+          "Filtration",
+          "Melting",
+          "Magnetisation in every case",
+          "Freezing"
+        ],
+        "answer": 0,
+        "explanation": "Filtration traps insoluble sand while water passes through the filter.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s09q03",
+        "question": "A mixture of iron filings and sand can be separated using:",
+        "options": [
+          "A magnet",
+          "A thermometer",
+          "A sieve with no size difference",
+          "A piece of cloth only"
+        ],
+        "answer": 0,
+        "explanation": "Iron filings are attracted to a magnet, while sand is not.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 10,
+    "title": "Living Creatures: Exploring their Characteristics",
+    "key": "living-creatures-exploring-their-characteristics",
+    "questions": [
+      {
+        "id": "c6s10q01",
+        "question": "Which characteristic is shared by all living organisms?",
+        "options": [
+          "They all fly",
+          "They all need energy to carry out life processes",
+          "They all live on land",
+          "They all have four legs"
+        ],
+        "answer": 1,
+        "explanation": "Living organisms require energy for life processes, although they obtain it in different ways.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s10q02",
+        "question": "A seed begins to sprout when suitable conditions are available. This is an example of:",
+        "options": [
+          "Growth in a living organism",
+          "Rusting",
+          "Evaporation",
+          "Magnetic attraction"
+        ],
+        "answer": 0,
+        "explanation": "Germination is the beginning of growth of a seed into a seedling under suitable conditions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s10q03",
+        "question": "Which observation is evidence that a plant is responding to its surroundings?",
+        "options": [
+          "A shoot bends towards light",
+          "A stone becomes wet",
+          "A plastic ball rolls downhill",
+          "A metal spoon cools"
+        ],
+        "answer": 0,
+        "explanation": "Plant shoots can grow towards light, showing a response to an environmental stimulus.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 11,
+    "title": "Nature’s Treasures",
+    "key": "nature-s-treasures",
+    "questions": [
+      {
+        "id": "c6s11q01",
+        "question": "Which of these is a natural resource?",
+        "options": [
+          "Sunlight",
+          "Plastic bottle",
+          "Concrete block",
+          "Synthetic nylon"
+        ],
+        "answer": 0,
+        "explanation": "Sunlight occurs in nature and is a natural resource.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s11q02",
+        "question": "Why are forests important for the environment?",
+        "options": [
+          "They only provide places for buildings",
+          "They support biodiversity and help maintain ecological balance",
+          "They prevent all rainfall",
+          "They make soil unnecessary"
+        ],
+        "answer": 1,
+        "explanation": "Forests provide habitats, support many species and contribute to soil and water cycles.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s11q03",
+        "question": "Which action helps conserve water?",
+        "options": [
+          "Leaving taps running",
+          "Fixing leaking taps",
+          "Washing a few items under a continuously running hose",
+          "Pouring clean water away unnecessarily"
+        ],
+        "answer": 1,
+        "explanation": "Repairing leaks reduces avoidable water wastage.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 12,
+    "title": "Beyond Earth",
+    "key": "beyond-earth",
+    "questions": [
+      {
+        "id": "c6s12q01",
+        "question": "Which object is at the centre of our Solar System?",
+        "options": [
+          "Earth",
+          "The Moon",
+          "The Sun",
+          "Mars"
+        ],
+        "answer": 2,
+        "explanation": "The Sun is the star at the centre of our Solar System.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s12q02",
+        "question": "Why does the Moon appear bright in the night sky?",
+        "options": [
+          "It makes its own visible light like the Sun",
+          "It reflects sunlight",
+          "It is made of fire",
+          "It is always closer than the Sun by a fixed amount"
+        ],
+        "answer": 1,
+        "explanation": "The Moon appears bright because its surface reflects sunlight towards Earth.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6s12q03",
+        "question": "Which instrument is used to observe distant celestial objects in greater detail?",
+        "options": [
+          "Telescope",
+          "Thermometer",
+          "Barometer",
+          "Measuring cylinder"
+        ],
+        "answer": 0,
+        "explanation": "A telescope collects light from distant objects and helps us observe them.",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+]
