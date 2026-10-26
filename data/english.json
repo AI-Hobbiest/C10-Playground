@@ -3635,7 +3635,12 @@
         ],
         "answer": 1,
         "explanation": "Tempted by food, he launches himself and discovers he can fly.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "fear"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -3648,7 +3653,12 @@
         ],
         "answer": 1,
         "explanation": "The unknown pilot appears to guide him safely through the storm.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "mystery"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -3661,7 +3671,1758 @@
         ],
         "answer": 1,
         "explanation": "Both stories explore fear, risk and the moment of acting despite uncertainty.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "comparison",
+          "theme"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "In ‘His First Flight’, what prevents the young seagull from flying at first?",
+        "options": [
+          "He is afraid his wings will not support him",
+          "He has injured his beak",
+          "He cannot see his family",
+          "The sea is frozen"
+        ],
+        "answer": 0,
+        "explanation": "The young seagull doubts his ability and is frightened of launching into the air.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "fear"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "Where does the young seagull remain while his family flies?",
+        "options": [
+          "In a fishing boat",
+          "On a ledge of the cliff",
+          "Inside a cave below the sea",
+          "On the roof of a house"
+        ],
+        "answer": 1,
+        "explanation": "He stays on the ledge because fear prevents him from taking the first flight.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "What does the young seagull watch his siblings do?",
+        "options": [
+          "Build a nest",
+          "Fly confidently",
+          "Catch a boat",
+          "Climb the cliff with tools"
+        ],
+        "answer": 1,
+        "explanation": "His brothers and sister have already learned to fly while he remains afraid.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "How do the parents initially respond to the young seagull’s fear?",
+        "options": [
+          "They encourage him but also scold and challenge him",
+          "They carry him everywhere",
+          "They promise never to fly again",
+          "They leave him food every hour"
+        ],
+        "answer": 0,
+        "explanation": "His family tries to prompt him to take flight, including by scolding him for his hesitation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "What does the young seagull fear about his wings?",
+        "options": [
+          "They will become too heavy",
+          "They will not support him in the air",
+          "They will turn black",
+          "They will attract fish"
+        ],
+        "answer": 1,
+        "explanation": "He believes his wings may fail to hold him up when he jumps.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "fear"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "What is the most important reason the young seagull remains on the ledge?",
+        "options": [
+          "Lack of food alone",
+          "Fear and lack of confidence",
+          "A storm blocks the sky",
+          "His family has tied him there"
+        ],
+        "answer": 1,
+        "explanation": "His fear, rather than a physical barrier, prevents him from attempting flight.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "How does hunger contribute to the young seagull’s first flight?",
+        "options": [
+          "It makes him dive toward the fish his mother holds",
+          "It makes him fall asleep",
+          "It causes him to swim away",
+          "It makes him hide deeper in the cliff"
+        ],
+        "answer": 0,
+        "explanation": "His mother uses a piece of fish to tempt him to launch himself toward it.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "What does the mother carry to tempt her young seagull?",
+        "options": [
+          "A small crab",
+          "A piece of fish",
+          "A leaf",
+          "A twig for a nest"
+        ],
+        "answer": 1,
+        "explanation": "The mother holds a piece of fish just beyond his reach.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Why does the mother stop just beyond the young seagull’s reach?",
+        "options": [
+          "To encourage him to move toward the food",
+          "To show him that food is unavailable",
+          "To punish his siblings",
+          "To hide from a predator"
+        ],
+        "answer": 0,
+        "explanation": "Keeping the fish out of reach prompts him to launch himself toward it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "What action finally makes the young seagull leave the ledge?",
+        "options": [
+          "He leaps toward the fish",
+          "His father pushes him off",
+          "A large wave strikes the cliff",
+          "His sister carries him"
+        ],
+        "answer": 0,
+        "explanation": "Driven by hunger, he dives toward the fish his mother is holding.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "turning point"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "What happens immediately after the young seagull launches himself?",
+        "options": [
+          "He instantly lands in his nest",
+          "He falls downward before instinctively spreading his wings",
+          "He returns to the ledge without moving",
+          "He becomes invisible"
+        ],
+        "answer": 1,
+        "explanation": "His first movement is frightening, but his wings spread and he discovers that he can fly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does the young seagull discover when his wings spread?",
+        "options": [
+          "They can support him in flight",
+          "They have been damaged",
+          "He can no longer see the sea",
+          "He must remain on land"
+        ],
+        "answer": 0,
+        "explanation": "He learns through experience that his wings can carry him.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "realisation"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "How does the young seagull feel after he succeeds in flying?",
+        "options": [
+          "Triumphant and joyful",
+          "Ashamed and angry",
+          "Uninterested",
+          "Certain he will never fly again"
+        ],
+        "answer": 0,
+        "explanation": "Once fear is overcome, he experiences excitement and triumph in the air.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Where does the young seagull eventually land?",
+        "options": [
+          "On the green surface of the sea",
+          "On a city road",
+          "On the roof of the post office",
+          "At the top of a tree"
+        ],
+        "answer": 0,
+        "explanation": "After flying until tired, he drops onto the sea’s surface, where his family gathers.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "How does the young seagull’s family respond after his first flight?",
+        "options": [
+          "They gather around him and offer food",
+          "They refuse to look at him",
+          "They leave the cliff permanently",
+          "They scold him for eating"
+        ],
+        "answer": 0,
+        "explanation": "His family celebrates his success and offers him pieces of dogfish.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "What does the young seagull’s first flight chiefly symbolise?",
+        "options": [
+          "Overcoming fear through action",
+          "The certainty of failure",
+          "The value of avoiding challenges",
+          "The danger of family relationships"
+        ],
+        "answer": 0,
+        "explanation": "The flight represents gaining confidence by facing a feared challenge.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "Which quality does the young seagull most need to develop?",
+        "options": [
+          "Confidence",
+          "Greed for territory",
+          "Indifference to others",
+          "A desire to lead the flock"
+        ],
+        "answer": 0,
+        "explanation": "He must trust his ability enough to attempt the flight.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "What role does the mother play in the seagull’s breakthrough?",
+        "options": [
+          "She encourages him by using food as motivation",
+          "She forbids him from flying",
+          "She leaves the family forever",
+          "She hides his wings"
+        ],
+        "answer": 0,
+        "explanation": "The mother’s food-based encouragement triggers the leap that allows him to discover his ability.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which statement best describes the lesson of ‘His First Flight’?",
+        "options": [
+          "Confidence may grow when we face a challenge instead of avoiding it",
+          "Fear should always decide our actions",
+          "Only natural talent matters",
+          "Help from family prevents independence"
+        ],
+        "answer": 0,
+        "explanation": "The young seagull moves beyond fear by taking the first risk and discovering his capacity.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "Why do the seagull’s siblings matter to the story?",
+        "options": [
+          "Their successful flights highlight his hesitation",
+          "They steal his food permanently",
+          "They prevent him from seeing the sea",
+          "They do not appear in the story"
+        ],
+        "answer": 0,
+        "explanation": "The siblings have already flown, making his fear and delay more noticeable.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "What does the young seagull’s initial hesitation reveal?",
+        "options": [
+          "He lacks confidence despite having wings",
+          "He is physically unable to move",
+          "He has no family",
+          "He dislikes the sea"
+        ],
+        "answer": 0,
+        "explanation": "His fear is psychological; he doubts his ability even though he has wings.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What changes the young seagull’s attention from fear to action?",
+        "options": [
+          "The sight of fish close to his beak",
+          "A thunderstorm",
+          "A command from a human",
+          "The arrival of a ship"
+        ],
+        "answer": 0,
+        "explanation": "The fish becomes a powerful incentive that overcomes his hesitation.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Why is the first flight a turning point for the young seagull?",
+        "options": [
+          "He discovers through experience that he can fly",
+          "He decides to abandon his family",
+          "He loses the ability to hunt",
+          "He returns to the ledge more frightened"
+        ],
+        "answer": 0,
+        "explanation": "The experience replaces his doubt with evidence of his own ability.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which is the clearest example of cause and effect in ‘His First Flight’?",
+        "options": [
+          "Hunger drives him toward the fish, leading him to launch into the air",
+          "His siblings fly, so the sea disappears",
+          "The mother eats, so the cliff moves",
+          "The sky darkens, so the family builds a nest"
+        ],
+        "answer": 0,
+        "explanation": "His hunger prompts the leap that begins his first flight.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "cause and effect"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "What does the family’s behaviour after the flight suggest?",
+        "options": [
+          "They wanted him to become independent and capable",
+          "They wanted him to remain helpless",
+          "They planned to abandon him at sea",
+          "They disliked him from the beginning"
+        ],
+        "answer": 0,
+        "explanation": "Their encouragement and celebration show that they wanted him to overcome the fear.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which feeling most strongly shapes the beginning of ‘His First Flight’?",
+        "options": [
+          "Anxiety",
+          "Pride",
+          "Relief",
+          "Amusement"
+        ],
+        "answer": 0,
+        "explanation": "The young seagull is overwhelmed by fear about leaving the ledge.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "Which feeling best describes the young seagull at the end of the first flight?",
+        "options": [
+          "Joy and triumph",
+          "Confusion only",
+          "Resentment",
+          "Boredom"
+        ],
+        "answer": 0,
+        "explanation": "He feels triumphant after discovering that he can fly.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which title detail is important in ‘His First Flight’?",
+        "options": [
+          "The story centres on a first successful attempt at flying",
+          "The story is about a long sea voyage by ship",
+          "The story follows an injured eagle",
+          "The story describes a human pilot’s job"
+        ],
+        "answer": 0,
+        "explanation": "The plot is built around the young seagull overcoming fear and flying for the first time.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "title"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which interpretation of the mother’s strategy is most convincing?",
+        "options": [
+          "She uses a needed reward to help the young bird act for himself",
+          "She plans to keep the young bird dependent",
+          "She wants him to stop eating",
+          "She makes flight impossible"
+        ],
+        "answer": 0,
+        "explanation": "The fish entices him to take the leap himself rather than being carried.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "His First Flight",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "What does the seagull learn through the experience rather than through advice alone?",
+        "options": [
+          "His wings are capable of supporting him",
+          "The sea is made of stone",
+          "His family cannot fly",
+          "Food is unnecessary"
+        ],
+        "answer": 0,
+        "explanation": "He gains confidence from actually flying, not merely from being told he can do it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Which skill does the young seagull gain by the end?",
+        "options": [
+          "Flying independently",
+          "Building a human aircraft",
+          "Navigating a compass",
+          "Writing a letter"
+        ],
+        "answer": 0,
+        "explanation": "The key change is that he can fly and participate with his family.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "outcome"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does hunger represent in the plot of ‘His First Flight’?",
+        "options": [
+          "A force that pushes him to take a necessary risk",
+          "A reason to stop moving forever",
+          "A sign that he has already mastered flying",
+          "A punishment unrelated to the story"
+        ],
+        "answer": 0,
+        "explanation": "Hunger becomes the immediate motivation for the decisive leap.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "Which statement best describes the family’s method of teaching?",
+        "options": [
+          "They challenge and encourage the young bird to try",
+          "They complete every task for him",
+          "They forbid all risks",
+          "They hide his food permanently"
+        ],
+        "answer": 0,
+        "explanation": "The parents push him to attempt the flight instead of shielding him from every challenge.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "What does the young seagull’s successful flight suggest about fear?",
+        "options": [
+          "Fear can be overcome when someone takes the first step",
+          "Fear always proves that an action is impossible",
+          "Fear can only be removed by leaving home",
+          "Fear has no effect on decisions"
+        ],
+        "answer": 0,
+        "explanation": "His experience shows that the feared challenge becomes manageable once he acts.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "In ‘Black Aeroplane’, where is the narrator flying from and to?",
+        "options": [
+          "France to England",
+          "India to Australia",
+          "England to South Africa",
+          "Spain to Italy"
+        ],
+        "answer": 0,
+        "explanation": "The pilot is returning to England from France in his old Dakota.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "What kind of aircraft is the narrator flying?",
+        "options": [
+          "An old Dakota",
+          "A helicopter",
+          "A commercial jetliner",
+          "A glider"
+        ],
+        "answer": 0,
+        "explanation": "The narrator identifies his aircraft as an old Dakota aeroplane.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What is the narrator looking forward to during the flight?",
+        "options": [
+          "Reaching home and being with his family",
+          "Starting a new job abroad",
+          "Meeting the black aeroplane pilot for lunch",
+          "Landing on a ship"
+        ],
+        "answer": 0,
+        "explanation": "He is thinking about his holiday and seeing his family soon.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "What does the narrator see ahead of him as he approaches the storm?",
+        "options": [
+          "A huge bank of dark clouds",
+          "A line of mountains",
+          "A fleet of ships",
+          "A clear runway"
+        ],
+        "answer": 0,
+        "explanation": "He sees black storm clouds that stand between him and his destination.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Why does the narrator hesitate before entering the storm clouds?",
+        "options": [
+          "He recognises that the storm could be dangerous",
+          "He has forgotten his destination",
+          "His family asks him to return by radio",
+          "He sees no fuel in the plane"
+        ],
+        "answer": 0,
+        "explanation": "The dark storm clouds look dangerous, so he considers turning back or going around them.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "decision"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why does the narrator decide to continue toward the clouds?",
+        "options": [
+          "He wants to reach home and is tempted to take the direct route",
+          "He is ordered to enter by the control tower",
+          "The plane has already landed",
+          "He hopes to find a boat inside the clouds"
+        ],
+        "answer": 0,
+        "explanation": "His desire to get home influences his choice to fly into the storm.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "What happens to the narrator’s instruments inside the storm?",
+        "options": [
+          "The compass and other instruments stop working",
+          "They all show a clear route",
+          "They reveal the black plane’s identity",
+          "They begin to display the runway"
+        ],
+        "answer": 0,
+        "explanation": "Inside the dense storm clouds, his compass and other instruments go dead.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What happens to the narrator’s radio during the storm?",
+        "options": [
+          "He cannot contact the ground control",
+          "It gives him a detailed weather report",
+          "It automatically lands the plane",
+          "It connects him to his family"
+        ],
+        "answer": 0,
+        "explanation": "The radio is no longer working, leaving him unable to communicate with ground control.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Why is the narrator in danger once inside the clouds?",
+        "options": [
+          "He is lost and cannot rely on his instruments or radio",
+          "His passengers open the doors",
+          "The runway has collapsed",
+          "His family is flying beside him"
+        ],
+        "answer": 0,
+        "explanation": "Without instruments or radio contact, he cannot navigate safely through the storm.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "What appears near the narrator inside the storm clouds?",
+        "options": [
+          "A mysterious black aeroplane",
+          "A rescue helicopter with searchlights",
+          "A flock of seagulls",
+          "A passenger train"
+        ],
+        "answer": 0,
+        "explanation": "A black aeroplane suddenly appears through the clouds.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "How does the unknown pilot communicate with the narrator?",
+        "options": [
+          "By signalling for him to follow",
+          "By using a loudspeaker",
+          "By sending a written message",
+          "By calling him on the radio"
+        ],
+        "answer": 0,
+        "explanation": "The unknown pilot makes gestures from the cockpit suggesting that the narrator should follow.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Why does the narrator follow the black aeroplane?",
+        "options": [
+          "He hopes it will guide him safely out of the storm",
+          "He wants to race it",
+          "He recognises his friend flying it",
+          "He intends to attack it"
+        ],
+        "answer": 0,
+        "explanation": "The mysterious pilot appears to offer a way through the dangerous clouds.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "decision"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "How does the narrator feel when he realises his instruments have failed?",
+        "options": [
+          "Frightened and helpless",
+          "Proud and relaxed",
+          "Bored",
+          "Certain of his exact location"
+        ],
+        "answer": 0,
+        "explanation": "Losing his instruments and radio in the storm leaves him afraid and uncertain.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "What happens after the narrator follows the black aeroplane for some time?",
+        "options": [
+          "He comes out of the clouds and sees the runway",
+          "He lands on a mountain",
+          "He returns to France without landing",
+          "He finds the aircraft has landed beside him"
+        ],
+        "answer": 0,
+        "explanation": "The unknown plane guides him out of the storm toward the airport runway.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "What happens to the black aeroplane when the narrator reaches safety?",
+        "options": [
+          "It disappears",
+          "It lands beside the Dakota",
+          "It turns into a helicopter",
+          "It follows him into the control tower"
+        ],
+        "answer": 0,
+        "explanation": "When the narrator emerges from the clouds, the mysterious aircraft is no longer visible.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "mystery"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "What does the control tower tell the narrator about other aircraft in the sky?",
+        "options": [
+          "No other aircraft was shown or reported in the sky",
+          "A large formation had escorted him",
+          "The black plane had landed first",
+          "The runway was closed to all traffic"
+        ],
+        "answer": 0,
+        "explanation": "The control tower’s response makes the other plane’s presence mysterious.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Why is the ending of ‘Black Aeroplane’ mysterious?",
+        "options": [
+          "The narrator is guided by a plane that ground control says was not there",
+          "The narrator forgets the name of his aircraft",
+          "The control tower refuses to speak to him",
+          "The storm never ends"
+        ],
+        "answer": 0,
+        "explanation": "The black plane helps him, yet the control tower reports no other plane in the sky.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "mystery"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "Which problem is the narrator’s most immediate challenge in the storm?",
+        "options": [
+          "Navigating without working instruments or radio",
+          "Finding a meal",
+          "Communicating with passengers on a ship",
+          "Repairing the runway"
+        ],
+        "answer": 0,
+        "explanation": "The failure of the compass, instruments and radio leaves him unable to navigate normally.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "What role does the black aeroplane play in the plot?",
+        "options": [
+          "It appears to guide the narrator to safety",
+          "It causes the storm",
+          "It steals the Dakota",
+          "It takes the narrator back to France"
+        ],
+        "answer": 0,
+        "explanation": "The mysterious aircraft leads the narrator through the clouds toward a safe landing.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "What does the pilot’s decision to enter the storm reveal?",
+        "options": [
+          "He prioritises reaching home, despite a serious risk",
+          "He has no destination",
+          "He is ordered to ignore weather",
+          "He believes his instruments cannot fail"
+        ],
+        "answer": 0,
+        "explanation": "His eagerness to reach home leads him to take a risky route into the clouds.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Which literary element is most prominent at the end of ‘Black Aeroplane’?",
+        "options": [
+          "Suspense and mystery",
+          "Comic misunderstanding about a letter",
+          "A resolved family argument",
+          "A detailed history of aviation"
+        ],
+        "answer": 0,
+        "explanation": "The unexplained disappearance and the tower’s response leave the reader with a mystery.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "literary devices"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "What does the narrator discover when the plane emerges from the storm?",
+        "options": [
+          "The runway is ahead of him",
+          "His compass is permanently repaired",
+          "His family is waiting on the wing",
+          "The black aeroplane has landed nearby"
+        ],
+        "answer": 0,
+        "explanation": "He sees the runway and is able to land safely.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What is the significance of the narrator’s radio failure?",
+        "options": [
+          "It cuts him off from advice and assistance from ground control",
+          "It makes the aircraft faster",
+          "It reveals the weather outside",
+          "It tells him the identity of the unknown pilot"
+        ],
+        "answer": 0,
+        "explanation": "Without radio contact he cannot ask ground control for guidance.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which detail makes the black aeroplane seem unusual?",
+        "options": [
+          "It appears in the storm and then vanishes without explanation",
+          "It has bright red wings described in detail",
+          "It lands at a busy airport",
+          "The narrator knows its pilot personally"
+        ],
+        "answer": 0,
+        "explanation": "The aircraft’s unexplained appearance and disappearance create the mystery.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "mystery"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "What is the narrator’s attitude toward home before he enters the storm?",
+        "options": [
+          "He is eager to be home with his family",
+          "He wants to avoid his family",
+          "He plans to stay in France forever",
+          "He is indifferent to his destination"
+        ],
+        "answer": 0,
+        "explanation": "He is looking forward to his holiday and being with his family.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Which statement best explains the narrator’s vulnerability in the storm?",
+        "options": [
+          "His normal navigation and communication tools fail at the same time",
+          "He has no aircraft",
+          "He does not know what an aeroplane is",
+          "The airport refuses to accept him before take-off"
+        ],
+        "answer": 0,
+        "explanation": "The loss of instruments and radio leaves him unable to navigate or ask for help.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which possible interpretation of the black aeroplane is supported by the story’s ambiguity?",
+        "options": [
+          "It may be a mysterious or unexplained guide",
+          "It is definitely identified as a known military plane",
+          "It is confirmed to be the narrator’s own reflection",
+          "It is described as a dream by the control tower"
+        ],
+        "answer": 0,
+        "explanation": "The story never explains the aircraft’s identity, leaving its appearance unresolved.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "Black Aeroplane",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "Which mood is strongest while the narrator is inside the storm?",
+        "options": [
+          "Tension and fear",
+          "Celebration",
+          "Boredom",
+          "Peaceful nostalgia"
+        ],
+        "answer": 0,
+        "explanation": "The failed instruments and surrounding dark clouds create fear and suspense.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "What is the main theme of ‘Black Aeroplane’?",
+        "options": [
+          "Facing danger and encountering an unexplained source of help",
+          "The value of farming",
+          "The harm caused by distrust of post office workers",
+          "The importance of family arguments"
+        ],
+        "answer": 0,
+        "explanation": "The story centres on a pilot’s danger, his search for a way out and the mystery of his helper.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "What quality does the pilot display by continuing to act in the emergency?",
+        "options": [
+          "Determination to find a safe route",
+          "A refusal to think",
+          "Carelessness toward every risk",
+          "A desire to abandon the aircraft"
+        ],
+        "answer": 0,
+        "explanation": "He keeps flying and follows the apparent guide in an effort to reach safety.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "What do both stories have in common?",
+        "options": [
+          "Characters face uncertainty and must act under pressure",
+          "Both are about a lost letter",
+          "Both take place inside a post office",
+          "Both describe a successful harvest"
+        ],
+        "answer": 0,
+        "explanation": "The seagull and the pilot each face a frightening situation and must respond to it.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "comparison",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "How do the main characters’ challenges differ?",
+        "options": [
+          "The seagull fears his first flight, while the pilot faces danger in a storm",
+          "The seagull loses a radio while the pilot loses his wings",
+          "Both characters are afraid of the sea for the same reason",
+          "The pilot is learning to fly for the first time"
+        ],
+        "answer": 0,
+        "explanation": "One story focuses on a young bird’s fear; the other on a pilot’s navigation crisis.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "comparison",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "What helps the young seagull act, while the pilot follows the black plane?",
+        "options": [
+          "The seagull is lured by food; the pilot hopes for guidance",
+          "Both receive written instructions",
+          "Both are carried by their parents",
+          "The seagull uses a radio and the pilot uses a fish"
+        ],
+        "answer": 0,
+        "explanation": "Food motivates the bird’s leap, while the pilot sees the black plane as a possible guide.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "comparison",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which story ends with a clearer explanation of the central event?",
+        "options": [
+          "His First Flight",
+          "Black Aeroplane",
+          "Both are equally unexplained",
+          "Neither has a central event"
+        ],
+        "answer": 0,
+        "explanation": "The seagull’s fear is overcome through his first flight, while the identity of the black plane remains unexplained.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "comparison",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which story relies more heavily on an unresolved mystery?",
+        "options": [
+          "Black Aeroplane",
+          "His First Flight",
+          "Both rely only on comedy",
+          "Neither uses mystery"
+        ],
+        "answer": 0,
+        "explanation": "The mysterious aircraft disappears and is denied by the control tower, leaving the ending unexplained.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "comparison",
+          "literary devices"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "What is the role of family support in ‘His First Flight’?",
+        "options": [
+          "It helps the seagull face a challenge, even though he must take the leap himself",
+          "It makes the seagull permanently dependent",
+          "It prevents him from learning",
+          "It has no role in the plot"
+        ],
+        "answer": 0,
+        "explanation": "His family encourages him, but he must make the attempt himself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "comparison",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which choice best captures the shared lesson of the two stories?",
+        "options": [
+          "Facing a difficult situation may require courage and a willingness to act",
+          "Every problem can be solved by ignoring it",
+          "Fear proves that success is impossible",
+          "Only technology can help people"
+        ],
+        "answer": 0,
+        "explanation": "Both stories show characters responding to fear or danger rather than simply giving up.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "comparison",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "Which is a key difference between the stories’ settings?",
+        "options": [
+          "One takes place around a cliff and sea; the other in an aircraft flying through storm clouds",
+          "Both take place in a school",
+          "One is set in a post office and one in a courtroom",
+          "Both occur in a city market"
+        ],
+        "answer": 0,
+        "explanation": "The seagull story is set around its coastal home; the pilot story unfolds in the sky during a storm.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "comparison",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which statement best describes the young seagull’s first leap?",
+        "options": [
+          "It begins as a response to hunger but becomes a discovery of his ability",
+          "It is a carefully planned flight lesson",
+          "It is caused by the black aeroplane",
+          "It is unrelated to the mother’s actions"
+        ],
+        "answer": 0,
+        "explanation": "The fish draws him into a leap, after which he discovers that his wings can support him.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "cause and effect"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which detail explains the pilot’s growing uncertainty?",
+        "options": [
+          "He cannot use his compass or radio inside the clouds",
+          "He can see the runway from the start",
+          "The aircraft has no fuel before he reaches the storm",
+          "He is accompanied by his family"
+        ],
+        "answer": 0,
+        "explanation": "The equipment failures leave him unable to determine his direction or contact ground control.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "What makes the pilot’s safe landing surprising?",
+        "options": [
+          "The mysterious guide disappears and the tower reports no other plane",
+          "He lands at the wrong airport",
+          "His aircraft is carried by a bird",
+          "The storm turns into a clear morning before take-off"
+        ],
+        "answer": 0,
+        "explanation": "The successful guidance conflicts with the control tower’s information that there was no other aircraft.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "mystery"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "What is the best interpretation of the seagull’s change from fear to excitement?",
+        "options": [
+          "Experience gives him confidence that reassurance alone had not provided",
+          "He discovers that flight is impossible",
+          "His siblings make him afraid of food",
+          "He decides he no longer needs his wings"
+        ],
+        "answer": 0,
+        "explanation": "Once he flies, he learns his own ability and feels triumphant.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "character arc"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "Which narrative technique is especially important in ‘Black Aeroplane’?",
+        "options": [
+          "First-person narration that places readers inside the pilot’s uncertainty",
+          "A series of letters written by the control tower",
+          "A narrator who knows the unknown pilot’s identity",
+          "A chorus of seagulls telling the story"
+        ],
+        "answer": 0,
+        "explanation": "The narrator recounts his own frightening flight, allowing readers to share his uncertainty.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "narration"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which statement best summarises ‘His First Flight’?",
+        "options": [
+          "A frightened young seagull is tempted by food, takes his first flight and gains confidence",
+          "A pilot loses his way in a storm and follows a black plane",
+          "A farmer writes to God after losing his crop",
+          "A family travels by train to the sea"
+        ],
+        "answer": 0,
+        "explanation": "The story follows the young bird from fear of flying to a successful first flight.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which statement best summarises ‘Black Aeroplane’?",
+        "options": [
+          "A pilot lost in a storm follows an unknown aircraft to safety, then learns the tower saw no other plane",
+          "A young bird learns to fly with help from its mother",
+          "A farmer receives money from a postmaster",
+          "A pilot chooses to cancel a flight before take-off"
+        ],
+        "answer": 0,
+        "explanation": "The story centres on the mysterious aircraft that appears to guide the narrator through the storm.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "What is a reasonable lesson from the seagull’s experience?",
+        "options": [
+          "People may discover strengths by attempting what frightens them",
+          "Waiting forever is the safest way to learn",
+          "Support means doing every task for someone else",
+          "A first attempt must be perfect"
+        ],
+        "answer": 0,
+        "explanation": "The young bird learns by taking action despite fear.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "application"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "What is a reasonable lesson from the pilot’s experience?",
+        "options": [
+          "In a crisis, assess risks and seek a path to safety",
+          "Ignore all warning signs",
+          "Turn off every instrument before flying",
+          "Assume every unexplained event is harmless"
+        ],
+        "answer": 0,
+        "explanation": "The story shows the danger of entering a storm and the pilot’s need to find a safe route out.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "application"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "Which detail is most important for understanding the seagull’s motivation?",
+        "options": [
+          "The fish is just beyond his reach",
+          "The control tower reports no aircraft",
+          "The pilot’s fuel gauge is faulty",
+          "The old Dakota is returning to England"
+        ],
+        "answer": 0,
+        "explanation": "The fish provides the immediate incentive that makes him leap toward it.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which detail is most important for understanding the black plane’s mystery?",
+        "options": [
+          "The tower reports that no other aircraft is in the sky",
+          "The narrator is flying home",
+          "The plane is an old Dakota",
+          "The clouds are dark"
+        ],
+        "answer": 0,
+        "explanation": "The tower’s statement contradicts the narrator’s experience of being guided by another plane.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "mystery"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which phrase best describes the emotional arc of ‘His First Flight’?",
+        "options": [
+          "Fear changes into confidence and joy",
+          "Pride changes into permanent despair",
+          "Anger changes into revenge",
+          "Boredom changes into indifference"
+        ],
+        "answer": 0,
+        "explanation": "The young seagull moves from fear to a triumphant discovery of flight.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Which phrase best describes the emotional arc of ‘Black Aeroplane’?",
+        "options": [
+          "Anticipation turns into fear, then relief and mystery",
+          "Joy turns into anger over a letter",
+          "Boredom turns into a harvest celebration",
+          "Confidence turns into a public speech"
+        ],
+        "answer": 0,
+        "explanation": "The pilot begins excited about going home, becomes frightened in the storm, then lands safely with an unexplained question remaining.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "Black Aeroplane",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Why is the ending of ‘Black Aeroplane’ not a fully resolved ending?",
+        "options": [
+          "The identity and existence of the guiding aircraft remain unexplained",
+          "The narrator never reaches a runway",
+          "The tower refuses to answer any question",
+          "The pilot loses his family"
+        ],
+        "answer": 0,
+        "explanation": "The plane’s unexplained appearance and disappearance leave the mystery open.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "Which conclusion about the two protagonists is best supported?",
+        "options": [
+          "Both move from a difficult moment toward safety or success by responding to the situation",
+          "Both refuse to act",
+          "Both rely on letters rather than action",
+          "Both have the same fear of flying"
+        ],
+        "answer": 0,
+        "explanation": "The seagull succeeds in flight and the pilot reaches the runway after following the mysterious plane.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "comparison",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which skill does the young seagull gain through his experience?",
+        "options": [
+          "Independent flight",
+          "Using a compass",
+          "Communicating by radio",
+          "Navigating a runway"
+        ],
+        "answer": 0,
+        "explanation": "He learns to fly rather than remain dependent on the ledge.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "His First Flight",
+          "outcome"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "Which tool fails the pilot inside the storm, making navigation difficult?",
+        "options": [
+          "The compass",
+          "A fishing net",
+          "A telescope used on land",
+          "A ship’s anchor"
+        ],
+        "answer": 0,
+        "explanation": "The compass and other flight instruments fail within the clouds.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Black Aeroplane",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Which detail most clearly establishes that the narrator is an experienced pilot rather than a novice learning to fly?",
+        "options": [
+          "He is piloting his old Dakota on a return journey to England",
+          "He is a young seagull on a ledge",
+          "He needs his mother to bring fish",
+          "He has never seen an aeroplane"
+        ],
+        "answer": 0,
+        "explanation": "The narrator is already flying an aircraft on a journey home, unlike the young seagull learning to fly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "comparison",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which theme is shared by both stories even though the settings differ?",
+        "options": [
+          "Dealing with fear and uncertainty",
+          "The unfairness of a post office",
+          "The history of South African democracy",
+          "The importance of a good harvest"
+        ],
+        "answer": 0,
+        "explanation": "Both narratives centre on characters facing frightening or uncertain situations.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "comparison",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the mother’s use of food show about support?",
+        "options": [
+          "Support can encourage someone to act while leaving the decisive action to them",
+          "Support always means removing every challenge",
+          "Support requires punishment only",
+          "Support is unrelated to motivation"
+        ],
+        "answer": 0,
+        "explanation": "She makes the fish a motivation, but the young seagull must launch himself.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "His First Flight",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which statement best explains why the pilot trusts the black aeroplane enough to follow it?",
+        "options": [
+          "He is lost and the other pilot appears to signal a way through the clouds",
+          "He knows the other pilot personally",
+          "The control tower orders him to follow",
+          "The other pilot sends a written route"
+        ],
+        "answer": 0,
+        "explanation": "In a dangerous situation with failed instruments, he follows the apparent guide to find a way out.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "decision"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which type of conflict is central to ‘His First Flight’?",
+        "options": [
+          "The young bird’s internal struggle with fear",
+          "A political conflict between countries",
+          "A dispute about a land boundary",
+          "A mystery about a postmaster"
+        ],
+        "answer": 0,
+        "explanation": "The main obstacle is his own fear of taking flight.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "His First Flight",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Which type of conflict is central to ‘Black Aeroplane’?",
+        "options": [
+          "A pilot struggles against dangerous weather and uncertainty",
+          "A young bird argues with its siblings about food",
+          "A family debates moving house",
+          "A farmer faces a crop disease"
+        ],
+        "answer": 0,
+        "explanation": "The storm and failed instruments create an external crisis for the pilot.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Black Aeroplane",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which is the strongest reason the two stories are presented together?",
+        "options": [
+          "They explore flight through different challenges: fear in one and danger in the other",
+          "They share the same protagonist",
+          "They both explain the construction of aircraft",
+          "They are both written as letters"
+        ],
+        "answer": 0,
+        "explanation": "One focuses on a young bird’s first flight; the other on a pilot’s dangerous flight through a storm.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "comparison",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What does ‘His First Flight’ imply about learning a new skill?",
+        "options": [
+          "A difficult first attempt can become the start of confidence",
+          "Success occurs only without effort",
+          "Advice makes practice unnecessary",
+          "Fear always means a person lacks ability"
+        ],
+        "answer": 0,
+        "explanation": "The seagull learns by acting and discovering his wings can support him.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "application"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
