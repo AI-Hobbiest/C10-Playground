@@ -635,8 +635,8 @@
     populateAdminStateSelect($("centralStudentState"));populateAdminStateSelect($("editCentralStudentState"));
     if(!window.C10Api||!window.C10Api.isConfigured()){
       if(login)login.disabled=true;
-      setAccountStatus("Central student accounts need the one-time Cloudflare Worker + D1 setup. After configuring js/api-config.js, sign in with the approved GitHub admin account here; student accounts can then be created without JSON downloads.","");
-      setStatus("centralStudentStatus","Central account service is not configured yet. Complete the one-time Cloudflare Worker + D1 setup; after that, account creation and password resets happen directly here without JSON downloads.","");
+      setAccountStatus("Student account creation uses the GitHub JSON flat-file database for this phase. Create an account in the Student Accounts panel, export the JSON, and publish it to data/student-accounts.json in GitHub so the account becomes available to all students. Cloudflare is deferred.","");
+      setStatus("centralStudentStatus","GitHub JSON mode is active for this phase. Create an account in the Student Accounts panel and publish the exported JSON to data/student-accounts.json. Static GitHub Pages cannot write to the repository directly.","");
       return;
     }
     if(login)login.hidden=false;
