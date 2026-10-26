@@ -78,3 +78,7 @@
 .admin-tab-button.active .admin-tab-icon{filter:brightness(1.2)}
 @media(max-width:980px){.admin-tabs{grid-template-columns:none;display:flex;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:thin;scrollbar-color:#b9afff transparent}.admin-tab-button{flex:0 0 auto;flex-direction:row;white-space:nowrap}}
 @media(max-width:600px){.admin-tabs{display:flex;flex-wrap:nowrap}.admin-tab-button{padding:9px 11px;font-size:.8rem}}
+
+/* Admin navigation is provided by the shared app sidebar. */
+.admin-tabs{display:none!important}
+.admin-workspace{grid-template-columns:minmax(0,1fr)}
