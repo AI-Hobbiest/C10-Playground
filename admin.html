@@ -122,9 +122,10 @@
         <div class="admin-form-grid">
           <div class="admin-field"><label for="classId">Class ID</label><input id="classId" placeholder="e.g. 5 or 10"></div>
           <div class="admin-field"><label for="classLabel">Display label</label><input id="classLabel" placeholder="e.g. Class 5"></div>
+          <div class="admin-field full"><label for="classSubjects">Subjects for this class</label><select id="classSubjects" multiple size="5" aria-describedby="classSubjectsHelp"><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select><span class="admin-inline-help" id="classSubjectsHelp">Hold Ctrl (Windows) or Command (Mac) to select more than one subject. These selections control the student's subject menu.</span></div>
         </div>
         <div class="admin-actions"><button class="admin-btn" id="addClassBtn" type="button">＋ Add class</button><button class="admin-btn secondary" id="exportClassesBtn" type="button">Export classes.json</button><button class="admin-btn secondary" id="reloadClassesBtn" type="button">Reload published list</button></div><div class="admin-actions"><button class="admin-btn secondary" id="syncClassesBtn" type="button" hidden>Sync catalogue to central accounts</button></div><p class="admin-inline-help" hidden>Central class synchronisation is deferred until a backend is configured.</p>
-        <div id="classesStatus" class="admin-status" role="status"></div>
+        <div id="classesStatus" class="admin-status" role="status">Class changes are drafts until you export and publish data/classes.json.</div>
         <div id="classesTable" class="admin-table-wrap"></div>
       </section>
 
