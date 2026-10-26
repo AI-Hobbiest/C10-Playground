@@ -644,6 +644,7 @@
       const current=await window.C10Api.currentUser();
       if(current&&current.user&&current.user.role==="admin"){
         adminIdentity=current.user;
+        window.dispatchEvent(new Event("c10-auth-changed"));
         if(login)login.hidden=true;if(logoutBtn)logoutBtn.hidden=false;
         $("adminIdentity").hidden=false;$("adminIdentity").textContent="Signed in: "+(adminIdentity.githubLogin||adminIdentity.username);
         setAccountStatus("GitHub identity verified. Central account actions are enabled.","success");
@@ -658,7 +659,7 @@
     }catch(error){setAccountStatus(error.message||"Unable to verify the GitHub session.","error");}
     if(login)login.disabled=false;
     if(login)login.addEventListener("click",async()=>{try{await window.C10Api.githubLogin();}catch(error){setAccountStatus(error.message,"error");}});
-    if(logoutBtn)logoutBtn.addEventListener("click",async()=>{try{await window.C10Api.logout();}catch(_){}adminIdentity=null;login.hidden=false;logoutBtn.hidden=true;$("adminIdentity").hidden=true;setAccountStatus("Signed out. Local drafts remain in this tab; central operations require sign-in.");centralStudents=[];renderCentralStudents();});
+    if(logoutBtn)logoutBtn.addEventListener("click",async()=>{try{await window.C10Api.logout();}catch(_){}adminIdentity=null;window.dispatchEvent(new Event("c10-auth-changed"));login.hidden=false;logoutBtn.hidden=true;$("adminIdentity").hidden=true;setAccountStatus("Signed out. Local drafts remain in this tab; central operations require sign-in.");centralStudents=[];renderCentralStudents();});
   }
   function showTemporaryPassword(password,message){
     $("centralTempPasswordBox").hidden=false;$("centralTempPassword").value=password||"";
