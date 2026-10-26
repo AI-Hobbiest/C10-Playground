@@ -48,6 +48,8 @@ function updateStats(){
   setText("progressText",total+" answers recorded on this device · "+progress.correct+" correct · "+progress.missed.length+" questions in your retry list.");
 }
 function allQuestions(){return chapters.flatMap(chapter=>chapter.questions.map(question=>({...question,chapter_no:chapter.chapter_no,chapterTitle:chapter.title})));}
+function selectedChapterIndexes(){const select=$("chapter");const picked=Array.from(select.selectedOptions||[]).map(option=>Number(option.value)).filter(Number.isInteger);return picked.length?picked:[Number(select.value)||0];}
+function selectedChapters(){return selectedChapterIndexes().map(i=>chapters[i]).filter(Boolean);}
 function saveProgress(){progressStore.save(progress);updateStats();}
 function compactLedgerForStorage(value){
   const stored=clone(value);
@@ -100,7 +102,7 @@ function remapLegacyQuestionRefs(){
 function loadBank(data){
   chapters=window.C10QuestionBank.normalize(data,subject);
   remapLegacyQuestionRefs();
-  $("chapter").innerHTML=chapters.map((chapter,i)=>'<option value="'+i+'">'+String(chapter.chapter_no).padStart(2,"0")+' · '+chapter.title+' ('+chapter.questions.length+')</option>').join("");
+  $("chapter").innerHTML=chapters.map((chapter,i)=>'<option value="'+i+'" selected>'+String(chapter.chapter_no).padStart(2,"0")+' · '+chapter.title+' ('+chapter.questions.length+')</option>').join("");
   const total=chapters.reduce((sum,chapter)=>sum+chapter.questions.length,0);
   setText("chapterTotal",chapters.length);setText("questionTotal",total);
   setText("subjectIcon",config.icon);setText("subjectTitle",config.title+" Practice");setText("subjectSubtitle",config.subtitle);
@@ -110,12 +112,14 @@ function loadBank(data){
   if(ledger.activeAttempt && ledger.activeAttempt.status==="in-progress")restoreAttempt(ledger.activeAttempt);
 }
 function currentPool(){
+  const chosen=selectedChapters();
+  const selectedQuestions=chosen.flatMap(chapter=>chapter.questions);
   if(mode==="random")return shuffle(allQuestions());
-  const chapter=chapters[+$("chapter").value];
   if(mode==="retry"){
-    return shuffle(allQuestions().filter(question=>progress.missed.includes(keyFor(question))&&question.chapter_no===chapter.chapter_no));
+    const chapterKeys=new Set(chosen.map(chapter=>String(chapter.chapter_no)));
+    return shuffle(allQuestions().filter(question=>progress.missed.includes(keyFor(question))&&chapterKeys.has(String(question.chapter_no))));
   }
-  return shuffle([...chapter.questions]);
+  return shuffle(selectedQuestions);
 }
 function selectedTiming(){
   let choice=$("timerSetting").value;
@@ -129,12 +133,14 @@ function selectedTiming(){
 }
 function buildAttempt(questionPool){
   const timing=selectedTiming(),startedAt=new Date().toISOString();
-  const chapter=chapters[+$("chapter").value];
+  const chosen=selectedChapters();
+  const chapterIds=chosen.map(chapter=>String(chapter.key||chapter.chapterKey||chapter.title));
   return {
     schemaVersion:1,kind:"test-attempt",attemptId:window.C10Storage.createId(),profileId:localProfile.profileId,
     subjectId:subject,
+    subjectIds:[subject],
     mode:({learn:"learn",test:"test",retry:"practice",random:"mixed-practice",timed:"timed-exam"})[mode]||"learn",
-    uiMode:mode,source:{type:mode==="random"?"subject-bank":"chapter-bank",sourceId:mode==="random"?subject+"-all":String(chapter.key||chapter.chapterKey||chapter.title)},
+    uiMode:mode,source:{type:mode==="random"?"subject-bank":chosen.length>1?"chapter-set":"chapter-bank",sourceId:mode==="random"?subject+"-all":chapterIds.join(","),subjectIds:[subject],chapterIds},
     questionBankVersion:"legacy-bank-v1",
     status:"in-progress",startedAt,submittedAt:null,durationSeconds:null,timeLimitSeconds:timing.timeLimitSeconds,
     timingMode:timing.timingMode,deadlineAt:timing.timingMode==="countdown"?new Date(Date.now()+timing.timeLimitSeconds*1000).toISOString():null,
@@ -456,7 +462,7 @@ function init(){
   $("submitBtn").onclick=()=>finish("submitted",true);
   $("reviewBtn").onclick=reviewMissed;$("clearBtn").onclick=resetProgress;
   $("againBtn").onclick=start;$("reviewAnswersBtn").onclick=showReview;$("backBtn").onclick=()=>show("welcome");$("retrySetBtn").onclick=retrySessionMissed;
-  $("chapter").onchange=()=>{if(!chapters.length)return;const chapter=chapters[+$("chapter").value];setText("modeHint",chapter.questions.length+" questions available in this chapter.");};
+  $("chapter").onchange=()=>{if(!chapters.length)return;const chosen=selectedChapters();const count=chosen.reduce((sum,chapter)=>sum+chapter.questions.length,0);setText("modeHint",count+" questions available across "+chosen.length+" selected chapter(s).");};
   document.addEventListener("visibilitychange",()=>{if(document.hidden)persistCurrentAttempt();});
   window.addEventListener("pagehide",persistCurrentAttempt);
   fetch("./data/"+subject+".json",{cache:"no-store"}).then(response=>{if(!response.ok)throw new Error("Could not load question bank (HTTP "+response.status+").");return response.json();})
