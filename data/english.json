@@ -14483,7 +14483,12 @@
         ],
         "answer": 1,
         "explanation": "The exaggerated arguments make the proposal scene comic.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "The Proposal",
+          "comprehension"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -14496,7 +14501,12 @@
         ],
         "answer": 1,
         "explanation": "His nervous manner and complaints intensify the farcical tone.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Proposal",
+          "comprehension"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -14509,7 +14519,1758 @@
         ],
         "answer": 1,
         "explanation": "The characters’ priorities expose the practical calculations behind the match.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Proposal",
+          "comprehension"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about Lomov’s visit is supported by the play?",
+        "options": [
+          "Ivan Vassilevitch Lomov visits Chubukov’s house dressed formally.",
+          "he arrives in hunting clothes",
+          "he comes from a school exam",
+          "he visits the house to sell tea"
+        ],
+        "answer": 0,
+        "explanation": "Lomov’s formal appearance signals that his visit is not an ordinary social call.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the episode involving Lomov’s visit suggest?",
+        "options": [
+          "He comes only to borrow a dog",
+          "His formal visit signals that he intends to discuss an important personal matter.",
+          "He plans to deliver bread",
+          "He is attending a sports match"
+        ],
+        "answer": 1,
+        "explanation": "Lomov’s formal appearance signals that his visit is not an ordinary social call.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Why is Lomov’s visit important in the play?",
+        "options": [
+          "He plans to deliver bread",
+          "He comes only to borrow a dog",
+          "His formal visit signals that he intends to discuss an important personal matter.",
+          "He is attending a sports match"
+        ],
+        "answer": 2,
+        "explanation": "Lomov’s formal appearance signals that his visit is not an ordinary social call.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "When revising Chubukov’s first assumption, which statement is accurate?",
+        "options": [
+          "he wishes to borrow a book",
+          "he wants to buy a horse",
+          "he is looking for a job",
+          "Chubukov initially thinks Lomov has come to borrow money."
+        ],
+        "answer": 3,
+        "explanation": "Chubukov’s mistaken assumption is part of the play’s comic opening.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Which interpretation of Chubukov’s first assumption best fits the play?",
+        "options": [
+          "The misunderstanding adds comic tension before the proposal is revealed.",
+          "Chubukov immediately understands the purpose",
+          "Lomov requests a bus ticket",
+          "The visit begins as a formal court hearing"
+        ],
+        "answer": 0,
+        "explanation": "Chubukov’s mistaken assumption is part of the play’s comic opening.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "What does the play communicate through Chubukov’s first assumption?",
+        "options": [
+          "Chubukov immediately understands the purpose",
+          "The misunderstanding adds comic tension before the proposal is revealed.",
+          "Lomov requests a bus ticket",
+          "The visit begins as a formal court hearing"
+        ],
+        "answer": 1,
+        "explanation": "Chubukov’s mistaken assumption is part of the play’s comic opening.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "Which option correctly describes Lomov’s purpose?",
+        "options": [
+          "he seeks a teaching post",
+          "he wants to rent a field",
+          "Lomov has come to ask for Natalya Stepanovna’s hand in marriage.",
+          "he asks for a loan"
+        ],
+        "answer": 2,
+        "explanation": "Marriage is Lomov’s main reason for visiting, even though he struggles to state it clearly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "What broader idea is illustrated by Lomov’s purpose?",
+        "options": [
+          "He has come to buy a tea garden",
+          "The visit has no personal purpose",
+          "He intends to cancel Natalya’s wedding",
+          "The intended proposal is repeatedly interrupted by trivial quarrels."
+        ],
+        "answer": 3,
+        "explanation": "Marriage is Lomov’s main reason for visiting, even though he struggles to state it clearly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "What is the significance of Lomov’s purpose in this comic story?",
+        "options": [
+          "The intended proposal is repeatedly interrupted by trivial quarrels.",
+          "The visit has no personal purpose",
+          "He intends to cancel Natalya’s wedding",
+          "He has come to buy a tea garden"
+        ],
+        "answer": 0,
+        "explanation": "Marriage is Lomov’s main reason for visiting, even though he struggles to state it clearly.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Which detail about Chubukov’s response is supported by the play?",
+        "options": [
+          "he forbids any discussion of marriage",
+          "Chubukov is delighted when he learns Lomov wants to marry Natalya.",
+          "he immediately sends Lomov away",
+          "he refuses to listen"
+        ],
+        "answer": 1,
+        "explanation": "Chubukov initially reacts enthusiastically to the marriage proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "What does the episode involving Chubukov’s response suggest?",
+        "options": [
+          "He wants Lomov to leave the village",
+          "He hopes Natalya will never marry",
+          "Chubukov welcomes the prospect of a match and wants the proposal to proceed.",
+          "He has no interest in the match"
+        ],
+        "answer": 2,
+        "explanation": "Chubukov initially reacts enthusiastically to the marriage proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "Why is Chubukov’s response important in the play?",
+        "options": [
+          "He has no interest in the match",
+          "He hopes Natalya will never marry",
+          "He wants Lomov to leave the village",
+          "Chubukov welcomes the prospect of a match and wants the proposal to proceed."
+        ],
+        "answer": 3,
+        "explanation": "Chubukov initially reacts enthusiastically to the marriage proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "When revising Natalya’s awareness, which statement is accurate?",
+        "options": [
+          "Natalya is not initially told that Lomov has come to propose marriage.",
+          "she receives a written announcement before he arrives",
+          "she has already accepted a proposal",
+          "she is waiting at the church"
+        ],
+        "answer": 0,
+        "explanation": "Natalya’s lack of awareness helps explain why the conversation turns to other topics.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "dramatic irony",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which interpretation of Natalya’s awareness best fits the play?",
+        "options": [
+          "She knows every detail of the plan",
+          "This information gap creates dramatic irony for the audience.",
+          "She came to ask Lomov for money",
+          "The proposal is already complete"
+        ],
+        "answer": 1,
+        "explanation": "Natalya’s lack of awareness helps explain why the conversation turns to other topics.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "dramatic irony",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "What does the play communicate through Natalya’s awareness?",
+        "options": [
+          "She came to ask Lomov for money",
+          "She knows every detail of the plan",
+          "This information gap creates dramatic irony for the audience.",
+          "The proposal is already complete"
+        ],
+        "answer": 2,
+        "explanation": "Natalya’s lack of awareness helps explain why the conversation turns to other topics.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "dramatic irony",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which option correctly describes Oxen Meadows?",
+        "options": [
+          "a bus route",
+          "a tea plantation",
+          "a school building",
+          "The first major quarrel concerns ownership of Oxen Meadows."
+        ],
+        "answer": 3,
+        "explanation": "The argument over the meadows becomes the first serious obstacle to Lomov’s purpose.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What broader idea is illustrated by Oxen Meadows?",
+        "options": [
+          "The pair allows a property dispute to interrupt a marriage proposal.",
+          "The disagreement is about a wedding dress",
+          "The dispute concerns a lost diary",
+          "They argue about a national anthem"
+        ],
+        "answer": 0,
+        "explanation": "The argument over the meadows becomes the first serious obstacle to Lomov’s purpose.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "conflict",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "What is the significance of Oxen Meadows in this comic story?",
+        "options": [
+          "The disagreement is about a wedding dress",
+          "The pair allows a property dispute to interrupt a marriage proposal.",
+          "The dispute concerns a lost diary",
+          "They argue about a national anthem"
+        ],
+        "answer": 1,
+        "explanation": "The argument over the meadows becomes the first serious obstacle to Lomov’s purpose.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which detail about Lomov’s claim is supported by the play?",
+        "options": [
+          "they are owned by the school",
+          "they belong to the postmaster",
+          "Lomov says the Oxen Meadows belong to his family.",
+          "they are public property in the story"
+        ],
+        "answer": 2,
+        "explanation": "The ownership dispute is based on competing claims about family land.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "What does the episode involving Lomov’s claim suggest?",
+        "options": [
+          "He claims to have bought a bus",
+          "He gives the land away to Natalya",
+          "He says he has never seen the meadows",
+          "He believes the land is part of his family’s inherited property."
+        ],
+        "answer": 3,
+        "explanation": "The ownership dispute is based on competing claims about family land.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Why is Lomov’s claim important in the play?",
+        "options": [
+          "He believes the land is part of his family’s inherited property.",
+          "He gives the land away to Natalya",
+          "He says he has never seen the meadows",
+          "He claims to have bought a bus"
+        ],
+        "answer": 0,
+        "explanation": "The ownership dispute is based on competing claims about family land.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "When revising Natalya’s claim, which statement is accurate?",
+        "options": [
+          "they belong to Lomov without question",
+          "Natalya insists that Oxen Meadows belong to her family.",
+          "they belong to a schoolteacher",
+          "they are owned by a tea manager"
+        ],
+        "answer": 1,
+        "explanation": "Natalya disputes Lomov’s ownership and strongly defends her family’s claim.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of Natalya’s claim best fits the play?",
+        "options": [
+          "She offers to give it away immediately",
+          "She refuses to discuss the land",
+          "Her confident claim turns the conversation into an argument.",
+          "She says she has never heard of it"
+        ],
+        "answer": 2,
+        "explanation": "Natalya disputes Lomov’s ownership and strongly defends her family’s claim.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "What does the play communicate through Natalya’s claim?",
+        "options": [
+          "She says she has never heard of it",
+          "She refuses to discuss the land",
+          "She offers to give it away immediately",
+          "Her confident claim turns the conversation into an argument."
+        ],
+        "answer": 3,
+        "explanation": "Natalya disputes Lomov’s ownership and strongly defends her family’s claim.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "conflict",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Which option correctly describes Chubukov enters the dispute?",
+        "options": [
+          "Chubukov joins Natalya in arguing against Lomov’s claim.",
+          "he settles the matter calmly at once",
+          "he leaves the house immediately",
+          "he changes the subject to tea"
+        ],
+        "answer": 0,
+        "explanation": "Chubukov’s involvement intensifies the argument over the meadows.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "conflict",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "What broader idea is illustrated by Chubukov enters the dispute?",
+        "options": [
+          "He stays neutral throughout",
+          "The quarrel expands from two people to a family dispute.",
+          "He asks them to stop arguing and leaves forever",
+          "He gives Lomov the land"
+        ],
+        "answer": 1,
+        "explanation": "Chubukov’s involvement intensifies the argument over the meadows.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What is the significance of Chubukov enters the dispute in this comic story?",
+        "options": [
+          "He asks them to stop arguing and leaves forever",
+          "He stays neutral throughout",
+          "The quarrel expands from two people to a family dispute.",
+          "He gives Lomov the land"
+        ],
+        "answer": 2,
+        "explanation": "Chubukov’s involvement intensifies the argument over the meadows.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which detail about Lomov’s health is supported by the play?",
+        "options": [
+          "he says he has never felt nervous",
+          "he claims he can run for miles without difficulty",
+          "he is recovering from a broken arm only",
+          "Lomov repeatedly complains of palpitations and poor health."
+        ],
+        "answer": 3,
+        "explanation": "Lomov’s nervousness and bodily complaints are recurring comic features.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "What does the episode involving Lomov’s health suggest?",
+        "options": [
+          "His anxious physical complaints heighten the farcical humour.",
+          "The health comments are unrelated to his behaviour",
+          "He is described as perfectly calm",
+          "His symptoms prove that he is an athlete"
+        ],
+        "answer": 0,
+        "explanation": "Lomov’s nervousness and bodily complaints are recurring comic features.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is Lomov’s health important in the play?",
+        "options": [
+          "The health comments are unrelated to his behaviour",
+          "His anxious physical complaints heighten the farcical humour.",
+          "He is described as perfectly calm",
+          "His symptoms prove that he is an athlete"
+        ],
+        "answer": 1,
+        "explanation": "Lomov’s nervousness and bodily complaints are recurring comic features.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "When revising Lomov’s nervousness, which statement is accurate?",
+        "options": [
+          "he refuses to respond to anyone",
+          "he remains relaxed throughout",
+          "Lomov becomes highly agitated during the arguments.",
+          "he leaves without reacting"
+        ],
+        "answer": 2,
+        "explanation": "Lomov reacts intensely to petty disagreements and often feels physically unwell.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "Which interpretation of Lomov’s nervousness best fits the play?",
+        "options": [
+          "He enjoys the debate as a formal contest",
+          "The quarrels make him more patient",
+          "He never gets upset",
+          "His emotional reactions are exaggerated for comic effect."
+        ],
+        "answer": 3,
+        "explanation": "Lomov reacts intensely to petty disagreements and often feels physically unwell.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characterization",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "What does the play communicate through Lomov’s nervousness?",
+        "options": [
+          "His emotional reactions are exaggerated for comic effect.",
+          "The quarrels make him more patient",
+          "He never gets upset",
+          "He enjoys the debate as a formal contest"
+        ],
+        "answer": 0,
+        "explanation": "Lomov reacts intensely to petty disagreements and often feels physically unwell.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which option correctly describes The shift to dogs?",
+        "options": [
+          "they discuss airline rules",
+          "A second dispute begins when Lomov and Natalya compare their dogs.",
+          "they compare school marks",
+          "they argue about the tea harvest"
+        ],
+        "answer": 1,
+        "explanation": "The dog argument repeats the pattern of letting an unimportant issue derail the proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "What broader idea is illustrated by The shift to dogs?",
+        "options": [
+          "The discussion ends all conflict permanently",
+          "The dogs are unrelated to the quarrel",
+          "Even as a marriage proposal is at stake, they become absorbed in a trivial comparison.",
+          "They agree not to talk about dogs"
+        ],
+        "answer": 2,
+        "explanation": "The dog argument repeats the pattern of letting an unimportant issue derail the proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "What is the significance of The shift to dogs in this comic story?",
+        "options": [
+          "They agree not to talk about dogs",
+          "The dogs are unrelated to the quarrel",
+          "The discussion ends all conflict permanently",
+          "Even as a marriage proposal is at stake, they become absorbed in a trivial comparison."
+        ],
+        "answer": 3,
+        "explanation": "The dog argument repeats the pattern of letting an unimportant issue derail the proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "Which detail about Lomov’s dog is supported by the play?",
+        "options": [
+          "Lomov’s dog is named Guess.",
+          "Squeezer",
+          "Mijbil",
+          "Kitty"
+        ],
+        "answer": 0,
+        "explanation": "Lomov defends Guess when the two owners argue about the dogs.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "What does the episode involving Lomov’s dog suggest?",
+        "options": [
+          "Guess is the name of Chubukov’s field",
+          "The names of the two dogs become central to the comic comparison.",
+          "Guess is Natalya’s brother",
+          "Guess is the bus conductor"
+        ],
+        "answer": 1,
+        "explanation": "Lomov defends Guess when the two owners argue about the dogs.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Why is Lomov’s dog important in the play?",
+        "options": [
+          "Guess is Natalya’s brother",
+          "Guess is the name of Chubukov’s field",
+          "The names of the two dogs become central to the comic comparison.",
+          "Guess is the bus conductor"
+        ],
+        "answer": 2,
+        "explanation": "Lomov defends Guess when the two owners argue about the dogs.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "When revising Natalya’s dog, which statement is accurate?",
+        "options": [
+          "Kitty",
+          "Guess",
+          "Mijbil",
+          "Natalya’s dog is named Squeezer."
+        ],
+        "answer": 3,
+        "explanation": "The argument turns on the owners’ competing claims about their dogs.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which interpretation of Natalya’s dog best fits the play?",
+        "options": [
+          "Squeezer becomes the object of Natalya’s defence in the second quarrel.",
+          "Squeezer is the name of the meadows",
+          "Squeezer is a teacher",
+          "Squeezer is Lomov’s house"
+        ],
+        "answer": 0,
+        "explanation": "The argument turns on the owners’ competing claims about their dogs.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does the play communicate through Natalya’s dog?",
+        "options": [
+          "Squeezer is the name of the meadows",
+          "Squeezer becomes the object of Natalya’s defence in the second quarrel.",
+          "Squeezer is a teacher",
+          "Squeezer is Lomov’s house"
+        ],
+        "answer": 1,
+        "explanation": "The argument turns on the owners’ competing claims about their dogs.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which option correctly describes The dogs’ quality?",
+        "options": [
+          "both dogs are never discussed",
+          "Squeezer belongs to the royal family",
+          "Lomov argues that Guess has a better pedigree than Squeezer.",
+          "Guess is not a dog"
+        ],
+        "answer": 2,
+        "explanation": "Lomov uses the dogs’ pedigree to argue that his dog is superior.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "dogs"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "What broader idea is illustrated by The dogs’ quality?",
+        "options": [
+          "The argument concerns only the bus fare",
+          "Lomov refuses to discuss dog breeds",
+          "The comparison is settled without disagreement",
+          "The dispute shows how pride and rivalry dominate their conversation."
+        ],
+        "answer": 3,
+        "explanation": "Lomov uses the dogs’ pedigree to argue that his dog is superior.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "dogs"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "What is the significance of The dogs’ quality in this comic story?",
+        "options": [
+          "The dispute shows how pride and rivalry dominate their conversation.",
+          "Lomov refuses to discuss dog breeds",
+          "The comparison is settled without disagreement",
+          "The argument concerns only the bus fare"
+        ],
+        "answer": 0,
+        "explanation": "Lomov uses the dogs’ pedigree to argue that his dog is superior.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "dogs"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about Squeezer’s appearance is supported by the play?",
+        "options": [
+          "Natalya agrees Squeezer is worthless",
+          "Lomov criticises Squeezer’s appearance and bite, while Natalya defends him.",
+          "the dog is never mentioned",
+          "Lomov says the dogs are identical"
+        ],
+        "answer": 1,
+        "explanation": "The dogs become another source of pride and disagreement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "dogs"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the episode involving Squeezer’s appearance suggest?",
+        "options": [
+          "Natalya gives the dog away",
+          "The criticism immediately ends the quarrel",
+          "Both characters take personal offence at criticism of their dogs.",
+          "They switch to discussing a school examination"
+        ],
+        "answer": 2,
+        "explanation": "The dogs become another source of pride and disagreement.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "conflict",
+          "dogs"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Why is Squeezer’s appearance important in the play?",
+        "options": [
+          "They switch to discussing a school examination",
+          "The criticism immediately ends the quarrel",
+          "Natalya gives the dog away",
+          "Both characters take personal offence at criticism of their dogs."
+        ],
+        "answer": 3,
+        "explanation": "The dogs become another source of pride and disagreement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "conflict",
+          "dogs"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "When revising Petty quarrels, which statement is accurate?",
+        "options": [
+          "The characters repeatedly argue over small matters instead of settling the proposal.",
+          "they agree on every subject",
+          "they never disagree about anything",
+          "they discuss only literature"
+        ],
+        "answer": 0,
+        "explanation": "The comedy comes from disproportionate arguments over property and dogs.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Which interpretation of Petty quarrels best fits the play?",
+        "options": [
+          "The disagreements prove they have resolved the proposal",
+          "The exaggerated disputes expose vanity and stubbornness.",
+          "The play is a peaceful travel narrative",
+          "The arguments are unrelated to their personalities"
+        ],
+        "answer": 1,
+        "explanation": "The comedy comes from disproportionate arguments over property and dogs.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "What does the play communicate through Petty quarrels?",
+        "options": [
+          "The play is a peaceful travel narrative",
+          "The disagreements prove they have resolved the proposal",
+          "The exaggerated disputes expose vanity and stubbornness.",
+          "The arguments are unrelated to their personalities"
+        ],
+        "answer": 2,
+        "explanation": "The comedy comes from disproportionate arguments over property and dogs.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "Which option correctly describes Natalya’s response to the news?",
+        "options": [
+          "she is unaware of the proposal until the very end",
+          "she asks him to leave forever",
+          "she laughs and refuses marriage",
+          "When Natalya learns that Lomov came to propose, she is distressed that the chance may be lost."
+        ],
+        "answer": 3,
+        "explanation": "Natalya’s reaction changes when she discovers why Lomov visited.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "character arc"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "What broader idea is illustrated by Natalya’s response to the news?",
+        "options": [
+          "Her sudden change shows that she does want the match despite the quarrels.",
+          "She prefers that Lomov leave the village",
+          "She is indifferent to marriage",
+          "She asks Chubukov to cancel all weddings"
+        ],
+        "answer": 0,
+        "explanation": "Natalya’s reaction changes when she discovers why Lomov visited.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "character arc"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "What is the significance of Natalya’s response to the news in this comic story?",
+        "options": [
+          "She prefers that Lomov leave the village",
+          "Her sudden change shows that she does want the match despite the quarrels.",
+          "She is indifferent to marriage",
+          "She asks Chubukov to cancel all weddings"
+        ],
+        "answer": 1,
+        "explanation": "Natalya’s reaction changes when she discovers why Lomov visited.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "character arc"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Which detail about Chubukov’s urgency is supported by the play?",
+        "options": [
+          "he refuses to let them speak",
+          "he tells them never to marry",
+          "Chubukov urges Lomov and Natalya to move toward the marriage proposal.",
+          "he leaves without mentioning marriage"
+        ],
+        "answer": 2,
+        "explanation": "Chubukov’s urgency contrasts with the couple’s inability to stay on topic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "What does the episode involving Chubukov’s urgency suggest?",
+        "options": [
+          "He wants to cancel the engagement",
+          "He is opposed to the proposal from the start",
+          "He is focused on buying a bus",
+          "He wants the match concluded despite their constant bickering."
+        ],
+        "answer": 3,
+        "explanation": "Chubukov’s urgency contrasts with the couple’s inability to stay on topic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "Why is Chubukov’s urgency important in the play?",
+        "options": [
+          "He wants the match concluded despite their constant bickering.",
+          "He is opposed to the proposal from the start",
+          "He is focused on buying a bus",
+          "He wants to cancel the engagement"
+        ],
+        "answer": 0,
+        "explanation": "Chubukov’s urgency contrasts with the couple’s inability to stay on topic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "When revising The proposal moment, which statement is accurate?",
+        "options": [
+          "it occurs during a silent ceremony",
+          "Lomov’s proposal is surrounded by continued argument rather than a calm romantic conversation.",
+          "it is made through a letter to the post office",
+          "it takes place during a school play"
+        ],
+        "answer": 1,
+        "explanation": "The absurd timing is a central source of comedy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which interpretation of The proposal moment best fits the play?",
+        "options": [
+          "The characters discuss only love poems",
+          "The proposal is unrelated to the quarrels",
+          "The play satirises the gap between the importance of marriage and the characters’ petty behaviour.",
+          "The scene is entirely serious"
+        ],
+        "answer": 2,
+        "explanation": "The absurd timing is a central source of comedy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "What does the play communicate through The proposal moment?",
+        "options": [
+          "The scene is entirely serious",
+          "The proposal is unrelated to the quarrels",
+          "The characters discuss only love poems",
+          "The play satirises the gap between the importance of marriage and the characters’ petty behaviour."
+        ],
+        "answer": 3,
+        "explanation": "The absurd timing is a central source of comedy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which option correctly describes Lomov’s collapse?",
+        "options": [
+          "Lomov becomes so agitated that he collapses or appears to faint.",
+          "he wins a running race",
+          "he leaves to buy bread",
+          "he begins driving the bus"
+        ],
+        "answer": 0,
+        "explanation": "The collapse makes the farce more dramatic and prompts Natalya to react emotionally.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What broader idea is illustrated by Lomov’s collapse?",
+        "options": [
+          "The collapse resolves the dogs’ argument logically",
+          "His physical weakness exaggerates the silliness of the quarrel.",
+          "The scene changes into a travel adventure",
+          "Lomov never has any health concerns"
+        ],
+        "answer": 1,
+        "explanation": "The collapse makes the farce more dramatic and prompts Natalya to react emotionally.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "What is the significance of Lomov’s collapse in this comic story?",
+        "options": [
+          "The scene changes into a travel adventure",
+          "The collapse resolves the dogs’ argument logically",
+          "His physical weakness exaggerates the silliness of the quarrel.",
+          "Lomov never has any health concerns"
+        ],
+        "answer": 2,
+        "explanation": "The collapse makes the farce more dramatic and prompts Natalya to react emotionally.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which detail about Natalya’s alarm is supported by the play?",
+        "options": [
+          "she ignores him completely",
+          "she celebrates his departure",
+          "she asks him to compare more dogs",
+          "Natalya fears that Lomov may be dead when he collapses."
+        ],
+        "answer": 3,
+        "explanation": "Natalya’s reaction shows the sudden emotional stakes behind their comic quarrels.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "What does the episode involving Natalya’s alarm suggest?",
+        "options": [
+          "Her alarm reveals that his presence matters to her.",
+          "She wants him to remain unconscious forever",
+          "She is unaffected by the event",
+          "She is only worried about the meadows"
+        ],
+        "answer": 0,
+        "explanation": "Natalya’s reaction shows the sudden emotional stakes behind their comic quarrels.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Why is Natalya’s alarm important in the play?",
+        "options": [
+          "She wants him to remain unconscious forever",
+          "Her alarm reveals that his presence matters to her.",
+          "She is unaffected by the event",
+          "She is only worried about the meadows"
+        ],
+        "answer": 1,
+        "explanation": "Natalya’s reaction shows the sudden emotional stakes behind their comic quarrels.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "When revising Chubukov’s role, which statement is accurate?",
+        "options": [
+          "he refuses to support any match",
+          "he wants them to argue forever",
+          "Chubukov tries to push the young couple toward agreement and marriage.",
+          "he asks Lomov to leave permanently"
+        ],
+        "answer": 2,
+        "explanation": "Chubukov’s interventions both increase conflict and push the proposal forward.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "dramatic function"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of Chubukov’s role best fits the play?",
+        "options": [
+          "He wants to become a dog breeder",
+          "He does not care whether they marry",
+          "He is not involved in the scene",
+          "He serves as both a participant in the quarrels and an impatient promoter of the match."
+        ],
+        "answer": 3,
+        "explanation": "Chubukov’s interventions both increase conflict and push the proposal forward.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "dramatic function"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "What does the play communicate through Chubukov’s role?",
+        "options": [
+          "He serves as both a participant in the quarrels and an impatient promoter of the match.",
+          "He does not care whether they marry",
+          "He is not involved in the scene",
+          "He wants to become a dog breeder"
+        ],
+        "answer": 0,
+        "explanation": "Chubukov’s interventions both increase conflict and push the proposal forward.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characters",
+          "dramatic function"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Which option correctly describes Social expectations?",
+        "options": [
+          "they reject marriage entirely",
+          "The characters treat marriage as an important practical arrangement as well as a personal relationship.",
+          "they view marriage as a school subject",
+          "they discuss marriage only as a joke from the beginning"
+        ],
+        "answer": 1,
+        "explanation": "Lomov and Chubukov’s concerns include property and status, not just personal feeling.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "social context"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "What broader idea is illustrated by Social expectations?",
+        "options": [
+          "The proposal has no social context",
+          "The story is a tragic love poem",
+          "The play satirises how social interests can overshadow affection and understanding.",
+          "All characters value romance above property"
+        ],
+        "answer": 2,
+        "explanation": "Lomov and Chubukov’s concerns include property and status, not just personal feeling.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "social context"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What is the significance of Social expectations in this comic story?",
+        "options": [
+          "All characters value romance above property",
+          "The story is a tragic love poem",
+          "The proposal has no social context",
+          "The play satirises how social interests can overshadow affection and understanding."
+        ],
+        "answer": 3,
+        "explanation": "Lomov and Chubukov’s concerns include property and status, not just personal feeling.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "social context"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which detail about Property and status is supported by the play?",
+        "options": [
+          "The dispute over Oxen Meadows reveals how strongly the characters value property claims.",
+          "they say land ownership is meaningless",
+          "they give the meadows away without debate",
+          "they never mention the land"
+        ],
+        "answer": 0,
+        "explanation": "The first quarrel demonstrates how property can trigger disproportionate conflict.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "What does the episode involving Property and status suggest?",
+        "options": [
+          "The argument shows that property is irrelevant to them",
+          "Their pride in family property helps drive the comic disagreement.",
+          "The land dispute is solved by a judge on stage",
+          "The scene is about tea cultivation"
+        ],
+        "answer": 1,
+        "explanation": "The first quarrel demonstrates how property can trigger disproportionate conflict.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is Property and status important in the play?",
+        "options": [
+          "The land dispute is solved by a judge on stage",
+          "The argument shows that property is irrelevant to them",
+          "Their pride in family property helps drive the comic disagreement.",
+          "The scene is about tea cultivation"
+        ],
+        "answer": 2,
+        "explanation": "The first quarrel demonstrates how property can trigger disproportionate conflict.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "property"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "When revising Exaggeration, which statement is accurate?",
+        "options": [
+          "they settle disputes silently",
+          "they remain calm about every issue",
+          "they refuse to express opinions",
+          "The characters react to petty disputes as though they were major crises."
+        ],
+        "answer": 3,
+        "explanation": "The overblown reactions are part of the play’s comic style.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary technique",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "Which interpretation of Exaggeration best fits the play?",
+        "options": [
+          "Exaggeration turns ordinary disagreements into farce.",
+          "The play is written as a legal judgement",
+          "The quarrels are presented as realistic negotiations only",
+          "No one cares about the outcome"
+        ],
+        "answer": 0,
+        "explanation": "The overblown reactions are part of the play’s comic style.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "literary technique",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "What does the play communicate through Exaggeration?",
+        "options": [
+          "The play is written as a legal judgement",
+          "Exaggeration turns ordinary disagreements into farce.",
+          "The quarrels are presented as realistic negotiations only",
+          "No one cares about the outcome"
+        ],
+        "answer": 1,
+        "explanation": "The overblown reactions are part of the play’s comic style.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary technique",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which option correctly describes The dogs argument’s function?",
+        "options": [
+          "it changes the play into a mystery",
+          "it resolves every disagreement",
+          "The quarrel about Guess and Squeezer repeats the pattern of the land dispute.",
+          "it has no connection with the characters"
+        ],
+        "answer": 2,
+        "explanation": "The dog comparison is another obstacle to the marriage proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "What broader idea is illustrated by The dogs argument’s function?",
+        "options": [
+          "The scene is about the weather",
+          "The argument makes both characters generous",
+          "The dogs are never named",
+          "The repetition shows that the characters are unable to stop competing over small matters."
+        ],
+        "answer": 3,
+        "explanation": "The dog comparison is another obstacle to the marriage proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "What is the significance of The dogs argument’s function in this comic story?",
+        "options": [
+          "The repetition shows that the characters are unable to stop competing over small matters.",
+          "The argument makes both characters generous",
+          "The dogs are never named",
+          "The scene is about the weather"
+        ],
+        "answer": 0,
+        "explanation": "The dog comparison is another obstacle to the marriage proposal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "Which detail about Lomov’s self-image is supported by the play?",
+        "options": [
+          "he is completely calm and confident in every scene",
+          "Lomov presents himself as a suitable marriage prospect but becomes flustered over trivial issues.",
+          "he refuses any marriage proposal",
+          "he never cares what others think"
+        ],
+        "answer": 1,
+        "explanation": "The character’s self-presentation is undermined by his argumentative and anxious behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "What does the episode involving Lomov’s self-image suggest?",
+        "options": [
+          "He wants only to discuss dogs",
+          "His behaviour is free of anxiety",
+          "His nervousness contrasts with his desire to make a socially sensible match.",
+          "He is unconcerned about the proposal"
+        ],
+        "answer": 2,
+        "explanation": "The character’s self-presentation is undermined by his argumentative and anxious behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Why is Lomov’s self-image important in the play?",
+        "options": [
+          "He is unconcerned about the proposal",
+          "His behaviour is free of anxiety",
+          "He wants only to discuss dogs",
+          "His nervousness contrasts with his desire to make a socially sensible match."
+        ],
+        "answer": 3,
+        "explanation": "The character’s self-presentation is undermined by his argumentative and anxious behaviour.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characterization",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "When revising Natalya’s self-image, which statement is accurate?",
+        "options": [
+          "Natalya argues forcefully and defends her family’s property and dog.",
+          "she never expresses an opinion",
+          "she agrees with everyone immediately",
+          "she leaves without speaking"
+        ],
+        "answer": 0,
+        "explanation": "Natalya’s assertiveness also becomes stubbornness when she argues over small issues.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characterization",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which interpretation of Natalya’s self-image best fits the play?",
+        "options": [
+          "Her behaviour shows she avoids every disagreement",
+          "Her pride and stubbornness contribute to the conflict.",
+          "She is unaware of the dogs",
+          "She refuses to defend her family"
+        ],
+        "answer": 1,
+        "explanation": "Natalya’s assertiveness also becomes stubbornness when she argues over small issues.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does the play communicate through Natalya’s self-image?",
+        "options": [
+          "She is unaware of the dogs",
+          "Her behaviour shows she avoids every disagreement",
+          "Her pride and stubbornness contribute to the conflict.",
+          "She refuses to defend her family"
+        ],
+        "answer": 2,
+        "explanation": "Natalya’s assertiveness also becomes stubbornness when she argues over small issues.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which option correctly describes Comic resolution?",
+        "options": [
+          "Lomov leaves without speaking again",
+          "the wedding is cancelled before the proposal",
+          "all characters apologise and become silent",
+          "The play ends with the proposal accepted while the characters continue their quarrels."
+        ],
+        "answer": 3,
+        "explanation": "The comic ending suggests that the argument-prone couple has not changed much.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "ending",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "What broader idea is illustrated by Comic resolution?",
+        "options": [
+          "The ending preserves the absurdity rather than neatly resolving the characters’ behaviour.",
+          "The ending proves they have learnt to agree on everything",
+          "The dogs settle the property dispute",
+          "The final scene turns into a tragedy"
+        ],
+        "answer": 0,
+        "explanation": "The comic ending suggests that the argument-prone couple has not changed much.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "ending",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "What is the significance of Comic resolution in this comic story?",
+        "options": [
+          "The ending proves they have learnt to agree on everything",
+          "The ending preserves the absurdity rather than neatly resolving the characters’ behaviour.",
+          "The dogs settle the property dispute",
+          "The final scene turns into a tragedy"
+        ],
+        "answer": 1,
+        "explanation": "The comic ending suggests that the argument-prone couple has not changed much.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "ending",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about The play’s genre is supported by the play?",
+        "options": [
+          "a diary entry",
+          "a scientific report",
+          "‘The Proposal’ is a one-act play with farcical, comic arguments.",
+          "a travel brochure"
+        ],
+        "answer": 2,
+        "explanation": "The dramatic form lets the audience see characters interrupt and provoke one another directly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "genre",
+          "dramatic technique"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the episode involving The play’s genre suggest?",
+        "options": [
+          "The story is a news article",
+          "The work contains no dialogue",
+          "It is a poem about nature",
+          "The exaggerated dialogue and misunderstandings create stage comedy."
+        ],
+        "answer": 3,
+        "explanation": "The dramatic form lets the audience see characters interrupt and provoke one another directly.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "genre",
+          "dramatic technique"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Why is The play’s genre important in the play?",
+        "options": [
+          "The exaggerated dialogue and misunderstandings create stage comedy.",
+          "The work contains no dialogue",
+          "It is a poem about nature",
+          "The story is a news article"
+        ],
+        "answer": 0,
+        "explanation": "The dramatic form lets the audience see characters interrupt and provoke one another directly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "genre",
+          "dramatic technique"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "When revising Main theme, which statement is accurate?",
+        "options": [
+          "the value of avoiding all social contact",
+          "The play mocks how vanity, property and pride can overwhelm a sensible discussion.",
+          "the dangers of flying",
+          "the science of tea cultivation"
+        ],
+        "answer": 1,
+        "explanation": "The comic conflict reveals the absurdity of the characters’ priorities.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Which interpretation of Main theme best fits the play?",
+        "options": [
+          "It is primarily about a natural disaster",
+          "The play praises endless bickering as ideal communication",
+          "The characters’ behaviour satirises trivial quarrels and material concerns.",
+          "It presents perfect romantic harmony"
+        ],
+        "answer": 2,
+        "explanation": "The comic conflict reveals the absurdity of the characters’ priorities.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "What does the play communicate through Main theme?",
+        "options": [
+          "It presents perfect romantic harmony",
+          "The play praises endless bickering as ideal communication",
+          "It is primarily about a natural disaster",
+          "The characters’ behaviour satirises trivial quarrels and material concerns."
+        ],
+        "answer": 3,
+        "explanation": "The comic conflict reveals the absurdity of the characters’ priorities.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "Which theme best unites the arguments about Oxen Meadows and the two dogs?",
+        "options": [
+          "Pride and stubbornness can make trivial issues dominate important decisions",
+          "The characters agree calmly about everything",
+          "Dogs can settle ownership disputes",
+          "The proposal is unrelated to property or status"
+        ],
+        "answer": 0,
+        "explanation": "The repeated quarrels show how vanity and rivalry derail the marriage proposal.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
