@@ -13,6 +13,16 @@
       "active": true,
       "createdAt": "2026-10-26T11:47:23.935Z",
       "updatedAt": "2026-10-26T12:00:00.000Z"
+    },
+    {
+      "username": "c6pilot",
+      "classId": "6",
+      "salt": "kV8WD8SjgeOWL9bBKoKbvg==",
+      "passwordHash": "Rg0YjHpzhta8Twz79Dk2JRxFfnufPDc8jcxQB/4+6yw=",
+      "iterations": 600000,
+      "active": true,
+      "createdAt": "2026-10-26T17:46:00.000Z",
+      "updatedAt": "2026-10-26T17:46:00.000Z"
     }
   ]
 }
