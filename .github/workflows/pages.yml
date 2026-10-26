@@ -186,13 +186,27 @@ jobs:
           }
           const dashboardScripts=['./js/storage.js','./js/profile-model.js','./js/gamification.js','./js/dashboard-manager.js','./js/app-shell.js'].map(src=>dashboard.indexOf(src));
           if (dashboardScripts.some(index=>index<0) || !dashboardScripts.every((index,i)=>i===0||dashboardScripts[i-1]<index)) throw new Error('Dashboard scripts are missing or out of order.');
+          // The homepage is now the sign-in landing page. Validate its current contract,
+          // rather than requiring profile and subject links from the retired homepage layout.
           const homepage=fs.readFileSync('_site/index.html','utf8');
-          if (!homepage.includes('./profile.html')) throw new Error('Homepage profile link is missing.');
-          
-          for (const slug of ['subject=science','subject=mathematics','subject=english','subject=social-science','subject=hindi']) {
-            if (!homepage.includes(slug)) throw new Error('Homepage link is missing '+slug);
+          for (const required of ['id="studentLoginForm"','id="username"','id="password"','id="githubAdminLogin"','./js/login-page.js','./js/student-auth.js','./js/app-shell.js']) {
+            if (!homepage.includes(required)) throw new Error('Login landing page is missing '+required);
           }
-          if (!homepage.includes('Conceptualised by') || !homepage.includes('JP Ganathe')) throw new Error('Homepage attribution is missing.');
+          if (!homepage.includes('authorised admins only') || !homepage.includes('Conceptualised by') || !homepage.includes('JP Ganathe')) {
+            throw new Error('Login landing page admin notice or attribution is missing.');
+          }
+          const loginScript=fs.readFileSync('_site/js/login-page.js','utf8');
+          if (!loginScript.includes('C10StudentAuth.login') || !loginScript.includes('./dashboard.html')) {
+            throw new Error('Login handler does not authenticate students and route to dashboard.');
+          }
+          const shell=fs.readFileSync('_site/js/app-shell.js','utf8');
+          for (const required of ['c10-auth-changed','dashboard.html','profile.html','signOut']) {
+            if (!shell.includes(required)) throw new Error('Role-aware navigation is missing '+required);
+          }
+          const dashboardLanding=fs.readFileSync('_site/dashboard.html','utf8');
+          for (const slug of ['subject=science','subject=mathematics','subject=english','subject=social-science','subject=hindi']) {
+            if (!dashboardLanding.includes(slug)) throw new Error('Dashboard subject launch link is missing '+slug);
+          }
           const sciencePage=fs.readFileSync('_site/science.html','utf8');
           if (!sciencePage.includes('practice.html?subject=science')) throw new Error('Science compatibility route does not forward to the shared engine.');
           const quizEngine=fs.readFileSync('_site/js/quiz-engine.js','utf8');
