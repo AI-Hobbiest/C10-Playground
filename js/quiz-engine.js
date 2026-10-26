@@ -9,7 +9,17 @@ const SUBJECTS = {
 };
 const $ = id => document.getElementById(id);
 const subject = new URLSearchParams(location.search).get("subject") || "mathematics";
-const activeStudent = window.C10StudentAuth && window.C10StudentAuth.currentUser ? window.C10StudentAuth.currentUser() : null;
+function readActiveStudent(){
+  try{
+    if(window.C10StudentAuth&&window.C10StudentAuth.currentUser){
+      const student=window.C10StudentAuth.currentUser();
+      if(student&&student.classId)return student;
+    }
+    const saved=JSON.parse(sessionStorage.getItem("c10playground_static_student_v1")||"null");
+    return saved&&typeof saved.username==="string"?{username:saved.username,classId:String(saved.classId||"10")}:null;
+  }catch(_){return null;}
+}
+const activeStudent = readActiveStudent();
 const classId = String(activeStudent && activeStudent.classId || "10");
 const bankId = classId === "6" && subject === "science" ? "class-6-science" : subject;
 const config = SUBJECTS[subject];
