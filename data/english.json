@@ -5443,7 +5443,12 @@
         ],
         "answer": 1,
         "explanation": "Anne treats the diary as a confidante who will listen without judging.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "diary",
+          "confidante"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -5456,7 +5461,12 @@
         ],
         "answer": 1,
         "explanation": "Her playful essays turn the teacher’s complaint into a comic exchange.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "school",
+          "humour"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -5469,7 +5479,1758 @@
         ],
         "answer": 1,
         "explanation": "A diary preserves a personal viewpoint over time.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "diary",
+          "genre"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "On what occasion did Anne receive her diary?",
+        "options": [
+          "Her thirteenth birthday",
+          "Her first day at university",
+          "Her family’s return to Germany",
+          "A school prize ceremony"
+        ],
+        "answer": 0,
+        "explanation": "Anne receives the diary as a birthday present shortly before beginning the entries shown in the chapter.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "diary",
+          "personal details"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "Why does Anne feel she can confide in a diary more easily than in people?",
+        "options": [
+          "She wants a listener who will not judge or interrupt her",
+          "She has been ordered to stop speaking to everyone",
+          "She dislikes writing",
+          "She expects the diary to give her school marks"
+        ],
+        "answer": 0,
+        "explanation": "She wants a friend-like listener with whom she can share her thoughts honestly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "loneliness"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "What name does Anne give to her diary?",
+        "options": [
+          "Kitty",
+          "Margot",
+          "Sanne",
+          "Mrs Kuperus"
+        ],
+        "answer": 0,
+        "explanation": "Anne addresses her diary as Kitty, treating it like a personal friend.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "diary",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "What does Anne say is missing from her life despite having family and acquaintances?",
+        "options": [
+          "A true friend with whom she can share her inner thoughts",
+          "A place to live",
+          "A school to attend",
+          "A collection of books"
+        ],
+        "answer": 0,
+        "explanation": "Anne feels she lacks a close friend to whom she can confide freely.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "loneliness",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "What kind of writing does Anne want her diary to be?",
+        "options": [
+          "A friend-like confidante rather than a list of facts",
+          "A science textbook",
+          "A public timetable",
+          "A set of school examination answers"
+        ],
+        "answer": 0,
+        "explanation": "She wants the diary to function as a friend, not simply record factual events.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "purpose"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Why does Anne briefly introduce her family and background in her diary?",
+        "options": [
+          "To help Kitty understand the people she mentions",
+          "To submit a school assignment",
+          "To explain how to write a newspaper",
+          "To provide instructions for her teacher"
+        ],
+        "answer": 0,
+        "explanation": "She gives background so that the diary’s imagined reader can follow her personal account.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "What does Anne’s decision to address the diary as Kitty show?",
+        "options": [
+          "She personifies the diary as a trusted companion",
+          "She believes the diary is a real teacher",
+          "She wants her diary to be anonymous in class",
+          "She is writing a letter to her sister"
+        ],
+        "answer": 0,
+        "explanation": "The name Kitty helps Anne imagine the diary as a friend who will listen to her.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personification",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "Which quality is especially evident in Anne’s writing?",
+        "options": [
+          "Self-awareness and a lively sense of humour",
+          "Complete indifference to others",
+          "A refusal to reflect on her behaviour",
+          "An inability to express opinions"
+        ],
+        "answer": 0,
+        "explanation": "Anne reflects on her feelings and uses humour to describe her experiences.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "How does Anne generally view her own talkativeness?",
+        "options": [
+          "She recognises it as a habit and tries to explain it",
+          "She denies ever talking in class",
+          "She blames it entirely on her sister",
+          "She thinks it makes her unable to write"
+        ],
+        "answer": 0,
+        "explanation": "Anne admits that she talks a great deal and tries to defend or understand the habit.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Which teacher is annoyed by Anne’s talking in class?",
+        "options": [
+          "Mr Keesing",
+          "Mr Barua",
+          "Mr Dussel",
+          "Mr Van Daan"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing, her mathematics teacher, objects to Anne’s talking during lessons.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "school",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "What subject does Mr Keesing teach?",
+        "options": [
+          "Mathematics",
+          "History",
+          "Art",
+          "Music"
+        ],
+        "answer": 0,
+        "explanation": "Anne identifies Mr Keesing as her mathematics teacher.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "school",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does Mr Keesing ask Anne to write as a punishment at first?",
+        "options": [
+          "An essay about being a chatterbox",
+          "A poem about flying",
+          "A letter to the headteacher",
+          "A diary about her family"
+        ],
+        "answer": 0,
+        "explanation": "He assigns an essay on the topic ‘A Chatterbox’ as a response to her talking.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "school",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "What is the title of Anne’s second assigned essay?",
+        "options": [
+          "An Incorrigible Chatterbox",
+          "A Letter to God",
+          "The Black Aeroplane",
+          "The Quiet Student"
+        ],
+        "answer": 0,
+        "explanation": "After the first essay, Mr Keesing assigns ‘An Incorrigible Chatterbox’.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "school",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "What does the word ‘incorrigible’ mean in the essay title?",
+        "options": [
+          "Difficult or impossible to correct",
+          "Very quiet and shy",
+          "Highly skilled at mathematics",
+          "Always punctual"
+        ],
+        "answer": 0,
+        "explanation": "The word describes a habit considered impossible to correct.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "What is the title of the third essay Mr Keesing assigns?",
+        "options": [
+          "Quack, Quack, Quack, Said Mistress Chatterbox",
+          "The Day I Stopped Talking",
+          "A Bird’s First Flight",
+          "A Visit to Amsterdam"
+        ],
+        "answer": 0,
+        "explanation": "The third punishment essay receives the deliberately comic title about a chatterbox.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "school",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Why does Mr Keesing keep assigning essays to Anne?",
+        "options": [
+          "She continues talking during his lessons",
+          "She refuses to do any homework",
+          "She has damaged his books",
+          "She arrives late every day"
+        ],
+        "answer": 0,
+        "explanation": "He uses writing assignments as a punishment for her continued talking in class.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "school",
+          "cause and effect"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "How does Anne justify her talkativeness in her first essay?",
+        "options": [
+          "She suggests it is a trait that may be inherited from her mother",
+          "She says the teacher cannot hear her",
+          "She claims the classroom is too small",
+          "She says she does not understand language"
+        ],
+        "answer": 0,
+        "explanation": "Anne argues that her mother is also talkative, so the habit may be inherited.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "reasoning",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "What does Anne’s response to Mr Keesing show about her?",
+        "options": [
+          "She can use humour and reasoning to defend herself",
+          "She accepts every criticism without thought",
+          "She refuses to complete assignments",
+          "She tries to humiliate every classmate"
+        ],
+        "answer": 0,
+        "explanation": "Her essay combines humour with an attempt to explain her behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Who helps Anne prepare the third essay in verse?",
+        "options": [
+          "Sanne",
+          "Margot",
+          "Kitty",
+          "Mrs Kuperus"
+        ],
+        "answer": 0,
+        "explanation": "Anne’s friend Sanne, who is good at poetry, offers to help her with the verse.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "school",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "What form does the third essay take?",
+        "options": [
+          "A poem in verse",
+          "A scientific report",
+          "A formal complaint letter",
+          "A diary chart"
+        ],
+        "answer": 0,
+        "explanation": "Anne and Sanne turn the assigned topic into a poem.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "genre",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "What is the poem about?",
+        "options": [
+          "A mother duck and father swan with ducklings",
+          "A pilot lost in a storm",
+          "A farmer seeking help",
+          "A family moving to a new country"
+        ],
+        "answer": 0,
+        "explanation": "The poem tells of a mother duck, a father swan and three baby ducklings.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "school",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What unusual event happens to the ducklings in Anne’s poem?",
+        "options": [
+          "The father swan bites them to death because they quack too much",
+          "They fly away to another country",
+          "They become classmates of Anne",
+          "They take the diary away"
+        ],
+        "answer": 0,
+        "explanation": "The absurd poem turns the chatterbox theme into a humorous animal story.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "poem"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "How does Mr Keesing react to Anne’s poem?",
+        "options": [
+          "He understands the joke and shares it with others",
+          "He expels Anne immediately",
+          "He refuses to read it",
+          "He asks her to write ten more poems"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing takes the joke in good spirit and reads the poem to other classes.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "school",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "What changes in Mr Keesing’s behaviour after the poem?",
+        "options": [
+          "He makes jokes and stops assigning extra work for talking",
+          "He becomes stricter and bans Anne from class",
+          "He stops teaching mathematics",
+          "He asks Anne to leave school"
+        ],
+        "answer": 0,
+        "explanation": "After the poem, he jokes with Anne and no longer gives her extra homework for the habit.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "school",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "What does the episode with Mr Keesing show about Anne’s creativity?",
+        "options": [
+          "She can turn a punishment into a clever comic response",
+          "She avoids all writing tasks",
+          "She copies every essay from a textbook",
+          "She has no sense of humour"
+        ],
+        "answer": 0,
+        "explanation": "Anne transforms the teacher’s assignment into an original poem with a playful twist.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "creativity",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Why does Anne laugh along with the class when the third topic is announced?",
+        "options": [
+          "She sees how ridiculous the topic is and knows she needs an original solution",
+          "She has already decided to leave school",
+          "She believes Mr Keesing cannot read",
+          "She has forgotten the assignment"
+        ],
+        "answer": 0,
+        "explanation": "She recognises the humour in the title and decides to respond creatively.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "school",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What does Anne mean when she calls teachers unpredictable?",
+        "options": [
+          "Their reactions can change in ways students may not expect",
+          "Teachers never prepare lessons",
+          "Teachers do not understand their subjects",
+          "Teachers always agree with students"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing’s changing response illustrates why Anne sees teachers as unpredictable.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "reflection",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which statement best describes Anne’s relationship with Mr Keesing by the end of the episode?",
+        "options": [
+          "It becomes friendlier through humour and mutual understanding",
+          "It remains hostile with no change",
+          "She never speaks to him again",
+          "He becomes her family member"
+        ],
+        "answer": 0,
+        "explanation": "The poem turns their classroom conflict into a more playful relationship.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "relationships",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which quality of Mr Keesing is shown by assigning essays as punishment?",
+        "options": [
+          "Strictness about classroom discipline",
+          "Indifference to teaching",
+          "Fear of mathematics",
+          "A refusal to assess students"
+        ],
+        "answer": 0,
+        "explanation": "He wants Anne to stop disrupting lessons with excessive talking.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characterization",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Which quality of Mr Keesing appears at the end?",
+        "options": [
+          "A sense of humour",
+          "Cruelty without flexibility",
+          "Total lack of imagination",
+          "Indifference to Anne’s work"
+        ],
+        "answer": 0,
+        "explanation": "He appreciates the humorous poem and later jokes with Anne.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Why does Anne’s diary become a trusted space for her?",
+        "options": [
+          "It gives her room to express feelings she cannot easily share elsewhere",
+          "It corrects her mathematics homework",
+          "It replaces all conversation at school",
+          "It tells her what will happen in the future"
+        ],
+        "answer": 0,
+        "explanation": "Anne uses the diary to confide in a friend-like listener.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "emotions"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What is the main difference between Anne’s diary and a simple list of daily events?",
+        "options": [
+          "It includes her feelings, reflections and personal thoughts",
+          "It contains only dates and weather reports",
+          "It is written entirely by Mr Keesing",
+          "It records only school attendance"
+        ],
+        "answer": 0,
+        "explanation": "Anne wants to express her inner life, not merely list facts.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "What does Anne’s diary address ‘Kitty’ help establish?",
+        "options": [
+          "A sense of intimacy between writer and imagined friend",
+          "A formal relationship between student and headteacher",
+          "A public debate with strangers",
+          "A report to a newspaper editor"
+        ],
+        "answer": 0,
+        "explanation": "Addressing Kitty makes the writing feel like a personal conversation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "narration"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which theme is central to the diary excerpt?",
+        "options": [
+          "The need for a trusted confidante and the value of self-expression",
+          "The dangers of flying in storms",
+          "The destruction of crops by hail",
+          "The history of South African elections"
+        ],
+        "answer": 0,
+        "explanation": "Anne’s need to confide and express herself is a central concern of the diary entries.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "Why does Anne describe her classmates and teachers in her diary?",
+        "options": [
+          "To give context to her experiences and reflections",
+          "To make an official school register",
+          "To prepare a mathematics exam",
+          "To publish a list of punishments"
+        ],
+        "answer": 0,
+        "explanation": "Her diary uses details about people around her to make her experiences understandable.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "What is the purpose of Anne’s brief family sketch?",
+        "options": [
+          "To explain the people she refers to in her entries",
+          "To teach readers how to make a family tree",
+          "To list all European countries",
+          "To describe a mathematics lesson"
+        ],
+        "answer": 0,
+        "explanation": "The background helps Kitty, the imagined reader, understand Anne’s references.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What is the best description of Anne’s narrative voice?",
+        "options": [
+          "Personal, reflective and conversational",
+          "Strictly impersonal and scientific",
+          "A formal government announcement",
+          "An omniscient narrator who never shares feelings"
+        ],
+        "answer": 0,
+        "explanation": "Anne writes in a personal voice, sharing her own thoughts and impressions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narration",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Why can a diary be useful for understanding a historical period?",
+        "options": [
+          "It records an individual’s experiences and perceptions",
+          "It always contains a complete official history",
+          "It never includes personal bias",
+          "It replaces every other source of evidence"
+        ],
+        "answer": 0,
+        "explanation": "A diary provides a personal viewpoint on events and daily life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "historical source"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Which statement about a diary is most accurate?",
+        "options": [
+          "It may be both a record of events and a space for private reflection",
+          "It must always be written for publication",
+          "It should contain only facts without feelings",
+          "It is the same as a government report"
+        ],
+        "answer": 0,
+        "explanation": "A diary can combine events with the writer’s thoughts and emotions.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "diary",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "What does Anne’s willingness to analyse her behaviour suggest?",
+        "options": [
+          "She is introspective",
+          "She refuses to learn from experience",
+          "She never notices other people",
+          "She is indifferent to school"
+        ],
+        "answer": 0,
+        "explanation": "Anne reflects on her personality and tries to explain her own actions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "reflection"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "How does Anne use humour in her response to Mr Keesing?",
+        "options": [
+          "She turns the punishment topic into an amusing poem",
+          "She refuses to write anything",
+          "She hides the essay",
+          "She reports the teacher to a newspaper"
+        ],
+        "answer": 0,
+        "explanation": "The poem makes the teacher’s intended punishment comic and original.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "humour",
+          "creativity"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What is the effect of the humorous animal poem on the teacher-student conflict?",
+        "options": [
+          "It helps resolve tension and changes the teacher’s response",
+          "It causes Anne to be removed from the class",
+          "It makes the teacher stop teaching",
+          "It increases the punishment indefinitely"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing takes the joke well and the conflict over her talking eases.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "What can readers infer from Anne’s repeated essays?",
+        "options": [
+          "She is persistent and resourceful under criticism",
+          "She is incapable of writing",
+          "She does not understand what a teacher asks",
+          "She wants to end her education"
+        ],
+        "answer": 0,
+        "explanation": "She completes the assignments and finds a creative approach to the third one.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "inference",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which phrase best describes Anne’s attitude toward writing the third essay?",
+        "options": [
+          "She sees it as a challenge requiring originality",
+          "She considers it impossible and gives up",
+          "She decides to copy Sanne’s homework exactly",
+          "She ignores the assignment"
+        ],
+        "answer": 0,
+        "explanation": "Anne wants to respond cleverly and welcomes Sanne’s poetic help.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "creativity",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "What does Anne’s first essay argue about talkativeness?",
+        "options": [
+          "It may be a family trait that is hard to change",
+          "It is caused by a broken clock",
+          "It is always a sign of poor intelligence",
+          "It disappears after one punishment"
+        ],
+        "answer": 0,
+        "explanation": "She argues that her mother talks as much as she does and suggests the habit may be inherited.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "reasoning",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Why does Anne’s argument about inherited traits amuse Mr Keesing?",
+        "options": [
+          "It offers a witty defence instead of a simple apology",
+          "It includes an official school rule",
+          "It explains how to solve a maths problem",
+          "It attacks every classmate"
+        ],
+        "answer": 0,
+        "explanation": "Her creative reasoning makes the essay entertaining even though the teacher had assigned it as punishment.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "humour",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "Which option best explains why Mr Keesing’s punishments are unusual?",
+        "options": [
+          "He uses writing topics that reflect Anne’s talkative habit",
+          "He makes Anne clean the school every day",
+          "He sends her to prison",
+          "He tells her to stop reading books"
+        ],
+        "answer": 0,
+        "explanation": "Instead of a routine penalty, he asks her to write increasingly playful essays on chatterboxing.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "school",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "What does the word ‘chatterbox’ refer to in the chapter?",
+        "options": [
+          "Someone who talks a great deal",
+          "Someone who never speaks",
+          "Someone who writes poetry professionally",
+          "Someone who teaches mathematics"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing uses the term because Anne talks a lot in class.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "vocabulary",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "Why is the third essay’s title effective as humour?",
+        "options": [
+          "It sounds like a comic refrain and exaggerates the complaint about talking",
+          "It states a serious scientific fact",
+          "It is a formal request for leave",
+          "It names a geography chapter"
+        ],
+        "answer": 0,
+        "explanation": "The repeated ‘Quack, Quack, Quack’ makes the title comically dramatic.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "language"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Who is Sanne in the excerpt?",
+        "options": [
+          "Anne’s friend who is good at poetry",
+          "Anne’s mathematics teacher",
+          "Anne’s sister",
+          "The diary’s imagined name"
+        ],
+        "answer": 0,
+        "explanation": "Sanne offers to help Anne turn the third essay into verse.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characters",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "What does Mr Keesing do with the poem after reading it?",
+        "options": [
+          "He reads it to other classes and adds comments",
+          "He burns it without reading",
+          "He sends it to the police",
+          "He asks Anne to hide it"
+        ],
+        "answer": 0,
+        "explanation": "He shares the poem with several classes and jokes about it.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does the change in Mr Keesing’s behaviour suggest?",
+        "options": [
+          "Humour can soften a tense interaction",
+          "Punishment must always become harsher",
+          "Teachers can never change their opinions",
+          "Students should never explain themselves"
+        ],
+        "answer": 0,
+        "explanation": "The poem changes the tone of their interaction and helps end the extra homework.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "relationships"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Why does Anne call Kitty a friend even though Kitty is a diary?",
+        "options": [
+          "She imagines a confidante who can receive her private thoughts",
+          "She believes the diary attends her classes",
+          "She uses it to communicate with Mr Keesing",
+          "She thinks it will answer questions aloud"
+        ],
+        "answer": 0,
+        "explanation": "Anne personifies the diary as a friend because she wants someone to confide in.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personification",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which is the strongest reason Anne feels she needs to write her thoughts down?",
+        "options": [
+          "She cannot easily share everything with people around her",
+          "She wants to avoid learning mathematics",
+          "She has no family at all",
+          "She is required to write a newspaper column"
+        ],
+        "answer": 0,
+        "explanation": "She has acquaintances and family but feels she lacks a close friend to confide in fully.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotions",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "What does the chapter reveal about the difference between having acquaintances and having a confidante?",
+        "options": [
+          "Knowing people does not guarantee having someone to share private feelings with",
+          "Acquaintances are always more trustworthy than family",
+          "A confidante must be a teacher",
+          "A diary cannot be trusted"
+        ],
+        "answer": 0,
+        "explanation": "Anne explains that she has people around her but still misses a close, trusted listener.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "What is one reason Anne’s diary is distinctive as a personal document?",
+        "options": [
+          "It presents a young person’s own thoughts in a direct, individual voice",
+          "It is written by a school principal",
+          "It contains only dates and examination scores",
+          "It reports events from the perspective of every character"
+        ],
+        "answer": 0,
+        "explanation": "The diary gives Anne’s own view of her emotions, relationships and school life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "genre",
+          "style"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "Which detail best demonstrates Anne’s wit?",
+        "options": [
+          "Her poem turns a punishment about talking into a humorous animal story",
+          "She refuses to enter the classroom",
+          "She never answers her teacher",
+          "She asks for a new mathematics book"
+        ],
+        "answer": 0,
+        "explanation": "The animal poem transforms the teacher’s criticism into playful satire.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "humour",
+          "creativity"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "What does Anne’s reaction to the class laughing at the third essay title suggest?",
+        "options": [
+          "She recognises the humour and shares in it",
+          "She leaves the class at once",
+          "She refuses to work with Sanne",
+          "She accuses the class of cheating"
+        ],
+        "answer": 0,
+        "explanation": "Anne laughs too, while recognising that she needs an original solution.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "mood",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "What is the likely purpose of Mr Keesing’s essay assignments?",
+        "options": [
+          "To make Anne reflect on her talking and maintain classroom discipline",
+          "To teach her aviation",
+          "To test her knowledge of family history",
+          "To prepare her for a public speech"
+        ],
+        "answer": 0,
+        "explanation": "The assignments are given as a response to her talking during lessons.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "school",
+          "purpose"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Which quality does Anne show when she adapts to the third assignment?",
+        "options": [
+          "Resourcefulness",
+          "Apathy",
+          "Dishonesty",
+          "Stubborn silence"
+        ],
+        "answer": 0,
+        "explanation": "She finds a fresh approach and works with a friend to create a poem.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characterization",
+          "creativity"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "What does the ending of the classroom episode show?",
+        "options": [
+          "A difficult interaction can improve through humour and understanding",
+          "Teachers never accept student creativity",
+          "Anne stops writing altogether",
+          "The class becomes permanently divided"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing enjoys the poem and their interaction becomes more relaxed.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "resolution",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What does Anne’s diary reveal about adolescent experience?",
+        "options": [
+          "A young person can have complex feelings even when others may underestimate them",
+          "Teenagers have no reason to reflect",
+          "Only adults can understand emotions",
+          "School life contains no personal challenges"
+        ],
+        "answer": 0,
+        "explanation": "Anne’s reflections show a thoughtful inner life beyond the obvious facts of daily school.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "adolescence"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Why does Anne doubt that the world will be interested in a thirteen-year-old’s musings?",
+        "options": [
+          "She questions the importance others may assign to her private thoughts",
+          "She has been told her diary is illegal",
+          "She does not understand how to write",
+          "She plans to publish a maths textbook"
+        ],
+        "answer": 0,
+        "explanation": "The excerpt raises her uncertainty about whether anyone would care about a young girl’s reflections.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "reflection",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "What does Anne’s decision to keep writing suggest despite that doubt?",
+        "options": [
+          "She values having a space to express herself",
+          "She expects immediate fame",
+          "She wants to stop thinking about her life",
+          "She is writing solely for a teacher’s marks"
+        ],
+        "answer": 0,
+        "explanation": "She continues because the diary serves her as a friend and outlet for thoughts.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Which of the following is a fair inference about Anne’s personality?",
+        "options": [
+          "She is observant, expressive and capable of self-mockery",
+          "She never notices her own habits",
+          "She is unable to understand humour",
+          "She refuses to think about relationships"
+        ],
+        "answer": 0,
+        "explanation": "Her diary comments on people and herself, often with humour and reflection.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "What does Anne’s account of Mr Keesing show about a teacher’s response to student behaviour?",
+        "options": [
+          "A teacher can correct behaviour while also appreciating creativity",
+          "All punishments must be physical",
+          "A teacher should never use humour",
+          "Students can never influence a classroom relationship"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing first disciplines Anne but later appreciates her comic response.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "school",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "Why is Anne’s diary written in a conversational style?",
+        "options": [
+          "She imagines she is talking to a friend",
+          "She is writing a formal government document",
+          "She is copying a scientific experiment",
+          "She is addressing the entire school assembly"
+        ],
+        "answer": 0,
+        "explanation": "The friend-like address to Kitty encourages an intimate, conversational voice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which is the best explanation for Anne’s use of a named diary companion?",
+        "options": [
+          "It makes private writing feel like a two-way friendship",
+          "It proves that Kitty is a real person in the classroom",
+          "It allows Anne to avoid all family relationships",
+          "It is a rule imposed by Mr Keesing"
+        ],
+        "answer": 0,
+        "explanation": "Anne names the diary Kitty to create a sense of companionship.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "What is the role of contrast in the classroom episode?",
+        "options": [
+          "Mr Keesing’s strict punishment is met by Anne’s playful creativity",
+          "Anne’s quiet behaviour is contrasted with silence",
+          "The poem is contrasted with a map",
+          "The students’ holidays are contrasted with a storm"
+        ],
+        "answer": 0,
+        "explanation": "The increasingly strict-sounding essay topics contrast with Anne’s witty response.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary technique",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "What does the word ‘ingenuity’ most nearly mean?",
+        "options": [
+          "Inventiveness or cleverness",
+          "Anger without reason",
+          "A habit of silence",
+          "Physical strength"
+        ],
+        "answer": 0,
+        "explanation": "Anne needs ingenuity to find a fresh response to the repetitive essay assignments.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "creativity"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Why does Anne seek originality for the third essay?",
+        "options": [
+          "She has already written on similar chatterbox topics and wants a fresh approach",
+          "She does not know how to write a sentence",
+          "She wants to avoid the assignment entirely",
+          "She plans to submit her diary instead"
+        ],
+        "answer": 0,
+        "explanation": "After two assignments on talking, she looks for an original way to handle the third.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "creativity",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "Which of these best expresses the tone of the third-essay episode?",
+        "options": [
+          "Playful and humorous",
+          "Tragic throughout",
+          "Official and impersonal",
+          "Fearful without relief"
+        ],
+        "answer": 0,
+        "explanation": "The animal poem and the teacher’s reaction give the episode a playful tone.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "What does Anne’s response to Mr Keesing demonstrate about conflict?",
+        "options": [
+          "It can sometimes be eased through wit rather than confrontation",
+          "It can only be solved by leaving school",
+          "It requires students to remain silent forever",
+          "It always makes relationships worse"
+        ],
+        "answer": 0,
+        "explanation": "Her humorous essay turns the conflict into a lighter exchange.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which statement best reflects the chapter’s depiction of learning?",
+        "options": [
+          "Writing can help students express ideas and respond creatively",
+          "Learning consists only of memorising facts",
+          "Teachers cannot learn from students",
+          "Creative work has no place in school"
+        ],
+        "answer": 0,
+        "explanation": "Anne’s essay shows learning and expression can involve creativity as well as discipline.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "education",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Which event comes first in the teacher-essay sequence?",
+        "options": [
+          "Mr Keesing assigns ‘A Chatterbox’",
+          "Anne reads the poem to another class",
+          "Mr Keesing stops assigning extra work",
+          "Sanne helps with the third essay"
+        ],
+        "answer": 0,
+        "explanation": "The first essay comes before the second and third assignments and the eventual resolution.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "sequence",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "What happens after Anne’s first essay?",
+        "options": [
+          "Mr Keesing assigns a second essay after she continues talking",
+          "Anne immediately leaves school",
+          "Mr Keesing gives her a prize",
+          "Sanne writes the entire diary"
+        ],
+        "answer": 0,
+        "explanation": "Anne continues talking, so the teacher gives her a second essay assignment.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sequence",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What is the result of the third essay?",
+        "options": [
+          "Mr Keesing appreciates the poem and the extra punishments stop",
+          "Anne is expelled from school",
+          "The diary is confiscated forever",
+          "Anne stops attending mathematics lessons"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing shares the poem and later no longer assigns extra homework for her talking.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "sequence",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "What can readers infer about Mr Keesing from his eventual reaction?",
+        "options": [
+          "He is capable of recognising a clever joke",
+          "He dislikes every form of creativity",
+          "He refuses to read student work",
+          "He never changes his approach"
+        ],
+        "answer": 0,
+        "explanation": "He understands the poem’s humour and responds positively.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "inference",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which statement best summarises Anne’s school episode?",
+        "options": [
+          "A talkative student uses creative essays and a poem to turn a teacher’s punishment into humour",
+          "A student refuses every assignment and leaves school",
+          "A teacher writes a diary for a student",
+          "A class studies the history of flying"
+        ],
+        "answer": 0,
+        "explanation": "The episode follows the assignments, Anne’s witty response, and the teacher’s change in attitude.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "summary",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Why is Anne’s description of her mother relevant to her argument?",
+        "options": [
+          "She suggests talkativeness may run in the family",
+          "She blames her mother for the school’s rules",
+          "She says her mother teaches mathematics",
+          "She explains how to write poems"
+        ],
+        "answer": 0,
+        "explanation": "Anne uses her mother’s talkativeness to argue that the habit may be inherited.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "reasoning",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which concept appears in Anne’s explanation that talkativeness may be inherited?",
+        "options": [
+          "Inherited traits",
+          "Weather patterns",
+          "National anthems",
+          "Flight navigation"
+        ],
+        "answer": 0,
+        "explanation": "She argues that she may have inherited the trait from her mother.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "vocabulary",
+          "reasoning"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "What is meant by ‘a confidante’ in the context of Anne’s diary?",
+        "options": [
+          "Someone trusted with personal thoughts",
+          "A person who grades school essays",
+          "A stranger who delivers letters",
+          "A pilot in a storm"
+        ],
+        "answer": 0,
+        "explanation": "Anne wants a trusted listener for her private thoughts.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which phrase best captures Anne’s reason for choosing a diary as a friend?",
+        "options": [
+          "She can express herself without the difficulty she feels in confiding in others",
+          "She wants the diary to complete her homework",
+          "She expects the diary to reply aloud",
+          "She wants to avoid all reflection"
+        ],
+        "answer": 0,
+        "explanation": "The diary offers the confidential space she feels is missing from her relationships.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "What can a reader understand from the way Anne describes her teachers?",
+        "options": [
+          "She observes people closely and forms opinions about them",
+          "She never has any opinions",
+          "She thinks all teachers behave identically",
+          "She cannot recall school life"
+        ],
+        "answer": 0,
+        "explanation": "Her descriptions and comments show that she pays attention to others’ behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "inference",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Why does Anne’s diary feel personal rather than formal?",
+        "options": [
+          "She shares thoughts, uncertainty and emotions in her own voice",
+          "It uses only official school language",
+          "It is written in the form of a law",
+          "It contains only mathematical tables"
+        ],
+        "answer": 0,
+        "explanation": "The diary presents personal reflections instead of an official report.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "style",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which broader value can be drawn from Anne’s handling of the essay task?",
+        "options": [
+          "Creativity can help transform a difficult situation",
+          "Humour is never useful",
+          "Punishment always prevents learning",
+          "It is best to refuse every challenge"
+        ],
+        "answer": 0,
+        "explanation": "Anne uses originality and humour to respond to the assigned task.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "values",
+          "creativity"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "Which statement best captures the difference between Anne’s first and third essays?",
+        "options": [
+          "The first defends her talkativeness; the third uses a comic poem to address the same subject",
+          "The first is a poem about birds; the third is a diary",
+          "The first is about flying; the third is about farming",
+          "The first is written by Sanne and the third by Mr Keesing"
+        ],
+        "answer": 0,
+        "explanation": "The essays progress from a reasoned defence to a humorous verse response.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "comparison",
+          "school"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which feature of a diary is illustrated by Anne’s references to her changing feelings?",
+        "options": [
+          "It can record thoughts and personal development over time",
+          "It must contain only public announcements",
+          "It prevents a writer from reflecting",
+          "It is identical to a textbook"
+        ],
+        "answer": 0,
+        "explanation": "The diary captures a writer’s personal reflections as they develop.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "diary",
+          "purpose"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "What does the classroom story suggest about the relationship between rules and creativity?",
+        "options": [
+          "Rules can be upheld while creativity is still appreciated",
+          "Creative work should always be punished",
+          "Rules are unnecessary in any classroom",
+          "Students should never explain their actions"
+        ],
+        "answer": 0,
+        "explanation": "Mr Keesing enforces discipline but also appreciates Anne’s original poem.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "education",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Which answer best explains why Anne’s third essay becomes successful?",
+        "options": [
+          "She and Sanne find a witty and original way to approach the topic",
+          "They copy a standard textbook answer",
+          "They refuse to submit any work",
+          "They ask the class to write it for them"
+        ],
+        "answer": 0,
+        "explanation": "The poem is original and playful, and Mr Keesing understands the joke.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "creativity",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "What does the episode reveal about Mr Keesing’s ability to respond to humour?",
+        "options": [
+          "He can appreciate it and change his behaviour",
+          "He misunderstands every joke",
+          "He refuses to share the poem",
+          "He gives Anne the same punishment forever"
+        ],
+        "answer": 0,
+        "explanation": "He shares the poem and later jokes with Anne rather than continuing the punishments.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "Which is the best inference about why Anne writes openly to Kitty?",
+        "options": [
+          "She needs companionship and a way to organise her thoughts",
+          "Kitty can punish her for talking",
+          "She has been told to submit diary entries for marks",
+          "Kitty is her mathematics teacher"
+        ],
+        "answer": 0,
+        "explanation": "Anne uses Kitty as an imagined confidante to express her inner thoughts.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "inference",
+          "diary"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "What does Anne’s account suggest about the importance of being heard?",
+        "options": [
+          "Having a listener can help someone express thoughts they struggle to share",
+          "Only teachers should be heard",
+          "People never need to share feelings",
+          "Writing always makes problems disappear"
+        ],
+        "answer": 0,
+        "explanation": "Anne’s wish for a friend-like diary shows the value she places on having a listener.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "emotions"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which option best describes Anne’s response to repeated criticism?",
+        "options": [
+          "She reflects, explains herself and looks for an inventive solution",
+          "She abandons every task",
+          "She refuses to communicate",
+          "She agrees that she has no ability"
+        ],
+        "answer": 0,
+        "explanation": "She continues to write and eventually finds a fresh humorous approach.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "resilience"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Which theme connects Anne’s diary-writing and her classroom response?",
+        "options": [
+          "The importance of self-expression",
+          "The dangers of flying",
+          "The destructive power of hail",
+          "The end of apartheid"
+        ],
+        "answer": 0,
+        "explanation": "Anne uses writing both to express private thoughts and to answer a classroom challenge creatively.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "writing"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Why should Anne’s diary not be treated as a complete neutral report of every event?",
+        "options": [
+          "It is a personal account shaped by her own feelings and perspective",
+          "It contains no real experiences",
+          "It is written by an official historian",
+          "It includes every person’s thoughts equally"
+        ],
+        "answer": 0,
+        "explanation": "A diary reflects the writer’s individual viewpoint and feelings.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "genre",
+          "critical thinking"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "Which statement about Anne’s humour is most accurate?",
+        "options": [
+          "She uses it to make a point without direct confrontation",
+          "She uses it to avoid all written work",
+          "She only laughs at her friends",
+          "She uses it to make the class stop learning"
+        ],
+        "answer": 0,
+        "explanation": "Her comic poem responds to the teacher’s punishment in a clever, non-confrontational way.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "communication"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
