@@ -77,7 +77,7 @@
     document.querySelectorAll(".admin-tab-button").forEach(item=>item.addEventListener("click",()=>setTab(item.dataset.tab)));
     const validTabs=new Set(["overview","banks","classes","knowledge","students","leaderboard","access","operations"]);
     const syncTabFromHash=()=>{const name=location.hash.replace(/^#tab-/,"");if(validTabs.has(name))setTab(name);};
-    window.addEventListener("hashchange",syncTabFromHash);
+    if(typeof window.addEventListener==="function")window.addEventListener("hashchange",syncTabFromHash);
     syncTabFromHash();
   }
 
