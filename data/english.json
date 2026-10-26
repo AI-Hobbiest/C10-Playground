@@ -7251,7 +7251,12 @@
         ],
         "answer": 1,
         "explanation": "The baker remains part of community routines and festive occasions.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "culture"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -7264,7 +7269,12 @@
         ],
         "answer": 1,
         "explanation": "The account highlights Coorg’s natural beauty, coffee and culture.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "landscape"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -7277,7 +7287,1758 @@
         ],
         "answer": 0,
         "explanation": "The narrative introduces tea-growing traditions and landscapes in Assam.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "agriculture"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "In the Goa section, who is the traditional village baker called?",
+        "options": [
+          "Pader",
+          "Kodavu",
+          "Rajvir",
+          "Bodhidharma"
+        ],
+        "answer": 0,
+        "explanation": "The traditional village baker is known as a pader.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "A Baker from Goa",
+          "vocabulary"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the baker’s continued presence show about Goan culture?",
+        "options": [
+          "A food tradition remains woven into daily life and celebrations",
+          "Bread is no longer eaten",
+          "All traditional work has disappeared",
+          "Only imported food is used"
+        ],
+        "answer": 0,
+        "explanation": "The account shows that the baker remains important in community routines and festivities.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Which influence is associated with Goa’s bread-making tradition in the chapter?",
+        "options": [
+          "Portuguese",
+          "Chinese",
+          "Japanese",
+          "Russian"
+        ],
+        "answer": 0,
+        "explanation": "The account links Goan baking customs to the Portuguese presence.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "A Baker from Goa",
+          "history"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "What announces the baker’s arrival in the village?",
+        "options": [
+          "The sound of his bamboo staff",
+          "A bell from the church tower only",
+          "A loudspeaker on a bicycle",
+          "A train whistle"
+        ],
+        "answer": 0,
+        "explanation": "The baker’s arrival is announced by the distinctive sound of his bamboo staff.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "sensory detail"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "How is the baker’s arrival received by children?",
+        "options": [
+          "They eagerly gather for bread treats",
+          "They hide from him",
+          "They refuse to eat bread",
+          "They ask him to teach mathematics"
+        ],
+        "answer": 0,
+        "explanation": "Children are excited by the baker and the bread products he brings.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "A Baker from Goa",
+          "children"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Which item is especially associated with children in the Goa section?",
+        "options": [
+          "Bread-bangles",
+          "Tea leaves",
+          "Coffee beans",
+          "A silk flag"
+        ],
+        "answer": 0,
+        "explanation": "Children enjoy bread-bangles as a special treat.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "A Baker from Goa",
+          "food"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "Why is bread important in Goan celebrations in the account?",
+        "options": [
+          "It is part of marriages, festivals and other occasions",
+          "It is eaten only during droughts",
+          "It replaces every other food",
+          "It is forbidden at weddings"
+        ],
+        "answer": 0,
+        "explanation": "Bread is associated with festive occasions, including marriage celebrations.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "tradition"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "What does the description of bakers’ work suggest?",
+        "options": [
+          "It is a familiar and valued part of village life",
+          "It is unrelated to community customs",
+          "It is performed only once a year",
+          "It has no economic role"
+        ],
+        "answer": 0,
+        "explanation": "Bakers are presented as an established part of local community life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "community"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Which traditional clothing item is mentioned for the Goan baker?",
+        "options": [
+          "Kabai",
+          "Turban of gold",
+          "Kimono",
+          "A pilot’s uniform"
+        ],
+        "answer": 0,
+        "explanation": "The chapter refers to the baker’s traditional dress as a kabai.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "How did the baker keep track of a household’s purchases in the story?",
+        "options": [
+          "Through a monthly account",
+          "By collecting a passport",
+          "By using a railway ticket",
+          "By writing on tea leaves"
+        ],
+        "answer": 0,
+        "explanation": "The account describes a monthly payment or account system for bread purchases.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "daily life"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "What does the Goa narrative chiefly preserve?",
+        "options": [
+          "A memory of traditional baking and its social importance",
+          "A guide to modern aircraft",
+          "A description of desert farming",
+          "A political election campaign"
+        ],
+        "answer": 0,
+        "explanation": "It remembers a livelihood and custom central to village life and festivities.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "A Baker from Goa",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "Why might the baker have been a familiar figure to village children?",
+        "options": [
+          "He came regularly and brought bread treats",
+          "He visited only once in their lives",
+          "He taught them to fly",
+          "He guarded the village gates"
+        ],
+        "answer": 0,
+        "explanation": "His regular visits and the treats he brought made him a familiar presence.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "Which detail best shows that bread was more than an ordinary daily food?",
+        "options": [
+          "It was expected at important celebrations and ceremonies",
+          "It was used only as animal feed",
+          "It was never served to guests",
+          "It was eaten only by bakers"
+        ],
+        "answer": 0,
+        "explanation": "Bread had a role in social and festive occasions as well as daily life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "What is the main effect of the narrator’s nostalgic tone in the Goa section?",
+        "options": [
+          "It conveys affection for a remembered tradition",
+          "It presents baking as a scientific experiment",
+          "It creates fear of the baker",
+          "It argues that village customs have no value"
+        ],
+        "answer": 0,
+        "explanation": "The recollection values the baker’s place in the community and its past.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "Which word best describes the baker’s place in village society?",
+        "options": [
+          "Established",
+          "Unwelcome",
+          "Invisible",
+          "Temporary"
+        ],
+        "answer": 0,
+        "explanation": "The baker is a known and valued part of the community’s routine.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "A Baker from Goa",
+          "community"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which statement best captures the Goa section’s main idea?",
+        "options": [
+          "Traditional baking shaped daily life and celebrations",
+          "Bread was never important to families",
+          "The village had no cultural customs",
+          "All families made every baked item at home"
+        ],
+        "answer": 0,
+        "explanation": "The section emphasises the lasting presence of the baker and the cultural role of bread.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "A Baker from Goa",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does the account of the pader’s monthly accounts imply?",
+        "options": [
+          "The baker’s visits were regular enough to be part of household routine",
+          "The baker refused to sell goods on credit",
+          "Bread was sold only to tourists",
+          "No one knew the baker"
+        ],
+        "answer": 0,
+        "explanation": "The monthly account system suggests a recurring, familiar arrangement between baker and households.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "daily life"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Which best explains the link between bread and community identity in Goa?",
+        "options": [
+          "Shared food customs connect people to their traditions",
+          "Bread prevents all cultural change",
+          "Food has no social meaning",
+          "The baker’s work is unrelated to festivals"
+        ],
+        "answer": 0,
+        "explanation": "The chapter ties bread to customs, celebrations and shared memories.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "A Baker from Goa",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "What is Coorg also called?",
+        "options": [
+          "Kodagu",
+          "Assam",
+          "Mariani",
+          "Pretoria"
+        ],
+        "answer": 0,
+        "explanation": "Coorg is also known as Kodagu.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "place"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "In which Indian state is Coorg located?",
+        "options": [
+          "Karnataka",
+          "Assam",
+          "Goa",
+          "Kerala"
+        ],
+        "answer": 0,
+        "explanation": "The chapter identifies Coorg as a district of Karnataka.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "geography"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Which landscape is associated with Coorg in the chapter?",
+        "options": [
+          "Rolling hills and evergreen forests",
+          "A vast sandy desert",
+          "An ice-covered plain",
+          "A flat salt basin"
+        ],
+        "answer": 0,
+        "explanation": "The account highlights Coorg’s rolling hills, evergreen forests and natural beauty.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "landscape"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "Which crop or plantation is strongly associated with Coorg?",
+        "options": [
+          "Coffee",
+          "Tea only",
+          "Jute",
+          "Cotton only"
+        ],
+        "answer": 0,
+        "explanation": "Coffee plantations are a distinctive feature of Coorg’s landscape.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "agriculture"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "What kind of climate and scenery does the Coorg description evoke?",
+        "options": [
+          "Green, forested hills with a pleasant natural setting",
+          "A dry climate with no trees",
+          "A frozen mountain desert",
+          "A heavily industrialised plain"
+        ],
+        "answer": 0,
+        "explanation": "The chapter describes Coorg through lush forests, hills and a refreshing climate.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "landscape"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which group is associated with Coorg’s distinctive local culture?",
+        "options": [
+          "Kodavus",
+          "Paders",
+          "Mariners of the Arctic",
+          "Tea traders of China"
+        ],
+        "answer": 0,
+        "explanation": "The chapter refers to the Kodavu or Kodava people of Coorg.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "What is one characteristic linked to the Kodavu people in the account?",
+        "options": [
+          "A proud martial tradition",
+          "A tradition of building aircraft",
+          "A history of desert caravans",
+          "A rule that forbids coffee"
+        ],
+        "answer": 0,
+        "explanation": "The chapter describes the local community as having a martial tradition.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which branch of the Indian armed forces is especially linked with Coorg in the chapter?",
+        "options": [
+          "The Indian Army",
+          "The Coast Guard alone",
+          "The Merchant Navy only",
+          "The Air Force only"
+        ],
+        "answer": 0,
+        "explanation": "The account mentions Coorg’s martial associations and the distinguished Coorg Regiment in the Indian Army.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "history"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "Who is mentioned as a notable Coorgi military leader in the account?",
+        "options": [
+          "General Cariappa",
+          "Rajvir",
+          "Mr Keesing",
+          "Nelson Mandela"
+        ],
+        "answer": 0,
+        "explanation": "The chapter notes that General Cariappa, the first Indian chief of the Army, was a Coorgi.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "history"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which river is associated with the hills and forests of Coorg?",
+        "options": [
+          "Kaveri",
+          "Brahmaputra",
+          "Ganga only",
+          "Godavari"
+        ],
+        "answer": 0,
+        "explanation": "The Kaveri receives its waters from the hills and forests of Coorg.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "geography"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which activity is suitable for visitors to Coorg according to the chapter’s landscape description?",
+        "options": [
+          "Trekking and exploring the outdoors",
+          "Skiing on glaciers",
+          "Desert camel racing",
+          "Exploring polar ice caves"
+        ],
+        "answer": 0,
+        "explanation": "The natural landscape lends itself to outdoor adventures such as trekking.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "tourism"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Which animal is among the wildlife associated with Coorg?",
+        "options": [
+          "Elephants",
+          "Polar bears",
+          "Penguins",
+          "Camels as the only wildlife"
+        ],
+        "answer": 0,
+        "explanation": "The account names elephants among the wildlife associated with the region.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "wildlife"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "What do the forests of Coorg contribute to the region?",
+        "options": [
+          "Scenic beauty and the source of streams and river water",
+          "A complete absence of wildlife",
+          "Only industrial smoke",
+          "A desert climate"
+        ],
+        "answer": 0,
+        "explanation": "The forests are part of the region’s natural beauty and water system.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "environment"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "Which set of features best describes Coorg as presented in the chapter?",
+        "options": [
+          "Coffee plantations, evergreen forests and rolling hills",
+          "Salt flats, dunes and cactus",
+          "Factories, coal mines and a dry plain",
+          "Ice fields and glaciers"
+        ],
+        "answer": 0,
+        "explanation": "These features summarise the chapter’s description of Coorg’s scenery and agriculture.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "What is the effect of describing Coorg’s people alongside its natural landscape?",
+        "options": [
+          "It presents the place through both culture and environment",
+          "It suggests culture has nothing to do with place",
+          "It turns the account into a scientific formula",
+          "It omits any sense of local identity"
+        ],
+        "answer": 0,
+        "explanation": "The account combines landscape with the distinctive traditions of the local people.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which inference about Coorg tourism is most reasonable?",
+        "options": [
+          "Its forests, rivers and outdoor activities attract visitors",
+          "Visitors go only to study factory machinery",
+          "The region has no natural attractions",
+          "Tourism is unrelated to its landscape"
+        ],
+        "answer": 0,
+        "explanation": "The natural scenery and outdoor activities make Coorg attractive to visitors.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "What is tea’s role in the Assam section?",
+        "options": [
+          "It shapes the landscape and local work",
+          "It is grown only in Goa",
+          "It replaces all other vegetation in India",
+          "It is presented only as a medicine with no other use"
+        ],
+        "answer": 0,
+        "explanation": "Tea gardens and their workers are central to the account of Assam.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "agriculture"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Who are Rajvir and Pranjol in the Assam section?",
+        "options": [
+          "Friends travelling by train to Assam",
+          "Brothers who live in Coorg",
+          "Bakers in Goa",
+          "Two pilots in a storm"
+        ],
+        "answer": 0,
+        "explanation": "Rajvir is visiting his friend Pranjol in Assam during the vacation.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "Why has Rajvir come to Assam?",
+        "options": [
+          "To visit Pranjol and see the tea country",
+          "To join a bakery",
+          "To attend a military parade",
+          "To buy a new aeroplane"
+        ],
+        "answer": 0,
+        "explanation": "Pranjol has invited Rajvir to visit him in Assam.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "What does Pranjol do during the train journey while Rajvir watches the scenery?",
+        "options": [
+          "Reads a detective book",
+          "Writes a letter to God",
+          "Plucks tea leaves from the window",
+          "Practises flying"
+        ],
+        "answer": 0,
+        "explanation": "Pranjol returns to his detective book while Rajvir watches the landscape.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Why is Rajvir especially excited during the journey?",
+        "options": [
+          "He is seeing extensive tea gardens and learning about tea",
+          "He wants to leave Assam immediately",
+          "He is meeting Mr Keesing",
+          "He has found a missing compass"
+        ],
+        "answer": 0,
+        "explanation": "Rajvir is fascinated by the green tea gardens and the chance to see Assam’s tea country.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why is Pranjol less excited by the tea gardens than Rajvir?",
+        "options": [
+          "He was born and brought up on a tea plantation",
+          "He dislikes all plants",
+          "He has never seen a tea garden",
+          "He wants to become a baker"
+        ],
+        "answer": 0,
+        "explanation": "The tea gardens are familiar to Pranjol, who grew up on a plantation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "What is a prominent visual feature of the tea gardens Rajvir sees?",
+        "options": [
+          "Neatly pruned tea bushes in long rows",
+          "Rows of icebergs",
+          "Fields full of wheat only",
+          "Tall palm trees with no bushes"
+        ],
+        "answer": 0,
+        "explanation": "The tea bushes stretch in orderly, neatly pruned rows across the landscape.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does Rajvir notice beyond the tea bushes?",
+        "options": [
+          "Tall trees and rolling green landscape",
+          "A large snowfield",
+          "A desert caravan",
+          "A city skyline of skyscrapers only"
+        ],
+        "answer": 0,
+        "explanation": "He observes greenery, trees and hills around the plantations.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "setting"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "What is the Chinese legend about the discovery of tea?",
+        "options": [
+          "Leaves from twigs burning under a pot fell into boiling water and flavoured it",
+          "A farmer planted tea from a bird’s nest",
+          "A king found tea in a desert",
+          "A baker invented tea to sell with bread"
+        ],
+        "answer": 0,
+        "explanation": "In the legend, leaves fall from burning twigs into a Chinese emperor’s boiling water and give it flavour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "legend"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Who is the figure in the Indian legend about tea?",
+        "options": [
+          "Bodhidharma",
+          "General Cariappa",
+          "Mr Keesing",
+          "Sanne"
+        ],
+        "answer": 0,
+        "explanation": "The Indian legend told by Rajvir features Bodhidharma, an ancient Buddhist ascetic.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "legend"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "What happens in the Indian legend about Bodhidharma?",
+        "options": [
+          "Tea plants grow where he throws his eyelids after cutting them off to resist sleep",
+          "He invents the first aeroplane",
+          "He builds a bakery in Goa",
+          "He discovers coffee in Coorg"
+        ],
+        "answer": 0,
+        "explanation": "The legend says tea plants grew from Bodhidharma’s eyelids and their leaves banished sleep.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "legend"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "What is the function of the two tea legends in the chapter?",
+        "options": [
+          "They show that tea’s origin is explained through traditional stories",
+          "They prove the exact scientific discovery of tea",
+          "They describe the creation of coffee plantations",
+          "They explain the history of the Indian Army"
+        ],
+        "answer": 0,
+        "explanation": "Rajvir shares legends because the actual discoverer of tea is not known in the account.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "legend"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "According to the account, tea was first drunk in which country?",
+        "options": [
+          "China",
+          "Goa",
+          "Coorg",
+          "South Africa"
+        ],
+        "answer": 0,
+        "explanation": "The chapter says tea was first drunk in China as far back as 2700 B.C.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "history"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "When did tea reach Europe, according to the chapter?",
+        "options": [
+          "The sixteenth century",
+          "The tenth century",
+          "The twentieth century",
+          "The first century"
+        ],
+        "answer": 0,
+        "explanation": "The account says tea came to Europe in the sixteenth century.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "history"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "How was tea initially used in Europe according to the text?",
+        "options": [
+          "More as a medicine than as a beverage",
+          "Only as a cooking fuel",
+          "As a kind of cloth dye only",
+          "As a substitute for all food"
+        ],
+        "answer": 0,
+        "explanation": "The chapter notes that tea was first used more as medicine than as an everyday drink.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "history"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Which words does the chapter connect to Chinese origins?",
+        "options": [
+          "Tea, chai and chini",
+          "Pader, kabai and Kodagu",
+          "Dakota, runway and compass",
+          "Kitty, diary and chatterbox"
+        ],
+        "answer": 0,
+        "explanation": "Rajvir says that words such as tea, chai and chini come from Chinese.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "language"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "What is the ‘second-flush’ or sprouting period for tea?",
+        "options": [
+          "May to July",
+          "January to March",
+          "August to October",
+          "November to December"
+        ],
+        "answer": 0,
+        "explanation": "Pranjol’s father identifies the second-flush period as lasting from May to July.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "agriculture"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What is special about the second-flush period in Assam?",
+        "options": [
+          "It yields some of the best tea",
+          "No tea is harvested then",
+          "It is the only time tea plants grow",
+          "It is reserved for coffee harvests"
+        ],
+        "answer": 0,
+        "explanation": "The chapter says the second flush from May to July yields the best tea.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "agriculture"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Who receives the boys after the train journey to the tea estate?",
+        "options": [
+          "Mr and Mrs Barua",
+          "Mr Keesing and Sanne",
+          "Lencho and his wife",
+          "Mandela and his comrades"
+        ],
+        "answer": 0,
+        "explanation": "Pranjol’s parents, Mr and Mrs Barua, receive the boys and take them toward the estate.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "What is Pranjol’s father’s connection to tea?",
+        "options": [
+          "He manages a tea garden",
+          "He is the village baker",
+          "He is a pilot",
+          "He teaches mathematics"
+        ],
+        "answer": 0,
+        "explanation": "Mr Barua is the manager of a tea estate in Assam.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Why does Rajvir share stories about tea during the journey?",
+        "options": [
+          "He has read about tea and is excited to share what he knows",
+          "He wants to stop Pranjol from reading forever",
+          "He is delivering a school punishment",
+          "He is trying to sell tea leaves"
+        ],
+        "answer": 0,
+        "explanation": "Rajvir has prepared by reading about tea and shares information and legends with Pranjol.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "Which character is more curious about tea and its legends?",
+        "options": [
+          "Rajvir",
+          "Pranjol",
+          "Mr Keesing",
+          "The postmaster"
+        ],
+        "answer": 0,
+        "explanation": "Rajvir has read about tea and eagerly tells Pranjol what he knows.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What does Pranjol’s relaxed response to the gardens show?",
+        "options": [
+          "A familiar landscape may seem less remarkable to someone who grew up with it",
+          "He has never seen tea plants",
+          "He dislikes his home country",
+          "He wants to leave his father’s estate"
+        ],
+        "answer": 0,
+        "explanation": "The gardens are common to Pranjol because he was brought up on a plantation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which statement about tea’s origin is most accurate in the chapter?",
+        "options": [
+          "The discoverer is unknown and there are traditional legends",
+          "One legend is proven as a scientific fact",
+          "Tea was first discovered in Goa",
+          "Tea was invented by Mr Barua"
+        ],
+        "answer": 0,
+        "explanation": "Rajvir notes that the discoverer is not known and there are legends about tea’s origin.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "history"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "What is the best explanation of why the Goa section mentions marriage and festive food?",
+        "options": [
+          "To show how bread is embedded in social customs",
+          "To explain aircraft navigation",
+          "To compare Assam’s climate with Coorg",
+          "To teach a mathematics formula"
+        ],
+        "answer": 0,
+        "explanation": "Bread is shown as part of the food customs of celebrations and ceremonies.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Which statement about the baker’s regular visits is most reasonable?",
+        "options": [
+          "They became part of households’ familiar routines",
+          "They happened only once a year",
+          "They were unrelated to food customs",
+          "They were always unwelcome"
+        ],
+        "answer": 0,
+        "explanation": "The regular arrival and household accounts point to an established daily routine.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which of the following best describes the Coorg account?",
+        "options": [
+          "It combines natural scenery, local culture and outdoor activities",
+          "It describes only factories and urban traffic",
+          "It focuses on a single school punishment",
+          "It is a story about an airplane"
+        ],
+        "answer": 0,
+        "explanation": "The account joins geography and culture to give a glimpse of Coorg.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What makes Assam’s tea gardens a distinctive landscape in the chapter?",
+        "options": [
+          "Extensive ordered rows of tea bushes across green hills",
+          "Snow-covered peaks and glaciers",
+          "A dry plain with no trees",
+          "A coastline filled with salt pans"
+        ],
+        "answer": 0,
+        "explanation": "The gardens extend in neat rows and create a broad green landscape.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "landscape"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which statement best links the three sections of ‘Glimpses of India’?",
+        "options": [
+          "Each reveals a region through its customs, landscape or livelihood",
+          "All three are about one family",
+          "Each is a lesson in mathematics",
+          "All three reject regional traditions"
+        ],
+        "answer": 0,
+        "explanation": "The chapter presents the baker tradition in Goa, Coorg’s scenery and culture, and Assam’s tea industry.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "comparison",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "What does the Chinese tea legend describe?",
+        "options": [
+          "Tea leaves accidentally falling into a pot of boiling water",
+          "A farmer finding coffee in the forest",
+          "A baker inventing bread-bangles",
+          "A soldier planting trees in Coorg"
+        ],
+        "answer": 0,
+        "explanation": "In the legend, leaves from burning twigs fall into the emperor’s boiling water and add flavour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "legend"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "What does the Bodhidharma legend say the tea leaves could do?",
+        "options": [
+          "Help banish sleep",
+          "Make a person fly",
+          "Turn water into bread",
+          "Make forests disappear"
+        ],
+        "answer": 0,
+        "explanation": "In the legend, tea made from the plants helps people stay awake.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "legend"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Why does Rajvir’s preparation make his visit meaningful?",
+        "options": [
+          "He links what he has read to what he sees in the tea gardens",
+          "He refuses to look at the scenery",
+          "He ignores every fact about tea",
+          "He is only interested in the train timetable"
+        ],
+        "answer": 0,
+        "explanation": "His prior reading enriches his observations and prompts him to share information about tea.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "learning"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "Which conclusion about local traditions is most supported by the chapter?",
+        "options": [
+          "Food, work and landscape can preserve a region’s identity",
+          "Traditions never affect daily life",
+          "Only monuments can express culture",
+          "All Indian regions have identical customs"
+        ],
+        "answer": 0,
+        "explanation": "The examples show how local food customs, people and landscapes shape regional identity.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which word best describes Rajvir’s mood on seeing the tea plantations?",
+        "options": [
+          "Excited",
+          "Bored",
+          "Frightened",
+          "Angry"
+        ],
+        "answer": 0,
+        "explanation": "Rajvir is eager to see tea country and reacts with excitement to the gardens.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which item in the chapter signals continuity of Goan baking tradition?",
+        "options": [
+          "The pader’s regular rounds and place in celebrations",
+          "A new aircraft model",
+          "The national flag",
+          "A compass needle"
+        ],
+        "answer": 0,
+        "explanation": "The baker’s continuing visits and presence at important occasions illustrate cultural continuity.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "tradition"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "What does the description of Coorg’s river and forests indicate?",
+        "options": [
+          "The region’s natural features are connected through the water system",
+          "The region has no freshwater",
+          "The river originates in a bakery",
+          "Forests are unrelated to the river"
+        ],
+        "answer": 0,
+        "explanation": "The account connects the hills and forests of Coorg to the waters of the Kaveri.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "environment"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which statement best explains the role of coffee in the Coorg account?",
+        "options": [
+          "Coffee plantations are a key feature of the local landscape and economy",
+          "Coffee is mentioned as an import from Europe only",
+          "Coffee replaces all forest life",
+          "Coffee is grown only by the Goan baker"
+        ],
+        "answer": 0,
+        "explanation": "Coffee plantations help define Coorg’s landscape.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Coorg",
+          "agriculture"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What is a likely reason the chapter names the Kodavu community?",
+        "options": [
+          "To highlight the distinct culture and identity of Coorg’s people",
+          "To identify the tea gardens in Assam",
+          "To explain a Portuguese bread recipe",
+          "To describe a school teacher"
+        ],
+        "answer": 0,
+        "explanation": "The Kodavus’ local culture is a key part of the Coorg glimpse.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "How does the Assam section combine fact and traditional belief?",
+        "options": [
+          "It describes tea cultivation and also recounts legends of tea’s origin",
+          "It gives only supernatural stories and no landscape details",
+          "It describes baking methods and no tea",
+          "It explains aircraft engines through myths"
+        ],
+        "answer": 0,
+        "explanation": "The section combines real tea gardens and historical information with traditional legends.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "Tea from Assam",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which is the best overall summary of ‘Glimpses of India’?",
+        "options": [
+          "Three regional sketches present Goan baking, Coorg’s landscape and Assam’s tea country",
+          "A single continuous mystery about a missing letter",
+          "A guide to becoming a pilot",
+          "A biography of a schoolteacher"
+        ],
+        "answer": 0,
+        "explanation": "The chapter offers three separate glimpses of regional culture and landscape.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "summary",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Which cultural value is shown by the baker being present at family celebrations?",
+        "options": [
+          "Traditions can help connect people across generations",
+          "Food customs must be abandoned",
+          "Only outsiders can make bread",
+          "Festivals do not involve shared customs"
+        ],
+        "answer": 0,
+        "explanation": "The baker’s role in ceremonies shows how a food tradition can continue through generations.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "values"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which inference about tea plucking is supported by the Assam narrative?",
+        "options": [
+          "Tea production involves workers tending and harvesting the bushes",
+          "Tea grows without any cultivation",
+          "No one works in tea gardens",
+          "Tea is imported to Assam rather than grown there"
+        ],
+        "answer": 0,
+        "explanation": "The chapter shows tea bushes on plantations and refers to people plucking tea leaves.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "labour"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "Why is the train journey an effective setting for Rajvir and Pranjol’s conversation?",
+        "options": [
+          "The scenery gives Rajvir a reason to ask and share information about tea",
+          "It prevents them from seeing any gardens",
+          "It means they cannot talk",
+          "It changes the topic to a school examination"
+        ],
+        "answer": 0,
+        "explanation": "The journey through tea-growing country stimulates Rajvir’s observations and stories.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which detail best shows that the baker’s work was economically organised?",
+        "options": [
+          "Households kept monthly accounts with him",
+          "The baker gave away all goods for free",
+          "The baker never visited the same house twice",
+          "The village used tea leaves as money"
+        ],
+        "answer": 0,
+        "explanation": "Monthly accounts indicate an organised, ongoing exchange between baker and households.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "economy"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "What is the best reason the Coorg section includes outdoor adventure?",
+        "options": [
+          "It shows how the terrain offers experiences to visitors",
+          "It explains why bread is eaten at weddings",
+          "It tells the history of the Chinese emperor",
+          "It describes a teacher’s punishment"
+        ],
+        "answer": 0,
+        "explanation": "The hills, forests and rivers provide opportunities for outdoor activities.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "tourism"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Which feature distinguishes a legend from a verified historical account?",
+        "options": [
+          "A legend is a traditional story that may not be established as fact",
+          "A legend is always a scientific experiment",
+          "A legend is a monthly household account",
+          "A legend is a school timetable"
+        ],
+        "answer": 0,
+        "explanation": "The tea stories are presented as legends rather than confirmed explanations of discovery.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "What does the chapter encourage readers to appreciate?",
+        "options": [
+          "The variety of India’s regional traditions and landscapes",
+          "That every region looks and feels the same",
+          "That local food customs are unimportant",
+          "That landscapes matter only for industry"
+        ],
+        "answer": 0,
+        "explanation": "The three sections draw attention to differences in local culture, geography and work.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "Which statement best captures the difference between Rajvir and Pranjol during the journey?",
+        "options": [
+          "Rajvir is newly excited by the tea landscape while Pranjol is accustomed to it",
+          "Pranjol knows nothing about tea while Rajvir owns a tea estate",
+          "Rajvir wants to leave immediately while Pranjol is afraid",
+          "Both are uninterested in the landscape"
+        ],
+        "answer": 0,
+        "explanation": "The contrast arises because Rajvir is a visitor and Pranjol has grown up around tea plantations.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Why does the chapter mention that Assam has a large concentration of tea plantations?",
+        "options": [
+          "To establish the region’s importance to tea growing",
+          "To suggest tea is not grown there",
+          "To explain Coorg’s coffee crop",
+          "To describe the Portuguese arrival in Goa"
+        ],
+        "answer": 0,
+        "explanation": "The statement introduces Assam as a major tea-growing region.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "geography"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which statement about Coorg’s local identity is best supported?",
+        "options": [
+          "Its culture is associated with the Kodavus and a martial tradition",
+          "Its identity is based only on bread-making",
+          "Its people are described as tea workers from Assam",
+          "It has no historical associations"
+        ],
+        "answer": 0,
+        "explanation": "The account highlights Kodavu culture and its martial traditions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Which statement is directly supported by the chapter about the second-flush period?",
+        "options": [
+          "It runs from May to July and yields the best tea",
+          "It occurs only during winter",
+          "It is the season for harvesting coffee in Coorg",
+          "It means there is no leaf growth"
+        ],
+        "answer": 0,
+        "explanation": "Pranjol’s father describes the second flush as lasting May to July and producing the best tea.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Tea from Assam",
+          "agriculture"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which is the best way to read the three title segments together?",
+        "options": [
+          "As a series of brief regional portraits rather than one continuous plot",
+          "As a single chronological biography of one character",
+          "As a collection of grammar exercises only",
+          "As a scientific article about aircraft"
+        ],
+        "answer": 0,
+        "explanation": "Each section offers a distinct view of one place, custom or livelihood.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "genre"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "Which is a reasonable inference from the use of bread-bangles as a childhood treat?",
+        "options": [
+          "Food can carry memories and emotional associations",
+          "Children never eat bread",
+          "The baker only sells to adults",
+          "Bread is not part of local culture"
+        ],
+        "answer": 0,
+        "explanation": "The children’s excitement gives the baking tradition a personal and nostalgic dimension.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "A Baker from Goa",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "What do the Goa baker and Assam tea garden workers have in common in the chapter?",
+        "options": [
+          "Their work is closely associated with the identity and daily life of a region",
+          "They are both political leaders",
+          "They both teach school",
+          "They both fly aircraft"
+        ],
+        "answer": 0,
+        "explanation": "Both examples connect livelihoods and products to a region’s culture and economy.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "comparison",
+          "work"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "What is the strongest contrast between a legend and the plantation descriptions in the Assam section?",
+        "options": [
+          "Legends explain tea through traditional tales, while the plantation details show present-day cultivation",
+          "Both are only about Coorg’s forests",
+          "Plantation details are fictional poems",
+          "Legends explain only the baker’s clothing"
+        ],
+        "answer": 0,
+        "explanation": "The section moves between stories about discovery and observable tea-growing landscapes.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "Tea from Assam",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Which idea best explains the title ‘Glimpses of India’?",
+        "options": [
+          "Each section gives a brief look at a different part of India’s life and landscape",
+          "The chapter describes every Indian state in equal detail",
+          "The chapter tells one person’s complete life story",
+          "The title refers only to tea"
+        ],
+        "answer": 0,
+        "explanation": "The text presents three limited but revealing snapshots of regional culture and landscape.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Why is it useful to include people’s occupations in regional sketches?",
+        "options": [
+          "Work reveals how a community’s daily life and identity are organised",
+          "Occupations are unrelated to culture",
+          "Every occupation is identical across India",
+          "Work prevents a region from having traditions"
+        ],
+        "answer": 0,
+        "explanation": "The baker and plantation workers show the relationship between livelihood and regional culture.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "work"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "Which option is a suitable conclusion about the chapter’s presentation of India?",
+        "options": [
+          "Regional differences enrich the country’s cultural landscape",
+          "India has only one local tradition",
+          "Nature has no link to regional life",
+          "All traditional occupations have disappeared"
+        ],
+        "answer": 0,
+        "explanation": "The chapter’s different regional accounts reveal cultural and geographical variety.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "culture"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which type of bread treat is recalled as particularly popular with children?",
+        "options": [
+          "Bread-bangles",
+          "Tea cakes made from Assam leaves",
+          "Coffee beans",
+          "Rice grains"
+        ],
+        "answer": 0,
+        "explanation": "The Goa section recalls the children’s fondness for bread-bangles.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "A Baker from Goa",
+          "food"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "What is the main value of describing the pader’s daily routine?",
+        "options": [
+          "It shows how a traditional occupation becomes part of communal life",
+          "It proves baking is a modern invention",
+          "It says bread is never shared",
+          "It explains tea harvesting"
+        ],
+        "answer": 0,
+        "explanation": "The baker’s rounds and role at ceremonies make the occupation part of community life.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "A Baker from Goa",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Which aspect of Coorg’s description most directly connects nature with livelihood?",
+        "options": [
+          "Coffee plantations set among green hills and forests",
+          "A factory built beside a desert",
+          "A train station filled with passengers",
+          "A bakery selling bread-bangles"
+        ],
+        "answer": 0,
+        "explanation": "Coffee growing is presented alongside Coorg’s distinctive landscape.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "agriculture"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Why might the Kaveri be mentioned in a description of Coorg?",
+        "options": [
+          "The river receives water from the hills and forests of the region",
+          "The river is said to have discovered tea",
+          "It is the name of the local baker",
+          "It is the railway station where Rajvir arrives"
+        ],
+        "answer": 0,
+        "explanation": "The text connects Coorg’s hills and forests with the Kaveri’s waters.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "Coorg",
+          "geography"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "Which detail most strongly shows Assam’s importance to the tea industry?",
+        "options": [
+          "The wide stretches of tea gardens and the region’s high concentration of plantations",
+          "The story of the Goa baker",
+          "The Kodavu martial tradition",
+          "The pader’s monthly accounts"
+        ],
+        "answer": 0,
+        "explanation": "The extensive tea gardens establish Assam as a major tea-growing area.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "Tea from Assam",
+          "economy"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
