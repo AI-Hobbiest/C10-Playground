@@ -240,6 +240,8 @@ jobs:
         run: node tests/student-journey.test.js && node tests/quiz-engine.test.js
       - name: Test Science shared-engine migration
         run: node tests/science-integration.test.js
+      - name: Test Class 6 Science pilot bank
+        run: node tests/class6-science.test.js
       - name: Test profile model and privacy fields
         run: node tests/profile-model.test.js
       - name: Test profile page save/history and JSON backup
