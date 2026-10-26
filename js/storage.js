@@ -4,7 +4,25 @@
 
   const SCHEMA_VERSION = 1;
   const ROOT_KEY = "c10playground:store:v1:";
+  const OUTBOX_KEY = "c10playground:sync-outbox:v1";
   const memoryFallback = new Map();
+  let syncAdapter = null;
+  function readOutbox(){
+    try{return JSON.parse(globalThis.localStorage.getItem(OUTBOX_KEY)||"[]");}catch(_){return memoryFallback.has(OUTBOX_KEY)?JSON.parse(memoryFallback.get(OUTBOX_KEY)||"[]"):[];}
+  }
+  function writeOutbox(items){
+    const raw=JSON.stringify(items);
+    memoryFallback.set(OUTBOX_KEY,raw);
+    try{globalThis.localStorage.setItem(OUTBOX_KEY,raw);return true;}catch(_){return false;}
+  }
+  function enqueuePending(record){
+    const items=readOutbox();
+    const key=record.kind+":"+record.recordId;
+    const index=items.findIndex(item=>item.key===key);
+    const entry={key,kind:record.kind,recordId:record.recordId,schemaVersion:record.schemaVersion,updatedAt:record.updatedAt,data:clone(record.data)};
+    if(index>=0)items[index]=entry;else items.push(entry);
+    writeOutbox(items);
+  }
 
   const clone = value => value == null ? value : JSON.parse(JSON.stringify(value));
   const parse = value => {
@@ -82,7 +100,8 @@
       currentData = clone(data);
       const wrapped = envelope(currentData);
       const persisted = localSet(storageKey, JSON.stringify(wrapped));
-      return { persisted, schemaVersion: SCHEMA_VERSION, updatedAt: wrapped.updatedAt };
+      enqueuePending(wrapped);
+      return { persisted, schemaVersion: SCHEMA_VERSION, updatedAt: wrapped.updatedAt, syncPending: true };
     }
 
     function load() {
@@ -154,9 +173,30 @@
     });
   }
 
+  async function syncPending(){
+    const pending=readOutbox();
+    if(!syncAdapter||typeof syncAdapter.upsertRecord!=="function"){
+      return {configured:false,synced:0,pending:pending.length,message:"Local storage is active; no remote sync adapter is configured yet."};
+    }
+    const remaining=[];
+    let synced=0;
+    for(const item of pending){
+      try{await syncAdapter.upsertRecord(clone(item));synced++;}
+      catch(_){remaining.push(item);}
+    }
+    writeOutbox(remaining);
+    return {configured:true,synced,pending:remaining.length};
+  }
   window.C10Storage = Object.freeze({
     schemaVersion: SCHEMA_VERSION,
     createId: makeId,
-    createLocalStore
+    createLocalStore,
+    getSyncStatus:()=>({configured:!!syncAdapter,pending:readOutbox().length,adapter:syncAdapter?"configured":"local-only"}),
+    configureSyncAdapter(adapter){
+      if(adapter!==null&&(!adapter||typeof adapter.upsertRecord!=="function"))throw new TypeError("Sync adapter must expose upsertRecord(record).");
+      syncAdapter=adapter;
+      return {configured:!!syncAdapter};
+    },
+    syncPending
   });
 })();
