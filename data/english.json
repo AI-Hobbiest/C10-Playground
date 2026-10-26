@@ -25378,7 +25378,12 @@
         ],
         "answer": 0,
         "explanation": "The trees’ movement suggests a return to the natural world outside human spaces.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Trees",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -25391,7 +25396,12 @@
         ],
         "answer": 1,
         "explanation": "The imagery questions the separation and control imposed on nature.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Trees",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -25404,7 +25414,1758 @@
         ],
         "answer": 1,
         "explanation": "The scene is metaphorical and expresses the force of nature’s freedom.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "The Trees",
+          "poetry"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about trees indoors is supported by the poem?",
+        "options": [
+          "The poem imagines trees inside a house trying to move out into the forest.",
+          "trees growing inside a bus",
+          "trees being planted in a classroom garden",
+          "trees being cut down in a village"
+        ],
+        "answer": 0,
+        "explanation": "The central image presents trees as living beings that resist confinement.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "personification",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does trees indoors contribute to the poem’s meaning?",
+        "options": [
+          "The trees are content to remain indoors",
+          "The imagined movement of the trees suggests a struggle to regain natural freedom.",
+          "The poem describes only a gardening lesson",
+          "The trees are moving to a city"
+        ],
+        "answer": 1,
+        "explanation": "The central image presents trees as living beings that resist confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personification",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Which interpretation of trees indoors best fits the poem?",
+        "options": [
+          "The poem describes only a gardening lesson",
+          "The trees are content to remain indoors",
+          "The imagined movement of the trees suggests a struggle to regain natural freedom.",
+          "The trees are moving to a city"
+        ],
+        "answer": 2,
+        "explanation": "The central image presents trees as living beings that resist confinement.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "personification",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "Which revision note about trees indoors is accurate?",
+        "options": [
+          "trees being cut down in a village",
+          "trees growing inside a bus",
+          "trees being planted in a classroom garden",
+          "The poem imagines trees inside a house trying to move out into the forest."
+        ],
+        "answer": 3,
+        "explanation": "The central image presents trees as living beings that resist confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personification",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Why is trees indoors important to the poem’s effect?",
+        "options": [
+          "The imagined movement of the trees suggests a struggle to regain natural freedom.",
+          "The trees are content to remain indoors",
+          "The poem describes only a gardening lesson",
+          "The trees are moving to a city"
+        ],
+        "answer": 0,
+        "explanation": "The central image presents trees as living beings that resist confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personification",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Which detail about roots is supported by the poem?",
+        "options": [
+          "roots are used to repair a roof",
+          "The roots work through cracks in the veranda floor to free themselves.",
+          "roots grow into an aircraft",
+          "roots are planted in a school notebook"
+        ],
+        "answer": 1,
+        "explanation": "The roots symbolise the deep, difficult work required to break free.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "What does roots contribute to the poem’s meaning?",
+        "options": [
+          "The roots are decorating the room",
+          "The roots are described as motionless",
+          "The image makes the trees’ effort to escape seem deliberate and determined.",
+          "The roots have no role in the movement"
+        ],
+        "answer": 2,
+        "explanation": "The roots symbolise the deep, difficult work required to break free.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "Which interpretation of roots best fits the poem?",
+        "options": [
+          "The roots have no role in the movement",
+          "The roots are described as motionless",
+          "The roots are decorating the room",
+          "The image makes the trees’ effort to escape seem deliberate and determined."
+        ],
+        "answer": 3,
+        "explanation": "The roots symbolise the deep, difficult work required to break free.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Which revision note about roots is accurate?",
+        "options": [
+          "The roots work through cracks in the veranda floor to free themselves.",
+          "roots are used to repair a roof",
+          "roots grow into an aircraft",
+          "roots are planted in a school notebook"
+        ],
+        "answer": 0,
+        "explanation": "The roots symbolise the deep, difficult work required to break free.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Why is roots important to the poem’s effect?",
+        "options": [
+          "The roots are described as motionless",
+          "The image makes the trees’ effort to escape seem deliberate and determined.",
+          "The roots are decorating the room",
+          "The roots have no role in the movement"
+        ],
+        "answer": 1,
+        "explanation": "The roots symbolise the deep, difficult work required to break free.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "Which detail about leaves is supported by the poem?",
+        "options": [
+          "leaves fall from a bus window",
+          "leaves are folded into books",
+          "The leaves strain toward the glass as the trees move.",
+          "leaves are painted on the wall"
+        ],
+        "answer": 2,
+        "explanation": "The glass marks the separation between the confined trees and the open world.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does leaves contribute to the poem’s meaning?",
+        "options": [
+          "The leaves are used as tickets",
+          "The leaves have no contact with any boundary",
+          "The leaves show the trees are happy in the house",
+          "The image suggests pressure against a barrier between indoors and outdoors."
+        ],
+        "answer": 3,
+        "explanation": "The glass marks the separation between the confined trees and the open world.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "Which interpretation of leaves best fits the poem?",
+        "options": [
+          "The image suggests pressure against a barrier between indoors and outdoors.",
+          "The leaves have no contact with any boundary",
+          "The leaves show the trees are happy in the house",
+          "The leaves are used as tickets"
+        ],
+        "answer": 0,
+        "explanation": "The glass marks the separation between the confined trees and the open world.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which revision note about leaves is accurate?",
+        "options": [
+          "leaves are folded into books",
+          "The leaves strain toward the glass as the trees move.",
+          "leaves fall from a bus window",
+          "leaves are painted on the wall"
+        ],
+        "answer": 1,
+        "explanation": "The glass marks the separation between the confined trees and the open world.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "Why is leaves important to the poem’s effect?",
+        "options": [
+          "The leaves show the trees are happy in the house",
+          "The leaves have no contact with any boundary",
+          "The image suggests pressure against a barrier between indoors and outdoors.",
+          "The leaves are used as tickets"
+        ],
+        "answer": 2,
+        "explanation": "The glass marks the separation between the confined trees and the open world.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which detail about twigs is supported by the poem?",
+        "options": [
+          "the twigs are playing with birds",
+          "the twigs are made of metal",
+          "the twigs are drinking water",
+          "The twigs are described as stiff from the effort of moving."
+        ],
+        "answer": 3,
+        "explanation": "The description personifies the trees by giving their movement visible effort.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "personification",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does twigs contribute to the poem’s meaning?",
+        "options": [
+          "The physical strain makes the trees’ escape seem active and difficult.",
+          "The twigs are relaxed because nothing is moving",
+          "The twigs are only decorations",
+          "The twigs are unrelated to the trees"
+        ],
+        "answer": 0,
+        "explanation": "The description personifies the trees by giving their movement visible effort.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personification",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Which interpretation of twigs best fits the poem?",
+        "options": [
+          "The twigs are relaxed because nothing is moving",
+          "The physical strain makes the trees’ escape seem active and difficult.",
+          "The twigs are only decorations",
+          "The twigs are unrelated to the trees"
+        ],
+        "answer": 1,
+        "explanation": "The description personifies the trees by giving their movement visible effort.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "personification",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which revision note about twigs is accurate?",
+        "options": [
+          "the twigs are drinking water",
+          "the twigs are made of metal",
+          "The twigs are described as stiff from the effort of moving.",
+          "the twigs are playing with birds"
+        ],
+        "answer": 2,
+        "explanation": "The description personifies the trees by giving their movement visible effort.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personification",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "Why is twigs important to the poem’s effect?",
+        "options": [
+          "The twigs are unrelated to the trees",
+          "The twigs are relaxed because nothing is moving",
+          "The twigs are only decorations",
+          "The physical strain makes the trees’ escape seem active and difficult."
+        ],
+        "answer": 3,
+        "explanation": "The description personifies the trees by giving their movement visible effort.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "personification",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Which detail about the forest is supported by the poem?",
+        "options": [
+          "The forest has been empty of trees in the poem’s imagined scene.",
+          "the forest is crowded with people",
+          "the forest is a school playground",
+          "the forest has no ground"
+        ],
+        "answer": 0,
+        "explanation": "The forest’s emptiness emphasises the unnatural situation that the poem reverses.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What does the forest contribute to the poem’s meaning?",
+        "options": [
+          "The forest is full of trees already",
+          "The emptiness makes the trees’ return seem necessary and restorative.",
+          "The forest has been replaced by a city",
+          "The forest is described as a bedroom"
+        ],
+        "answer": 1,
+        "explanation": "The forest’s emptiness emphasises the unnatural situation that the poem reverses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of the forest best fits the poem?",
+        "options": [
+          "The forest has been replaced by a city",
+          "The forest is full of trees already",
+          "The emptiness makes the trees’ return seem necessary and restorative.",
+          "The forest is described as a bedroom"
+        ],
+        "answer": 2,
+        "explanation": "The forest’s emptiness emphasises the unnatural situation that the poem reverses.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which revision note about the forest is accurate?",
+        "options": [
+          "the forest has no ground",
+          "the forest is crowded with people",
+          "the forest is a school playground",
+          "The forest has been empty of trees in the poem’s imagined scene."
+        ],
+        "answer": 3,
+        "explanation": "The forest’s emptiness emphasises the unnatural situation that the poem reverses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Why is the forest important to the poem’s effect?",
+        "options": [
+          "The emptiness makes the trees’ return seem necessary and restorative.",
+          "The forest is full of trees already",
+          "The forest has been replaced by a city",
+          "The forest is described as a bedroom"
+        ],
+        "answer": 0,
+        "explanation": "The forest’s emptiness emphasises the unnatural situation that the poem reverses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which detail about night-time movement is supported by the poem?",
+        "options": [
+          "they only move at midday in sunlight",
+          "The trees move outward during the night.",
+          "they travel by bus in the morning",
+          "they never move at all"
+        ],
+        "answer": 1,
+        "explanation": "The night setting supports the poem’s restrained, determined movement.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "setting",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What does night-time movement contribute to the poem’s meaning?",
+        "options": [
+          "The trees are watched by a crowd",
+          "The movement is a public parade",
+          "Night gives the escape a quiet, secretive atmosphere.",
+          "The poem focuses on a daytime lesson"
+        ],
+        "answer": 2,
+        "explanation": "The night setting supports the poem’s restrained, determined movement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which interpretation of night-time movement best fits the poem?",
+        "options": [
+          "The poem focuses on a daytime lesson",
+          "The movement is a public parade",
+          "The trees are watched by a crowd",
+          "Night gives the escape a quiet, secretive atmosphere."
+        ],
+        "answer": 3,
+        "explanation": "The night setting supports the poem’s restrained, determined movement.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "setting",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which revision note about night-time movement is accurate?",
+        "options": [
+          "The trees move outward during the night.",
+          "they only move at midday in sunlight",
+          "they travel by bus in the morning",
+          "they never move at all"
+        ],
+        "answer": 0,
+        "explanation": "The night setting supports the poem’s restrained, determined movement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is night-time movement important to the poem’s effect?",
+        "options": [
+          "The movement is a public parade",
+          "Night gives the escape a quiet, secretive atmosphere.",
+          "The trees are watched by a crowd",
+          "The poem focuses on a daytime lesson"
+        ],
+        "answer": 1,
+        "explanation": "The night setting supports the poem’s restrained, determined movement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Which detail about glass is supported by the poem?",
+        "options": [
+          "the glass becomes a mirror that never changes",
+          "the glass turns into water",
+          "The glass is described as breaking as the trees move out.",
+          "the glass is carried away by birds"
+        ],
+        "answer": 2,
+        "explanation": "The broken glass marks a decisive crossing from indoor space to freedom.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "symbolism",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does glass contribute to the poem’s meaning?",
+        "options": [
+          "The event takes place in a railway carriage",
+          "The barrier becomes stronger",
+          "The trees return to their pots",
+          "The breaking barrier signals the end of artificial confinement."
+        ],
+        "answer": 3,
+        "explanation": "The broken glass marks a decisive crossing from indoor space to freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "Which interpretation of glass best fits the poem?",
+        "options": [
+          "The breaking barrier signals the end of artificial confinement.",
+          "The barrier becomes stronger",
+          "The trees return to their pots",
+          "The event takes place in a railway carriage"
+        ],
+        "answer": 0,
+        "explanation": "The broken glass marks a decisive crossing from indoor space to freedom.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which revision note about glass is accurate?",
+        "options": [
+          "the glass turns into water",
+          "The glass is described as breaking as the trees move out.",
+          "the glass becomes a mirror that never changes",
+          "the glass is carried away by birds"
+        ],
+        "answer": 1,
+        "explanation": "The broken glass marks a decisive crossing from indoor space to freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "Why is glass important to the poem’s effect?",
+        "options": [
+          "The trees return to their pots",
+          "The barrier becomes stronger",
+          "The breaking barrier signals the end of artificial confinement.",
+          "The event takes place in a railway carriage"
+        ],
+        "answer": 2,
+        "explanation": "The broken glass marks a decisive crossing from indoor space to freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Which detail about leaves and lichen is supported by the poem?",
+        "options": [
+          "the poem describes a perfume shop",
+          "the smell of petrol fills the room",
+          "the scent of bread is the only image",
+          "The smell of leaves and lichen is associated with the trees’ movement."
+        ],
+        "answer": 3,
+        "explanation": "The natural smell strengthens the sense of trees moving back into their environment.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "sensory imagery",
+          "nature"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What does leaves and lichen contribute to the poem’s meaning?",
+        "options": [
+          "Sensory detail makes nature seem to enter and reclaim the built space.",
+          "Nature is completely absent",
+          "The smell proves the scene is a market",
+          "The detail is about a cooking lesson"
+        ],
+        "answer": 0,
+        "explanation": "The natural smell strengthens the sense of trees moving back into their environment.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sensory imagery",
+          "nature"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Which interpretation of leaves and lichen best fits the poem?",
+        "options": [
+          "Nature is completely absent",
+          "Sensory detail makes nature seem to enter and reclaim the built space.",
+          "The smell proves the scene is a market",
+          "The detail is about a cooking lesson"
+        ],
+        "answer": 1,
+        "explanation": "The natural smell strengthens the sense of trees moving back into their environment.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "sensory imagery",
+          "nature"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Which revision note about leaves and lichen is accurate?",
+        "options": [
+          "the scent of bread is the only image",
+          "the smell of petrol fills the room",
+          "The smell of leaves and lichen is associated with the trees’ movement.",
+          "the poem describes a perfume shop"
+        ],
+        "answer": 2,
+        "explanation": "The natural smell strengthens the sense of trees moving back into their environment.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sensory imagery",
+          "nature"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why is leaves and lichen important to the poem’s effect?",
+        "options": [
+          "The detail is about a cooking lesson",
+          "Nature is completely absent",
+          "The smell proves the scene is a market",
+          "Sensory detail makes nature seem to enter and reclaim the built space."
+        ],
+        "answer": 3,
+        "explanation": "The natural smell strengthens the sense of trees moving back into their environment.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sensory imagery",
+          "nature"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which detail about the speaker indoors is supported by the poem?",
+        "options": [
+          "The speaker observes the trees’ movement from inside the house.",
+          "the speaker directs a bus",
+          "the speaker is a tree keeper in a forest",
+          "the speaker is flying an aircraft"
+        ],
+        "answer": 0,
+        "explanation": "The speaker’s position indoors contrasts with the trees’ movement outward.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "speaker",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does the speaker indoors contribute to the poem’s meaning?",
+        "options": [
+          "The speaker never notices nature",
+          "The indoor viewpoint highlights the boundary between human space and nature.",
+          "The poem has no observing voice",
+          "The speaker is outside throughout"
+        ],
+        "answer": 1,
+        "explanation": "The speaker’s position indoors contrasts with the trees’ movement outward.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which interpretation of the speaker indoors best fits the poem?",
+        "options": [
+          "The poem has no observing voice",
+          "The speaker never notices nature",
+          "The indoor viewpoint highlights the boundary between human space and nature.",
+          "The speaker is outside throughout"
+        ],
+        "answer": 2,
+        "explanation": "The speaker’s position indoors contrasts with the trees’ movement outward.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "speaker",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which revision note about the speaker indoors is accurate?",
+        "options": [
+          "the speaker is flying an aircraft",
+          "the speaker directs a bus",
+          "the speaker is a tree keeper in a forest",
+          "The speaker observes the trees’ movement from inside the house."
+        ],
+        "answer": 3,
+        "explanation": "The speaker’s position indoors contrasts with the trees’ movement outward.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "Why is the speaker indoors important to the poem’s effect?",
+        "options": [
+          "The indoor viewpoint highlights the boundary between human space and nature.",
+          "The speaker never notices nature",
+          "The poem has no observing voice",
+          "The speaker is outside throughout"
+        ],
+        "answer": 0,
+        "explanation": "The speaker’s position indoors contrasts with the trees’ movement outward.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about the moon is supported by the poem?",
+        "options": [
+          "the moon is described as a bus",
+          "The poem ends with an image of the moon as a broken mirror.",
+          "the moon becomes a bird",
+          "the moon is a tea cup"
+        ],
+        "answer": 1,
+        "explanation": "The broken-mirror comparison gives the ending a vivid visual image.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "simile",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the moon contribute to the poem’s meaning?",
+        "options": [
+          "The moon is unrelated to the ending",
+          "The moon literally breaks into pieces",
+          "The image makes the moonlight appear fragmented among the trees.",
+          "The moon is inside the house"
+        ],
+        "answer": 2,
+        "explanation": "The broken-mirror comparison gives the ending a vivid visual image.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "simile",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Which interpretation of the moon best fits the poem?",
+        "options": [
+          "The moon is inside the house",
+          "The moon literally breaks into pieces",
+          "The moon is unrelated to the ending",
+          "The image makes the moonlight appear fragmented among the trees."
+        ],
+        "answer": 3,
+        "explanation": "The broken-mirror comparison gives the ending a vivid visual image.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "simile",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "Which revision note about the moon is accurate?",
+        "options": [
+          "The poem ends with an image of the moon as a broken mirror.",
+          "the moon is described as a bus",
+          "the moon becomes a bird",
+          "the moon is a tea cup"
+        ],
+        "answer": 0,
+        "explanation": "The broken-mirror comparison gives the ending a vivid visual image.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "simile",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Why is the moon important to the poem’s effect?",
+        "options": [
+          "The moon literally breaks into pieces",
+          "The image makes the moonlight appear fragmented among the trees.",
+          "The moon is unrelated to the ending",
+          "The moon is inside the house"
+        ],
+        "answer": 1,
+        "explanation": "The broken-mirror comparison gives the ending a vivid visual image.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "simile",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Which detail about the tallest oak is supported by the poem?",
+        "options": [
+          "the oak is inside a suitcase",
+          "the oak is used as a school desk",
+          "Pieces of moonlight appear in the crown of the tallest oak.",
+          "the oak is a ship at the harbour"
+        ],
+        "answer": 2,
+        "explanation": "The oak’s crown suggests the trees are once again part of the open forest.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does the tallest oak contribute to the poem’s meaning?",
+        "options": [
+          "The oak represents an aircraft",
+          "The tree remains locked indoors",
+          "The moonlight is seen only on a wall",
+          "The final image links the freed trees with the natural world outside."
+        ],
+        "answer": 3,
+        "explanation": "The oak’s crown suggests the trees are once again part of the open forest.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Which interpretation of the tallest oak best fits the poem?",
+        "options": [
+          "The final image links the freed trees with the natural world outside.",
+          "The tree remains locked indoors",
+          "The moonlight is seen only on a wall",
+          "The oak represents an aircraft"
+        ],
+        "answer": 0,
+        "explanation": "The oak’s crown suggests the trees are once again part of the open forest.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which revision note about the tallest oak is accurate?",
+        "options": [
+          "the oak is used as a school desk",
+          "Pieces of moonlight appear in the crown of the tallest oak.",
+          "the oak is inside a suitcase",
+          "the oak is a ship at the harbour"
+        ],
+        "answer": 1,
+        "explanation": "The oak’s crown suggests the trees are once again part of the open forest.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Why is the tallest oak important to the poem’s effect?",
+        "options": [
+          "The moonlight is seen only on a wall",
+          "The tree remains locked indoors",
+          "The final image links the freed trees with the natural world outside.",
+          "The oak represents an aircraft"
+        ],
+        "answer": 2,
+        "explanation": "The oak’s crown suggests the trees are once again part of the open forest.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "Which detail about personification is supported by the poem?",
+        "options": [
+          "the poem denies that trees can move",
+          "the trees are described only as objects without action",
+          "the trees speak in a school debate",
+          "The poem gives the trees human-like effort and intentions."
+        ],
+        "answer": 3,
+        "explanation": "Human-like actions make the trees’ desire for freedom more vivid.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What does personification contribute to the poem’s meaning?",
+        "options": [
+          "Personification turns the trees’ movement into a struggle for release.",
+          "The trees are treated as lifeless furniture",
+          "The poem is a scientific diagram",
+          "The personification is used for the fog"
+        ],
+        "answer": 0,
+        "explanation": "Human-like actions make the trees’ desire for freedom more vivid.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which interpretation of personification best fits the poem?",
+        "options": [
+          "The trees are treated as lifeless furniture",
+          "Personification turns the trees’ movement into a struggle for release.",
+          "The poem is a scientific diagram",
+          "The personification is used for the fog"
+        ],
+        "answer": 1,
+        "explanation": "Human-like actions make the trees’ desire for freedom more vivid.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which revision note about personification is accurate?",
+        "options": [
+          "the trees speak in a school debate",
+          "the trees are described only as objects without action",
+          "The poem gives the trees human-like effort and intentions.",
+          "the poem denies that trees can move"
+        ],
+        "answer": 2,
+        "explanation": "Human-like actions make the trees’ desire for freedom more vivid.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Why is personification important to the poem’s effect?",
+        "options": [
+          "The personification is used for the fog",
+          "The trees are treated as lifeless furniture",
+          "The poem is a scientific diagram",
+          "Personification turns the trees’ movement into a struggle for release."
+        ],
+        "answer": 3,
+        "explanation": "Human-like actions make the trees’ desire for freedom more vivid.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which detail about confinement is supported by the poem?",
+        "options": [
+          "The trees’ indoor location is presented as unnatural or restrictive.",
+          "the house is their ideal habitat",
+          "the poem celebrates cutting forests down",
+          "the trees are described as houseplants that never move"
+        ],
+        "answer": 0,
+        "explanation": "The contrast between a house and forest supports the theme of natural freedom.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What does confinement contribute to the poem’s meaning?",
+        "options": [
+          "The poem suggests all trees belong indoors",
+          "The movement criticises separating living nature from its environment.",
+          "Confinement is shown as harmless",
+          "The trees have no connection to freedom"
+        ],
+        "answer": 1,
+        "explanation": "The contrast between a house and forest supports the theme of natural freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which interpretation of confinement best fits the poem?",
+        "options": [
+          "Confinement is shown as harmless",
+          "The poem suggests all trees belong indoors",
+          "The movement criticises separating living nature from its environment.",
+          "The trees have no connection to freedom"
+        ],
+        "answer": 2,
+        "explanation": "The contrast between a house and forest supports the theme of natural freedom.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which revision note about confinement is accurate?",
+        "options": [
+          "the trees are described as houseplants that never move",
+          "the house is their ideal habitat",
+          "the poem celebrates cutting forests down",
+          "The trees’ indoor location is presented as unnatural or restrictive."
+        ],
+        "answer": 3,
+        "explanation": "The contrast between a house and forest supports the theme of natural freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Why is confinement important to the poem’s effect?",
+        "options": [
+          "The movement criticises separating living nature from its environment.",
+          "The poem suggests all trees belong indoors",
+          "Confinement is shown as harmless",
+          "The trees have no connection to freedom"
+        ],
+        "answer": 0,
+        "explanation": "The contrast between a house and forest supports the theme of natural freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Which detail about freedom is supported by the poem?",
+        "options": [
+          "they seek a smaller cage",
+          "The trees’ movement toward the forest suggests a return to freedom.",
+          "they wish to become furniture",
+          "they choose to avoid nature"
+        ],
+        "answer": 1,
+        "explanation": "The poem associates the forest with the trees’ proper, open setting.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "What does freedom contribute to the poem’s meaning?",
+        "options": [
+          "The trees want to remain confined",
+          "Freedom is described as staying behind glass",
+          "Freedom means being able to grow and live in a suitable natural environment.",
+          "The poem is about a locked school"
+        ],
+        "answer": 2,
+        "explanation": "The poem associates the forest with the trees’ proper, open setting.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of freedom best fits the poem?",
+        "options": [
+          "The poem is about a locked school",
+          "Freedom is described as staying behind glass",
+          "The trees want to remain confined",
+          "Freedom means being able to grow and live in a suitable natural environment."
+        ],
+        "answer": 3,
+        "explanation": "The poem associates the forest with the trees’ proper, open setting.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which revision note about freedom is accurate?",
+        "options": [
+          "The trees’ movement toward the forest suggests a return to freedom.",
+          "they seek a smaller cage",
+          "they wish to become furniture",
+          "they choose to avoid nature"
+        ],
+        "answer": 0,
+        "explanation": "The poem associates the forest with the trees’ proper, open setting.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Why is freedom important to the poem’s effect?",
+        "options": [
+          "Freedom is described as staying behind glass",
+          "Freedom means being able to grow and live in a suitable natural environment.",
+          "The trees want to remain confined",
+          "The poem is about a locked school"
+        ],
+        "answer": 1,
+        "explanation": "The poem associates the forest with the trees’ proper, open setting.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which detail about natural environment is supported by the poem?",
+        "options": [
+          "a railway station",
+          "a kitchen",
+          "The forest is the natural place toward which the trees move.",
+          "a concrete classroom"
+        ],
+        "answer": 2,
+        "explanation": "The movement restores a connection between trees and their surroundings.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What does natural environment contribute to the poem’s meaning?",
+        "options": [
+          "The natural setting is a human-made room",
+          "The trees belong in a cupboard",
+          "The forest is irrelevant",
+          "The poem implies that living things belong in an environment where they can grow naturally."
+        ],
+        "answer": 3,
+        "explanation": "The movement restores a connection between trees and their surroundings.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which interpretation of natural environment best fits the poem?",
+        "options": [
+          "The poem implies that living things belong in an environment where they can grow naturally.",
+          "The trees belong in a cupboard",
+          "The forest is irrelevant",
+          "The natural setting is a human-made room"
+        ],
+        "answer": 0,
+        "explanation": "The movement restores a connection between trees and their surroundings.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which revision note about natural environment is accurate?",
+        "options": [
+          "a kitchen",
+          "The forest is the natural place toward which the trees move.",
+          "a railway station",
+          "a concrete classroom"
+        ],
+        "answer": 1,
+        "explanation": "The movement restores a connection between trees and their surroundings.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is natural environment important to the poem’s effect?",
+        "options": [
+          "The forest is irrelevant",
+          "The trees belong in a cupboard",
+          "The poem implies that living things belong in an environment where they can grow naturally.",
+          "The natural setting is a human-made room"
+        ],
+        "answer": 2,
+        "explanation": "The movement restores a connection between trees and their surroundings.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which detail about barriers is supported by the poem?",
+        "options": [
+          "a road sign",
+          "a bridge between two cities",
+          "a school competition",
+          "The house and glass represent barriers between nature and the outside world."
+        ],
+        "answer": 3,
+        "explanation": "The poem uses physical boundaries to suggest the restriction of nature.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "symbolism",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What does barriers contribute to the poem’s meaning?",
+        "options": [
+          "The breaking of the barrier symbolises a change in the trees’ situation.",
+          "The barriers provide unlimited freedom",
+          "The house is a forest",
+          "The glass is a character"
+        ],
+        "answer": 0,
+        "explanation": "The poem uses physical boundaries to suggest the restriction of nature.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which interpretation of barriers best fits the poem?",
+        "options": [
+          "The barriers provide unlimited freedom",
+          "The breaking of the barrier symbolises a change in the trees’ situation.",
+          "The house is a forest",
+          "The glass is a character"
+        ],
+        "answer": 1,
+        "explanation": "The poem uses physical boundaries to suggest the restriction of nature.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which revision note about barriers is accurate?",
+        "options": [
+          "a school competition",
+          "a bridge between two cities",
+          "The house and glass represent barriers between nature and the outside world.",
+          "a road sign"
+        ],
+        "answer": 2,
+        "explanation": "The poem uses physical boundaries to suggest the restriction of nature.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Why is barriers important to the poem’s effect?",
+        "options": [
+          "The glass is a character",
+          "The barriers provide unlimited freedom",
+          "The house is a forest",
+          "The breaking of the barrier symbolises a change in the trees’ situation."
+        ],
+        "answer": 3,
+        "explanation": "The poem uses physical boundaries to suggest the restriction of nature.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which detail about movement is supported by the poem?",
+        "options": [
+          "The poem describes roots, leaves, twigs and branches as part of the trees’ movement.",
+          "the trees remain fixed in their pots",
+          "only animals move",
+          "the speaker rearranges chairs"
+        ],
+        "answer": 0,
+        "explanation": "The physical details turn the trees’ departure into a vivid scene.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "What does movement contribute to the poem’s meaning?",
+        "options": [
+          "The poem contains no physical action",
+          "The detailed movement makes the escape seem gradual but determined.",
+          "The trees are being painted",
+          "The movement is a bus journey"
+        ],
+        "answer": 1,
+        "explanation": "The physical details turn the trees’ departure into a vivid scene.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which interpretation of movement best fits the poem?",
+        "options": [
+          "The trees are being painted",
+          "The poem contains no physical action",
+          "The detailed movement makes the escape seem gradual but determined.",
+          "The movement is a bus journey"
+        ],
+        "answer": 2,
+        "explanation": "The physical details turn the trees’ departure into a vivid scene.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which revision note about movement is accurate?",
+        "options": [
+          "the speaker rearranges chairs",
+          "the trees remain fixed in their pots",
+          "only animals move",
+          "The poem describes roots, leaves, twigs and branches as part of the trees’ movement."
+        ],
+        "answer": 3,
+        "explanation": "The physical details turn the trees’ departure into a vivid scene.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Why is movement important to the poem’s effect?",
+        "options": [
+          "The detailed movement makes the escape seem gradual but determined.",
+          "The poem contains no physical action",
+          "The trees are being painted",
+          "The movement is a bus journey"
+        ],
+        "answer": 0,
+        "explanation": "The physical details turn the trees’ departure into a vivid scene.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which detail about poem’s tone is supported by the poem?",
+        "options": [
+          "celebratory about imprisonment",
+          "The poem’s tone is reflective, with a sense of release and change.",
+          "angry at a schoolchild",
+          "purely comic about a lost ball"
+        ],
+        "answer": 1,
+        "explanation": "The ending suggests a return to a more natural state.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does poem’s tone contribute to the poem’s meaning?",
+        "options": [
+          "The poem is only a weather report",
+          "The poem praises barriers",
+          "The movement from confinement to the forest gives the poem a hopeful dimension.",
+          "The trees never leave the house"
+        ],
+        "answer": 2,
+        "explanation": "The ending suggests a return to a more natural state.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which interpretation of poem’s tone best fits the poem?",
+        "options": [
+          "The trees never leave the house",
+          "The poem praises barriers",
+          "The poem is only a weather report",
+          "The movement from confinement to the forest gives the poem a hopeful dimension."
+        ],
+        "answer": 3,
+        "explanation": "The ending suggests a return to a more natural state.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "tone",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "Which revision note about poem’s tone is accurate?",
+        "options": [
+          "The poem’s tone is reflective, with a sense of release and change.",
+          "celebratory about imprisonment",
+          "angry at a schoolchild",
+          "purely comic about a lost ball"
+        ],
+        "answer": 0,
+        "explanation": "The ending suggests a return to a more natural state.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Why is poem’s tone important to the poem’s effect?",
+        "options": [
+          "The poem praises barriers",
+          "The movement from confinement to the forest gives the poem a hopeful dimension.",
+          "The poem is only a weather report",
+          "The trees never leave the house"
+        ],
+        "answer": 1,
+        "explanation": "The ending suggests a return to a more natural state.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about ecological reading is supported by the poem?",
+        "options": [
+          "it praises removing all trees",
+          "it says forests should be replaced by glass",
+          "The poem can be read as a comment on nature being restricted by human spaces.",
+          "it is only a guide to decorating a room"
+        ],
+        "answer": 2,
+        "explanation": "The personified trees can represent nature pushing back against confinement.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does ecological reading contribute to the poem’s meaning?",
+        "options": [
+          "The message is only about buying a mirror",
+          "The poem denies any relationship between people and nature",
+          "The trees ask to become furniture",
+          "The trees’ escape encourages readers to consider the relation between human structures and nature."
+        ],
+        "answer": 3,
+        "explanation": "The personified trees can represent nature pushing back against confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which interpretation of ecological reading best fits the poem?",
+        "options": [
+          "The trees’ escape encourages readers to consider the relation between human structures and nature.",
+          "The poem denies any relationship between people and nature",
+          "The trees ask to become furniture",
+          "The message is only about buying a mirror"
+        ],
+        "answer": 0,
+        "explanation": "The personified trees can represent nature pushing back against confinement.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which revision note about ecological reading is accurate?",
+        "options": [
+          "it says forests should be replaced by glass",
+          "The poem can be read as a comment on nature being restricted by human spaces.",
+          "it praises removing all trees",
+          "it is only a guide to decorating a room"
+        ],
+        "answer": 1,
+        "explanation": "The personified trees can represent nature pushing back against confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Why is ecological reading important to the poem’s effect?",
+        "options": [
+          "The trees ask to become furniture",
+          "The poem denies any relationship between people and nature",
+          "The trees’ escape encourages readers to consider the relation between human structures and nature.",
+          "The message is only about buying a mirror"
+        ],
+        "answer": 2,
+        "explanation": "The personified trees can represent nature pushing back against confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which detail about the ending is supported by the poem?",
+        "options": [
+          "the final image is a dog fight",
+          "the poem ends with a bus schedule",
+          "the ending describes a school examination",
+          "The ending returns attention to the trees and the moonlit forest."
+        ],
+        "answer": 3,
+        "explanation": "The final visual image supports the movement from confinement toward freedom.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "ending",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What does the ending contribute to the poem’s meaning?",
+        "options": [
+          "The ending gives a visual sign of the trees reaching their outdoor environment.",
+          "The ending confirms the trees remain indoors",
+          "The ending contains no images",
+          "The moonlight signals a storm in a city"
+        ],
+        "answer": 0,
+        "explanation": "The final visual image supports the movement from confinement toward freedom.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "ending",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
@@ -25425,7 +27186,12 @@
         ],
         "answer": 1,
         "explanation": "The cat image captures its quiet arrival, pause and departure.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Fog",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -25438,7 +27204,12 @@
         ],
         "answer": 1,
         "explanation": "The compact poem matches the fog’s silent, temporary presence.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "Fog",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -25451,7 +27222,1758 @@
         ],
         "answer": 1,
         "explanation": "The cat metaphor makes the fog’s movement vivid and economical.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Fog",
+          "poetry"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about the fog’s arrival is supported by the poem?",
+        "options": [
+          "The fog is imagined as arriving on little cat feet.",
+          "as a loud train",
+          "as a marching army",
+          "as a burst of fireworks"
+        ],
+        "answer": 0,
+        "explanation": "The cat image makes the fog’s arrival seem light and silent.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "metaphor",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the fog’s arrival contribute to the poem’s meaning?",
+        "options": [
+          "The fog arrives noisily",
+          "The comparison suggests a quiet, soft and stealthy arrival.",
+          "The fog is a literal cat",
+          "The comparison describes a bus ride"
+        ],
+        "answer": 1,
+        "explanation": "The cat image makes the fog’s arrival seem light and silent.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Which interpretation of the fog’s arrival best fits the poem?",
+        "options": [
+          "The fog is a literal cat",
+          "The fog arrives noisily",
+          "The comparison suggests a quiet, soft and stealthy arrival.",
+          "The comparison describes a bus ride"
+        ],
+        "answer": 2,
+        "explanation": "The cat image makes the fog’s arrival seem light and silent.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "metaphor",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "Which revision note about the fog’s arrival is accurate?",
+        "options": [
+          "as a burst of fireworks",
+          "as a loud train",
+          "as a marching army",
+          "The fog is imagined as arriving on little cat feet."
+        ],
+        "answer": 3,
+        "explanation": "The cat image makes the fog’s arrival seem light and silent.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Why is the fog’s arrival important to the poem’s effect?",
+        "options": [
+          "The comparison suggests a quiet, soft and stealthy arrival.",
+          "The fog arrives noisily",
+          "The fog is a literal cat",
+          "The comparison describes a bus ride"
+        ],
+        "answer": 0,
+        "explanation": "The cat image makes the fog’s arrival seem light and silent.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Which detail about the cat comparison is supported by the poem?",
+        "options": [
+          "a horse pulling a cart",
+          "The fog is compared to a cat through the image of its quiet feet.",
+          "a tiger behind bars",
+          "a boy losing a ball"
+        ],
+        "answer": 1,
+        "explanation": "The cat imagery is central to the poem’s short metaphor.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "figurative language",
+          "metaphor"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "What does the cat comparison contribute to the poem’s meaning?",
+        "options": [
+          "The poem is about a real pet cat",
+          "The fog is described as a roaring animal",
+          "The comparison personifies the fog and helps readers imagine its movement.",
+          "The comparison is about a school rule"
+        ],
+        "answer": 2,
+        "explanation": "The cat imagery is central to the poem’s short metaphor.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "figurative language",
+          "metaphor"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "Which interpretation of the cat comparison best fits the poem?",
+        "options": [
+          "The comparison is about a school rule",
+          "The fog is described as a roaring animal",
+          "The poem is about a real pet cat",
+          "The comparison personifies the fog and helps readers imagine its movement."
+        ],
+        "answer": 3,
+        "explanation": "The cat imagery is central to the poem’s short metaphor.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "figurative language",
+          "metaphor"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Which revision note about the cat comparison is accurate?",
+        "options": [
+          "The fog is compared to a cat through the image of its quiet feet.",
+          "a horse pulling a cart",
+          "a tiger behind bars",
+          "a boy losing a ball"
+        ],
+        "answer": 0,
+        "explanation": "The cat imagery is central to the poem’s short metaphor.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "figurative language",
+          "metaphor"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Why is the cat comparison important to the poem’s effect?",
+        "options": [
+          "The fog is described as a roaring animal",
+          "The comparison personifies the fog and helps readers imagine its movement.",
+          "The poem is about a real pet cat",
+          "The comparison is about a school rule"
+        ],
+        "answer": 1,
+        "explanation": "The cat imagery is central to the poem’s short metaphor.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "figurative language",
+          "metaphor"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "Which detail about the harbour is supported by the poem?",
+        "options": [
+          "it hides in a kitchen",
+          "it stands inside a classroom",
+          "The fog sits looking over the harbour.",
+          "it climbs a mountain in a storm"
+        ],
+        "answer": 2,
+        "explanation": "The harbour is one of the places covered by the fog.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "setting",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does the harbour contribute to the poem’s meaning?",
+        "options": [
+          "The fog never appears near water",
+          "The poem describes only a forest",
+          "The harbour is a character",
+          "The harbour gives the fog a broad setting from which it can seem to watch the scene."
+        ],
+        "answer": 3,
+        "explanation": "The harbour is one of the places covered by the fog.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "Which interpretation of the harbour best fits the poem?",
+        "options": [
+          "The harbour gives the fog a broad setting from which it can seem to watch the scene.",
+          "The poem describes only a forest",
+          "The harbour is a character",
+          "The fog never appears near water"
+        ],
+        "answer": 0,
+        "explanation": "The harbour is one of the places covered by the fog.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "setting",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which revision note about the harbour is accurate?",
+        "options": [
+          "it stands inside a classroom",
+          "The fog sits looking over the harbour.",
+          "it hides in a kitchen",
+          "it climbs a mountain in a storm"
+        ],
+        "answer": 1,
+        "explanation": "The harbour is one of the places covered by the fog.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "Why is the harbour important to the poem’s effect?",
+        "options": [
+          "The harbour is a character",
+          "The poem describes only a forest",
+          "The harbour gives the fog a broad setting from which it can seem to watch the scene.",
+          "The fog never appears near water"
+        ],
+        "answer": 2,
+        "explanation": "The harbour is one of the places covered by the fog.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which detail about the city is supported by the poem?",
+        "options": [
+          "it is described only in a jungle",
+          "it only surrounds a private bedroom",
+          "it appears inside a school book",
+          "The fog also looks over the city."
+        ],
+        "answer": 3,
+        "explanation": "The harbour and city show the fog’s reach across the landscape.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "setting",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does the city contribute to the poem’s meaning?",
+        "options": [
+          "The fog spreads across both natural and built surroundings.",
+          "The poem says the city is underwater",
+          "The city is unrelated to the fog",
+          "The scene is a bus stop"
+        ],
+        "answer": 0,
+        "explanation": "The harbour and city show the fog’s reach across the landscape.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Which interpretation of the city best fits the poem?",
+        "options": [
+          "The poem says the city is underwater",
+          "The fog spreads across both natural and built surroundings.",
+          "The city is unrelated to the fog",
+          "The scene is a bus stop"
+        ],
+        "answer": 1,
+        "explanation": "The harbour and city show the fog’s reach across the landscape.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "setting",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which revision note about the city is accurate?",
+        "options": [
+          "it appears inside a school book",
+          "it only surrounds a private bedroom",
+          "The fog also looks over the city.",
+          "it is described only in a jungle"
+        ],
+        "answer": 2,
+        "explanation": "The harbour and city show the fog’s reach across the landscape.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "Why is the city important to the poem’s effect?",
+        "options": [
+          "The scene is a bus stop",
+          "The poem says the city is underwater",
+          "The city is unrelated to the fog",
+          "The fog spreads across both natural and built surroundings."
+        ],
+        "answer": 3,
+        "explanation": "The harbour and city show the fog’s reach across the landscape.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Which detail about silent haunches is supported by the poem?",
+        "options": [
+          "The fog sits on silent haunches like a resting cat.",
+          "it makes a loud speech",
+          "it runs in a race",
+          "it shouts instructions"
+        ],
+        "answer": 0,
+        "explanation": "The cat’s posture gives the fog a calm, watchful quality.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What does silent haunches contribute to the poem’s meaning?",
+        "options": [
+          "The fog is shown as frantic",
+          "The posture suggests stillness and quiet observation.",
+          "It is a human teacher",
+          "The image describes a flying bird"
+        ],
+        "answer": 1,
+        "explanation": "The cat’s posture gives the fog a calm, watchful quality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of silent haunches best fits the poem?",
+        "options": [
+          "It is a human teacher",
+          "The fog is shown as frantic",
+          "The posture suggests stillness and quiet observation.",
+          "The image describes a flying bird"
+        ],
+        "answer": 2,
+        "explanation": "The cat’s posture gives the fog a calm, watchful quality.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which revision note about silent haunches is accurate?",
+        "options": [
+          "it shouts instructions",
+          "it makes a loud speech",
+          "it runs in a race",
+          "The fog sits on silent haunches like a resting cat."
+        ],
+        "answer": 3,
+        "explanation": "The cat’s posture gives the fog a calm, watchful quality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Why is silent haunches important to the poem’s effect?",
+        "options": [
+          "The posture suggests stillness and quiet observation.",
+          "The fog is shown as frantic",
+          "It is a human teacher",
+          "The image describes a flying bird"
+        ],
+        "answer": 0,
+        "explanation": "The cat’s posture gives the fog a calm, watchful quality.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which detail about the fog’s movement is supported by the poem?",
+        "options": [
+          "it remains in one place forever",
+          "After sitting for a while, the fog moves on.",
+          "it turns into a tree",
+          "it is carried away in a suitcase"
+        ],
+        "answer": 1,
+        "explanation": "The final movement completes the fog’s quiet visit.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What does the fog’s movement contribute to the poem’s meaning?",
+        "options": [
+          "The fog cannot move",
+          "The fog is permanent",
+          "The poem presents fog as temporary and changing.",
+          "The movement is a metaphor for a bus schedule"
+        ],
+        "answer": 2,
+        "explanation": "The final movement completes the fog’s quiet visit.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which interpretation of the fog’s movement best fits the poem?",
+        "options": [
+          "The movement is a metaphor for a bus schedule",
+          "The fog is permanent",
+          "The fog cannot move",
+          "The poem presents fog as temporary and changing."
+        ],
+        "answer": 3,
+        "explanation": "The final movement completes the fog’s quiet visit.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which revision note about the fog’s movement is accurate?",
+        "options": [
+          "After sitting for a while, the fog moves on.",
+          "it remains in one place forever",
+          "it turns into a tree",
+          "it is carried away in a suitcase"
+        ],
+        "answer": 0,
+        "explanation": "The final movement completes the fog’s quiet visit.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is the fog’s movement important to the poem’s effect?",
+        "options": [
+          "The fog is permanent",
+          "The poem presents fog as temporary and changing.",
+          "The fog cannot move",
+          "The movement is a metaphor for a bus schedule"
+        ],
+        "answer": 1,
+        "explanation": "The final movement completes the fog’s quiet visit.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Which detail about the poem’s brevity is supported by the poem?",
+        "options": [
+          "it is a formal letter",
+          "it is a long epic with many chapters",
+          "The poem uses very few lines to describe the fog.",
+          "it is a play with several acts"
+        ],
+        "answer": 2,
+        "explanation": "The poem’s concision suits its small, fleeting scene.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does the poem’s brevity contribute to the poem’s meaning?",
+        "options": [
+          "It is written as a legal report",
+          "The form is unrelated to the subject",
+          "The poem contains dozens of stanzas",
+          "The short form mirrors the brief, quiet appearance of the fog."
+        ],
+        "answer": 3,
+        "explanation": "The poem’s concision suits its small, fleeting scene.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "Which interpretation of the poem’s brevity best fits the poem?",
+        "options": [
+          "The short form mirrors the brief, quiet appearance of the fog.",
+          "The form is unrelated to the subject",
+          "The poem contains dozens of stanzas",
+          "It is written as a legal report"
+        ],
+        "answer": 0,
+        "explanation": "The poem’s concision suits its small, fleeting scene.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which revision note about the poem’s brevity is accurate?",
+        "options": [
+          "it is a long epic with many chapters",
+          "The poem uses very few lines to describe the fog.",
+          "it is a formal letter",
+          "it is a play with several acts"
+        ],
+        "answer": 1,
+        "explanation": "The poem’s concision suits its small, fleeting scene.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "Why is the poem’s brevity important to the poem’s effect?",
+        "options": [
+          "The poem contains dozens of stanzas",
+          "The form is unrelated to the subject",
+          "The short form mirrors the brief, quiet appearance of the fog.",
+          "It is written as a legal report"
+        ],
+        "answer": 2,
+        "explanation": "The poem’s concision suits its small, fleeting scene.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Which detail about the speaker’s observation is supported by the poem?",
+        "options": [
+          "the speaker measures temperature",
+          "the poem gives a weather table",
+          "the poet explains a chemical formula",
+          "The fog is described through what it seems to do rather than through a scientific definition."
+        ],
+        "answer": 3,
+        "explanation": "The poem communicates through metaphor and observation.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "style",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What does the speaker’s observation contribute to the poem’s meaning?",
+        "options": [
+          "Imagery invites readers to picture the fog as a living presence.",
+          "The poem contains only numerical data",
+          "The fog is analysed in a laboratory",
+          "The speaker avoids figurative language"
+        ],
+        "answer": 0,
+        "explanation": "The poem communicates through metaphor and observation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Which interpretation of the speaker’s observation best fits the poem?",
+        "options": [
+          "The poem contains only numerical data",
+          "Imagery invites readers to picture the fog as a living presence.",
+          "The fog is analysed in a laboratory",
+          "The speaker avoids figurative language"
+        ],
+        "answer": 1,
+        "explanation": "The poem communicates through metaphor and observation.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "style",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Which revision note about the speaker’s observation is accurate?",
+        "options": [
+          "the poet explains a chemical formula",
+          "the poem gives a weather table",
+          "The fog is described through what it seems to do rather than through a scientific definition.",
+          "the speaker measures temperature"
+        ],
+        "answer": 2,
+        "explanation": "The poem communicates through metaphor and observation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why is the speaker’s observation important to the poem’s effect?",
+        "options": [
+          "The speaker avoids figurative language",
+          "The poem contains only numerical data",
+          "The fog is analysed in a laboratory",
+          "Imagery invites readers to picture the fog as a living presence."
+        ],
+        "answer": 3,
+        "explanation": "The poem communicates through metaphor and observation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which detail about personification is supported by the poem?",
+        "options": [
+          "The fog appears to sit, look and move like an animal.",
+          "the fog is described as a machine",
+          "the fog speaks a full dialogue",
+          "the poem says fog has human hands"
+        ],
+        "answer": 0,
+        "explanation": "The personified fog appears watchful and mobile.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does personification contribute to the poem’s meaning?",
+        "options": [
+          "The fog is purely static",
+          "Giving the fog actions creates a vivid living image.",
+          "The poem contains no actions",
+          "The animal comparison is absent"
+        ],
+        "answer": 1,
+        "explanation": "The personified fog appears watchful and mobile.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which interpretation of personification best fits the poem?",
+        "options": [
+          "The poem contains no actions",
+          "The fog is purely static",
+          "Giving the fog actions creates a vivid living image.",
+          "The animal comparison is absent"
+        ],
+        "answer": 2,
+        "explanation": "The personified fog appears watchful and mobile.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which revision note about personification is accurate?",
+        "options": [
+          "the poem says fog has human hands",
+          "the fog is described as a machine",
+          "the fog speaks a full dialogue",
+          "The fog appears to sit, look and move like an animal."
+        ],
+        "answer": 3,
+        "explanation": "The personified fog appears watchful and mobile.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "Why is personification important to the poem’s effect?",
+        "options": [
+          "Giving the fog actions creates a vivid living image.",
+          "The fog is purely static",
+          "The poem contains no actions",
+          "The animal comparison is absent"
+        ],
+        "answer": 0,
+        "explanation": "The personified fog appears watchful and mobile.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "literary device",
+          "personification"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about the poem’s mood is supported by the poem?",
+        "options": [
+          "violent and chaotic",
+          "The mood is calm and quiet rather than frightening.",
+          "angry and confrontational",
+          "solemn like a legal speech"
+        ],
+        "answer": 1,
+        "explanation": "The fog’s quiet arrival and departure support a calm mood.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the poem’s mood contribute to the poem’s meaning?",
+        "options": [
+          "The mood is a public argument",
+          "The poem describes an explosion",
+          "The cat image softens the scene and creates a sense of stillness.",
+          "The poem is a tragedy about a death"
+        ],
+        "answer": 2,
+        "explanation": "The fog’s quiet arrival and departure support a calm mood.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Which interpretation of the poem’s mood best fits the poem?",
+        "options": [
+          "The poem is a tragedy about a death",
+          "The poem describes an explosion",
+          "The mood is a public argument",
+          "The cat image softens the scene and creates a sense of stillness."
+        ],
+        "answer": 3,
+        "explanation": "The fog’s quiet arrival and departure support a calm mood.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "tone",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "Which revision note about the poem’s mood is accurate?",
+        "options": [
+          "The mood is calm and quiet rather than frightening.",
+          "violent and chaotic",
+          "angry and confrontational",
+          "solemn like a legal speech"
+        ],
+        "answer": 0,
+        "explanation": "The fog’s quiet arrival and departure support a calm mood.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Why is the poem’s mood important to the poem’s effect?",
+        "options": [
+          "The poem describes an explosion",
+          "The cat image softens the scene and creates a sense of stillness.",
+          "The mood is a public argument",
+          "The poem is a tragedy about a death"
+        ],
+        "answer": 1,
+        "explanation": "The fog’s quiet arrival and departure support a calm mood.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Which detail about the metaphor is supported by the poem?",
+        "options": [
+          "the fog is literally a domestic pet",
+          "the cat is a character in a long story",
+          "The poem uses the cat as a metaphor for the fog’s movement and posture.",
+          "the poem uses a bus as a symbol"
+        ],
+        "answer": 2,
+        "explanation": "The cat comparison is figurative, not a claim that a cat is present.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "metaphor",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does the metaphor contribute to the poem’s meaning?",
+        "options": [
+          "The metaphor is unrelated to the fog",
+          "The poem says the fog has whiskers",
+          "The image is meant as a zoology fact",
+          "The metaphor turns an abstract weather event into something familiar and visible."
+        ],
+        "answer": 3,
+        "explanation": "The cat comparison is figurative, not a claim that a cat is present.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Which interpretation of the metaphor best fits the poem?",
+        "options": [
+          "The metaphor turns an abstract weather event into something familiar and visible.",
+          "The poem says the fog has whiskers",
+          "The image is meant as a zoology fact",
+          "The metaphor is unrelated to the fog"
+        ],
+        "answer": 0,
+        "explanation": "The cat comparison is figurative, not a claim that a cat is present.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "metaphor",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which revision note about the metaphor is accurate?",
+        "options": [
+          "the cat is a character in a long story",
+          "The poem uses the cat as a metaphor for the fog’s movement and posture.",
+          "the fog is literally a domestic pet",
+          "the poem uses a bus as a symbol"
+        ],
+        "answer": 1,
+        "explanation": "The cat comparison is figurative, not a claim that a cat is present.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Why is the metaphor important to the poem’s effect?",
+        "options": [
+          "The image is meant as a zoology fact",
+          "The poem says the fog has whiskers",
+          "The metaphor turns an abstract weather event into something familiar and visible.",
+          "The metaphor is unrelated to the fog"
+        ],
+        "answer": 2,
+        "explanation": "The cat comparison is figurative, not a claim that a cat is present.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "Which detail about the fog’s stillness is supported by the poem?",
+        "options": [
+          "it sings a song",
+          "it moves at high speed throughout",
+          "it knocks down houses",
+          "The fog pauses over the harbour and city before moving on."
+        ],
+        "answer": 3,
+        "explanation": "The poem briefly holds the fog in place before its departure.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "structure",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What does the fog’s stillness contribute to the poem’s meaning?",
+        "options": [
+          "The pause makes the fog seem to observe the scene silently.",
+          "The fog is constantly noisy",
+          "It becomes a human observer",
+          "The pause is about a train timetable"
+        ],
+        "answer": 0,
+        "explanation": "The poem briefly holds the fog in place before its departure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which interpretation of the fog’s stillness best fits the poem?",
+        "options": [
+          "The fog is constantly noisy",
+          "The pause makes the fog seem to observe the scene silently.",
+          "It becomes a human observer",
+          "The pause is about a train timetable"
+        ],
+        "answer": 1,
+        "explanation": "The poem briefly holds the fog in place before its departure.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "structure",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which revision note about the fog’s stillness is accurate?",
+        "options": [
+          "it knocks down houses",
+          "it moves at high speed throughout",
+          "The fog pauses over the harbour and city before moving on.",
+          "it sings a song"
+        ],
+        "answer": 2,
+        "explanation": "The poem briefly holds the fog in place before its departure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Why is the fog’s stillness important to the poem’s effect?",
+        "options": [
+          "The pause is about a train timetable",
+          "The fog is constantly noisy",
+          "It becomes a human observer",
+          "The pause makes the fog seem to observe the scene silently."
+        ],
+        "answer": 3,
+        "explanation": "The poem briefly holds the fog in place before its departure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which detail about the use of sound is supported by the poem?",
+        "options": [
+          "The poem’s soft sounds and short phrases support the quiet image.",
+          "the poem imitates explosions",
+          "the poem is built on shouted commands",
+          "the poem contains only harsh legal terms"
+        ],
+        "answer": 0,
+        "explanation": "The poem’s concise, gentle rhythm matches its central image.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What does the use of sound contribute to the poem’s meaning?",
+        "options": [
+          "Sound has no relation to mood",
+          "Sound and rhythm reinforce the image of the fog moving softly.",
+          "The poem is a loud debate",
+          "The poem uses only technical vocabulary"
+        ],
+        "answer": 1,
+        "explanation": "The poem’s concise, gentle rhythm matches its central image.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which interpretation of the use of sound best fits the poem?",
+        "options": [
+          "The poem is a loud debate",
+          "Sound has no relation to mood",
+          "Sound and rhythm reinforce the image of the fog moving softly.",
+          "The poem uses only technical vocabulary"
+        ],
+        "answer": 2,
+        "explanation": "The poem’s concise, gentle rhythm matches its central image.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which revision note about the use of sound is accurate?",
+        "options": [
+          "the poem contains only harsh legal terms",
+          "the poem imitates explosions",
+          "the poem is built on shouted commands",
+          "The poem’s soft sounds and short phrases support the quiet image."
+        ],
+        "answer": 3,
+        "explanation": "The poem’s concise, gentle rhythm matches its central image.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Why is the use of sound important to the poem’s effect?",
+        "options": [
+          "Sound and rhythm reinforce the image of the fog moving softly.",
+          "Sound has no relation to mood",
+          "The poem is a loud debate",
+          "The poem uses only technical vocabulary"
+        ],
+        "answer": 0,
+        "explanation": "The poem’s concise, gentle rhythm matches its central image.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Which detail about the natural world is supported by the poem?",
+        "options": [
+          "it is a manufactured vehicle",
+          "The fog is a natural event presented through imaginative language.",
+          "it is a human-made building",
+          "it is an animal at a zoo"
+        ],
+        "answer": 1,
+        "explanation": "The poem uses nature as the basis for a compact figurative description.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "What does the natural world contribute to the poem’s meaning?",
+        "options": [
+          "The subject is a political leader",
+          "The poem denies the fog exists",
+          "The poet makes a familiar natural phenomenon feel alive and observable.",
+          "The scene is a formal school lesson"
+        ],
+        "answer": 2,
+        "explanation": "The poem uses nature as the basis for a compact figurative description.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of the natural world best fits the poem?",
+        "options": [
+          "The scene is a formal school lesson",
+          "The poem denies the fog exists",
+          "The subject is a political leader",
+          "The poet makes a familiar natural phenomenon feel alive and observable."
+        ],
+        "answer": 3,
+        "explanation": "The poem uses nature as the basis for a compact figurative description.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which revision note about the natural world is accurate?",
+        "options": [
+          "The fog is a natural event presented through imaginative language.",
+          "it is a manufactured vehicle",
+          "it is a human-made building",
+          "it is an animal at a zoo"
+        ],
+        "answer": 0,
+        "explanation": "The poem uses nature as the basis for a compact figurative description.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Why is the natural world important to the poem’s effect?",
+        "options": [
+          "The poem denies the fog exists",
+          "The poet makes a familiar natural phenomenon feel alive and observable.",
+          "The subject is a political leader",
+          "The scene is a formal school lesson"
+        ],
+        "answer": 1,
+        "explanation": "The poem uses nature as the basis for a compact figurative description.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "imagery"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which detail about the cat’s posture is supported by the poem?",
+        "options": [
+          "a horse galloping",
+          "a bird flying at high speed",
+          "The image of the cat sitting on its haunches conveys a poised pause.",
+          "a person falling into water"
+        ],
+        "answer": 2,
+        "explanation": "The cat posture makes the pause easy to visualise.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What does the cat’s posture contribute to the poem’s meaning?",
+        "options": [
+          "The fog becomes a real cat",
+          "The image means the fog is shouting",
+          "The posture indicates a battle",
+          "The posture captures the fog’s temporary stillness before it moves away."
+        ],
+        "answer": 3,
+        "explanation": "The cat posture makes the pause easy to visualise.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which interpretation of the cat’s posture best fits the poem?",
+        "options": [
+          "The posture captures the fog’s temporary stillness before it moves away.",
+          "The image means the fog is shouting",
+          "The posture indicates a battle",
+          "The fog becomes a real cat"
+        ],
+        "answer": 0,
+        "explanation": "The cat posture makes the pause easy to visualise.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which revision note about the cat’s posture is accurate?",
+        "options": [
+          "a bird flying at high speed",
+          "The image of the cat sitting on its haunches conveys a poised pause.",
+          "a horse galloping",
+          "a person falling into water"
+        ],
+        "answer": 1,
+        "explanation": "The cat posture makes the pause easy to visualise.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is the cat’s posture important to the poem’s effect?",
+        "options": [
+          "The posture indicates a battle",
+          "The image means the fog is shouting",
+          "The posture captures the fog’s temporary stillness before it moves away.",
+          "The fog becomes a real cat"
+        ],
+        "answer": 2,
+        "explanation": "The cat posture makes the pause easy to visualise.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "simile"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which detail about the title is supported by the poem?",
+        "options": [
+          "a particular bus route",
+          "a named character",
+          "a school subject",
+          "The title names the natural phenomenon that the poem describes."
+        ],
+        "answer": 3,
+        "explanation": "The title prepares the reader for the central image of fog.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "title",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What does the title contribute to the poem’s meaning?",
+        "options": [
+          "The poem focuses on a brief encounter with fog rather than a plot-driven event.",
+          "The title refers to a tiger",
+          "The poem is a dialogue between people",
+          "The title names a city"
+        ],
+        "answer": 0,
+        "explanation": "The title prepares the reader for the central image of fog.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which interpretation of the title best fits the poem?",
+        "options": [
+          "The title refers to a tiger",
+          "The poem focuses on a brief encounter with fog rather than a plot-driven event.",
+          "The poem is a dialogue between people",
+          "The title names a city"
+        ],
+        "answer": 1,
+        "explanation": "The title prepares the reader for the central image of fog.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "title",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which revision note about the title is accurate?",
+        "options": [
+          "a school subject",
+          "a named character",
+          "The title names the natural phenomenon that the poem describes.",
+          "a particular bus route"
+        ],
+        "answer": 2,
+        "explanation": "The title prepares the reader for the central image of fog.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Why is the title important to the poem’s effect?",
+        "options": [
+          "The title names a city",
+          "The title refers to a tiger",
+          "The poem is a dialogue between people",
+          "The poem focuses on a brief encounter with fog rather than a plot-driven event."
+        ],
+        "answer": 3,
+        "explanation": "The title prepares the reader for the central image of fog.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which detail about the absence of detailed narrative is supported by the poem?",
+        "options": [
+          "The poem does not tell a long story about human characters.",
+          "it follows a family across generations",
+          "it records a wedding scene",
+          "it gives a biography of the speaker"
+        ],
+        "answer": 0,
+        "explanation": "The brief observation is sufficient to convey the fog’s arrival and departure.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "genre",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "What does the absence of detailed narrative contribute to the poem’s meaning?",
+        "options": [
+          "The poem has a complex subplot",
+          "The poem concentrates on one moment of observation.",
+          "Several characters argue throughout",
+          "The poem is a dramatic play"
+        ],
+        "answer": 1,
+        "explanation": "The brief observation is sufficient to convey the fog’s arrival and departure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "genre",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which interpretation of the absence of detailed narrative best fits the poem?",
+        "options": [
+          "Several characters argue throughout",
+          "The poem has a complex subplot",
+          "The poem concentrates on one moment of observation.",
+          "The poem is a dramatic play"
+        ],
+        "answer": 2,
+        "explanation": "The brief observation is sufficient to convey the fog’s arrival and departure.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "genre",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which revision note about the absence of detailed narrative is accurate?",
+        "options": [
+          "it gives a biography of the speaker",
+          "it follows a family across generations",
+          "it records a wedding scene",
+          "The poem does not tell a long story about human characters."
+        ],
+        "answer": 3,
+        "explanation": "The brief observation is sufficient to convey the fog’s arrival and departure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "genre",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Why is the absence of detailed narrative important to the poem’s effect?",
+        "options": [
+          "The poem concentrates on one moment of observation.",
+          "The poem has a complex subplot",
+          "Several characters argue throughout",
+          "The poem is a dramatic play"
+        ],
+        "answer": 0,
+        "explanation": "The brief observation is sufficient to convey the fog’s arrival and departure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "genre",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which detail about the changing scene is supported by the poem?",
+        "options": [
+          "it arrives and destroys a building",
+          "The fog first settles, then leaves.",
+          "it remains unchanged forever",
+          "it is replaced by rain in a long story"
+        ],
+        "answer": 1,
+        "explanation": "The poem’s structure follows the fog’s brief visit.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does the changing scene contribute to the poem’s meaning?",
+        "options": [
+          "The fog never appears",
+          "The poem has no movement",
+          "The simple movement gives the poem a beginning, pause and end.",
+          "The scene is an argument about property"
+        ],
+        "answer": 2,
+        "explanation": "The poem’s structure follows the fog’s brief visit.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which interpretation of the changing scene best fits the poem?",
+        "options": [
+          "The scene is an argument about property",
+          "The poem has no movement",
+          "The fog never appears",
+          "The simple movement gives the poem a beginning, pause and end."
+        ],
+        "answer": 3,
+        "explanation": "The poem’s structure follows the fog’s brief visit.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "Which revision note about the changing scene is accurate?",
+        "options": [
+          "The fog first settles, then leaves.",
+          "it arrives and destroys a building",
+          "it remains unchanged forever",
+          "it is replaced by rain in a long story"
+        ],
+        "answer": 0,
+        "explanation": "The poem’s structure follows the fog’s brief visit.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Why is the changing scene important to the poem’s effect?",
+        "options": [
+          "The poem has no movement",
+          "The simple movement gives the poem a beginning, pause and end.",
+          "The fog never appears",
+          "The scene is an argument about property"
+        ],
+        "answer": 1,
+        "explanation": "The poem’s structure follows the fog’s brief visit.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "movement"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about human perception is supported by the poem?",
+        "options": [
+          "it uses a legal definition",
+          "it gives no comparisons",
+          "The poem relies on a familiar animal to help the reader picture fog.",
+          "it asks the reader to calculate a fare"
+        ],
+        "answer": 2,
+        "explanation": "The cat image gives shape and movement to an otherwise difficult-to-see phenomenon.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "metaphor",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does human perception contribute to the poem’s meaning?",
+        "options": [
+          "The fog is described only as a number",
+          "The poem forbids imagination",
+          "The comparison is a scientific measurement",
+          "A metaphor makes an intangible scene easier to imagine."
+        ],
+        "answer": 3,
+        "explanation": "The cat image gives shape and movement to an otherwise difficult-to-see phenomenon.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which interpretation of human perception best fits the poem?",
+        "options": [
+          "A metaphor makes an intangible scene easier to imagine.",
+          "The poem forbids imagination",
+          "The comparison is a scientific measurement",
+          "The fog is described only as a number"
+        ],
+        "answer": 0,
+        "explanation": "The cat image gives shape and movement to an otherwise difficult-to-see phenomenon.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "metaphor",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which revision note about human perception is accurate?",
+        "options": [
+          "it gives no comparisons",
+          "The poem relies on a familiar animal to help the reader picture fog.",
+          "it uses a legal definition",
+          "it asks the reader to calculate a fare"
+        ],
+        "answer": 1,
+        "explanation": "The cat image gives shape and movement to an otherwise difficult-to-see phenomenon.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Why is human perception important to the poem’s effect?",
+        "options": [
+          "The comparison is a scientific measurement",
+          "The poem forbids imagination",
+          "A metaphor makes an intangible scene easier to imagine.",
+          "The fog is described only as a number"
+        ],
+        "answer": 2,
+        "explanation": "The cat image gives shape and movement to an otherwise difficult-to-see phenomenon.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "metaphor",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which detail about the poem’s overall effect is supported by the poem?",
+        "options": [
+          "the poem explains how to drive through fog",
+          "the fog seems permanent and mechanical",
+          "the fog becomes a villain in a long battle",
+          "The poem makes the fog feel quiet, temporary and almost alive."
+        ],
+        "answer": 3,
+        "explanation": "The image of the cat captures the fog’s stealthy arrival, pause and departure.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "summary",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What does the poem’s overall effect contribute to the poem’s meaning?",
+        "options": [
+          "The central comparison transforms a small observation into a memorable image.",
+          "The poem is an instruction manual",
+          "There is no figurative meaning",
+          "The speaker describes a loud crowd"
+        ],
+        "answer": 0,
+        "explanation": "The image of the cat captures the fog’s stealthy arrival, pause and departure.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "summary",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
