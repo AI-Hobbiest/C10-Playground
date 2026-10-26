@@ -7,12 +7,12 @@
     {
       "username": "jp10",
       "classId": "10",
-      "salt": "U6wkikLZMrQZjaavtqJyeg==",
-      "passwordHash": "CzwCrZFxZO4aQwkah8pR8g5Pqk/otPGUPyA03HLXWGE=",
+      "salt": "De23V+YpY0nhSEwD5coJbg==",
+      "passwordHash": "LilaKIx2Ggufq35TQFBq95wJR/U9FAy02Edi0fPYlbM=",
       "iterations": 600000,
       "active": true,
       "createdAt": "2026-10-26T11:47:23.935Z",
-      "updatedAt": "2026-10-26T11:47:23.935Z"
+      "updatedAt": "2026-10-26T12:00:00.000Z"
     }
   ]
 }
