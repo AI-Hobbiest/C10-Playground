@@ -6,43 +6,56 @@
       "classId": "6",
       "label": "Class 6",
       "sortOrder": 6,
-      "active": true
+      "active": true,
+      "subjects": []
     },
     {
       "classId": "7",
       "label": "Class 7",
       "sortOrder": 7,
-      "active": true
+      "active": true,
+      "subjects": []
     },
     {
       "classId": "8",
       "label": "Class 8",
       "sortOrder": 8,
-      "active": true
+      "active": true,
+      "subjects": []
     },
     {
       "classId": "9",
       "label": "Class 9",
       "sortOrder": 9,
-      "active": true
+      "active": true,
+      "subjects": []
     },
     {
       "classId": "10",
       "label": "Class 10",
       "sortOrder": 10,
-      "active": true
+      "active": true,
+      "subjects": [
+        "science",
+        "mathematics",
+        "english",
+        "social-science",
+        "hindi"
+      ]
     },
     {
       "classId": "11",
       "label": "Class 11",
       "sortOrder": 11,
-      "active": true
+      "active": true,
+      "subjects": []
     },
     {
       "classId": "12",
       "label": "Class 12",
       "sortOrder": 12,
-      "active": true
+      "active": true,
+      "subjects": []
     }
   ]
 }
