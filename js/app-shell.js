@@ -32,6 +32,10 @@
     }catch(_){return null;}
   }
   async function authState(){
+    try{
+      const admin=JSON.parse(sessionStorage.getItem("examguru_mvp_admin_session_v1")||"null");
+      if(admin&&admin.role==="admin"&&admin.username==="Jayaprakashganathe@gmail.com")return {role:"admin",username:admin.username};
+    }catch(_){}
     if(window.C10Api&&window.C10Api.isConfigured&&window.C10Api.isConfigured()&&window.C10Api.isAuthenticated()){
       try{
         const result=await window.C10Api.currentUser();
@@ -63,7 +67,7 @@
         logout.disabled=true;
         try{if(window.C10Api&&window.C10Api.isAuthenticated())await window.C10Api.logout();}catch(_){}
         if(window.C10StudentAuth&&window.C10StudentAuth.logout)window.C10StudentAuth.logout();
-        try{sessionStorage.removeItem("c10playground_static_student_v1");sessionStorage.removeItem("c10playground_api_session");}catch(_){}
+        try{sessionStorage.removeItem("c10playground_static_student_v1");sessionStorage.removeItem("c10playground_api_session");sessionStorage.removeItem("examguru_mvp_admin_session_v1");}catch(_){}
         location.replace("./index.html");
       });
       list.appendChild(logout);
