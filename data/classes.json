@@ -7,7 +7,9 @@
       "label": "Class 6",
       "sortOrder": 6,
       "active": true,
-      "subjects": []
+      "subjects": [
+        "science"
+      ]
     },
     {
       "classId": "7",
