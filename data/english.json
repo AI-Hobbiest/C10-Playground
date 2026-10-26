@@ -23570,7 +23570,12 @@
         ],
         "answer": 1,
         "explanation": "The poem contrasts her inward fantasy with constant adult admonitions.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Amanda!",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -23583,7 +23588,12 @@
         ],
         "answer": 1,
         "explanation": "The persistent instructions make Amanda seem constrained.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "Amanda!",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -23596,7 +23606,1758 @@
         ],
         "answer": 1,
         "explanation": "She imagines solitude and freedom away from demands.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Amanda!",
+          "poetry"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about the adult’s instructions is supported by the poem?",
+        "options": [
+          "The adult repeatedly tells Amanda how to sit and behave.",
+          "the adult teaches her to fly",
+          "the adult asks her to plan a bus trip",
+          "the adult tells her to manage a tea garden"
+        ],
+        "answer": 0,
+        "explanation": "The poem repeatedly contrasts the adult’s corrections with Amanda’s imagined escapes.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "structure",
+          "parent-child relationship"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the adult’s instructions contribute to the poem’s meaning?",
+        "options": [
+          "The instructions are all requests for adventure",
+          "The repeated commands establish a feeling of nagging and control.",
+          "The adult gives no directions",
+          "Amanda is the one controlling the adult"
+        ],
+        "answer": 1,
+        "explanation": "The poem repeatedly contrasts the adult’s corrections with Amanda’s imagined escapes.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "parent-child relationship"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Which interpretation of the adult’s instructions best fits the poem?",
+        "options": [
+          "The adult gives no directions",
+          "The instructions are all requests for adventure",
+          "The repeated commands establish a feeling of nagging and control.",
+          "Amanda is the one controlling the adult"
+        ],
+        "answer": 2,
+        "explanation": "The poem repeatedly contrasts the adult’s corrections with Amanda’s imagined escapes.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "structure",
+          "parent-child relationship"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "Which revision note about the adult’s instructions is accurate?",
+        "options": [
+          "the adult tells her to manage a tea garden",
+          "the adult teaches her to fly",
+          "the adult asks her to plan a bus trip",
+          "The adult repeatedly tells Amanda how to sit and behave."
+        ],
+        "answer": 3,
+        "explanation": "The poem repeatedly contrasts the adult’s corrections with Amanda’s imagined escapes.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "parent-child relationship"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Why is the adult’s instructions important to the poem’s effect?",
+        "options": [
+          "The repeated commands establish a feeling of nagging and control.",
+          "The instructions are all requests for adventure",
+          "The adult gives no directions",
+          "Amanda is the one controlling the adult"
+        ],
+        "answer": 0,
+        "explanation": "The poem repeatedly contrasts the adult’s corrections with Amanda’s imagined escapes.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "structure",
+          "parent-child relationship"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Which detail about biting nails is supported by the poem?",
+        "options": [
+          "to feed a tiger",
+          "Amanda is told not to bite her nails.",
+          "to buy a ball",
+          "to open the window"
+        ],
+        "answer": 1,
+        "explanation": "The nail-biting instruction is one example of the adult’s attention to behaviour.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "text detail",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "What does biting nails contribute to the poem’s meaning?",
+        "options": [
+          "The adult praises the habit",
+          "The instruction is about a wildlife safari",
+          "The small correction contributes to the sense of constant supervision.",
+          "The poem describes a school examination"
+        ],
+        "answer": 2,
+        "explanation": "The nail-biting instruction is one example of the adult’s attention to behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "text detail",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "Which interpretation of biting nails best fits the poem?",
+        "options": [
+          "The poem describes a school examination",
+          "The instruction is about a wildlife safari",
+          "The adult praises the habit",
+          "The small correction contributes to the sense of constant supervision."
+        ],
+        "answer": 3,
+        "explanation": "The nail-biting instruction is one example of the adult’s attention to behaviour.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "text detail",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Which revision note about biting nails is accurate?",
+        "options": [
+          "Amanda is told not to bite her nails.",
+          "to feed a tiger",
+          "to buy a ball",
+          "to open the window"
+        ],
+        "answer": 0,
+        "explanation": "The nail-biting instruction is one example of the adult’s attention to behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "text detail",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Why is biting nails important to the poem’s effect?",
+        "options": [
+          "The instruction is about a wildlife safari",
+          "The small correction contributes to the sense of constant supervision.",
+          "The adult praises the habit",
+          "The poem describes a school examination"
+        ],
+        "answer": 1,
+        "explanation": "The nail-biting instruction is one example of the adult’s attention to behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "text detail",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "Which detail about slouching is supported by the poem?",
+        "options": [
+          "to walk through a forest",
+          "to run a race",
+          "Amanda is also told to sit up straight rather than slouch.",
+          "to ride a bus"
+        ],
+        "answer": 2,
+        "explanation": "The posture correction reflects the adult’s wish to regulate Amanda’s behaviour.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "text detail",
+          "control"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does slouching contribute to the poem’s meaning?",
+        "options": [
+          "Amanda is asked to buy a new ball",
+          "The adult tells her to lie down anywhere",
+          "The poem focuses on a tiger’s cage",
+          "The instruction adds to the pattern of correcting her posture and conduct."
+        ],
+        "answer": 3,
+        "explanation": "The posture correction reflects the adult’s wish to regulate Amanda’s behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "text detail",
+          "control"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "Which interpretation of slouching best fits the poem?",
+        "options": [
+          "The instruction adds to the pattern of correcting her posture and conduct.",
+          "The adult tells her to lie down anywhere",
+          "The poem focuses on a tiger’s cage",
+          "Amanda is asked to buy a new ball"
+        ],
+        "answer": 0,
+        "explanation": "The posture correction reflects the adult’s wish to regulate Amanda’s behaviour.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "text detail",
+          "control"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which revision note about slouching is accurate?",
+        "options": [
+          "to run a race",
+          "Amanda is also told to sit up straight rather than slouch.",
+          "to walk through a forest",
+          "to ride a bus"
+        ],
+        "answer": 1,
+        "explanation": "The posture correction reflects the adult’s wish to regulate Amanda’s behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "text detail",
+          "control"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "Why is slouching important to the poem’s effect?",
+        "options": [
+          "The poem focuses on a tiger’s cage",
+          "The adult tells her to lie down anywhere",
+          "The instruction adds to the pattern of correcting her posture and conduct.",
+          "Amanda is asked to buy a new ball"
+        ],
+        "answer": 2,
+        "explanation": "The posture correction reflects the adult’s wish to regulate Amanda’s behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "text detail",
+          "control"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which detail about the mermaid fantasy is supported by the poem?",
+        "options": [
+          "a tiger in a zoo",
+          "a driver on a bus",
+          "a baker in a village",
+          "Amanda imagines herself as a mermaid drifting in a quiet green sea."
+        ],
+        "answer": 3,
+        "explanation": "The mermaid image represents a private world where Amanda can be alone and free.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does the mermaid fantasy contribute to the poem’s meaning?",
+        "options": [
+          "The fantasy offers an escape from the demands of the adult voice.",
+          "It makes her responsible for teaching others",
+          "It shows she enjoys being ordered about",
+          "It is a realistic description of her classroom"
+        ],
+        "answer": 0,
+        "explanation": "The mermaid image represents a private world where Amanda can be alone and free.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Which interpretation of the mermaid fantasy best fits the poem?",
+        "options": [
+          "It makes her responsible for teaching others",
+          "The fantasy offers an escape from the demands of the adult voice.",
+          "It shows she enjoys being ordered about",
+          "It is a realistic description of her classroom"
+        ],
+        "answer": 1,
+        "explanation": "The mermaid image represents a private world where Amanda can be alone and free.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which revision note about the mermaid fantasy is accurate?",
+        "options": [
+          "a baker in a village",
+          "a driver on a bus",
+          "Amanda imagines herself as a mermaid drifting in a quiet green sea.",
+          "a tiger in a zoo"
+        ],
+        "answer": 2,
+        "explanation": "The mermaid image represents a private world where Amanda can be alone and free.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "Why is the mermaid fantasy important to the poem’s effect?",
+        "options": [
+          "It is a realistic description of her classroom",
+          "It makes her responsible for teaching others",
+          "It shows she enjoys being ordered about",
+          "The fantasy offers an escape from the demands of the adult voice."
+        ],
+        "answer": 3,
+        "explanation": "The mermaid image represents a private world where Amanda can be alone and free.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Which detail about the emerald sea is supported by the poem?",
+        "options": [
+          "The emerald sea creates an image of a calm, spacious imaginary world.",
+          "a crowded noisy market",
+          "a narrow concrete cell",
+          "a busy railway platform"
+        ],
+        "answer": 0,
+        "explanation": "The calm sea is part of Amanda’s imagined escape.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What does the emerald sea contribute to the poem’s meaning?",
+        "options": [
+          "The sea symbolises a school rule",
+          "The image contrasts with the repeated instructions in her immediate surroundings.",
+          "It creates the image of a noisy classroom",
+          "It shows Amanda wants a smaller space"
+        ],
+        "answer": 1,
+        "explanation": "The calm sea is part of Amanda’s imagined escape.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of the emerald sea best fits the poem?",
+        "options": [
+          "It creates the image of a noisy classroom",
+          "The sea symbolises a school rule",
+          "The image contrasts with the repeated instructions in her immediate surroundings.",
+          "It shows Amanda wants a smaller space"
+        ],
+        "answer": 2,
+        "explanation": "The calm sea is part of Amanda’s imagined escape.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which revision note about the emerald sea is accurate?",
+        "options": [
+          "a busy railway platform",
+          "a crowded noisy market",
+          "a narrow concrete cell",
+          "The emerald sea creates an image of a calm, spacious imaginary world."
+        ],
+        "answer": 3,
+        "explanation": "The calm sea is part of Amanda’s imagined escape.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Why is the emerald sea important to the poem’s effect?",
+        "options": [
+          "The image contrasts with the repeated instructions in her immediate surroundings.",
+          "The sea symbolises a school rule",
+          "It creates the image of a noisy classroom",
+          "It shows Amanda wants a smaller space"
+        ],
+        "answer": 0,
+        "explanation": "The calm sea is part of Amanda’s imagined escape.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which detail about the orphan fantasy is supported by the poem?",
+        "options": [
+          "being a school principal",
+          "Amanda imagines wandering alone as an orphan.",
+          "becoming a bus conductor",
+          "living inside a zoo cage"
+        ],
+        "answer": 1,
+        "explanation": "The orphan image expresses a wish to be free from being directed by others.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "fantasy",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What does the orphan fantasy contribute to the poem’s meaning?",
+        "options": [
+          "She wants to manage a classroom",
+          "She imagines a crowded household full of rules",
+          "The fantasy suggests she sometimes longs for freedom from constant supervision, even if the imagined life is lonely.",
+          "The fantasy is about buying toys"
+        ],
+        "answer": 2,
+        "explanation": "The orphan image expresses a wish to be free from being directed by others.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "fantasy",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which interpretation of the orphan fantasy best fits the poem?",
+        "options": [
+          "The fantasy is about buying toys",
+          "She imagines a crowded household full of rules",
+          "She wants to manage a classroom",
+          "The fantasy suggests she sometimes longs for freedom from constant supervision, even if the imagined life is lonely."
+        ],
+        "answer": 3,
+        "explanation": "The orphan image expresses a wish to be free from being directed by others.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "fantasy",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which revision note about the orphan fantasy is accurate?",
+        "options": [
+          "Amanda imagines wandering alone as an orphan.",
+          "being a school principal",
+          "becoming a bus conductor",
+          "living inside a zoo cage"
+        ],
+        "answer": 0,
+        "explanation": "The orphan image expresses a wish to be free from being directed by others.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "fantasy",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is the orphan fantasy important to the poem’s effect?",
+        "options": [
+          "She imagines a crowded household full of rules",
+          "The fantasy suggests she sometimes longs for freedom from constant supervision, even if the imagined life is lonely.",
+          "She wants to manage a classroom",
+          "The fantasy is about buying toys"
+        ],
+        "answer": 1,
+        "explanation": "The orphan image expresses a wish to be free from being directed by others.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "fantasy",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Which detail about the silent streets is supported by the poem?",
+        "options": [
+          "she rides a bus full of people",
+          "she leads a noisy parade",
+          "In her fantasy, Amanda walks alone through quiet streets.",
+          "she argues about a piece of land"
+        ],
+        "answer": 2,
+        "explanation": "The quiet streets symbolise the silence and independence she imagines.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "solitude"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does the silent streets contribute to the poem’s meaning?",
+        "options": [
+          "The image represents a noisy classroom",
+          "She wants every passer-by to instruct her",
+          "The street is a zoo enclosure",
+          "Solitude appeals to her as a contrast to the adult’s constant voice."
+        ],
+        "answer": 3,
+        "explanation": "The quiet streets symbolise the silence and independence she imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "solitude"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "Which interpretation of the silent streets best fits the poem?",
+        "options": [
+          "Solitude appeals to her as a contrast to the adult’s constant voice.",
+          "She wants every passer-by to instruct her",
+          "The street is a zoo enclosure",
+          "The image represents a noisy classroom"
+        ],
+        "answer": 0,
+        "explanation": "The quiet streets symbolise the silence and independence she imagines.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "solitude"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which revision note about the silent streets is accurate?",
+        "options": [
+          "she leads a noisy parade",
+          "In her fantasy, Amanda walks alone through quiet streets.",
+          "she rides a bus full of people",
+          "she argues about a piece of land"
+        ],
+        "answer": 1,
+        "explanation": "The quiet streets symbolise the silence and independence she imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "solitude"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "Why is the silent streets important to the poem’s effect?",
+        "options": [
+          "The street is a zoo enclosure",
+          "She wants every passer-by to instruct her",
+          "Solitude appeals to her as a contrast to the adult’s constant voice.",
+          "The image represents a noisy classroom"
+        ],
+        "answer": 2,
+        "explanation": "The quiet streets symbolise the silence and independence she imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "solitude"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Which detail about the Rapunzel fantasy is supported by the poem?",
+        "options": [
+          "a pilot in a storm",
+          "a tiger in the jungle",
+          "a farmer in a field",
+          "Amanda imagines herself as Rapunzel in a tower."
+        ],
+        "answer": 3,
+        "explanation": "The Rapunzel image is one of Amanda’s imagined retreats.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "allusion",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What does the Rapunzel fantasy contribute to the poem’s meaning?",
+        "options": [
+          "The fantasy creates another imagined world separated from everyday demands.",
+          "It shows she wants to be ordered by everyone",
+          "It is a description of her actual bedroom only",
+          "It relates to the debate about dogs"
+        ],
+        "answer": 0,
+        "explanation": "The Rapunzel image is one of Amanda’s imagined retreats.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Which interpretation of the Rapunzel fantasy best fits the poem?",
+        "options": [
+          "It shows she wants to be ordered by everyone",
+          "The fantasy creates another imagined world separated from everyday demands.",
+          "It is a description of her actual bedroom only",
+          "It relates to the debate about dogs"
+        ],
+        "answer": 1,
+        "explanation": "The Rapunzel image is one of Amanda’s imagined retreats.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "allusion",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Which revision note about the Rapunzel fantasy is accurate?",
+        "options": [
+          "a farmer in a field",
+          "a tiger in the jungle",
+          "Amanda imagines herself as Rapunzel in a tower.",
+          "a pilot in a storm"
+        ],
+        "answer": 2,
+        "explanation": "The Rapunzel image is one of Amanda’s imagined retreats.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why is the Rapunzel fantasy important to the poem’s effect?",
+        "options": [
+          "It relates to the debate about dogs",
+          "It shows she wants to be ordered by everyone",
+          "It is a description of her actual bedroom only",
+          "The fantasy creates another imagined world separated from everyday demands."
+        ],
+        "answer": 3,
+        "explanation": "The Rapunzel image is one of Amanda’s imagined retreats.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which detail about not letting down her hair is supported by the poem?",
+        "options": [
+          "Amanda imagines that she would not let down her hair for anyone.",
+          "she wishes to invite everyone into the tower",
+          "she wants to become a teacher",
+          "she plans to travel to Assam"
+        ],
+        "answer": 0,
+        "explanation": "Even within a familiar fairy-tale image, Amanda imagines keeping her independence.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "allusion",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does not letting down her hair contribute to the poem’s meaning?",
+        "options": [
+          "She wants to obey every outside command",
+          "The detail suggests that she values privacy and control over access to herself.",
+          "She is asking for a bus ticket",
+          "She wants to give away her toys"
+        ],
+        "answer": 1,
+        "explanation": "Even within a familiar fairy-tale image, Amanda imagines keeping her independence.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which interpretation of not letting down her hair best fits the poem?",
+        "options": [
+          "She is asking for a bus ticket",
+          "She wants to obey every outside command",
+          "The detail suggests that she values privacy and control over access to herself.",
+          "She wants to give away her toys"
+        ],
+        "answer": 2,
+        "explanation": "Even within a familiar fairy-tale image, Amanda imagines keeping her independence.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "allusion",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which revision note about not letting down her hair is accurate?",
+        "options": [
+          "she plans to travel to Assam",
+          "she wishes to invite everyone into the tower",
+          "she wants to become a teacher",
+          "Amanda imagines that she would not let down her hair for anyone."
+        ],
+        "answer": 3,
+        "explanation": "Even within a familiar fairy-tale image, Amanda imagines keeping her independence.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "Why is not letting down her hair important to the poem’s effect?",
+        "options": [
+          "The detail suggests that she values privacy and control over access to herself.",
+          "She wants to obey every outside command",
+          "She is asking for a bus ticket",
+          "She wants to give away her toys"
+        ],
+        "answer": 0,
+        "explanation": "Even within a familiar fairy-tale image, Amanda imagines keeping her independence.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about the repeated name is supported by the poem?",
+        "options": [
+          "the adult calls ‘Mijbil!’",
+          "The adult repeatedly calls ‘Amanda!’",
+          "the poem repeats the word ‘Basra’",
+          "the name of a dog is repeated"
+        ],
+        "answer": 1,
+        "explanation": "The repeated name pulls attention back from Amanda’s imagined world to the adult’s voice.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "repetition",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the repeated name contribute to the poem’s meaning?",
+        "options": [
+          "It indicates a train announcement",
+          "The refrain means Amanda is not present",
+          "The refrain highlights the interruption between Amanda’s fantasy and the adult’s demands.",
+          "It is a line spoken by a mermaid"
+        ],
+        "answer": 2,
+        "explanation": "The repeated name pulls attention back from Amanda’s imagined world to the adult’s voice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "repetition",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Which interpretation of the repeated name best fits the poem?",
+        "options": [
+          "It is a line spoken by a mermaid",
+          "The refrain means Amanda is not present",
+          "It indicates a train announcement",
+          "The refrain highlights the interruption between Amanda’s fantasy and the adult’s demands."
+        ],
+        "answer": 3,
+        "explanation": "The repeated name pulls attention back from Amanda’s imagined world to the adult’s voice.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "repetition",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "Which revision note about the repeated name is accurate?",
+        "options": [
+          "The adult repeatedly calls ‘Amanda!’",
+          "the adult calls ‘Mijbil!’",
+          "the poem repeats the word ‘Basra’",
+          "the name of a dog is repeated"
+        ],
+        "answer": 0,
+        "explanation": "The repeated name pulls attention back from Amanda’s imagined world to the adult’s voice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "repetition",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Why is the repeated name important to the poem’s effect?",
+        "options": [
+          "The refrain means Amanda is not present",
+          "The refrain highlights the interruption between Amanda’s fantasy and the adult’s demands.",
+          "It indicates a train announcement",
+          "It is a line spoken by a mermaid"
+        ],
+        "answer": 1,
+        "explanation": "The repeated name pulls attention back from Amanda’s imagined world to the adult’s voice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "repetition",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Which detail about the adult’s concern is supported by the poem?",
+        "options": [
+          "the adult wants her to ignore all manners",
+          "the adult wants Amanda to live in a tower",
+          "The adult worries about how Amanda’s behaviour may appear to others.",
+          "the adult is worried about a lost tiger"
+        ],
+        "answer": 2,
+        "explanation": "The poem shows the adult thinking about behaviour and how it may be judged.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "parent-child relationship",
+          "social expectations"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does the adult’s concern contribute to the poem’s meaning?",
+        "options": [
+          "The concern is only about a bus fare",
+          "The adult rejects all social behaviour",
+          "The adult wants Amanda to avoid everyone forever",
+          "The adult’s commands come partly from concern about social expectations."
+        ],
+        "answer": 3,
+        "explanation": "The poem shows the adult thinking about behaviour and how it may be judged.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "parent-child relationship",
+          "social expectations"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Which interpretation of the adult’s concern best fits the poem?",
+        "options": [
+          "The adult’s commands come partly from concern about social expectations.",
+          "The adult rejects all social behaviour",
+          "The adult wants Amanda to avoid everyone forever",
+          "The concern is only about a bus fare"
+        ],
+        "answer": 0,
+        "explanation": "The poem shows the adult thinking about behaviour and how it may be judged.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "parent-child relationship",
+          "social expectations"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which revision note about the adult’s concern is accurate?",
+        "options": [
+          "the adult wants Amanda to live in a tower",
+          "The adult worries about how Amanda’s behaviour may appear to others.",
+          "the adult wants her to ignore all manners",
+          "the adult is worried about a lost tiger"
+        ],
+        "answer": 1,
+        "explanation": "The poem shows the adult thinking about behaviour and how it may be judged.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "parent-child relationship",
+          "social expectations"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Why is the adult’s concern important to the poem’s effect?",
+        "options": [
+          "The adult wants Amanda to avoid everyone forever",
+          "The adult rejects all social behaviour",
+          "The adult’s commands come partly from concern about social expectations.",
+          "The concern is only about a bus fare"
+        ],
+        "answer": 2,
+        "explanation": "The poem shows the adult thinking about behaviour and how it may be judged.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "parent-child relationship",
+          "social expectations"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "Which detail about Amanda’s silence is supported by the poem?",
+        "options": [
+          "she argues about the ownership of meadows",
+          "she gives a formal speech at school",
+          "she lectures the adult on science",
+          "Amanda’s imagined escapes are not long spoken arguments with the adult."
+        ],
+        "answer": 3,
+        "explanation": "Her imaginary worlds reveal feelings that she does not express directly.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characterization",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What does Amanda’s silence contribute to the poem’s meaning?",
+        "options": [
+          "The fantasies suggest an inward response rather than an open confrontation.",
+          "She wins an argument by shouting",
+          "The poem is written as a debate transcript",
+          "Amanda has no inner thoughts"
+        ],
+        "answer": 0,
+        "explanation": "Her imaginary worlds reveal feelings that she does not express directly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which interpretation of Amanda’s silence best fits the poem?",
+        "options": [
+          "She wins an argument by shouting",
+          "The fantasies suggest an inward response rather than an open confrontation.",
+          "The poem is written as a debate transcript",
+          "Amanda has no inner thoughts"
+        ],
+        "answer": 1,
+        "explanation": "Her imaginary worlds reveal feelings that she does not express directly.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characterization",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which revision note about Amanda’s silence is accurate?",
+        "options": [
+          "she lectures the adult on science",
+          "she gives a formal speech at school",
+          "Amanda’s imagined escapes are not long spoken arguments with the adult.",
+          "she argues about the ownership of meadows"
+        ],
+        "answer": 2,
+        "explanation": "Her imaginary worlds reveal feelings that she does not express directly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Why is Amanda’s silence important to the poem’s effect?",
+        "options": [
+          "Amanda has no inner thoughts",
+          "She wins an argument by shouting",
+          "The poem is written as a debate transcript",
+          "The fantasies suggest an inward response rather than an open confrontation."
+        ],
+        "answer": 3,
+        "explanation": "Her imaginary worlds reveal feelings that she does not express directly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which detail about the adult voice is supported by the poem?",
+        "options": [
+          "The adult’s voice is corrective and directive.",
+          "it is silent throughout",
+          "it only tells funny stories",
+          "it describes a journey to England"
+        ],
+        "answer": 0,
+        "explanation": "The adult’s instructions provide the poem’s external voice.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "voice",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What does the adult voice contribute to the poem’s meaning?",
+        "options": [
+          "The adult offers unlimited freedom",
+          "The repeated corrections create pressure on Amanda.",
+          "The voice has no influence on the poem",
+          "The adult is a mermaid"
+        ],
+        "answer": 1,
+        "explanation": "The adult’s instructions provide the poem’s external voice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "voice",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which interpretation of the adult voice best fits the poem?",
+        "options": [
+          "The voice has no influence on the poem",
+          "The adult offers unlimited freedom",
+          "The repeated corrections create pressure on Amanda.",
+          "The adult is a mermaid"
+        ],
+        "answer": 2,
+        "explanation": "The adult’s instructions provide the poem’s external voice.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "voice",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which revision note about the adult voice is accurate?",
+        "options": [
+          "it describes a journey to England",
+          "it is silent throughout",
+          "it only tells funny stories",
+          "The adult’s voice is corrective and directive."
+        ],
+        "answer": 3,
+        "explanation": "The adult’s instructions provide the poem’s external voice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "voice",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Why is the adult voice important to the poem’s effect?",
+        "options": [
+          "The repeated corrections create pressure on Amanda.",
+          "The adult offers unlimited freedom",
+          "The voice has no influence on the poem",
+          "The adult is a mermaid"
+        ],
+        "answer": 0,
+        "explanation": "The adult’s instructions provide the poem’s external voice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "voice",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Which detail about freedom and control is supported by the poem?",
+        "options": [
+          "both worlds are exactly the same",
+          "Amanda’s fantasies are spacious and quiet, while the adult’s instructions are restrictive.",
+          "the adult’s voice invites her to roam alone",
+          "the fantasies contain no images"
+        ],
+        "answer": 1,
+        "explanation": "The poem juxtaposes imagined freedom with everyday correction.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "contrast",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "What does freedom and control contribute to the poem’s meaning?",
+        "options": [
+          "The adult asks her to become a tiger",
+          "The poem says freedom is unimportant",
+          "The contrast highlights the tension between a child’s desire for autonomy and adult supervision.",
+          "The child only wants more rules"
+        ],
+        "answer": 2,
+        "explanation": "The poem juxtaposes imagined freedom with everyday correction.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of freedom and control best fits the poem?",
+        "options": [
+          "The child only wants more rules",
+          "The poem says freedom is unimportant",
+          "The adult asks her to become a tiger",
+          "The contrast highlights the tension between a child’s desire for autonomy and adult supervision."
+        ],
+        "answer": 3,
+        "explanation": "The poem juxtaposes imagined freedom with everyday correction.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "contrast",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which revision note about freedom and control is accurate?",
+        "options": [
+          "Amanda’s fantasies are spacious and quiet, while the adult’s instructions are restrictive.",
+          "both worlds are exactly the same",
+          "the adult’s voice invites her to roam alone",
+          "the fantasies contain no images"
+        ],
+        "answer": 0,
+        "explanation": "The poem juxtaposes imagined freedom with everyday correction.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Why is freedom and control important to the poem’s effect?",
+        "options": [
+          "The poem says freedom is unimportant",
+          "The contrast highlights the tension between a child’s desire for autonomy and adult supervision.",
+          "The adult asks her to become a tiger",
+          "The child only wants more rules"
+        ],
+        "answer": 1,
+        "explanation": "The poem juxtaposes imagined freedom with everyday correction.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which detail about imaginary escape is supported by the poem?",
+        "options": [
+          "she visits the post office to ask for money",
+          "she leaves the house permanently",
+          "Amanda retreats into imagined identities rather than answering every instruction aloud.",
+          "she starts an argument over dogs"
+        ],
+        "answer": 2,
+        "explanation": "Her fantasies help readers understand her inner response to nagging.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "fantasy",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What does imaginary escape contribute to the poem’s meaning?",
+        "options": [
+          "The poem focuses on the weather",
+          "Fantasy is shown as a physical journey",
+          "Amanda has no desire for privacy",
+          "Imagination becomes a private way to cope with frustration."
+        ],
+        "answer": 3,
+        "explanation": "Her fantasies help readers understand her inner response to nagging.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "fantasy",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which interpretation of imaginary escape best fits the poem?",
+        "options": [
+          "Imagination becomes a private way to cope with frustration.",
+          "Fantasy is shown as a physical journey",
+          "Amanda has no desire for privacy",
+          "The poem focuses on the weather"
+        ],
+        "answer": 0,
+        "explanation": "Her fantasies help readers understand her inner response to nagging.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "fantasy",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which revision note about imaginary escape is accurate?",
+        "options": [
+          "she leaves the house permanently",
+          "Amanda retreats into imagined identities rather than answering every instruction aloud.",
+          "she visits the post office to ask for money",
+          "she starts an argument over dogs"
+        ],
+        "answer": 1,
+        "explanation": "Her fantasies help readers understand her inner response to nagging.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "fantasy",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is imaginary escape important to the poem’s effect?",
+        "options": [
+          "Amanda has no desire for privacy",
+          "Fantasy is shown as a physical journey",
+          "Imagination becomes a private way to cope with frustration.",
+          "The poem focuses on the weather"
+        ],
+        "answer": 2,
+        "explanation": "Her fantasies help readers understand her inner response to nagging.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "fantasy",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which detail about the poem’s mood is supported by the poem?",
+        "options": [
+          "it is a historical speech",
+          "it is a war report only",
+          "it is a scientific manual",
+          "The poem mixes an ordinary domestic scene with dreamlike images."
+        ],
+        "answer": 3,
+        "explanation": "The poem moves between familiar corrections and Amanda’s imagined worlds.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What does the poem’s mood contribute to the poem’s meaning?",
+        "options": [
+          "The contrast creates both humour and sympathy for Amanda.",
+          "Every line is a factual instruction",
+          "The poem contains no imagined scenes",
+          "The adult’s voice is absent"
+        ],
+        "answer": 0,
+        "explanation": "The poem moves between familiar corrections and Amanda’s imagined worlds.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which interpretation of the poem’s mood best fits the poem?",
+        "options": [
+          "Every line is a factual instruction",
+          "The contrast creates both humour and sympathy for Amanda.",
+          "The poem contains no imagined scenes",
+          "The adult’s voice is absent"
+        ],
+        "answer": 1,
+        "explanation": "The poem moves between familiar corrections and Amanda’s imagined worlds.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which revision note about the poem’s mood is accurate?",
+        "options": [
+          "it is a scientific manual",
+          "it is a war report only",
+          "The poem mixes an ordinary domestic scene with dreamlike images.",
+          "it is a historical speech"
+        ],
+        "answer": 2,
+        "explanation": "The poem moves between familiar corrections and Amanda’s imagined worlds.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Why is the poem’s mood important to the poem’s effect?",
+        "options": [
+          "The adult’s voice is absent",
+          "Every line is a factual instruction",
+          "The poem contains no imagined scenes",
+          "The contrast creates both humour and sympathy for Amanda."
+        ],
+        "answer": 3,
+        "explanation": "The poem moves between familiar corrections and Amanda’s imagined worlds.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which detail about the child’s independence is supported by the poem?",
+        "options": [
+          "Amanda seems to want space to make choices and be alone.",
+          "she wants every moment controlled by another person",
+          "she wants to command the whole town",
+          "she wants a crowd to follow her"
+        ],
+        "answer": 0,
+        "explanation": "Amanda’s imagined escapes reveal her wish for independence.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "What does the child’s independence contribute to the poem’s meaning?",
+        "options": [
+          "The fantasies prove she enjoys constant nagging",
+          "Her daydreams express a desire for autonomy.",
+          "The poem shows she rejects all imagination",
+          "She wants to become a bus driver"
+        ],
+        "answer": 1,
+        "explanation": "Amanda’s imagined escapes reveal her wish for independence.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which interpretation of the child’s independence best fits the poem?",
+        "options": [
+          "The poem shows she rejects all imagination",
+          "The fantasies prove she enjoys constant nagging",
+          "Her daydreams express a desire for autonomy.",
+          "She wants to become a bus driver"
+        ],
+        "answer": 2,
+        "explanation": "Amanda’s imagined escapes reveal her wish for independence.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which revision note about the child’s independence is accurate?",
+        "options": [
+          "she wants a crowd to follow her",
+          "she wants every moment controlled by another person",
+          "she wants to command the whole town",
+          "Amanda seems to want space to make choices and be alone."
+        ],
+        "answer": 3,
+        "explanation": "Amanda’s imagined escapes reveal her wish for independence.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Why is the child’s independence important to the poem’s effect?",
+        "options": [
+          "Her daydreams express a desire for autonomy.",
+          "The fantasies prove she enjoys constant nagging",
+          "The poem shows she rejects all imagination",
+          "She wants to become a bus driver"
+        ],
+        "answer": 0,
+        "explanation": "Amanda’s imagined escapes reveal her wish for independence.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which detail about the fairy-tale reference is supported by the poem?",
+        "options": [
+          "an animal clue from a comic poem",
+          "Rapunzel is a literary allusion in Amanda’s fantasy.",
+          "a historical leader",
+          "a tea-growing season"
+        ],
+        "answer": 1,
+        "explanation": "The reference to Rapunzel draws on a known story to create an image of isolation.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "allusion",
+          "literary device"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does the fairy-tale reference contribute to the poem’s meaning?",
+        "options": [
+          "It identifies the tiger’s habitat",
+          "The allusion refers to a real school rule",
+          "The familiar tale gives shape to Amanda’s idea of retreating from others.",
+          "It is the name of the adult"
+        ],
+        "answer": 2,
+        "explanation": "The reference to Rapunzel draws on a known story to create an image of isolation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "literary device"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which interpretation of the fairy-tale reference best fits the poem?",
+        "options": [
+          "It is the name of the adult",
+          "The allusion refers to a real school rule",
+          "It identifies the tiger’s habitat",
+          "The familiar tale gives shape to Amanda’s idea of retreating from others."
+        ],
+        "answer": 3,
+        "explanation": "The reference to Rapunzel draws on a known story to create an image of isolation.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "allusion",
+          "literary device"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "Which revision note about the fairy-tale reference is accurate?",
+        "options": [
+          "Rapunzel is a literary allusion in Amanda’s fantasy.",
+          "an animal clue from a comic poem",
+          "a historical leader",
+          "a tea-growing season"
+        ],
+        "answer": 0,
+        "explanation": "The reference to Rapunzel draws on a known story to create an image of isolation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "literary device"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Why is the fairy-tale reference important to the poem’s effect?",
+        "options": [
+          "The allusion refers to a real school rule",
+          "The familiar tale gives shape to Amanda’s idea of retreating from others.",
+          "It identifies the tiger’s habitat",
+          "It is the name of the adult"
+        ],
+        "answer": 1,
+        "explanation": "The reference to Rapunzel draws on a known story to create an image of isolation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "allusion",
+          "literary device"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about the mermaid image is supported by the poem?",
+        "options": [
+          "a farmer repairing a field",
+          "a child driving a bus",
+          "The mermaid image presents Amanda as part of an imaginative underwater world.",
+          "a baker selling bread"
+        ],
+        "answer": 2,
+        "explanation": "The mermaid fantasy displays the freedom Amanda imagines.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the mermaid image contribute to the poem’s meaning?",
+        "options": [
+          "It is a factual account of marine biology",
+          "It describes her ordinary classroom behaviour literally",
+          "It shows that Amanda is a real sea creature",
+          "The image contrasts sharply with the adult’s practical instructions."
+        ],
+        "answer": 3,
+        "explanation": "The mermaid fantasy displays the freedom Amanda imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which interpretation of the mermaid image best fits the poem?",
+        "options": [
+          "The image contrasts sharply with the adult’s practical instructions.",
+          "It describes her ordinary classroom behaviour literally",
+          "It shows that Amanda is a real sea creature",
+          "It is a factual account of marine biology"
+        ],
+        "answer": 0,
+        "explanation": "The mermaid fantasy displays the freedom Amanda imagines.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which revision note about the mermaid image is accurate?",
+        "options": [
+          "a child driving a bus",
+          "The mermaid image presents Amanda as part of an imaginative underwater world.",
+          "a farmer repairing a field",
+          "a baker selling bread"
+        ],
+        "answer": 1,
+        "explanation": "The mermaid fantasy displays the freedom Amanda imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Why is the mermaid image important to the poem’s effect?",
+        "options": [
+          "It shows that Amanda is a real sea creature",
+          "It describes her ordinary classroom behaviour literally",
+          "The image contrasts sharply with the adult’s practical instructions.",
+          "It is a factual account of marine biology"
+        ],
+        "answer": 2,
+        "explanation": "The mermaid fantasy displays the freedom Amanda imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "fantasy"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which detail about the poem’s message is supported by the poem?",
+        "options": [
+          "it says imagination is useless",
+          "it argues that children have no feelings",
+          "it praises endless nagging",
+          "The poem invites readers to consider how constant correction may affect a child."
+        ],
+        "answer": 3,
+        "explanation": "The poem shows the tension between adult expectations and a child’s need for autonomy.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What does the poem’s message contribute to the poem’s meaning?",
+        "options": [
+          "Children may seek private space when they feel over-directed.",
+          "Rules should eliminate every personal choice",
+          "The poem is about a wildlife safari",
+          "The adult’s voice has no relation to Amanda’s fantasies"
+        ],
+        "answer": 0,
+        "explanation": "The poem shows the tension between adult expectations and a child’s need for autonomy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "summary"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
