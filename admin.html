@@ -149,19 +149,19 @@
       </section>
 
       <section class="admin-panel" id="tab-students">
-        <section class="admin-content" id="flatFileAccountsPanel" hidden style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
-          <h3>Legacy student accounts · disabled</h3>
-          <p class="admin-muted">This legacy JSON workflow is disabled. Use the central account service below to create student accounts directly in ExamGuru.</p>
+        <section class="admin-content" id="flatFileAccountsPanel" style="border:1px solid var(--c10-line);border-radius:14px;padding:14px">
+          <h3>Student accounts · GitHub JSON database</h3>
+          <p class="admin-muted">Create and manage student accounts here. The portal generates the updated JSON file; because GitHub Pages is static, an authorised maintainer must publish that file to GitHub for accounts to become available to all students.</p>
           <div class="admin-notice"><strong>Important:</strong> this is a simple starter, not secure authentication. The repository is public; the username, salt and password hash can be read by anyone and weak passwords may be guessed offline. Do not store real names, emails, school details or reused passwords in this file.</div>
           <div class="admin-form-grid">
             <div class="admin-field"><label for="staticAccountUsername">New username</label><input id="staticAccountUsername" maxlength="32" minlength="3" pattern="[A-Za-z0-9._-]{3,32}" autocomplete="off" autocapitalize="none" placeholder="e.g. learner_01"></div><div class="admin-field"><label for="staticAccountClass">Assigned class</label><select id="staticAccountClass"><option value="10">Class 10</option></select></div>
           </div>
-          <div class="admin-actions"><button class="admin-btn" id="createStaticAccountBtn" type="button">Create account &amp; download JSON</button><button class="admin-btn secondary" id="reloadStaticAccountsBtn" type="button">Reload published account file</button></div>
+          <div class="admin-actions"><button class="admin-btn" id="createStaticAccountBtn" type="button">Create account &amp; export database</button><button class="admin-btn secondary" id="reloadStaticAccountsBtn" type="button">Reload published account file</button></div>
           <hr class="admin-rule">
           <div class="admin-form-grid">
             <div class="admin-field"><label for="resetStaticAccountUsername">Reset password for</label><select id="resetStaticAccountUsername"><option value="">Load accounts first</option></select></div>
           </div>
-          <div class="admin-actions"><button class="admin-btn secondary" id="resetStaticAccountBtn" type="button">Generate reset password &amp; download JSON</button></div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="resetStaticAccountBtn" type="button">Reset password &amp; export database</button></div>
           <hr class="admin-rule">
           <h4>Promote / change assigned class</h4>
           <p class="admin-muted">Choose a student and the new class. This updates the account JSON draft; students cannot edit their assigned class in their profile.</p>
@@ -169,7 +169,7 @@
             <div class="admin-field"><label for="manageStaticAccountUsername">Student account</label><select id="manageStaticAccountUsername"><option value="">Load accounts first</option></select></div>
             <div class="admin-field"><label for="manageStaticAccountClass">New assigned class</label><select id="manageStaticAccountClass"><option value="10">Class 10</option></select></div>
           </div>
-          <div class="admin-actions"><button class="admin-btn secondary" id="updateStaticAccountClassBtn" type="button">Update class &amp; download JSON</button></div>
+          <div class="admin-actions"><button class="admin-btn secondary" id="updateStaticAccountClassBtn" type="button">Update class &amp; export database</button></div>
           <div id="staticAccountStatus" class="admin-status" role="status">Loading the published account file…</div>
           <div id="staticAccountTempBox" hidden>
             <p><strong>Temporary password — share privately with the student.</strong></p>
