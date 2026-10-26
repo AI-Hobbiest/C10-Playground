@@ -4,7 +4,8 @@ A mobile-friendly, non-commercial CBSE Class 10 learning and MCQ practice portal
 
 ## Live portal
 
-- Home / all subjects: https://ai-hobbiest.github.io/C10-Playground/
+- Sign-in landing page: https://ai-hobbiest.github.io/C10-Playground/
+- Learner subject hub and dashboard (after student sign-in): https://ai-hobbiest.github.io/C10-Playground/dashboard.html
 - Learner dashboard, levels and rewards: https://ai-hobbiest.github.io/C10-Playground/dashboard.html
 - Student profile, test history and JSON backup: https://ai-hobbiest.github.io/C10-Playground/profile.html
 - Admin Workspace (local authoring and reports): https://ai-hobbiest.github.io/C10-Playground/admin.html
@@ -16,7 +17,7 @@ A mobile-friendly, non-commercial CBSE Class 10 learning and MCQ practice portal
 
 ## Branding and navigation
 
-The portal uses the **Midnight Indigo + Electric Coral + Mint** theme and the attribution **“Conceptualised by JP Ganathe.”** The responsive navigation shell is shared across the homepage, practice pages, Science module, dashboard and profile/history page. On a desktop it appears as a left sidebar; on narrower screens it becomes a slide-in menu with a backdrop and keyboard Escape support.
+The portal uses the **Midnight Indigo + Electric Coral + Mint** theme and the attribution **“Conceptualised by JP Ganathe.”** The landing page is now a sign-in screen. A successful student sign-in opens the dashboard, which includes subject launch cards and learning analytics. The responsive side menu changes according to guest, student or server-verified admin state. Guests see sign-in; signed-in students see learning and profile links; admins see the Admin Workspace only after server-side role verification.
 
 - `css/branding.css`: shared theme tokens and styles.
 - `css/app-shell.css` and `js/app-shell.js`: responsive navigation.
@@ -40,6 +41,8 @@ Open the Admin Workspace at https://ai-hobbiest.github.io/C10-Playground/admin.h
 For the starter phase, students can sign in with a **username and password** from `data/student-accounts.json`. Passwords are stored as salted PBKDF2-SHA-256 hashes, never as plaintext. The administrator creates an account, assigns its class, resets a password or promotes/changes a student’s class in the Admin Workspace, downloads the updated JSON file, then commits that file to GitHub. The assigned class is shown in the student profile and is read-only while signed in; only the administrator can change it through the account-file workflow. The new account/password becomes active after GitHub Pages redeploys. Use usernames that do not identify students and unique classroom-only passwords.
 
 **Security limitation:** this repository and account file are public. Anyone can read usernames, salts and hashes and attempt offline password guesses. Verification happens in the browser and can be bypassed; this is not real authentication or a way to protect quiz content. Do not use personal, reused or confidential passwords, and do not store student profile data in the account file. Server-side authentication, private account storage, admin-only account management, cross-device sync and live reports are deferred. The existing Cloudflare Worker and D1 source in `cloudflare/` is retained only as a possible later improvement.
+
+The login page offers username/password sign-in for the existing flat-file student MVP and a separate GitHub admin sign-in option. The GitHub option requires the Cloudflare Worker/API to be deployed and configured. Its `ADMIN_GITHUB_USERS` setting is a **server-side allowlist** (currently defaulted in the deployment template to `AI-Hobbiest`); add any other app-authorised GitHub usernames explicitly. Being a GitHub user or repository collaborator does not by itself grant admin access. The public Pages UI never decides admin eligibility on its own. Until the Worker, D1 database and GitHub OAuth client are configured, GitHub admin sign-in will explain that it is unavailable rather than accepting an unverified identity.
 
 The local backup-import/reporting tools remain available, but student backups are processed in the browser and are not uploaded automatically. Do not commit student backups or private documents to this public repository. The `data/classes.json` file is the class catalogue. For flat-file accounts, the class assigned in `data/student-accounts.json` overrides the local profile class while signed in; only the administrator can promote or change it through the Admin Workspace. `data/knowledge-base.json` is a metadata manifest, not a document store.
 

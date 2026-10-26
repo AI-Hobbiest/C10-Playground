@@ -35,3 +35,6 @@ body.c10-shell-ready{padding-left:var(--c10-sidebar-width)}
   body.c10-menu-open{overflow:hidden}
 }
 @media(prefers-reduced-motion:reduce){.c10-sidebar,.c10-nav-scrim,.c10-nav-link{transition:none}}
+
+.c10-nav-action{width:100%;text-align:left;cursor:pointer;font:inherit;background:transparent}
+.c10-nav-action:disabled{opacity:.55;cursor:wait}
