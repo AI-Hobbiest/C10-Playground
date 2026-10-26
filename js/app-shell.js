@@ -46,6 +46,15 @@
     const student=readStaticStudent();
     return student?{role:"student",username:student.username,classId:String(student.classId||"10")}: {role:"guest",username:""};
   }
+  async function configuredSubjects(classId){
+    try{
+      const response=await fetch("./data/classes.json",{cache:"no-store"});
+      if(!response.ok)return null;
+      const data=await response.json();
+      const entry=(data.classes||[]).find(item=>String(item.classId)===String(classId)&&item.active!==false);
+      return entry&&Array.isArray(entry.subjects)?entry.subjects.map(String):null;
+    }catch(_){return null;}
+  }
   function applySectionFocus(){
     const current=getLocation();
     if(current.file==="dashboard.html"){
