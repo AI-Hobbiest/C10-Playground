@@ -17,12 +17,12 @@
     {
       "username": "c6pilot",
       "classId": "6",
-      "salt": "kV8WD8SjgeOWL9bBKoKbvg==",
-      "passwordHash": "Rg0YjHpzhta8Twz79Dk2JRxFfnufPDc8jcxQB/4+6yw=",
+      "salt": "fjuks/y/q2EEbCSFl1onfw==",
+      "passwordHash": "2T6QN2bELyRQTp5S/JSxHpC6lzY6PazgmzHIc3+SVmg=",
       "iterations": 600000,
       "active": true,
       "createdAt": "2026-10-26T17:46:00.000Z",
-      "updatedAt": "2026-10-26T17:46:00.000Z"
+      "updatedAt": "2026-10-26T18:18:58.091Z"
     }
   ]
 }
