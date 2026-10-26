@@ -47,6 +47,10 @@ jobs:
           cp js/session-model.js _site/js/session-model.js
           cp js/profile-model.js _site/js/profile-model.js
           cp js/student-auth.js _site/js/student-auth.js
+          cp js/login-page.js _site/js/login-page.js
+          cp js/page-access.js _site/js/page-access.js
+          cp js/api-config.js _site/js/api-config.js
+          cp js/api-client.js _site/js/api-client.js
           cp js/profile-manager.js _site/js/profile-manager.js
           cp js/admin-manager.js _site/js/admin-manager.js
           cp js/static-account-admin.js _site/js/static-account-admin.js
