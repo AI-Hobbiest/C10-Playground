@@ -41,7 +41,7 @@ For the starter phase, students can sign in with a **username and password** fro
 
 **Security limitation:** this repository and account file are public. Anyone can read usernames, salts and hashes and attempt offline password guesses. Verification happens in the browser and can be bypassed; this is not real authentication or a way to protect quiz content. Do not use personal, reused or confidential passwords, and do not store student profile data in the account file. Server-side authentication, private account storage, admin-only account management, cross-device sync and live reports are deferred. The existing Cloudflare Worker and D1 source in `cloudflare/` is retained only as a possible later improvement.
 
-The local backup-import/reporting tools remain available, but student backups are processed in the browser and are not uploaded automatically. Do not commit student backups or private documents to this public repository. The `data/classes.json` file controls class choices used by profiles; `data/knowledge-base.json` is a metadata manifest, not a document store.
+The local backup-import/reporting tools remain available, but student backups are processed in the browser and are not uploaded automatically. Do not commit student backups or private documents to this public repository. The `data/classes.json` file is the class catalogue. For flat-file accounts, the class assigned in `data/student-accounts.json` overrides the local profile class while signed in; only the administrator can promote or change it through the Admin Workspace. `data/knowledge-base.json` is a metadata manifest, not a document store.
 
 ## Practice engine
 
