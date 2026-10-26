@@ -1,4 +1,4 @@
-/* Landing-page sign-in flow. Static student sign-in is a low-risk GitHub Pages MVP. */
+/* Landing-page sign-in flow. Prefer the central server-verified account service when configured. */
 (() => {
   "use strict";
   const form=document.getElementById("studentLoginForm");
@@ -20,6 +20,10 @@
     if(!form.reportValidity())return;
     submit.disabled=true;submit.textContent="Signing in…";
     try{
+      if(window.C10Api&&window.C10Api.isConfigured()){
+        window.C10Api.studentLoginPage();
+        return;
+      }
       if(!window.C10StudentAuth)throw new Error("Student sign-in is unavailable. Please reload the page.");
       await window.C10StudentAuth.login(username.value,password.value);
       password.value="";
