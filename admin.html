@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#211b48">
 <meta name="description" content="Local authoring and reporting workspace for C10 Playground.">
 <title>Admin Workspace | C10 Playground</title>
-<script>try{const s=JSON.parse(sessionStorage.getItem("examguru_mvp_admin_session_v1")||"null");if((!s||s.role!=="admin"||s.username!=="Jayaprakashganathe@gmail.com")&&!sessionStorage.getItem("c10playground_api_session"))location.replace("./index.html?admin=login-required");}catch(_){location.replace("./index.html?admin=login-required");}</script>
+<script>try{const s=JSON.parse(sessionStorage.getItem("examguru_mvp_admin_session_v1")||"null");if((!s||s.role!=="admin"||s.username!=="Jayaprakashganathe@gmail.com")&&!sessionStorage.getItem("c10playground_api_session")&&!location.hash.includes("auth_code="))location.replace("./index.html?admin=login-required");}catch(_){location.replace("./index.html?admin=login-required");}</script>
 <link rel="stylesheet" href="./css/branding.css">
 <link rel="stylesheet" href="./css/app-shell.css">
 <link rel="stylesheet" href="./css/admin.css">
