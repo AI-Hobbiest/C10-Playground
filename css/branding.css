@@ -137,3 +137,12 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+/* UI refresh: modern system typography and quiet footer-only credit. */
+:root{font-family:Aptos,"Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,sans-serif}
+html,body,button,input,select,textarea{font-family:Aptos,"Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,sans-serif}
+body{font-family:Aptos,"Segoe UI",system-ui,-apple-system,BlinkMacSystemFont,sans-serif}
+header .brand-signature{display:none!important}
+.brand-signature.site-credit{display:flex!important;justify-content:center;margin:18px auto 10px;font-size:.68rem;line-height:1.4;font-weight:400;letter-spacing:.01em;opacity:.78}
+.brand-signature.site-credit::before{display:none}
+.c10-shell-credit{display:none!important}
