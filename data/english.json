@@ -28994,7 +28994,12 @@
         ],
         "answer": 1,
         "explanation": "The others mock Custard for wanting safety and protection.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "The Tale of Custard the Dragon",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -29007,7 +29012,12 @@
         ],
         "answer": 1,
         "explanation": "Custard actually faces the pirate while the others retreat.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Tale of Custard the Dragon",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -29020,7 +29030,1758 @@
         ],
         "answer": 1,
         "explanation": "The boastful characters flee, while the supposedly timid dragon acts.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "The Tale of Custard the Dragon",
+          "poetry"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about Belinda’s house is supported by the poem?",
+        "options": [
+          "Belinda lives in a small white house.",
+          "a castle made of ice",
+          "a bus station",
+          "a tea estate office"
+        ],
+        "answer": 0,
+        "explanation": "The house provides the setting where the characters and their bravery are introduced.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "setting",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does Belinda’s house contribute to the poem’s meaning?",
+        "options": [
+          "The poem begins on a battlefield",
+          "The simple setting is home to a group of comic animal characters.",
+          "The house is a zoo enclosure",
+          "Belinda lives in a ship"
+        ],
+        "answer": 1,
+        "explanation": "The house provides the setting where the characters and their bravery are introduced.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Which interpretation of Belinda’s house best fits the poem?",
+        "options": [
+          "The house is a zoo enclosure",
+          "The poem begins on a battlefield",
+          "The simple setting is home to a group of comic animal characters.",
+          "Belinda lives in a ship"
+        ],
+        "answer": 2,
+        "explanation": "The house provides the setting where the characters and their bravery are introduced.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "setting",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "Which revision note about Belinda’s house is accurate?",
+        "options": [
+          "a tea estate office",
+          "a castle made of ice",
+          "a bus station",
+          "Belinda lives in a small white house."
+        ],
+        "answer": 3,
+        "explanation": "The house provides the setting where the characters and their bravery are introduced.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Why is Belinda’s house important to the poem’s effect?",
+        "options": [
+          "The simple setting is home to a group of comic animal characters.",
+          "The poem begins on a battlefield",
+          "The house is a zoo enclosure",
+          "Belinda lives in a ship"
+        ],
+        "answer": 0,
+        "explanation": "The house provides the setting where the characters and their bravery are introduced.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "characters"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Which detail about the kitten Ink is supported by the poem?",
+        "options": [
+          "a dog",
+          "Ink is Belinda’s kitten.",
+          "a mouse",
+          "a dragon"
+        ],
+        "answer": 1,
+        "explanation": "The kitten’s name is part of the poem’s playful naming pattern.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "What does the kitten Ink contribute to the poem’s meaning?",
+        "options": [
+          "Ink is the house itself",
+          "Ink is the pirate’s name",
+          "Ink is one of the small animals whose confidence is tested by the pirate.",
+          "Ink is a kind of bird"
+        ],
+        "answer": 2,
+        "explanation": "The kitten’s name is part of the poem’s playful naming pattern.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "Which interpretation of the kitten Ink best fits the poem?",
+        "options": [
+          "Ink is a kind of bird",
+          "Ink is the pirate’s name",
+          "Ink is the house itself",
+          "Ink is one of the small animals whose confidence is tested by the pirate."
+        ],
+        "answer": 3,
+        "explanation": "The kitten’s name is part of the poem’s playful naming pattern.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Which revision note about the kitten Ink is accurate?",
+        "options": [
+          "Ink is Belinda’s kitten.",
+          "a dog",
+          "a mouse",
+          "a dragon"
+        ],
+        "answer": 0,
+        "explanation": "The kitten’s name is part of the poem’s playful naming pattern.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Why is the kitten Ink important to the poem’s effect?",
+        "options": [
+          "Ink is the pirate’s name",
+          "Ink is one of the small animals whose confidence is tested by the pirate.",
+          "Ink is the house itself",
+          "Ink is a kind of bird"
+        ],
+        "answer": 1,
+        "explanation": "The kitten’s name is part of the poem’s playful naming pattern.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "Which detail about the mouse Blink is supported by the poem?",
+        "options": [
+          "a dog",
+          "a dragon",
+          "Blink is the mouse who lives with Belinda and the other animals.",
+          "a pirate"
+        ],
+        "answer": 2,
+        "explanation": "The mouse’s reaction helps reveal the difference between claims and actions.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does the mouse Blink contribute to the poem’s meaning?",
+        "options": [
+          "Blink is the name of a house",
+          "Blink attacks the pirate first",
+          "Blink is a human visitor",
+          "Blink is among those who claim to be brave but hide when danger appears."
+        ],
+        "answer": 3,
+        "explanation": "The mouse’s reaction helps reveal the difference between claims and actions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "Which interpretation of the mouse Blink best fits the poem?",
+        "options": [
+          "Blink is among those who claim to be brave but hide when danger appears.",
+          "Blink attacks the pirate first",
+          "Blink is a human visitor",
+          "Blink is the name of a house"
+        ],
+        "answer": 0,
+        "explanation": "The mouse’s reaction helps reveal the difference between claims and actions.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which revision note about the mouse Blink is accurate?",
+        "options": [
+          "a dragon",
+          "Blink is the mouse who lives with Belinda and the other animals.",
+          "a dog",
+          "a pirate"
+        ],
+        "answer": 1,
+        "explanation": "The mouse’s reaction helps reveal the difference between claims and actions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "Why is the mouse Blink important to the poem’s effect?",
+        "options": [
+          "Blink is a human visitor",
+          "Blink attacks the pirate first",
+          "Blink is among those who claim to be brave but hide when danger appears.",
+          "Blink is the name of a house"
+        ],
+        "answer": 2,
+        "explanation": "The mouse’s reaction helps reveal the difference between claims and actions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which detail about the dog Mustard is supported by the poem?",
+        "options": [
+          "the pirate",
+          "the kitten",
+          "the dragon",
+          "Mustard is Belinda’s dog."
+        ],
+        "answer": 3,
+        "explanation": "Mustard is one of the characters whose bravery is tested by the pirate.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does the dog Mustard contribute to the poem’s meaning?",
+        "options": [
+          "Mustard is described as brave before the real danger appears.",
+          "Mustard is the name of the house",
+          "Mustard is a type of ship",
+          "Mustard is a schoolteacher"
+        ],
+        "answer": 0,
+        "explanation": "Mustard is one of the characters whose bravery is tested by the pirate.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Which interpretation of the dog Mustard best fits the poem?",
+        "options": [
+          "Mustard is the name of the house",
+          "Mustard is described as brave before the real danger appears.",
+          "Mustard is a type of ship",
+          "Mustard is a schoolteacher"
+        ],
+        "answer": 1,
+        "explanation": "Mustard is one of the characters whose bravery is tested by the pirate.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which revision note about the dog Mustard is accurate?",
+        "options": [
+          "the dragon",
+          "the kitten",
+          "Mustard is Belinda’s dog.",
+          "the pirate"
+        ],
+        "answer": 2,
+        "explanation": "Mustard is one of the characters whose bravery is tested by the pirate.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "Why is the dog Mustard important to the poem’s effect?",
+        "options": [
+          "Mustard is a schoolteacher",
+          "Mustard is the name of the house",
+          "Mustard is a type of ship",
+          "Mustard is described as brave before the real danger appears."
+        ],
+        "answer": 3,
+        "explanation": "Mustard is one of the characters whose bravery is tested by the pirate.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Which detail about Custard’s identity is supported by the poem?",
+        "options": [
+          "Custard is Belinda’s dragon.",
+          "a mouse",
+          "a kitten",
+          "a pirate"
+        ],
+        "answer": 0,
+        "explanation": "Custard’s role creates the poem’s main reversal about courage.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characters",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What does Custard’s identity contribute to the poem’s meaning?",
+        "options": [
+          "Custard is a person who owns the house",
+          "Although he is mocked as fearful, he becomes the one who faces the pirate.",
+          "Custard is the dog",
+          "Custard is a type of tree"
+        ],
+        "answer": 1,
+        "explanation": "Custard’s role creates the poem’s main reversal about courage.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of Custard’s identity best fits the poem?",
+        "options": [
+          "Custard is the dog",
+          "Custard is a person who owns the house",
+          "Although he is mocked as fearful, he becomes the one who faces the pirate.",
+          "Custard is a type of tree"
+        ],
+        "answer": 2,
+        "explanation": "Custard’s role creates the poem’s main reversal about courage.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characters",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which revision note about Custard’s identity is accurate?",
+        "options": [
+          "a pirate",
+          "a mouse",
+          "a kitten",
+          "Custard is Belinda’s dragon."
+        ],
+        "answer": 3,
+        "explanation": "Custard’s role creates the poem’s main reversal about courage.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Why is Custard’s identity important to the poem’s effect?",
+        "options": [
+          "Although he is mocked as fearful, he becomes the one who faces the pirate.",
+          "Custard is a person who owns the house",
+          "Custard is the dog",
+          "Custard is a type of tree"
+        ],
+        "answer": 0,
+        "explanation": "Custard’s role creates the poem’s main reversal about courage.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which detail about Custard’s request is supported by the poem?",
+        "options": [
+          "he asks for a sword and crown",
+          "Custard repeatedly wants a safe cage.",
+          "he demands to be king",
+          "he asks to sail a ship"
+        ],
+        "answer": 1,
+        "explanation": "Custard’s desire for a safe place contrasts with the other characters’ boasts.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characterization",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What does Custard’s request contribute to the poem’s meaning?",
+        "options": [
+          "It is a request to attack the pirate",
+          "It proves he is the most boastful character",
+          "The request makes others think he is cowardly.",
+          "It has no link to his character"
+        ],
+        "answer": 2,
+        "explanation": "Custard’s desire for a safe place contrasts with the other characters’ boasts.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which interpretation of Custard’s request best fits the poem?",
+        "options": [
+          "It has no link to his character",
+          "It proves he is the most boastful character",
+          "It is a request to attack the pirate",
+          "The request makes others think he is cowardly."
+        ],
+        "answer": 3,
+        "explanation": "Custard’s desire for a safe place contrasts with the other characters’ boasts.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characterization",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which revision note about Custard’s request is accurate?",
+        "options": [
+          "Custard repeatedly wants a safe cage.",
+          "he asks for a sword and crown",
+          "he demands to be king",
+          "he asks to sail a ship"
+        ],
+        "answer": 0,
+        "explanation": "Custard’s desire for a safe place contrasts with the other characters’ boasts.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is Custard’s request important to the poem’s effect?",
+        "options": [
+          "It proves he is the most boastful character",
+          "The request makes others think he is cowardly.",
+          "It is a request to attack the pirate",
+          "It has no link to his character"
+        ],
+        "answer": 1,
+        "explanation": "Custard’s desire for a safe place contrasts with the other characters’ boasts.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Which detail about others’ boasting is supported by the poem?",
+        "options": [
+          "they refuse to talk about courage",
+          "they all admit they are frightened",
+          "The other animals describe themselves as brave before the pirate arrives.",
+          "they ask Custard to lead a parade"
+        ],
+        "answer": 2,
+        "explanation": "The story contrasts loud claims with actions during a real threat.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does others’ boasting contribute to the poem’s meaning?",
+        "options": [
+          "Their claims are never tested",
+          "The poem confirms their bravery during the crisis",
+          "They all fight the pirate bravely",
+          "Their boasting is exposed when danger becomes real."
+        ],
+        "answer": 3,
+        "explanation": "The story contrasts loud claims with actions during a real threat.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "Which interpretation of others’ boasting best fits the poem?",
+        "options": [
+          "Their boasting is exposed when danger becomes real.",
+          "The poem confirms their bravery during the crisis",
+          "They all fight the pirate bravely",
+          "Their claims are never tested"
+        ],
+        "answer": 0,
+        "explanation": "The story contrasts loud claims with actions during a real threat.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which revision note about others’ boasting is accurate?",
+        "options": [
+          "they all admit they are frightened",
+          "The other animals describe themselves as brave before the pirate arrives.",
+          "they refuse to talk about courage",
+          "they ask Custard to lead a parade"
+        ],
+        "answer": 1,
+        "explanation": "The story contrasts loud claims with actions during a real threat.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "Why is others’ boasting important to the poem’s effect?",
+        "options": [
+          "They all fight the pirate bravely",
+          "The poem confirms their bravery during the crisis",
+          "Their boasting is exposed when danger becomes real.",
+          "Their claims are never tested"
+        ],
+        "answer": 2,
+        "explanation": "The story contrasts loud claims with actions during a real threat.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Which detail about Belinda’s confidence is supported by the poem?",
+        "options": [
+          "they ask the pirate for lessons",
+          "they say they have never met another animal",
+          "they hide before any danger appears",
+          "Belinda and her pets boast about how fearless they are."
+        ],
+        "answer": 3,
+        "explanation": "The boasts set up the contrast between appearance and real courage.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What does Belinda’s confidence contribute to the poem’s meaning?",
+        "options": [
+          "The exaggerated confidence creates humour when the pirate arrives.",
+          "Their claims are proven completely true",
+          "The poem is a formal report",
+          "They all refuse to speak"
+        ],
+        "answer": 0,
+        "explanation": "The boasts set up the contrast between appearance and real courage.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Which interpretation of Belinda’s confidence best fits the poem?",
+        "options": [
+          "Their claims are proven completely true",
+          "The exaggerated confidence creates humour when the pirate arrives.",
+          "The poem is a formal report",
+          "They all refuse to speak"
+        ],
+        "answer": 1,
+        "explanation": "The boasts set up the contrast between appearance and real courage.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Which revision note about Belinda’s confidence is accurate?",
+        "options": [
+          "they hide before any danger appears",
+          "they say they have never met another animal",
+          "Belinda and her pets boast about how fearless they are.",
+          "they ask the pirate for lessons"
+        ],
+        "answer": 2,
+        "explanation": "The boasts set up the contrast between appearance and real courage.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why is Belinda’s confidence important to the poem’s effect?",
+        "options": [
+          "They all refuse to speak",
+          "Their claims are proven completely true",
+          "The poem is a formal report",
+          "The exaggerated confidence creates humour when the pirate arrives."
+        ],
+        "answer": 3,
+        "explanation": "The boasts set up the contrast between appearance and real courage.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which detail about the pirate’s arrival is supported by the poem?",
+        "options": [
+          "A pirate suddenly enters the scene and threatens the household.",
+          "a schoolteacher arrives to give homework",
+          "a baker brings bread",
+          "a bus driver asks for directions"
+        ],
+        "answer": 0,
+        "explanation": "The unexpected threat creates the poem’s key dramatic turn.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does the pirate’s arrival contribute to the poem’s meaning?",
+        "options": [
+          "The pirate is a harmless pet",
+          "The danger tests the characters’ earlier claims of bravery.",
+          "The arrival ends the story before any reaction",
+          "The pirate comes to teach grammar"
+        ],
+        "answer": 1,
+        "explanation": "The unexpected threat creates the poem’s key dramatic turn.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which interpretation of the pirate’s arrival best fits the poem?",
+        "options": [
+          "The arrival ends the story before any reaction",
+          "The pirate is a harmless pet",
+          "The danger tests the characters’ earlier claims of bravery.",
+          "The pirate comes to teach grammar"
+        ],
+        "answer": 2,
+        "explanation": "The unexpected threat creates the poem’s key dramatic turn.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which revision note about the pirate’s arrival is accurate?",
+        "options": [
+          "a bus driver asks for directions",
+          "a schoolteacher arrives to give homework",
+          "a baker brings bread",
+          "A pirate suddenly enters the scene and threatens the household."
+        ],
+        "answer": 3,
+        "explanation": "The unexpected threat creates the poem’s key dramatic turn.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "Why is the pirate’s arrival important to the poem’s effect?",
+        "options": [
+          "The danger tests the characters’ earlier claims of bravery.",
+          "The pirate is a harmless pet",
+          "The arrival ends the story before any reaction",
+          "The pirate comes to teach grammar"
+        ],
+        "answer": 0,
+        "explanation": "The unexpected threat creates the poem’s key dramatic turn.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about the pirate’s appearance is supported by the poem?",
+        "options": [
+          "he carries flowers and a book only",
+          "The pirate has threatening features, including a red beard and weapons.",
+          "he has wings and feathers",
+          "he arrives in a school uniform"
+        ],
+        "answer": 1,
+        "explanation": "The pirate’s weapons and appearance establish a serious threat.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "imagery",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the pirate’s appearance contribute to the poem’s meaning?",
+        "options": [
+          "He is one of Belinda’s pets",
+          "He is described as harmless from the start",
+          "The detailed appearance makes him seem genuinely dangerous in the comic scene.",
+          "His appearance is never mentioned"
+        ],
+        "answer": 2,
+        "explanation": "The pirate’s weapons and appearance establish a serious threat.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Which interpretation of the pirate’s appearance best fits the poem?",
+        "options": [
+          "His appearance is never mentioned",
+          "He is described as harmless from the start",
+          "He is one of Belinda’s pets",
+          "The detailed appearance makes him seem genuinely dangerous in the comic scene."
+        ],
+        "answer": 3,
+        "explanation": "The pirate’s weapons and appearance establish a serious threat.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "imagery",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "Which revision note about the pirate’s appearance is accurate?",
+        "options": [
+          "The pirate has threatening features, including a red beard and weapons.",
+          "he carries flowers and a book only",
+          "he has wings and feathers",
+          "he arrives in a school uniform"
+        ],
+        "answer": 0,
+        "explanation": "The pirate’s weapons and appearance establish a serious threat.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Why is the pirate’s appearance important to the poem’s effect?",
+        "options": [
+          "He is described as harmless from the start",
+          "The detailed appearance makes him seem genuinely dangerous in the comic scene.",
+          "He is one of Belinda’s pets",
+          "His appearance is never mentioned"
+        ],
+        "answer": 1,
+        "explanation": "The pirate’s weapons and appearance establish a serious threat.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "imagery",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Which detail about reactions to danger is supported by the poem?",
+        "options": [
+          "they calmly invite him to tea",
+          "they all line up to challenge him",
+          "When the pirate arrives, the supposedly brave characters panic or flee.",
+          "they ask him to judge a poetry contest"
+        ],
+        "answer": 2,
+        "explanation": "The crisis reveals that their confidence was mostly talk.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does reactions to danger contribute to the poem’s meaning?",
+        "options": [
+          "They remain completely unafraid",
+          "Their actions confirm all their claims",
+          "They defeat the pirate together",
+          "Their behaviour contradicts their earlier boasts."
+        ],
+        "answer": 3,
+        "explanation": "The crisis reveals that their confidence was mostly talk.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Which interpretation of reactions to danger best fits the poem?",
+        "options": [
+          "Their behaviour contradicts their earlier boasts.",
+          "Their actions confirm all their claims",
+          "They defeat the pirate together",
+          "They remain completely unafraid"
+        ],
+        "answer": 0,
+        "explanation": "The crisis reveals that their confidence was mostly talk.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which revision note about reactions to danger is accurate?",
+        "options": [
+          "they all line up to challenge him",
+          "When the pirate arrives, the supposedly brave characters panic or flee.",
+          "they calmly invite him to tea",
+          "they ask him to judge a poetry contest"
+        ],
+        "answer": 1,
+        "explanation": "The crisis reveals that their confidence was mostly talk.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Why is reactions to danger important to the poem’s effect?",
+        "options": [
+          "They defeat the pirate together",
+          "Their actions confirm all their claims",
+          "Their behaviour contradicts their earlier boasts.",
+          "They remain completely unafraid"
+        ],
+        "answer": 2,
+        "explanation": "The crisis reveals that their confidence was mostly talk.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "Which detail about Custard’s response is supported by the poem?",
+        "options": [
+          "he flies away from the house",
+          "he hides and never returns",
+          "he asks the pirate for a cage",
+          "Custard confronts the pirate when the others retreat."
+        ],
+        "answer": 3,
+        "explanation": "Custard’s bravery is revealed through what he does, not what he says.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What does Custard’s response contribute to the poem’s meaning?",
+        "options": [
+          "His action reveals courage when it is needed most.",
+          "Custard proves incapable of acting",
+          "The pirate leaves before Custard notices him",
+          "Custard only watches from a window"
+        ],
+        "answer": 0,
+        "explanation": "Custard’s bravery is revealed through what he does, not what he says.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which interpretation of Custard’s response best fits the poem?",
+        "options": [
+          "Custard proves incapable of acting",
+          "His action reveals courage when it is needed most.",
+          "The pirate leaves before Custard notices him",
+          "Custard only watches from a window"
+        ],
+        "answer": 1,
+        "explanation": "Custard’s bravery is revealed through what he does, not what he says.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which revision note about Custard’s response is accurate?",
+        "options": [
+          "he asks the pirate for a cage",
+          "he hides and never returns",
+          "Custard confronts the pirate when the others retreat.",
+          "he flies away from the house"
+        ],
+        "answer": 2,
+        "explanation": "Custard’s bravery is revealed through what he does, not what he says.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Why is Custard’s response important to the poem’s effect?",
+        "options": [
+          "Custard only watches from a window",
+          "Custard proves incapable of acting",
+          "The pirate leaves before Custard notices him",
+          "His action reveals courage when it is needed most."
+        ],
+        "answer": 3,
+        "explanation": "Custard’s bravery is revealed through what he does, not what he says.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which detail about the pirate’s defeat is supported by the poem?",
+        "options": [
+          "Custard attacks and defeats the pirate.",
+          "the pirate wins and takes the house",
+          "Belinda defeats the pirate alone",
+          "the pirate leaves because of a rainstorm"
+        ],
+        "answer": 0,
+        "explanation": "Custard’s action resolves the central conflict.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What does the pirate’s defeat contribute to the poem’s meaning?",
+        "options": [
+          "Custard is not involved in the outcome",
+          "The dragon saves the household despite having been mocked.",
+          "The pirate becomes the narrator",
+          "The animals decide the pirate is their leader"
+        ],
+        "answer": 1,
+        "explanation": "Custard’s action resolves the central conflict.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which interpretation of the pirate’s defeat best fits the poem?",
+        "options": [
+          "The pirate becomes the narrator",
+          "Custard is not involved in the outcome",
+          "The dragon saves the household despite having been mocked.",
+          "The animals decide the pirate is their leader"
+        ],
+        "answer": 2,
+        "explanation": "Custard’s action resolves the central conflict.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which revision note about the pirate’s defeat is accurate?",
+        "options": [
+          "the pirate leaves because of a rainstorm",
+          "the pirate wins and takes the house",
+          "Belinda defeats the pirate alone",
+          "Custard attacks and defeats the pirate."
+        ],
+        "answer": 3,
+        "explanation": "Custard’s action resolves the central conflict.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Why is the pirate’s defeat important to the poem’s effect?",
+        "options": [
+          "The dragon saves the household despite having been mocked.",
+          "Custard is not involved in the outcome",
+          "The pirate becomes the narrator",
+          "The animals decide the pirate is their leader"
+        ],
+        "answer": 0,
+        "explanation": "Custard’s action resolves the central conflict.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "resolution"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Which detail about courage in action is supported by the poem?",
+        "options": [
+          "he only boasts about being brave",
+          "Custard’s actions demonstrate practical courage during danger.",
+          "he avoids every challenge",
+          "he asks someone else to fight for him"
+        ],
+        "answer": 1,
+        "explanation": "Custard’s response overturns the assumption that he is simply cowardly.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "What does courage in action contribute to the poem’s meaning?",
+        "options": [
+          "The poem rejects the importance of actions",
+          "Courage is measured only by loud words",
+          "Real courage is shown by acting when danger appears.",
+          "The other characters all act more bravely"
+        ],
+        "answer": 2,
+        "explanation": "Custard’s response overturns the assumption that he is simply cowardly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of courage in action best fits the poem?",
+        "options": [
+          "The other characters all act more bravely",
+          "Courage is measured only by loud words",
+          "The poem rejects the importance of actions",
+          "Real courage is shown by acting when danger appears."
+        ],
+        "answer": 3,
+        "explanation": "Custard’s response overturns the assumption that he is simply cowardly.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which revision note about courage in action is accurate?",
+        "options": [
+          "Custard’s actions demonstrate practical courage during danger.",
+          "he only boasts about being brave",
+          "he avoids every challenge",
+          "he asks someone else to fight for him"
+        ],
+        "answer": 0,
+        "explanation": "Custard’s response overturns the assumption that he is simply cowardly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Why is courage in action important to the poem’s effect?",
+        "options": [
+          "Courage is measured only by loud words",
+          "Real courage is shown by acting when danger appears.",
+          "The poem rejects the importance of actions",
+          "The other characters all act more bravely"
+        ],
+        "answer": 1,
+        "explanation": "Custard’s response overturns the assumption that he is simply cowardly.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which detail about the other animals after the fight is supported by the poem?",
+        "options": [
+          "they all leave the house forever",
+          "they honestly admit their fear and praise Custard without qualification",
+          "After Custard defeats the pirate, the others resume boasting about their own bravery.",
+          "they ask the pirate to return"
+        ],
+        "answer": 2,
+        "explanation": "The ending preserves the comic gap between their words and their behaviour.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "ending",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What does the other animals after the fight contribute to the poem’s meaning?",
+        "options": [
+          "They become pirates",
+          "They accept that only boasts matter",
+          "They never talk again",
+          "Their excuses show that they still value appearances over honest self-assessment."
+        ],
+        "answer": 3,
+        "explanation": "The ending preserves the comic gap between their words and their behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "ending",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which interpretation of the other animals after the fight best fits the poem?",
+        "options": [
+          "Their excuses show that they still value appearances over honest self-assessment.",
+          "They accept that only boasts matter",
+          "They never talk again",
+          "They become pirates"
+        ],
+        "answer": 0,
+        "explanation": "The ending preserves the comic gap between their words and their behaviour.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "ending",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which revision note about the other animals after the fight is accurate?",
+        "options": [
+          "they honestly admit their fear and praise Custard without qualification",
+          "After Custard defeats the pirate, the others resume boasting about their own bravery.",
+          "they all leave the house forever",
+          "they ask the pirate to return"
+        ],
+        "answer": 1,
+        "explanation": "The ending preserves the comic gap between their words and their behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "ending",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is the other animals after the fight important to the poem’s effect?",
+        "options": [
+          "They never talk again",
+          "They accept that only boasts matter",
+          "Their excuses show that they still value appearances over honest self-assessment.",
+          "They become pirates"
+        ],
+        "answer": 2,
+        "explanation": "The ending preserves the comic gap between their words and their behaviour.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "ending",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which detail about the poem’s humour is supported by the poem?",
+        "options": [
+          "it avoids any surprise",
+          "it describes a tragic war in solemn language",
+          "it gives scientific facts about reptiles only",
+          "The poem creates humour by reversing who appears brave and who acts bravely."
+        ],
+        "answer": 3,
+        "explanation": "The reversal is the central comic device of the poem.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "humour",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What does the poem’s humour contribute to the poem’s meaning?",
+        "options": [
+          "The unexpected outcome makes Custard’s courage both funny and memorable.",
+          "The dragon is mocked after saving everyone only in a serious tragedy",
+          "The poem has no contrast",
+          "The characters are not animals"
+        ],
+        "answer": 0,
+        "explanation": "The reversal is the central comic device of the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which interpretation of the poem’s humour best fits the poem?",
+        "options": [
+          "The dragon is mocked after saving everyone only in a serious tragedy",
+          "The unexpected outcome makes Custard’s courage both funny and memorable.",
+          "The poem has no contrast",
+          "The characters are not animals"
+        ],
+        "answer": 1,
+        "explanation": "The reversal is the central comic device of the poem.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "humour",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which revision note about the poem’s humour is accurate?",
+        "options": [
+          "it gives scientific facts about reptiles only",
+          "it describes a tragic war in solemn language",
+          "The poem creates humour by reversing who appears brave and who acts bravely.",
+          "it avoids any surprise"
+        ],
+        "answer": 2,
+        "explanation": "The reversal is the central comic device of the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Why is the poem’s humour important to the poem’s effect?",
+        "options": [
+          "The characters are not animals",
+          "The dragon is mocked after saving everyone only in a serious tragedy",
+          "The poem has no contrast",
+          "The unexpected outcome makes Custard’s courage both funny and memorable."
+        ],
+        "answer": 3,
+        "explanation": "The reversal is the central comic device of the poem.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "humour",
+          "irony"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which detail about onomatopoeia and sound is supported by the poem?",
+        "options": [
+          "The poem uses lively sound and rhythm to make action feel animated.",
+          "only equations and measurements",
+          "no sound effects or rhythmic language",
+          "formal prose with no verse"
+        ],
+        "answer": 0,
+        "explanation": "The verse’s sound and rhythm contribute to its comic movement.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "What does onomatopoeia and sound contribute to the poem’s meaning?",
+        "options": [
+          "The poem is silent and static",
+          "Sound helps create the playful, story-like atmosphere.",
+          "Sound is unrelated to the action",
+          "The text is a legal notice"
+        ],
+        "answer": 1,
+        "explanation": "The verse’s sound and rhythm contribute to its comic movement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which interpretation of onomatopoeia and sound best fits the poem?",
+        "options": [
+          "Sound is unrelated to the action",
+          "The poem is silent and static",
+          "Sound helps create the playful, story-like atmosphere.",
+          "The text is a legal notice"
+        ],
+        "answer": 2,
+        "explanation": "The verse’s sound and rhythm contribute to its comic movement.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which revision note about onomatopoeia and sound is accurate?",
+        "options": [
+          "formal prose with no verse",
+          "only equations and measurements",
+          "no sound effects or rhythmic language",
+          "The poem uses lively sound and rhythm to make action feel animated."
+        ],
+        "answer": 3,
+        "explanation": "The verse’s sound and rhythm contribute to its comic movement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Why is onomatopoeia and sound important to the poem’s effect?",
+        "options": [
+          "Sound helps create the playful, story-like atmosphere.",
+          "The poem is silent and static",
+          "Sound is unrelated to the action",
+          "The text is a legal notice"
+        ],
+        "answer": 0,
+        "explanation": "The verse’s sound and rhythm contribute to its comic movement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "sound",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which detail about the poem’s form is supported by the poem?",
+        "options": [
+          "a scientific report",
+          "The poem is a rhythmic, rhyming narrative verse.",
+          "a diary entry in prose",
+          "a letter to a bank"
+        ],
+        "answer": 1,
+        "explanation": "The rhyme and rhythm support the poem’s playful storytelling.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does the poem’s form contribute to the poem’s meaning?",
+        "options": [
+          "It is a two-person debate only",
+          "The poem has no narrative",
+          "Its lively form suits the comic sequence of characters and events.",
+          "It contains only a list of laws"
+        ],
+        "answer": 2,
+        "explanation": "The rhyme and rhythm support the poem’s playful storytelling.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which interpretation of the poem’s form best fits the poem?",
+        "options": [
+          "It contains only a list of laws",
+          "The poem has no narrative",
+          "It is a two-person debate only",
+          "Its lively form suits the comic sequence of characters and events."
+        ],
+        "answer": 3,
+        "explanation": "The rhyme and rhythm support the poem’s playful storytelling.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "Which revision note about the poem’s form is accurate?",
+        "options": [
+          "The poem is a rhythmic, rhyming narrative verse.",
+          "a scientific report",
+          "a diary entry in prose",
+          "a letter to a bank"
+        ],
+        "answer": 0,
+        "explanation": "The rhyme and rhythm support the poem’s playful storytelling.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Why is the poem’s form important to the poem’s effect?",
+        "options": [
+          "The poem has no narrative",
+          "Its lively form suits the comic sequence of characters and events.",
+          "It is a two-person debate only",
+          "It contains only a list of laws"
+        ],
+        "answer": 1,
+        "explanation": "The rhyme and rhythm support the poem’s playful storytelling.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about bravery versus appearance is supported by the poem?",
+        "options": [
+          "it shows appearance never changes",
+          "it suggests all boasting is always accurate",
+          "The poem contrasts brave talk with courageous action.",
+          "it says action is unrelated to courage"
+        ],
+        "answer": 2,
+        "explanation": "The story teaches that behaviour is a better test of courage than claims.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does bravery versus appearance contribute to the poem’s meaning?",
+        "options": [
+          "The pirate is imagined by no one",
+          "The boastful characters defeat the pirate",
+          "Custard does nothing useful",
+          "The crisis reveals who actually helps when danger is real."
+        ],
+        "answer": 3,
+        "explanation": "The story teaches that behaviour is a better test of courage than claims.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which interpretation of bravery versus appearance best fits the poem?",
+        "options": [
+          "The crisis reveals who actually helps when danger is real.",
+          "The boastful characters defeat the pirate",
+          "Custard does nothing useful",
+          "The pirate is imagined by no one"
+        ],
+        "answer": 0,
+        "explanation": "The story teaches that behaviour is a better test of courage than claims.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which revision note about bravery versus appearance is accurate?",
+        "options": [
+          "it suggests all boasting is always accurate",
+          "The poem contrasts brave talk with courageous action.",
+          "it shows appearance never changes",
+          "it says action is unrelated to courage"
+        ],
+        "answer": 1,
+        "explanation": "The story teaches that behaviour is a better test of courage than claims.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Why is bravery versus appearance important to the poem’s effect?",
+        "options": [
+          "Custard does nothing useful",
+          "The boastful characters defeat the pirate",
+          "The crisis reveals who actually helps when danger is real.",
+          "The pirate is imagined by no one"
+        ],
+        "answer": 2,
+        "explanation": "The story teaches that behaviour is a better test of courage than claims.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which detail about Custard’s character is supported by the poem?",
+        "options": [
+          "he runs away before the pirate arrives",
+          "he is brave only in speeches",
+          "he is indifferent to everyone’s safety",
+          "Custard seems timid but acts decisively when needed."
+        ],
+        "answer": 3,
+        "explanation": "Custard’s final actions reveal that his earlier image was misleading.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "character arc",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What does Custard’s character contribute to the poem’s meaning?",
+        "options": [
+          "A person or character may look fearful but still show courage in a crisis.",
+          "The poem says shy characters cannot be brave",
+          "Custard refuses to help anyone",
+          "The dragon’s request for safety proves he cannot act"
+        ],
+        "answer": 0,
+        "explanation": "Custard’s final actions reveal that his earlier image was misleading.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character arc",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
