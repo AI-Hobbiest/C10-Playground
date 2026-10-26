@@ -193,10 +193,10 @@ jobs:
           // The homepage is now the sign-in landing page. Validate its current contract,
           // rather than requiring profile and subject links from the retired homepage layout.
           const homepage=fs.readFileSync('_site/index.html','utf8');
-          for (const required of ['id="studentLoginForm"','id="username"','id="password"','id="githubAdminLogin"','./js/login-page.js','./js/student-auth.js','./js/app-shell.js']) {
+          for (const required of ['id="studentLoginForm"','id="username"','id="password"','id="adminLoginForm"','id="adminUsername"','id="adminPassword"','./js/login-page.js','./js/student-auth.js','./js/app-shell.js']) {
             if (!homepage.includes(required)) throw new Error('Login landing page is missing '+required);
           }
-          if (!homepage.includes('authorised admins only') || !homepage.includes('Conceptualised by') || !homepage.includes('JP Ganathe')) {
+          if (!homepage.includes('Sign in as administrator') || !homepage.includes('Conceptualised by') || !homepage.includes('JP Ganathe')) {
             throw new Error('Login landing page admin notice or attribution is missing.');
           }
           const loginScript=fs.readFileSync('_site/js/login-page.js','utf8');
