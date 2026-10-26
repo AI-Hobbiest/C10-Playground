@@ -639,6 +639,7 @@
       setStatus("centralStudentStatus","Central account service is not configured yet. Complete the one-time Cloudflare Worker + D1 setup; after that, account creation and password resets happen directly here without JSON downloads.","");
       return;
     }
+    if(login)login.hidden=false;
     try{
       const exchanged=await window.C10Api.completeGithubCallback();
       const current=await window.C10Api.currentUser();
