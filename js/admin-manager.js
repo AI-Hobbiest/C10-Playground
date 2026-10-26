@@ -371,7 +371,7 @@
     if(!label){setStatus("classesStatus","Enter a display label.","error");return;}
     if(classCatalog.classes.some(x=>String(x.classId).toLowerCase()===id.toLowerCase())){setStatus("classesStatus","That class ID already exists.","error");return;}
     const subjectSelect=$("classSubjects");
-    const subjects=subjectSelect?[...subjectSelect.selectedOptions].map(option=>option.value).filter(id=>Object.prototype.hasOwnProperty.call(SUBJECTS,id)):[];
+    const subjects=subjectSelect?Array.from(subjectSelect.options||[]).filter(option=>option.selected).map(option=>option.value).filter(id=>Object.prototype.hasOwnProperty.call(SUBJECTS,id)):[];
     classCatalog.classes.push({classId:id,label,sortOrder:classCatalog.classes.length+1,active:true,subjects});classesDirty=true;
     $("classId").value="";$("classLabel").value="";if($("classSubjects"))[...$("classSubjects").options].forEach(option=>option.selected=false);
     renderClasses();renderLeaderClassOptions();updateSummary();setStatus("classesStatus","Added class to local draft. Export classes.json and publish it via GitHub.","success");
