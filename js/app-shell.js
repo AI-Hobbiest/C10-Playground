@@ -59,7 +59,7 @@
       if(!response.ok)return null;
       const data=await response.json();
       const entry=(data.classes||[]).find(item=>String(item.classId)===String(classId)&&item.active!==false);
-      return entry&&Array.isArray(entry.subjects)?entry.subjects.map(String):null;
+      return entry&&Array.isArray(entry.subjects)?{configured:true,subjects:entry.subjects.map(String),label:entry.label||("Class "+classId)}:null;
     }catch(_){return null;}
   }
   function applySectionFocus(){
@@ -83,22 +83,25 @@
       else if(grid)grid.style.gridTemplateColumns="";
     }
   }
-  function applyConfiguredSubjectVisibility(subjectIds){
-    if(!subjectIds||getLocation().file!=="dashboard.html")return;
-    document.querySelectorAll(".subject-launch-card[href*='subject=']").forEach(card=>{
-      const url=new URL(card.href,location.href);
-      card.hidden=!subjectIds.includes(url.searchParams.get("subject"));
-    });
+  function applyConfiguredSubjectVisibility(config){
+    if(!config||getLocation().file!=="dashboard.html")return;
+    const cards=Array.from(document.querySelectorAll(".subject-launch-card[href*='subject=']"));
+    cards.forEach(card=>{const url=new URL(card.href,location.href);card.hidden=!config.subjects.includes(url.searchParams.get("subject"));});
+    let notice=document.getElementById("configuredSubjectsNotice");
+    if(!notice&&cards.length){notice=node("p","c10-subjects-notice");notice.id="configuredSubjectsNotice";notice.setAttribute("role","status");cards[0].parentElement.insertBefore(notice,cards[0]);}
+    if(notice){notice.hidden=config.subjects.length>0;notice.textContent="No subjects have been configured for "+config.label+" yet. Please ask your administrator to configure the class subjects.";}
   }
   async function createNav(){
     if(document.getElementById("c10Sidebar"))return;
     const current=getLocation(),auth=await authState();
+    const subjectConfig=auth.role==="student"?await configuredSubjects(auth.classId):null;
     const sidebar=node("aside","c10-sidebar");sidebar.id="c10Sidebar";sidebar.setAttribute("aria-label","Main navigation");
     const brand=node("div","c10-brand");const mark=node("div","c10-brand-mark");const logo=node("img");logo.src="./assets/examguru-saraswati.svg";logo.alt="";logo.width=38;logo.height=38;mark.appendChild(logo);brand.appendChild(mark);
     const brandCopy=node("div","c10-brand-copy");brandCopy.append(node("div","c10-brand-title","ExamGuru"),node("div","c10-brand-sub","Learn · Practise · Level up"));brand.appendChild(brandCopy);sidebar.appendChild(brand);
     const list=node("nav","c10-nav-list");list.setAttribute("aria-label","Learning and account");
     links.forEach(item=>{
       if(item.auth!==auth.role)return;
+      if(item.subject&&subjectConfig&& !subjectConfig.subjects.includes(item.subject))return;
       if(item.section){list.appendChild(node("div","c10-nav-label",item.section));return;}
       const link=node("a","c10-nav-link");link.href=item.href;
       if(isActive(item,current)){link.classList.add("active");link.setAttribute("aria-current","page");}
