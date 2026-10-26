@@ -38,3 +38,17 @@ body.c10-shell-ready{padding-left:var(--c10-sidebar-width)}
 
 .c10-nav-action{width:100%;text-align:left;cursor:pointer;font:inherit;background:transparent}
 .c10-nav-action:disabled{opacity:.55;cursor:wait}
+
+
+/* Refined navigation: slim themed scrollbar and predictable header/sidebar geometry. */
+.c10-sidebar{scrollbar-width:thin;scrollbar-color:rgba(205,197,255,.62) transparent;overscroll-behavior:contain}
+.c10-sidebar::-webkit-scrollbar{width:6px}
+.c10-sidebar::-webkit-scrollbar-track{background:transparent;margin:10px 0}
+.c10-sidebar::-webkit-scrollbar-thumb{background:rgba(205,197,255,.42);border-radius:999px;border:1px solid transparent;background-clip:padding-box}
+.c10-sidebar::-webkit-scrollbar-thumb:hover{background:rgba(229,224,255,.8);background-clip:padding-box}
+.c10-brand-mark{overflow:hidden;border:0;background:transparent;border-radius:10px}
+.c10-brand-mark img{display:block;width:100%;height:100%;object-fit:contain}
+.c10-mobilebar{background:linear-gradient(100deg,#eeeaff,#e5e0ff)!important;color:#211b48!important}
+.c10-mobile-sub{color:#655a9b!important}
+.c10-menu-toggle{border-color:rgba(83,64,160,.18)!important;background:rgba(255,255,255,.55)!important;color:#4533bd!important}
+@media(max-width:1100px){body.c10-shell-ready{padding-top:64px}.c10-mobilebar{height:64px}.c10-sidebar{inset:64px auto 0 0}.c10-nav-scrim{inset:64px 0 0}}
