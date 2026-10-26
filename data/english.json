@@ -16338,7 +16338,12 @@
         ],
         "answer": 0,
         "explanation": "Fire represents consuming desire.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Fire and Ice",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -16351,7 +16356,12 @@
         ],
         "answer": 1,
         "explanation": "Ice symbolises hatred or emotional coldness.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Fire and Ice",
+          "poetry"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -16364,7 +16374,1758 @@
         ],
         "answer": 1,
         "explanation": "The poem uses fire and ice as metaphors for destructive human impulses.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "Fire and Ice",
+          "poetry"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about the opening question is supported by the poem?",
+        "options": [
+          "The poem considers whether the world will end in fire or ice.",
+          "whether a city will lose its lights",
+          "whether a child will learn to fly",
+          "whether a family will move house"
+        ],
+        "answer": 0,
+        "explanation": "The question frames the poem’s reflection on destructive human impulses.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the opening question contribute to the poem’s meaning?",
+        "options": [
+          "The poem is about choosing a holiday destination",
+          "The opening sets up two opposing forces as possible forms of destruction.",
+          "The poem describes a real weather forecast only",
+          "The poem has no central question"
+        ],
+        "answer": 1,
+        "explanation": "The question frames the poem’s reflection on destructive human impulses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Which interpretation of the opening question best fits the poem?",
+        "options": [
+          "The poem describes a real weather forecast only",
+          "The poem is about choosing a holiday destination",
+          "The opening sets up two opposing forces as possible forms of destruction.",
+          "The poem has no central question"
+        ],
+        "answer": 2,
+        "explanation": "The question frames the poem’s reflection on destructive human impulses.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "Which revision note about the opening question is accurate?",
+        "options": [
+          "whether a family will move house",
+          "whether a city will lose its lights",
+          "whether a child will learn to fly",
+          "The poem considers whether the world will end in fire or ice."
+        ],
+        "answer": 3,
+        "explanation": "The question frames the poem’s reflection on destructive human impulses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Why is the opening question important to the poem’s message?",
+        "options": [
+          "The opening sets up two opposing forces as possible forms of destruction.",
+          "The poem is about choosing a holiday destination",
+          "The poem describes a real weather forecast only",
+          "The poem has no central question"
+        ],
+        "answer": 0,
+        "explanation": "The question frames the poem’s reflection on destructive human impulses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "Which detail about fire as a symbol is supported by the poem?",
+        "options": [
+          "patience and calm",
+          "Fire symbolises desire and intense passion.",
+          "complete indifference",
+          "peaceful sleep"
+        ],
+        "answer": 1,
+        "explanation": "The poem uses fire figuratively to explore destructive desire.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "symbolism",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "What does fire as a symbol contribute to the poem’s meaning?",
+        "options": [
+          "Fire represents only literal cooking",
+          "Desire is harmless in every circumstance",
+          "Uncontrolled desire can become destructive.",
+          "The poem rejects any link between emotion and destruction"
+        ],
+        "answer": 2,
+        "explanation": "The poem uses fire figuratively to explore destructive desire.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "Which interpretation of fire as a symbol best fits the poem?",
+        "options": [
+          "The poem rejects any link between emotion and destruction",
+          "Desire is harmless in every circumstance",
+          "Fire represents only literal cooking",
+          "Uncontrolled desire can become destructive."
+        ],
+        "answer": 3,
+        "explanation": "The poem uses fire figuratively to explore destructive desire.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "Which revision note about fire as a symbol is accurate?",
+        "options": [
+          "Fire symbolises desire and intense passion.",
+          "patience and calm",
+          "complete indifference",
+          "peaceful sleep"
+        ],
+        "answer": 0,
+        "explanation": "The poem uses fire figuratively to explore destructive desire.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Why is fire as a symbol important to the poem’s message?",
+        "options": [
+          "Desire is harmless in every circumstance",
+          "Uncontrolled desire can become destructive.",
+          "Fire represents only literal cooking",
+          "The poem rejects any link between emotion and destruction"
+        ],
+        "answer": 1,
+        "explanation": "The poem uses fire figuratively to explore destructive desire.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "Which detail about ice as a symbol is supported by the poem?",
+        "options": [
+          "curiosity about nature",
+          "kindness and warmth",
+          "Ice represents hatred, coldness or emotional hostility.",
+          "generosity"
+        ],
+        "answer": 2,
+        "explanation": "Ice is used as a symbolic opposite to fire and its passionate intensity.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "symbolism",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "What does ice as a symbol contribute to the poem’s meaning?",
+        "options": [
+          "The poem says hostility is harmless",
+          "Hatred always creates peace",
+          "Ice represents only a winter holiday",
+          "Cold hostility can be as destructive as burning passion."
+        ],
+        "answer": 3,
+        "explanation": "Ice is used as a symbolic opposite to fire and its passionate intensity.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "Which interpretation of ice as a symbol best fits the poem?",
+        "options": [
+          "Cold hostility can be as destructive as burning passion.",
+          "Hatred always creates peace",
+          "Ice represents only a winter holiday",
+          "The poem says hostility is harmless"
+        ],
+        "answer": 0,
+        "explanation": "Ice is used as a symbolic opposite to fire and its passionate intensity.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "symbolism",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which revision note about ice as a symbol is accurate?",
+        "options": [
+          "kindness and warmth",
+          "Ice represents hatred, coldness or emotional hostility.",
+          "curiosity about nature",
+          "generosity"
+        ],
+        "answer": 1,
+        "explanation": "Ice is used as a symbolic opposite to fire and its passionate intensity.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "Why is ice as a symbol important to the poem’s message?",
+        "options": [
+          "Ice represents only a winter holiday",
+          "Hatred always creates peace",
+          "Cold hostility can be as destructive as burning passion.",
+          "The poem says hostility is harmless"
+        ],
+        "answer": 2,
+        "explanation": "Ice is used as a symbolic opposite to fire and its passionate intensity.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "symbolism",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which detail about the speaker’s experience is supported by the poem?",
+        "options": [
+          "he has never experienced human relationships",
+          "he has never felt any strong emotion",
+          "he has only studied weather reports",
+          "The speaker says he has experienced desire."
+        ],
+        "answer": 3,
+        "explanation": "The speaker’s view is grounded in having tasted desire himself.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "speaker",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What does the speaker’s experience contribute to the poem’s meaning?",
+        "options": [
+          "Personal experience informs his view that desire can destroy.",
+          "He rejects all emotional experience",
+          "His opinion is based only on a map",
+          "He claims fire is impossible"
+        ],
+        "answer": 0,
+        "explanation": "The speaker’s view is grounded in having tasted desire himself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "Which interpretation of the speaker’s experience best fits the poem?",
+        "options": [
+          "He rejects all emotional experience",
+          "Personal experience informs his view that desire can destroy.",
+          "His opinion is based only on a map",
+          "He claims fire is impossible"
+        ],
+        "answer": 1,
+        "explanation": "The speaker’s view is grounded in having tasted desire himself.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "speaker",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which revision note about the speaker’s experience is accurate?",
+        "options": [
+          "he has only studied weather reports",
+          "he has never felt any strong emotion",
+          "The speaker says he has experienced desire.",
+          "he has never experienced human relationships"
+        ],
+        "answer": 2,
+        "explanation": "The speaker’s view is grounded in having tasted desire himself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "Why is the speaker’s experience important to the poem’s message?",
+        "options": [
+          "He claims fire is impossible",
+          "He rejects all emotional experience",
+          "His opinion is based only on a map",
+          "Personal experience informs his view that desire can destroy."
+        ],
+        "answer": 3,
+        "explanation": "The speaker’s view is grounded in having tasted desire himself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "speaker",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Which detail about the speaker’s preference is supported by the poem?",
+        "options": [
+          "The speaker initially agrees with those who favour fire as the world-ending force.",
+          "he says ice cannot cause any harm",
+          "he refuses to choose either image",
+          "he believes water will certainly end the world"
+        ],
+        "answer": 0,
+        "explanation": "The speaker links his experience of desire with the destructive potential of fire.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "interpretation",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "What does the speaker’s preference contribute to the poem’s meaning?",
+        "options": [
+          "He has no view on the question",
+          "His first position arises from what he knows of desire.",
+          "He claims hatred is always weaker than love",
+          "He thinks fire is only a cooking tool"
+        ],
+        "answer": 1,
+        "explanation": "The speaker links his experience of desire with the destructive potential of fire.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "interpretation",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of the speaker’s preference best fits the poem?",
+        "options": [
+          "He claims hatred is always weaker than love",
+          "He has no view on the question",
+          "His first position arises from what he knows of desire.",
+          "He thinks fire is only a cooking tool"
+        ],
+        "answer": 2,
+        "explanation": "The speaker links his experience of desire with the destructive potential of fire.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "interpretation",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "Which revision note about the speaker’s preference is accurate?",
+        "options": [
+          "he believes water will certainly end the world",
+          "he says ice cannot cause any harm",
+          "he refuses to choose either image",
+          "The speaker initially agrees with those who favour fire as the world-ending force."
+        ],
+        "answer": 3,
+        "explanation": "The speaker links his experience of desire with the destructive potential of fire.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "interpretation",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Why is the speaker’s preference important to the poem’s message?",
+        "options": [
+          "His first position arises from what he knows of desire.",
+          "He has no view on the question",
+          "He claims hatred is always weaker than love",
+          "He thinks fire is only a cooking tool"
+        ],
+        "answer": 0,
+        "explanation": "The speaker links his experience of desire with the destructive potential of fire.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "interpretation",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "Which detail about the second possibility is supported by the poem?",
+        "options": [
+          "he says ice melts all danger away",
+          "The speaker also considers that ice could destroy the world.",
+          "he declares that only rain matters",
+          "he rejects the idea of destruction"
+        ],
+        "answer": 1,
+        "explanation": "The later lines extend the destructive metaphor to ice and hatred.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What does the second possibility contribute to the poem’s meaning?",
+        "options": [
+          "The poem changes topic to farming",
+          "Ice is shown as entirely harmless",
+          "Hatred is presented as sufficient to cause destruction too.",
+          "The speaker says desire cannot harm anyone"
+        ],
+        "answer": 2,
+        "explanation": "The later lines extend the destructive metaphor to ice and hatred.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which interpretation of the second possibility best fits the poem?",
+        "options": [
+          "The speaker says desire cannot harm anyone",
+          "Ice is shown as entirely harmless",
+          "The poem changes topic to farming",
+          "Hatred is presented as sufficient to cause destruction too."
+        ],
+        "answer": 3,
+        "explanation": "The later lines extend the destructive metaphor to ice and hatred.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "Which revision note about the second possibility is accurate?",
+        "options": [
+          "The speaker also considers that ice could destroy the world.",
+          "he says ice melts all danger away",
+          "he declares that only rain matters",
+          "he rejects the idea of destruction"
+        ],
+        "answer": 0,
+        "explanation": "The later lines extend the destructive metaphor to ice and hatred.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is the second possibility important to the poem’s message?",
+        "options": [
+          "Ice is shown as entirely harmless",
+          "Hatred is presented as sufficient to cause destruction too.",
+          "The poem changes topic to farming",
+          "The speaker says desire cannot harm anyone"
+        ],
+        "answer": 1,
+        "explanation": "The later lines extend the destructive metaphor to ice and hatred.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "contrast"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "Which detail about desire and hate is supported by the poem?",
+        "options": [
+          "curiosity and learning as enemies",
+          "joy and gratitude as identical forces",
+          "The poem compares desire with hatred as forces that can damage the world.",
+          "two types of rainfall"
+        ],
+        "answer": 2,
+        "explanation": "The comparison is central to the poem’s warning about human impulses.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "comparison"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "What does desire and hate contribute to the poem’s meaning?",
+        "options": [
+          "The two symbols mean exactly the same thing",
+          "Only one emotion can ever cause harm",
+          "The poem says emotions do not matter",
+          "Both intense passion and cold hostility can have destructive consequences."
+        ],
+        "answer": 3,
+        "explanation": "The comparison is central to the poem’s warning about human impulses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "comparison"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "Which interpretation of desire and hate best fits the poem?",
+        "options": [
+          "Both intense passion and cold hostility can have destructive consequences.",
+          "Only one emotion can ever cause harm",
+          "The poem says emotions do not matter",
+          "The two symbols mean exactly the same thing"
+        ],
+        "answer": 0,
+        "explanation": "The comparison is central to the poem’s warning about human impulses.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "comparison"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which revision note about desire and hate is accurate?",
+        "options": [
+          "joy and gratitude as identical forces",
+          "The poem compares desire with hatred as forces that can damage the world.",
+          "curiosity and learning as enemies",
+          "two types of rainfall"
+        ],
+        "answer": 1,
+        "explanation": "The comparison is central to the poem’s warning about human impulses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "comparison"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "Why is desire and hate important to the poem’s message?",
+        "options": [
+          "The poem says emotions do not matter",
+          "Only one emotion can ever cause harm",
+          "Both intense passion and cold hostility can have destructive consequences.",
+          "The two symbols mean exactly the same thing"
+        ],
+        "answer": 2,
+        "explanation": "The comparison is central to the poem’s warning about human impulses.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "comparison"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "Which detail about irony is supported by the poem?",
+        "options": [
+          "a travel diary",
+          "a long historical report",
+          "a formal legal argument",
+          "The poem uses a playful, compact question to discuss a serious idea."
+        ],
+        "answer": 3,
+        "explanation": "The poem’s short form contrasts with the scale of the destruction it imagines.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "What does irony contribute to the poem’s meaning?",
+        "options": [
+          "Its brevity makes the destructive theme feel sharp and memorable.",
+          "The poem avoids serious themes",
+          "It presents a scientific formula",
+          "Its only purpose is to explain seasons"
+        ],
+        "answer": 0,
+        "explanation": "The poem’s short form contrasts with the scale of the destruction it imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "Which interpretation of irony best fits the poem?",
+        "options": [
+          "The poem avoids serious themes",
+          "Its brevity makes the destructive theme feel sharp and memorable.",
+          "It presents a scientific formula",
+          "Its only purpose is to explain seasons"
+        ],
+        "answer": 1,
+        "explanation": "The poem’s short form contrasts with the scale of the destruction it imagines.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Which revision note about irony is accurate?",
+        "options": [
+          "a formal legal argument",
+          "a long historical report",
+          "The poem uses a playful, compact question to discuss a serious idea.",
+          "a travel diary"
+        ],
+        "answer": 2,
+        "explanation": "The poem’s short form contrasts with the scale of the destruction it imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "Why is irony important to the poem’s message?",
+        "options": [
+          "Its only purpose is to explain seasons",
+          "The poem avoids serious themes",
+          "It presents a scientific formula",
+          "Its brevity makes the destructive theme feel sharp and memorable."
+        ],
+        "answer": 3,
+        "explanation": "The poem’s short form contrasts with the scale of the destruction it imagines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which detail about fire and ice is supported by the poem?",
+        "options": [
+          "Fire and ice are physical opposites in the poem.",
+          "two names for the same substance",
+          "two countries",
+          "two kinds of birds"
+        ],
+        "answer": 0,
+        "explanation": "The contrast allows the speaker to compare passion and hostility.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "contrast",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does fire and ice contribute to the poem’s meaning?",
+        "options": [
+          "Their opposition is unrelated to the theme",
+          "The opposite images represent different but similarly destructive feelings.",
+          "Both images represent kindness",
+          "The poem is about choosing a coat"
+        ],
+        "answer": 1,
+        "explanation": "The contrast allows the speaker to compare passion and hostility.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which interpretation of fire and ice best fits the poem?",
+        "options": [
+          "Both images represent kindness",
+          "Their opposition is unrelated to the theme",
+          "The opposite images represent different but similarly destructive feelings.",
+          "The poem is about choosing a coat"
+        ],
+        "answer": 2,
+        "explanation": "The contrast allows the speaker to compare passion and hostility.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "contrast",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "Which revision note about fire and ice is accurate?",
+        "options": [
+          "two kinds of birds",
+          "two names for the same substance",
+          "two countries",
+          "Fire and ice are physical opposites in the poem."
+        ],
+        "answer": 3,
+        "explanation": "The contrast allows the speaker to compare passion and hostility.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "Why is fire and ice important to the poem’s message?",
+        "options": [
+          "The opposite images represent different but similarly destructive feelings.",
+          "Their opposition is unrelated to the theme",
+          "Both images represent kindness",
+          "The poem is about choosing a coat"
+        ],
+        "answer": 0,
+        "explanation": "The contrast allows the speaker to compare passion and hostility.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about world’s destruction is supported by the poem?",
+        "options": [
+          "it provides a scientific timetable for the planet",
+          "The poem treats the end of the world as a way to think about human emotions.",
+          "it describes a bus route",
+          "it documents a historical war"
+        ],
+        "answer": 1,
+        "explanation": "The world-ending image is a metaphorical frame for the poem’s message.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does world’s destruction contribute to the poem’s meaning?",
+        "options": [
+          "It is only a weather report",
+          "The poem proves a date for the world’s end",
+          "The imagined catastrophe magnifies the possible consequences of desire and hatred.",
+          "Its theme is an ordinary shopping trip"
+        ],
+        "answer": 2,
+        "explanation": "The world-ending image is a metaphorical frame for the poem’s message.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Which interpretation of world’s destruction best fits the poem?",
+        "options": [
+          "Its theme is an ordinary shopping trip",
+          "The poem proves a date for the world’s end",
+          "It is only a weather report",
+          "The imagined catastrophe magnifies the possible consequences of desire and hatred."
+        ],
+        "answer": 3,
+        "explanation": "The world-ending image is a metaphorical frame for the poem’s message.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "Which revision note about world’s destruction is accurate?",
+        "options": [
+          "The poem treats the end of the world as a way to think about human emotions.",
+          "it provides a scientific timetable for the planet",
+          "it describes a bus route",
+          "it documents a historical war"
+        ],
+        "answer": 0,
+        "explanation": "The world-ending image is a metaphorical frame for the poem’s message.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Why is world’s destruction important to the poem’s message?",
+        "options": [
+          "The poem proves a date for the world’s end",
+          "The imagined catastrophe magnifies the possible consequences of desire and hatred.",
+          "It is only a weather report",
+          "Its theme is an ordinary shopping trip"
+        ],
+        "answer": 1,
+        "explanation": "The world-ending image is a metaphorical frame for the poem’s message.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "interpretation"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "Which detail about the word ‘desire’ is supported by the poem?",
+        "options": [
+          "a measured temperature",
+          "a refusal to feel anything",
+          "Desire refers to a strong wanting or passion.",
+          "a type of tree"
+        ],
+        "answer": 2,
+        "explanation": "The speaker connects desire to fire as a symbol of destructive passion.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "vocabulary",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "What does the word ‘desire’ contribute to the poem’s meaning?",
+        "options": [
+          "It means a calm day",
+          "Desire means complete indifference",
+          "The word names an object made of ice",
+          "Strong wanting can become dangerous when uncontrolled."
+        ],
+        "answer": 3,
+        "explanation": "The speaker connects desire to fire as a symbol of destructive passion.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "Which interpretation of the word ‘desire’ best fits the poem?",
+        "options": [
+          "Strong wanting can become dangerous when uncontrolled.",
+          "Desire means complete indifference",
+          "The word names an object made of ice",
+          "It means a calm day"
+        ],
+        "answer": 0,
+        "explanation": "The speaker connects desire to fire as a symbol of destructive passion.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "vocabulary",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "Which revision note about the word ‘desire’ is accurate?",
+        "options": [
+          "a refusal to feel anything",
+          "Desire refers to a strong wanting or passion.",
+          "a measured temperature",
+          "a type of tree"
+        ],
+        "answer": 1,
+        "explanation": "The speaker connects desire to fire as a symbol of destructive passion.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Why is the word ‘desire’ important to the poem’s message?",
+        "options": [
+          "The word names an object made of ice",
+          "Desire means complete indifference",
+          "Strong wanting can become dangerous when uncontrolled.",
+          "It means a calm day"
+        ],
+        "answer": 2,
+        "explanation": "The speaker connects desire to fire as a symbol of destructive passion.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "desire"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "Which detail about the word ‘hate’ is supported by the poem?",
+        "options": [
+          "a method of travel",
+          "affection and care",
+          "a feeling of gratitude",
+          "Hate refers to intense dislike or hostility."
+        ],
+        "answer": 3,
+        "explanation": "The speaker uses hate to explain why ice could also destroy.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "vocabulary",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "What does the word ‘hate’ contribute to the poem’s meaning?",
+        "options": [
+          "Hostility can chill relationships and cause damage.",
+          "Hate is described as a harmless mood",
+          "The word refers to the colour of snow",
+          "It means a pleasant surprise"
+        ],
+        "answer": 0,
+        "explanation": "The speaker uses hate to explain why ice could also destroy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "Which interpretation of the word ‘hate’ best fits the poem?",
+        "options": [
+          "Hate is described as a harmless mood",
+          "Hostility can chill relationships and cause damage.",
+          "The word refers to the colour of snow",
+          "It means a pleasant surprise"
+        ],
+        "answer": 1,
+        "explanation": "The speaker uses hate to explain why ice could also destroy.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "vocabulary",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which revision note about the word ‘hate’ is accurate?",
+        "options": [
+          "a feeling of gratitude",
+          "affection and care",
+          "Hate refers to intense dislike or hostility.",
+          "a method of travel"
+        ],
+        "answer": 2,
+        "explanation": "The speaker uses hate to explain why ice could also destroy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "Why is the word ‘hate’ important to the poem’s message?",
+        "options": [
+          "It means a pleasant surprise",
+          "Hate is described as a harmless mood",
+          "The word refers to the colour of snow",
+          "Hostility can chill relationships and cause damage."
+        ],
+        "answer": 3,
+        "explanation": "The speaker uses hate to explain why ice could also destroy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "hatred"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which detail about ‘would suffice’ is supported by the poem?",
+        "options": [
+          "The phrase ‘would suffice’ means that ice would be enough to bring about destruction.",
+          "ice would be insufficient under every condition",
+          "ice would make the world happier",
+          "fire would disappear completely"
+        ],
+        "answer": 0,
+        "explanation": "The ending confirms that the second symbolic force is powerful enough too.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "vocabulary",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What does ‘would suffice’ contribute to the poem’s meaning?",
+        "options": [
+          "Ice is dismissed as irrelevant",
+          "The line gives ice equal destructive power in the poem’s argument.",
+          "The phrase means the world is safe",
+          "The speaker withdraws his second view"
+        ],
+        "answer": 1,
+        "explanation": "The ending confirms that the second symbolic force is powerful enough too.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "Which interpretation of ‘would suffice’ best fits the poem?",
+        "options": [
+          "The phrase means the world is safe",
+          "Ice is dismissed as irrelevant",
+          "The line gives ice equal destructive power in the poem’s argument.",
+          "The speaker withdraws his second view"
+        ],
+        "answer": 2,
+        "explanation": "The ending confirms that the second symbolic force is powerful enough too.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "vocabulary",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which revision note about ‘would suffice’ is accurate?",
+        "options": [
+          "fire would disappear completely",
+          "ice would be insufficient under every condition",
+          "ice would make the world happier",
+          "The phrase ‘would suffice’ means that ice would be enough to bring about destruction."
+        ],
+        "answer": 3,
+        "explanation": "The ending confirms that the second symbolic force is powerful enough too.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "Why is ‘would suffice’ important to the poem’s message?",
+        "options": [
+          "The line gives ice equal destructive power in the poem’s argument.",
+          "Ice is dismissed as irrelevant",
+          "The phrase means the world is safe",
+          "The speaker withdraws his second view"
+        ],
+        "answer": 0,
+        "explanation": "The ending confirms that the second symbolic force is powerful enough too.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "vocabulary",
+          "ending"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Which detail about the poem’s form is supported by the poem?",
+        "options": [
+          "a fourteen-line sonnet",
+          "The poem is a short, nine-line lyric.",
+          "a long dramatic play",
+          "a prose chapter with no verse lines"
+        ],
+        "answer": 1,
+        "explanation": "The poem compresses a large question into a few carefully rhymed lines.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "What does the poem’s form contribute to the poem’s meaning?",
+        "options": [
+          "It is a narrative novel",
+          "The poem has many chapters",
+          "The compact form helps the speaker express the idea economically.",
+          "Its form is an official notice"
+        ],
+        "answer": 2,
+        "explanation": "The poem compresses a large question into a few carefully rhymed lines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of the poem’s form best fits the poem?",
+        "options": [
+          "Its form is an official notice",
+          "The poem has many chapters",
+          "It is a narrative novel",
+          "The compact form helps the speaker express the idea economically."
+        ],
+        "answer": 3,
+        "explanation": "The poem compresses a large question into a few carefully rhymed lines.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "Which revision note about the poem’s form is accurate?",
+        "options": [
+          "The poem is a short, nine-line lyric.",
+          "a fourteen-line sonnet",
+          "a long dramatic play",
+          "a prose chapter with no verse lines"
+        ],
+        "answer": 0,
+        "explanation": "The poem compresses a large question into a few carefully rhymed lines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Why is the poem’s form important to the poem’s message?",
+        "options": [
+          "The poem has many chapters",
+          "The compact form helps the speaker express the idea economically.",
+          "It is a narrative novel",
+          "Its form is an official notice"
+        ],
+        "answer": 1,
+        "explanation": "The poem compresses a large question into a few carefully rhymed lines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "form",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "Which detail about rhyme pattern is supported by the poem?",
+        "options": [
+          "only couplets from start to finish",
+          "no sound pattern at all",
+          "The poem uses a linked rhyme pattern that repeatedly connects the fire and ice images.",
+          "a repeated identical end word for every line"
+        ],
+        "answer": 2,
+        "explanation": "The rhyme links the short poem’s contrasting images and ideas.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What does rhyme pattern contribute to the poem’s meaning?",
+        "options": [
+          "The form is a prose paragraph",
+          "Rhyme is not used in the poem",
+          "The poem has fourteen equal stanzas",
+          "The recurring sounds help connect the two symbolic forces."
+        ],
+        "answer": 3,
+        "explanation": "The rhyme links the short poem’s contrasting images and ideas.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which interpretation of rhyme pattern best fits the poem?",
+        "options": [
+          "The recurring sounds help connect the two symbolic forces.",
+          "Rhyme is not used in the poem",
+          "The poem has fourteen equal stanzas",
+          "The form is a prose paragraph"
+        ],
+        "answer": 0,
+        "explanation": "The rhyme links the short poem’s contrasting images and ideas.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "Which revision note about rhyme pattern is accurate?",
+        "options": [
+          "no sound pattern at all",
+          "The poem uses a linked rhyme pattern that repeatedly connects the fire and ice images.",
+          "only couplets from start to finish",
+          "a repeated identical end word for every line"
+        ],
+        "answer": 1,
+        "explanation": "The rhyme links the short poem’s contrasting images and ideas.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is rhyme pattern important to the poem’s message?",
+        "options": [
+          "The poem has fourteen equal stanzas",
+          "Rhyme is not used in the poem",
+          "The recurring sounds help connect the two symbolic forces.",
+          "The form is a prose paragraph"
+        ],
+        "answer": 2,
+        "explanation": "The rhyme links the short poem’s contrasting images and ideas.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "rhyme",
+          "form"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "Which detail about the speaker’s tone is supported by the poem?",
+        "options": [
+          "angry at a named person",
+          "official and bureaucratic",
+          "purely celebratory",
+          "The speaker’s tone is conversational but serious beneath its brevity."
+        ],
+        "answer": 3,
+        "explanation": "The voice sounds direct and measured while discussing a grave possibility.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "What does the speaker’s tone contribute to the poem’s meaning?",
+        "options": [
+          "A calm manner makes the warning about destructive impulses more striking.",
+          "The poem celebrates hatred",
+          "The speaker delivers a weather warning only",
+          "The poem contains no reflection"
+        ],
+        "answer": 0,
+        "explanation": "The voice sounds direct and measured while discussing a grave possibility.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "Which interpretation of the speaker’s tone best fits the poem?",
+        "options": [
+          "The poem celebrates hatred",
+          "A calm manner makes the warning about destructive impulses more striking.",
+          "The speaker delivers a weather warning only",
+          "The poem contains no reflection"
+        ],
+        "answer": 1,
+        "explanation": "The voice sounds direct and measured while discussing a grave possibility.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which revision note about the speaker’s tone is accurate?",
+        "options": [
+          "purely celebratory",
+          "official and bureaucratic",
+          "The speaker’s tone is conversational but serious beneath its brevity.",
+          "angry at a named person"
+        ],
+        "answer": 2,
+        "explanation": "The voice sounds direct and measured while discussing a grave possibility.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "Why is the speaker’s tone important to the poem’s message?",
+        "options": [
+          "The poem contains no reflection",
+          "The poem celebrates hatred",
+          "The speaker delivers a weather warning only",
+          "A calm manner makes the warning about destructive impulses more striking."
+        ],
+        "answer": 3,
+        "explanation": "The voice sounds direct and measured while discussing a grave possibility.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "tone",
+          "speaker"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "Which detail about human impulses is supported by the poem?",
+        "options": [
+          "The two elements stand for harmful extremes of human feeling.",
+          "two types of school subjects",
+          "two animals in a forest",
+          "two kinds of transport"
+        ],
+        "answer": 0,
+        "explanation": "The poem’s symbolic language broadens the idea beyond literal fire and ice.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "What does human impulses contribute to the poem’s meaning?",
+        "options": [
+          "Only fire is human emotion and ice is literal snow",
+          "Destructive outcomes can arise from very different emotional states.",
+          "Feelings are unrelated to the poem",
+          "The symbols refer only to clothing"
+        ],
+        "answer": 1,
+        "explanation": "The poem’s symbolic language broadens the idea beyond literal fire and ice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "Which interpretation of human impulses best fits the poem?",
+        "options": [
+          "Feelings are unrelated to the poem",
+          "Only fire is human emotion and ice is literal snow",
+          "Destructive outcomes can arise from very different emotional states.",
+          "The symbols refer only to clothing"
+        ],
+        "answer": 2,
+        "explanation": "The poem’s symbolic language broadens the idea beyond literal fire and ice.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Which revision note about human impulses is accurate?",
+        "options": [
+          "two kinds of transport",
+          "two types of school subjects",
+          "two animals in a forest",
+          "The two elements stand for harmful extremes of human feeling."
+        ],
+        "answer": 3,
+        "explanation": "The poem’s symbolic language broadens the idea beyond literal fire and ice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "Why is human impulses important to the poem’s message?",
+        "options": [
+          "Destructive outcomes can arise from very different emotional states.",
+          "Only fire is human emotion and ice is literal snow",
+          "Feelings are unrelated to the poem",
+          "The symbols refer only to clothing"
+        ],
+        "answer": 0,
+        "explanation": "The poem’s symbolic language broadens the idea beyond literal fire and ice.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "symbolism"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which detail about balance of the argument is supported by the poem?",
+        "options": [
+          "he fully excludes ice from consideration",
+          "The speaker gives fire and ice each a place in the argument.",
+          "he never mentions fire",
+          "he discusses only water"
+        ],
+        "answer": 1,
+        "explanation": "The second possibility prevents the argument from treating only one impulse as dangerous.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "argument",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does balance of the argument contribute to the poem’s meaning?",
+        "options": [
+          "Ice is said to have no force",
+          "Only fire is described as powerful",
+          "He suggests that either passion or hatred can cause destruction.",
+          "The poem ends before considering ice"
+        ],
+        "answer": 2,
+        "explanation": "The second possibility prevents the argument from treating only one impulse as dangerous.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "argument",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which interpretation of balance of the argument best fits the poem?",
+        "options": [
+          "The poem ends before considering ice",
+          "Only fire is described as powerful",
+          "Ice is said to have no force",
+          "He suggests that either passion or hatred can cause destruction."
+        ],
+        "answer": 3,
+        "explanation": "The second possibility prevents the argument from treating only one impulse as dangerous.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "argument",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "Which revision note about balance of the argument is accurate?",
+        "options": [
+          "The speaker gives fire and ice each a place in the argument.",
+          "he fully excludes ice from consideration",
+          "he never mentions fire",
+          "he discusses only water"
+        ],
+        "answer": 0,
+        "explanation": "The second possibility prevents the argument from treating only one impulse as dangerous.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "argument",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "Why is balance of the argument important to the poem’s message?",
+        "options": [
+          "Only fire is described as powerful",
+          "He suggests that either passion or hatred can cause destruction.",
+          "Ice is said to have no force",
+          "The poem ends before considering ice"
+        ],
+        "answer": 1,
+        "explanation": "The second possibility prevents the argument from treating only one impulse as dangerous.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "argument",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about the warning is supported by the poem?",
+        "options": [
+          "it praises hatred as a virtue",
+          "it tells readers to ignore all emotions",
+          "The poem warns about the destructive potential of human feelings.",
+          "it is mainly an instruction about winter clothing"
+        ],
+        "answer": 2,
+        "explanation": "The symbolic comparison gives the poem its cautionary message.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "theme",
+          "message"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the warning contribute to the poem’s meaning?",
+        "options": [
+          "It is about plant growth",
+          "The poem says every emotion is always positive",
+          "It is unrelated to human behaviour",
+          "Passion and hostility must be understood as forces that can damage relationships or communities."
+        ],
+        "answer": 3,
+        "explanation": "The symbolic comparison gives the poem its cautionary message.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "message"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Which interpretation of the warning best fits the poem?",
+        "options": [
+          "Passion and hostility must be understood as forces that can damage relationships or communities.",
+          "The poem says every emotion is always positive",
+          "It is unrelated to human behaviour",
+          "It is about plant growth"
+        ],
+        "answer": 0,
+        "explanation": "The symbolic comparison gives the poem its cautionary message.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "theme",
+          "message"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "Which revision note about the warning is accurate?",
+        "options": [
+          "it tells readers to ignore all emotions",
+          "The poem warns about the destructive potential of human feelings.",
+          "it praises hatred as a virtue",
+          "it is mainly an instruction about winter clothing"
+        ],
+        "answer": 1,
+        "explanation": "The symbolic comparison gives the poem its cautionary message.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "message"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Why is the warning important to the poem’s message?",
+        "options": [
+          "It is unrelated to human behaviour",
+          "The poem says every emotion is always positive",
+          "Passion and hostility must be understood as forces that can damage relationships or communities.",
+          "It is about plant growth"
+        ],
+        "answer": 2,
+        "explanation": "The symbolic comparison gives the poem its cautionary message.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "theme",
+          "message"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "Which detail about the final effect is supported by the poem?",
+        "options": [
+          "the world is guaranteed never to change",
+          "ice cannot harm anything",
+          "fire is the only possible danger",
+          "The ending says ice would also be sufficient for destruction."
+        ],
+        "answer": 3,
+        "explanation": "The final thought strengthens the comparison between desire and hate.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "ending",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "What does the final effect contribute to the poem’s meaning?",
+        "options": [
+          "The ending leaves the reader thinking about the destructive force of cold hostility.",
+          "The poem removes the ice image",
+          "The final lines shift to a happy celebration",
+          "The speaker says hatred is impossible"
+        ],
+        "answer": 0,
+        "explanation": "The final thought strengthens the comparison between desire and hate.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "ending",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
