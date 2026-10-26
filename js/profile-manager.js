@@ -83,7 +83,16 @@
     }
   }
 
+  function syncAssignedClass() {
+    if (localAccount && localAccount.classId) {
+      profile.classLevel=String(localAccount.classId);
+      profileStore.save(profile);
+    }
+    const field=$("classLevel");
+    if (field) field.disabled=!!localAccount;
+  }
   function renderForm(){
+    syncAssignedClass();
     $("studentId").value=profile.studentId;
     $("displayName").value=profile.displayName;
     $("school").value=profile.school;
@@ -321,6 +330,7 @@
       if(!window.C10StudentAuth)throw new Error("Student account file is unavailable. Local practice and backups still work.");
       const result=await window.C10StudentAuth.login(username,password);
       localAccount=result.account;
+      syncAssignedClass();renderForm();
       $("studentLoginPassword").value="";
       updateAccountUI();
       renderHistory();
@@ -343,12 +353,13 @@
       try{localAccount=await window.C10StudentAuth.restoreSession();}
       catch(_){localAccount=null;}
     }
-    updateAccountUI();
+    syncAssignedClass();renderForm();updateAccountUI();
   }
   async function studentLogout(){
     if(remoteUser&&window.C10Api){try{await window.C10Api.logout();}catch(_){}}
     if(window.C10StudentAuth)window.C10StudentAuth.logout();
     remoteUser=null;remoteAttempts=[];localAccount=null;
+    $("classLevel").disabled=false;
     $("studentLoginPassword").value="";
     $("currentStudentPassword").value="";$("newStudentPassword").value="";$("confirmStudentPassword").value="";
     updateAccountUI();accountStatus("Signed out. Local progress remains on this device.");renderHistory();
