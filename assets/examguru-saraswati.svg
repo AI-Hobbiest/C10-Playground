@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+<title id="title">ExamGuru Saraswati-inspired mark</title><desc id="desc">A respectful educational emblem inspired by Saraswati, with a halo, veena, lotus, and open book.</desc>
+<defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe7a0"/><stop offset="1" stop-color="#d69a32"/></linearGradient><linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8d7cff"/><stop offset="1" stop-color="#5540bb"/></linearGradient></defs>
+<circle cx="64" cy="48" r="39" fill="#f4efff" stroke="#d7c9ff" stroke-width="2"/><circle cx="64" cy="44" r="27" fill="none" stroke="url(#gold)" stroke-width="3"/>
+<path d="M28 102 Q45 83 64 99 Q83 83 100 102 Q84 115 64 112 Q44 115 28 102Z" fill="#f3a5c8" stroke="#d76b9d" stroke-width="2"/><path d="M39 105 Q51 90 64 103 Q77 90 89 105" fill="none" stroke="#fff1f8" stroke-width="2"/>
+<path d="M48 75 Q43 61 50 52 Q55 46 64 48 Q74 49 78 59 Q81 68 73 78 L77 89 L51 89Z" fill="url(#gold)" stroke="#a76c1d" stroke-width="1.8"/>
+<circle cx="64" cy="37" r="10" fill="#f4c89a" stroke="#b97a3a" stroke-width="1.5"/><path d="M54 35 Q54 22 64 21 Q74 23 74 35 Q69 29 64 29 Q59 29 54 35Z" fill="#47338f"/><path d="M59 39h2m6 0h2" stroke="#4c2e69" stroke-width="2" stroke-linecap="round"/><path d="M61 44q3 2 6 0" fill="none" stroke="#a94d55" stroke-width="1.5"/>
+<path d="M46 58 Q35 52 31 40 M78 58 Q90 51 95 40" fill="none" stroke="#f4c89a" stroke-width="7" stroke-linecap="round"/><path d="M31 40L25 33M95 40l7-7" stroke="#d69a32" stroke-width="3" stroke-linecap="round"/>
+<path d="M31 78L96 31" stroke="#9b5b24" stroke-width="5" stroke-linecap="round"/><path d="M34 75L98 28" stroke="#f7d27c" stroke-width="2" stroke-linecap="round"/><ellipse cx="35" cy="76" rx="10" ry="7" transform="rotate(-35 35 76)" fill="#d59b38" stroke="#8c561e" stroke-width="2"/><circle cx="99" cy="28" r="7" fill="#d59b38" stroke="#8c561e" stroke-width="2"/><path d="M58 60l10 14m-18-8 10 13" stroke="#fff2c2" stroke-width="1.5"/>
+<path d="M49 88 Q64 79 79 88 L85 99 Q64 91 43 99Z" fill="#fff" stroke="#6d5bd0" stroke-width="2"/><path d="M64 87v8" stroke="#6d5bd0" stroke-width="1.5"/><path d="M24 116Q43 107 64 116Q85 107 104 116" fill="none" stroke="url(#violet)" stroke-width="3" stroke-linecap="round"/>
+</svg>
