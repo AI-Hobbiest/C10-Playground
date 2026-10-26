@@ -14,5 +14,7 @@ FRONTEND_ORIGIN = "https://ai-hobbiest.github.io"
 FRONTEND_ADMIN_URL = "https://ai-hobbiest.github.io/C10-Playground/admin.html"
 FRONTEND_PROFILE_URL = "https://ai-hobbiest.github.io/C10-Playground/profile.html"
 API_PUBLIC_URL = "https://REPLACE_WITH_WORKER_SUBDOMAIN.workers.dev"
-ADMIN_GITHUB_USERS = "REPLACE_WITH_YOUR_GITHUB_LOGIN"
+# Server-side allowlist only. Add other app-authorised GitHub usernames explicitly, comma-separated.
+# GitHub collaborators are not automatically app admins.
+ADMIN_GITHUB_USERS = "AI-Hobbiest"
 GITHUB_CLIENT_ID = "REPLACE_WITH_GITHUB_OAUTH_CLIENT_ID"
