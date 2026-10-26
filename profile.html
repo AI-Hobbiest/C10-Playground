@@ -131,16 +131,16 @@ button:disabled,.btn:disabled{opacity:.46!important;cursor:not-allowed!important
         <div class="summary-tile"><strong id="totalTime">00:00</strong><span>Total time</span></div>
       </div>
       <div id="historyList" class="history-list"><p class="status">No completed tests saved yet. Finish a practice session and it will appear here.</p></div>
-      <hr class="soft">
-      <h2 id="backup" class="c10-page-anchor">Backup &amp; restore</h2>
+    </section>
+    <section id="backup" class="profile-card c10-page-anchor">
+      <h2>Backup &amp; restore</h2>
       <p class="status">Backup and restore are retained in the interface but temporarily disabled while the future central-sync approach is finalised. Your current browser data is not deleted.</p>
       <div class="profile-actions">
-        <button class="btn" id="exportBtn" type="button">Export JSON backup</button>
-        <button class="btn secondary" id="importBtn" type="button">Import JSON backup</button>
+        <button class="btn" id="exportBtn" type="button" disabled aria-disabled="true" title="Backup is temporarily disabled">Export JSON backup · Coming soon</button>
+        <button class="btn secondary" id="importBtn" type="button" disabled aria-disabled="true" title="Restore is temporarily disabled">Import JSON backup · Coming soon</button>
         <input id="backupFile" type="file" accept="application/json,.json">
       </div>
-      <p class="microcopy">These controls will be enabled after the sync and recovery workflow is designed.</p>
-    </section>
+      <p class="microcopy">These controls will be enabled after the sync and recovery workflow is designed.</p>    </section>
   </div>
 </main>
 <footer class="brand-signature site-credit">Conceptualised by <strong>JP Ganathe</strong></footer>
