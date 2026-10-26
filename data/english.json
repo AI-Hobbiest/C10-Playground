@@ -10867,7 +10867,12 @@
         ],
         "answer": 1,
         "explanation": "She observes the bus route and saves the fare before setting out.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Madam Rides the Bus",
+          "comprehension"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -10880,7 +10885,12 @@
         ],
         "answer": 1,
         "explanation": "Her refusals are part of her insistence on managing the ride herself.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "Madam Rides the Bus",
+          "comprehension"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -10893,7 +10903,1758 @@
         ],
         "answer": 1,
         "explanation": "The earlier playful sight becomes sobering when she sees the animal dead.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "Madam Rides the Bus",
+          "comprehension"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about Valli’s age is supported by the chapter?",
+        "options": [
+          "Valli is an eight-year-old girl.",
+          "a young adult",
+          "a retired woman",
+          "a schoolteacher"
+        ],
+        "answer": 0,
+        "explanation": "Valli’s age helps explain both her independence and the limits she faces.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "character",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the episode involving Valli’s age suggest?",
+        "options": [
+          "She is old enough to be a bus driver",
+          "The story presents her as a child who is curious and determined.",
+          "She has no interest in the world outside",
+          "She is an adult travelling for work"
+        ],
+        "answer": 1,
+        "explanation": "Valli’s age helps explain both her independence and the limits she faces.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "character",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Why is Valli’s age important in the narrative?",
+        "options": [
+          "She has no interest in the world outside",
+          "She is old enough to be a bus driver",
+          "The story presents her as a child who is curious and determined.",
+          "She is an adult travelling for work"
+        ],
+        "answer": 2,
+        "explanation": "Valli’s age helps explain both her independence and the limits she faces.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "When revising Valli’s pastime, which statement is accurate?",
+        "options": [
+          "working at a shop",
+          "reading bus timetables at a station",
+          "playing cricket in a stadium",
+          "Valli’s favourite pastime is watching the street from her doorway."
+        ],
+        "answer": 3,
+        "explanation": "Watching the street lets Valli study the bus and people’s routines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Which interpretation of Valli’s pastime best fits the story?",
+        "options": [
+          "Careful observation becomes the starting point for her plan.",
+          "She learns nothing by watching people",
+          "She spends all her free time travelling",
+          "She ignores the street"
+        ],
+        "answer": 0,
+        "explanation": "Watching the street lets Valli study the bus and people’s routines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "What does the text communicate through Valli’s pastime?",
+        "options": [
+          "She learns nothing by watching people",
+          "Careful observation becomes the starting point for her plan.",
+          "She spends all her free time travelling",
+          "She ignores the street"
+        ],
+        "answer": 1,
+        "explanation": "Watching the street lets Valli study the bus and people’s routines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "Which option correctly describes Valli’s strongest desire?",
+        "options": [
+          "to become a postmaster",
+          "to travel overseas",
+          "Valli most wants to ride the bus to the nearby town.",
+          "to visit a tea garden"
+        ],
+        "answer": 2,
+        "explanation": "The bus ride is a personal goal that Valli plans to fulfil.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "motivation",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "What broader idea is illustrated by Valli’s strongest desire?",
+        "options": [
+          "She wants to leave school forever",
+          "She wants to avoid every new experience",
+          "Her goal is chosen by the conductor",
+          "Her desire grows from curiosity about a world she has observed from a distance."
+        ],
+        "answer": 3,
+        "explanation": "The bus ride is a personal goal that Valli plans to fulfil.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "motivation",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "What is the significance of Valli’s strongest desire in this account?",
+        "options": [
+          "Her desire grows from curiosity about a world she has observed from a distance.",
+          "She wants to avoid every new experience",
+          "Her goal is chosen by the conductor",
+          "She wants to leave school forever"
+        ],
+        "answer": 0,
+        "explanation": "The bus ride is a personal goal that Valli plans to fulfil.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "motivation",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Which detail about Distance to town is supported by the chapter?",
+        "options": [
+          "one hundred miles",
+          "The town is about six miles from Valli’s village.",
+          "half a mile",
+          "twenty miles"
+        ],
+        "answer": 1,
+        "explanation": "Knowing the distance helps Valli calculate the outing.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "planning"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "What does the episode involving Distance to town suggest?",
+        "options": [
+          "The town is beside her house",
+          "The journey is an overseas voyage",
+          "The distance makes the trip feasible but requires planning.",
+          "The distance makes bus travel impossible"
+        ],
+        "answer": 2,
+        "explanation": "Knowing the distance helps Valli calculate the outing.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "planning"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "Why is Distance to town important in the narrative?",
+        "options": [
+          "The distance makes bus travel impossible",
+          "The journey is an overseas voyage",
+          "The town is beside her house",
+          "The distance makes the trip feasible but requires planning."
+        ],
+        "answer": 3,
+        "explanation": "Knowing the distance helps Valli calculate the outing.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "planning"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "When revising One-way fare, which statement is accurate?",
+        "options": [
+          "The bus fare for one way is thirty paise.",
+          "ten rupees",
+          "one rupee",
+          "sixty paise"
+        ],
+        "answer": 0,
+        "explanation": "The small fare is still important because she must cover the return journey too.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "planning",
+          "money"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which interpretation of One-way fare best fits the story?",
+        "options": [
+          "She plans to spend all her savings on treats",
+          "Valli must save enough money for both directions.",
+          "She travels without any money",
+          "She pays only after arriving home"
+        ],
+        "answer": 1,
+        "explanation": "The small fare is still important because she must cover the return journey too.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "money"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "What does the text communicate through One-way fare?",
+        "options": [
+          "She travels without any money",
+          "She plans to spend all her savings on treats",
+          "Valli must save enough money for both directions.",
+          "She pays only after arriving home"
+        ],
+        "answer": 2,
+        "explanation": "The small fare is still important because she must cover the return journey too.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "money"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which option correctly describes Bus journey length?",
+        "options": [
+          "a full day",
+          "five minutes",
+          "three hours",
+          "A one-way ride takes about forty-five minutes."
+        ],
+        "answer": 3,
+        "explanation": "Timing is central to Valli’s plan for going to town and returning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "time"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What broader idea is illustrated by Bus journey length?",
+        "options": [
+          "Valli needs to fit the journey into a limited time away from home.",
+          "She can spend all day in town without planning",
+          "The bus travels overseas",
+          "The duration makes the return trip impossible"
+        ],
+        "answer": 0,
+        "explanation": "Timing is central to Valli’s plan for going to town and returning.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "planning",
+          "time"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "What is the significance of Bus journey length in this account?",
+        "options": [
+          "She can spend all day in town without planning",
+          "Valli needs to fit the journey into a limited time away from home.",
+          "The bus travels overseas",
+          "The duration makes the return trip impossible"
+        ],
+        "answer": 1,
+        "explanation": "Timing is central to Valli’s plan for going to town and returning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "time"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which detail about Gathering information is supported by the chapter?",
+        "options": [
+          "by asking the conductor to plan the whole trip",
+          "by reading an official newspaper only",
+          "Valli learns about the route by listening to neighbours and bus passengers and asking discreet questions.",
+          "by following a map she found in a shop"
+        ],
+        "answer": 2,
+        "explanation": "Valli’s observations and questions are part of her careful preparation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "What does the episode involving Gathering information suggest?",
+        "options": [
+          "She learns nothing about the bus",
+          "She acts without knowing the fare or schedule",
+          "She relies only on a dream",
+          "She gathers information before taking a risk."
+        ],
+        "answer": 3,
+        "explanation": "Valli’s observations and questions are part of her careful preparation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Why is Gathering information important in the narrative?",
+        "options": [
+          "She gathers information before taking a risk.",
+          "She acts without knowing the fare or schedule",
+          "She relies only on a dream",
+          "She learns nothing about the bus"
+        ],
+        "answer": 0,
+        "explanation": "Valli’s observations and questions are part of her careful preparation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "When revising Saving the fare, which statement is accurate?",
+        "options": [
+          "she borrows the money from a stranger",
+          "Valli saves coins instead of spending them on small pleasures.",
+          "she sells the bus",
+          "she asks the driver to pay for her"
+        ],
+        "answer": 1,
+        "explanation": "Saving steadily allows Valli to pay for the ride herself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "money",
+          "self-control"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of Saving the fare best fits the story?",
+        "options": [
+          "She does not care how much the trip costs",
+          "She prefers spending every coin at once",
+          "She controls immediate wishes to achieve a larger goal.",
+          "She assumes the trip is free"
+        ],
+        "answer": 2,
+        "explanation": "Saving steadily allows Valli to pay for the ride herself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "money",
+          "self-control"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "What does the text communicate through Saving the fare?",
+        "options": [
+          "She assumes the trip is free",
+          "She prefers spending every coin at once",
+          "She does not care how much the trip costs",
+          "She controls immediate wishes to achieve a larger goal."
+        ],
+        "answer": 3,
+        "explanation": "Saving steadily allows Valli to pay for the ride herself.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "money",
+          "self-control"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Which option correctly describes Choosing the time?",
+        "options": [
+          "Valli chooses an afternoon when her mother usually naps after lunch.",
+          "the middle of the night",
+          "the busiest school hour",
+          "a time when the whole family travels with her"
+        ],
+        "answer": 0,
+        "explanation": "Her timing shows planning and awareness of home routines.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "planning",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "What broader idea is illustrated by Choosing the time?",
+        "options": [
+          "She plans to tell everyone before leaving",
+          "She thinks through when she can leave without attracting attention.",
+          "She ignores the household routine",
+          "She has no plan for returning"
+        ],
+        "answer": 1,
+        "explanation": "Her timing shows planning and awareness of home routines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What is the significance of Choosing the time in this account?",
+        "options": [
+          "She ignores the household routine",
+          "She plans to tell everyone before leaving",
+          "She thinks through when she can leave without attracting attention.",
+          "She has no plan for returning"
+        ],
+        "answer": 2,
+        "explanation": "Her timing shows planning and awareness of home routines.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "family"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which detail about Return schedule is supported by the chapter?",
+        "options": [
+          "at sunrise the next day",
+          "midnight",
+          "the following week",
+          "Valli plans to return on the bus that reaches the village at about 2:45."
+        ],
+        "answer": 3,
+        "explanation": "The return time is a key part of her preparation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "time"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "What does the episode involving Return schedule suggest?",
+        "options": [
+          "She calculates the full outing rather than planning only the outward journey.",
+          "She intends to remain in town overnight",
+          "She does not care when she returns",
+          "She plans to walk home all the way"
+        ],
+        "answer": 0,
+        "explanation": "The return time is a key part of her preparation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "time"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is Return schedule important in the narrative?",
+        "options": [
+          "She intends to remain in town overnight",
+          "She calculates the full outing rather than planning only the outward journey.",
+          "She does not care when she returns",
+          "She plans to walk home all the way"
+        ],
+        "answer": 1,
+        "explanation": "The return time is a key part of her preparation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "time"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "When revising Boarding the bus, which statement is accurate?",
+        "options": [
+          "she hides behind the driver",
+          "she waits for a friend to carry her",
+          "Valli calls out to stop the bus and presents her fare.",
+          "she boards a train instead"
+        ],
+        "answer": 2,
+        "explanation": "Valli acts decisively to begin the trip she has planned.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "Which interpretation of Boarding the bus best fits the story?",
+        "options": [
+          "She is brought on board by her mother",
+          "She gives up when the bus slows",
+          "She asks the conductor to choose her destination",
+          "The scene shows initiative and determination."
+        ],
+        "answer": 3,
+        "explanation": "Valli acts decisively to begin the trip she has planned.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "plot",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "What does the text communicate through Boarding the bus?",
+        "options": [
+          "The scene shows initiative and determination.",
+          "She gives up when the bus slows",
+          "She asks the conductor to choose her destination",
+          "She is brought on board by her mother"
+        ],
+        "answer": 0,
+        "explanation": "Valli acts decisively to begin the trip she has planned.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which option correctly describes The conductor’s manner?",
+        "options": [
+          "he is hostile throughout",
+          "The conductor is cheerful and jokes with Valli, calling her ‘madam’.",
+          "he refuses to speak to passengers",
+          "he is frightened of the bus"
+        ],
+        "answer": 1,
+        "explanation": "The conductor responds to Valli with good humour and courtesy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "What broader idea is illustrated by The conductor’s manner?",
+        "options": [
+          "He refuses to help with boarding",
+          "He treats every passenger with anger",
+          "His humour makes the journey friendly and light-hearted.",
+          "He prevents Valli from sitting"
+        ],
+        "answer": 2,
+        "explanation": "The conductor responds to Valli with good humour and courtesy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "What is the significance of The conductor’s manner in this account?",
+        "options": [
+          "He prevents Valli from sitting",
+          "He treats every passenger with anger",
+          "He refuses to help with boarding",
+          "His humour makes the journey friendly and light-hearted."
+        ],
+        "answer": 3,
+        "explanation": "The conductor responds to Valli with good humour and courtesy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "Which detail about Refusing help is supported by the chapter?",
+        "options": [
+          "Valli insists that she can get onto the bus without the conductor helping her.",
+          "she asks him to carry her",
+          "she refuses to board",
+          "she asks another passenger to lift her"
+        ],
+        "answer": 0,
+        "explanation": "Her insistence reflects her pride in managing the trip herself.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "character",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "What does the episode involving Refusing help suggest?",
+        "options": [
+          "She has no desire for independence",
+          "She wants to be treated as capable and independent.",
+          "She wants others to make every choice",
+          "She is refusing to pay the fare"
+        ],
+        "answer": 1,
+        "explanation": "Her insistence reflects her pride in managing the trip herself.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Why is Refusing help important in the narrative?",
+        "options": [
+          "She wants others to make every choice",
+          "She has no desire for independence",
+          "She wants to be treated as capable and independent.",
+          "She is refusing to pay the fare"
+        ],
+        "answer": 2,
+        "explanation": "Her insistence reflects her pride in managing the trip herself.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "character",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "When revising The bus interior, which statement is accurate?",
+        "options": [
+          "it is painted black and made of wood",
+          "it is an old cart",
+          "it has no seats",
+          "The bus is new, with a white exterior marked by green stripes and shiny fittings."
+        ],
+        "answer": 3,
+        "explanation": "Details of the bus help convey Valli’s excitement about riding it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "description"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which interpretation of The bus interior best fits the story?",
+        "options": [
+          "The bus is exciting and attractive to Valli as a new experience.",
+          "The bus is a familiar object she ignores",
+          "The bus is described as broken",
+          "The setting is a railway carriage"
+        ],
+        "answer": 0,
+        "explanation": "Details of the bus help convey Valli’s excitement about riding it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "description"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does the text communicate through The bus interior?",
+        "options": [
+          "The bus is a familiar object she ignores",
+          "The bus is exciting and attractive to Valli as a new experience.",
+          "The bus is described as broken",
+          "The setting is a railway carriage"
+        ],
+        "answer": 1,
+        "explanation": "Details of the bus help convey Valli’s excitement about riding it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "description"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which option correctly describes Passenger count?",
+        "options": [
+          "no driver or passengers",
+          "hundreds of passengers",
+          "Only six or seven passengers are on the bus at that time.",
+          "only the entire village"
+        ],
+        "answer": 2,
+        "explanation": "The light passenger load helps establish the calm atmosphere of the ride.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "What broader idea is illustrated by Passenger count?",
+        "options": [
+          "The conductor cannot speak to anyone",
+          "The bus is so crowded that Valli cannot enter",
+          "The bus is completely empty",
+          "The relatively quiet bus gives the conductor room to joke with Valli."
+        ],
+        "answer": 3,
+        "explanation": "The light passenger load helps establish the calm atmosphere of the ride.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "What is the significance of Passenger count in this account?",
+        "options": [
+          "The relatively quiet bus gives the conductor room to joke with Valli.",
+          "The bus is so crowded that Valli cannot enter",
+          "The bus is completely empty",
+          "The conductor cannot speak to anyone"
+        ],
+        "answer": 0,
+        "explanation": "The light passenger load helps establish the calm atmosphere of the ride.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about Valli’s shyness is supported by the chapter?",
+        "options": [
+          "she feels no self-consciousness at all",
+          "Valli feels shy when other passengers look at her and laugh with the conductor.",
+          "she becomes angry and leaves",
+          "she refuses to sit anywhere"
+        ],
+        "answer": 1,
+        "explanation": "Valli avoids their eyes and quickly takes an empty seat.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the episode involving Valli’s shyness suggest?",
+        "options": [
+          "She decides to drive the bus",
+          "She is never embarrassed by anyone",
+          "Her confidence has limits when she becomes the focus of public attention.",
+          "She wants everyone to stare at her"
+        ],
+        "answer": 2,
+        "explanation": "Valli avoids their eyes and quickly takes an empty seat.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "character",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Why is Valli’s shyness important in the narrative?",
+        "options": [
+          "She wants everyone to stare at her",
+          "She is never embarrassed by anyone",
+          "She decides to drive the bus",
+          "Her confidence has limits when she becomes the focus of public attention."
+        ],
+        "answer": 3,
+        "explanation": "Valli avoids their eyes and quickly takes an empty seat.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "When revising Declining treats, which statement is accurate?",
+        "options": [
+          "Valli refuses the conductor’s offer of a drink or treat.",
+          "she demands several treats",
+          "she has no interest in completing the trip",
+          "she asks the passengers to buy gifts"
+        ],
+        "answer": 0,
+        "explanation": "Her refusal fits her determination to control both the journey and her spending.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "independence",
+          "money"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Which interpretation of Declining treats best fits the story?",
+        "options": [
+          "She has already spent all her fare",
+          "She wants to manage the outing independently and protect her money.",
+          "She cannot understand the offer",
+          "She wants to leave the bus"
+        ],
+        "answer": 1,
+        "explanation": "Her refusal fits her determination to control both the journey and her spending.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "independence",
+          "money"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "What does the text communicate through Declining treats?",
+        "options": [
+          "She cannot understand the offer",
+          "She has already spent all her fare",
+          "She wants to manage the outing independently and protect her money.",
+          "She wants to leave the bus"
+        ],
+        "answer": 2,
+        "explanation": "Her refusal fits her determination to control both the journey and her spending.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "independence",
+          "money"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "Which option correctly describes Watching the countryside?",
+        "options": [
+          "she is uninterested in the outside world",
+          "she closes her eyes throughout the ride",
+          "she sees only the inside of a shop",
+          "Valli enjoys looking at the fields, trees and scenery from the moving bus."
+        ],
+        "answer": 3,
+        "explanation": "Her excitement comes partly from seeing new scenery while travelling.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "What broader idea is illustrated by Watching the countryside?",
+        "options": [
+          "The ride gives her a direct experience of places she had only imagined.",
+          "The landscape makes her abandon curiosity",
+          "She has already visited every place",
+          "She wants to return before the bus moves"
+        ],
+        "answer": 0,
+        "explanation": "Her excitement comes partly from seeing new scenery while travelling.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "What is the significance of Watching the countryside in this account?",
+        "options": [
+          "The landscape makes her abandon curiosity",
+          "The ride gives her a direct experience of places she had only imagined.",
+          "She has already visited every place",
+          "She wants to return before the bus moves"
+        ],
+        "answer": 1,
+        "explanation": "Her excitement comes partly from seeing new scenery while travelling.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "setting",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Which detail about The running cow is supported by the chapter?",
+        "options": [
+          "a horse pulls the bus",
+          "a tiger blocks the road",
+          "A young cow runs in front of the bus and becomes a source of amusement for Valli.",
+          "a flock of penguins follows the vehicle"
+        ],
+        "answer": 2,
+        "explanation": "Valli laughs at the cow’s lively movement in front of the bus.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "What does the episode involving The running cow suggest?",
+        "options": [
+          "The incident occurs in a classroom",
+          "The animal immediately makes Valli feel grief",
+          "The cow is described as a driver",
+          "The incident contributes to her carefree enjoyment of the outward journey."
+        ],
+        "answer": 3,
+        "explanation": "Valli laughs at the cow’s lively movement in front of the bus.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "Why is The running cow important in the narrative?",
+        "options": [
+          "The incident contributes to her carefree enjoyment of the outward journey.",
+          "The animal immediately makes Valli feel grief",
+          "The cow is described as a driver",
+          "The incident occurs in a classroom"
+        ],
+        "answer": 0,
+        "explanation": "Valli laughs at the cow’s lively movement in front of the bus.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "When revising The driver’s horn, which statement is accurate?",
+        "options": [
+          "the driver turns off the engine and walks away",
+          "The bus driver sounds the horn as the cow keeps running ahead.",
+          "the conductor rings a school bell",
+          "the passengers stop the bus permanently"
+        ],
+        "answer": 1,
+        "explanation": "The driver’s response is part of the episode with the running cow.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "road safety"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which interpretation of The driver’s horn best fits the story?",
+        "options": [
+          "The event is unrelated to the moving bus",
+          "The horn is used to announce a wedding",
+          "The scene shows the difficulty of moving safely when an animal is on the road.",
+          "The cow is driving the vehicle"
+        ],
+        "answer": 2,
+        "explanation": "The driver’s response is part of the episode with the running cow.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "road safety"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "What does the text communicate through The driver’s horn?",
+        "options": [
+          "The cow is driving the vehicle",
+          "The horn is used to announce a wedding",
+          "The event is unrelated to the moving bus",
+          "The scene shows the difficulty of moving safely when an animal is on the road."
+        ],
+        "answer": 3,
+        "explanation": "The driver’s response is part of the episode with the running cow.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "road safety"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which option correctly describes The outward journey’s mood?",
+        "options": [
+          "Valli is excited and delighted during the outward ride.",
+          "she is bored from the start",
+          "she is angry with every passenger",
+          "she is grieving before the trip begins"
+        ],
+        "answer": 0,
+        "explanation": "The contrast between the two journeys gives the story emotional movement.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "mood",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What broader idea is illustrated by The outward journey’s mood?",
+        "options": [
+          "Her mood never changes throughout the story",
+          "Her feelings change later when she sees the same cow dead.",
+          "The trip has no emotional effect",
+          "She refuses to look out of the window"
+        ],
+        "answer": 1,
+        "explanation": "The contrast between the two journeys gives the story emotional movement.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "mood",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "What is the significance of The outward journey’s mood in this account?",
+        "options": [
+          "The trip has no emotional effect",
+          "Her mood never changes throughout the story",
+          "Her feelings change later when she sees the same cow dead.",
+          "She refuses to look out of the window"
+        ],
+        "answer": 2,
+        "explanation": "The contrast between the two journeys gives the story emotional movement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "mood",
+          "structure"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which detail about Staying on the bus in town is supported by the chapter?",
+        "options": [
+          "she takes another train to a distant city",
+          "she spends the day shopping",
+          "she visits a school friend",
+          "Valli does not get off to explore the town; she stays on the bus for the return trip."
+        ],
+        "answer": 3,
+        "explanation": "Valli keeps the trip within the plan she has made.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "What does the episode involving Staying on the bus in town suggest?",
+        "options": [
+          "Her aim is specifically to experience the bus ride, not to go sightseeing.",
+          "Her main goal is to buy presents",
+          "She plans to live in the town",
+          "She has no intention of returning"
+        ],
+        "answer": 0,
+        "explanation": "Valli keeps the trip within the plan she has made.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Why is Staying on the bus in town important in the narrative?",
+        "options": [
+          "Her main goal is to buy presents",
+          "Her aim is specifically to experience the bus ride, not to go sightseeing.",
+          "She plans to live in the town",
+          "She has no intention of returning"
+        ],
+        "answer": 1,
+        "explanation": "Valli keeps the trip within the plan she has made.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "When revising The conductor’s invitation, which statement is accurate?",
+        "options": [
+          "he asks her to drive the bus",
+          "he orders her never to return",
+          "The conductor jokingly suggests Valli could come again whenever she wants a bus ride.",
+          "he refuses to acknowledge her"
+        ],
+        "answer": 2,
+        "explanation": "The conductor treats the child with humour and courtesy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of The conductor’s invitation best fits the story?",
+        "options": [
+          "He demands an extra fare",
+          "The conductor is always rude",
+          "He tries to make her miss the return bus",
+          "His friendly manner provides a contrast with Valli’s serious determination."
+        ],
+        "answer": 3,
+        "explanation": "The conductor treats the child with humour and courtesy.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "What does the text communicate through The conductor’s invitation?",
+        "options": [
+          "His friendly manner provides a contrast with Valli’s serious determination.",
+          "The conductor is always rude",
+          "He tries to make her miss the return bus",
+          "He demands an extra fare"
+        ],
+        "answer": 0,
+        "explanation": "The conductor treats the child with humour and courtesy.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characters",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Which option correctly describes The return journey?",
+        "options": [
+          "she decides to stay overnight",
+          "The return trip begins with Valli still focused on the ride rather than exploring the town.",
+          "she gets off to shop",
+          "she refuses to travel back"
+        ],
+        "answer": 1,
+        "explanation": "She wants the experience but is careful to complete the return journey.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "planning"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "What broader idea is illustrated by The return journey?",
+        "options": [
+          "She intends to abandon her family",
+          "The outward trip is all she has planned",
+          "Her independent plan includes a return home on schedule.",
+          "She never checks the time"
+        ],
+        "answer": 2,
+        "explanation": "She wants the experience but is careful to complete the return journey.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "planning"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What is the significance of The return journey in this account?",
+        "options": [
+          "She never checks the time",
+          "The outward trip is all she has planned",
+          "She intends to abandon her family",
+          "Her independent plan includes a return home on schedule."
+        ],
+        "answer": 3,
+        "explanation": "She wants the experience but is careful to complete the return journey.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "planning"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which detail about The dead cow is supported by the chapter?",
+        "options": [
+          "On the return journey, Valli sees the cow lying dead by the road.",
+          "the cow is dancing in a field",
+          "the animal is pulling a cart",
+          "the cow boards the bus"
+        ],
+        "answer": 0,
+        "explanation": "The dead cow is a sobering reversal of the earlier amusing encounter.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "plot",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "What does the episode involving The dead cow suggest?",
+        "options": [
+          "It makes her laugh even more",
+          "The sight changes her mood from delight to sadness.",
+          "It has no emotional effect on her",
+          "It makes her want to buy a toy"
+        ],
+        "answer": 1,
+        "explanation": "The dead cow is a sobering reversal of the earlier amusing encounter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is The dead cow important in the narrative?",
+        "options": [
+          "It has no emotional effect on her",
+          "It makes her laugh even more",
+          "The sight changes her mood from delight to sadness.",
+          "It makes her want to buy a toy"
+        ],
+        "answer": 2,
+        "explanation": "The dead cow is a sobering reversal of the earlier amusing encounter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "plot",
+          "mood"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "When revising The cow’s change in meaning, which statement is accurate?",
+        "options": [
+          "it is revealed as a bus passenger",
+          "it becomes the conductor’s pet",
+          "it is the same lively scene again",
+          "The cow that amused Valli earlier is now dead on the roadside."
+        ],
+        "answer": 3,
+        "explanation": "The contrast gives Valli a more serious view of the world.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "Which interpretation of The cow’s change in meaning best fits the story?",
+        "options": [
+          "The change forces Valli to confront how quickly life can change.",
+          "The story suggests nothing can change",
+          "The cow’s death is treated as a joke only",
+          "The event is about the town fare"
+        ],
+        "answer": 0,
+        "explanation": "The contrast gives Valli a more serious view of the world.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "contrast",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "What does the text communicate through The cow’s change in meaning?",
+        "options": [
+          "The story suggests nothing can change",
+          "The change forces Valli to confront how quickly life can change.",
+          "The cow’s death is treated as a joke only",
+          "The event is about the town fare"
+        ],
+        "answer": 1,
+        "explanation": "The contrast gives Valli a more serious view of the world.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which option correctly describes Loss of enthusiasm?",
+        "options": [
+          "she demands a longer trip",
+          "she begins clapping even louder",
+          "After seeing the dead cow, Valli loses the earlier excitement of the journey.",
+          "she starts joking with every passenger"
+        ],
+        "answer": 2,
+        "explanation": "The sight affects her deeply and the return journey feels different.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "What broader idea is illustrated by Loss of enthusiasm?",
+        "options": [
+          "She becomes eager to purchase toys",
+          "The experience makes her completely indifferent",
+          "She forgets the cow instantly",
+          "A painful sight interrupts her carefree mood."
+        ],
+        "answer": 3,
+        "explanation": "The sight affects her deeply and the return journey feels different.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "What is the significance of Loss of enthusiasm in this account?",
+        "options": [
+          "A painful sight interrupts her carefree mood.",
+          "The experience makes her completely indifferent",
+          "She forgets the cow instantly",
+          "She becomes eager to purchase toys"
+        ],
+        "answer": 0,
+        "explanation": "The sight affects her deeply and the return journey feels different.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "emotion",
+          "character"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "Which detail about The story’s title is supported by the chapter?",
+        "options": [
+          "it is about a conductor learning to drive",
+          "The title focuses on Valli’s experience of riding a bus.",
+          "it describes a long sea voyage",
+          "it tells of a school competition"
+        ],
+        "answer": 1,
+        "explanation": "Valli’s bus ride drives the central events and her changing emotions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "What does the episode involving The story’s title suggest?",
+        "options": [
+          "The story’s focus is a shopping trip",
+          "The bus is unimportant to the plot",
+          "The ride is both a literal journey and an experience of growing independence.",
+          "The title refers to an aircraft"
+        ],
+        "answer": 2,
+        "explanation": "Valli’s bus ride drives the central events and her changing emotions.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "title",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Why is The story’s title important in the narrative?",
+        "options": [
+          "The title refers to an aircraft",
+          "The bus is unimportant to the plot",
+          "The story’s focus is a shopping trip",
+          "The ride is both a literal journey and an experience of growing independence."
+        ],
+        "answer": 3,
+        "explanation": "Valli’s bus ride drives the central events and her changing emotions.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "title",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "When revising Valli’s independence, which statement is accurate?",
+        "options": [
+          "Valli plans, saves and completes the journey by herself.",
+          "she depends on a stranger to plan everything",
+          "she does not know the fare",
+          "she is taken to town by her mother"
+        ],
+        "answer": 0,
+        "explanation": "The journey shows a child planning carefully to achieve a personal goal.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "character",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which interpretation of Valli’s independence best fits the story?",
+        "options": [
+          "She avoids all decisions",
+          "Her determination shows initiative and a wish to act independently.",
+          "She does not care about money",
+          "She refuses to attempt anything new"
+        ],
+        "answer": 1,
+        "explanation": "The journey shows a child planning carefully to achieve a personal goal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does the text communicate through Valli’s independence?",
+        "options": [
+          "She does not care about money",
+          "She avoids all decisions",
+          "Her determination shows initiative and a wish to act independently.",
+          "She refuses to attempt anything new"
+        ],
+        "answer": 2,
+        "explanation": "The journey shows a child planning carefully to achieve a personal goal.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "character",
+          "independence"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which option correctly describes The role of observation?",
+        "options": [
+          "she follows a random stranger",
+          "she makes no observations",
+          "she relies on a written letter from the mayor",
+          "Valli gathers information by watching the bus and listening to people who use it."
+        ],
+        "answer": 3,
+        "explanation": "Her plan works because she studies the route and fare before leaving.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "What broader idea is illustrated by The role of observation?",
+        "options": [
+          "Observation turns curiosity into practical preparation.",
+          "She acts without knowing any details",
+          "She cannot learn from other people",
+          "She chooses her time by chance"
+        ],
+        "answer": 0,
+        "explanation": "Her plan works because she studies the route and fare before leaving.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "What is the significance of The role of observation in this account?",
+        "options": [
+          "She acts without knowing any details",
+          "Observation turns curiosity into practical preparation.",
+          "She cannot learn from other people",
+          "She chooses her time by chance"
+        ],
+        "answer": 1,
+        "explanation": "Her plan works because she studies the route and fare before leaving.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "planning",
+          "observation"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about Money and self-control is supported by the chapter?",
+        "options": [
+          "she expects the conductor to pay",
+          "she spends everything on sweets",
+          "Valli saves the fare by resisting small purchases and treats.",
+          "she borrows money after boarding"
+        ],
+        "answer": 2,
+        "explanation": "Valli’s saving shows discipline and careful planning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "money",
+          "self-control"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the episode involving Money and self-control suggest?",
+        "options": [
+          "She spends the return fare before leaving",
+          "The trip requires no money",
+          "She is not interested in saving",
+          "Self-control helps her achieve a goal that matters more to her than immediate treats."
+        ],
+        "answer": 3,
+        "explanation": "Valli’s saving shows discipline and careful planning.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "money",
+          "self-control"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Why is Money and self-control important in the narrative?",
+        "options": [
+          "Self-control helps her achieve a goal that matters more to her than immediate treats.",
+          "The trip requires no money",
+          "She is not interested in saving",
+          "She spends the return fare before leaving"
+        ],
+        "answer": 0,
+        "explanation": "Valli’s saving shows discipline and careful planning.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "money",
+          "self-control"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "When revising A child’s curiosity, which statement is accurate?",
+        "options": [
+          "she has no curiosity about transport",
+          "Valli is fascinated by the bus because she has often watched it from home.",
+          "she has ridden it daily for years",
+          "she is forced onto it by adults"
+        ],
+        "answer": 1,
+        "explanation": "The bus becomes a source of fascination because it connects her village with a wider world.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "motivation",
+          "curiosity"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Which interpretation of A child’s curiosity best fits the story?",
+        "options": [
+          "She dislikes the moving bus",
+          "Her plan is unrelated to what she sees",
+          "Repeated observation creates a strong wish to experience the ride herself.",
+          "She knows the town from living there"
+        ],
+        "answer": 2,
+        "explanation": "The bus becomes a source of fascination because it connects her village with a wider world.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "motivation",
+          "curiosity"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "What does the text communicate through A child’s curiosity?",
+        "options": [
+          "She knows the town from living there",
+          "Her plan is unrelated to what she sees",
+          "She dislikes the moving bus",
+          "Repeated observation creates a strong wish to experience the ride herself."
+        ],
+        "answer": 3,
+        "explanation": "The bus becomes a source of fascination because it connects her village with a wider world.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "motivation",
+          "curiosity"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "Which option correctly describes The conductor’s humour?",
+        "options": [
+          "The conductor uses friendly jokes when addressing Valli as ‘madam’.",
+          "he threatens to punish her",
+          "he orders the passengers to leave",
+          "he ignores her throughout"
+        ],
+        "answer": 0,
+        "explanation": "The light-hearted exchange is one of the story’s comic elements.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characters",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
