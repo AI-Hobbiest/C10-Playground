@@ -38,6 +38,11 @@ hr.soft{border:0;border-top:1px solid var(--c10-line);margin:20px 0}
 #backupFile{display:none}
 @media(max-width:760px){.profile-grid{grid-template-columns:1fr}.summary-grid{gap:7px}.summary-tile{padding:10px}.summary-tile strong{font-size:1.16rem}}
 @media(max-width:430px){.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.history-row{grid-template-columns:minmax(0,1fr) auto}.summary-tile span{font-size:.72rem}}
+
+/* Profile simplification and disabled future features. */
+#studentAccountPanel{display:none!important}
+button:disabled,.btn:disabled{opacity:.46!important;cursor:not-allowed!important;filter:grayscale(.3);transform:none!important;box-shadow:none!important}
+.profile-wrap{max-width:1040px}
 </style>
 </head>
 <body>
