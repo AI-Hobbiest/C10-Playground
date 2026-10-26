@@ -3,5 +3,16 @@
   "kind": "c10-student-accounts",
   "kdf": "PBKDF2-SHA-256",
   "defaultIterations": 600000,
-  "accounts": []
+  "accounts": [
+    {
+      "username": "jp10",
+      "classId": "10",
+      "salt": "U6wkikLZMrQZjaavtqJyeg==",
+      "passwordHash": "CzwCrZFxZO4aQwkah8pR8g5Pqk/otPGUPyA03HLXWGE=",
+      "iterations": 600000,
+      "active": true,
+      "createdAt": "2026-10-26T11:47:23.935Z",
+      "updatedAt": "2026-10-26T11:47:23.935Z"
+    }
+  ]
 }
