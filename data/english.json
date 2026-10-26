@@ -9059,7 +9059,12 @@
         ],
         "answer": 1,
         "explanation": "His fascination with water and play shows an energetic, inquisitive animal.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Mijbil the Otter",
+          "comprehension"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 2,
@@ -9072,7 +9077,12 @@
         ],
         "answer": 1,
         "explanation": "Airline rules and Mijbil’s behaviour make travel complicated.",
-        "difficulty": "Medium"
+        "difficulty": "Medium",
+        "topicTags": [
+          "Mijbil the Otter",
+          "comprehension"
+        ],
+        "sourceType": "original"
       },
       {
         "id": 3,
@@ -9085,7 +9095,1758 @@
         ],
         "answer": 1,
         "explanation": "The narrative shows growing companionship through everyday interactions.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "topicTags": [
+          "Mijbil the Otter",
+          "comprehension"
+        ],
+        "sourceType": "original"
+      },
+      {
+        "question": "Which detail about Maxwell’s choice of pet is supported by the chapter?",
+        "options": [
+          "He decides to keep an otter.",
+          "a fox",
+          "a parrot",
+          "a young eagle"
+        ],
+        "answer": 0,
+        "explanation": "Maxwell thinks the watery surroundings of his home will suit an otter.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "motivation",
+          "pet"
+        ],
+        "sourceType": "original",
+        "id": 4
+      },
+      {
+        "question": "What does the episode involving Maxwell’s choice of pet suggest?",
+        "options": [
+          "He chooses an animal that needs no care",
+          "His choice reflects attention to an animal’s natural needs.",
+          "He chooses a pet only for display",
+          "He chooses an animal that cannot swim"
+        ],
+        "answer": 1,
+        "explanation": "Maxwell thinks the watery surroundings of his home will suit an otter.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "motivation",
+          "pet"
+        ],
+        "sourceType": "original",
+        "id": 5
+      },
+      {
+        "question": "Why is Maxwell’s choice of pet important in the narrative?",
+        "options": [
+          "He chooses a pet only for display",
+          "He chooses an animal that needs no care",
+          "His choice reflects attention to an animal’s natural needs.",
+          "He chooses an animal that cannot swim"
+        ],
+        "answer": 2,
+        "explanation": "Maxwell thinks the watery surroundings of his home will suit an otter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "motivation",
+          "pet"
+        ],
+        "sourceType": "original",
+        "id": 6
+      },
+      {
+        "question": "When revising Mijbil’s origin, which statement should a reader record?",
+        "options": [
+          "London",
+          "Goa",
+          "Coorg",
+          "Maxwell obtains Mijbil in southern Iraq, near Basra."
+        ],
+        "answer": 3,
+        "explanation": "The account begins with Maxwell’s experience in Iraq before travelling to England.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 7
+      },
+      {
+        "question": "Which interpretation of Mijbil’s origin best fits the narrative?",
+        "options": [
+          "The setting establishes the beginning of their relationship.",
+          "The story begins in a London school",
+          "It begins in Assam’s tea gardens",
+          "It begins at a South African inauguration"
+        ],
+        "answer": 0,
+        "explanation": "The account begins with Maxwell’s experience in Iraq before travelling to England.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 8
+      },
+      {
+        "question": "What does the text communicate through Mijbil’s origin?",
+        "options": [
+          "The story begins in a London school",
+          "The setting establishes the beginning of their relationship.",
+          "It begins in Assam’s tea gardens",
+          "It begins at a South African inauguration"
+        ],
+        "answer": 1,
+        "explanation": "The account begins with Maxwell’s experience in Iraq before travelling to England.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "plot"
+        ],
+        "sourceType": "original",
+        "id": 9
+      },
+      {
+        "question": "Which option correctly describes Mijbil’s name?",
+        "options": [
+          "Sanne",
+          "Kitty",
+          "Maxwell names the otter Mijbil and often calls him Mij.",
+          "Rajvir"
+        ],
+        "answer": 2,
+        "explanation": "The name establishes the animal at the centre of Maxwell’s account.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 10
+      },
+      {
+        "question": "What broader idea is illustrated by Mijbil’s name?",
+        "options": [
+          "The name refers to an airport",
+          "The name identifies a teacher",
+          "The name is the title of a poem",
+          "The narrative presents Mijbil as an individual with distinct habits."
+        ],
+        "answer": 3,
+        "explanation": "The name establishes the animal at the centre of Maxwell’s account.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 11
+      },
+      {
+        "question": "What is the significance of Mijbil’s name in this account?",
+        "options": [
+          "The narrative presents Mijbil as an individual with distinct habits.",
+          "The name identifies a teacher",
+          "The name is the title of a poem",
+          "The name refers to an airport"
+        ],
+        "answer": 0,
+        "explanation": "The name establishes the animal at the centre of Maxwell’s account.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "characters",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 12
+      },
+      {
+        "question": "Which detail about Camusfearna’s surroundings is supported by the chapter?",
+        "options": [
+          "a dry desert",
+          "Maxwell notes the plentiful water around his home at Camusfearna.",
+          "a city centre without water",
+          "a snow-covered plain"
+        ],
+        "answer": 1,
+        "explanation": "Maxwell believes an animal that enjoys water would suit the place.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 13
+      },
+      {
+        "question": "What does the episode involving Camusfearna’s surroundings suggest?",
+        "options": [
+          "The surroundings are unrelated to his decision",
+          "The setting makes water unsuitable for an otter",
+          "The environment influences Maxwell’s choice of pet.",
+          "The house is chosen because it is an airport"
+        ],
+        "answer": 2,
+        "explanation": "Maxwell believes an animal that enjoys water would suit the place.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 14
+      },
+      {
+        "question": "Why is Camusfearna’s surroundings important in the narrative?",
+        "options": [
+          "The house is chosen because it is an airport",
+          "The setting makes water unsuitable for an otter",
+          "The surroundings are unrelated to his decision",
+          "The environment influences Maxwell’s choice of pet."
+        ],
+        "answer": 3,
+        "explanation": "Maxwell believes an animal that enjoys water would suit the place.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "setting",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 15
+      },
+      {
+        "question": "When revising Mijbil’s temperament, which statement should a reader record?",
+        "options": [
+          "Mijbil is curious and playful.",
+          "completely inactive",
+          "afraid of all water",
+          "unwilling to explore"
+        ],
+        "answer": 0,
+        "explanation": "His exploration and play make him an engaging companion.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "characterization",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 16
+      },
+      {
+        "question": "Which interpretation of Mijbil’s temperament best fits the narrative?",
+        "options": [
+          "Mijbil never interacts with objects",
+          "Maxwell learns about Mijbil by watching what he does.",
+          "He cannot adapt to new surroundings",
+          "His character is shown only through other people"
+        ],
+        "answer": 1,
+        "explanation": "His exploration and play make him an engaging companion.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 17
+      },
+      {
+        "question": "What does the text communicate through Mijbil’s temperament?",
+        "options": [
+          "He cannot adapt to new surroundings",
+          "Mijbil never interacts with objects",
+          "Maxwell learns about Mijbil by watching what he does.",
+          "His character is shown only through other people"
+        ],
+        "answer": 2,
+        "explanation": "His exploration and play make him an engaging companion.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 18
+      },
+      {
+        "question": "Which option correctly describes Water play?",
+        "options": [
+          "he remains motionless",
+          "he refuses to enter the bathroom",
+          "he hides in the travel box",
+          "Mijbil plunges, rolls and splashes energetically in the bathtub."
+        ],
+        "answer": 3,
+        "explanation": "The bathtub episode highlights a characteristic preference of the otter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "behaviour",
+          "water"
+        ],
+        "sourceType": "original",
+        "id": 19
+      },
+      {
+        "question": "What broader idea is illustrated by Water play?",
+        "options": [
+          "The episode shows his strong enjoyment of water.",
+          "The scene proves he fears water",
+          "The scene shows he cannot move",
+          "The scene is mainly about airline rules"
+        ],
+        "answer": 0,
+        "explanation": "The bathtub episode highlights a characteristic preference of the otter.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "behaviour",
+          "water"
+        ],
+        "sourceType": "original",
+        "id": 20
+      },
+      {
+        "question": "What is the significance of Water play in this account?",
+        "options": [
+          "The scene proves he fears water",
+          "The episode shows his strong enjoyment of water.",
+          "The scene shows he cannot move",
+          "The scene is mainly about airline rules"
+        ],
+        "answer": 1,
+        "explanation": "The bathtub episode highlights a characteristic preference of the otter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "behaviour",
+          "water"
+        ],
+        "sourceType": "original",
+        "id": 21
+      },
+      {
+        "question": "Which detail about The bathroom tap is supported by the chapter?",
+        "options": [
+          "he unlocks it with a key",
+          "he writes his name on it",
+          "Mijbil experiments with the bathroom tap using his paws.",
+          "he starts an aircraft engine"
+        ],
+        "answer": 2,
+        "explanation": "Maxwell sees Mijbil investigating how an object works.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "intelligence",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 22
+      },
+      {
+        "question": "What does the episode involving The bathroom tap suggest?",
+        "options": [
+          "The scene is about a tea harvest",
+          "The incident shows he cannot learn",
+          "He follows written orders",
+          "The incident shows curiosity and learning through exploration."
+        ],
+        "answer": 3,
+        "explanation": "Maxwell sees Mijbil investigating how an object works.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "intelligence",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 23
+      },
+      {
+        "question": "Why is The bathroom tap important in the narrative?",
+        "options": [
+          "The incident shows curiosity and learning through exploration.",
+          "The incident shows he cannot learn",
+          "He follows written orders",
+          "The scene is about a tea harvest"
+        ],
+        "answer": 0,
+        "explanation": "Maxwell sees Mijbil investigating how an object works.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "intelligence",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 24
+      },
+      {
+        "question": "When revising Mijbil’s toys, which statement should a reader record?",
+        "options": [
+          "only books and paper",
+          "Mijbil plays with objects such as ping-pong balls and marbles.",
+          "only aircraft tools",
+          "only cooking pots"
+        ],
+        "answer": 1,
+        "explanation": "He finds amusement by interacting creatively with everyday objects.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 25
+      },
+      {
+        "question": "Which interpretation of Mijbil’s toys best fits the narrative?",
+        "options": [
+          "He can play only with formal instructions",
+          "He refuses to explore his surroundings",
+          "His playfulness makes ordinary objects part of his own games.",
+          "The objects train him to fly"
+        ],
+        "answer": 2,
+        "explanation": "He finds amusement by interacting creatively with everyday objects.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 26
+      },
+      {
+        "question": "What does the text communicate through Mijbil’s toys?",
+        "options": [
+          "The objects train him to fly",
+          "He refuses to explore his surroundings",
+          "He can play only with formal instructions",
+          "His playfulness makes ordinary objects part of his own games."
+        ],
+        "answer": 3,
+        "explanation": "He finds amusement by interacting creatively with everyday objects.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "London",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 27
+      },
+      {
+        "question": "Which option correctly describes Airline restriction?",
+        "options": [
+          "The British airline Maxwell first approaches will not carry animals.",
+          "it accepts every animal without conditions",
+          "it refuses all passengers",
+          "it has no aircraft"
+        ],
+        "answer": 0,
+        "explanation": "The rule forces Maxwell to make alternative travel arrangements.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "travel",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 28
+      },
+      {
+        "question": "What broader idea is illustrated by Airline restriction?",
+        "options": [
+          "The problem is caused by Mijbil refusing all travel",
+          "Caring for a pet makes Maxwell’s travel plans more complicated.",
+          "The issue is a school timetable",
+          "The airline restriction makes England disappear"
+        ],
+        "answer": 1,
+        "explanation": "The rule forces Maxwell to make alternative travel arrangements.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 29
+      },
+      {
+        "question": "What is the significance of Airline restriction in this account?",
+        "options": [
+          "The issue is a school timetable",
+          "The problem is caused by Mijbil refusing all travel",
+          "Caring for a pet makes Maxwell’s travel plans more complicated.",
+          "The airline restriction makes England disappear"
+        ],
+        "answer": 2,
+        "explanation": "The rule forces Maxwell to make alternative travel arrangements.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 30
+      },
+      {
+        "question": "Which detail about Route to England is supported by the chapter?",
+        "options": [
+          "he travels by road through Coorg",
+          "he travels by train through Goa",
+          "he sails to Assam and then takes a bus",
+          "Maxwell arranges to fly to Paris and then continue to London."
+        ],
+        "answer": 3,
+        "explanation": "The journey requires an alternative route because of the animal-transport issue.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "sequence"
+        ],
+        "sourceType": "original",
+        "id": 31
+      },
+      {
+        "question": "What does the episode involving Route to England suggest?",
+        "options": [
+          "The itinerary shows Maxwell adapting his plans so Mijbil can travel with him.",
+          "He abandons Mijbil in Iraq",
+          "He sends Mijbil alone on a ship",
+          "He takes Mijbil to a school instead"
+        ],
+        "answer": 0,
+        "explanation": "The journey requires an alternative route because of the animal-transport issue.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "sequence"
+        ],
+        "sourceType": "original",
+        "id": 32
+      },
+      {
+        "question": "Why is Route to England important in the narrative?",
+        "options": [
+          "He abandons Mijbil in Iraq",
+          "The itinerary shows Maxwell adapting his plans so Mijbil can travel with him.",
+          "He sends Mijbil alone on a ship",
+          "He takes Mijbil to a school instead"
+        ],
+        "answer": 1,
+        "explanation": "The journey requires an alternative route because of the animal-transport issue.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "sequence"
+        ],
+        "sourceType": "original",
+        "id": 33
+      },
+      {
+        "question": "When revising Travel container, which statement should a reader record?",
+        "options": [
+          "a glass room",
+          "a large open pool",
+          "The airline requires Mijbil to travel in a small box of specified dimensions.",
+          "a passenger seat without any container"
+        ],
+        "answer": 2,
+        "explanation": "The small container becomes difficult because Mijbil struggles inside it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 34
+      },
+      {
+        "question": "Which interpretation of Travel container best fits the narrative?",
+        "options": [
+          "It is described as his favourite toy",
+          "The box allows unlimited movement",
+          "It is used to teach him to swim",
+          "The container requirement creates a conflict between travel rules and Mijbil’s comfort."
+        ],
+        "answer": 3,
+        "explanation": "The small container becomes difficult because Mijbil struggles inside it.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "travel",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 35
+      },
+      {
+        "question": "What does the text communicate through Travel container?",
+        "options": [
+          "The container requirement creates a conflict between travel rules and Mijbil’s comfort.",
+          "The box allows unlimited movement",
+          "It is used to teach him to swim",
+          "It is described as his favourite toy"
+        ],
+        "answer": 0,
+        "explanation": "The small container becomes difficult because Mijbil struggles inside it.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 36
+      },
+      {
+        "question": "Which option correctly describes Mijbil’s struggle?",
+        "options": [
+          "he sleeps peacefully throughout",
+          "Mijbil struggles inside the travel box and damages its lining.",
+          "he flies out of the aircraft",
+          "he refuses to move for several days"
+        ],
+        "answer": 1,
+        "explanation": "His attempt to escape shows distress in confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 37
+      },
+      {
+        "question": "What broader idea is illustrated by Mijbil’s struggle?",
+        "options": [
+          "The struggle is caused by a school punishment",
+          "He enjoys being confined",
+          "The episode emphasises the importance of considering animal welfare.",
+          "Maxwell ignores every sign of distress"
+        ],
+        "answer": 2,
+        "explanation": "His attempt to escape shows distress in confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 38
+      },
+      {
+        "question": "What is the significance of Mijbil’s struggle in this account?",
+        "options": [
+          "Maxwell ignores every sign of distress",
+          "He enjoys being confined",
+          "The struggle is caused by a school punishment",
+          "The episode emphasises the importance of considering animal welfare."
+        ],
+        "answer": 3,
+        "explanation": "His attempt to escape shows distress in confinement.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "conflict"
+        ],
+        "sourceType": "original",
+        "id": 39
+      },
+      {
+        "question": "Which detail about Maxwell’s reaction is supported by the chapter?",
+        "options": [
+          "Maxwell is alarmed when he sees blood around the box’s air holes.",
+          "he ignores it",
+          "he laughs and leaves Mijbil there",
+          "he asks the airline to keep the otter"
+        ],
+        "answer": 0,
+        "explanation": "He opens the box to check on the injured otter.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "relationship",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 40
+      },
+      {
+        "question": "What does the episode involving Maxwell’s reaction suggest?",
+        "options": [
+          "The injury is unimportant to him",
+          "His response shows that he feels responsible for Mijbil’s safety.",
+          "He is pleased the box is damaged",
+          "He decides never to care for an animal"
+        ],
+        "answer": 1,
+        "explanation": "He opens the box to check on the injured otter.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "relationship",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 41
+      },
+      {
+        "question": "Why is Maxwell’s reaction important in the narrative?",
+        "options": [
+          "He is pleased the box is damaged",
+          "The injury is unimportant to him",
+          "His response shows that he feels responsible for Mijbil’s safety.",
+          "He decides never to care for an animal"
+        ],
+        "answer": 2,
+        "explanation": "He opens the box to check on the injured otter.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "relationship",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 42
+      },
+      {
+        "question": "When revising Mijbil’s street routines, which statement should a reader record?",
+        "options": [
+          "he takes trains alone",
+          "he refuses all walks",
+          "he enters every shop",
+          "Mijbil develops repeated routines around paving stones and railings during London walks."
+        ],
+        "answer": 3,
+        "explanation": "The London street episodes show Mijbil forming preferences and repeated patterns.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 43
+      },
+      {
+        "question": "Which interpretation of Mijbil’s street routines best fits the narrative?",
+        "options": [
+          "The habits show him adapting to an unfamiliar urban setting.",
+          "The routines prove he cannot adapt",
+          "They are all airline rules",
+          "They have no connection with observation"
+        ],
+        "answer": 0,
+        "explanation": "The London street episodes show Mijbil forming preferences and repeated patterns.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 44
+      },
+      {
+        "question": "What does the text communicate through Mijbil’s street routines?",
+        "options": [
+          "The routines prove he cannot adapt",
+          "The habits show him adapting to an unfamiliar urban setting.",
+          "They are all airline rules",
+          "They have no connection with observation"
+        ],
+        "answer": 1,
+        "explanation": "The London street episodes show Mijbil forming preferences and repeated patterns.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 45
+      },
+      {
+        "question": "Which option correctly describes The low wall?",
+        "options": [
+          "he remains at the gate all day",
+          "he teaches the pupils",
+          "Mijbil jumps onto a low wall near a primary school and gallops along it.",
+          "he gives a classroom lesson"
+        ],
+        "answer": 2,
+        "explanation": "His antics distract pupils and staff and amuse the narrator.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 46
+      },
+      {
+        "question": "What broader idea is illustrated by The low wall?",
+        "options": [
+          "It describes tea production",
+          "It shows he works as a teacher",
+          "It shows he is unable to move",
+          "The episode brings humour through Mijbil’s unusual public behaviour."
+        ],
+        "answer": 3,
+        "explanation": "His antics distract pupils and staff and amuse the narrator.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 47
+      },
+      {
+        "question": "What is the significance of The low wall in this account?",
+        "options": [
+          "The episode brings humour through Mijbil’s unusual public behaviour.",
+          "It shows he works as a teacher",
+          "It shows he is unable to move",
+          "It describes tea production"
+        ],
+        "answer": 0,
+        "explanation": "His antics distract pupils and staff and amuse the narrator.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 48
+      },
+      {
+        "question": "Which detail about Londoners’ reactions is supported by the chapter?",
+        "options": [
+          "everyone recognises him immediately as a dog",
+          "Some Londoners are puzzled about what kind of animal Mijbil is.",
+          "they all know him personally",
+          "they identify him as a horse"
+        ],
+        "answer": 1,
+        "explanation": "An otter is an unfamiliar sight to many people in the city.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 49
+      },
+      {
+        "question": "What does the episode involving Londoners’ reactions suggest?",
+        "options": [
+          "The reactions prove Mijbil is invisible",
+          "Every Londoner keeps an otter",
+          "The reactions show how unfamiliarity can lead to misidentification.",
+          "The reactions are caused by a storm"
+        ],
+        "answer": 2,
+        "explanation": "An otter is an unfamiliar sight to many people in the city.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "London",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 50
+      },
+      {
+        "question": "Why is Londoners’ reactions important in the narrative?",
+        "options": [
+          "The reactions are caused by a storm",
+          "Every Londoner keeps an otter",
+          "The reactions prove Mijbil is invisible",
+          "The reactions show how unfamiliarity can lead to misidentification."
+        ],
+        "answer": 3,
+        "explanation": "An otter is an unfamiliar sight to many people in the city.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "London",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 51
+      },
+      {
+        "question": "When revising A passenger’s alarm, which statement should a reader record?",
+        "options": [
+          "During the flight, a passenger mistakes Mijbil for a rat.",
+          "a seagull",
+          "a postman",
+          "a schoolteacher"
+        ],
+        "answer": 0,
+        "explanation": "The mistaken identification creates a comic moment during the journey.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "travel",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 52
+      },
+      {
+        "question": "Which interpretation of A passenger’s alarm best fits the narrative?",
+        "options": [
+          "The passenger is familiar with otters",
+          "Humour arises from the gap between the passenger’s assumption and the narrator’s knowledge.",
+          "The incident concerns tea production",
+          "The passenger identifies Mijbil correctly"
+        ],
+        "answer": 1,
+        "explanation": "The mistaken identification creates a comic moment during the journey.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 53
+      },
+      {
+        "question": "What does the text communicate through A passenger’s alarm?",
+        "options": [
+          "The incident concerns tea production",
+          "The passenger is familiar with otters",
+          "Humour arises from the gap between the passenger’s assumption and the narrator’s knowledge.",
+          "The passenger identifies Mijbil correctly"
+        ],
+        "answer": 2,
+        "explanation": "The mistaken identification creates a comic moment during the journey.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "humour"
+        ],
+        "sourceType": "original",
+        "id": 54
+      },
+      {
+        "question": "Which option correctly describes Mijbil’s affection?",
+        "options": [
+          "he attacks Maxwell whenever he approaches",
+          "he refuses all contact",
+          "he hides permanently in the box",
+          "Mijbil nuzzles Maxwell’s face and neck."
+        ],
+        "answer": 3,
+        "explanation": "The affectionate behaviour indicates attachment to Maxwell.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "relationship",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 55
+      },
+      {
+        "question": "What broader idea is illustrated by Mijbil’s affection?",
+        "options": [
+          "The relationship is conveyed through everyday actions.",
+          "Mijbil does not recognise Maxwell",
+          "He wants to fly away",
+          "The action is an airline instruction"
+        ],
+        "answer": 0,
+        "explanation": "The affectionate behaviour indicates attachment to Maxwell.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "relationship",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 56
+      },
+      {
+        "question": "What is the significance of Mijbil’s affection in this account?",
+        "options": [
+          "Mijbil does not recognise Maxwell",
+          "The relationship is conveyed through everyday actions.",
+          "He wants to fly away",
+          "The action is an airline instruction"
+        ],
+        "answer": 1,
+        "explanation": "The affectionate behaviour indicates attachment to Maxwell.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "relationship",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 57
+      },
+      {
+        "question": "Which detail about Narrative style is supported by the chapter?",
+        "options": [
+          "the chapter is a list of equations",
+          "the tone is entirely legalistic",
+          "Maxwell recounts personal observations and often uses humour.",
+          "the narrator avoids describing events"
+        ],
+        "answer": 2,
+        "explanation": "The personal style makes Mijbil’s habits and their relationship vivid.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narration",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 58
+      },
+      {
+        "question": "What does the episode involving Narrative style suggest?",
+        "options": [
+          "The narrator never expresses amusement",
+          "The style hides every detail of Mijbil’s behaviour",
+          "The text is an official airline form",
+          "Personal observation and humour are central to the account."
+        ],
+        "answer": 3,
+        "explanation": "The personal style makes Mijbil’s habits and their relationship vivid.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narration",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 59
+      },
+      {
+        "question": "Why is Narrative style important in the narrative?",
+        "options": [
+          "Personal observation and humour are central to the account.",
+          "The style hides every detail of Mijbil’s behaviour",
+          "The text is an official airline form",
+          "The narrator never expresses amusement"
+        ],
+        "answer": 0,
+        "explanation": "The personal style makes Mijbil’s habits and their relationship vivid.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "narration",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 60
+      },
+      {
+        "question": "When revising Pet-owner responsibility, which statement should a reader record?",
+        "options": [
+          "he ignores injuries",
+          "Maxwell takes Mijbil’s welfare seriously when difficulties arise.",
+          "he treats the animal as disposable",
+          "he never learns what the otter needs"
+        ],
+        "answer": 1,
+        "explanation": "The travel episode shows the need to protect an animal’s safety and comfort.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "responsibility",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 61
+      },
+      {
+        "question": "Which interpretation of Pet-owner responsibility best fits the narrative?",
+        "options": [
+          "Animals need no care",
+          "The story suggests owners should ignore distress",
+          "Pet ownership involves obligations as well as enjoyment.",
+          "The only responsibility is choosing a name"
+        ],
+        "answer": 2,
+        "explanation": "The travel episode shows the need to protect an animal’s safety and comfort.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "responsibility",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 62
+      },
+      {
+        "question": "What does the text communicate through Pet-owner responsibility?",
+        "options": [
+          "The only responsibility is choosing a name",
+          "The story suggests owners should ignore distress",
+          "Animals need no care",
+          "Pet ownership involves obligations as well as enjoyment."
+        ],
+        "answer": 3,
+        "explanation": "The travel episode shows the need to protect an animal’s safety and comfort.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "responsibility",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 63
+      },
+      {
+        "question": "Which option correctly describes Otter adaptation?",
+        "options": [
+          "Mijbil develops games and routines while living in London.",
+          "he cannot adapt outside the wild",
+          "he loses all curiosity in the city",
+          "he behaves exactly like every other pet"
+        ],
+        "answer": 0,
+        "explanation": "He finds ways to explore and enjoy an unfamiliar environment.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "adaptation",
+          "London"
+        ],
+        "sourceType": "original",
+        "id": 64
+      },
+      {
+        "question": "What broader idea is illustrated by Otter adaptation?",
+        "options": [
+          "All animals react identically",
+          "A new environment can become familiar through repeated experience.",
+          "Mijbil’s habits stop completely in London",
+          "The story says urban life cannot be explored"
+        ],
+        "answer": 1,
+        "explanation": "He finds ways to explore and enjoy an unfamiliar environment.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "adaptation",
+          "London"
+        ],
+        "sourceType": "original",
+        "id": 65
+      },
+      {
+        "question": "What is the significance of Otter adaptation in this account?",
+        "options": [
+          "Mijbil’s habits stop completely in London",
+          "All animals react identically",
+          "A new environment can become familiar through repeated experience.",
+          "The story says urban life cannot be explored"
+        ],
+        "answer": 2,
+        "explanation": "He finds ways to explore and enjoy an unfamiliar environment.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "adaptation",
+          "London"
+        ],
+        "sourceType": "original",
+        "id": 66
+      },
+      {
+        "question": "Which detail about Natural history is supported by the chapter?",
+        "options": [
+          "no otter has ever been observed",
+          "the animal is a bird",
+          "the species was invented in a laboratory",
+          "The narrator notes that Mijbil’s particular kind of otter was not well known to scientists at first."
+        ],
+        "answer": 3,
+        "explanation": "The narrator’s curiosity includes interest in what kind of otter Mijbil is.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "natural history",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 67
+      },
+      {
+        "question": "What does the episode involving Natural history suggest?",
+        "options": [
+          "The account includes natural-history observation alongside personal experience.",
+          "The story is only an aircraft report",
+          "Mijbil is identified as a human",
+          "The scientific detail concerns tea"
+        ],
+        "answer": 0,
+        "explanation": "The narrator’s curiosity includes interest in what kind of otter Mijbil is.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "natural history",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 68
+      },
+      {
+        "question": "Why is Natural history important in the narrative?",
+        "options": [
+          "The story is only an aircraft report",
+          "The account includes natural-history observation alongside personal experience.",
+          "Mijbil is identified as a human",
+          "The scientific detail concerns tea"
+        ],
+        "answer": 1,
+        "explanation": "The narrator’s curiosity includes interest in what kind of otter Mijbil is.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "natural history",
+          "text detail"
+        ],
+        "sourceType": "original",
+        "id": 69
+      },
+      {
+        "question": "When revising Water and comfort, which statement should a reader record?",
+        "options": [
+          "he responds identically to both",
+          "he enjoys the box and fears the bath",
+          "Mijbil plays joyfully in the bathtub but struggles in the confined box.",
+          "he refuses to move in either place"
+        ],
+        "answer": 2,
+        "explanation": "The paired scenes make the importance of environment and comfort clear.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 70
+      },
+      {
+        "question": "Which interpretation of Water and comfort best fits the narrative?",
+        "options": [
+          "The contrast is about two animals",
+          "The box is his favourite place",
+          "Water is irrelevant to his behaviour",
+          "An animal can respond differently to an environment that suits it and one that causes distress."
+        ],
+        "answer": 3,
+        "explanation": "The paired scenes make the importance of environment and comfort clear.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "contrast",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 71
+      },
+      {
+        "question": "What does the text communicate through Water and comfort?",
+        "options": [
+          "An animal can respond differently to an environment that suits it and one that causes distress.",
+          "The box is his favourite place",
+          "Water is irrelevant to his behaviour",
+          "The contrast is about two animals"
+        ],
+        "answer": 0,
+        "explanation": "The paired scenes make the importance of environment and comfort clear.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "contrast",
+          "behaviour"
+        ],
+        "sourceType": "original",
+        "id": 72
+      },
+      {
+        "question": "Which option correctly describes Inventive play?",
+        "options": [
+          "he never explores objects",
+          "Mijbil turns ordinary objects into games.",
+          "he waits for every action to be directed",
+          "he cannot learn through play"
+        ],
+        "answer": 1,
+        "explanation": "His games show curiosity and inventiveness.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "intelligence",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 73
+      },
+      {
+        "question": "What broader idea is illustrated by Inventive play?",
+        "options": [
+          "The games are assigned by a teacher",
+          "All otter games are impossible",
+          "Play helps the reader see Mijbil’s intelligence.",
+          "The games show no engagement with the environment"
+        ],
+        "answer": 2,
+        "explanation": "His games show curiosity and inventiveness.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "intelligence",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 74
+      },
+      {
+        "question": "What is the significance of Inventive play in this account?",
+        "options": [
+          "The games show no engagement with the environment",
+          "All otter games are impossible",
+          "The games are assigned by a teacher",
+          "Play helps the reader see Mijbil’s intelligence."
+        ],
+        "answer": 3,
+        "explanation": "His games show curiosity and inventiveness.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "intelligence",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 75
+      },
+      {
+        "question": "Which detail about Daily observation is supported by the chapter?",
+        "options": [
+          "Maxwell describes small details of Mijbil’s daily behaviour.",
+          "he avoids mentioning the otter’s habits",
+          "he gives only airline rules",
+          "he reports facts about another animal"
+        ],
+        "answer": 0,
+        "explanation": "These observations help readers understand Mijbil as a distinct individual.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "style",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 76
+      },
+      {
+        "question": "What does the episode involving Daily observation suggest?",
+        "options": [
+          "All otters are identical",
+          "Close attention helps the narrator convey affection and knowledge.",
+          "The details have no relation to character",
+          "The details focus on political history"
+        ],
+        "answer": 1,
+        "explanation": "These observations help readers understand Mijbil as a distinct individual.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 77
+      },
+      {
+        "question": "Why is Daily observation important in the narrative?",
+        "options": [
+          "The details have no relation to character",
+          "All otters are identical",
+          "Close attention helps the narrator convey affection and knowledge.",
+          "The details focus on political history"
+        ],
+        "answer": 2,
+        "explanation": "These observations help readers understand Mijbil as a distinct individual.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "style",
+          "characterization"
+        ],
+        "sourceType": "original",
+        "id": 78
+      },
+      {
+        "question": "When revising Travel planning, which statement should a reader record?",
+        "options": [
+          "he changes the destination to Coorg",
+          "he leaves Mijbil behind permanently",
+          "he sends the animal alone without a plan",
+          "Maxwell changes the travel arrangement rather than abandoning the trip with Mijbil."
+        ],
+        "answer": 3,
+        "explanation": "He tries to find a workable route while bringing Mijbil with him.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "problem solving"
+        ],
+        "sourceType": "original",
+        "id": 79
+      },
+      {
+        "question": "Which interpretation of Travel planning best fits the narrative?",
+        "options": [
+          "The episode shows perseverance in solving a practical problem.",
+          "He immediately gives up on caring for Mijbil",
+          "He no longer wishes to travel",
+          "The travel problem is solved by a school essay"
+        ],
+        "answer": 0,
+        "explanation": "He tries to find a workable route while bringing Mijbil with him.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "travel",
+          "problem solving"
+        ],
+        "sourceType": "original",
+        "id": 80
+      },
+      {
+        "question": "What does the text communicate through Travel planning?",
+        "options": [
+          "He immediately gives up on caring for Mijbil",
+          "The episode shows perseverance in solving a practical problem.",
+          "He no longer wishes to travel",
+          "The travel problem is solved by a school essay"
+        ],
+        "answer": 1,
+        "explanation": "He tries to find a workable route while bringing Mijbil with him.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "problem solving"
+        ],
+        "sourceType": "original",
+        "id": 81
+      },
+      {
+        "question": "Which option correctly describes A pet as an individual?",
+        "options": [
+          "he shows no unique behaviour",
+          "the chapter treats him as interchangeable",
+          "Mijbil has distinctive games, routines and preferences.",
+          "the narrator refuses to observe him"
+        ],
+        "answer": 2,
+        "explanation": "The details give Mijbil an individual personality in the narrative.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 82
+      },
+      {
+        "question": "What broader idea is illustrated by A pet as an individual?",
+        "options": [
+          "Only his appearance matters",
+          "All pets behave exactly alike",
+          "The otter never makes choices",
+          "Personal observation helps readers understand an animal’s particular needs and habits."
+        ],
+        "answer": 3,
+        "explanation": "The details give Mijbil an individual personality in the narrative.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 83
+      },
+      {
+        "question": "What is the significance of A pet as an individual in this account?",
+        "options": [
+          "Personal observation helps readers understand an animal’s particular needs and habits.",
+          "All pets behave exactly alike",
+          "The otter never makes choices",
+          "Only his appearance matters"
+        ],
+        "answer": 0,
+        "explanation": "The details give Mijbil an individual personality in the narrative.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "characterization",
+          "theme"
+        ],
+        "sourceType": "original",
+        "id": 84
+      },
+      {
+        "question": "Which detail about Journey’s purpose is supported by the chapter?",
+        "options": [
+          "he plans to leave Mijbil in Iraq",
+          "Maxwell wants to take Mijbil with him to England.",
+          "he intends to transport a tea crop",
+          "he wants to move to South Africa"
+        ],
+        "answer": 1,
+        "explanation": "The decision to include Mijbil shapes the travel episode.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 85
+      },
+      {
+        "question": "What does the episode involving Journey’s purpose suggest?",
+        "options": [
+          "The trip is a school excursion",
+          "The journey is unrelated to Mijbil",
+          "His care for the otter affects his travel plans.",
+          "Maxwell is travelling to meet a baker"
+        ],
+        "answer": 2,
+        "explanation": "The decision to include Mijbil shapes the travel episode.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "travel",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 86
+      },
+      {
+        "question": "Why is Journey’s purpose important in the narrative?",
+        "options": [
+          "Maxwell is travelling to meet a baker",
+          "The journey is unrelated to Mijbil",
+          "The trip is a school excursion",
+          "His care for the otter affects his travel plans."
+        ],
+        "answer": 3,
+        "explanation": "The decision to include Mijbil shapes the travel episode.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "travel",
+          "motivation"
+        ],
+        "sourceType": "original",
+        "id": 87
+      },
+      {
+        "question": "When revising Learning by trial, which statement should a reader record?",
+        "options": [
+          "Mijbil learns to manipulate the tap through his own efforts.",
+          "he receives written instructions",
+          "Maxwell operates it for him every time",
+          "the tap operates without contact"
+        ],
+        "answer": 0,
+        "explanation": "The incident illustrates learning through experimentation.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "intelligence",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 88
+      },
+      {
+        "question": "Which interpretation of Learning by trial best fits the narrative?",
+        "options": [
+          "Mijbil shows no interest in objects",
+          "The narrator recognises intelligence by watching the animal attempt a task.",
+          "The lesson is about memorising a rule",
+          "The tap is an aircraft instrument"
+        ],
+        "answer": 1,
+        "explanation": "The incident illustrates learning through experimentation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "intelligence",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 89
+      },
+      {
+        "question": "What does the text communicate through Learning by trial?",
+        "options": [
+          "The lesson is about memorising a rule",
+          "Mijbil shows no interest in objects",
+          "The narrator recognises intelligence by watching the animal attempt a task.",
+          "The tap is an aircraft instrument"
+        ],
+        "answer": 2,
+        "explanation": "The incident illustrates learning through experimentation.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "intelligence",
+          "inference"
+        ],
+        "sourceType": "original",
+        "id": 90
+      },
+      {
+        "question": "Which option correctly describes Playful temperament?",
+        "options": [
+          "he never interacts with his surroundings",
+          "he is motionless and disengaged",
+          "he dislikes all toys",
+          "Mijbil spends time exploring and playing with objects."
+        ],
+        "answer": 3,
+        "explanation": "His repeated games show an energetic and playful temperament.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "behaviour",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 91
+      },
+      {
+        "question": "What broader idea is illustrated by Playful temperament?",
+        "options": [
+          "His activity gives the narrative a lively and humorous quality.",
+          "Play is unrelated to Mijbil’s personality",
+          "The story depicts only aggression",
+          "The narrator bans games"
+        ],
+        "answer": 0,
+        "explanation": "His repeated games show an energetic and playful temperament.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "behaviour",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 92
+      },
+      {
+        "question": "What is the significance of Playful temperament in this account?",
+        "options": [
+          "Play is unrelated to Mijbil’s personality",
+          "His activity gives the narrative a lively and humorous quality.",
+          "The story depicts only aggression",
+          "The narrator bans games"
+        ],
+        "answer": 1,
+        "explanation": "His repeated games show an energetic and playful temperament.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "behaviour",
+          "play"
+        ],
+        "sourceType": "original",
+        "id": 93
+      },
+      {
+        "question": "Which detail about The owner’s concern is supported by the chapter?",
+        "options": [
+          "he celebrates the injury",
+          "he ignores the animal’s condition",
+          "Maxwell reacts to Mijbil’s distress during transport.",
+          "he refuses to open the box"
+        ],
+        "answer": 2,
+        "explanation": "His response demonstrates concern for Mijbil’s welfare.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "responsibility",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 94
+      },
+      {
+        "question": "What does the episode involving The owner’s concern suggest?",
+        "options": [
+          "The episode describes a teacher’s punishment",
+          "Distress is unimportant",
+          "The owner’s role is only to name the pet",
+          "Care means acting when the animal is at risk."
+        ],
+        "answer": 3,
+        "explanation": "His response demonstrates concern for Mijbil’s welfare.",
+        "difficulty": "Hard",
+        "topicTags": [
+          "responsibility",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 95
+      },
+      {
+        "question": "Why is The owner’s concern important in the narrative?",
+        "options": [
+          "Care means acting when the animal is at risk.",
+          "Distress is unimportant",
+          "The owner’s role is only to name the pet",
+          "The episode describes a teacher’s punishment"
+        ],
+        "answer": 0,
+        "explanation": "His response demonstrates concern for Mijbil’s welfare.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "responsibility",
+          "emotion"
+        ],
+        "sourceType": "original",
+        "id": 96
+      },
+      {
+        "question": "When revising Animal and city, which statement should a reader record?",
+        "options": [
+          "he refuses every walk",
+          "Mijbil establishes repeated habits during walks in London.",
+          "he is shown only in the wild",
+          "he never interacts with objects"
+        ],
+        "answer": 1,
+        "explanation": "His urban routines show adaptation through experience.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "adaptation",
+          "London"
+        ],
+        "sourceType": "original",
+        "id": 97
+      },
+      {
+        "question": "Which interpretation of Animal and city best fits the narrative?",
+        "options": [
+          "Mijbil is never taken outside",
+          "Animals cannot form routines in cities",
+          "Repeated experience can help an animal develop routines in a new setting.",
+          "His habits are all dictated by the airline"
+        ],
+        "answer": 2,
+        "explanation": "His urban routines show adaptation through experience.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "adaptation",
+          "London"
+        ],
+        "sourceType": "original",
+        "id": 98
+      },
+      {
+        "question": "What does the text communicate through Animal and city?",
+        "options": [
+          "His habits are all dictated by the airline",
+          "Animals cannot form routines in cities",
+          "Mijbil is never taken outside",
+          "Repeated experience can help an animal develop routines in a new setting."
+        ],
+        "answer": 3,
+        "explanation": "His urban routines show adaptation through experience.",
+        "difficulty": "Medium",
+        "topicTags": [
+          "adaptation",
+          "London"
+        ],
+        "sourceType": "original",
+        "id": 99
+      },
+      {
+        "question": "Which option correctly describes Humour and surprise?",
+        "options": [
+          "Mijbil’s unfamiliar actions often surprise people around him.",
+          "everyone knows exactly what he will do",
+          "he avoids all public attention",
+          "he never behaves unexpectedly"
+        ],
+        "answer": 0,
+        "explanation": "The London episodes use surprise to make Mijbil’s behaviour memorable.",
+        "difficulty": "Easy",
+        "topicTags": [
+          "humour",
+          "tone"
+        ],
+        "sourceType": "original",
+        "id": 100
       }
     ]
   },
