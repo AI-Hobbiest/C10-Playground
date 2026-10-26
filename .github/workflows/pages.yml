@@ -236,8 +236,8 @@ jobs:
         run: node tests/foundation.test.js
       - name: Test session timing and result model
         run: node tests/session-model.test.js
-      - name: Test quiz engine autosave and recovery
-        run: node tests/quiz-engine.test.js
+      - name: Test complete student journey
+        run: node tests/student-journey.test.js && node tests/quiz-engine.test.js
       - name: Test Science shared-engine migration
         run: node tests/science-integration.test.js
       - name: Test profile model and privacy fields
