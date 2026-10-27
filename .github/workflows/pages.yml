@@ -232,7 +232,7 @@ jobs:
             mathematics: { chapters: 14, questions: 1400 },
             english: { chapters: 37, questions: 3700 },
             'social-science': { chapters: 22, questions: 2200 },
-            hindi: { chapters: 27, questions: 92 }
+            hindi: { chapters: 27, questions: 254 }
           };
           for (const [name, totals] of Object.entries(expected)) {
             const data = JSON.parse(fs.readFileSync('_site/data/'+name+'.json','utf8'));
