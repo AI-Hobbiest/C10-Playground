@@ -1,0 +1,3923 @@
+[
+  {
+    "chapter_no": 19,
+    "title": "For Anne Gregory",
+    "key": "for_anne_gregory",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Who wrote “For Anne Gregory”?",
+        "options": [
+          "W. B. Yeats",
+          "Robert Frost",
+          "Ogden Nash",
+          "John Berryman"
+        ],
+        "answer": 0,
+        "explanation": "The poem was written by W. B. Yeats.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 2,
+        "question": "What can be inferred from the episode about the poet?",
+        "options": [
+          "Anne’s suggestion makes the speaker’s claim open to examination.",
+          "The dialogue distinguishes admiration from deeper affection.",
+          "The poem proves all young men dishonest.",
+          "The poem questions whether attraction is free from appearance."
+        ],
+        "answer": 3,
+        "explanation": "The detail about the poet supports this inference: The poem questions whether attraction is free from appearance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 3,
+        "question": "Why is the poet important to the text?",
+        "options": [
+          "It shows how a feature can shape reactions.",
+          "It gives Yeats’s biography.",
+          "Anne’s response turns the speaker’s claim into a question to examine.",
+          "The episode introduces uncertainty about attraction."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because anne’s response turns the speaker’s claim into a question to examine.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 4,
+        "question": "Which theme is most directly reinforced by the poet?",
+        "options": [
+          "Hair colour determines moral character.",
+          "People should be valued for more than physical appearance.",
+          "Claims of unconditional love deserve examination.",
+          "Outward beauty can influence attraction."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that people should be valued for more than physical appearance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 5,
+        "question": "Which detail is most directly associated with the poet?",
+        "options": [
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "It is influenced by appearance"
+        ],
+        "answer": 0,
+        "explanation": "The text connects the poet with this detail: The poem was written by W. B. Yeats.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 6,
+        "question": "What physical feature is central to the poem?",
+        "options": [
+          "Her height",
+          "Her blue eyes",
+          "Her voice",
+          "Anne Gregory’s yellow hair"
+        ],
+        "answer": 3,
+        "explanation": "The poem repeatedly refers to Anne’s yellow or honey-coloured hair.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 7,
+        "question": "What can be inferred from the episode about Anne’s hair?",
+        "options": [
+          "The dialogue distinguishes admiration from deeper affection.",
+          "The poem proves all young men dishonest.",
+          "The poem questions whether attraction is free from appearance.",
+          "Anne’s suggestion makes the speaker’s claim open to examination."
+        ],
+        "answer": 2,
+        "explanation": "The detail about Anne’s hair supports this inference: The poem questions whether attraction is free from appearance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 8,
+        "question": "Why is Anne’s hair important to the text?",
+        "options": [
+          "It gives Yeats’s biography.",
+          "Anne’s response turns the speaker’s claim into a question to examine.",
+          "The episode introduces uncertainty about attraction.",
+          "It shows how a feature can shape reactions."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because anne’s response turns the speaker’s claim into a question to examine.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 9,
+        "question": "Which theme is most directly reinforced by Anne’s hair?",
+        "options": [
+          "People should be valued for more than physical appearance.",
+          "Claims of unconditional love deserve examination.",
+          "Outward beauty can influence attraction.",
+          "Hair colour determines moral character."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that people should be valued for more than physical appearance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 10,
+        "question": "Which detail is most directly associated with Anne’s hair?",
+        "options": [
+          "W. B. Yeats",
+          "Anne’s outward beauty",
+          "It is influenced by appearance",
+          "Anne Gregory’s yellow hair"
+        ],
+        "answer": 3,
+        "explanation": "The text connects Anne’s hair with this detail: The poem repeatedly refers to Anne’s yellow or honey-coloured hair.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 11,
+        "question": "What do young men appear to notice first?",
+        "options": [
+          "Her cooking",
+          "Her political views",
+          "Anne’s outward beauty",
+          "Her mathematics skills"
+        ],
+        "answer": 2,
+        "explanation": "The poem questions attraction based on appearance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 12,
+        "question": "What can be inferred from the episode about young men’s attraction?",
+        "options": [
+          "The poem proves all young men dishonest.",
+          "The poem questions whether attraction is free from appearance.",
+          "Anne’s suggestion makes the speaker’s claim open to examination.",
+          "The dialogue distinguishes admiration from deeper affection."
+        ],
+        "answer": 1,
+        "explanation": "The detail about young men’s attraction supports this inference: The poem questions whether attraction is free from appearance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 13,
+        "question": "Why is young men’s attraction important to the text?",
+        "options": [
+          "Anne’s response turns the speaker’s claim into a question to examine.",
+          "The episode introduces uncertainty about attraction.",
+          "It shows how a feature can shape reactions.",
+          "It gives Yeats’s biography."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because anne’s response turns the speaker’s claim into a question to examine.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 14,
+        "question": "Which theme is most directly reinforced by young men’s attraction?",
+        "options": [
+          "Claims of unconditional love deserve examination.",
+          "Outward beauty can influence attraction.",
+          "Hair colour determines moral character.",
+          "People should be valued for more than physical appearance."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that people should be valued for more than physical appearance.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 15,
+        "question": "Which detail is most directly associated with young men’s attraction?",
+        "options": [
+          "Anne Gregory’s yellow hair",
+          "It is influenced by appearance",
+          "Anne’s outward beauty",
+          "W. B. Yeats"
+        ],
+        "answer": 2,
+        "explanation": "The text connects young men’s attraction with this detail: The poem questions attraction based on appearance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 16,
+        "question": "What does the speaker suggest about young men’s love?",
+        "options": [
+          "It ignores beauty",
+          "It is influenced by appearance",
+          "It is always based on wisdom",
+          "It never changes"
+        ],
+        "answer": 1,
+        "explanation": "The speaker questions whether love is free from physical bias.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 17,
+        "question": "What can be inferred from the episode about the speaker’s claim?",
+        "options": [
+          "The poem questions whether attraction is free from appearance.",
+          "Anne’s suggestion makes the speaker’s claim open to examination.",
+          "The dialogue distinguishes admiration from deeper affection.",
+          "The poem proves all young men dishonest."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the speaker’s claim supports this inference: The poem questions whether attraction is free from appearance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 18,
+        "question": "Why is the speaker’s claim important to the text?",
+        "options": [
+          "The episode introduces uncertainty about attraction.",
+          "It shows how a feature can shape reactions.",
+          "It gives Yeats’s biography.",
+          "Anne’s response turns the speaker’s claim into a question to examine."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because anne’s response turns the speaker’s claim into a question to examine.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 19,
+        "question": "Which theme is most directly reinforced by the speaker’s claim?",
+        "options": [
+          "Outward beauty can influence attraction.",
+          "Hair colour determines moral character.",
+          "People should be valued for more than physical appearance.",
+          "Claims of unconditional love deserve examination."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that people should be valued for more than physical appearance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 20,
+        "question": "Which detail is most directly associated with the speaker’s claim?",
+        "options": [
+          "Anne’s outward beauty",
+          "It is influenced by appearance",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the speaker’s claim with this detail: The speaker questions whether love is free from physical bias.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 21,
+        "question": "What does Anne suggest she could do to her hair?",
+        "options": [
+          "Dye it a different colour",
+          "Cut it to a fixed length",
+          "Hide it permanently",
+          "Change her name"
+        ],
+        "answer": 0,
+        "explanation": "Anne proposes changing her hair colour to test attraction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 22,
+        "question": "What can be inferred from the episode about Anne’s proposed change?",
+        "options": [
+          "Her proposal turns a claim into a thought experiment.",
+          "The question is whether people value the person beyond one feature.",
+          "Anne changes her hair under a doctor’s order.",
+          "Anne’s imagined change tests whether affection survives a change in appearance."
+        ],
+        "answer": 3,
+        "explanation": "The detail about Anne’s proposed change supports this inference: Anne’s imagined change tests whether affection survives a change in appearance.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 23,
+        "question": "Why is Anne’s proposed change important to the text?",
+        "options": [
+          "The detail anchors the discussion in a physical attribute.",
+          "It proves Anne is a hairdresser.",
+          "Hair colour makes outward beauty concrete.",
+          "Hair is the feature through which the poem explores appearance."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because hair colour makes outward beauty concrete.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 24,
+        "question": "Which theme is most directly reinforced by Anne’s proposed change?",
+        "options": [
+          "Changing hair guarantees true love.",
+          "Physical attraction and inner worth are not identical.",
+          "A change in appearance can test affection.",
+          "Love may be influenced by visible features."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that physical attraction and inner worth are not identical.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 25,
+        "question": "Which detail is most directly associated with Anne’s proposed change?",
+        "options": [
+          "Dye it a different colour",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty"
+        ],
+        "answer": 0,
+        "explanation": "The text connects Anne’s proposed change with this detail: Anne proposes changing her hair colour to test attraction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 26,
+        "question": "Which colour is associated with Anne’s hair?",
+        "options": [
+          "Jet black",
+          "Silver grey",
+          "Bright red",
+          "Yellow or honey-coloured"
+        ],
+        "answer": 3,
+        "explanation": "The poem connects Anne’s hair with yellow or honey colour.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 27,
+        "question": "What can be inferred from the episode about the hair colour?",
+        "options": [
+          "The question is whether people value the person beyond one feature.",
+          "Anne changes her hair under a doctor’s order.",
+          "Anne’s imagined change tests whether affection survives a change in appearance.",
+          "Her proposal turns a claim into a thought experiment."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the hair colour supports this inference: Anne’s imagined change tests whether affection survives a change in appearance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 28,
+        "question": "Why is the hair colour important to the text?",
+        "options": [
+          "It proves Anne is a hairdresser.",
+          "Hair colour makes outward beauty concrete.",
+          "Hair is the feature through which the poem explores appearance.",
+          "The detail anchors the discussion in a physical attribute."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because hair colour makes outward beauty concrete.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 29,
+        "question": "Which theme is most directly reinforced by the hair colour?",
+        "options": [
+          "Physical attraction and inner worth are not identical.",
+          "A change in appearance can test affection.",
+          "Love may be influenced by visible features.",
+          "Changing hair guarantees true love."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that physical attraction and inner worth are not identical.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 30,
+        "question": "Which detail is most directly associated with the hair colour?",
+        "options": [
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "Yellow or honey-coloured"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the hair colour with this detail: The poem connects Anne’s hair with yellow or honey colour.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 31,
+        "question": "What does Anne hope changing her hair would reveal?",
+        "options": [
+          "Whether the speaker dislikes poetry",
+          "Whether older people hate beauty",
+          "Whether she can be loved for herself",
+          "Whether she can become invisible"
+        ],
+        "answer": 2,
+        "explanation": "She questions whether affection depends on appearance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 32,
+        "question": "What can be inferred from the episode about Anne’s hope?",
+        "options": [
+          "Anne changes her hair under a doctor’s order.",
+          "Anne’s imagined change tests whether affection survives a change in appearance.",
+          "Her proposal turns a claim into a thought experiment.",
+          "The question is whether people value the person beyond one feature."
+        ],
+        "answer": 1,
+        "explanation": "The detail about Anne’s hope supports this inference: Anne’s imagined change tests whether affection survives a change in appearance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 33,
+        "question": "Why is Anne’s hope important to the text?",
+        "options": [
+          "Hair colour makes outward beauty concrete.",
+          "Hair is the feature through which the poem explores appearance.",
+          "The detail anchors the discussion in a physical attribute.",
+          "It proves Anne is a hairdresser."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because hair colour makes outward beauty concrete.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 34,
+        "question": "Which theme is most directly reinforced by Anne’s hope?",
+        "options": [
+          "A change in appearance can test affection.",
+          "Love may be influenced by visible features.",
+          "Changing hair guarantees true love.",
+          "Physical attraction and inner worth are not identical."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that physical attraction and inner worth are not identical.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 35,
+        "question": "Which detail is most directly associated with Anne’s hope?",
+        "options": [
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "Whether she can be loved for herself",
+          "W. B. Yeats"
+        ],
+        "answer": 2,
+        "explanation": "The text connects Anne’s hope with this detail: She questions whether affection depends on appearance.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 36,
+        "question": "What is the poem’s central concern?",
+        "options": [
+          "Technology versus nature",
+          "Outward beauty versus inner worth",
+          "Travel versus staying home",
+          "Money versus employment"
+        ],
+        "answer": 1,
+        "explanation": "The poem explores appearance and deeper affection.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 37,
+        "question": "What can be inferred from the episode about the central concern?",
+        "options": [
+          "Anne’s imagined change tests whether affection survives a change in appearance.",
+          "Her proposal turns a claim into a thought experiment.",
+          "The question is whether people value the person beyond one feature.",
+          "Anne changes her hair under a doctor’s order."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the central concern supports this inference: Anne’s imagined change tests whether affection survives a change in appearance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 38,
+        "question": "Why is the central concern important to the text?",
+        "options": [
+          "Hair is the feature through which the poem explores appearance.",
+          "The detail anchors the discussion in a physical attribute.",
+          "It proves Anne is a hairdresser.",
+          "Hair colour makes outward beauty concrete."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because hair colour makes outward beauty concrete.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 39,
+        "question": "Which theme is most directly reinforced by the central concern?",
+        "options": [
+          "Love may be influenced by visible features.",
+          "Changing hair guarantees true love.",
+          "Physical attraction and inner worth are not identical.",
+          "A change in appearance can test affection."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that physical attraction and inner worth are not identical.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 40,
+        "question": "Which detail is most directly associated with the central concern?",
+        "options": [
+          "Anne’s outward beauty",
+          "Outward beauty versus inner worth",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the central concern with this detail: The poem explores appearance and deeper affection.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 41,
+        "question": "What form does the text take?",
+        "options": [
+          "A conversational lyric poem",
+          "A historical play",
+          "A detective story",
+          "A scientific report"
+        ],
+        "answer": 0,
+        "explanation": "The poem presents an exchange of ideas in verse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 42,
+        "question": "What can be inferred from the episode about the form?",
+        "options": [
+          "The exchange contrasts visible features with inner worth.",
+          "The conversation asks whether others value the whole person.",
+          "The poem reports a laboratory test.",
+          "Hair becomes a visible symbol of outward beauty."
+        ],
+        "answer": 3,
+        "explanation": "The detail about the form supports this inference: Hair becomes a visible symbol of outward beauty.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 43,
+        "question": "Why is the form important to the text?",
+        "options": [
+          "The structure makes Anne’s challenge clear.",
+          "A detective investigates theft.",
+          "Dialogue lets two views of love be compared.",
+          "The exchange moves from appearance to deeper affection."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because dialogue lets two views of love be compared.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 44,
+        "question": "Which theme is most directly reinforced by the form?",
+        "options": [
+          "Poetry must avoid everyday subjects.",
+          "Conversation can expose assumptions.",
+          "A simple image can carry symbolic meaning.",
+          "The poem links appearance with personal value."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that conversation can expose assumptions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 45,
+        "question": "Which detail is most directly associated with the form?",
+        "options": [
+          "A conversational lyric poem",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty"
+        ],
+        "answer": 0,
+        "explanation": "The text connects the form with this detail: The poem presents an exchange of ideas in verse.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 46,
+        "question": "What does the discussion of hair symbolise?",
+        "options": [
+          "The value of property",
+          "An inheritance dispute",
+          "The passage of time only",
+          "Appearance’s influence on attraction"
+        ],
+        "answer": 3,
+        "explanation": "Hair becomes a visible symbol of outward beauty.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 47,
+        "question": "What can be inferred from the episode about the symbolism of hair?",
+        "options": [
+          "The conversation asks whether others value the whole person.",
+          "The poem reports a laboratory test.",
+          "Hair becomes a visible symbol of outward beauty.",
+          "The exchange contrasts visible features with inner worth."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the symbolism of hair supports this inference: Hair becomes a visible symbol of outward beauty.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 48,
+        "question": "Why is the symbolism of hair important to the text?",
+        "options": [
+          "A detective investigates theft.",
+          "Dialogue lets two views of love be compared.",
+          "The exchange moves from appearance to deeper affection.",
+          "The structure makes Anne’s challenge clear."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because dialogue lets two views of love be compared.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 49,
+        "question": "Which theme is most directly reinforced by the symbolism of hair?",
+        "options": [
+          "Conversation can expose assumptions.",
+          "A simple image can carry symbolic meaning.",
+          "The poem links appearance with personal value.",
+          "Poetry must avoid everyday subjects."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that conversation can expose assumptions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 50,
+        "question": "Which detail is most directly associated with the symbolism of hair?",
+        "options": [
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "Appearance’s influence on attraction"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the symbolism of hair with this detail: Hair becomes a visible symbol of outward beauty.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 51,
+        "question": "Why might Anne want to change her hair colour?",
+        "options": [
+          "To enter a painting contest",
+          "To impress an inspector",
+          "To test the basis of others’ affection",
+          "To hide from police"
+        ],
+        "answer": 2,
+        "explanation": "Her proposal challenges admirers to look beyond one feature.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 52,
+        "question": "What can be inferred from the episode about Anne’s reason?",
+        "options": [
+          "The poem reports a laboratory test.",
+          "Hair becomes a visible symbol of outward beauty.",
+          "The exchange contrasts visible features with inner worth.",
+          "The conversation asks whether others value the whole person."
+        ],
+        "answer": 1,
+        "explanation": "The detail about Anne’s reason supports this inference: Hair becomes a visible symbol of outward beauty.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 53,
+        "question": "Why is Anne’s reason important to the text?",
+        "options": [
+          "Dialogue lets two views of love be compared.",
+          "The exchange moves from appearance to deeper affection.",
+          "The structure makes Anne’s challenge clear.",
+          "A detective investigates theft."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because dialogue lets two views of love be compared.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 54,
+        "question": "Which theme is most directly reinforced by Anne’s reason?",
+        "options": [
+          "A simple image can carry symbolic meaning.",
+          "The poem links appearance with personal value.",
+          "Poetry must avoid everyday subjects.",
+          "Conversation can expose assumptions."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that conversation can expose assumptions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 55,
+        "question": "Which detail is most directly associated with Anne’s reason?",
+        "options": [
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "To test the basis of others’ affection",
+          "W. B. Yeats"
+        ],
+        "answer": 2,
+        "explanation": "The text connects Anne’s reason with this detail: Her proposal challenges admirers to look beyond one feature.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 56,
+        "question": "Which contrast lies at the heart of the poem?",
+        "options": [
+          "Poverty versus work",
+          "Physical attraction versus love for the inner self",
+          "City versus village",
+          "Science versus superstition"
+        ],
+        "answer": 1,
+        "explanation": "The poem contrasts visible beauty with inner value.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 57,
+        "question": "What can be inferred from the episode about the central contrast?",
+        "options": [
+          "Hair becomes a visible symbol of outward beauty.",
+          "The exchange contrasts visible features with inner worth.",
+          "The conversation asks whether others value the whole person.",
+          "The poem reports a laboratory test."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the central contrast supports this inference: Hair becomes a visible symbol of outward beauty.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 58,
+        "question": "Why is the central contrast important to the text?",
+        "options": [
+          "The exchange moves from appearance to deeper affection.",
+          "The structure makes Anne’s challenge clear.",
+          "A detective investigates theft.",
+          "Dialogue lets two views of love be compared."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because dialogue lets two views of love be compared.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 59,
+        "question": "Which theme is most directly reinforced by the central contrast?",
+        "options": [
+          "The poem links appearance with personal value.",
+          "Poetry must avoid everyday subjects.",
+          "Conversation can expose assumptions.",
+          "A simple image can carry symbolic meaning."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that conversation can expose assumptions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 60,
+        "question": "Which detail is most directly associated with the central contrast?",
+        "options": [
+          "Anne’s outward beauty",
+          "Physical attraction versus love for the inner self",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the central contrast with this detail: The poem contrasts visible beauty with inner value.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 61,
+        "question": "What assumption does the speaker question?",
+        "options": [
+          "That love is independent of appearance",
+          "That people can dye hair",
+          "That poems use dialogue",
+          "That people notice beauty"
+        ],
+        "answer": 0,
+        "explanation": "The speaker questions whether looks influence attraction.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 62,
+        "question": "What can be inferred from the episode about the questioned assumption?",
+        "options": [
+          "The poem complicates simple claims about affection.",
+          "The dialogue invites readers to question what people say about love.",
+          "The speaker says nobody notices beauty.",
+          "The speaker is sceptical about wholly selfless love."
+        ],
+        "answer": 3,
+        "explanation": "The detail about the questioned assumption supports this inference: The speaker is sceptical about wholly selfless love.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 63,
+        "question": "Why is the questioned assumption important to the text?",
+        "options": [
+          "It asks what remains if a visible feature changes.",
+          "It proves dye is permanent.",
+          "Anne’s proposal tests whether affection depends on looks.",
+          "The episode challenges unconditional love."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because anne’s proposal tests whether affection depends on looks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 64,
+        "question": "Which theme is most directly reinforced by the questioned assumption?",
+        "options": [
+          "Attraction is always fully rational.",
+          "The poem is sceptical about easy claims of selfless love.",
+          "Judgements may be influenced by appearance.",
+          "People should examine what they value in others."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that the poem is sceptical about easy claims of selfless love.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 65,
+        "question": "Which detail is most directly associated with the questioned assumption?",
+        "options": [
+          "That love is independent of appearance",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty"
+        ],
+        "answer": 0,
+        "explanation": "The text connects the questioned assumption with this detail: The speaker questions whether looks influence attraction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 66,
+        "question": "What does Anne’s proposal reveal?",
+        "options": [
+          "She dislikes every person",
+          "She wants to leave her family",
+          "She thinks hair predicts weather",
+          "She is willing to challenge the basis of attraction"
+        ],
+        "answer": 3,
+        "explanation": "Anne turns the claim into a testable question.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 67,
+        "question": "What can be inferred from the episode about Anne’s proposal?",
+        "options": [
+          "The dialogue invites readers to question what people say about love.",
+          "The speaker says nobody notices beauty.",
+          "The speaker is sceptical about wholly selfless love.",
+          "The poem complicates simple claims about affection."
+        ],
+        "answer": 2,
+        "explanation": "The detail about Anne’s proposal supports this inference: The speaker is sceptical about wholly selfless love.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 68,
+        "question": "Why is Anne’s proposal important to the text?",
+        "options": [
+          "It proves dye is permanent.",
+          "Anne’s proposal tests whether affection depends on looks.",
+          "The episode challenges unconditional love.",
+          "It asks what remains if a visible feature changes."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because anne’s proposal tests whether affection depends on looks.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 69,
+        "question": "Which theme is most directly reinforced by Anne’s proposal?",
+        "options": [
+          "The poem is sceptical about easy claims of selfless love.",
+          "Judgements may be influenced by appearance.",
+          "People should examine what they value in others.",
+          "Attraction is always fully rational."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that the poem is sceptical about easy claims of selfless love.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 70,
+        "question": "Which detail is most directly associated with Anne’s proposal?",
+        "options": [
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "She is willing to challenge the basis of attraction"
+        ],
+        "answer": 3,
+        "explanation": "The text connects Anne’s proposal with this detail: Anne turns the claim into a testable question.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 71,
+        "question": "Why is direct address effective in the poem?",
+        "options": [
+          "It turns the poem into a legal notice",
+          "It gives travel instructions",
+          "It makes the discussion personal",
+          "It makes Anne a queen"
+        ],
+        "answer": 2,
+        "explanation": "Direct address makes the exchange immediate.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 72,
+        "question": "What can be inferred from the episode about direct address?",
+        "options": [
+          "The speaker says nobody notices beauty.",
+          "The speaker is sceptical about wholly selfless love.",
+          "The poem complicates simple claims about affection.",
+          "The dialogue invites readers to question what people say about love."
+        ],
+        "answer": 1,
+        "explanation": "The detail about direct address supports this inference: The speaker is sceptical about wholly selfless love.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 73,
+        "question": "Why is direct address important to the text?",
+        "options": [
+          "Anne’s proposal tests whether affection depends on looks.",
+          "The episode challenges unconditional love.",
+          "It asks what remains if a visible feature changes.",
+          "It proves dye is permanent."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because anne’s proposal tests whether affection depends on looks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 74,
+        "question": "Which theme is most directly reinforced by direct address?",
+        "options": [
+          "Judgements may be influenced by appearance.",
+          "People should examine what they value in others.",
+          "Attraction is always fully rational.",
+          "The poem is sceptical about easy claims of selfless love."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that the poem is sceptical about easy claims of selfless love.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 75,
+        "question": "Which detail is most directly associated with direct address?",
+        "options": [
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "It makes the discussion personal",
+          "W. B. Yeats"
+        ],
+        "answer": 2,
+        "explanation": "The text connects direct address with this detail: Direct address makes the exchange immediate.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 76,
+        "question": "What limitation in human love does the poem suggest?",
+        "options": [
+          "It depends only on money",
+          "It may be drawn to outward features",
+          "It always ignores appearance",
+          "It is scientific proof"
+        ],
+        "answer": 1,
+        "explanation": "The poem is sceptical about love being free of physical attraction.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 77,
+        "question": "What can be inferred from the episode about human love?",
+        "options": [
+          "The speaker is sceptical about wholly selfless love.",
+          "The poem complicates simple claims about affection.",
+          "The dialogue invites readers to question what people say about love.",
+          "The speaker says nobody notices beauty."
+        ],
+        "answer": 0,
+        "explanation": "The detail about human love supports this inference: The speaker is sceptical about wholly selfless love.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 78,
+        "question": "Why is human love important to the text?",
+        "options": [
+          "The episode challenges unconditional love.",
+          "It asks what remains if a visible feature changes.",
+          "It proves dye is permanent.",
+          "Anne’s proposal tests whether affection depends on looks."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because anne’s proposal tests whether affection depends on looks.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 79,
+        "question": "Which theme is most directly reinforced by human love?",
+        "options": [
+          "People should examine what they value in others.",
+          "Attraction is always fully rational.",
+          "The poem is sceptical about easy claims of selfless love.",
+          "Judgements may be influenced by appearance."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that the poem is sceptical about easy claims of selfless love.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 80,
+        "question": "Which detail is most directly associated with human love?",
+        "options": [
+          "Anne’s outward beauty",
+          "It may be drawn to outward features",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair"
+        ],
+        "answer": 1,
+        "explanation": "The text connects human love with this detail: The poem is sceptical about love being free of physical attraction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 81,
+        "question": "What does Anne’s question invite readers to consider?",
+        "options": [
+          "Whether affection would remain if her looks changed",
+          "Whether hair dye is easy to use",
+          "Whether poems should be prose",
+          "Whether people should avoid talking"
+        ],
+        "answer": 0,
+        "explanation": "Her proposal invites reflection on appearance and affection.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 82,
+        "question": "What can be inferred from the episode about Anne’s question?",
+        "options": [
+          "Two voices allow ideas about love to be compared.",
+          "Anne’s reply lets readers test the speaker’s claim.",
+          "The poem describes a battle.",
+          "The conversational form makes an abstract question personal."
+        ],
+        "answer": 3,
+        "explanation": "The detail about Anne’s question supports this inference: The conversational form makes an abstract question personal.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 83,
+        "question": "Why is Anne’s question important to the text?",
+        "options": [
+          "The final idea extends beyond hair to personal worth.",
+          "It solves a mystery.",
+          "The ending preserves uncertainty about human love.",
+          "The poem asks readers to reflect on judgement."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because the ending preserves uncertainty about human love.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 84,
+        "question": "Which theme is most directly reinforced by Anne’s question?",
+        "options": [
+          "Hair colour determines the future.",
+          "Inner character matters alongside outward beauty.",
+          "The poem invites reflection rather than a simple answer.",
+          "Appearance alone may not reveal worth."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that inner character matters alongside outward beauty.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 85,
+        "question": "Which detail is most directly associated with Anne’s question?",
+        "options": [
+          "Whether affection would remain if her looks changed",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty"
+        ],
+        "answer": 0,
+        "explanation": "The text connects Anne’s question with this detail: Her proposal invites reflection on appearance and affection.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 86,
+        "question": "What creates the poem’s conversational tone?",
+        "options": [
+          "A list of scientific facts",
+          "A battle description",
+          "A judge’s sentence",
+          "The exchange between the speaker and Anne"
+        ],
+        "answer": 3,
+        "explanation": "The dialogue feels like a conversation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 87,
+        "question": "What can be inferred from the episode about the conversational tone?",
+        "options": [
+          "Anne’s reply lets readers test the speaker’s claim.",
+          "The poem describes a battle.",
+          "The conversational form makes an abstract question personal.",
+          "Two voices allow ideas about love to be compared."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the conversational tone supports this inference: The conversational form makes an abstract question personal.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 88,
+        "question": "Why is the conversational tone important to the text?",
+        "options": [
+          "It solves a mystery.",
+          "The ending preserves uncertainty about human love.",
+          "The poem asks readers to reflect on judgement.",
+          "The final idea extends beyond hair to personal worth."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because the ending preserves uncertainty about human love.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 89,
+        "question": "Which theme is most directly reinforced by the conversational tone?",
+        "options": [
+          "Inner character matters alongside outward beauty.",
+          "The poem invites reflection rather than a simple answer.",
+          "Appearance alone may not reveal worth.",
+          "Hair colour determines the future."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that inner character matters alongside outward beauty.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 90,
+        "question": "Which detail is most directly associated with the conversational tone?",
+        "options": [
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "The exchange between the speaker and Anne"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the conversational tone with this detail: The dialogue feels like a conversation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 91,
+        "question": "What does the poem leave uncertain?",
+        "options": [
+          "Whether people notice beauty",
+          "Whether hair can be dyed",
+          "Whether human love sees beyond appearance",
+          "Whether Anne has hair"
+        ],
+        "answer": 2,
+        "explanation": "The poem questions the depth of human affection.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 92,
+        "question": "What can be inferred from the episode about the uncertainty?",
+        "options": [
+          "The poem describes a battle.",
+          "The conversational form makes an abstract question personal.",
+          "Two voices allow ideas about love to be compared.",
+          "Anne’s reply lets readers test the speaker’s claim."
+        ],
+        "answer": 1,
+        "explanation": "The detail about the uncertainty supports this inference: The conversational form makes an abstract question personal.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 93,
+        "question": "Why is the uncertainty important to the text?",
+        "options": [
+          "The ending preserves uncertainty about human love.",
+          "The poem asks readers to reflect on judgement.",
+          "The final idea extends beyond hair to personal worth.",
+          "It solves a mystery."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because the ending preserves uncertainty about human love.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 94,
+        "question": "Which theme is most directly reinforced by the uncertainty?",
+        "options": [
+          "The poem invites reflection rather than a simple answer.",
+          "Appearance alone may not reveal worth.",
+          "Hair colour determines the future.",
+          "Inner character matters alongside outward beauty."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that inner character matters alongside outward beauty.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 95,
+        "question": "Which detail is most directly associated with the uncertainty?",
+        "options": [
+          "Anne Gregory’s yellow hair",
+          "Anne’s outward beauty",
+          "Whether human love sees beyond appearance",
+          "W. B. Yeats"
+        ],
+        "answer": 2,
+        "explanation": "The text connects the uncertainty with this detail: The poem questions the depth of human affection.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 96,
+        "question": "Which value is contrasted with physical beauty?",
+        "options": [
+          "Social rank alone",
+          "Inner character",
+          "Property ownership",
+          "Physical strength"
+        ],
+        "answer": 1,
+        "explanation": "The poem distinguishes looks from personal qualities.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 97,
+        "question": "What can be inferred from the episode about inner character?",
+        "options": [
+          "The conversational form makes an abstract question personal.",
+          "Two voices allow ideas about love to be compared.",
+          "Anne’s reply lets readers test the speaker’s claim.",
+          "The poem describes a battle."
+        ],
+        "answer": 0,
+        "explanation": "The detail about inner character supports this inference: The conversational form makes an abstract question personal.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 98,
+        "question": "Why is inner character important to the text?",
+        "options": [
+          "The poem asks readers to reflect on judgement.",
+          "The final idea extends beyond hair to personal worth.",
+          "It solves a mystery.",
+          "The ending preserves uncertainty about human love."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because the ending preserves uncertainty about human love.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 99,
+        "question": "Which theme is most directly reinforced by inner character?",
+        "options": [
+          "Appearance alone may not reveal worth.",
+          "Hair colour determines the future.",
+          "Inner character matters alongside outward beauty.",
+          "The poem invites reflection rather than a simple answer."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that inner character matters alongside outward beauty.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 100,
+        "question": "Which detail is most directly associated with inner character?",
+        "options": [
+          "Anne’s outward beauty",
+          "Inner character",
+          "W. B. Yeats",
+          "Anne Gregory’s yellow hair"
+        ],
+        "answer": 1,
+        "explanation": "The text connects inner character with this detail: The poem distinguishes looks from personal qualities.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 27,
+    "title": "Bholi",
+    "key": "bholi",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is Bholi’s real name?",
+        "options": [
+          "Sulekha",
+          "Radha",
+          "Kamala",
+          "Sita"
+        ],
+        "answer": 0,
+        "explanation": "Bholi is the nickname given to Sulekha.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 2,
+        "question": "What can be inferred from the episode about Bholi’s name?",
+        "options": [
+          "Her nickname shows others underestimate her.",
+          "Her treatment contrasts with future potential.",
+          "Her family recognises her abilities immediately.",
+          "Family judgement reveals social prejudice."
+        ],
+        "answer": 3,
+        "explanation": "The detail about Bholi’s name supports this inference: Family judgement reveals social prejudice.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 3,
+        "question": "Why is Bholi’s name important to the text?",
+        "options": [
+          "Her treatment contrasts with her potential.",
+          "The episode proves she cannot learn.",
+          "Early events establish the prejudice she must overcome.",
+          "The nickname reduces her to a label."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because early events establish the prejudice she must overcome.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 4,
+        "question": "Which theme is most directly reinforced by Bholi’s name?",
+        "options": [
+          "Worth depends on marriage prospects.",
+          "Education builds confidence and independence.",
+          "People should not be judged by appearance or speech.",
+          "Dowry and gender prejudice are harmful."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that education builds confidence and independence.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 5,
+        "question": "Which detail is most directly associated with Bholi’s name?",
+        "options": [
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "She stammers"
+        ],
+        "answer": 0,
+        "explanation": "The text connects Bholi’s name with this detail: Bholi is the nickname given to Sulekha.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 6,
+        "question": "Why is Sulekha called Bholi?",
+        "options": [
+          "She is village chief",
+          "She is the best athlete",
+          "She owns a farm",
+          "Others consider her simple and slow"
+        ],
+        "answer": 3,
+        "explanation": "The nickname reflects others’ low expectations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 7,
+        "question": "What can be inferred from the episode about the nickname?",
+        "options": [
+          "Her treatment contrasts with future potential.",
+          "Her family recognises her abilities immediately.",
+          "Family judgement reveals social prejudice.",
+          "Her nickname shows others underestimate her."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the nickname supports this inference: Family judgement reveals social prejudice.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 8,
+        "question": "Why is the nickname important to the text?",
+        "options": [
+          "The episode proves she cannot learn.",
+          "Early events establish the prejudice she must overcome.",
+          "The nickname reduces her to a label.",
+          "Her treatment contrasts with her potential."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because early events establish the prejudice she must overcome.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 9,
+        "question": "Which theme is most directly reinforced by the nickname?",
+        "options": [
+          "Education builds confidence and independence.",
+          "People should not be judged by appearance or speech.",
+          "Dowry and gender prejudice are harmful.",
+          "Worth depends on marriage prospects."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that education builds confidence and independence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 10,
+        "question": "Which detail is most directly associated with the nickname?",
+        "options": [
+          "Sulekha",
+          "Pockmarks from smallpox",
+          "She stammers",
+          "Others consider her simple and slow"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the nickname with this detail: The nickname reflects others’ low expectations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 11,
+        "question": "What physical marks affect Bholi’s appearance?",
+        "options": [
+          "A missing tooth only",
+          "A burn scar",
+          "Pockmarks from smallpox",
+          "A broken arm"
+        ],
+        "answer": 2,
+        "explanation": "Smallpox leaves visible pockmarks on her face.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 12,
+        "question": "What can be inferred from the episode about the pockmarks?",
+        "options": [
+          "Her family recognises her abilities immediately.",
+          "Family judgement reveals social prejudice.",
+          "Her nickname shows others underestimate her.",
+          "Her treatment contrasts with future potential."
+        ],
+        "answer": 1,
+        "explanation": "The detail about the pockmarks supports this inference: Family judgement reveals social prejudice.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 13,
+        "question": "Why is the pockmarks important to the text?",
+        "options": [
+          "Early events establish the prejudice she must overcome.",
+          "The nickname reduces her to a label.",
+          "Her treatment contrasts with her potential.",
+          "The episode proves she cannot learn."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because early events establish the prejudice she must overcome.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 14,
+        "question": "Which theme is most directly reinforced by the pockmarks?",
+        "options": [
+          "People should not be judged by appearance or speech.",
+          "Dowry and gender prejudice are harmful.",
+          "Worth depends on marriage prospects.",
+          "Education builds confidence and independence."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that education builds confidence and independence.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 15,
+        "question": "Which detail is most directly associated with the pockmarks?",
+        "options": [
+          "Others consider her simple and slow",
+          "She stammers",
+          "Pockmarks from smallpox",
+          "Sulekha"
+        ],
+        "answer": 2,
+        "explanation": "The text connects the pockmarks with this detail: Smallpox leaves visible pockmarks on her face.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 16,
+        "question": "What speech difficulty does Bholi have?",
+        "options": [
+          "She has permanently lost her voice",
+          "She stammers",
+          "She cannot hear",
+          "She speaks only another language"
+        ],
+        "answer": 1,
+        "explanation": "Bholi stammers and fears speaking.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 17,
+        "question": "What can be inferred from the episode about her stammer?",
+        "options": [
+          "Family judgement reveals social prejudice.",
+          "Her nickname shows others underestimate her.",
+          "Her treatment contrasts with future potential.",
+          "Her family recognises her abilities immediately."
+        ],
+        "answer": 0,
+        "explanation": "The detail about her stammer supports this inference: Family judgement reveals social prejudice.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 18,
+        "question": "Why is her stammer important to the text?",
+        "options": [
+          "The nickname reduces her to a label.",
+          "Her treatment contrasts with her potential.",
+          "The episode proves she cannot learn.",
+          "Early events establish the prejudice she must overcome."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because early events establish the prejudice she must overcome.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 19,
+        "question": "Which theme is most directly reinforced by her stammer?",
+        "options": [
+          "Dowry and gender prejudice are harmful.",
+          "Worth depends on marriage prospects.",
+          "Education builds confidence and independence.",
+          "People should not be judged by appearance or speech."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that education builds confidence and independence.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 20,
+        "question": "Which detail is most directly associated with her stammer?",
+        "options": [
+          "Pockmarks from smallpox",
+          "She stammers",
+          "Sulekha",
+          "Others consider her simple and slow"
+        ],
+        "answer": 1,
+        "explanation": "The text connects her stammer with this detail: Bholi stammers and fears speaking.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 21,
+        "question": "How does her family initially treat her?",
+        "options": [
+          "They underestimate her",
+          "They make her village ruler",
+          "They send her abroad",
+          "They give her control of land"
+        ],
+        "answer": 0,
+        "explanation": "Her family initially fails to recognise her potential.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 22,
+        "question": "What can be inferred from the episode about family treatment?",
+        "options": [
+          "Encouragement changes how Bholi sees herself.",
+          "Supportive teaching helps a learner grow.",
+          "The teacher uses humiliation.",
+          "The teacher’s patience builds confidence."
+        ],
+        "answer": 3,
+        "explanation": "The detail about family treatment supports this inference: The teacher’s patience builds confidence.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 23,
+        "question": "Why is family treatment important to the text?",
+        "options": [
+          "The classroom becomes a place for confidence.",
+          "The teacher demands money.",
+          "The teacher’s response begins Bholi’s transformation.",
+          "Encouragement lets her practise without shame."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because the teacher’s response begins Bholi’s transformation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 24,
+        "question": "Which theme is most directly reinforced by family treatment?",
+        "options": [
+          "Students should be mocked.",
+          "Supportive teachers help students realise potential.",
+          "Patience and respect foster learning.",
+          "Early difficulty does not define a future."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that supportive teachers help students realise potential.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 25,
+        "question": "Which detail is most directly associated with family treatment?",
+        "options": [
+          "They underestimate her",
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox"
+        ],
+        "answer": 0,
+        "explanation": "The text connects family treatment with this detail: Her family initially fails to recognise her potential.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 26,
+        "question": "Who encourages Bholi at school?",
+        "options": [
+          "The moneylender",
+          "The bridegroom",
+          "The village guard",
+          "Her teacher"
+        ],
+        "answer": 3,
+        "explanation": "The teacher patiently helps her gain confidence.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 27,
+        "question": "What can be inferred from the episode about the teacher?",
+        "options": [
+          "Supportive teaching helps a learner grow.",
+          "The teacher uses humiliation.",
+          "The teacher’s patience builds confidence.",
+          "Encouragement changes how Bholi sees herself."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the teacher supports this inference: The teacher’s patience builds confidence.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 28,
+        "question": "Why is the teacher important to the text?",
+        "options": [
+          "The teacher demands money.",
+          "The teacher’s response begins Bholi’s transformation.",
+          "Encouragement lets her practise without shame.",
+          "The classroom becomes a place for confidence."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because the teacher’s response begins Bholi’s transformation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 29,
+        "question": "Which theme is most directly reinforced by the teacher?",
+        "options": [
+          "Supportive teachers help students realise potential.",
+          "Patience and respect foster learning.",
+          "Early difficulty does not define a future.",
+          "Students should be mocked."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that supportive teachers help students realise potential.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 30,
+        "question": "Which detail is most directly associated with the teacher?",
+        "options": [
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "Her teacher"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the teacher with this detail: The teacher patiently helps her gain confidence.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 31,
+        "question": "How does Bholi feel at first school?",
+        "options": [
+          "Angry at being made a teacher",
+          "Certain she cannot learn",
+          "Frightened and uncertain",
+          "Completely confident"
+        ],
+        "answer": 2,
+        "explanation": "The unfamiliar environment makes Bholi nervous.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 32,
+        "question": "What can be inferred from the episode about her first day?",
+        "options": [
+          "The teacher uses humiliation.",
+          "The teacher’s patience builds confidence.",
+          "Encouragement changes how Bholi sees herself.",
+          "Supportive teaching helps a learner grow."
+        ],
+        "answer": 1,
+        "explanation": "The detail about her first day supports this inference: The teacher’s patience builds confidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 33,
+        "question": "Why is her first day important to the text?",
+        "options": [
+          "The teacher’s response begins Bholi’s transformation.",
+          "Encouragement lets her practise without shame.",
+          "The classroom becomes a place for confidence.",
+          "The teacher demands money."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because the teacher’s response begins Bholi’s transformation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 34,
+        "question": "Which theme is most directly reinforced by her first day?",
+        "options": [
+          "Patience and respect foster learning.",
+          "Early difficulty does not define a future.",
+          "Students should be mocked.",
+          "Supportive teachers help students realise potential."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that supportive teachers help students realise potential.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 35,
+        "question": "Which detail is most directly associated with her first day?",
+        "options": [
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "Frightened and uncertain",
+          "Sulekha"
+        ],
+        "answer": 2,
+        "explanation": "The text connects her first day with this detail: The unfamiliar environment makes Bholi nervous.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 36,
+        "question": "What does the teacher do when Bholi stammers?",
+        "options": [
+          "Sends her away permanently",
+          "Encourages her to speak",
+          "Mocks her",
+          "Tells her never to speak"
+        ],
+        "answer": 1,
+        "explanation": "The teacher’s patience builds confidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 37,
+        "question": "What can be inferred from the episode about the teacher’s response?",
+        "options": [
+          "The teacher’s patience builds confidence.",
+          "Encouragement changes how Bholi sees herself.",
+          "Supportive teaching helps a learner grow.",
+          "The teacher uses humiliation."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the teacher’s response supports this inference: The teacher’s patience builds confidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 38,
+        "question": "Why is the teacher’s response important to the text?",
+        "options": [
+          "Encouragement lets her practise without shame.",
+          "The classroom becomes a place for confidence.",
+          "The teacher demands money.",
+          "The teacher’s response begins Bholi’s transformation."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because the teacher’s response begins Bholi’s transformation.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 39,
+        "question": "Which theme is most directly reinforced by the teacher’s response?",
+        "options": [
+          "Early difficulty does not define a future.",
+          "Students should be mocked.",
+          "Supportive teachers help students realise potential.",
+          "Patience and respect foster learning."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that supportive teachers help students realise potential.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 40,
+        "question": "Which detail is most directly associated with the teacher’s response?",
+        "options": [
+          "Pockmarks from smallpox",
+          "Encourages her to speak",
+          "Sulekha",
+          "Others consider her simple and slow"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the teacher’s response with this detail: The teacher’s patience builds confidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 41,
+        "question": "What does education give Bholi?",
+        "options": [
+          "Confidence and independent judgement",
+          "Instant wealth",
+          "A royal title",
+          "A reason to avoid work"
+        ],
+        "answer": 0,
+        "explanation": "Education changes how she sees herself.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 42,
+        "question": "What can be inferred from the episode about education?",
+        "options": [
+          "The wedding treats a woman as an object of exchange.",
+          "His behaviour makes the match unacceptable.",
+          "Bishamber is praised for refusing money.",
+          "Bishamber’s demand exposes greed and dowry’s injustice."
+        ],
+        "answer": 3,
+        "explanation": "The detail about education supports this inference: Bishamber’s demand exposes greed and dowry’s injustice.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 43,
+        "question": "Why is education important to the text?",
+        "options": [
+          "The scene makes dowry’s harm concrete.",
+          "The wedding is only joyful.",
+          "Bishamber’s demand makes the wedding a test of dignity.",
+          "It exposes his greed."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because bishamber’s demand makes the wedding a test of dignity.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 44,
+        "question": "Which theme is most directly reinforced by education?",
+        "options": [
+          "Greed should determine marriage decisions.",
+          "Self-respect may require challenging unjust customs.",
+          "Dowry turns marriage into a transaction.",
+          "Courage can grow through education."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that self-respect may require challenging unjust customs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 45,
+        "question": "Which detail is most directly associated with education?",
+        "options": [
+          "Confidence and independent judgement",
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox"
+        ],
+        "answer": 0,
+        "explanation": "The text connects education with this detail: Education changes how she sees herself.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 46,
+        "question": "Who is Bishamber?",
+        "options": [
+          "Her schoolteacher",
+          "Her younger brother",
+          "The village doctor",
+          "The man chosen to marry Bholi"
+        ],
+        "answer": 3,
+        "explanation": "Bishamber is the selected bridegroom.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 47,
+        "question": "What can be inferred from the episode about Bishamber?",
+        "options": [
+          "His behaviour makes the match unacceptable.",
+          "Bishamber is praised for refusing money.",
+          "Bishamber’s demand exposes greed and dowry’s injustice.",
+          "The wedding treats a woman as an object of exchange."
+        ],
+        "answer": 2,
+        "explanation": "The detail about Bishamber supports this inference: Bishamber’s demand exposes greed and dowry’s injustice.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 48,
+        "question": "Why is Bishamber important to the text?",
+        "options": [
+          "The wedding is only joyful.",
+          "Bishamber’s demand makes the wedding a test of dignity.",
+          "It exposes his greed.",
+          "The scene makes dowry’s harm concrete."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because bishamber’s demand makes the wedding a test of dignity.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 49,
+        "question": "Which theme is most directly reinforced by Bishamber?",
+        "options": [
+          "Self-respect may require challenging unjust customs.",
+          "Dowry turns marriage into a transaction.",
+          "Courage can grow through education.",
+          "Greed should determine marriage decisions."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that self-respect may require challenging unjust customs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 50,
+        "question": "Which detail is most directly associated with Bishamber?",
+        "options": [
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "The man chosen to marry Bholi"
+        ],
+        "answer": 3,
+        "explanation": "The text connects Bishamber with this detail: Bishamber is the selected bridegroom.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 51,
+        "question": "Why does the family agree to the marriage?",
+        "options": [
+          "They need her to run a factory",
+          "He is her childhood friend",
+          "They think it may secure her future",
+          "They want her to rule a village"
+        ],
+        "answer": 2,
+        "explanation": "The family sees marriage as a practical arrangement.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 52,
+        "question": "What can be inferred from the episode about the family’s choice?",
+        "options": [
+          "Bishamber is praised for refusing money.",
+          "Bishamber’s demand exposes greed and dowry’s injustice.",
+          "The wedding treats a woman as an object of exchange.",
+          "His behaviour makes the match unacceptable."
+        ],
+        "answer": 1,
+        "explanation": "The detail about the family’s choice supports this inference: Bishamber’s demand exposes greed and dowry’s injustice.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 53,
+        "question": "Why is the family’s choice important to the text?",
+        "options": [
+          "Bishamber’s demand makes the wedding a test of dignity.",
+          "It exposes his greed.",
+          "The scene makes dowry’s harm concrete.",
+          "The wedding is only joyful."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because bishamber’s demand makes the wedding a test of dignity.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 54,
+        "question": "Which theme is most directly reinforced by the family’s choice?",
+        "options": [
+          "Dowry turns marriage into a transaction.",
+          "Courage can grow through education.",
+          "Greed should determine marriage decisions.",
+          "Self-respect may require challenging unjust customs."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that self-respect may require challenging unjust customs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 55,
+        "question": "Which detail is most directly associated with the family’s choice?",
+        "options": [
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "They think it may secure her future",
+          "Sulekha"
+        ],
+        "answer": 2,
+        "explanation": "The text connects the family’s choice with this detail: The family sees marriage as a practical arrangement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 56,
+        "question": "What does Bishamber demand at the wedding?",
+        "options": [
+          "A book collection",
+          "Dowry money",
+          "A school building",
+          "A government job for his son"
+        ],
+        "answer": 1,
+        "explanation": "He demands dowry after seeing Bholi’s face.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 57,
+        "question": "What can be inferred from the episode about the dowry demand?",
+        "options": [
+          "Bishamber’s demand exposes greed and dowry’s injustice.",
+          "The wedding treats a woman as an object of exchange.",
+          "His behaviour makes the match unacceptable.",
+          "Bishamber is praised for refusing money."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the dowry demand supports this inference: Bishamber’s demand exposes greed and dowry’s injustice.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 58,
+        "question": "Why is the dowry demand important to the text?",
+        "options": [
+          "It exposes his greed.",
+          "The scene makes dowry’s harm concrete.",
+          "The wedding is only joyful.",
+          "Bishamber’s demand makes the wedding a test of dignity."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because bishamber’s demand makes the wedding a test of dignity.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 59,
+        "question": "Which theme is most directly reinforced by the dowry demand?",
+        "options": [
+          "Courage can grow through education.",
+          "Greed should determine marriage decisions.",
+          "Self-respect may require challenging unjust customs.",
+          "Dowry turns marriage into a transaction."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that self-respect may require challenging unjust customs.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 60,
+        "question": "Which detail is most directly associated with the dowry demand?",
+        "options": [
+          "Pockmarks from smallpox",
+          "Dowry money",
+          "Sulekha",
+          "Others consider her simple and slow"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the dowry demand with this detail: He demands dowry after seeing Bholi’s face.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 61,
+        "question": "How does Bholi respond to the demand?",
+        "options": [
+          "She refuses to marry him",
+          "She promises any amount",
+          "She asks the teacher to pay",
+          "She leaves school forever"
+        ],
+        "answer": 0,
+        "explanation": "She rejects the match when dowry is demanded.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 62,
+        "question": "What can be inferred from the episode about her response?",
+        "options": [
+          "She values dignity above social approval.",
+          "Education helps her act independently.",
+          "She agrees out of fear.",
+          "Bholi’s refusal shows self-respect."
+        ],
+        "answer": 3,
+        "explanation": "The detail about her response supports this inference: Bholi’s refusal shows self-respect.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 63,
+        "question": "Why is her response important to the text?",
+        "options": [
+          "She rejects humiliation.",
+          "Money becomes the highest value.",
+          "Bholi’s refusal resolves the conflict through agency.",
+          "The moment shows education’s practical effect."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because bholi’s refusal resolves the conflict through agency.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 64,
+        "question": "Which theme is most directly reinforced by her response?",
+        "options": [
+          "Family pressure must always win.",
+          "A person can reject humiliation and choose dignity.",
+          "Confidence grows through encouragement.",
+          "Women deserve agency in their lives."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that a person can reject humiliation and choose dignity.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 65,
+        "question": "Which detail is most directly associated with her response?",
+        "options": [
+          "She refuses to marry him",
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox"
+        ],
+        "answer": 0,
+        "explanation": "The text connects her response with this detail: She rejects the match when dowry is demanded.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 66,
+        "question": "What does her refusal demonstrate?",
+        "options": [
+          "Forgetfulness",
+          "Love of money",
+          "Inability to decide",
+          "Self-respect and courage"
+        ],
+        "answer": 3,
+        "explanation": "She chooses dignity over humiliation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 67,
+        "question": "What can be inferred from the episode about her refusal?",
+        "options": [
+          "Education helps her act independently.",
+          "She agrees out of fear.",
+          "Bholi’s refusal shows self-respect.",
+          "She values dignity above social approval."
+        ],
+        "answer": 2,
+        "explanation": "The detail about her refusal supports this inference: Bholi’s refusal shows self-respect.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 68,
+        "question": "Why is her refusal important to the text?",
+        "options": [
+          "Money becomes the highest value.",
+          "Bholi’s refusal resolves the conflict through agency.",
+          "The moment shows education’s practical effect.",
+          "She rejects humiliation."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because bholi’s refusal resolves the conflict through agency.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 69,
+        "question": "Which theme is most directly reinforced by her refusal?",
+        "options": [
+          "A person can reject humiliation and choose dignity.",
+          "Confidence grows through encouragement.",
+          "Women deserve agency in their lives.",
+          "Family pressure must always win."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that a person can reject humiliation and choose dignity.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 70,
+        "question": "Which detail is most directly associated with her refusal?",
+        "options": [
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "Self-respect and courage"
+        ],
+        "answer": 3,
+        "explanation": "The text connects her refusal with this detail: She chooses dignity over humiliation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 71,
+        "question": "How does the teacher influence Bholi?",
+        "options": [
+          "Chooses the bridegroom",
+          "Tells her to quit school",
+          "Helps her believe in herself",
+          "Asks for dowry"
+        ],
+        "answer": 2,
+        "explanation": "Education and encouragement help Bholi find her voice.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 72,
+        "question": "What can be inferred from the episode about teacher’s influence?",
+        "options": [
+          "She agrees out of fear.",
+          "Bholi’s refusal shows self-respect.",
+          "She values dignity above social approval.",
+          "Education helps her act independently."
+        ],
+        "answer": 1,
+        "explanation": "The detail about teacher’s influence supports this inference: Bholi’s refusal shows self-respect.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 73,
+        "question": "Why is teacher’s influence important to the text?",
+        "options": [
+          "Bholi’s refusal resolves the conflict through agency.",
+          "The moment shows education’s practical effect.",
+          "She rejects humiliation.",
+          "Money becomes the highest value."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because bholi’s refusal resolves the conflict through agency.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 74,
+        "question": "Which theme is most directly reinforced by teacher’s influence?",
+        "options": [
+          "Confidence grows through encouragement.",
+          "Women deserve agency in their lives.",
+          "Family pressure must always win.",
+          "A person can reject humiliation and choose dignity."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that a person can reject humiliation and choose dignity.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 75,
+        "question": "Which detail is most directly associated with teacher’s influence?",
+        "options": [
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "Helps her believe in herself",
+          "Sulekha"
+        ],
+        "answer": 2,
+        "explanation": "The text connects teacher’s influence with this detail: Education and encouragement help Bholi find her voice.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 76,
+        "question": "What does Bholi’s father worry about?",
+        "options": [
+          "She will move to another planet",
+          "Appearance and stammer affecting marriage prospects",
+          "She will inherit a kingdom",
+          "She will refuse all work"
+        ],
+        "answer": 1,
+        "explanation": "He worries about society’s judgement.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 77,
+        "question": "What can be inferred from the episode about her father’s worry?",
+        "options": [
+          "Bholi’s refusal shows self-respect.",
+          "She values dignity above social approval.",
+          "Education helps her act independently.",
+          "She agrees out of fear."
+        ],
+        "answer": 0,
+        "explanation": "The detail about her father’s worry supports this inference: Bholi’s refusal shows self-respect.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 78,
+        "question": "Why is her father’s worry important to the text?",
+        "options": [
+          "The moment shows education’s practical effect.",
+          "She rejects humiliation.",
+          "Money becomes the highest value.",
+          "Bholi’s refusal resolves the conflict through agency."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because bholi’s refusal resolves the conflict through agency.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 79,
+        "question": "Which theme is most directly reinforced by her father’s worry?",
+        "options": [
+          "Women deserve agency in their lives.",
+          "Family pressure must always win.",
+          "A person can reject humiliation and choose dignity.",
+          "Confidence grows through encouragement."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that a person can reject humiliation and choose dignity.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 80,
+        "question": "Which detail is most directly associated with her father’s worry?",
+        "options": [
+          "Pockmarks from smallpox",
+          "Appearance and stammer affecting marriage prospects",
+          "Sulekha",
+          "Others consider her simple and slow"
+        ],
+        "answer": 1,
+        "explanation": "The text connects her father’s worry with this detail: He worries about society’s judgement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 81,
+        "question": "Why is the wedding scene a turning point?",
+        "options": [
+          "Bholi publicly rejects an unjust demand",
+          "She gets a scholarship abroad",
+          "Bishamber apologises",
+          "The school closes"
+        ],
+        "answer": 0,
+        "explanation": "The scene shows her new confidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 82,
+        "question": "What can be inferred from the episode about the wedding scene?",
+        "options": [
+          "Education helps people resist unfair expectations.",
+          "The ending values courage and self-respect.",
+          "A woman’s only goal is marriage.",
+          "The story challenges appearance and gender discrimination."
+        ],
+        "answer": 3,
+        "explanation": "The detail about the wedding scene supports this inference: The story challenges appearance and gender discrimination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 83,
+        "question": "Why is the wedding scene important to the text?",
+        "options": [
+          "The resolution challenges low expectations.",
+          "She loses her voice again.",
+          "The ending completes her movement from fear to confidence.",
+          "Her final stand highlights self-respect."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because the ending completes her movement from fear to confidence.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 84,
+        "question": "Which theme is most directly reinforced by the wedding scene?",
+        "options": [
+          "Women should accept every proposal.",
+          "Prejudice can be challenged through education and courage.",
+          "Kindness can unlock potential.",
+          "Dignity matters more than pleasing unjust people."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that prejudice can be challenged through education and courage.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 85,
+        "question": "Which detail is most directly associated with the wedding scene?",
+        "options": [
+          "Bholi publicly rejects an unjust demand",
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox"
+        ],
+        "answer": 0,
+        "explanation": "The text connects the wedding scene with this detail: The scene shows her new confidence.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 86,
+        "question": "Which social problem does the story criticise?",
+        "options": [
+          "Lack of trains",
+          "Overuse of technology",
+          "Sports competition",
+          "Dowry and prejudice against women"
+        ],
+        "answer": 3,
+        "explanation": "The story exposes gender bias and appearance-based judgement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 87,
+        "question": "What can be inferred from the episode about the social problem?",
+        "options": [
+          "The ending values courage and self-respect.",
+          "A woman’s only goal is marriage.",
+          "The story challenges appearance and gender discrimination.",
+          "Education helps people resist unfair expectations."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the social problem supports this inference: The story challenges appearance and gender discrimination.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 88,
+        "question": "Why is the social problem important to the text?",
+        "options": [
+          "She loses her voice again.",
+          "The ending completes her movement from fear to confidence.",
+          "Her final stand highlights self-respect.",
+          "The resolution challenges low expectations."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because the ending completes her movement from fear to confidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 89,
+        "question": "Which theme is most directly reinforced by the social problem?",
+        "options": [
+          "Prejudice can be challenged through education and courage.",
+          "Kindness can unlock potential.",
+          "Dignity matters more than pleasing unjust people.",
+          "Women should accept every proposal."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that prejudice can be challenged through education and courage.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 90,
+        "question": "Which detail is most directly associated with the social problem?",
+        "options": [
+          "Sulekha",
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "Dowry and prejudice against women"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the social problem with this detail: The story exposes gender bias and appearance-based judgement.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 91,
+        "question": "What does the nickname reveal about others’ judgement?",
+        "options": [
+          "They recognise a famous author",
+          "They think she predicts weather",
+          "They mistake gentleness for lack of ability",
+          "They know she is a queen"
+        ],
+        "answer": 2,
+        "explanation": "The nickname reduces her to an underestimated identity.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 92,
+        "question": "What can be inferred from the episode about the nickname’s meaning?",
+        "options": [
+          "A woman’s only goal is marriage.",
+          "The story challenges appearance and gender discrimination.",
+          "Education helps people resist unfair expectations.",
+          "The ending values courage and self-respect."
+        ],
+        "answer": 1,
+        "explanation": "The detail about the nickname’s meaning supports this inference: The story challenges appearance and gender discrimination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 93,
+        "question": "Why is the nickname’s meaning important to the text?",
+        "options": [
+          "The ending completes her movement from fear to confidence.",
+          "Her final stand highlights self-respect.",
+          "The resolution challenges low expectations.",
+          "She loses her voice again."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because the ending completes her movement from fear to confidence.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 94,
+        "question": "Which theme is most directly reinforced by the nickname’s meaning?",
+        "options": [
+          "Kindness can unlock potential.",
+          "Dignity matters more than pleasing unjust people.",
+          "Women should accept every proposal.",
+          "Prejudice can be challenged through education and courage."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that prejudice can be challenged through education and courage.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 95,
+        "question": "Which detail is most directly associated with the nickname’s meaning?",
+        "options": [
+          "Others consider her simple and slow",
+          "Pockmarks from smallpox",
+          "They mistake gentleness for lack of ability",
+          "Sulekha"
+        ],
+        "answer": 2,
+        "explanation": "The text connects the nickname’s meaning with this detail: The nickname reduces her to an underestimated identity.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 96,
+        "question": "How has Bholi changed by the end?",
+        "options": [
+          "She stops valuing education",
+          "She speaks firmly and chooses her future",
+          "She becomes more afraid",
+          "She accepts every demand"
+        ],
+        "answer": 1,
+        "explanation": "Her refusal shows growth in confidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 97,
+        "question": "What can be inferred from the episode about Bholi’s change?",
+        "options": [
+          "The story challenges appearance and gender discrimination.",
+          "Education helps people resist unfair expectations.",
+          "The ending values courage and self-respect.",
+          "A woman’s only goal is marriage."
+        ],
+        "answer": 0,
+        "explanation": "The detail about Bholi’s change supports this inference: The story challenges appearance and gender discrimination.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 98,
+        "question": "Why is Bholi’s change important to the text?",
+        "options": [
+          "Her final stand highlights self-respect.",
+          "The resolution challenges low expectations.",
+          "She loses her voice again.",
+          "The ending completes her movement from fear to confidence."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because the ending completes her movement from fear to confidence.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 99,
+        "question": "Which theme is most directly reinforced by Bholi’s change?",
+        "options": [
+          "Dignity matters more than pleasing unjust people.",
+          "Women should accept every proposal.",
+          "Prejudice can be challenged through education and courage.",
+          "Kindness can unlock potential."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that prejudice can be challenged through education and courage.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 100,
+        "question": "Which detail is most directly associated with Bholi’s change?",
+        "options": [
+          "Pockmarks from smallpox",
+          "She speaks firmly and chooses her future",
+          "Sulekha",
+          "Others consider her simple and slow"
+        ],
+        "answer": 1,
+        "explanation": "The text connects Bholi’s change with this detail: Her refusal shows growth in confidence.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 28,
+    "title": "The Book That Saved the Earth",
+    "key": "the_book_that_saved_the_earth",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Who wrote “The Book That Saved the Earth”?",
+        "options": [
+          "Claire Boiko",
+          "W. B. Yeats",
+          "K. A. Abbas",
+          "Guy de Maupassant"
+        ],
+        "answer": 0,
+        "explanation": "The play was written by Claire Boiko.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 2,
+        "question": "What can be inferred from the episode about the author?",
+        "options": [
+          "The Martians lack cultural context.",
+          "Information can be misread.",
+          "Think-Tank checks every assumption.",
+          "Think-Tank’s confidence is not matched by understanding."
+        ],
+        "answer": 3,
+        "explanation": "The detail about the author supports this inference: Think-Tank’s confidence is not matched by understanding.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 3,
+        "question": "Why is the author important to the text?",
+        "options": [
+          "The plan makes later misunderstanding consequential.",
+          "The opening proves they understand Earth.",
+          "The opening establishes Think-Tank’s power and overconfidence.",
+          "The command structure sets up rank versus judgement."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because the opening establishes Think-Tank’s power and overconfidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 4,
+        "question": "Which theme is most directly reinforced by the author?",
+        "options": [
+          "Every unfamiliar book is a weapon.",
+          "Knowledge requires context, not guessing.",
+          "Arrogance can distort evidence.",
+          "Cultural understanding matters in language."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that knowledge requires context, not guessing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 5,
+        "question": "Which detail is most directly associated with the author?",
+        "options": [
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "Mars"
+        ],
+        "answer": 0,
+        "explanation": "The text connects the author with this detail: The play was written by Claire Boiko.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 6,
+        "question": "What kind of text is it?",
+        "options": [
+          "A diary",
+          "A lyric poem",
+          "A travelogue",
+          "A science-fiction play"
+        ],
+        "answer": 3,
+        "explanation": "The text is a humorous science-fiction play.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 7,
+        "question": "What can be inferred from the episode about the form?",
+        "options": [
+          "Information can be misread.",
+          "Think-Tank checks every assumption.",
+          "Think-Tank’s confidence is not matched by understanding.",
+          "The Martians lack cultural context."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the form supports this inference: Think-Tank’s confidence is not matched by understanding.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 8,
+        "question": "Why is the form important to the text?",
+        "options": [
+          "The opening proves they understand Earth.",
+          "The opening establishes Think-Tank’s power and overconfidence.",
+          "The command structure sets up rank versus judgement.",
+          "The plan makes later misunderstanding consequential."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because the opening establishes Think-Tank’s power and overconfidence.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 9,
+        "question": "Which theme is most directly reinforced by the form?",
+        "options": [
+          "Knowledge requires context, not guessing.",
+          "Arrogance can distort evidence.",
+          "Cultural understanding matters in language.",
+          "Every unfamiliar book is a weapon."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that knowledge requires context, not guessing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 10,
+        "question": "Which detail is most directly associated with the form?",
+        "options": [
+          "Claire Boiko",
+          "The twenty-fifth century",
+          "Mars",
+          "A science-fiction play"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the form with this detail: The text is a humorous science-fiction play.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 11,
+        "question": "From which century does the frame narrator look back?",
+        "options": [
+          "The seventeenth",
+          "The nineteenth",
+          "The twenty-fifth century",
+          "The tenth"
+        ],
+        "answer": 2,
+        "explanation": "The Historian narrates from the twenty-fifth century.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 12,
+        "question": "What can be inferred from the episode about the frame setting?",
+        "options": [
+          "Think-Tank checks every assumption.",
+          "Think-Tank’s confidence is not matched by understanding.",
+          "The Martians lack cultural context.",
+          "Information can be misread."
+        ],
+        "answer": 1,
+        "explanation": "The detail about the frame setting supports this inference: Think-Tank’s confidence is not matched by understanding.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 13,
+        "question": "Why is the frame setting important to the text?",
+        "options": [
+          "The opening establishes Think-Tank’s power and overconfidence.",
+          "The command structure sets up rank versus judgement.",
+          "The plan makes later misunderstanding consequential.",
+          "The opening proves they understand Earth."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because the opening establishes Think-Tank’s power and overconfidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 14,
+        "question": "Which theme is most directly reinforced by the frame setting?",
+        "options": [
+          "Arrogance can distort evidence.",
+          "Cultural understanding matters in language.",
+          "Every unfamiliar book is a weapon.",
+          "Knowledge requires context, not guessing."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that knowledge requires context, not guessing.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 15,
+        "question": "Which detail is most directly associated with the frame setting?",
+        "options": [
+          "A science-fiction play",
+          "Mars",
+          "The twenty-fifth century",
+          "Claire Boiko"
+        ],
+        "answer": 2,
+        "explanation": "The text connects the frame setting with this detail: The Historian narrates from the twenty-fifth century.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 16,
+        "question": "Which planet plans to invade Earth?",
+        "options": [
+          "Saturn",
+          "Mars",
+          "Venus",
+          "Jupiter"
+        ],
+        "answer": 1,
+        "explanation": "The Martians plan to invade Earth.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 17,
+        "question": "What can be inferred from the episode about the invading planet?",
+        "options": [
+          "Think-Tank’s confidence is not matched by understanding.",
+          "The Martians lack cultural context.",
+          "Information can be misread.",
+          "Think-Tank checks every assumption."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the invading planet supports this inference: Think-Tank’s confidence is not matched by understanding.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 18,
+        "question": "Why is the invading planet important to the text?",
+        "options": [
+          "The command structure sets up rank versus judgement.",
+          "The plan makes later misunderstanding consequential.",
+          "The opening proves they understand Earth.",
+          "The opening establishes Think-Tank’s power and overconfidence."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because the opening establishes Think-Tank’s power and overconfidence.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 19,
+        "question": "Which theme is most directly reinforced by the invading planet?",
+        "options": [
+          "Cultural understanding matters in language.",
+          "Every unfamiliar book is a weapon.",
+          "Knowledge requires context, not guessing.",
+          "Arrogance can distort evidence."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that knowledge requires context, not guessing.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 20,
+        "question": "Which detail is most directly associated with the invading planet?",
+        "options": [
+          "The twenty-fifth century",
+          "Mars",
+          "Claire Boiko",
+          "A science-fiction play"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the invading planet with this detail: The Martians plan to invade Earth.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 21,
+        "question": "Who leads the Martian invasion plan?",
+        "options": [
+          "Think-Tank",
+          "Noodle",
+          "Captain Omega",
+          "The Historian"
+        ],
+        "answer": 0,
+        "explanation": "Think-Tank is the supreme commander.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 22,
+        "question": "What can be inferred from the episode about Think-Tank?",
+        "options": [
+          "A thoughtful deputy may see what a powerful leader misses.",
+          "Noodle provides an alternative to blind confidence.",
+          "Noodle commands Earth.",
+          "Noodle gives cautious advice in contrast to Think-Tank’s arrogance."
+        ],
+        "answer": 3,
+        "explanation": "The detail about Think-Tank supports this inference: Noodle gives cautious advice in contrast to Think-Tank’s arrogance.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 23,
+        "question": "Why is Think-Tank important to the text?",
+        "options": [
+          "Rank does not guarantee wisdom.",
+          "Noodle wrote the rhymes.",
+          "Noodle’s suggestions contrast with Think-Tank’s impulsiveness.",
+          "His cautious reasoning advances the plot."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because noodle’s suggestions contrast with Think-Tank’s impulsiveness.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 24,
+        "question": "Which theme is most directly reinforced by Think-Tank?",
+        "options": [
+          "A deputy should never question a commander.",
+          "Practical reasoning can beat loud authority.",
+          "Leaders should listen to advice.",
+          "Confidence is not understanding."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that practical reasoning can beat loud authority.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 25,
+        "question": "Which detail is most directly associated with Think-Tank?",
+        "options": [
+          "Think-Tank",
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century"
+        ],
+        "answer": 0,
+        "explanation": "The text connects Think-Tank with this detail: Think-Tank is the supreme commander.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 26,
+        "question": "Who is Noodle?",
+        "options": [
+          "An Earth librarian",
+          "A nursery-rhyme robot",
+          "The Historian’s teacher",
+          "Think-Tank’s deputy"
+        ],
+        "answer": 3,
+        "explanation": "Noodle is the deputy who often offers sensible suggestions.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 27,
+        "question": "What can be inferred from the episode about Noodle?",
+        "options": [
+          "Noodle provides an alternative to blind confidence.",
+          "Noodle commands Earth.",
+          "Noodle gives cautious advice in contrast to Think-Tank’s arrogance.",
+          "A thoughtful deputy may see what a powerful leader misses."
+        ],
+        "answer": 2,
+        "explanation": "The detail about Noodle supports this inference: Noodle gives cautious advice in contrast to Think-Tank’s arrogance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 28,
+        "question": "Why is Noodle important to the text?",
+        "options": [
+          "Noodle wrote the rhymes.",
+          "Noodle’s suggestions contrast with Think-Tank’s impulsiveness.",
+          "His cautious reasoning advances the plot.",
+          "Rank does not guarantee wisdom."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because noodle’s suggestions contrast with Think-Tank’s impulsiveness.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 29,
+        "question": "Which theme is most directly reinforced by Noodle?",
+        "options": [
+          "Practical reasoning can beat loud authority.",
+          "Leaders should listen to advice.",
+          "Confidence is not understanding.",
+          "A deputy should never question a commander."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that practical reasoning can beat loud authority.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 30,
+        "question": "Which detail is most directly associated with Noodle?",
+        "options": [
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "Think-Tank’s deputy"
+        ],
+        "answer": 3,
+        "explanation": "The text connects Noodle with this detail: Noodle is the deputy who often offers sensible suggestions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 31,
+        "question": "Who leads the Martian mission?",
+        "options": [
+          "Fowler",
+          "Dr Herriot",
+          "Captain Omega",
+          "Bishamber"
+        ],
+        "answer": 2,
+        "explanation": "Captain Omega is part of the expedition team.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 32,
+        "question": "What can be inferred from the episode about Captain Omega?",
+        "options": [
+          "Noodle commands Earth.",
+          "Noodle gives cautious advice in contrast to Think-Tank’s arrogance.",
+          "A thoughtful deputy may see what a powerful leader misses.",
+          "Noodle provides an alternative to blind confidence."
+        ],
+        "answer": 1,
+        "explanation": "The detail about Captain Omega supports this inference: Noodle gives cautious advice in contrast to Think-Tank’s arrogance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 33,
+        "question": "Why is Captain Omega important to the text?",
+        "options": [
+          "Noodle’s suggestions contrast with Think-Tank’s impulsiveness.",
+          "His cautious reasoning advances the plot.",
+          "Rank does not guarantee wisdom.",
+          "Noodle wrote the rhymes."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because noodle’s suggestions contrast with Think-Tank’s impulsiveness.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 34,
+        "question": "Which theme is most directly reinforced by Captain Omega?",
+        "options": [
+          "Leaders should listen to advice.",
+          "Confidence is not understanding.",
+          "A deputy should never question a commander.",
+          "Practical reasoning can beat loud authority."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that practical reasoning can beat loud authority.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 35,
+        "question": "Which detail is most directly associated with Captain Omega?",
+        "options": [
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "Captain Omega",
+          "Claire Boiko"
+        ],
+        "answer": 2,
+        "explanation": "The text connects Captain Omega with this detail: Captain Omega is part of the expedition team.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 36,
+        "question": "What do the Martians find on Earth?",
+        "options": [
+          "A Mars phone directory",
+          "A book of nursery rhymes",
+          "A laser weapon",
+          "Jewels"
+        ],
+        "answer": 1,
+        "explanation": "They encounter a nursery-rhyme book.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 37,
+        "question": "What can be inferred from the episode about the book?",
+        "options": [
+          "Noodle gives cautious advice in contrast to Think-Tank’s arrogance.",
+          "A thoughtful deputy may see what a powerful leader misses.",
+          "Noodle provides an alternative to blind confidence.",
+          "Noodle commands Earth."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the book supports this inference: Noodle gives cautious advice in contrast to Think-Tank’s arrogance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 38,
+        "question": "Why is the book important to the text?",
+        "options": [
+          "His cautious reasoning advances the plot.",
+          "Rank does not guarantee wisdom.",
+          "Noodle wrote the rhymes.",
+          "Noodle’s suggestions contrast with Think-Tank’s impulsiveness."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because noodle’s suggestions contrast with Think-Tank’s impulsiveness.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 39,
+        "question": "Which theme is most directly reinforced by the book?",
+        "options": [
+          "Confidence is not understanding.",
+          "A deputy should never question a commander.",
+          "Practical reasoning can beat loud authority.",
+          "Leaders should listen to advice."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that practical reasoning can beat loud authority.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 40,
+        "question": "Which detail is most directly associated with the book?",
+        "options": [
+          "The twenty-fifth century",
+          "A book of nursery rhymes",
+          "Claire Boiko",
+          "A science-fiction play"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the book with this detail: They encounter a nursery-rhyme book.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 41,
+        "question": "How do they initially interpret the book?",
+        "options": [
+          "As powerful intelligence or a weapon",
+          "A cooking pot",
+          "A Mars map",
+          "A school timetable"
+        ],
+        "answer": 0,
+        "explanation": "They misread ordinary rhymes as intelligence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 42,
+        "question": "What can be inferred from the episode about the interpretation?",
+        "options": [
+          "Misunderstanding changes the invasion plan.",
+          "Cultural context drives the comic conflict.",
+          "The book is a bomb.",
+          "The book frightens the Martians only because they misread it."
+        ],
+        "answer": 3,
+        "explanation": "The detail about the interpretation supports this inference: The book frightens the Martians only because they misread it.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 43,
+        "question": "Why is the interpretation important to the text?",
+        "options": [
+          "It causes a strategic change despite being ordinary.",
+          "The book destroys the fleet physically.",
+          "The book is the turning point.",
+          "Its contents become comic evidence to the Martians."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because the book is the turning point.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 44,
+        "question": "Which theme is most directly reinforced by the interpretation?",
+        "options": [
+          "Nursery rhymes are military plans.",
+          "Books preserve culture and imagination.",
+          "Ordinary objects can have unexpected effects when misread.",
+          "Literal reading can distort meaning."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that books preserve culture and imagination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 45,
+        "question": "Which detail is most directly associated with the interpretation?",
+        "options": [
+          "As powerful intelligence or a weapon",
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century"
+        ],
+        "answer": 0,
+        "explanation": "The text connects the interpretation with this detail: They misread ordinary rhymes as intelligence.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 46,
+        "question": "Which rhyme features a girl and a spider?",
+        "options": [
+          "Humpty Dumpty",
+          "Jack and Jill",
+          "Baa Baa Black Sheep",
+          "Little Miss Muffet"
+        ],
+        "answer": 3,
+        "explanation": "Miss Muffet is frightened by a spider.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 47,
+        "question": "What can be inferred from the episode about Miss Muffet?",
+        "options": [
+          "Cultural context drives the comic conflict.",
+          "The book is a bomb.",
+          "The book frightens the Martians only because they misread it.",
+          "Misunderstanding changes the invasion plan."
+        ],
+        "answer": 2,
+        "explanation": "The detail about Miss Muffet supports this inference: The book frightens the Martians only because they misread it.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 48,
+        "question": "Why is Miss Muffet important to the text?",
+        "options": [
+          "The book destroys the fleet physically.",
+          "The book is the turning point.",
+          "Its contents become comic evidence to the Martians.",
+          "It causes a strategic change despite being ordinary."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because the book is the turning point.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 49,
+        "question": "Which theme is most directly reinforced by Miss Muffet?",
+        "options": [
+          "Books preserve culture and imagination.",
+          "Ordinary objects can have unexpected effects when misread.",
+          "Literal reading can distort meaning.",
+          "Nursery rhymes are military plans."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that books preserve culture and imagination.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 50,
+        "question": "Which detail is most directly associated with Miss Muffet?",
+        "options": [
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "Little Miss Muffet"
+        ],
+        "answer": 3,
+        "explanation": "The text connects Miss Muffet with this detail: Miss Muffet is frightened by a spider.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 51,
+        "question": "Which nursery-rhyme character is an egg?",
+        "options": [
+          "Jack",
+          "The Owl",
+          "Humpty Dumpty",
+          "Little Miss Muffet"
+        ],
+        "answer": 2,
+        "explanation": "Humpty Dumpty is depicted as an egg.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 52,
+        "question": "What can be inferred from the episode about Humpty Dumpty?",
+        "options": [
+          "The book is a bomb.",
+          "The book frightens the Martians only because they misread it.",
+          "Misunderstanding changes the invasion plan.",
+          "Cultural context drives the comic conflict."
+        ],
+        "answer": 1,
+        "explanation": "The detail about Humpty Dumpty supports this inference: The book frightens the Martians only because they misread it.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 53,
+        "question": "Why is Humpty Dumpty important to the text?",
+        "options": [
+          "The book is the turning point.",
+          "Its contents become comic evidence to the Martians.",
+          "It causes a strategic change despite being ordinary.",
+          "The book destroys the fleet physically."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because the book is the turning point.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 54,
+        "question": "Which theme is most directly reinforced by Humpty Dumpty?",
+        "options": [
+          "Ordinary objects can have unexpected effects when misread.",
+          "Literal reading can distort meaning.",
+          "Nursery rhymes are military plans.",
+          "Books preserve culture and imagination."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that books preserve culture and imagination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 55,
+        "question": "Which detail is most directly associated with Humpty Dumpty?",
+        "options": [
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "Humpty Dumpty",
+          "Claire Boiko"
+        ],
+        "answer": 2,
+        "explanation": "The text connects Humpty Dumpty with this detail: Humpty Dumpty is depicted as an egg.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 56,
+        "question": "What is the Martians’ main reading mistake?",
+        "options": [
+          "They memorise all rhymes",
+          "They take playful rhymes literally",
+          "They translate perfectly",
+          "They know every cultural reference"
+        ],
+        "answer": 1,
+        "explanation": "Their lack of context creates absurd interpretations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 57,
+        "question": "What can be inferred from the episode about the reading mistake?",
+        "options": [
+          "The book frightens the Martians only because they misread it.",
+          "Misunderstanding changes the invasion plan.",
+          "Cultural context drives the comic conflict.",
+          "The book is a bomb."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the reading mistake supports this inference: The book frightens the Martians only because they misread it.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 58,
+        "question": "Why is the reading mistake important to the text?",
+        "options": [
+          "Its contents become comic evidence to the Martians.",
+          "It causes a strategic change despite being ordinary.",
+          "The book destroys the fleet physically.",
+          "The book is the turning point."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because the book is the turning point.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 59,
+        "question": "Which theme is most directly reinforced by the reading mistake?",
+        "options": [
+          "Literal reading can distort meaning.",
+          "Nursery rhymes are military plans.",
+          "Books preserve culture and imagination.",
+          "Ordinary objects can have unexpected effects when misread."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that books preserve culture and imagination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 60,
+        "question": "Which detail is most directly associated with the reading mistake?",
+        "options": [
+          "The twenty-fifth century",
+          "They take playful rhymes literally",
+          "Claire Boiko",
+          "A science-fiction play"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the reading mistake with this detail: Their lack of context creates absurd interpretations.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 61,
+        "question": "How does Noodle differ from Think-Tank?",
+        "options": [
+          "He offers cautious practical suggestions",
+          "He demands praise",
+          "He refuses to read",
+          "He commands Earth"
+        ],
+        "answer": 0,
+        "explanation": "Noodle’s advice contrasts with Think-Tank’s arrogance.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 62,
+        "question": "What can be inferred from the episode about Noodle? (Practice item 62)",
+        "options": [
+          "The frame gives events a later perspective.",
+          "The Historian places action in the future.",
+          "The Historian leads the mission.",
+          "The future frame presents the episode as remembered history."
+        ],
+        "answer": 3,
+        "explanation": "The detail about Noodle supports this inference: The future frame presents the episode as remembered history.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 63,
+        "question": "Why is Noodle important to the text? (Practice item 63)",
+        "options": [
+          "The framing explains why the event is remembered.",
+          "The Historian leads the mission.",
+          "The frame links a past event to a future audience.",
+          "It gives historical perspective."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because the frame links a past event to a future audience.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 64,
+        "question": "Which theme is most directly reinforced by Noodle? (Practice item 64)",
+        "options": [
+          "A narrator must join the main action.",
+          "History depends partly on how later generations tell events.",
+          "A frame narrative adds perspective.",
+          "Memory affects interpretation."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that history depends partly on how later generations tell events.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 65,
+        "question": "Which detail is most directly associated with Noodle? (Practice item 65)",
+        "options": [
+          "He offers cautious practical suggestions",
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century"
+        ],
+        "answer": 0,
+        "explanation": "The text connects Noodle with this detail: Noodle’s advice contrasts with Think-Tank’s arrogance.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 66,
+        "question": "Why does Think-Tank misjudge Earth?",
+        "options": [
+          "He has lived on Earth",
+          "He understands every rhyme",
+          "He gets a perfect report",
+          "Arrogance distorts his interpretation of evidence"
+        ],
+        "answer": 3,
+        "explanation": "Overconfidence makes him misread the book.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 67,
+        "question": "What can be inferred from the episode about the mistake?",
+        "options": [
+          "The Historian places action in the future.",
+          "The Historian leads the mission.",
+          "The future frame presents the episode as remembered history.",
+          "The frame gives events a later perspective."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the mistake supports this inference: The future frame presents the episode as remembered history.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 68,
+        "question": "Why is the mistake important to the text?",
+        "options": [
+          "The Historian leads the mission.",
+          "The frame links a past event to a future audience.",
+          "It gives historical perspective.",
+          "The framing explains why the event is remembered."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because the frame links a past event to a future audience.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 69,
+        "question": "Which theme is most directly reinforced by the mistake?",
+        "options": [
+          "History depends partly on how later generations tell events.",
+          "A frame narrative adds perspective.",
+          "Memory affects interpretation.",
+          "A narrator must join the main action."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that history depends partly on how later generations tell events.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 70,
+        "question": "Which detail is most directly associated with the mistake?",
+        "options": [
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "Arrogance distorts his interpretation of evidence"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the mistake with this detail: Overconfidence makes him misread the book.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 71,
+        "question": "What effect does the book have on the invasion plan?",
+        "options": [
+          "They demand payment",
+          "They build a new weapon",
+          "The Martians abandon the invasion",
+          "They capture a library"
+        ],
+        "answer": 2,
+        "explanation": "Their misunderstanding makes Earth appear too powerful to attack.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 72,
+        "question": "What can be inferred from the episode about the book’s effect?",
+        "options": [
+          "The Historian leads the mission.",
+          "The future frame presents the episode as remembered history.",
+          "The frame gives events a later perspective.",
+          "The Historian places action in the future."
+        ],
+        "answer": 1,
+        "explanation": "The detail about the book’s effect supports this inference: The future frame presents the episode as remembered history.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 73,
+        "question": "Why is the book’s effect important to the text?",
+        "options": [
+          "The frame links a past event to a future audience.",
+          "It gives historical perspective.",
+          "The framing explains why the event is remembered.",
+          "The Historian leads the mission."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because the frame links a past event to a future audience.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 74,
+        "question": "Which theme is most directly reinforced by the book’s effect?",
+        "options": [
+          "A frame narrative adds perspective.",
+          "Memory affects interpretation.",
+          "A narrator must join the main action.",
+          "History depends partly on how later generations tell events."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that history depends partly on how later generations tell events.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 75,
+        "question": "Which detail is most directly associated with the book’s effect?",
+        "options": [
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "The Martians abandon the invasion",
+          "Claire Boiko"
+        ],
+        "answer": 2,
+        "explanation": "The text connects the book’s effect with this detail: Their misunderstanding makes Earth appear too powerful to attack.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 76,
+        "question": "Why is the play humorous?",
+        "options": [
+          "Everyone speaks in code",
+          "Ordinary rhymes are treated as frightening intelligence",
+          "Earth has no written language",
+          "The narrator cannot read dates"
+        ],
+        "answer": 1,
+        "explanation": "Comedy comes from the gap between simple rhymes and grand conclusions.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 77,
+        "question": "What can be inferred from the episode about the humour?",
+        "options": [
+          "The future frame presents the episode as remembered history.",
+          "The frame gives events a later perspective.",
+          "The Historian places action in the future.",
+          "The Historian leads the mission."
+        ],
+        "answer": 0,
+        "explanation": "The detail about the humour supports this inference: The future frame presents the episode as remembered history.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 78,
+        "question": "Why is the humour important to the text?",
+        "options": [
+          "It gives historical perspective.",
+          "The framing explains why the event is remembered.",
+          "The Historian leads the mission.",
+          "The frame links a past event to a future audience."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because the frame links a past event to a future audience.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 79,
+        "question": "Which theme is most directly reinforced by the humour?",
+        "options": [
+          "Memory affects interpretation.",
+          "A narrator must join the main action.",
+          "History depends partly on how later generations tell events.",
+          "A frame narrative adds perspective."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that history depends partly on how later generations tell events.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 80,
+        "question": "Which detail is most directly associated with the humour?",
+        "options": [
+          "The twenty-fifth century",
+          "Ordinary rhymes are treated as frightening intelligence",
+          "Claire Boiko",
+          "A science-fiction play"
+        ],
+        "answer": 1,
+        "explanation": "The text connects the humour with this detail: Comedy comes from the gap between simple rhymes and grand conclusions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 81,
+        "question": "What does Think-Tank’s reaction reveal?",
+        "options": [
+          "Confidence without understanding can be foolish",
+          "The loudest person is always right",
+          "Technology prevents all errors",
+          "Reading is dangerous"
+        ],
+        "answer": 0,
+        "explanation": "His certainty does not prevent misunderstanding.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 82,
+        "question": "What can be inferred from the episode about Think-Tank’s reaction?",
+        "options": [
+          "The Martians mistake playful images for threats.",
+          "The misunderstanding has real consequences.",
+          "The Martians conquer Earth first.",
+          "The invasion is abandoned after absurd conclusions from the book."
+        ],
+        "answer": 3,
+        "explanation": "The detail about Think-Tank’s reaction supports this inference: The invasion is abandoned after absurd conclusions from the book.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 83,
+        "question": "Why is Think-Tank’s reaction important to the text?",
+        "options": [
+          "The result exposes arrogant interpretation.",
+          "The ending rewards invasion.",
+          "Think-Tank’s retreat resolves the immediate threat.",
+          "The mistaken reading turns comedy into plot resolution."
+        ],
+        "answer": 2,
+        "explanation": "This episode matters because think-Tank’s retreat resolves the immediate threat.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 84,
+        "question": "Which theme is most directly reinforced by Think-Tank’s reaction?",
+        "options": [
+          "Mistaken assumptions guarantee success.",
+          "Humility and evidence are essential for sound judgement.",
+          "Misinterpretation can have consequences.",
+          "Humour can expose false confidence."
+        ],
+        "answer": 1,
+        "explanation": "The text reinforces the idea that humility and evidence are essential for sound judgement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 85,
+        "question": "Which detail is most directly associated with Think-Tank’s reaction?",
+        "options": [
+          "Confidence without understanding can be foolish",
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century"
+        ],
+        "answer": 0,
+        "explanation": "The text connects Think-Tank’s reaction with this detail: His certainty does not prevent misunderstanding.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 86,
+        "question": "Why is the book an effective plot device?",
+        "options": [
+          "It contains a bomb",
+          "It maps Mars",
+          "It proves Earth has no culture",
+          "Its contents are misread as evidence of Earth’s power"
+        ],
+        "answer": 3,
+        "explanation": "The ordinary book becomes the unlikely cause of the invasion’s failure.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 87,
+        "question": "What can be inferred from the episode about the book’s role?",
+        "options": [
+          "The misunderstanding has real consequences.",
+          "The Martians conquer Earth first.",
+          "The invasion is abandoned after absurd conclusions from the book.",
+          "The Martians mistake playful images for threats."
+        ],
+        "answer": 2,
+        "explanation": "The detail about the book’s role supports this inference: The invasion is abandoned after absurd conclusions from the book.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 88,
+        "question": "Why is the book’s role important to the text?",
+        "options": [
+          "The ending rewards invasion.",
+          "Think-Tank’s retreat resolves the immediate threat.",
+          "The mistaken reading turns comedy into plot resolution.",
+          "The result exposes arrogant interpretation."
+        ],
+        "answer": 1,
+        "explanation": "This episode matters because think-Tank’s retreat resolves the immediate threat.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 89,
+        "question": "Which theme is most directly reinforced by the book’s role?",
+        "options": [
+          "Humility and evidence are essential for sound judgement.",
+          "Misinterpretation can have consequences.",
+          "Humour can expose false confidence.",
+          "Mistaken assumptions guarantee success."
+        ],
+        "answer": 0,
+        "explanation": "The text reinforces the idea that humility and evidence are essential for sound judgement.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 90,
+        "question": "Which detail is most directly associated with the book’s role?",
+        "options": [
+          "Claire Boiko",
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "Its contents are misread as evidence of Earth’s power"
+        ],
+        "answer": 3,
+        "explanation": "The text connects the book’s role with this detail: The ordinary book becomes the unlikely cause of the invasion’s failure.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 91,
+        "question": "How does the frame narrator affect the play?",
+        "options": [
+          "The narrator invades Earth",
+          "The action stops before the book appears",
+          "The event is presented as remembered future history",
+          "The ending changes each minute"
+        ],
+        "answer": 2,
+        "explanation": "The Historian gives the events a future perspective.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 92,
+        "question": "What can be inferred from the episode about the frame narrative?",
+        "options": [
+          "The Martians conquer Earth first.",
+          "The invasion is abandoned after absurd conclusions from the book.",
+          "The Martians mistake playful images for threats.",
+          "The misunderstanding has real consequences."
+        ],
+        "answer": 1,
+        "explanation": "The detail about the frame narrative supports this inference: The invasion is abandoned after absurd conclusions from the book.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 93,
+        "question": "Why is the frame narrative important to the text?",
+        "options": [
+          "Think-Tank’s retreat resolves the immediate threat.",
+          "The mistaken reading turns comedy into plot resolution.",
+          "The result exposes arrogant interpretation.",
+          "The ending rewards invasion."
+        ],
+        "answer": 0,
+        "explanation": "This episode matters because think-Tank’s retreat resolves the immediate threat.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 94,
+        "question": "Which theme is most directly reinforced by the frame narrative?",
+        "options": [
+          "Misinterpretation can have consequences.",
+          "Humour can expose false confidence.",
+          "Mistaken assumptions guarantee success.",
+          "Humility and evidence are essential for sound judgement."
+        ],
+        "answer": 3,
+        "explanation": "The text reinforces the idea that humility and evidence are essential for sound judgement.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 95,
+        "question": "Which detail is most directly associated with the frame narrative?",
+        "options": [
+          "A science-fiction play",
+          "The twenty-fifth century",
+          "The event is presented as remembered future history",
+          "Claire Boiko"
+        ],
+        "answer": 2,
+        "explanation": "The text connects the frame narrative with this detail: The Historian gives the events a future perspective.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 96,
+        "question": "What does Think-Tank’s reaction reveal about him?",
+        "options": [
+          "He knows Earth literature",
+          "He is insecure beneath his superiority",
+          "He verifies every assumption",
+          "He welcomes criticism"
+        ],
+        "answer": 1,
+        "explanation": "His exaggerated reactions reveal poor judgement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 97,
+        "question": "What can be inferred from the episode about Think-Tank’s character?",
+        "options": [
+          "The invasion is abandoned after absurd conclusions from the book.",
+          "The Martians mistake playful images for threats.",
+          "The misunderstanding has real consequences.",
+          "The Martians conquer Earth first."
+        ],
+        "answer": 0,
+        "explanation": "The detail about Think-Tank’s character supports this inference: The invasion is abandoned after absurd conclusions from the book.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": 98,
+        "question": "Why is Think-Tank’s character important to the text?",
+        "options": [
+          "The mistaken reading turns comedy into plot resolution.",
+          "The result exposes arrogant interpretation.",
+          "The ending rewards invasion.",
+          "Think-Tank’s retreat resolves the immediate threat."
+        ],
+        "answer": 3,
+        "explanation": "This episode matters because think-Tank’s retreat resolves the immediate threat.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": 99,
+        "question": "Which theme is most directly reinforced by Think-Tank’s character?",
+        "options": [
+          "Humour can expose false confidence.",
+          "Mistaken assumptions guarantee success.",
+          "Humility and evidence are essential for sound judgement.",
+          "Misinterpretation can have consequences."
+        ],
+        "answer": 2,
+        "explanation": "The text reinforces the idea that humility and evidence are essential for sound judgement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": 100,
+        "question": "Which detail is most directly associated with Think-Tank’s character?",
+        "options": [
+          "The twenty-fifth century",
+          "He is insecure beneath his superiority",
+          "Claire Boiko",
+          "A science-fiction play"
+        ],
+        "answer": 1,
+        "explanation": "The text connects Think-Tank’s character with this detail: His exaggerated reactions reveal poor judgement.",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+]
