@@ -4044,7 +4044,7 @@
       },
       {
         "id": 10,
-        "question": "For 1x² − 8x+2=0, the discriminant is:",
+        "question": "For x² − 8x+2=0, the discriminant is:",
         "options": [
           "72",
           "16",
@@ -4096,7 +4096,7 @@
       },
       {
         "id": 14,
-        "question": "For 2x²−-2x+-12=0, the sum of the roots is:",
+        "question": "For 2x² + 2x − 12 = 0, the sum of the roots is:",
         "options": [
           "-6",
           "6",
@@ -4187,7 +4187,7 @@
       },
       {
         "id": 21,
-        "question": "For 2x²−28x+90=0, the sum of the roots is:",
+        "question": "For 2x² − 28x + 90 = 0, the sum of the roots is:",
         "options": [
           "-45",
           "14",
@@ -4278,7 +4278,7 @@
       },
       {
         "id": 28,
-        "question": "For 2x²−26x+72=0, the sum of the roots is:",
+        "question": "For 2x² − 26x + 72 = 0, the sum of the roots is:",
         "options": [
           "13",
           "-13",
@@ -4304,7 +4304,7 @@
       },
       {
         "id": 30,
-        "question": "The real roots of x² + 1x − 6=0 are:",
+        "question": "The real roots of x² + x − 6=0 are:",
         "options": [
           "-2 and 1",
           "-6 and -1",
@@ -4317,7 +4317,7 @@
       },
       {
         "id": 31,
-        "question": "For 4x² + 1x+3=0, the discriminant is:",
+        "question": "For 4x² + x+3=0, the discriminant is:",
         "options": [
           "47",
           "49",
@@ -4369,7 +4369,7 @@
       },
       {
         "id": 35,
-        "question": "For 2x²−-6x+-56=0, the sum of the roots is:",
+        "question": "For 2x² + 6x − 56 = 0, the sum of the roots is:",
         "options": [
           "3",
           "-28",
@@ -4408,7 +4408,7 @@
       },
       {
         "id": 38,
-        "question": "For 1x² + 4x+10=0, the discriminant is:",
+        "question": "For x² + 4x+10=0, the discriminant is:",
         "options": [
           "56",
           "36",
@@ -4460,7 +4460,7 @@
       },
       {
         "id": 42,
-        "question": "For 2x²−-6x+-80=0, the sum of the roots is:",
+        "question": "For 2x² + 6x − 80 = 0, the sum of the roots is:",
         "options": [
           "-40",
           "40",
@@ -4733,7 +4733,7 @@
       },
       {
         "id": 63,
-        "question": "For 1x² + 1x+18=0, the discriminant is:",
+        "question": "For x² + x+18=0, the discriminant is:",
         "options": [
           "71",
           "73",
@@ -4993,7 +4993,7 @@
       },
       {
         "id": 83,
-        "question": "For 1x² − 2x+6=0, the discriminant is:",
+        "question": "For x² − 2x+6=0, the discriminant is:",
         "options": [
           "20",
           "28",
@@ -5058,7 +5058,7 @@
       },
       {
         "id": 88,
-        "question": "For 2x² + 1x+13=0, the discriminant is:",
+        "question": "For 2x² + x+13=0, the discriminant is:",
         "options": [
           "-103",
           "103",
@@ -13145,7 +13145,7 @@
           "2π cm²"
         ],
         "answer": 0,
-        "explanation": "A quarter of πr² = ¼×16π = 4π cm².",
+        "explanation": "Sector area=(θ/360°)πr²=(90/360)π(4)²=4π cm².",
         "difficulty": "Medium"
       },
       {
@@ -13219,11 +13219,11 @@
         "options": [
           "0.3333333333333333π cm²",
           "1.3333333333333333π cm²",
-          "4π/6 cm²",
+          "2π/3 cm²",
           "4π cm²"
         ],
         "answer": 2,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=60°, r=2 cm to get 4π/6 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=2 cm and θ=60°, the exact area is 2π/3 cm².",
         "difficulty": "Medium",
         "images": [
           {
@@ -13250,39 +13250,39 @@
         "id": 11,
         "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 2 cm is:",
         "options": [
-          "2/3π cm",
+          "2π/3 cm",
           "2π cm",
           "4π cm",
           "1/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×2=2/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×2=2π/3 cm.",
         "difficulty": "Medium"
       },
       {
         "id": 12,
         "question": "Find the exact area of the minor segment in a circle of radius 2 cm subtended by a 90° central angle.",
         "options": [
-          "(4π/4 − 4/2) cm²",
+          "(π − 2) cm²",
           "4π/4 cm²",
           "4π cm²",
           "(4π/2 − 4/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 4π/4 cm² and triangle area is 4/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is π cm² and the triangle area is 2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 13,
         "question": "Find the exact area of the minor segment in a circle of radius 3 cm subtended by a 60° central angle.",
         "options": [
-          "(9π/6 − 9√3/4) cm²",
+          "(3π/2 − 9√3/4) cm²",
           "9π/6 cm²",
           "9π cm²",
           "(9π/3 − 9√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 9π/6 cm² and triangle area is 9√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, the sector area is 3π/2 cm² and the triangle area is 9√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13321,7 +13321,7 @@
           "0.75π cm²"
         ],
         "answer": 1,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=90°, r=3 cm to get 9π/4 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=3 cm and θ=90°, the exact area is 9π/4 cm².",
         "difficulty": "Medium"
       },
       {
@@ -13341,13 +13341,13 @@
         "id": 18,
         "question": "The exact length of an arc subtending 90° at the centre of a circle of radius 3 cm is:",
         "options": [
-          "3/2π cm",
+          "3π/2 cm",
           "3π cm",
           "6π cm",
           "3/4π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×3=3/2π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×3=3π/2 cm.",
         "difficulty": "Medium"
       },
       {
@@ -13360,20 +13360,20 @@
           "(9π/2 − 9/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 9π/4 cm² and triangle area is 9/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 9π/4 cm² and the triangle area is 9/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 20,
         "question": "Find the exact area of the minor segment in a circle of radius 4 cm subtended by a 120° central angle.",
         "options": [
-          "(16π/3 − 16√3/4) cm²",
+          "(16π/3 − 4√3) cm²",
           "16π/3 cm²",
           "16π cm²",
           "(16π/6 − 16√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 16π/3 cm² and triangle area is 16√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, the sector area is 16π/3 cm² and the triangle area is 4√3 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13412,7 +13412,7 @@
           "10.666666666666666π cm²"
         ],
         "answer": 0,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=120°, r=4 cm to get 16π/3 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=4 cm and θ=120°, the exact area is 16π/3 cm².",
         "difficulty": "Medium"
       },
       {
@@ -13432,26 +13432,26 @@
         "id": 25,
         "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 4 cm is:",
         "options": [
-          "8/3π cm",
+          "8π/3 cm",
           "4π cm",
           "8π cm",
           "4/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×4=8/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×4=8π/3 cm.",
         "difficulty": "Medium"
       },
       {
         "id": 26,
         "question": "Find the exact area of the minor segment in a circle of radius 4 cm subtended by a 90° central angle.",
         "options": [
-          "(16π/4 − 16/2) cm²",
+          "(4π − 8) cm²",
           "16π/4 cm²",
           "16π cm²",
           "(16π/2 − 16/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 16π/4 cm² and triangle area is 16/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 4π cm² and the triangle area is 8 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13464,7 +13464,7 @@
           "(25π/3 − 25√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 25π/6 cm² and triangle area is 25√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, the sector area is 25π/6 cm² and the triangle area is 25√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13503,7 +13503,7 @@
           "25π/6 cm²"
         ],
         "answer": 3,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=60°, r=5 cm to get 25π/6 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=5 cm and θ=60°, the exact area is 25π/6 cm².",
         "difficulty": "Medium"
       },
       {
@@ -13523,13 +13523,13 @@
         "id": 32,
         "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 5 cm is:",
         "options": [
-          "5/3π cm",
+          "5π/3 cm",
           "5π cm",
           "10π cm",
           "5/6π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×5=5/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×5=5π/3 cm.",
         "difficulty": "Medium"
       },
       {
@@ -13542,20 +13542,20 @@
           "(25π/2 − 25/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 25π/4 cm² and triangle area is 25/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 25π/4 cm² and the triangle area is 25/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 34,
         "question": "Find the exact area of the minor segment in a circle of radius 6 cm subtended by a 120° central angle.",
         "options": [
-          "(36π/3 − 36√3/4) cm²",
+          "(12π − 9√3) cm²",
           "36π/3 cm²",
           "36π cm²",
           "(36π/6 − 36√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 36π/3 cm² and triangle area is 36√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, the sector area is 12π cm² and the triangle area is 9√3 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13590,11 +13590,11 @@
         "options": [
           "1.5π cm²",
           "18π cm²",
-          "36π/4 cm²",
+          "9π cm²",
           "36π cm²"
         ],
         "answer": 2,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=90°, r=6 cm to get 36π/4 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=6 cm and θ=90°, the exact area is 9π cm².",
         "difficulty": "Medium"
       },
       {
@@ -13627,13 +13627,13 @@
         "id": 40,
         "question": "Find the exact area of the minor segment in a circle of radius 6 cm subtended by a 90° central angle.",
         "options": [
-          "(36π/4 − 36/2) cm²",
+          "(9π − 18) cm²",
           "36π/4 cm²",
           "36π cm²",
           "(36π/2 − 36/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 36π/4 cm² and triangle area is 36/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 9π cm² and the triangle area is 18 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13646,7 +13646,7 @@
           "(49π/3 − 49√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 49π/6 cm² and triangle area is 49√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, the sector area is 49π/6 cm² and the triangle area is 49√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13685,7 +13685,7 @@
           "2.3333333333333335π cm²"
         ],
         "answer": 1,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=120°, r=7 cm to get 49π/3 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=7 cm and θ=120°, the exact area is 49π/3 cm².",
         "difficulty": "Medium"
       },
       {
@@ -13705,13 +13705,13 @@
         "id": 46,
         "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 7 cm is:",
         "options": [
-          "14/3π cm",
+          "14π/3 cm",
           "7π cm",
           "14π cm",
           "7/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×7=14/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×7=14π/3 cm.",
         "difficulty": "Medium"
       },
       {
@@ -13724,20 +13724,20 @@
           "(49π/2 − 49/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 49π/4 cm² and triangle area is 49/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 49π/4 cm² and the triangle area is 49/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 48,
         "question": "Find the exact area of the minor segment in a circle of radius 8 cm subtended by a 120° central angle.",
         "options": [
-          "(64π/3 − 64√3/4) cm²",
+          "(64π/3 − 16√3) cm²",
           "64π/3 cm²",
           "64π cm²",
           "(64π/6 − 64√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 64π/3 cm² and triangle area is 64√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, the sector area is 64π/3 cm² and the triangle area is 16√3 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13770,13 +13770,13 @@
         "id": 51,
         "question": "A sector of radius 8 cm has central angle 60°. Its area is:",
         "options": [
-          "64π/6 cm²",
+          "32π/3 cm²",
           "64π cm²",
           "1.3333333333333333π cm²",
           "21.333333333333332π cm²"
         ],
         "answer": 0,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=60°, r=8 cm to get 64π/6 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=8 cm and θ=60°, the exact area is 32π/3 cm².",
         "difficulty": "Medium"
       },
       {
@@ -13796,39 +13796,39 @@
         "id": 53,
         "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 8 cm is:",
         "options": [
-          "8/3π cm",
+          "8π/3 cm",
           "8π cm",
           "16π cm",
           "4/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×8=8/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×8=8π/3 cm.",
         "difficulty": "Medium"
       },
       {
         "id": 54,
         "question": "Find the exact area of the minor segment in a circle of radius 8 cm subtended by a 90° central angle.",
         "options": [
-          "(64π/4 − 64/2) cm²",
+          "(16π − 32) cm²",
           "64π/4 cm²",
           "64π cm²",
           "(64π/2 − 64/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 64π/4 cm² and triangle area is 64/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 16π cm² and the triangle area is 32 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 55,
         "question": "Find the exact area of the minor segment in a circle of radius 9 cm subtended by a 60° central angle.",
         "options": [
-          "(81π/6 − 81√3/4) cm²",
+          "(27π/2 − 81√3/4) cm²",
           "81π/6 cm²",
           "81π cm²",
           "(81π/3 − 81√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 81π/6 cm² and triangle area is 81√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, the sector area is 27π/2 cm² and the triangle area is 81√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13867,7 +13867,7 @@
           "81π/4 cm²"
         ],
         "answer": 3,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=90°, r=9 cm to get 81π/4 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=9 cm and θ=90°, the exact area is 81π/4 cm².",
         "difficulty": "Medium"
       },
       {
@@ -13887,13 +13887,13 @@
         "id": 60,
         "question": "The exact length of an arc subtending 90° at the centre of a circle of radius 9 cm is:",
         "options": [
-          "9/2π cm",
+          "9π/2 cm",
           "9π cm",
           "18π cm",
           "9/4π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×9=9/2π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×9=9π/2 cm.",
         "difficulty": "Medium"
       },
       {
@@ -13906,20 +13906,20 @@
           "(81π/2 − 81/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 81π/4 cm² and triangle area is 81/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 81π/4 cm² and the triangle area is 81/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 62,
         "question": "Find the exact area of the minor segment in a circle of radius 10 cm subtended by a 120° central angle.",
         "options": [
-          "(100π/3 − 100√3/4) cm²",
+          "(100π/3 − 25√3) cm²",
           "100π/3 cm²",
           "100π cm²",
           "(100π/6 − 100√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 100π/3 cm² and triangle area is 100√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, the sector area is 100π/3 cm² and the triangle area is 25√3 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13958,7 +13958,7 @@
           "100π cm²"
         ],
         "answer": 2,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=120°, r=10 cm to get 100π/3 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=10 cm and θ=120°, the exact area is 100π/3 cm².",
         "difficulty": "Medium"
       },
       {
@@ -13978,26 +13978,26 @@
         "id": 67,
         "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 10 cm is:",
         "options": [
-          "20/3π cm",
+          "20π/3 cm",
           "10π cm",
           "20π cm",
           "10/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×10=20/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×10=20π/3 cm.",
         "difficulty": "Medium"
       },
       {
         "id": 68,
         "question": "Find the exact area of the minor segment in a circle of radius 10 cm subtended by a 90° central angle.",
         "options": [
-          "(100π/4 − 100/2) cm²",
+          "(25π − 50) cm²",
           "100π/4 cm²",
           "100π cm²",
           "(100π/2 − 100/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 100π/4 cm² and triangle area is 100/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 25π cm² and the triangle area is 50 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14010,7 +14010,7 @@
           "(121π/3 − 121√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 121π/6 cm² and triangle area is 121√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, the sector area is 121π/6 cm² and the triangle area is 121√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14049,7 +14049,7 @@
           "1.8333333333333333π cm²"
         ],
         "answer": 1,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=60°, r=11 cm to get 121π/6 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=11 cm and θ=60°, the exact area is 121π/6 cm².",
         "difficulty": "Medium"
       },
       {
@@ -14069,13 +14069,13 @@
         "id": 74,
         "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 11 cm is:",
         "options": [
-          "11/3π cm",
+          "11π/3 cm",
           "11π cm",
           "22π cm",
           "11/6π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×11=11/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×11=11π/3 cm.",
         "difficulty": "Medium"
       },
       {
@@ -14088,20 +14088,20 @@
           "(121π/2 − 121/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 121π/4 cm² and triangle area is 121/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 121π/4 cm² and the triangle area is 121/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 76,
         "question": "Find the exact area of the minor segment in a circle of radius 12 cm subtended by a 120° central angle.",
         "options": [
-          "(144π/3 − 144√3/4) cm²",
+          "(48π − 36√3) cm²",
           "144π/3 cm²",
           "144π cm²",
           "(144π/6 − 144√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 144π/3 cm² and triangle area is 144√3/4 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, the sector area is 48π cm² and the triangle area is 36√3 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14134,13 +14134,13 @@
         "id": 79,
         "question": "A sector of radius 12 cm has central angle 90°. Its area is:",
         "options": [
-          "144π/4 cm²",
+          "36π cm²",
           "144π cm²",
           "3π cm²",
           "72π cm²"
         ],
         "answer": 0,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=90°, r=12 cm to get 144π/4 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=12 cm and θ=90°, the exact area is 36π cm².",
         "difficulty": "Medium"
       },
       {
@@ -14173,13 +14173,13 @@
         "id": 82,
         "question": "Find the exact area of the minor segment in a circle of radius 12 cm subtended by a 90° central angle.",
         "options": [
-          "(144π/4 − 144/2) cm²",
+          "(36π − 72) cm²",
           "144π/4 cm²",
           "144π cm²",
           "(144π/2 − 144/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 144π/4 cm² and triangle area is 144/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 36π cm² and the triangle area is 72 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14218,7 +14218,7 @@
           "169π cm²"
         ],
         "answer": 2,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=120°, r=13 cm to get 169π/3 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=13 cm and θ=120°, the exact area is 169π/3 cm².",
         "difficulty": "Medium"
       },
       {
@@ -14238,13 +14238,13 @@
         "id": 87,
         "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 13 cm is:",
         "options": [
-          "26/3π cm",
+          "26π/3 cm",
           "13π cm",
           "26π cm",
           "13/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×13=26/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×13=26π/3 cm.",
         "difficulty": "Medium"
       },
       {
@@ -14257,7 +14257,7 @@
           "(169π/2 − 169/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 169π/4 cm² and triangle area is 169/2 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, the sector area is 169π/4 cm² and the triangle area is 169/2 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14290,13 +14290,13 @@
         "id": 91,
         "question": "A sector of radius 14 cm has central angle 60°. Its area is:",
         "options": [
-          "196π/6 cm²",
+          "98π/3 cm²",
           "196π cm²",
           "2.3333333333333335π cm²",
           "65.33333333333333π cm²"
         ],
         "answer": 0,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=60°, r=14 cm to get 196π/6 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=14 cm and θ=60°, the exact area is 98π/3 cm².",
         "difficulty": "Medium"
       },
       {
@@ -14316,13 +14316,13 @@
         "id": 93,
         "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 14 cm is:",
         "options": [
-          "14/3π cm",
+          "14π/3 cm",
           "14π cm",
           "28π cm",
           "7/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×14=14/3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×14=14π/3 cm.",
         "difficulty": "Medium"
       },
       {
@@ -14348,7 +14348,7 @@
           "112.5π cm²"
         ],
         "answer": 0,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=90°, r=15 cm to get 225π/4 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=15 cm and θ=90°, the exact area is 225π/4 cm².",
         "difficulty": "Medium"
       },
       {
@@ -14368,13 +14368,13 @@
         "id": 97,
         "question": "The exact length of an arc subtending 90° at the centre of a circle of radius 2 cm is:",
         "options": [
-          "1π cm",
+          "π cm",
           "2π cm",
           "4π cm",
           "1/2π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×2=1π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×2=π cm.",
         "difficulty": "Medium"
       },
       {
@@ -14400,7 +14400,7 @@
           "2.6666666666666665π cm²"
         ],
         "answer": 0,
-        "explanation": "Sector area=(θ/360°)πr²; substitute θ=120°, r=2 cm to get 4π/3 cm².",
+        "explanation": "Sector area=(θ/360°)πr². With r=2 cm and θ=120°, the exact area is 4π/3 cm².",
         "difficulty": "Medium"
       },
       {
@@ -18337,11 +18337,11 @@
         "options": [
           "2/3",
           "5/6",
-          "1/2",
+          "1/3",
           "1/6"
         ],
         "answer": 2,
-        "explanation": "Count the die faces satisfying the event and divide by 6; the simplified probability is 1/2.",
+        "explanation": "The perfect-square outcomes on a fair six-sided die are 1 and 4. Therefore P(perfect square)=2/6=1/3.",
         "difficulty": "Easy"
       }
     ]
