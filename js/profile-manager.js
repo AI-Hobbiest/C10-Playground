@@ -210,6 +210,37 @@
     });
   }
 
+  function excelSafe(value){return String(value==null?"":value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+  function exportExcelFile(filename,rows){
+    const xml='<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"><Worksheet ss:Name="Student Report"><Table>'+rows.map(row=>'<Row>'+row.map(value=>'<Cell><Data ss:Type="String">'+excelSafe(value)+'</Data></Cell>').join("")+'</Row>').join("")+'</Table></Worksheet></Workbook>';
+    const blob=new Blob([xml],{type:"application/vnd.ms-excel;charset=utf-8"}),url=URL.createObjectURL(blob),link=document.createElement("a");
+    link.href=url;link.download=filename;link.click();setTimeout(()=>URL.revokeObjectURL(url),1200);
+  }
+  function overallReportRows(){
+    const attempts=readLedgers();
+    const percentages=attempts.filter(row=>Number(row.maxScore)>0&&Number.isFinite(Number(row.score))).map(row=>Number(row.score)/Number(row.maxScore)*100);
+    const rows=[["ExamGuru · Overall student report"],["Student ID",profile.studentId],["Display name",profile.displayName],["Class","Class "+profile.classLevel],["School",profile.school],["City",profile.city],["State",profile.state],["Generated",now()],["Completed attempts",attempts.length],["Average score",percentages.length?Math.round(percentages.reduce((a,b)=>a+b,0)/percentages.length)+"%":"—"],["Total time",formatDuration(attempts.reduce((total,row)=>total+Math.max(0,Number(row.durationSeconds)||0),0))],[],["Test history"],["Date","Subject","Mode","Status","Score","Max score","Accuracy","Duration"]];
+    attempts.forEach(attempt=>{
+      const pct=Number(attempt.maxScore)>0?Math.round(Number(attempt.score)/Number(attempt.maxScore)*100):0;
+      rows.push([formatDate(attempt.submittedAt||attempt.startedAt),attempt.subjectTitle,modeLabel(attempt),attempt.status||"Completed",attempt.score??"",attempt.maxScore??"",Number(attempt.maxScore)>0?pct+"%":"—",formatDuration(attempt.durationSeconds)]);
+    });
+    rows.push([],["Question-level response history"],["Subject","Attempt ID","Question ID","Selected answer","Correct answer","Status","Correct?","Time spent (seconds)"]);
+    for(const [subject,title] of Object.entries(SUBJECTS)){
+      const ledger=subjectStore("test-attempt-ledger",subject).load();
+      (ledger.answerRecords||[]).forEach(answer=>rows.push([title,answer.attemptId||"",answer.questionId||"",answer.selectedOptionText||"",answer.correctOptionText||"",answer.status||"",answer.isCorrect===true?"Yes":answer.isCorrect===false?"No":"—",answer.timeSpentSeconds||0]));
+    }
+    return rows;
+  }
+  function downloadOverallExcel(){exportExcelFile("examguru-overall-student-report-"+new Date().toISOString().slice(0,10)+".xls",overallReportRows());setStatus("Excel-compatible overall student report prepared. Keep it private; it contains learning history.");}
+  function downloadOverallPdf(){
+    const attempts=readLedgers();
+    const esc=value=>String(value==null?"":value).replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
+    const percentages=attempts.filter(row=>Number(row.maxScore)>0).map(row=>Number(row.score)/Number(row.maxScore)*100);
+    const rows=attempts.map(attempt=>'<tr><td>'+esc(formatDate(attempt.submittedAt||attempt.startedAt))+'</td><td>'+esc(attempt.subjectTitle)+'</td><td>'+esc(modeLabel(attempt))+'</td><td>'+esc(attempt.score)+' / '+esc(attempt.maxScore)+'</td><td>'+esc(Number(attempt.maxScore)>0?Math.round(Number(attempt.score)/Number(attempt.maxScore)*100)+"%":"—")+'</td><td>'+esc(formatDuration(attempt.durationSeconds))+'</td></tr>').join("");
+    const html='<!doctype html><html><head><meta charset="utf-8"><title>ExamGuru overall student report</title><style>body{font:12px Arial,sans-serif;color:#211b48;margin:28px}h1{margin-bottom:4px}p{color:#555}table{width:100%;border-collapse:collapse;margin-top:18px}th,td{border:1px solid #d8d3ee;padding:7px;text-align:left;vertical-align:top}th{background:#efedff}tr{break-inside:avoid}@media print{body{margin:12mm}}</style></head><body><h1>ExamGuru · Overall student report</h1><p>'+esc(profile.displayName)+' · Student ID '+esc(profile.studentId)+' · Class '+esc(profile.classLevel)+'</p><p>'+esc(profile.school)+' · '+esc([profile.city,profile.state].filter(Boolean).join(", "))+'</p><h2>Learning summary</h2><p>Completed tests: '+attempts.length+' · Average score: '+(percentages.length?Math.round(percentages.reduce((a,b)=>a+b,0)/percentages.length):0)+'% · Total time: '+esc(formatDuration(attempts.reduce((total,row)=>total+Math.max(0,Number(row.durationSeconds)||0),0)))+'</p><table><thead><tr><th>Date</th><th>Subject</th><th>Mode</th><th>Score</th><th>Accuracy</th><th>Duration</th></tr></thead><tbody>'+rows+'</tbody></table><p>Report uses completed test history available in this browser and any supported central records loaded in this session. Conceptualised by JP Ganathe · ExamGuru</p><script>window.onload=()=>window.print()</script></body></html>';
+    const win=window.open("","_blank");if(!win){setStatus("Your browser blocked the print window. Allow pop-ups for this site, then try PDF again.",true);return;}
+    win.document.open();win.document.write(html);win.document.close();
+  }
   function makeBackup(){
     const subjectData={};
     for(const subject of Object.keys(SUBJECTS)){
@@ -388,6 +419,8 @@
     $("exportBtn").addEventListener("click",downloadBackup);
     $("importBtn").addEventListener("click",()=>$("backupFile").click());
     $("backupFile").addEventListener("change",importBackup);
+    $("overallPdfBtn").addEventListener("click",downloadOverallPdf);
+    $("overallExcelBtn").addEventListener("click",downloadOverallExcel);
   }
   init();
 })();
