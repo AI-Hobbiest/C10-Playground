@@ -1,4 +1,4 @@
-/* Responsive, session-aware navigation for ExamGuru / C10 Playground. */
+/* Responsive, session-aware navigation for ExamGuru Quest. */
 (() => {
   "use strict";
   const links=[
@@ -90,14 +90,24 @@
     let notice=document.getElementById("configuredSubjectsNotice");
     if(!notice&&cards.length){notice=node("p","c10-subjects-notice");notice.id="configuredSubjectsNotice";notice.setAttribute("role","status");cards[0].parentElement.insertBefore(notice,cards[0]);}
     if(notice){notice.hidden=config.subjects.length>0;notice.textContent="No subjects have been configured for "+config.label+" yet. Please ask your administrator to configure the class subjects.";}
+    if(config.label==="Class 6"){
+      const science=cards.find(card=>new URL(card.href,location.href).searchParams.get("subject")==="science");
+      const count=science&&science.querySelector("span:last-child");
+      if(count)count.textContent="36 starter MCQs · 12 chapters";
+    }
   }
   async function createNav(){
     if(document.getElementById("c10Sidebar"))return;
     const current=getLocation(),auth=await authState();
     const subjectConfig=auth.role==="student"?await configuredSubjects(auth.classId):null;
     const sidebar=node("aside","c10-sidebar");sidebar.id="c10Sidebar";sidebar.setAttribute("aria-label","Main navigation");
+    const sidebarTop=node("div","c10-sidebar-top");
     const brand=node("div","c10-brand");const mark=node("div","c10-brand-mark");const logo=node("img");logo.src="./assets/examguru-saraswati.svg";logo.alt="";logo.width=38;logo.height=38;mark.appendChild(logo);brand.appendChild(mark);
-    const brandCopy=node("div","c10-brand-copy");brandCopy.append(node("div","c10-brand-title","ExamGuru"),node("div","c10-brand-sub","Learn · Practise · Level up"));brand.appendChild(brandCopy);sidebar.appendChild(brand);
+    const brandCopy=node("div","c10-brand-copy");brandCopy.append(node("div","c10-brand-title","ExamGuru Quest"),node("div","c10-brand-sub","Learn · Practise · Level up"));brand.appendChild(brandCopy);sidebarTop.appendChild(brand);
+    const identity=node("div","c10-user-card");
+    identity.append(node("div","c10-user-name",auth.role==="guest"?"Welcome, learner":(auth.username||"Student")));
+    identity.append(node("div","c10-user-class",auth.role==="admin"?"Administrator":auth.role==="student"?"Class "+String(auth.classId||"10"):"Sign in to begin"));
+    sidebarTop.appendChild(identity);sidebar.appendChild(sidebarTop);
     const list=node("nav","c10-nav-list");list.setAttribute("aria-label","Learning and account");
     links.forEach(item=>{
       if(item.auth!==auth.role)return;
@@ -129,7 +139,7 @@
     const mobileBar=node("div","c10-mobilebar"),toggle=node("button","c10-menu-toggle","☰");
     toggle.type="button";toggle.setAttribute("aria-label","Open navigation menu");toggle.setAttribute("aria-controls","c10Sidebar");toggle.setAttribute("aria-expanded","false");
     toggle.addEventListener("click",()=>sidebar.classList.contains("open")?closeMenu():openMenu());
-    const mobileCopy=node("div","");mobileCopy.append(node("div","c10-mobile-title","ExamGuru"),node("div","c10-mobile-sub",auth.role==="guest"?"Sign in to continue":"Learn · Practise · Level up"));mobileBar.append(toggle,mobileCopy);
+    const mobileCopy=node("div","");mobileCopy.append(node("div","c10-mobile-title","ExamGuru Quest"),node("div","c10-mobile-sub",auth.role==="guest"?"Sign in to continue":(auth.username||"Student")+" · "+(auth.role==="admin"?"Administrator":"Class "+String(auth.classId||"10"))));mobileBar.append(toggle,mobileCopy);
     const scrim=node("button","c10-nav-scrim");scrim.type="button";scrim.setAttribute("aria-label","Close navigation menu");scrim.addEventListener("click",closeMenu);
     document.body.prepend(sidebar);document.body.prepend(mobileBar);document.body.prepend(scrim);document.body.classList.add("c10-shell-ready");
     if(subjectConfig)applyConfiguredSubjectVisibility(subjectConfig);
