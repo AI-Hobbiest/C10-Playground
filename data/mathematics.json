@@ -6209,15 +6209,15 @@
       },
       {
         "id": 76,
-        "question": "Which expression gives the sum of the first 14 terms of an AP with first term 7 and difference 0?",
+        "question": "The sum of the first 14 terms of an AP with first term 7 and common difference 0 is:",
         "options": [
-          "14[7+(14−1)0]",
-          "2/14[14+(14−1)0]",
-          "14/2[7+0]",
-          "14/2[14+(14−1)0]"
+          "49",
+          "14",
+          "196",
+          "98"
         ],
         "answer": 3,
-        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
+        "explanation": "A common difference of 0 means every term is 7. The sum is 14×7 = 98.",
         "difficulty": "Medium"
       },
       {
