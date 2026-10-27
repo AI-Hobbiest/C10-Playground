@@ -1,0 +1,88 @@
+{
+  "academicYear": "2026-27",
+  "class": 10,
+  "source": "CBSE Academic Curriculum 2026-27",
+  "officialLinks": {
+    "curriculum": "https://cbseacademic.nic.in/curriculum_2027.html",
+    "courseA": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_A_SecP1_2026-27.pdf",
+    "courseB": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_B_SecP1_2026-27.pdf"
+  },
+  "examBlueprint": {
+    "courseA": {
+      "code": "002",
+      "unseenComprehension": 14,
+      "appliedGrammar": 16,
+      "textbooks": 30,
+      "creativeWriting": 20,
+      "totalWritten": 80,
+      "internal": 20
+    },
+    "courseB": {
+      "code": "085",
+      "unseenComprehension": 14,
+      "appliedGrammar": 16,
+      "textbooks": 28,
+      "creativeWriting": 22,
+      "totalWritten": 80,
+      "internal": 20
+    }
+  },
+  "courseA": {
+    "grammar": [
+      "रचना के आधार पर वाक्य भेद",
+      "वाच्य",
+      "पद परिचय",
+      "अर्थालंकार: उपमा, रूपक, उत्प्रेक्षा, अतिशयोक्ति, मानवीकरण"
+    ],
+    "books": [
+      "क्षितिज भाग 2",
+      "कृतिका भाग 2"
+    ],
+    "exclusions": [
+      "क्षितिज काव्य: देव — सवैया, कवित्त",
+      "क्षितिज काव्य: गिरिजाकुमार माथुर — छाया मत छूना",
+      "क्षितिज काव्य: ऋतुराज — कन्यादान",
+      "क्षितिज गद्य: महावीरप्रसाद द्विवेदी — स्त्री-शिक्षा के विरोधी कुतर्कों का खंडन",
+      "क्षितिज गद्य: सर्वेश्वर दयाल सक्सेना — मानवीय करुणा की दिव्य चमक",
+      "कृतिका: एही ठैयाँ झुलनी हेरानी हो रामा!",
+      "कृतिका: जॉर्ज पंचम की नाक"
+    ],
+    "writing": [
+      "अनुच्छेद लगभग 120 शब्द",
+      "पत्र लगभग 100 शब्द",
+      "स्ववृत्त या ई-मेल लगभग 80 शब्द",
+      "विज्ञापन या संदेश लगभग 40 शब्द"
+    ]
+  },
+  "courseB": {
+    "grammar": [
+      "पदबंध",
+      "रचना के आधार पर वाक्य रूपांतरण",
+      "समास",
+      "मुहावरे"
+    ],
+    "books": [
+      "स्पर्श भाग 2",
+      "संचयन भाग 2"
+    ],
+    "exclusions": [
+      "स्पर्श: बिहारी — दोहे",
+      "स्पर्श: महादेवी वर्मा — मधुर-मधुर मेरे दीपक जल",
+      "स्पर्श: अंतोन चेखव — गिरगिट"
+    ],
+    "writing": [
+      "अनुच्छेद लगभग 120 शब्द",
+      "औपचारिक पत्र लगभग 100 शब्द",
+      "सूचना लगभग 60 शब्द",
+      "विज्ञापन लगभग 40 शब्द",
+      "ई-मेल लगभग 80 शब्द या लघुकथा लगभग 100 शब्द"
+    ]
+  },
+  "questionBankStatus": {
+    "file": "data/hindi.json",
+    "existingTopics": 27,
+    "existingQuestions": 92,
+    "audit": "Basic schema and answer-index validation passed; academic accuracy and full topic coverage are not certified.",
+    "rule": "Do not count excluded chapters toward question targets. Do not merge Course A and Course B literature topics."
+  }
+}
