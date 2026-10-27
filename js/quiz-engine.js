@@ -61,8 +61,29 @@ function updateStats(){
   setText("progressText",total+" answers recorded on this device · "+progress.correct+" correct · "+progress.missed.length+" questions in your retry list.");
 }
 function allQuestions(){return chapters.flatMap(chapter=>chapter.questions.map(question=>({...question,chapter_no:chapter.chapter_no,chapterTitle:chapter.title})));}
-function selectedChapterIndexes(){const select=$("chapter");const picked=Array.from(select.selectedOptions||[]).map(option=>Number(option.value)).filter(Number.isInteger);return picked.length?picked:[Number(select.value)||0];}
+function selectedChapterIndexes(){const select=$("chapter");return Array.from(select.selectedOptions||[]).map(option=>Number(option.value)).filter(Number.isInteger);}
 function selectedChapters(){return selectedChapterIndexes().map(i=>chapters[i]).filter(Boolean);}
+function updateChapterPickerSummary(){
+  const chosen=selectedChapterIndexes(),count=chosen.reduce((sum,i)=>sum+(chapters[i]?chapters[i].questions.length:0),0);
+  const summary=$("chapterPickerSummary"),detail=$("chapterPickerCount");
+  if(summary)summary.textContent=!chosen.length?"No chapters selected":chosen.length===chapters.length?"All chapters selected":chosen.length+" chapter"+(chosen.length===1?"":"s")+" selected";
+  if(detail)detail.textContent=count+" question"+(count===1?"":"s")+" available";
+}
+function syncChapterPickerFromSelect(){
+  const select=$("chapter");
+  document.querySelectorAll("[data-chapter-index]").forEach(input=>{input.checked=Array.from(select.options).some(option=>Number(option.value)===Number(input.dataset.chapterIndex)&&option.selected);});
+  updateChapterPickerSummary();
+}
+function escapeHtml(value){const node=document.createElement("span");node.textContent=String(value);return node.innerHTML;}
+function renderChapterPicker(){
+  const select=$("chapter"),container=$("chapterOptions");if(!container)return;
+  container.innerHTML=chapters.map((chapter,i)=>`<label class='chapter-option'><input type='checkbox' data-chapter-index='${i}' checked><span class='chapter-option-copy'><span class='chapter-option-title'>${String(chapter.chapter_no).padStart(2,"0")} · ${escapeHtml(chapter.title)}</span><span class='chapter-option-meta'>${chapter.questions.length} questions</span></span></label>`).join("");
+  container.querySelectorAll("[data-chapter-index]").forEach(input=>input.addEventListener("change",()=>{
+    const index=Number(input.dataset.chapterIndex),option=Array.from(select.options).find(item=>Number(item.value)===index);if(option)option.selected=input.checked;
+    updateChapterPickerSummary();const chosen=selectedChapters(),count=chosen.reduce((sum,item)=>sum+item.questions.length,0);
+    setText("modeHint",count+" questions available across "+chosen.length+" selected chapter"+(chosen.length===1?"":"s")+".");
+  }));updateChapterPickerSummary();
+}
 function saveProgress(){progressStore.save(progress);updateStats();}
 function compactLedgerForStorage(value){
   const stored=clone(value);
@@ -116,6 +137,7 @@ function loadBank(data){
   chapters=window.C10QuestionBank.normalize(data,bankId);
   remapLegacyQuestionRefs();
   $("chapter").innerHTML=chapters.map((chapter,i)=>'<option value="'+i+'" selected>'+String(chapter.chapter_no).padStart(2,"0")+' · '+chapter.title+' ('+chapter.questions.length+')</option>').join("");
+  renderChapterPicker();
   const total=chapters.reduce((sum,chapter)=>sum+chapter.questions.length,0);
   setText("chapterTotal",chapters.length);setText("questionTotal",total);
   setText("subjectIcon",config.icon);setText("subjectTitle",config.title+(classId==="6"?" · Class 6":"")+" Practice");
@@ -202,6 +224,7 @@ function restoreAttempt(saved){
     if(saved.timingMode==="countdown")$("timerSetting").value=String(saved.timeLimitSeconds||1200);
     else $("timerSetting").value=saved.timingMode||"off";
     $("chapter").value=String(Math.max(0,chapters.findIndex(chapter=>chapter.chapterKey===session[index].chapterKey)));
+    syncChapterPickerFromSelect();
     setText("status","Your saved session and answers have been restored.");$("status").classList.remove("hide");
     show("session");renderQuestion();startClock();
     if(saved.timingMode==="countdown" && window.C10SessionModel.remainingSeconds(saved.deadlineAt,Date.now())===0)finish("timed-out",false);
@@ -516,7 +539,10 @@ function init(){
   $("submitBtn").onclick=()=>finish("submitted",true);
   $("reviewBtn").onclick=reviewMissed;$("clearBtn").onclick=resetProgress;
   $("againBtn").onclick=start;$("reviewAnswersBtn").onclick=showReview;$("reportPdfBtn").onclick=downloadTestReportPdf;$("reportExcelBtn").onclick=downloadTestReportExcel;$("backBtn").onclick=()=>show("welcome");$("retrySetBtn").onclick=retrySessionMissed;
-  $("chapter").onchange=()=>{if(!chapters.length)return;const chosen=selectedChapters();const count=chosen.reduce((sum,chapter)=>sum+chapter.questions.length,0);setText("modeHint",count+" questions available across "+chosen.length+" selected chapter(s).");};
+  $("chapter").onchange=()=>{if(!chapters.length)return;syncChapterPickerFromSelect();const chosen=selectedChapters();const count=chosen.reduce((sum,chapter)=>sum+chapter.questions.length,0);setText("modeHint",count+" questions available across "+chosen.length+" selected chapter(s).");};
+  $("chapterPickerToggle").onclick=()=>{const panel=$("chapterPickerPanel"),open=panel.hidden;panel.hidden=!open;$("chapterPickerToggle").setAttribute("aria-expanded",String(open));};
+  $("selectAllChapters").onclick=()=>{Array.from($("chapter").options).forEach(option=>option.selected=true);syncChapterPickerFromSelect();setText("modeHint","All "+chapters.length+" chapters selected.");};
+  $("clearChapters").onclick=()=>{Array.from($("chapter").options).forEach(option=>option.selected=false);syncChapterPickerFromSelect();setText("modeHint","Choose at least one chapter to start practice.");};
   document.addEventListener("visibilitychange",()=>{if(document.hidden)persistCurrentAttempt();});
   window.addEventListener("pagehide",persistCurrentAttempt);
   fetch("./data/"+bankId+".json",{cache:"no-store"}).then(response=>{if(!response.ok)throw new Error("Could not load question bank (HTTP "+response.status+").");return response.json();})
