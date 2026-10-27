@@ -101,6 +101,11 @@ jobs:
           fs.writeFileSync(englishPath, JSON.stringify(english, null, 2) + String.fromCharCode(10));
           console.log('Merged four English override files: 19 topic sets; deployed English total: ' + total + '.');
           NODE
+          cp data/contracts/v1/* _site/data/contracts/v1/
+          if [ -d assets ]; then cp -R assets _site/assets; fi
+          if [ -d knowledge ]; then cp -R knowledge _site/knowledge; fi
+          mkdir -p _site/science-payload
+          cp science-payload/part-*.txt _site/science-payload/
       - name: Validate Science module payload
         run: |
           node <<'NODE'
