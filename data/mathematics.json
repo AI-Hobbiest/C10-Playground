@@ -14,7 +14,7 @@
           "75"
         ],
         "answer": 2,
-        "explanation": "Using Euclid’s algorithm, 225 = 135 + 90, 135 = 90 + 45, and 90 = 2 × 45. The HCF is 45.",
+        "explanation": "135 = 3³ × 5 and 225 = 3² × 5². Taking the common primes with the smaller exponents gives HCF = 3² × 5 = 45.",
         "difficulty": "Easy"
       },
       {
@@ -84,15 +84,15 @@
       },
       {
         "id": 7,
-        "question": "Using Euclid’s division algorithm, 867 = 255 × 3 + r. The remainder r is:",
+        "question": "Which is the prime factorisation of 1,008?",
         "options": [
-          "72",
-          "102",
-          "117",
-          "153"
+          "2³ × 3² × 7",
+          "2⁴ × 3² × 7",
+          "2⁴ × 3 × 7²",
+          "2² × 3⁴ × 7"
         ],
         "answer": 1,
-        "explanation": "867 − 765 = 102.",
+        "explanation": "1,008 = 16 × 63 = 2⁴ × 3² × 7.",
         "difficulty": "Medium"
       },
       {
@@ -149,28 +149,28 @@
       },
       {
         "id": 12,
-        "question": "In a proof that √2 is irrational, if √2=a/b is assumed in lowest terms and b=2, which equation follows on squaring?",
+        "question": "Assume √2 = p/q, where p and q are coprime positive integers. Which equation follows on squaring?",
         "options": [
-          "2a² = 2²",
-          "a = 2b",
-          "a² + b² = 2",
-          "2×2² = a²"
+          "p = 2q",
+          "2p² = q²",
+          "p² + q² = 2",
+          "p² = 2q²"
         ],
         "answer": 3,
-        "explanation": "Squaring √2=a/b gives 2=a²/b², so 2b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "Squaring p/q = √2 gives p²/q² = 2, hence p² = 2q².",
         "difficulty": "Medium"
       },
       {
         "id": 13,
-        "question": "Does the reduced fraction 3/8 have a terminating decimal expansion?",
+        "question": "The Fundamental Theorem of Arithmetic states that every integer greater than 1 can be expressed as a product of primes that is:",
         "options": [
-          "Yes",
-          "No",
-          "Only if the numerator is even",
-          "Only if the numerator is odd"
+          "Unique apart from the order of the factors",
+          "Always a product of different primes",
+          "Unique only for even integers",
+          "Not possible for composite numbers"
         ],
         "answer": 0,
-        "explanation": "The reduced denominator is 8. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "Prime factorisation is unique except for the order in which prime factors are written.",
         "difficulty": "Medium"
       },
       {
@@ -188,15 +188,15 @@
       },
       {
         "id": 15,
-        "question": "For √2, if √2=a/b is assumed in lowest terms with b=2, what contradiction is the irrationality proof aiming to establish?",
+        "question": "In a proof by contradiction for √2, what is assumed at the start?",
         "options": [
-          "b must equal 1",
-          "n must be a perfect square",
-          "a and b must share a prime factor",
-          "a and b must both be odd"
+          "√2 is an integer",
+          "2 is a perfect square",
+          "√2 can be written as p/q in lowest terms",
+          "p and q have a common factor"
         ],
         "answer": 2,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "Assume rationality: √2 = p/q for coprime positive integers p and q.",
         "difficulty": "Hard"
       },
       {
@@ -240,28 +240,28 @@
       },
       {
         "id": 19,
-        "question": "In a proof that √3 is irrational, if √3=a/b is assumed in lowest terms and b=3, which equation follows on squaring?",
+        "question": "Assume √3 = p/q, where p and q are coprime positive integers. Which equation follows on squaring?",
         "options": [
-          "a = 3b",
-          "a² + b² = 3",
-          "3×3² = a²",
-          "3a² = 3²"
+          "p = 3q",
+          "3p² = q²",
+          "p² = 3q²",
+          "p² + q² = 3"
         ],
         "answer": 2,
-        "explanation": "Squaring √3=a/b gives 3=a²/b², so 3b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "Squaring p/q = √3 gives p²/q² = 3, hence p² = 3q².",
         "difficulty": "Medium"
       },
       {
         "id": 20,
-        "question": "Does the reduced fraction 7/20 have a terminating decimal expansion?",
+        "question": "Which is the prime factorisation of 450?",
         "options": [
-          "No",
-          "Only if the numerator is even",
-          "Only if the numerator is odd",
-          "Yes"
+          "2 × 3 × 5³",
+          "2² × 3² × 5",
+          "3² × 5²",
+          "2 × 3² × 5²"
         ],
         "answer": 3,
-        "explanation": "The reduced denominator is 20. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "450 = 45 × 10 = 3² × 5 × 2 × 5 = 2 × 3² × 5².",
         "difficulty": "Medium"
       },
       {
@@ -279,15 +279,15 @@
       },
       {
         "id": 22,
-        "question": "For √3, if √3=a/b is assumed in lowest terms with b=3, what contradiction is the irrationality proof aiming to establish?",
+        "question": "In a proof by contradiction for √3, what is assumed at the start?",
         "options": [
-          "n must be a perfect square",
-          "a and b must share a prime factor",
-          "a and b must both be odd",
-          "b must equal 1"
+          "√3 is a natural number",
+          "√3 = p/q with p and q coprime integers and q ≠ 0",
+          "p must be divisible by q",
+          "3 is a perfect square"
         ],
         "answer": 1,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "Rationality would allow √3 to be expressed as a fraction in lowest terms.",
         "difficulty": "Hard"
       },
       {
@@ -331,28 +331,28 @@
       },
       {
         "id": 26,
-        "question": "In a proof that √5 is irrational, if √5=a/b is assumed in lowest terms and b=4, which equation follows on squaring?",
+        "question": "Assume √5 = p/q, where p and q are coprime positive integers. Which equation follows on squaring?",
         "options": [
-          "a² + b² = 5",
-          "5×4² = a²",
-          "5a² = 4²",
-          "a = 5b"
+          "p = 5q",
+          "p² = 5q²",
+          "5p² = q²",
+          "p² + q² = 5"
         ],
         "answer": 1,
-        "explanation": "Squaring √5=a/b gives 5=a²/b², so 5b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "Squaring p/q = √5 gives p²/q² = 5, hence p² = 5q².",
         "difficulty": "Medium"
       },
       {
         "id": 27,
-        "question": "Does the reduced fraction 9/40 have a terminating decimal expansion?",
+        "question": "Which is the prime factorisation of 252?",
         "options": [
-          "Only if the numerator is even",
-          "Only if the numerator is odd",
-          "Yes",
-          "No"
+          "2 × 3² × 7²",
+          "2² × 3 × 7²",
+          "2² × 3² × 7",
+          "2³ × 3² × 7"
         ],
         "answer": 2,
-        "explanation": "The reduced denominator is 40. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "252 = 4 × 63 = 2² × 3² × 7.",
         "difficulty": "Medium"
       },
       {
@@ -370,15 +370,15 @@
       },
       {
         "id": 29,
-        "question": "For √5, if √5=a/b is assumed in lowest terms with b=4, what contradiction is the irrationality proof aiming to establish?",
+        "question": "In a proof by contradiction for √5, what is assumed at the start?",
         "options": [
-          "a and b must share a prime factor",
-          "a and b must both be odd",
-          "b must equal 1",
-          "n must be a perfect square"
+          "√5 = p/q in lowest terms",
+          "√5 is a whole number",
+          "5 is divisible by every prime",
+          "p and q are both even"
         ],
         "answer": 0,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "Assume √5 is rational and express it as coprime integers p/q.",
         "difficulty": "Hard"
       },
       {
@@ -422,28 +422,28 @@
       },
       {
         "id": 33,
-        "question": "In a proof that √2 is irrational, if √2=a/b is assumed in lowest terms and b=5, which equation follows on squaring?",
+        "question": "If p² = 2q² for integers p and q, what does the equation imply about p?",
         "options": [
-          "2×5² = a²",
-          "2a² = 5²",
-          "a = 2b",
-          "a² + b² = 2"
+          "p is even",
+          "p is odd",
+          "p is prime",
+          "p equals q"
         ],
         "answer": 0,
-        "explanation": "Squaring √2=a/b gives 2=a²/b², so 2b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "p² is even, and the square of an odd integer is odd; therefore p must be even.",
         "difficulty": "Medium"
       },
       {
         "id": 34,
-        "question": "Does the reduced fraction 3/125 have a terminating decimal expansion?",
+        "question": "How many positive divisors does 2³ × 3² have?",
         "options": [
-          "Only if the numerator is odd",
-          "Yes",
-          "No",
-          "Only if the numerator is even"
+          "5",
+          "12",
+          "6",
+          "9"
         ],
         "answer": 1,
-        "explanation": "The reduced denominator is 125. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "The divisor count is (3 + 1)(2 + 1) = 12.",
         "difficulty": "Medium"
       },
       {
@@ -461,15 +461,15 @@
       },
       {
         "id": 36,
-        "question": "For √2, if √2=a/b is assumed in lowest terms with b=5, what contradiction is the irrationality proof aiming to establish?",
+        "question": "Why is the fraction p/q chosen in lowest terms in an irrationality proof?",
         "options": [
-          "a and b must both be odd",
-          "b must equal 1",
-          "n must be a perfect square",
-          "a and b must share a prime factor"
+          "To make q equal to 1",
+          "To ensure both are prime",
+          "To guarantee p is even",
+          "To ensure p and q have no common factor greater than 1"
         ],
         "answer": 3,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "The proof obtains a common prime factor for p and q, contradicting gcd(p,q)=1.",
         "difficulty": "Hard"
       },
       {
@@ -513,28 +513,28 @@
       },
       {
         "id": 40,
-        "question": "In a proof that √3 is irrational, if √3=a/b is assumed in lowest terms and b=6, which equation follows on squaring?",
+        "question": "If p² = 3q² and 3 is prime, which conclusion follows from prime divisibility?",
         "options": [
-          "3a² = 6²",
-          "a = 3b",
-          "a² + b² = 3",
-          "3×6² = a²"
+          "3 divides q immediately",
+          "p equals 3q",
+          "q is prime",
+          "3 divides p"
         ],
         "answer": 3,
-        "explanation": "Squaring √3=a/b gives 3=a²/b², so 3b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "Since 3 divides p² and 3 is prime, 3 divides p.",
         "difficulty": "Medium"
       },
       {
         "id": 41,
-        "question": "Does the reduced fraction 5/16 have a terminating decimal expansion?",
+        "question": "The HCF of 2⁴ × 3² and 2² × 3³ is:",
         "options": [
-          "Yes",
-          "No",
-          "Only if the numerator is even",
-          "Only if the numerator is odd"
+          "2² × 3² = 36",
+          "2⁴ × 3³ = 432",
+          "2² × 3³ = 108",
+          "2⁴ × 3² = 144"
         ],
         "answer": 0,
-        "explanation": "The reduced denominator is 16. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "For the HCF, use the smallest exponent of each common prime: 2² × 3² = 36.",
         "difficulty": "Medium"
       },
       {
@@ -552,15 +552,15 @@
       },
       {
         "id": 43,
-        "question": "For √3, if √3=a/b is assumed in lowest terms with b=6, what contradiction is the irrationality proof aiming to establish?",
+        "question": "If p² = 2q², why can p not be odd?",
         "options": [
-          "b must equal 1",
-          "n must be a perfect square",
-          "a and b must share a prime factor",
-          "a and b must both be odd"
+          "Odd integers have no square",
+          "p² would equal q²",
+          "The square of an odd integer is odd, but p² is even",
+          "Every odd number is prime"
         ],
         "answer": 2,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "The right-hand side 2q² is even, so p² is even and p must be even.",
         "difficulty": "Hard"
       },
       {
@@ -604,28 +604,28 @@
       },
       {
         "id": 47,
-        "question": "In a proof that √5 is irrational, if √5=a/b is assumed in lowest terms and b=7, which equation follows on squaring?",
+        "question": "In p² = 2q², suppose p is even and p = 2k. What equation follows after simplification?",
         "options": [
-          "a = 5b",
-          "a² + b² = 5",
-          "5×7² = a²",
-          "5a² = 7²"
+          "q² = k²/2",
+          "q = 2k",
+          "q² = 2k²",
+          "2q² = k²"
         ],
         "answer": 2,
-        "explanation": "Squaring √5=a/b gives 5=a²/b², so 5b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "Substitute p = 2k: 4k² = 2q², so q² = 2k².",
         "difficulty": "Medium"
       },
       {
         "id": 48,
-        "question": "Does the reduced fraction 5/24 have a terminating decimal expansion?",
+        "question": "The LCM of 2⁴ × 3² and 2² × 3³ is:",
         "options": [
-          "Yes",
-          "Only if the numerator is even",
-          "Only if the numerator is odd",
-          "No"
+          "2² × 3² = 36",
+          "2² × 3³ = 108",
+          "2⁴ × 3² = 144",
+          "2⁴ × 3³ = 432"
         ],
         "answer": 3,
-        "explanation": "The reduced denominator is 24. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "For the LCM, use the greatest exponent of each prime present: 2⁴ × 3³ = 432.",
         "difficulty": "Medium"
       },
       {
@@ -643,15 +643,15 @@
       },
       {
         "id": 50,
-        "question": "For √5, if √5=a/b is assumed in lowest terms with b=7, what contradiction is the irrationality proof aiming to establish?",
+        "question": "A number is irrational when it:",
         "options": [
-          "n must be a perfect square",
-          "a and b must share a prime factor",
-          "a and b must both be odd",
-          "b must equal 1"
+          "Is greater than 1",
+          "Cannot be expressed as a ratio of two integers with nonzero denominator",
+          "Has a square",
+          "Is a terminating decimal"
         ],
         "answer": 1,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "An irrational number cannot be written as p/q for integers p and q with q ≠ 0.",
         "difficulty": "Hard"
       },
       {
@@ -695,28 +695,28 @@
       },
       {
         "id": 54,
-        "question": "In a proof that √2 is irrational, if √2=a/b is assumed in lowest terms and b=8, which equation follows on squaring?",
+        "question": "If q² = 2k² for integers q and k, what follows about q?",
         "options": [
-          "a² + b² = 2",
-          "2×8² = a²",
-          "2a² = 8²",
-          "a = 2b"
+          "q is odd",
+          "q is even",
+          "q must be prime",
+          "q = k"
         ],
         "answer": 1,
-        "explanation": "Squaring √2=a/b gives 2=a²/b², so 2b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "q² is even, so q is even; the square of an odd integer would be odd.",
         "difficulty": "Medium"
       },
       {
         "id": 55,
-        "question": "Does the reduced fraction 2/45 have a terminating decimal expansion?",
+        "question": "If HCF(a, b) = 6 and LCM(a, b) = 420, then ab equals:",
         "options": [
-          "Only if the numerator is even",
-          "Only if the numerator is odd",
-          "No",
-          "Yes"
+          "426",
+          "70",
+          "2,520",
+          "2,100"
         ],
         "answer": 2,
-        "explanation": "The reduced denominator is 45. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "For positive integers, HCF × LCM = product, so ab = 6 × 420 = 2,520.",
         "difficulty": "Medium"
       },
       {
@@ -734,15 +734,15 @@
       },
       {
         "id": 57,
-        "question": "For √2, if √2=a/b is assumed in lowest terms with b=8, what contradiction is the irrationality proof aiming to establish?",
+        "question": "Proof by contradiction works by:",
         "options": [
-          "a and b must share a prime factor",
-          "a and b must both be odd",
-          "b must equal 1",
-          "n must be a perfect square"
+          "Assuming the opposite and deriving an impossibility",
+          "Checking one numerical example only",
+          "Drawing a graph without reasoning",
+          "Assuming the statement is already true"
         ],
         "answer": 0,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "A contradiction shows the initial opposite assumption cannot hold.",
         "difficulty": "Hard"
       },
       {
@@ -786,28 +786,28 @@
       },
       {
         "id": 61,
-        "question": "In a proof that √3 is irrational, if √3=a/b is assumed in lowest terms and b=9, which equation follows on squaring?",
+        "question": "Why does showing that both p and q are even contradict the assumption that p/q is in lowest terms?",
         "options": [
-          "3×9² = a²",
-          "3a² = 9²",
-          "a = 3b",
-          "a² + b² = 3"
+          "They have a common factor of 2",
+          "Their sum must be odd",
+          "Their product must be prime",
+          "The fraction equals zero"
         ],
         "answer": 0,
-        "explanation": "Squaring √3=a/b gives 3=a²/b², so 3b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "If both are even, their greatest common divisor is at least 2.",
         "difficulty": "Medium"
       },
       {
         "id": 62,
-        "question": "Does the reduced fraction 3/28 have a terminating decimal expansion?",
+        "question": "The integer represented by 2³ × 3 × 5 is:",
         "options": [
-          "Only if the numerator is odd",
-          "No",
-          "Yes",
-          "Only if the numerator is even"
+          "60",
+          "120",
+          "180",
+          "240"
         ],
         "answer": 1,
-        "explanation": "The reduced denominator is 28. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "2³ × 3 × 5 = 8 × 3 × 5 = 120.",
         "difficulty": "Medium"
       },
       {
@@ -825,15 +825,15 @@
       },
       {
         "id": 64,
-        "question": "For √3, if √3=a/b is assumed in lowest terms with b=9, what contradiction is the irrationality proof aiming to establish?",
+        "question": "For √3 = p/q, squaring gives p² = 3q². Which divisibility conclusion follows first?",
         "options": [
-          "a and b must both be odd",
-          "b must equal 1",
-          "n must be a perfect square",
-          "a and b must share a prime factor"
+          "3 divides q before p",
+          "p and q are equal",
+          "p is not an integer",
+          "3 divides p"
         ],
         "answer": 3,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "Since 3 is prime and divides p², it must divide p.",
         "difficulty": "Hard"
       },
       {
@@ -877,28 +877,28 @@
       },
       {
         "id": 68,
-        "question": "In a proof that √5 is irrational, if √5=a/b is assumed in lowest terms and b=10, which equation follows on squaring?",
+        "question": "For integers p and q with q ≠ 0, what does writing p/q in lowest terms mean?",
         "options": [
-          "5a² = 10²",
-          "a = 5b",
-          "a² + b² = 5",
-          "5×10² = a²"
+          "p and q are both prime",
+          "p = q",
+          "p and q are both even",
+          "gcd(p, q) = 1"
         ],
         "answer": 3,
-        "explanation": "Squaring √5=a/b gives 5=a²/b², so 5b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "A fraction is in lowest terms when numerator and denominator have no common factor greater than 1.",
         "difficulty": "Medium"
       },
       {
         "id": 69,
-        "question": "Does the reduced fraction 4/75 have a terminating decimal expansion?",
+        "question": "How many distinct prime factors occur in 2² × 3 × 5³?",
         "options": [
-          "No",
-          "Yes",
-          "Only if the numerator is even",
-          "Only if the numerator is odd"
+          "3",
+          "2",
+          "4",
+          "6"
         ],
         "answer": 0,
-        "explanation": "The reduced denominator is 75. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "The distinct prime factors are 2, 3 and 5, so there are three.",
         "difficulty": "Medium"
       },
       {
@@ -916,15 +916,15 @@
       },
       {
         "id": 71,
-        "question": "For √5, if √5=a/b is assumed in lowest terms with b=10, what contradiction is the irrationality proof aiming to establish?",
+        "question": "In the proof for √3, after p is shown divisible by 3, substituting p = 3k implies:",
         "options": [
-          "b must equal 1",
-          "n must be a perfect square",
-          "a and b must share a prime factor",
-          "a and b must both be odd"
+          "q² = 9k²",
+          "q = 3k",
+          "q² = 3k²",
+          "3q² = k²"
         ],
         "answer": 2,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "From 9k² = 3q², division by 3 gives q² = 3k², so 3 divides q as well.",
         "difficulty": "Hard"
       },
       {
@@ -968,28 +968,28 @@
       },
       {
         "id": 75,
-        "question": "In a proof that √2 is irrational, if √2=a/b is assumed in lowest terms and b=11, which equation follows on squaring?",
+        "question": "Which prime-divisibility property is used in irrationality proofs?",
         "options": [
-          "a = 2b",
-          "a² + b² = 2",
-          "2×11² = a²",
-          "2a² = 11²"
+          "If a divides a prime, a is even",
+          "If a² divides a prime, a is composite",
+          "If a prime divides a², it divides a",
+          "Every square is prime"
         ],
         "answer": 2,
-        "explanation": "Squaring √2=a/b gives 2=a²/b², so 2b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "For a prime r, r | a² implies r | a. This is the key step in the contradiction.",
         "difficulty": "Medium"
       },
       {
         "id": 76,
-        "question": "Does the reduced fraction 7/90 have a terminating decimal expansion?",
+        "question": "When finding an HCF from prime factorisations, the exponent chosen for each common prime is the:",
         "options": [
-          "Yes",
-          "Only if the numerator is even",
-          "Only if the numerator is odd",
-          "No"
+          "Largest exponent",
+          "Sum of the exponents",
+          "Difference of the exponents",
+          "Smallest exponent"
         ],
         "answer": 3,
-        "explanation": "The reduced denominator is 90. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "The HCF uses common primes with their smallest exponents.",
         "difficulty": "Medium"
       },
       {
@@ -1007,15 +1007,15 @@
       },
       {
         "id": 78,
-        "question": "For √2, if √2=a/b is assumed in lowest terms with b=11, what contradiction is the irrationality proof aiming to establish?",
+        "question": "In the proof for √5, if both p and q are divisible by 5, what follows?",
         "options": [
-          "n must be a perfect square",
-          "a and b must share a prime factor",
-          "a and b must both be odd",
-          "b must equal 1"
+          "√5 is an integer",
+          "p/q was not in lowest terms",
+          "p/q must equal 5",
+          "q must be zero"
         ],
         "answer": 1,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "A common factor 5 contradicts the assumption that p and q are coprime.",
         "difficulty": "Hard"
       },
       {
@@ -1059,28 +1059,28 @@
       },
       {
         "id": 82,
-        "question": "In a proof that √3 is irrational, if √3=a/b is assumed in lowest terms and b=12, which equation follows on squaring?",
+        "question": "The standard proof that √2 is irrational is an example of:",
         "options": [
-          "a² + b² = 3",
-          "3×12² = a²",
-          "3a² = 12²",
-          "a = 3b"
+          "Proof by induction",
+          "Proof by contradiction",
+          "Proof by graphing only",
+          "Proof by measuring a diagram"
         ],
         "answer": 1,
-        "explanation": "Squaring √3=a/b gives 3=a²/b², so 3b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "The proof assumes √2 is rational and derives a contradiction with the fraction being in lowest terms.",
         "difficulty": "Medium"
       },
       {
         "id": 83,
-        "question": "Does the reduced fraction 9/110 have a terminating decimal expansion?",
+        "question": "When finding an LCM from prime factorisations, one takes:",
         "options": [
-          "Only if the numerator is even",
-          "Only if the numerator is odd",
-          "No",
-          "Yes"
+          "Only primes common to every number",
+          "The smallest exponent of each prime",
+          "The largest exponent of each prime present",
+          "The sum of all exponents"
         ],
         "answer": 2,
-        "explanation": "The reduced denominator is 110. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "The LCM uses each prime occurring in any of the numbers, with its highest exponent.",
         "difficulty": "Medium"
       },
       {
@@ -1098,15 +1098,15 @@
       },
       {
         "id": 85,
-        "question": "For √3, if √3=a/b is assumed in lowest terms with b=12, what contradiction is the irrationality proof aiming to establish?",
+        "question": "Which of √2, √3 and √5 are irrational?",
         "options": [
-          "a and b must share a prime factor",
-          "a and b must both be odd",
-          "b must equal 1",
-          "n must be a perfect square"
+          "All three",
+          "Only √2",
+          "Only √3 and √5",
+          "None of them"
         ],
         "answer": 0,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "The square roots of 2, 3 and 5 are all irrational; their standard proofs use prime divisibility.",
         "difficulty": "Hard"
       },
       {
@@ -1150,28 +1150,28 @@
       },
       {
         "id": 89,
-        "question": "In a proof that √5 is irrational, if √5=a/b is assumed in lowest terms and b=13, which equation follows on squaring?",
+        "question": "In the proof that √5 is irrational, p² = 5q² implies 5 divides p because:",
         "options": [
-          "5×13² = a²",
-          "5a² = 13²",
-          "a = 5b",
-          "a² + b² = 5"
+          "5 is prime and divides p²",
+          "5 divides every integer",
+          "p must be odd",
+          "q must equal 5"
         ],
         "answer": 0,
-        "explanation": "Squaring √5=a/b gives 5=a²/b², so 5b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "Since 5 is prime and 5 | p², prime divisibility gives 5 | p.",
         "difficulty": "Medium"
       },
       {
         "id": 90,
-        "question": "Does the reduced fraction 3/250 have a terminating decimal expansion?",
+        "question": "Which is the prime factorisation of 2,310?",
         "options": [
-          "Only if the numerator is odd",
-          "Yes",
-          "No",
-          "Only if the numerator is even"
+          "2 × 3 × 5 × 7²",
+          "2 × 3 × 5 × 7 × 11",
+          "2² × 3 × 5 × 11",
+          "3 × 5 × 7 × 11"
         ],
         "answer": 1,
-        "explanation": "The reduced denominator is 250. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "2,310 = 231 × 10 = 3 × 7 × 11 × 2 × 5.",
         "difficulty": "Medium"
       },
       {
@@ -1189,15 +1189,15 @@
       },
       {
         "id": 92,
-        "question": "For √5, if √5=a/b is assumed in lowest terms with b=13, what contradiction is the irrationality proof aiming to establish?",
+        "question": "If p and q are both divisible by 5, their greatest common divisor is:",
         "options": [
-          "a and b must both be odd",
-          "b must equal 1",
-          "n must be a perfect square",
-          "a and b must share a prime factor"
+          "Always 1",
+          "Always 2",
+          "Exactly 1",
+          "At least 5"
         ],
         "answer": 3,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "Because 5 divides both integers, their HCF is at least 5.",
         "difficulty": "Hard"
       },
       {
@@ -1241,28 +1241,28 @@
       },
       {
         "id": 96,
-        "question": "In a proof that √2 is irrational, if √2=a/b is assumed in lowest terms and b=14, which equation follows on squaring?",
+        "question": "If p² = 5q² and p = 5k, what equation follows after simplifying?",
         "options": [
-          "2a² = 14²",
-          "a = 2b",
-          "a² + b² = 2",
-          "2×14² = a²"
+          "q² = 25k²",
+          "q = 5k",
+          "5q² = k²",
+          "q² = 5k²"
         ],
         "answer": 3,
-        "explanation": "Squaring √2=a/b gives 2=a²/b², so 2b²=a². Divisibility then leads to a contradiction with lowest terms.",
+        "explanation": "Substitute p = 5k: 25k² = 5q², so q² = 5k².",
         "difficulty": "Medium"
       },
       {
         "id": 97,
-        "question": "Does the reduced fraction 5/42 have a terminating decimal expansion?",
+        "question": "The integer represented by 2² × 3² × 5 is:",
         "options": [
-          "No",
-          "Yes",
-          "Only if the numerator is even",
-          "Only if the numerator is odd"
+          "180",
+          "90",
+          "120",
+          "360"
         ],
         "answer": 0,
-        "explanation": "The reduced denominator is 42. A reduced fraction terminates exactly when the denominator's prime factors are only 2 and/or 5.",
+        "explanation": "2² × 3² × 5 = 4 × 9 × 5 = 180.",
         "difficulty": "Medium"
       },
       {
@@ -1280,15 +1280,15 @@
       },
       {
         "id": 99,
-        "question": "For √2, if √2=a/b is assumed in lowest terms with b=14, what contradiction is the irrationality proof aiming to establish?",
+        "question": "Which reasoning links p² = 5q² to the contradiction in the proof for √5?",
         "options": [
-          "b must equal 1",
-          "n must be a perfect square",
-          "a and b must share a prime factor",
-          "a and b must both be odd"
+          "p must equal q",
+          "5 is not a prime number",
+          "5 divides p, then the equation forces 5 to divide q",
+          "q must equal zero"
         ],
         "answer": 2,
-        "explanation": "Squaring and applying prime divisibility forces a and then b to share a factor, contradicting that a/b is in lowest terms.",
+        "explanation": "Prime divisibility gives 5 | p; substituting p = 5k then gives 5 | q, contradicting lowest terms.",
         "difficulty": "Hard"
       },
       {
@@ -1417,7 +1417,7 @@
       },
       {
         "id": 9,
-        "question": "For p(x)=x²−(5)x+(6), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 5x + 6, the sum of its zeroes is:",
         "options": [
           "-5",
           "6",
@@ -1482,7 +1482,7 @@
       },
       {
         "id": 14,
-        "question": "For p(x)=(x−(4))(x−(6)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 4)(x − 6), the x-axis intersections of its graph occur at:",
         "options": [
           "x=4 and x=6",
           "x=10 only",
@@ -1490,7 +1490,7 @@
           "x=0 and x=10"
         ],
         "answer": 0,
-        "explanation": "The zeroes solve (x−4)(x−6)=0, so x=4 or x=6.",
+        "explanation": "Setting p(x)=0 gives (x − 4)(x − 6)=0, so the zeroes are x=4 and x=6.",
         "difficulty": "Easy"
       },
       {
@@ -1508,7 +1508,7 @@
       },
       {
         "id": 16,
-        "question": "For p(x)=x²−(6)x+(5), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 6x + 5, the sum of its zeroes is:",
         "options": [
           "5",
           "-5",
@@ -1573,7 +1573,7 @@
       },
       {
         "id": 21,
-        "question": "For p(x)=(x−(3))(x−(-6)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 3)(x + 6), the x-axis intersections of its graph occur at:",
         "options": [
           "x=-3 only",
           "x=-18 only",
@@ -1581,7 +1581,7 @@
           "x=3 and x=-6"
         ],
         "answer": 3,
-        "explanation": "The zeroes solve (x−3)(x−-6)=0, so x=3 or x=-6.",
+        "explanation": "Setting p(x)=0 gives (x − 3)(x + 6)=0, so the zeroes are x=3 and x=-6.",
         "difficulty": "Easy"
       },
       {
@@ -1599,7 +1599,7 @@
       },
       {
         "id": 23,
-        "question": "For p(x)=x²−(2)x+(-8), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 2x − 8, the sum of its zeroes is:",
         "options": [
           "8",
           "2",
@@ -1664,7 +1664,7 @@
       },
       {
         "id": 28,
-        "question": "For p(x)=(x−(1))(x−(5)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 1)(x − 5), the x-axis intersections of its graph occur at:",
         "options": [
           "x=5 only",
           "x=0 and x=6",
@@ -1672,7 +1672,7 @@
           "x=6 only"
         ],
         "answer": 2,
-        "explanation": "The zeroes solve (x−1)(x−5)=0, so x=1 or x=5.",
+        "explanation": "Setting p(x)=0 gives (x − 1)(x − 5)=0, so the zeroes are x=1 and x=5.",
         "difficulty": "Easy"
       },
       {
@@ -1690,7 +1690,7 @@
       },
       {
         "id": 30,
-        "question": "For p(x)=x²−(-1)x+(-6), the sum of its zeroes is:",
+        "question": "For p(x) = x² + 1x − 6, the sum of its zeroes is:",
         "options": [
           "-1",
           "1",
@@ -1755,7 +1755,7 @@
       },
       {
         "id": 35,
-        "question": "For p(x)=(x−(8))(x−(2)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 8)(x − 2), the x-axis intersections of its graph occur at:",
         "options": [
           "x=0 and x=10",
           "x=8 and x=2",
@@ -1763,7 +1763,7 @@
           "x=16 only"
         ],
         "answer": 1,
-        "explanation": "The zeroes solve (x−8)(x−2)=0, so x=8 or x=2.",
+        "explanation": "Setting p(x)=0 gives (x − 8)(x − 2)=0, so the zeroes are x=8 and x=2.",
         "difficulty": "Easy"
       },
       {
@@ -1781,7 +1781,7 @@
       },
       {
         "id": 37,
-        "question": "For p(x)=x²−(10)x+(24), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 10x + 24, the sum of its zeroes is:",
         "options": [
           "-10",
           "24",
@@ -1846,7 +1846,7 @@
       },
       {
         "id": 42,
-        "question": "For p(x)=(x−(5))(x−(-8)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 5)(x + 8), the x-axis intersections of its graph occur at:",
         "options": [
           "x=5 and x=-8",
           "x=-3 only",
@@ -1854,7 +1854,7 @@
           "x=0 and x=-3"
         ],
         "answer": 0,
-        "explanation": "The zeroes solve (x−5)(x−-8)=0, so x=5 or x=-8.",
+        "explanation": "Setting p(x)=0 gives (x − 5)(x + 8)=0, so the zeroes are x=5 and x=-8.",
         "difficulty": "Easy"
       },
       {
@@ -1872,7 +1872,7 @@
       },
       {
         "id": 44,
-        "question": "For p(x)=x²−(-7)x+(10), the sum of its zeroes is:",
+        "question": "For p(x) = x² + 7x + 10, the sum of its zeroes is:",
         "options": [
           "10",
           "-10",
@@ -1937,7 +1937,7 @@
       },
       {
         "id": 49,
-        "question": "For p(x)=(x−(-4))(x−(1)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x + 4)(x − 1), the x-axis intersections of its graph occur at:",
         "options": [
           "x=-3 only",
           "x=-4 only",
@@ -1945,7 +1945,7 @@
           "x=-4 and x=1"
         ],
         "answer": 3,
-        "explanation": "The zeroes solve (x−-4)(x−1)=0, so x=-4 or x=1.",
+        "explanation": "Setting p(x)=0 gives (x + 4)(x − 1)=0, so the zeroes are x=-4 and x=1.",
         "difficulty": "Easy"
       },
       {
@@ -1963,7 +1963,7 @@
       },
       {
         "id": 51,
-        "question": "For p(x)=x²−(10)x+(21), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 10x + 21, the sum of its zeroes is:",
         "options": [
           "-21",
           "10",
@@ -2028,7 +2028,7 @@
       },
       {
         "id": 56,
-        "question": "For p(x)=(x−(13))(x−(2)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 13)(x − 2), the x-axis intersections of its graph occur at:",
         "options": [
           "x=26 only",
           "x=0 and x=15",
@@ -2036,7 +2036,7 @@
           "x=15 only"
         ],
         "answer": 2,
-        "explanation": "The zeroes solve (x−13)(x−2)=0, so x=13 or x=2.",
+        "explanation": "Setting p(x)=0 gives (x − 13)(x − 2)=0, so the zeroes are x=13 and x=2.",
         "difficulty": "Easy"
       },
       {
@@ -2054,7 +2054,7 @@
       },
       {
         "id": 58,
-        "question": "For p(x)=x²−(10)x+(16), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 10x + 16, the sum of its zeroes is:",
         "options": [
           "10",
           "-10",
@@ -2119,7 +2119,7 @@
       },
       {
         "id": 63,
-        "question": "For p(x)=(x−(3))(x−(7)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 3)(x − 7), the x-axis intersections of its graph occur at:",
         "options": [
           "x=0 and x=10",
           "x=3 and x=7",
@@ -2127,7 +2127,7 @@
           "x=21 only"
         ],
         "answer": 1,
-        "explanation": "The zeroes solve (x−3)(x−7)=0, so x=3 or x=7.",
+        "explanation": "Setting p(x)=0 gives (x − 3)(x − 7)=0, so the zeroes are x=3 and x=7.",
         "difficulty": "Easy"
       },
       {
@@ -2145,7 +2145,7 @@
       },
       {
         "id": 65,
-        "question": "For p(x)=x²−(14)x+(45), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 14x + 45, the sum of its zeroes is:",
         "options": [
           "-14",
           "45",
@@ -2210,7 +2210,7 @@
       },
       {
         "id": 70,
-        "question": "For p(x)=(x−(12))(x−(5)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 12)(x − 5), the x-axis intersections of its graph occur at:",
         "options": [
           "x=12 and x=5",
           "x=17 only",
@@ -2218,7 +2218,7 @@
           "x=0 and x=17"
         ],
         "answer": 0,
-        "explanation": "The zeroes solve (x−12)(x−5)=0, so x=12 or x=5.",
+        "explanation": "Setting p(x)=0 gives (x − 12)(x − 5)=0, so the zeroes are x=12 and x=5.",
         "difficulty": "Easy"
       },
       {
@@ -2236,7 +2236,7 @@
       },
       {
         "id": 72,
-        "question": "For p(x)=x²−(-3)x+(-4), the sum of its zeroes is:",
+        "question": "For p(x) = x² + 3x − 4, the sum of its zeroes is:",
         "options": [
           "-4",
           "4",
@@ -2301,7 +2301,7 @@
       },
       {
         "id": 77,
-        "question": "For p(x)=(x−(-3))(x−(2)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x + 3)(x − 2), the x-axis intersections of its graph occur at:",
         "options": [
           "x=-1 only",
           "x=-6 only",
@@ -2309,7 +2309,7 @@
           "x=-3 and x=2"
         ],
         "answer": 3,
-        "explanation": "The zeroes solve (x−-3)(x−2)=0, so x=-3 or x=2.",
+        "explanation": "Setting p(x)=0 gives (x + 3)(x − 2)=0, so the zeroes are x=-3 and x=2.",
         "difficulty": "Easy"
       },
       {
@@ -2327,7 +2327,7 @@
       },
       {
         "id": 79,
-        "question": "For p(x)=x²−(5)x+(-6), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 5x − 6, the sum of its zeroes is:",
         "options": [
           "6",
           "5",
@@ -2392,7 +2392,7 @@
       },
       {
         "id": 84,
-        "question": "For p(x)=(x−(10))(x−(-2)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 10)(x + 2), the x-axis intersections of its graph occur at:",
         "options": [
           "x=-20 only",
           "x=0 and x=8",
@@ -2400,7 +2400,7 @@
           "x=8 only"
         ],
         "answer": 2,
-        "explanation": "The zeroes solve (x−10)(x−-2)=0, so x=10 or x=-2.",
+        "explanation": "Setting p(x)=0 gives (x − 10)(x + 2)=0, so the zeroes are x=10 and x=-2.",
         "difficulty": "Easy"
       },
       {
@@ -2418,7 +2418,7 @@
       },
       {
         "id": 86,
-        "question": "For p(x)=x²−(4)x+(-21), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 4x − 21, the sum of its zeroes is:",
         "options": [
           "4",
           "-4",
@@ -2483,7 +2483,7 @@
       },
       {
         "id": 91,
-        "question": "For p(x)=(x−(2))(x−(3)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 2)(x − 3), the x-axis intersections of its graph occur at:",
         "options": [
           "x=0 and x=5",
           "x=2 and x=3",
@@ -2491,7 +2491,7 @@
           "x=6 only"
         ],
         "answer": 1,
-        "explanation": "The zeroes solve (x−2)(x−3)=0, so x=2 or x=3.",
+        "explanation": "Setting p(x)=0 gives (x − 2)(x − 3)=0, so the zeroes are x=2 and x=3.",
         "difficulty": "Easy"
       },
       {
@@ -2509,7 +2509,7 @@
       },
       {
         "id": 93,
-        "question": "For p(x)=x²−(13)x+(36), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 13x + 36, the sum of its zeroes is:",
         "options": [
           "-13",
           "36",
@@ -2574,7 +2574,7 @@
       },
       {
         "id": 98,
-        "question": "For p(x)=(x−(7))(x−(-3)), the x-axis intersections of its graph occur at:",
+        "question": "For p(x) = (x − 7)(x + 3), the x-axis intersections of its graph occur at:",
         "options": [
           "x=7 and x=-3",
           "x=4 only",
@@ -2582,7 +2582,7 @@
           "x=0 and x=4"
         ],
         "answer": 0,
-        "explanation": "The zeroes solve (x−7)(x−-3)=0, so x=7 or x=-3.",
+        "explanation": "Setting p(x)=0 gives (x − 7)(x + 3)=0, so the zeroes are x=7 and x=-3.",
         "difficulty": "Easy"
       },
       {
@@ -2600,7 +2600,7 @@
       },
       {
         "id": 100,
-        "question": "For p(x)=x²−(8)x+(-20), the sum of its zeroes is:",
+        "question": "For p(x) = x² − 8x − 20, the sum of its zeroes is:",
         "options": [
           "-20",
           "20",
@@ -4039,7 +4039,7 @@
           "3 and 2"
         ],
         "answer": 1,
-        "explanation": "Factor the equation as (x−2)(x−3)=0; hence x=2 or x=3.",
+        "explanation": "Factor the equation as (x − 2)(x − 3) = 0; hence x = 2 or x = 3.",
         "difficulty": "Easy"
       },
       {
@@ -4130,12 +4130,12 @@
           "5 and 6"
         ],
         "answer": 0,
-        "explanation": "Factor the equation as (x−1)(x−5)=0; hence x=1 or x=5.",
+        "explanation": "Factor the equation as (x − 1)(x − 5) = 0; hence x = 1 or x = 5.",
         "difficulty": "Easy"
       },
       {
         "id": 17,
-        "question": "For 2x² − 5x+9=0, the discriminant is:",
+        "question": "For 2x² − 5x + 9 = 0, the discriminant is:",
         "options": [
           "77",
           "-47",
@@ -4221,12 +4221,12 @@
           "-2 and 4"
         ],
         "answer": 3,
-        "explanation": "Factor the equation as (x−-2)(x−4)=0; hence x=-2 or x=4.",
+        "explanation": "Factor the equation as (x + 2)(x − 4) = 0; hence x = -2 or x = 4.",
         "difficulty": "Easy"
       },
       {
         "id": 24,
-        "question": "For 3x² − 2x+16=0, the discriminant is:",
+        "question": "For 3x² − 2x + 16 = 0, the discriminant is:",
         "options": [
           "-188",
           "188",
@@ -4312,7 +4312,7 @@
           "3 and 2"
         ],
         "answer": 2,
-        "explanation": "Factor the equation as (x−-3)(x−2)=0; hence x=-3 or x=2.",
+        "explanation": "Factor the equation as (x + 3)(x − 2) = 0; hence x = -3 or x = 2.",
         "difficulty": "Easy"
       },
       {
@@ -4403,7 +4403,7 @@
           "5 and 5"
         ],
         "answer": 1,
-        "explanation": "Factor the equation as (x−4)(x−6)=0; hence x=4 or x=6.",
+        "explanation": "Factor the equation as (x − 4)(x − 6) = 0; hence x = 4 or x = 6.",
         "difficulty": "Easy"
       },
       {
@@ -4494,12 +4494,12 @@
           "10 and -7"
         ],
         "answer": 0,
-        "explanation": "Factor the equation as (x−-5)(x−-2)=0; hence x=-5 or x=-2.",
+        "explanation": "Factor the equation as (x + 5)(x + 2) = 0; hence x = -5 or x = -2.",
         "difficulty": "Easy"
       },
       {
         "id": 45,
-        "question": "For 2x² − 8x+17=0, the discriminant is:",
+        "question": "For 2x² − 8x + 17 = 0, the discriminant is:",
         "options": [
           "144",
           "-72",
@@ -4572,12 +4572,12 @@
           "-3 and 7"
         ],
         "answer": 2,
-        "explanation": "Factor the equation as (x−3)(x−7)=0; hence x=3 or x=7.",
+        "explanation": "Factor the equation as (x − 3)(x − 7) = 0; hence x = 3 or x = 7.",
         "difficulty": "Easy"
       },
       {
         "id": 51,
-        "question": "For 3x² − 5x+4=0, the discriminant is:",
+        "question": "For 3x² − 5x + 4 = 0, the discriminant is:",
         "options": [
           "23",
           "73",
@@ -4650,12 +4650,12 @@
           "16 and 10"
         ],
         "answer": 0,
-        "explanation": "Factor the equation as (x−2)(x−8)=0; hence x=2 or x=8.",
+        "explanation": "Factor the equation as (x − 2)(x − 8) = 0; hence x = 2 or x = 8.",
         "difficulty": "Easy"
       },
       {
         "id": 57,
-        "question": "For 4x² − 2x+11=0, the discriminant is:",
+        "question": "For 4x² − 2x + 11 = 0, the discriminant is:",
         "options": [
           "178",
           "-172",
@@ -4728,7 +4728,7 @@
           "-5 and 9"
         ],
         "answer": 2,
-        "explanation": "Factor the equation as (x−5)(x−9)=0; hence x=5 or x=9.",
+        "explanation": "Factor the equation as (x − 5)(x − 9) = 0; hence x = 5 or x = 9.",
         "difficulty": "Easy"
       },
       {
@@ -4793,12 +4793,12 @@
           "-4 and 1"
         ],
         "answer": 3,
-        "explanation": "Factor the equation as (x−-4)(x−1)=0; hence x=-4 or x=1.",
+        "explanation": "Factor the equation as (x + 4)(x − 1) = 0; hence x = -4 or x = 1.",
         "difficulty": "Easy"
       },
       {
         "id": 68,
-        "question": "For 2x² + 4x+5=0, the discriminant is:",
+        "question": "For 2x² + 4x + 5 = 0, the discriminant is:",
         "options": [
           "-24",
           "24",
@@ -4858,12 +4858,12 @@
           "-6 and 5"
         ],
         "answer": 0,
-        "explanation": "Factor the equation as (x−6)(x−-1)=0; hence x=6 or x=-1.",
+        "explanation": "Factor the equation as (x − 6)(x + 1) = 0; hence x = 6 or x = -1.",
         "difficulty": "Easy"
       },
       {
         "id": 73,
-        "question": "For 3x² − 8x+12=0, the discriminant is:",
+        "question": "For 3x² − 8x + 12 = 0, the discriminant is:",
         "options": [
           "152",
           "-80",
@@ -4923,12 +4923,12 @@
           "8 and -4"
         ],
         "answer": 1,
-        "explanation": "Factor the equation as (x−7)(x−-3)=0; hence x=7 or x=-3.",
+        "explanation": "Factor the equation as (x − 7)(x + 3) = 0; hence x = 7 or x = -3.",
         "difficulty": "Easy"
       },
       {
         "id": 78,
-        "question": "For 4x² − 5x+19=0, the discriminant is:",
+        "question": "For 4x² − 5x + 19 = 0, the discriminant is:",
         "options": [
           "329",
           "309",
@@ -4988,7 +4988,7 @@
           "-9 and 4"
         ],
         "answer": 2,
-        "explanation": "Factor the equation as (x−9)(x−4)=0; hence x=9 or x=4.",
+        "explanation": "Factor the equation as (x − 9)(x − 4) = 0; hence x = 9 or x = 4.",
         "difficulty": "Easy"
       },
       {
@@ -5053,7 +5053,7 @@
           "10 and -2"
         ],
         "answer": 3,
-        "explanation": "Factor the equation as (x−10)(x−-2)=0; hence x=10 or x=-2.",
+        "explanation": "Factor the equation as (x − 10)(x + 2) = 0; hence x = 10 or x = -2.",
         "difficulty": "Easy"
       },
       {
@@ -5118,12 +5118,12 @@
           "-18 and -3"
         ],
         "answer": 0,
-        "explanation": "Factor the equation as (x−3)(x−-6)=0; hence x=3 or x=-6.",
+        "explanation": "Factor the equation as (x − 3)(x + 6) = 0; hence x = 3 or x = -6.",
         "difficulty": "Easy"
       },
       {
         "id": 93,
-        "question": "For 3x² + 4x+20=0, the discriminant is:",
+        "question": "For 3x² + 4x + 20 = 0, the discriminant is:",
         "options": [
           "236",
           "-224",
@@ -5183,12 +5183,12 @@
           "12 and 0"
         ],
         "answer": 1,
-        "explanation": "Factor the equation as (x−11)(x−1)=0; hence x=11 or x=1.",
+        "explanation": "Factor the equation as (x − 11)(x − 1) = 0; hence x = 11 or x = 1.",
         "difficulty": "Easy"
       },
       {
         "id": 98,
-        "question": "For 4x² − 8x+7=0, the discriminant is:",
+        "question": "For 4x² − 8x + 7 = 0, the discriminant is:",
         "options": [
           "176",
           "120",
@@ -5385,20 +5385,20 @@
           "0"
         ],
         "answer": 3,
-        "explanation": "Subtract consecutive terms: (7)−7=0.",
+        "explanation": "Subtract consecutive terms: d = 7 − (7) = 0.",
         "difficulty": "Easy"
       },
       {
         "id": 13,
         "question": "Which expression gives the sum of the first 5 terms of an AP with first term 2 and difference 6?",
         "options": [
-          "5/2[4+(5−1)(6)]",
+          "5/2[4+(5−1)6]",
           "5[2+(5−1)6]",
           "2/5[4+(5−1)6]",
           "5/2[2+6]"
         ],
         "answer": 0,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -5476,7 +5476,7 @@
           "2"
         ],
         "answer": 2,
-        "explanation": "Subtract consecutive terms: (13)−15=-2.",
+        "explanation": "Subtract consecutive terms: d = 13 − (15) = -2.",
         "difficulty": "Easy"
       },
       {
@@ -5486,10 +5486,10 @@
           "6[30+(6−1)1]",
           "2/6[60+(6−1)1]",
           "6/2[30+1]",
-          "6/2[60+(6−1)(1)]"
+          "6/2[60+(6−1)1]"
         ],
         "answer": 3,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -5567,20 +5567,20 @@
           "16"
         ],
         "answer": 1,
-        "explanation": "Subtract consecutive terms: (14)−16=-2.",
+        "explanation": "Subtract consecutive terms: d = 14 − (16) = -2.",
         "difficulty": "Easy"
       },
       {
         "id": 27,
         "question": "Which expression gives the sum of the first 7 terms of an AP with first term 5 and difference 3?",
         "options": [
+          "7[5+(7−1)3]",
           "2/7[10+(7−1)3]",
-          "7/2[5+3]",
-          "7/2[10+(7−1)(3)]",
-          "7[5+(7−1)3]"
+          "7/2[10+(7−1)3]",
+          "7/2[5+3]"
         ],
         "answer": 2,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -5658,20 +5658,20 @@
           "17"
         ],
         "answer": 0,
-        "explanation": "Subtract consecutive terms: (17)−10=7.",
+        "explanation": "Subtract consecutive terms: d = 17 − (10) = 7.",
         "difficulty": "Easy"
       },
       {
         "id": 34,
         "question": "Which expression gives the sum of the first 8 terms of an AP with first term 13 and difference 3?",
         "options": [
-          "8/2[13+3]",
-          "8/2[26+(8−1)(3)]",
           "8[13+(8−1)3]",
-          "2/8[26+(8−1)3]"
+          "8/2[26+(8−1)3]",
+          "2/8[26+(8−1)3]",
+          "8/2[13+3]"
         ],
         "answer": 1,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -5749,20 +5749,20 @@
           "2"
         ],
         "answer": 3,
-        "explanation": "Subtract consecutive terms: (13)−11=2.",
+        "explanation": "Subtract consecutive terms: d = 13 − (11) = 2.",
         "difficulty": "Easy"
       },
       {
         "id": 41,
         "question": "Which expression gives the sum of the first 9 terms of an AP with first term 17 and difference -4?",
         "options": [
-          "9/2[34+(9−1)(-4)]",
-          "9[17+(9−1)-4]",
-          "2/9[34+(9−1)-4]",
-          "9/2[17+-4]"
+          "9/2[34+(9−1)(−4)]",
+          "9[17+(9−1)(−4)]",
+          "2/9[34+(9−1)(−4)]",
+          "9/2[17+(−4)]"
         ],
         "answer": 0,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -5840,7 +5840,7 @@
           "4"
         ],
         "answer": 2,
-        "explanation": "Subtract consecutive terms: (21)−25=-4.",
+        "explanation": "Subtract consecutive terms: d = 21 − (25) = -4.",
         "difficulty": "Easy"
       },
       {
@@ -5850,10 +5850,10 @@
           "10[9+(10−1)4]",
           "2/10[18+(10−1)4]",
           "10/2[9+4]",
-          "10/2[18+(10−1)(4)]"
+          "10/2[18+(10−1)4]"
         ],
         "answer": 3,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -5931,20 +5931,20 @@
           "-5"
         ],
         "answer": 1,
-        "explanation": "Subtract consecutive terms: (1)−-5=6.",
+        "explanation": "Subtract consecutive terms: d = 1 − (-5) = 6.",
         "difficulty": "Easy"
       },
       {
         "id": 55,
         "question": "Which expression gives the sum of the first 11 terms of an AP with first term -5 and difference 6?",
         "options": [
+          "11[-5+(11−1)6]",
           "2/11[-10+(11−1)6]",
-          "11/2[-5+6]",
-          "11/2[-10+(11−1)(6)]",
-          "11[-5+(11−1)6]"
+          "11/2[-10+(11−1)6]",
+          "11/2[-5+6]"
         ],
         "answer": 2,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -6022,20 +6022,20 @@
           "13"
         ],
         "answer": 0,
-        "explanation": "Subtract consecutive terms: (13)−18=-5.",
+        "explanation": "Subtract consecutive terms: d = 13 − (18) = -5.",
         "difficulty": "Easy"
       },
       {
         "id": 62,
         "question": "Which expression gives the sum of the first 12 terms of an AP with first term 11 and difference 2?",
         "options": [
-          "12/2[11+2]",
-          "12/2[22+(12−1)(2)]",
           "12[11+(12−1)2]",
-          "2/12[22+(12−1)2]"
+          "12/2[22+(12−1)2]",
+          "2/12[22+(12−1)2]",
+          "12/2[11+2]"
         ],
         "answer": 1,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -6113,20 +6113,20 @@
           "4"
         ],
         "answer": 3,
-        "explanation": "Subtract consecutive terms: (13)−9=4.",
+        "explanation": "Subtract consecutive terms: d = 13 − (9) = 4.",
         "difficulty": "Easy"
       },
       {
         "id": 69,
         "question": "Which expression gives the sum of the first 13 terms of an AP with first term 16 and difference -2?",
         "options": [
-          "13/2[32+(13−1)(-2)]",
-          "13[16+(13−1)-2]",
-          "2/13[32+(13−1)-2]",
-          "13/2[16+-2]"
+          "13/2[32+(13−1)(−2)]",
+          "13[16+(13−1)(−2)]",
+          "2/13[32+(13−1)(−2)]",
+          "13/2[16+(−2)]"
         ],
         "answer": 0,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -6204,7 +6204,7 @@
           "-4"
         ],
         "answer": 2,
-        "explanation": "Subtract consecutive terms: (1)−-3=4.",
+        "explanation": "Subtract consecutive terms: d = 1 − (-3) = 4.",
         "difficulty": "Easy"
       },
       {
@@ -6214,10 +6214,10 @@
           "14[7+(14−1)0]",
           "2/14[14+(14−1)0]",
           "14/2[7+0]",
-          "14/2[14+(14−1)(0)]"
+          "14/2[14+(14−1)0]"
         ],
         "answer": 3,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -6295,20 +6295,20 @@
           "17"
         ],
         "answer": 1,
-        "explanation": "Subtract consecutive terms: (13)−17=-4.",
+        "explanation": "Subtract consecutive terms: d = 13 − (17) = -4.",
         "difficulty": "Easy"
       },
       {
         "id": 83,
         "question": "Which expression gives the sum of the first 15 terms of an AP with first term 2 and difference 9?",
         "options": [
+          "15[2+(15−1)9]",
           "2/15[4+(15−1)9]",
-          "15/2[2+9]",
-          "15/2[4+(15−1)(9)]",
-          "15[2+(15−1)9]"
+          "15/2[4+(15−1)9]",
+          "15/2[2+9]"
         ],
         "answer": 2,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -6386,20 +6386,20 @@
           "1"
         ],
         "answer": 0,
-        "explanation": "Subtract consecutive terms: (1)−-4=5.",
+        "explanation": "Subtract consecutive terms: d = 1 − (-4) = 5.",
         "difficulty": "Easy"
       },
       {
         "id": 90,
         "question": "Which expression gives the sum of the first 16 terms of an AP with first term 3 and difference 4?",
         "options": [
-          "16/2[3+4]",
-          "16/2[6+(16−1)(4)]",
           "16[3+(16−1)4]",
-          "2/16[6+(16−1)4]"
+          "16/2[6+(16−1)4]",
+          "2/16[6+(16−1)4]",
+          "16/2[3+4]"
         ],
         "answer": 1,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -6477,20 +6477,20 @@
           "3"
         ],
         "answer": 3,
-        "explanation": "Subtract consecutive terms: (16)−13=3.",
+        "explanation": "Subtract consecutive terms: d = 16 − (13) = 3.",
         "difficulty": "Easy"
       },
       {
         "id": 97,
         "question": "Which expression gives the sum of the first 17 terms of an AP with first term 6 and difference 8?",
         "options": [
-          "17/2[12+(17−1)(8)]",
+          "17/2[12+(17−1)8]",
           "17[6+(17−1)8]",
           "2/17[12+(17−1)8]",
           "17/2[6+8]"
         ],
         "answer": 0,
-        "explanation": "Sₙ=n/2[2a+(n−1)d].",
+        "explanation": "Use Sₙ = n/2[2a + (n−1)d], retaining the sign of the common difference d.",
         "difficulty": "Medium"
       },
       {
@@ -17163,7 +17163,7 @@
       },
       {
         "id": 10,
-        "question": "For a single roll of a fair die, find the probability of a result that is an even result.",
+        "question": "Find the probability that a single roll of a fair die gives an even result.",
         "options": [
           "1/2",
           "1/6",
@@ -17202,7 +17202,7 @@
       },
       {
         "id": 13,
-        "question": "An event has 1 favourable outcomes out of 10 equally likely outcomes. Its probability is:",
+        "question": "An event has 1 favourable outcome out of 10 equally likely outcomes. Its probability is:",
         "options": [
           "10",
           "1/11",
@@ -17254,7 +17254,7 @@
       },
       {
         "id": 17,
-        "question": "For a single roll of a fair die, find the probability of a result that is an odd result.",
+        "question": "Find the probability that a single roll of a fair die gives an odd result.",
         "options": [
           "1/6",
           "1/3",
@@ -17345,7 +17345,7 @@
       },
       {
         "id": 24,
-        "question": "For a single roll of a fair die, find the probability of a result that is a result at least 4.",
+        "question": "Find the probability that a single roll of a fair die gives a result at least 4.",
         "options": [
           "1/3",
           "5/6",
@@ -17436,7 +17436,7 @@
       },
       {
         "id": 31,
-        "question": "For a single roll of a fair die, find the probability of a result that is a result below 3.",
+        "question": "Find the probability that a single roll of a fair die gives a result below 3.",
         "options": [
           "5/6",
           "1/3",
@@ -17527,7 +17527,7 @@
       },
       {
         "id": 38,
-        "question": "For a single roll of a fair die, find the probability of a result that is a result above 4.",
+        "question": "Find the probability that a single roll of a fair die gives a result above 4.",
         "options": [
           "1/3",
           "1/6",
@@ -17618,7 +17618,7 @@
       },
       {
         "id": 45,
-        "question": "For a single roll of a fair die, find the probability of a result that is a multiple of 2.",
+        "question": "Find the probability that a single roll of a fair die gives a multiple of 2.",
         "options": [
           "1/6",
           "1/3",
@@ -17709,7 +17709,7 @@
       },
       {
         "id": 52,
-        "question": "For a single roll of a fair die, find the probability of a result that is a multiple of 3.",
+        "question": "Find the probability that a single roll of a fair die gives a multiple of 3.",
         "options": [
           "1/2",
           "5/6",
@@ -17800,7 +17800,7 @@
       },
       {
         "id": 59,
-        "question": "For a single roll of a fair die, find the probability of a result that is a prime result.",
+        "question": "Find the probability that a single roll of a fair die gives a prime result.",
         "options": [
           "5/6",
           "1/2",
@@ -17891,7 +17891,7 @@
       },
       {
         "id": 66,
-        "question": "For a single roll of a fair die, find the probability of a result that is a perfect square.",
+        "question": "Find the probability that a single roll of a fair die gives a perfect square.",
         "options": [
           "1/2",
           "1/6",
@@ -17930,7 +17930,7 @@
       },
       {
         "id": 69,
-        "question": "An event has 1 favourable outcomes out of 18 equally likely outcomes. Its probability is:",
+        "question": "An event has 1 favourable outcome out of 18 equally likely outcomes. Its probability is:",
         "options": [
           "18",
           "1/19",
@@ -17982,7 +17982,7 @@
       },
       {
         "id": 73,
-        "question": "For a single roll of a fair die, find the probability of a result that is a factor of 4.",
+        "question": "Find the probability that a single roll of a fair die gives a factor of 4.",
         "options": [
           "1/6",
           "1/2",
@@ -18073,7 +18073,7 @@
       },
       {
         "id": 80,
-        "question": "For a single roll of a fair die, find the probability of a result that is a factor of 6.",
+        "question": "Find the probability that a single roll of a fair die gives a factor of 6.",
         "options": [
           "1/2",
           "1/3",
@@ -18164,7 +18164,7 @@
       },
       {
         "id": 87,
-        "question": "For a single roll of a fair die, find the probability of a result that is a result not equal to 6.",
+        "question": "Find the probability that a single roll of a fair die gives a result not equal to 6.",
         "options": [
           "1/3",
           "5/6",
@@ -18255,7 +18255,7 @@
       },
       {
         "id": 94,
-        "question": "For a single roll of a fair die, find the probability of a result that is a result at most 4.",
+        "question": "Find the probability that a single roll of a fair die gives a result at most 4.",
         "options": [
           "2/3",
           "1/6",
