@@ -272,12 +272,12 @@ function renderQuestion(){
     const button=document.createElement("button");button.className="opt";
     const letter=document.createElement("span");letter.className="letter";letter.textContent=String.fromCharCode(65+i);
     const label=document.createElement("span");label.textContent=text;button.append(letter,label);
-    if(previous){
-      button.disabled=true;
-      if(i===previous.selected)button.classList.add("selected");
-      if(mode!=="test"&&mode!=="timed"&&i===question.answer)button.classList.add("correct");
-      if(mode!=="test"&&mode!=="timed"&&i===previous.selected&&!previous.correct)button.classList.add("wrong");
-    }else button.onclick=()=>choose(i);
+    if(previous&&i===previous.selected)button.classList.add("selected");
+    if(previous&&mode!=="test"&&mode!=="timed"&&i===question.answer)button.classList.add("correct");
+    if(previous&&mode!=="test"&&mode!=="timed"&&i===previous.selected&&!previous.correct)button.classList.add("wrong");
+    button.disabled=false;
+    button.setAttribute("aria-pressed",String(!!previous&&i===previous.selected));
+    button.onclick=()=>choose(i);
     $("options").appendChild(button);
   });
   if(previous && mode!=="test"&&mode!=="timed"){
@@ -286,7 +286,7 @@ function renderQuestion(){
     const explanation=document.createElement("span");explanation.textContent=question.explanation||"Review the idea and try a similar question.";
     box.append(title,explanation);$("feedback").appendChild(box);
   }
-  setText("sessionHint",mode==="test"||mode==="timed"?"Answers are saved as you go. Feedback is held until submission.":previous?"This answer is saved. You can continue or review later.":"Choose one answer, then read the explanation.");
+  setText("sessionHint",mode==="test"||mode==="timed"?(previous?"Answer saved. Select another option to change it before moving on.":"Choose an answer. You can change it before moving on."):(previous?"Your answer is saved. Select another option to change it, or continue when ready.":"Choose one answer; you can change it before moving on."));
   $("nextBtn").disabled=picked===null;
   $("nextBtn").textContent=index===session.length-1?"Finish session ✓":"Next question →";
   $("skipBtn").disabled=picked!==null;
@@ -294,48 +294,56 @@ function renderQuestion(){
   if(!currentAttempt.questionStartedAt){currentAttempt.questionStartedAt=new Date().toISOString();persistCurrentAttempt();}
 }
 function recordSelectedAnswer(selected,status){
-  const question=session[index],now=new Date().toISOString(),timeSpent=window.C10SessionModel.secondsBetween(currentAttempt.questionStartedAt||now,now);
+  const question=session[index],now=new Date().toISOString();
+  const prior=currentAttempt.answers[index]||null;
+  const timeSpent=(Number(prior&&prior.timeSpentSeconds)||0)+window.C10SessionModel.secondsBetween(currentAttempt.questionStartedAt||now,now);
   const answerRecord=window.C10SessionModel.makeAnswerRecord({
-    answerRecordId:window.C10Storage.createId(),attemptId:currentAttempt.attemptId,questionId:keyFor(question),
+    answerRecordId:prior&&prior.answerRecordId||window.C10Storage.createId(),attemptId:currentAttempt.attemptId,questionId:keyFor(question),
     selectedOptionId:status==="answered"?question.optionIds[selected]:null,
     selectedOptionText:status==="answered"?question.options[selected]:null,
     correctOptionId:question.correctOptionId,correctOptionText:question.options[question.answer],
     status,answeredAt:status==="answered"?now:null,timeSpentSeconds:timeSpent
   });
   const correct=status==="answered"&&answerRecord.isCorrect===true;
+  if(prior&&prior.status==="answered"){progress.answered=Math.max(0,progress.answered-1);if(prior.isCorrect===true)progress.correct=Math.max(0,progress.correct-1);}
   answers[index]={question,selected:status==="answered"?selected:null,correct,skipped:status==="skipped",status,answeredAt:now,timeSpentSeconds:timeSpent,record:answerRecord};
   currentAttempt.answers[index]=answerRecord;currentAttempt.questionStartedAt=null;
   picked=status==="skipped"?-1:selected;
   upsertAnswerRecord(answerRecord);
   const id=keyFor(question);
-  progress.answered++;
-  if(correct){
-    progress.correct++;progress.missed=progress.missed.filter(value=>value!==id);
-  }else{
+  if(status==="answered"){
+    progress.answered++;
+    if(correct){progress.correct++;progress.missed=progress.missed.filter(value=>value!==id);}
+    else progress.missed=[...new Set([...progress.missed,id])];
+  }else if(status==="skipped"){
     progress.missed=[...new Set([...progress.missed,id])];
   }
   progress.missed=[...new Set(progress.missed)];
-  progress.attempts.unshift({id,questionId:id,attemptId:currentAttempt.attemptId,selected,correct,at:now,status});
+  progress.attempts=progress.attempts.filter(event=>!(event.attemptId===currentAttempt.attemptId&&event.questionId===id));
+  progress.attempts.unshift({id,questionId:id,attemptId:currentAttempt.attemptId,selected:status==="answered"?selected:null,correct,at:now,status});
   progress.attempts=progress.attempts.slice(0,500);
   saveProgress();persistCurrentAttempt();
 }
 function choose(optionIndex){
-  if(picked!==null||!currentAttempt||currentAttempt.status!=="in-progress")return;
+  if(!currentAttempt||currentAttempt.status!=="in-progress")return;
   if(!Number.isInteger(optionIndex)||optionIndex<0||optionIndex>=session[index].options.length)return;
   recordSelectedAnswer(optionIndex,"answered");
   const question=session[index],correct=answers[index].correct;
   [...$("options").querySelectorAll("button")].forEach((button,i)=>{
-    button.disabled=true;if(i===optionIndex)button.classList.add("selected");
+    button.classList.toggle("selected",i===optionIndex);
+    button.classList.remove("correct","wrong");
+    button.disabled=false;
     if(mode!=="test"&&mode!=="timed"){if(i===question.answer)button.classList.add("correct");if(i===optionIndex&&!correct)button.classList.add("wrong");}
   });
   $("nextBtn").disabled=false;
-  if(mode==="test"||mode==="timed")setText("sessionHint","Answer saved. Feedback is held until the end.");
+  if(mode==="test"||mode==="timed")setText("sessionHint","Answer saved. You can change it until you move to the next question.");
   else{
+    $("feedback").innerHTML="";
     const box=document.createElement("div");box.className="feedback "+(correct?"good":"bad");
     const title=document.createElement("strong");title.textContent=correct?"Correct! ":"Not quite. ";
     const explanation=document.createElement("span");explanation.textContent=question.explanation||"Review the idea and try a similar question.";
     box.append(title,explanation);$("feedback").appendChild(box);
-    setText("sessionHint",correct?"Nice work — explain why it is right to make it stick.":"Use the explanation, then try again later.");
+    setText("sessionHint","Your answer is saved. Select another option to change it, or continue when ready.");
   }
 }
 function skip(){
@@ -354,15 +362,15 @@ function tickClock(){
   if(!currentAttempt||currentAttempt.status!=="in-progress"){stopClock();return;}
   if(currentAttempt.timingMode==="countdown"){
     const remaining=window.C10SessionModel.remainingSeconds(currentAttempt.deadlineAt,Date.now());
-    setText("timerPill","Time left · "+window.C10SessionModel.formatDuration(remaining));
-    $("timerPill").classList.remove("hide");
+    setText("timerPill","TIME LEFT  "+window.C10SessionModel.formatDuration(remaining));
+    $("timerPill").classList.remove("hide");$("timerPill").classList.toggle("timer-warning",remaining<=60);$("timerPill").classList.toggle("timer-danger",remaining<=15);
     if(remaining===0)finish("timed-out",false);
   }else if(currentAttempt.timingMode==="elapsed"){
     const elapsed=window.C10SessionModel.secondsBetween(currentAttempt.startedAt,new Date().toISOString());
-    setText("timerPill","Elapsed · "+window.C10SessionModel.formatDuration(elapsed));
-    $("timerPill").classList.remove("hide");
+    setText("timerPill","ELAPSED  "+window.C10SessionModel.formatDuration(elapsed));
+    $("timerPill").classList.remove("hide");$("timerPill").classList.remove("timer-warning","timer-danger");
   }else{
-    $("timerPill").classList.add("hide");
+    $("timerPill").classList.add("hide");$("timerPill").classList.remove("timer-warning","timer-danger");
   }
 }
 function startClock(){stopClock();tickClock();clockHandle=setInterval(tickClock,1000);}
@@ -421,6 +429,37 @@ function renderResults(summary){
     const span=document.createElement("span");span.textContent=value;box.append(strong,span);$("resultStats").appendChild(box);
   });
 }
+function reportRows(){
+  const result=completedAttempt||ledger.attempts[0]||{};
+  return (answers||[]).map((answer,i)=>({
+    question:i+1,chapter:answer.question.chapterTitle||"",prompt:answer.question.question,
+    selected:answer.selected===null||answer.selected===undefined?"Unanswered":answer.question.options[answer.selected],
+    correct:answer.question.options[answer.question.answer],
+    outcome:answer.status==="unanswered"?"Unanswered":answer.status==="skipped"?"Skipped":answer.correct?"Correct":"Incorrect",
+    explanation:answer.question.explanation||""
+  }));
+}
+function downloadExcelXml(filename,rows){
+  const escapeXml=value=>String(value==null?"":value).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  const xml='<?xml version="1.0"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"><Worksheet ss:Name="Report"><Table>'+rows.map(row=>'<Row>'+row.map(cell=>'<Cell><Data ss:Type="String">'+escapeXml(cell)+'</Data></Cell>').join("")+'</Row>').join("")+'</Table></Worksheet></Workbook>';
+  const blob=new Blob([xml],{type:"application/vnd.ms-excel;charset=utf-8"}),url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1200);
+}
+function testReportMatrix(){
+  const attempt=completedAttempt||{};
+  const pct=attempt.questionCount?Math.round((attempt.correctCount||0)/attempt.questionCount*100):0;
+  const rows=[["ExamGuru · Test report"],["Subject",config.title],["Class","Class "+classId],["Test mode",attempt.mode||mode],["Submitted",attempt.submittedAt||new Date().toISOString()],["Status",attempt.status||"submitted"],["Score",(attempt.correctCount||0)+" / "+(attempt.questionCount||0)],["Accuracy",pct+"%"],["Correct",attempt.correctCount||0],["Answered",attempt.answeredCount||0],["Skipped",attempt.skippedCount||0],["Unanswered",attempt.unansweredCount||0],["Duration",window.C10SessionModel.formatDuration(attempt.durationSeconds||0)],[],["No.","Chapter / Topic","Question","Student answer","Correct answer","Outcome","Explanation"]];
+  reportRows().forEach(row=>rows.push([row.question,row.chapter,row.prompt,row.selected,row.correct,row.outcome,row.explanation]));
+  return rows;
+}
+function downloadTestReportExcel(){downloadExcelXml("examguru-test-report-"+new Date().toISOString().slice(0,10)+".xls",testReportMatrix());}
+function downloadTestReportPdf(){
+  const rows=reportRows(),attempt=completedAttempt||{};
+  const esc=value=>String(value==null?"":value).replace(/[&<>"]/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
+  const html='<!doctype html><html><head><meta charset="utf-8"><title>ExamGuru test report</title><style>body{font:12px Arial,sans-serif;color:#211b48;margin:28px}h1{margin-bottom:4px}p{color:#555}table{width:100%;border-collapse:collapse;margin-top:18px}th,td{border:1px solid #d8d3ee;padding:7px;text-align:left;vertical-align:top}th{background:#efedff}tr{break-inside:avoid}@media print{body{margin:12mm}button{display:none}}</style></head><body><h1>ExamGuru · Test report</h1><p>'+esc(config.title)+' · Class '+esc(classId)+' · '+esc(new Date(attempt.submittedAt||Date.now()).toLocaleString())+'</p><h2>Score: '+esc(attempt.correctCount||0)+' / '+esc(attempt.questionCount||0)+' ('+(attempt.questionCount?Math.round((attempt.correctCount||0)/attempt.questionCount*100):0)+'%)</h2><p>Correct: '+esc(attempt.correctCount||0)+' · Answered: '+esc(attempt.answeredCount||0)+' · Skipped: '+esc(attempt.skippedCount||0)+' · Unanswered: '+esc(attempt.unansweredCount||0)+' · Duration: '+esc(window.C10SessionModel.formatDuration(attempt.durationSeconds||0))+'</p><table><thead><tr><th>No.</th><th>Chapter / Question</th><th>Student answer</th><th>Correct answer</th><th>Result / explanation</th></tr></thead><tbody>'+rows.map(row=>'<tr><td>'+row.question+'</td><td><b>'+esc(row.chapter)+'</b><br>'+esc(row.prompt)+'</td><td>'+esc(row.selected)+'</td><td>'+esc(row.correct)+'</td><td><b>'+esc(row.outcome)+'</b><br>'+esc(row.explanation)+'</td></tr>').join("")+'</tbody></table><p>Conceptualised by JP Ganathe · ExamGuru</p><script>window.onload=()=>window.print()</script></body></html>';
+  const win=window.open("","_blank");if(!win){setText("resultCopy","Your browser blocked the print window. Allow pop-ups for this site, then try PDF again.");return;}
+  win.document.open();win.document.write(html);win.document.close();
+}
 function showReview(){
   show("review");$("reviewList").innerHTML="";setText("reviewPill",answers.length+" questions");
   answers.forEach((answer,i)=>{
@@ -476,7 +515,7 @@ function init(){
   $("startBtn").onclick=start;$("nextBtn").onclick=next;$("skipBtn").onclick=skip;
   $("submitBtn").onclick=()=>finish("submitted",true);
   $("reviewBtn").onclick=reviewMissed;$("clearBtn").onclick=resetProgress;
-  $("againBtn").onclick=start;$("reviewAnswersBtn").onclick=showReview;$("backBtn").onclick=()=>show("welcome");$("retrySetBtn").onclick=retrySessionMissed;
+  $("againBtn").onclick=start;$("reviewAnswersBtn").onclick=showReview;$("reportPdfBtn").onclick=downloadTestReportPdf;$("reportExcelBtn").onclick=downloadTestReportExcel;$("backBtn").onclick=()=>show("welcome");$("retrySetBtn").onclick=retrySessionMissed;
   $("chapter").onchange=()=>{if(!chapters.length)return;const chosen=selectedChapters();const count=chosen.reduce((sum,chapter)=>sum+chapter.questions.length,0);setText("modeHint",count+" questions available across "+chosen.length+" selected chapter(s).");};
   document.addEventListener("visibilitychange",()=>{if(document.hidden)persistCurrentAttempt();});
   window.addEventListener("pagehide",persistCurrentAttempt);
