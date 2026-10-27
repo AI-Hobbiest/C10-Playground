@@ -1,0 +1,35 @@
+{
+  "subject": "Class 10 Hindi",
+  "auditDate": "2026-10-27",
+  "sourceFile": "data/hindi.json",
+  "status": "incomplete",
+  "counts": {
+    "topics": 27,
+    "questions": 92
+  },
+  "structuralChecks": {
+    "duplicateQuestionIds": 0,
+    "malformedQuestions": 0,
+    "answerIndexErrors": 0
+  },
+  "completionRules": [
+    "Map Course A and Course B independently to the CBSE 2026-27 syllabus.",
+    "Do not mark a topic complete until syllabus mapping is verified and the target question count is met.",
+    "Each MCQ must have exactly four options, a valid zero-based answer index, an explanation, and a difficulty label.",
+    "Check for repeated stems, ambiguous answers, factual errors, and distractors that are obviously unrelated.",
+    "Retain valid existing questions; do not regenerate completed content."
+  ],
+  "knownGaps": [
+    "Current 27-topic file is not a complete syllabus map for both Hindi courses.",
+    "Several literature chapters and supplementary-reader chapters are missing or mapped to the wrong course.",
+    "Existing topics contain only 3-4 questions each, well below the planned 100-per-topic target.",
+    "Reading comprehension and writing-skill coverage needs multiple distinct passages and task types."
+  ],
+  "nextActions": [
+    "Verify the official CBSE 2026-27 Hindi Course A and Course B syllabus.",
+    "Create separate course-specific topic maps and include only examinable chapters.",
+    "Expand MCQs topic-wise in reviewable batches while preserving the existing schema.",
+    "Run JSON, duplicate, answer-index, and coverage checks before portal integration."
+  ],
+  "note": "This audit records current limitations and is not a claim that Hindi preparation is complete."
+}
