@@ -2030,117 +2030,117 @@
         "id": 56,
         "question": "Editing practice (prepositions): He has lived here ___ 2020.",
         "options": [
-          "by",
           "since",
           "for",
-          "during"
+          "at",
+          "until"
         ],
-        "answer": 1,
-        "explanation": "This checks prepositions; “since” is the suitable correction.",
+        "answer": 0,
+        "explanation": "“Since” introduces the starting year.",
         "difficulty": "Hard"
       },
       {
         "id": 57,
         "question": "Editing practice (prepositions): The shop stays open ___ 8 p.m.",
         "options": [
-          "since",
           "for",
-          "during",
-          "by"
+          "since",
+          "at",
+          "until"
         ],
-        "answer": 0,
-        "explanation": "This checks prepositions; “since” is the suitable correction.",
+        "answer": 3,
+        "explanation": "“Until” marks the closing time.",
         "difficulty": "Medium"
       },
       {
         "id": 58,
         "question": "Editing practice (prepositions): She waited ___ two hours.",
         "options": [
+          "at",
+          "until",
           "for",
-          "during",
-          "by",
           "since"
         ],
-        "answer": 3,
-        "explanation": "This checks prepositions; “since” is the suitable correction.",
+        "answer": 2,
+        "explanation": "“For” introduces a duration.",
         "difficulty": "Easy"
       },
       {
         "id": 59,
         "question": "Editing practice (prepositions): The class begins ___ 9 a.m.",
         "options": [
-          "during",
-          "by",
-          "since",
-          "for"
+          "until",
+          "at",
+          "for",
+          "since"
         ],
-        "answer": 2,
-        "explanation": "This checks prepositions; “since” is the suitable correction.",
+        "answer": 1,
+        "explanation": "“At” is used for an exact time.",
         "difficulty": "Medium"
       },
       {
         "id": 60,
         "question": "Editing practice (prepositions): The path runs ___ the river.",
         "options": [
-          "by",
-          "since",
+          "along",
           "for",
-          "during"
+          "since",
+          "at"
         ],
-        "answer": 1,
-        "explanation": "This checks prepositions; “since” is the suitable correction.",
+        "answer": 0,
+        "explanation": "“Along” describes the path following the river.",
         "difficulty": "Medium"
       },
       {
         "id": 61,
         "question": "Editing practice (tenses): Mira ___ her assignment already.",
         "options": [
-          "has finished",
-          "have finish",
-          "finished tomorrow",
-          "is finish"
+          "have finished",
+          "had finished",
+          "will have finished",
+          "has finished"
         ],
-        "answer": 0,
-        "explanation": "This checks tenses; “has finished” is the suitable correction.",
+        "answer": 3,
+        "explanation": "Present perfect is appropriate for a completed action with “already”.",
         "difficulty": "Hard"
       },
       {
         "id": 62,
         "question": "Editing practice (tenses): The team ___ the report by Friday.",
         "options": [
-          "have finish",
-          "finished tomorrow",
-          "is finish",
+          "have finished",
+          "had finished",
+          "will have finished",
           "has finished"
         ],
-        "answer": 3,
-        "explanation": "This checks tenses; “has finished” is the suitable correction.",
+        "answer": 2,
+        "explanation": "Future perfect describes completion by a future deadline.",
         "difficulty": "Medium"
       },
       {
         "id": 63,
         "question": "Editing practice (tenses): He ___ this book twice so far.",
         "options": [
-          "finished tomorrow",
-          "is finish",
+          "had finished",
+          "has read",
           "has finished",
-          "have finish"
+          "have finished"
         ],
-        "answer": 2,
-        "explanation": "This checks tenses; “has finished” is the suitable correction.",
+        "answer": 1,
+        "explanation": "“So far” is used here with the present perfect.",
         "difficulty": "Medium"
       },
       {
         "id": 64,
         "question": "Editing practice (tenses): She ___ before the guests arrived.",
         "options": [
-          "is finish",
+          "had finished",
           "has finished",
-          "have finish",
-          "finished tomorrow"
+          "have finished",
+          "will have finished"
         ],
-        "answer": 1,
-        "explanation": "This checks tenses; “has finished” is the suitable correction.",
+        "answer": 0,
+        "explanation": "Past perfect marks completion before another past event.",
         "difficulty": "Easy"
       },
       {
@@ -2148,12 +2148,12 @@
         "question": "Editing practice (tenses): They ___ the task by next week.",
         "options": [
           "has finished",
-          "have finish",
-          "finished tomorrow",
-          "is finish"
+          "have finished",
+          "had finished",
+          "will have finished"
         ],
-        "answer": 0,
-        "explanation": "This checks tenses; “has finished” is the suitable correction.",
+        "answer": 3,
+        "explanation": "Future perfect describes completion by a future deadline.",
         "difficulty": "Medium"
       },
       {
@@ -2254,10 +2254,10 @@
           "their",
           "them",
           "they",
-          "theirs"
+          "its"
         ],
-        "answer": 0,
-        "explanation": "This checks pronouns; “their” is the suitable correction.",
+        "answer": 3,
+        "explanation": "“Committee” is treated as a singular unit here, so the possessive determiner is “its”.",
         "difficulty": "Easy"
       },
       {
@@ -2622,12 +2622,12 @@
         "id": 1,
         "question": "A formal letter is needed because streetlights on two lanes have been out for three weeks. Which recipient is most appropriate?",
         "options": [
-          "the Municipal Commissioner",
           "the Editor",
           "the Traffic Police Inspector",
-          "the Customer Service Manager"
+          "the Customer Service Manager",
+          "the Municipal Commissioner"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The letter should go to the Municipal Commissioner, which can address the matter.",
         "difficulty": "Hard"
       },
@@ -2687,12 +2687,12 @@
         "id": 6,
         "question": "A formal letter is needed because the school library has too few current reference books. Which recipient is most appropriate?",
         "options": [
-          "the Editor",
           "the Traffic Police Inspector",
           "the Customer Service Manager",
-          "the School Principal"
+          "the School Principal",
+          "the Editor"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The letter should go to the School Principal, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -2752,12 +2752,12 @@
         "id": 11,
         "question": "A formal letter is needed because a bus route repeatedly skips its scheduled stop. Which recipient is most appropriate?",
         "options": [
-          "the Traffic Police Inspector",
           "the Customer Service Manager",
           "the Depot Manager",
-          "the Editor"
+          "the Editor",
+          "the Traffic Police Inspector"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The letter should go to the Depot Manager, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -2817,12 +2817,12 @@
         "id": 16,
         "question": "A formal letter is needed because a defective appliance was delivered and the seller has not responded. Which recipient is most appropriate?",
         "options": [
-          "Alternative 1",
           "the Customer Service Manager",
           "the Editor",
-          "the Traffic Police Inspector"
+          "the Traffic Police Inspector",
+          "the School Principal"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The letter should go to the Customer Service Manager, which can address the matter.",
         "difficulty": "Easy"
       },
@@ -2882,12 +2882,12 @@
         "id": 21,
         "question": "A formal letter is needed because a neighbourhood park is littered after weekend events. Which recipient is most appropriate?",
         "options": [
-          "the Ward Officer",
           "the Editor",
           "the Traffic Police Inspector",
-          "the Customer Service Manager"
+          "the Customer Service Manager",
+          "the Ward Officer"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The letter should go to the Ward Officer, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -2947,12 +2947,12 @@
         "id": 26,
         "question": "A formal letter is needed because a newspaper report contains incorrect information about a school event. Which recipient is most appropriate?",
         "options": [
-          "the Traffic Police Inspector",
           "the Customer Service Manager",
-          "Alternative 1",
-          "the Editor"
+          "the School Principal",
+          "the Editor",
+          "the Traffic Police Inspector"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The letter should go to the Editor, which can address the matter.",
         "difficulty": "Hard"
       },
@@ -3012,12 +3012,12 @@
         "id": 31,
         "question": "A formal letter is needed because a public library needs a ramp for wheelchair access. Which recipient is most appropriate?",
         "options": [
-          "the Traffic Police Inspector",
           "the Customer Service Manager",
           "the Library Director",
-          "the Editor"
+          "the Editor",
+          "the Traffic Police Inspector"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The letter should go to the Library Director, which can address the matter.",
         "difficulty": "Easy"
       },
@@ -3077,12 +3077,12 @@
         "id": 36,
         "question": "A formal letter is needed because a school crossing lacks clear pedestrian markings. Which recipient is most appropriate?",
         "options": [
-          "Alternative 1",
           "the Traffic Police Inspector",
           "the Editor",
-          "the Customer Service Manager"
+          "the Customer Service Manager",
+          "the School Principal"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The letter should go to the Traffic Police Inspector, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -3142,12 +3142,12 @@
         "id": 41,
         "question": "A formal letter is needed because a student club wants permission for a book donation drive. Which recipient is most appropriate?",
         "options": [
-          "the School Principal",
           "the Editor",
           "the Traffic Police Inspector",
-          "the Customer Service Manager"
+          "the Customer Service Manager",
+          "the School Principal"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The letter should go to the School Principal, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -3207,12 +3207,12 @@
         "id": 46,
         "question": "A formal letter is needed because a product advertisement makes a claim unsupported by its label. Which recipient is most appropriate?",
         "options": [
-          "the Editor",
           "the Traffic Police Inspector",
           "the Customer Service Manager",
-          "the Consumer Affairs Officer"
+          "the Consumer Affairs Officer",
+          "the Editor"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The letter should go to the Consumer Affairs Officer, which can address the matter.",
         "difficulty": "Easy"
       },
@@ -3272,12 +3272,12 @@
         "id": 51,
         "question": "A formal letter is needed because a water supply has been interrupted repeatedly. Which recipient is most appropriate?",
         "options": [
-          "the Traffic Police Inspector",
           "the Customer Service Manager",
           "the Water Board Engineer",
-          "the Editor"
+          "the Editor",
+          "the Traffic Police Inspector"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The letter should go to the Water Board Engineer, which can address the matter.",
         "difficulty": "Hard"
       },
@@ -3337,12 +3337,12 @@
         "id": 56,
         "question": "A formal letter is needed because the school canteen uses excessive single-use plastic. Which recipient is most appropriate?",
         "options": [
-          "the Customer Service Manager",
           "the School Administrator",
           "the Editor",
-          "the Traffic Police Inspector"
+          "the Traffic Police Inspector",
+          "the Customer Service Manager"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The letter should go to the School Administrator, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -3402,12 +3402,12 @@
         "id": 61,
         "question": "A formal letter is needed because a courier parcel arrived damaged. Which recipient is most appropriate?",
         "options": [
-          "the Customer Support Head",
           "the Editor",
           "the Traffic Police Inspector",
-          "the Customer Service Manager"
+          "the Customer Service Manager",
+          "the Customer Support Head"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The letter should go to the Customer Support Head, which can address the matter.",
         "difficulty": "Easy"
       },
@@ -3467,12 +3467,12 @@
         "id": 66,
         "question": "A formal letter is needed because a local sports ground is closed without notice. Which recipient is most appropriate?",
         "options": [
-          "the Editor",
           "the Traffic Police Inspector",
           "the Customer Service Manager",
-          "the Facilities Officer"
+          "the Facilities Officer",
+          "the Editor"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The letter should go to the Facilities Officer, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -3532,12 +3532,12 @@
         "id": 71,
         "question": "A formal letter is needed because a community health camp needs volunteer support. Which recipient is most appropriate?",
         "options": [
-          "the Traffic Police Inspector",
           "the Customer Service Manager",
           "the Resident Welfare Association Secretary",
-          "the Editor"
+          "the Editor",
+          "the Traffic Police Inspector"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The letter should go to the Resident Welfare Association Secretary, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -3597,12 +3597,12 @@
         "id": 76,
         "question": "A formal letter is needed because a bank statement includes an unfamiliar service charge. Which recipient is most appropriate?",
         "options": [
-          "the Customer Service Manager",
           "the Branch Manager",
           "the Editor",
-          "the Traffic Police Inspector"
+          "the Traffic Police Inspector",
+          "the Customer Service Manager"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The letter should go to the Branch Manager, which can address the matter.",
         "difficulty": "Hard"
       },
@@ -3662,12 +3662,12 @@
         "id": 81,
         "question": "A formal letter is needed because students need a sheltered waiting area near the school bus stop. Which recipient is most appropriate?",
         "options": [
-          "the Transport Coordinator",
           "the Editor",
           "the Traffic Police Inspector",
-          "the Customer Service Manager"
+          "the Customer Service Manager",
+          "the Transport Coordinator"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The letter should go to the Transport Coordinator, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -3727,12 +3727,12 @@
         "id": 86,
         "question": "A formal letter is needed because a workshop invitation has the wrong date. Which recipient is most appropriate?",
         "options": [
-          "the Editor",
           "the Traffic Police Inspector",
           "the Customer Service Manager",
-          "the Event Coordinator"
+          "the Event Coordinator",
+          "the Editor"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The letter should go to the Event Coordinator, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -3792,12 +3792,12 @@
         "id": 91,
         "question": "A formal letter is needed because an apartment building needs a fire-drill schedule. Which recipient is most appropriate?",
         "options": [
-          "the Traffic Police Inspector",
           "the Customer Service Manager",
           "the Building Manager",
-          "the Editor"
+          "the Editor",
+          "the Traffic Police Inspector"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The letter should go to the Building Manager, which can address the matter.",
         "difficulty": "Easy"
       },
@@ -3857,12 +3857,12 @@
         "id": 96,
         "question": "A formal letter is needed because a student wants information about an internship programme. Which recipient is most appropriate?",
         "options": [
-          "the Customer Service Manager",
           "the Programme Coordinator",
           "the Editor",
-          "the Traffic Police Inspector"
+          "the Traffic Police Inspector",
+          "the Customer Service Manager"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The letter should go to the Programme Coordinator, which can address the matter.",
         "difficulty": "Medium"
       },
@@ -3968,12 +3968,12 @@
         "id": 4,
         "question": "A report shows modes of travel among students: Bus 80, Walk 50, Bicycle 40, Carpool 30. Approximately what percentage of the total does Bus represent?",
         "options": [
-          "60%",
           "40%",
           "25%",
-          "50%"
+          "50%",
+          "60%"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The total is 200; 80 divided by 200, multiplied by 100, is about 40%.",
         "difficulty": "Easy"
       },
@@ -4033,12 +4033,12 @@
         "id": 9,
         "question": "A report shows books borrowed in a week: Fiction 120, Science 80, History 60, Biography 40. Approximately what percentage of the total does Fiction represent?",
         "options": [
-          "40%",
           "25%",
           "50%",
-          "60%"
+          "60%",
+          "40%"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The total is 300; 120 divided by 300, multiplied by 100, is about 40%.",
         "difficulty": "Medium"
       },
@@ -4098,12 +4098,12 @@
         "id": 14,
         "question": "A report shows sorted waste by type: Paper 90, Food scraps 70, Plastic 25, Glass 15. Approximately what percentage of the total does Paper represent?",
         "options": [
-          "30%",
           "55%",
-          "Alternative 1",
-          "45%"
+          "38%",
+          "45%",
+          "30%"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The total is 200; 90 divided by 200, multiplied by 100, is about 45%.",
         "difficulty": "Medium"
       },
@@ -4163,12 +4163,12 @@
         "id": 19,
         "question": "A report shows club membership: Sports 100, Music 60, Art 40, Robotics 20. Approximately what percentage of the total does Sports represent?",
         "options": [
-          "55%",
-          "Alternative 1",
+          "38%",
           "45%",
-          "30%"
+          "30%",
+          "55%"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The total is 220; 100 divided by 220, multiplied by 100, is about 45%.",
         "difficulty": "Easy"
       },
@@ -4228,12 +4228,12 @@
         "id": 24,
         "question": "A report shows fruit preference in a survey: Mango 100, Banana 70, Apple 50, Orange 30. Approximately what percentage of the total does Mango represent?",
         "options": [
-          "60%",
           "40%",
           "25%",
-          "50%"
+          "50%",
+          "60%"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The total is 250; 100 divided by 250, multiplied by 100, is about 40%.",
         "difficulty": "Medium"
       },
@@ -4293,12 +4293,12 @@
         "id": 29,
         "question": "A report shows weekly electricity use: Block A 400, Block B 300, Block C 200, Library 100. Approximately what percentage of the total does Block A represent?",
         "options": [
-          "40%",
           "25%",
           "50%",
-          "60%"
+          "60%",
+          "40%"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The total is 1000; 400 divided by 1000, multiplied by 100, is about 40%.",
         "difficulty": "Medium"
       },
@@ -4358,12 +4358,12 @@
         "id": 34,
         "question": "A report shows funds raised by teams: Red 5000, Blue 4000, Green 3000, Gold 2000. Approximately what percentage of the total does Red represent?",
         "options": [
-          "21%",
           "46%",
           "64%",
-          "36%"
+          "36%",
+          "21%"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The total is 14000; 5000 divided by 14000, multiplied by 100, is about 36%.",
         "difficulty": "Easy"
       },
@@ -4423,12 +4423,12 @@
         "id": 39,
         "question": "A report shows trees planted by neighbourhood: North 150, South 100, East 75, West 25. Approximately what percentage of the total does North represent?",
         "options": [
-          "53%",
           "57%",
           "43%",
-          "28%"
+          "28%",
+          "53%"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The total is 350; 150 divided by 350, multiplied by 100, is about 43%.",
         "difficulty": "Medium"
       },
@@ -4488,12 +4488,12 @@
         "id": 44,
         "question": "A report shows museum visitors by weekday: Monday 200, Tuesday 150, Wednesday 100, Thursday 50. Approximately what percentage of the total does Monday represent?",
         "options": [
-          "60%",
           "40%",
           "25%",
-          "50%"
+          "50%",
+          "60%"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The total is 500; 200 divided by 500, multiplied by 100, is about 40%.",
         "difficulty": "Medium"
       },
@@ -4553,12 +4553,12 @@
         "id": 49,
         "question": "A report shows vegetables harvested: Tomato 60, Beans 45, Spinach 30, Carrot 15. Approximately what percentage of the total does Tomato represent?",
         "options": [
-          "40%",
           "25%",
           "50%",
-          "60%"
+          "60%",
+          "40%"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The total is 150; 60 divided by 150, multiplied by 100, is about 40%.",
         "difficulty": "Easy"
       },
@@ -4618,12 +4618,12 @@
         "id": 54,
         "question": "A report shows revision methods preferred: Practice papers 120, Group study 80, Flashcards 60, Videos 40. Approximately what percentage of the total does Practice papers represent?",
         "options": [
-          "25%",
           "50%",
           "60%",
-          "40%"
+          "40%",
+          "25%"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The total is 300; 120 divided by 300, multiplied by 100, is about 40%.",
         "difficulty": "Medium"
       },
@@ -4683,12 +4683,12 @@
         "id": 59,
         "question": "A report shows monthly water use: Centre A 800, Centre B 600, Centre C 400, Centre D 200. Approximately what percentage of the total does Centre A represent?",
         "options": [
-          "50%",
           "60%",
           "40%",
-          "25%"
+          "25%",
+          "50%"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The total is 2000; 800 divided by 2000, multiplied by 100, is about 40%.",
         "difficulty": "Medium"
       },
@@ -4748,12 +4748,12 @@
         "id": 64,
         "question": "A report shows notebook sales: Plain 300, Ruled 250, Grid 150, Sketch 100. Approximately what percentage of the total does Plain represent?",
         "options": [
-          "62%",
           "38%",
           "23%",
-          "48%"
+          "48%",
+          "62%"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The total is 800; 300 divided by 800, multiplied by 100, is about 38%.",
         "difficulty": "Easy"
       },
@@ -4813,12 +4813,12 @@
         "id": 69,
         "question": "A report shows park attraction visits: Playground 180, Lake path 120, Garden 60, Museum 40. Approximately what percentage of the total does Playground represent?",
         "options": [
-          "45%",
           "30%",
           "55%",
-          "Alternative 1"
+          "38%",
+          "45%"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The total is 400; 180 divided by 400, multiplied by 100, is about 45%.",
         "difficulty": "Medium"
       },
@@ -4878,12 +4878,12 @@
         "id": 74,
         "question": "A report shows service issues reported: Late delivery 80, Damaged item 50, Billing query 40, Other 30. Approximately what percentage of the total does Late delivery represent?",
         "options": [
-          "25%",
           "50%",
           "60%",
-          "40%"
+          "40%",
+          "25%"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The total is 200; 80 divided by 200, multiplied by 100, is about 40%.",
         "difficulty": "Medium"
       },
@@ -4943,12 +4943,12 @@
         "id": 79,
         "question": "A report shows hours spent on activities: Reading 10, Sports 8, Arts 6, Clubs 4. Approximately what percentage of the total does Reading represent?",
         "options": [
-          "46%",
           "64%",
           "36%",
-          "21%"
+          "21%",
+          "46%"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The total is 28; 10 divided by 28, multiplied by 100, is about 36%.",
         "difficulty": "Easy"
       },
@@ -5008,12 +5008,12 @@
         "id": 84,
         "question": "A report shows canteen meals selected: Vegetarian meal 100, Rice bowl 80, Sandwich 60, Salad 40. Approximately what percentage of the total does Vegetarian meal represent?",
         "options": [
-          "64%",
           "36%",
           "21%",
-          "46%"
+          "46%",
+          "64%"
         ],
-        "answer": 1,
+        "answer": 0,
         "explanation": "The total is 280; 100 divided by 280, multiplied by 100, is about 36%.",
         "difficulty": "Medium"
       },
@@ -5073,12 +5073,12 @@
         "id": 89,
         "question": "A report shows energy from roof sections: Section A 250, Section B 200, Section C 150, Section D 100. Approximately what percentage of the total does Section A represent?",
         "options": [
-          "36%",
           "21%",
           "46%",
-          "64%"
+          "64%",
+          "36%"
         ],
-        "answer": 0,
+        "answer": 3,
         "explanation": "The total is 700; 250 divided by 700, multiplied by 100, is about 36%.",
         "difficulty": "Medium"
       },
@@ -5138,12 +5138,12 @@
         "id": 94,
         "question": "A report shows applicants by programme: Engineering 160, Design 120, Commerce 80, Science 40. Approximately what percentage of the total does Engineering represent?",
         "options": [
-          "25%",
           "50%",
           "60%",
-          "40%"
+          "40%",
+          "25%"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "The total is 400; 160 divided by 400, multiplied by 100, is about 40%.",
         "difficulty": "Easy"
       },
@@ -5203,12 +5203,12 @@
         "id": 99,
         "question": "A report shows attendance at public workshops: Digital safety 90, First aid 60, Gardening 30, Budgeting 20. Approximately what percentage of the total does Digital safety represent?",
         "options": [
-          "55%",
-          "Alternative 1",
+          "38%",
           "45%",
-          "30%"
+          "30%",
+          "55%"
         ],
-        "answer": 2,
+        "answer": 1,
         "explanation": "The total is 200; 90 divided by 200, multiplied by 100, is about 45%.",
         "difficulty": "Medium"
       },
