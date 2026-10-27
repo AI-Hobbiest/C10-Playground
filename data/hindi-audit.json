@@ -2,7 +2,7 @@
   "subject": "Class 10 Hindi",
   "auditDate": "2026-10-27",
   "sourceFile": "data/hindi.json",
-  "status": "expanded-but-incomplete",
+  "status": "expanded-but-not-complete",
   "counts": {
     "topics": 27,
     "questions": 92
@@ -20,27 +20,27 @@
     "Retain valid existing questions; do not regenerate completed content."
   ],
   "knownGaps": [
-    "Question bank is expanded to 146 questions but is not at the intended 100 questions per topic.",
-    "Syllabus map is available, but every literature topic still needs line-by-line reconciliation against the prescribed 2026-27 textbooks and excluded chapters.",
-    "Current literature questions are mostly thematic and need chapter-specific factual review against the actual NCERT text.",
-    "Reading comprehension and writing-skill coverage needs more varied passage-based and task-based question sets.",
-    "Basic structural validation does not establish answer correctness or academic completeness."
+    "The current 27-topic bank has 254 questions (9-10 per topic), not 100 per approved topic.",
+    "The official CBSE 2026-27 curriculum lists separate Hindi Course A and Course B; the legacy bank contains older chapter selections and must not be treated as a fully reconciled 2026-27 syllabus bank.",
+    "Some literature questions are thematic rather than verified against exact textbook passages; factual chapter-specific review is still required.",
+    "Course A and Course B reading-comprehension and writing-task formats need more varied practice sets aligned to the current sample papers.",
+    "Structural validation checks format and answer indices, not the academic correctness of every answer."
   ],
   "nextActions": [
-    "Reconcile all existing literature topics with official 2026-27 Course A/B prescribed and excluded chapters.",
-    "Expand each approved syllabus topic to the agreed question target using non-duplicative, syllabus-specific questions.",
-    "Add diverse unseen prose/poetry passages and course-appropriate writing tasks.",
-    "Review each answer and explanation against NCERT text and CBSE sample-paper style.",
-    "Run automated schema, duplicate, option, answer-index, and coverage validation again before declaring complete."
+    "Rebuild the topic index using the official 2026-27 Course A and Course B syllabi and sample papers; mark excluded texts as excluded.",
+    "Move legacy topic sets that do not match the 2026-27 syllabus into an explicitly labelled legacy/practice section instead of presenting them as current syllabus coverage.",
+    "Expand every verified topic to 100 distinct, syllabus-aligned MCQs without templated duplicates.",
+    "Review literature answers against the prescribed textbook text and sample marking schemes.",
+    "Run schema, duplicate, answer-index, academic review, and coverage checks before declaring Hindi complete."
   ],
   "note": "This audit records current limitations and is not a claim that Hindi preparation is complete.",
   "currentBank": {
     "topics": 27,
-    "questions": 146,
-    "addedThisPass": 54,
+    "questions": 254,
+    "addedThisPass": 108,
     "perTopicRange": [
-      5,
-      6
+      9,
+      10
     ],
     "structuralValidation": {
       "malformedQuestions": 0,
@@ -52,5 +52,10 @@
   "officialSyllabus": {
     "courseA": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_A_SecP1_2026-27.pdf",
     "courseB": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_B_SecP1_2026-27.pdf"
-  }
+  },
+  "completionTarget": "100 questions per verified syllabus topic, after official 2026-27 Course A/B topic reconciliation",
+  "officialReferences": [
+    "https://cbseacademic.nic.in/curriculum_2027.html",
+    "https://cbseacademic.nic.in/sqp_classx_2026-27.html"
+  ]
 }
