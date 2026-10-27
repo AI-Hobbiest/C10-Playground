@@ -15830,15 +15830,15 @@
       },
       {
         "id": 8,
-        "question": "The empirical relation among mean, median and mode is approximately:",
+        "question": "For grouped data with class marks xᵢ and frequencies fᵢ, the arithmetic mean is calculated as:",
         "options": [
-          "Mode = 3 median − 2 mean",
-          "Mode = 3 mean − 2 median",
-          "Mean = mode + median",
-          "Median = mean × mode"
+          "Σfᵢxᵢ / Σfᵢ",
+          "Σxᵢ / Σfᵢ",
+          "Σfᵢ / Σxᵢ",
+          "Σfᵢxᵢ × Σfᵢ"
         ],
         "answer": 0,
-        "explanation": "The empirical relation is Mode ≈ 3 × Median − 2 × Mean.",
+        "explanation": "Multiply each class mark by its frequency, add the products, and divide by the total frequency: mean = Σfᵢxᵢ / Σfᵢ.",
         "difficulty": "Hard"
       },
       {
