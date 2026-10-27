@@ -32,15 +32,15 @@
       },
       {
         "id": 3,
-        "question": "A rational number has a terminating decimal expansion when its reduced denominator has prime factors:",
+        "question": "Which is the prime factorisation of 1,260?",
         "options": [
-          "Only 3 and 7",
-          "Only 2 and/or 5",
-          "Any primes",
-          "Only 2 and 3"
+          "2² × 3 × 5 × 7",
+          "2² × 3² × 5 × 7",
+          "2³ × 3² × 5 × 7",
+          "2² × 3² × 5² × 7"
         ],
         "answer": 1,
-        "explanation": "A reduced denominator of the form 2ᵐ5ⁿ gives a terminating decimal.",
+        "explanation": "1,260 = 126 × 10 = 2² × 3² × 5 × 7.",
         "difficulty": "Medium"
       },
       {
@@ -63,7 +63,7 @@
           "It is rational",
           "It is irrational",
           "It is an integer",
-          "It has a terminating decimal"
+          "Its square is irrational"
         ],
         "answer": 1,
         "explanation": "The square root of a non-perfect-square positive integer is irrational.",
@@ -13194,7 +13194,7 @@
           "(9π/2) cm²",
           "(27π/2) cm²",
           "27π cm²",
-          "81π/6 cm²"
+          "81π/4 cm²"
         ],
         "answer": 1,
         "explanation": "Area = 60/360 × π×81 = 13.5π = 27π/2 cm².",
