@@ -59,40 +59,48 @@ jobs:
           cp js/dashboard-manager.js _site/js/dashboard-manager.js
           cp js/quiz-engine.js _site/js/quiz-engine.js
           cp data/*.json _site/data/
-          # Merge the maintained English chapter override file into the deployed bank.
+          # Merge the maintained English topic overrides into the deployed bank.
           node <<'NODE'
           const fs = require('fs');
           const englishPath = '_site/data/english.json';
-          const additionsPath = '_site/data/english-chapters-19-25.json';
+          const overrideFiles = [
+            '_site/data/english-chapters-19-25.json',
+            '_site/data/english-chapters-26-28.json',
+            '_site/data/english-topics-29-33.json',
+            '_site/data/english-topics-34-37.json'
+          ];
           const english = JSON.parse(fs.readFileSync(englishPath, 'utf8'));
-          const additions = JSON.parse(fs.readFileSync(additionsPath, 'utf8'));
+          const overrides = overrideFiles.flatMap(path => JSON.parse(fs.readFileSync(path, 'utf8')));
           const norm = value => String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9]+/g, ' ').trim();
-          if (additions.length !== 7) throw new Error('Expected exactly seven English chapter overrides.');
-          for (const override of additions) {
+          if (overrides.length !== 19) throw new Error('Expected exactly 19 English topic overrides, got ' + overrides.length);
+          const replaced = new Set();
+          for (const override of overrides) {
             if (!Array.isArray(override.questions) || override.questions.length !== 100) {
               throw new Error('English override must contain 100 questions: ' + override.title);
             }
             const target = english.find(ch => norm(ch.key) === norm(override.key))
               || english.find(ch => norm(ch.title) === norm(override.title))
               || english.find(ch => Number(ch.chapter_no) === Number(override.chapter_no));
-            if (!target) throw new Error('English chapter not found for override: ' + override.title);
+            if (!target) throw new Error('English topic not found for override: ' + override.title);
             if (norm(target.title) !== norm(override.title)) {
-              throw new Error('Chapter number/key matched a different title: ' + override.title + ' vs ' + target.title);
+              throw new Error('Chapter/key matched a different English title: ' + override.title + ' vs ' + target.title);
             }
+            if (replaced.has(norm(target.title))) throw new Error('Duplicate English override for ' + target.title);
+            replaced.add(norm(target.title));
             target.questions = override.questions;
           }
           const total = english.reduce((sum, chapter) => sum + chapter.questions.length, 0);
-          if (english.length !== 37 || total !== 2545) {
-            throw new Error('Merged English bank expected 37 chapter sets / 2545 MCQs, got ' + english.length + ' / ' + total);
+          if (english.length !== 37 || total !== 3700 || replaced.size !== 19) {
+            throw new Error('Merged English bank expected 37 topic sets / 3700 MCQs / 19 upgrades, got ' + english.length + ' / ' + total + ' / ' + replaced.size);
+          }
+          for (const chapter of english) {
+            if (!chapter.title || !Array.isArray(chapter.questions) || chapter.questions.length !== 100) {
+              throw new Error('English topic does not have exactly 100 questions: ' + chapter.title + ' (' + (chapter.questions || []).length + ')');
+            }
           }
           fs.writeFileSync(englishPath, JSON.stringify(english, null, 2) + String.fromCharCode(10));
-          console.log('Merged English chapter overrides: 7 chapters, 700 MCQs; deployed English total: ' + total + '.');
+          console.log('Merged four English override files: 19 topic sets; deployed English total: ' + total + '.');
           NODE
-          cp data/contracts/v1/* _site/data/contracts/v1/
-          if [ -d assets ]; then cp -R assets _site/assets; fi
-          if [ -d knowledge ]; then cp -R knowledge _site/knowledge; fi
-          mkdir -p _site/science-payload
-          cp science-payload/part-*.txt _site/science-payload/
       - name: Validate Science module payload
         run: |
           node <<'NODE'
@@ -153,7 +161,7 @@ jobs:
           const expected = {
             science: { chapters: 14, questions: 1400 },
             mathematics: { chapters: 14, questions: 112 },
-            english: { chapters: 37, questions: 2545 },
+            english: { chapters: 37, questions: 3700 },
             'social-science': { chapters: 22, questions: 110 },
             hindi: { chapters: 27, questions: 92 }
           };
