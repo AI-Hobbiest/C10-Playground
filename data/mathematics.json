@@ -1690,7 +1690,7 @@
       },
       {
         "id": 30,
-        "question": "For p(x) = x² + 1x − 6, the sum of its zeroes is:",
+        "question": "For p(x) = x² + x − 6, the sum of its zeroes is:",
         "options": [
           "-1",
           "1",
@@ -2249,7 +2249,7 @@
       },
       {
         "id": 73,
-        "question": "For p(x)=x² + 1x + (-6), the product of its zeroes is:",
+        "question": "For p(x)=x² + x + (-6), the product of its zeroes is:",
         "options": [
           "-1",
           "6",
@@ -2724,7 +2724,7 @@
       },
       {
         "id": 9,
-        "question": "Solve 2x+1y=4 and 1x+2y=5.",
+        "question": "Solve 2x+1y=4 and x+2y=5.",
         "options": [
           "x=-1, y=2",
           "x=1, y=3",
@@ -2750,7 +2750,7 @@
       },
       {
         "id": 11,
-        "question": "The pair 1x+2y=7 and 2x+4y=14 has:",
+        "question": "The pair x+2y=7 and 2x+4y=14 has:",
         "options": [
           "Infinitely many solutions",
           "No solution",
@@ -2763,7 +2763,7 @@
       },
       {
         "id": 12,
-        "question": "The lines 1x+2y=5 and 2x+4y=11 are:",
+        "question": "The lines x+2y=5 and 2x+4y=11 are:",
         "options": [
           "Perpendicular",
           "Parallel and distinct",
@@ -2802,7 +2802,7 @@
       },
       {
         "id": 15,
-        "question": "For 1x+2y=7 and 2x+1y=9, which coefficient comparison tests for a unique solution?",
+        "question": "For x+2y=7 and 2x+1y=9, which coefficient comparison tests for a unique solution?",
         "options": [
           "1/2 ≠ 2/1",
           "1/2 = 2/1 = 7/9",
@@ -2997,7 +2997,7 @@
       },
       {
         "id": 30,
-        "question": "Solve 5x+5y=30 and 1x+5y=14.",
+        "question": "Solve 5x+5y=30 and x+5y=14.",
         "options": [
           "x=5, y=1",
           "x=-4, y=2",
@@ -3127,7 +3127,7 @@
       },
       {
         "id": 40,
-        "question": "The lines 1x+4y=9 and 2x+8y=19 are:",
+        "question": "The lines x+4y=9 and 2x+8y=19 are:",
         "options": [
           "Perpendicular",
           "Parallel and distinct",
@@ -3244,7 +3244,7 @@
       },
       {
         "id": 49,
-        "question": "For 1x+5y=7 and 6x+1y=9, which coefficient comparison tests for a unique solution?",
+        "question": "For x+5y=7 and 6x+1y=9, which coefficient comparison tests for a unique solution?",
         "options": [
           "1/6 = 5/1 ≠ 7/9",
           "1=5=6",
@@ -3257,7 +3257,7 @@
       },
       {
         "id": 50,
-        "question": "Solve 4x+4y=36 and 1x+4y=21.",
+        "question": "Solve 4x+4y=36 and x+4y=21.",
         "options": [
           "x=6, y=3",
           "x=-5, y=4",
@@ -3439,7 +3439,7 @@
       },
       {
         "id": 64,
-        "question": "The lines 1x+6y=5 and 2x+12y=11 are:",
+        "question": "The lines x+6y=5 and 2x+12y=11 are:",
         "options": [
           "Perpendicular",
           "Parallel and distinct",
@@ -3491,7 +3491,7 @@
       },
       {
         "id": 68,
-        "question": "Solve 3x+3y=3 and 1x+3y=-3.",
+        "question": "Solve 3x+3y=3 and x+3y=-3.",
         "options": [
           "x=3, y=-1",
           "x=3, y=-2",
@@ -3634,7 +3634,7 @@
       },
       {
         "id": 79,
-        "question": "For 1x+2y=7 and 3x+1y=9, which coefficient comparison tests for a unique solution?",
+        "question": "For x+2y=7 and 3x+1y=9, which coefficient comparison tests for a unique solution?",
         "options": [
           "1/3 ≠ 2/1",
           "1/3 = 2/1 = 7/9",
@@ -3725,7 +3725,7 @@
       },
       {
         "id": 86,
-        "question": "Solve 2x+2y=4 and 1x+2y=7.",
+        "question": "Solve 2x+2y=4 and x+2y=7.",
         "options": [
           "x=-2, y=4",
           "x=3, y=5",
@@ -3751,7 +3751,7 @@
       },
       {
         "id": 88,
-        "question": "The lines 1x+3y=9 and 2x+6y=19 are:",
+        "question": "The lines x+3y=9 and 2x+6y=19 are:",
         "options": [
           "Perpendicular",
           "Parallel and distinct",
@@ -4748,10 +4748,10 @@
         "id": 64,
         "question": "A quadratic equation has roots -3 and 2. Its monic standard form is:",
         "options": [
-          "x² + 1x − 6=0",
-          "x² − 1x − 6=0",
+          "x² + x − 6=0",
+          "x² − x − 6=0",
           "x² − 6x + 1=0",
-          "x² + 1x + 6=0"
+          "x² + x + 6=0"
         ],
         "answer": 0,
         "explanation": "For roots r and s, x²−(r+s)x+rs=0.",
@@ -13217,10 +13217,10 @@
         "id": 9,
         "question": "A sector of radius 2 cm has central angle 60°. Its area is:",
         "options": [
-          "0.3333333333333333π cm²",
-          "1.3333333333333333π cm²",
+          "4π cm²",
+          "4π/3 cm²",
           "2π/3 cm²",
-          "4π cm²"
+          "π/3 cm²"
         ],
         "answer": 2,
         "explanation": "Sector area=(θ/360°)πr². With r=2 cm and θ=60°, the exact area is 2π/3 cm².",
@@ -13315,10 +13315,10 @@
         "id": 16,
         "question": "A sector of radius 3 cm has central angle 90°. Its area is:",
         "options": [
-          "4.5π cm²",
-          "9π/4 cm²",
           "9π cm²",
-          "0.75π cm²"
+          "9π/4 cm²",
+          "9π/2 cm²",
+          "9π/8 cm²"
         ],
         "answer": 1,
         "explanation": "Sector area=(θ/360°)πr². With r=3 cm and θ=90°, the exact area is 9π/4 cm².",
@@ -13408,8 +13408,8 @@
         "options": [
           "16π/3 cm²",
           "16π cm²",
-          "1.3333333333333333π cm²",
-          "10.666666666666666π cm²"
+          "32π/3 cm²",
+          "8π/3 cm²"
         ],
         "answer": 0,
         "explanation": "Sector area=(θ/360°)πr². With r=4 cm and θ=120°, the exact area is 16π/3 cm².",
@@ -13498,8 +13498,8 @@
         "question": "A sector of radius 5 cm has central angle 60°. Its area is:",
         "options": [
           "25π cm²",
-          "0.8333333333333334π cm²",
-          "8.333333333333334π cm²",
+          "25π/3 cm²",
+          "25π/12 cm²",
           "25π/6 cm²"
         ],
         "answer": 3,
@@ -13588,10 +13588,10 @@
         "id": 37,
         "question": "A sector of radius 6 cm has central angle 90°. Its area is:",
         "options": [
-          "1.5π cm²",
+          "36π cm²",
           "18π cm²",
           "9π cm²",
-          "36π cm²"
+          "9π/2 cm²"
         ],
         "answer": 2,
         "explanation": "Sector area=(θ/360°)πr². With r=6 cm and θ=90°, the exact area is 9π cm².",
@@ -13679,10 +13679,10 @@
         "id": 44,
         "question": "A sector of radius 7 cm has central angle 120°. Its area is:",
         "options": [
-          "32.666666666666664π cm²",
-          "49π/3 cm²",
           "49π cm²",
-          "2.3333333333333335π cm²"
+          "49π/3 cm²",
+          "98π/3 cm²",
+          "49π/6 cm²"
         ],
         "answer": 1,
         "explanation": "Sector area=(θ/360°)πr². With r=7 cm and θ=120°, the exact area is 49π/3 cm².",
@@ -13772,8 +13772,8 @@
         "options": [
           "32π/3 cm²",
           "64π cm²",
-          "1.3333333333333333π cm²",
-          "21.333333333333332π cm²"
+          "64π/3 cm²",
+          "16π/3 cm²"
         ],
         "answer": 0,
         "explanation": "Sector area=(θ/360°)πr². With r=8 cm and θ=60°, the exact area is 32π/3 cm².",
@@ -13862,8 +13862,8 @@
         "question": "A sector of radius 9 cm has central angle 90°. Its area is:",
         "options": [
           "81π cm²",
-          "2.25π cm²",
-          "40.5π cm²",
+          "81π/2 cm²",
+          "81π/8 cm²",
           "81π/4 cm²"
         ],
         "answer": 3,
@@ -13952,10 +13952,10 @@
         "id": 65,
         "question": "A sector of radius 10 cm has central angle 120°. Its area is:",
         "options": [
-          "3.3333333333333335π cm²",
-          "66.66666666666667π cm²",
+          "100π cm²",
+          "200π/3 cm²",
           "100π/3 cm²",
-          "100π cm²"
+          "50π/3 cm²"
         ],
         "answer": 2,
         "explanation": "Sector area=(θ/360°)πr². With r=10 cm and θ=120°, the exact area is 100π/3 cm².",
@@ -14043,10 +14043,10 @@
         "id": 72,
         "question": "A sector of radius 11 cm has central angle 60°. Its area is:",
         "options": [
-          "40.333333333333336π cm²",
-          "121π/6 cm²",
           "121π cm²",
-          "1.8333333333333333π cm²"
+          "121π/6 cm²",
+          "121π/3 cm²",
+          "121π/12 cm²"
         ],
         "answer": 1,
         "explanation": "Sector area=(θ/360°)πr². With r=11 cm and θ=60°, the exact area is 121π/6 cm².",
@@ -14136,8 +14136,8 @@
         "options": [
           "36π cm²",
           "144π cm²",
-          "3π cm²",
-          "72π cm²"
+          "72π cm²",
+          "18π cm²"
         ],
         "answer": 0,
         "explanation": "Sector area=(θ/360°)πr². With r=12 cm and θ=90°, the exact area is 36π cm².",
@@ -14212,10 +14212,10 @@
         "id": 85,
         "question": "A sector of radius 13 cm has central angle 120°. Its area is:",
         "options": [
-          "4.333333333333333π cm²",
-          "112.66666666666667π cm²",
+          "169π cm²",
+          "338π/3 cm²",
           "169π/3 cm²",
-          "169π cm²"
+          "169π/6 cm²"
         ],
         "answer": 2,
         "explanation": "Sector area=(θ/360°)πr². With r=13 cm and θ=120°, the exact area is 169π/3 cm².",
@@ -14292,8 +14292,8 @@
         "options": [
           "98π/3 cm²",
           "196π cm²",
-          "2.3333333333333335π cm²",
-          "65.33333333333333π cm²"
+          "196π/3 cm²",
+          "49π/3 cm²"
         ],
         "answer": 0,
         "explanation": "Sector area=(θ/360°)πr². With r=14 cm and θ=60°, the exact area is 98π/3 cm².",
@@ -14344,8 +14344,8 @@
         "options": [
           "225π/4 cm²",
           "225π cm²",
-          "3.75π cm²",
-          "112.5π cm²"
+          "225π/2 cm²",
+          "225π/8 cm²"
         ],
         "answer": 0,
         "explanation": "Sector area=(θ/360°)πr². With r=15 cm and θ=90°, the exact area is 225π/4 cm².",
@@ -14396,8 +14396,8 @@
         "options": [
           "4π/3 cm²",
           "4π cm²",
-          "0.6666666666666666π cm²",
-          "2.6666666666666665π cm²"
+          "8π/3 cm²",
+          "2π/3 cm²"
         ],
         "answer": 0,
         "explanation": "Sector area=(θ/360°)πr². With r=2 cm and θ=120°, the exact area is 4π/3 cm².",
