@@ -112,3 +112,8 @@ GitHub Actions assembles and deploys the site to GitHub Pages. It validates the 
 ## Syllabus and usage note
 
 The practice sets are revision aids, not official CBSE publications or a guarantee of complete syllabus coverage. Verify the school’s current syllabus and assessment plan before relying on any topic for exam preparation. Official CBSE Class X sample-paper index: https://cbseacademic.nic.in/SQP_CLASSX_2026-27.html
+
+
+## Class 6 expansion
+
+Class 6 is being expanded from the Science pilot into a full five-subject track. The implementation roadmap records the required curriculum inventory, class-specific question-bank approach, quality gates and pilot safety checks: [Class 6 expansion roadmap](docs/class-6-expansion-plan.md). At present, only Class 6 Science is integrated as a starter pilot (12 Curiosity chapters, 36 MCQs). Mathematics, English, Social Science and Hindi must not be advertised as ready until their textbook/edition is confirmed, their question banks are built and validated, and the shared practice engine is tested with them. Class 6 content must remain separate from Class 10 banks.
