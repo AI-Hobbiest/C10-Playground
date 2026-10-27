@@ -1491,7 +1491,14 @@
         ],
         "answer": 0,
         "explanation": "Setting p(x)=0 gives (x − 4)(x − 6)=0, so the zeroes are x=4 and x=6.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "images": [
+          {
+            "src": "assets/math/quadratic-zeros.svg",
+            "alt": "A parabola crosses the x-axis at x = 4 and x = 6.",
+            "caption": "The zeroes are the x-coordinates where the graph crosses the x-axis."
+          }
+        ]
       },
       {
         "id": 15,
@@ -2629,7 +2636,14 @@
         ],
         "answer": 1,
         "explanation": "Adding gives 3x = 9, so x = 3 and y = 1.",
-        "difficulty": "Easy"
+        "difficulty": "Easy",
+        "images": [
+          {
+            "src": "assets/math/linear-system-intersection.svg",
+            "alt": "Graphs of 2x + y = 7 and x − y = 2 intersecting at (3, 1).",
+            "caption": "Graphical solution: the intersection point (3, 1) satisfies both equations."
+          }
+        ]
       },
       {
         "id": 2,
@@ -9195,15 +9209,15 @@
       },
       {
         "id": 3,
-        "question": "The identity 1 + tan²θ equals:",
+        "question": "For an acute angle θ in a right triangle, tan θ is equal to:",
         "options": [
-          "sin²θ",
-          "cos²θ",
-          "sec²θ",
-          "cosec²θ"
+          "sin θ / cos θ",
+          "cos θ / sin θ",
+          "1 / sin θ",
+          "1 / cos θ"
         ],
-        "answer": 2,
-        "explanation": "This is the standard Pythagorean trigonometric identity.",
+        "answer": 0,
+        "explanation": "tan θ = opposite/adjacent, and sin θ/cos θ = (opposite/hypotenuse)/(adjacent/hypotenuse) = opposite/adjacent.",
         "difficulty": "Easy"
       },
       {
