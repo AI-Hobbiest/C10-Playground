@@ -87,7 +87,7 @@
       return data.map((chapter,i)=>({
         chapter_no:Number(chapter.chapter_no||chapter.chapterNo||i+1),
         title:String(chapter.title||"").trim(),
-        key:String(chapter.key||chapter.chapterKey||slug(chapter.title)),
+        key:String(chapter.key||chapter.chapterKey||("chapter-"+String(Number(chapter.chapter_no||chapter.chapterNo||i+1)).padStart(2,"0"))),
         section:chapter.section||"",
         questions:(chapter.questions||[]).map((q,j)=>({
           ...q,id:q.id??q.questionId??("q-"+(j+1)),
