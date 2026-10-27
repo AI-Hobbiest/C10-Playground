@@ -15837,8 +15837,8 @@
           "Mean = mode + median",
           "Median = mean × mode"
         ],
-        "answer": 1,
-        "explanation": "The empirical relation is Mode ≈ 3 Median − 2 Mean.",
+        "answer": 0,
+        "explanation": "The empirical relation is Mode ≈ 3 × Median − 2 × Mean.",
         "difficulty": "Hard"
       },
       {
