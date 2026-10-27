@@ -124,7 +124,7 @@ jobs:
           const expected = {
             science: { chapters: 14, questions: 1400 },
             mathematics: { chapters: 14, questions: 112 },
-            english: { chapters: 37, questions: 1769 },
+            english: { chapters: 37, questions: 1866 },
             'social-science': { chapters: 22, questions: 110 },
             hindi: { chapters: 27, questions: 92 }
           };
