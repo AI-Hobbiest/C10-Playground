@@ -11,15 +11,18 @@ const manager = fs.readFileSync("js/profile-manager.js", "utf8");
 assert.equal(database.kind, "c10-student-accounts");
 assert.equal(database.schemaVersion, 1);
 assert.equal(database.kdf, "PBKDF2-SHA-256");
-// The MVP intentionally carries one Class 10 and one Class 6 pilot account for manual class-isolation testing.
-assert.equal(database.accounts.length, 2, "publish only the two intentional pilot accounts");
-const class10Account = database.accounts.find(account => account.username === "jp10");
-const class6Account = database.accounts.find(account => account.username === "c6pilot");
-assert.ok(class10Account, "Class 10 test account should remain available");
-assert.ok(class6Account, "Class 6 pilot account should be published");
-assert.equal(String(class10Account.classId), "10");
-assert.equal(String(class6Account.classId), "6");
-for (const testAccount of [class10Account, class6Account]) {
+// Keep the two original pilot accounts plus the newly approved Class 6 and Class 10 student accounts.
+assert.equal(database.accounts.length, 4, "publish the two original and two new pilot accounts");
+const expectedAccounts = [
+  ["jp10", "10"],
+  ["c6pilot", "6"],
+  ["srivatsav", "6"],
+  ["sonaakshi", "10"]
+];
+for (const [username, classId] of expectedAccounts) {
+  const testAccount = database.accounts.find(account => account.username === username);
+  assert.ok(testAccount, "Expected pilot account should remain available: " + username);
+  assert.equal(String(testAccount.classId), classId, "Class assignment should match for " + username);
   assert.equal(testAccount.active, true);
   assert.ok(testAccount.salt && testAccount.passwordHash && Number(testAccount.iterations) >= 10000,
     "test account must use a salted password hash");
@@ -38,4 +41,4 @@ for (const id of ["createStaticAccountBtn","resetStaticAccountBtn","staticAccoun
 assert.ok(admin.includes("not secure authentication"));
 assert.ok(workflow.includes("cp js/student-auth.js _site/js/student-auth.js"));
 assert.ok(workflow.includes("cp js/static-account-admin.js _site/js/static-account-admin.js"));
-console.log("Static account contract tests passed: single JP test account, salted PBKDF2 hash, local-only login and admin export/reset.");
+console.log("Static account contract tests passed: four assigned pilot accounts, salted PBKDF2 hashes, local-only login and admin export/reset.");
