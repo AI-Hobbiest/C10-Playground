@@ -120,7 +120,7 @@ function loadBank(data){
   setText("chapterTotal",chapters.length);setText("questionTotal",total);
   setText("subjectIcon",config.icon);setText("subjectTitle",config.title+(classId==="6"?" · Class 6":"")+" Practice");
   setText("subjectSubtitle",classId==="6"&&subject==="science"?"NCERT Curiosity · Class 6 Science. Build foundations through observation, everyday examples and clear explanations.":config.subtitle);
-  if($("classEyebrow"))setText("classEyebrow",classId==="6"&&subject==="science"?"CBSE Class 6 · NCERT Curiosity":"C10-Playground · CBSE Class 10");
+  if($("classEyebrow"))setText("classEyebrow",classId==="6"&&subject==="science"?"ExamGuru Quest · CBSE Class 6 · NCERT Curiosity":"ExamGuru Quest · CBSE Class "+classId);
   document.title=(classId==="6"&&subject==="science"?"Class 6 Science":config.title)+" | ExamGuru";
   setText("modeHint",chapters[0].questions.length+" questions in this chapter. Learn mode shows explanations as you go.");
   updateStats();
