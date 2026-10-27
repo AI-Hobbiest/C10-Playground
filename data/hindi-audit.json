@@ -2,7 +2,7 @@
   "subject": "Class 10 Hindi",
   "auditDate": "2026-10-27",
   "sourceFile": "data/hindi.json",
-  "status": "incomplete",
+  "status": "expanded-but-incomplete",
   "counts": {
     "topics": 27,
     "questions": 92
@@ -20,16 +20,37 @@
     "Retain valid existing questions; do not regenerate completed content."
   ],
   "knownGaps": [
-    "Current 27-topic file is not a complete syllabus map for both Hindi courses.",
-    "Several literature chapters and supplementary-reader chapters are missing or mapped to the wrong course.",
-    "Existing topics contain only 3-4 questions each, well below the planned 100-per-topic target.",
-    "Reading comprehension and writing-skill coverage needs multiple distinct passages and task types."
+    "Question bank is expanded to 146 questions but is not at the intended 100 questions per topic.",
+    "Syllabus map is available, but every literature topic still needs line-by-line reconciliation against the prescribed 2026-27 textbooks and excluded chapters.",
+    "Current literature questions are mostly thematic and need chapter-specific factual review against the actual NCERT text.",
+    "Reading comprehension and writing-skill coverage needs more varied passage-based and task-based question sets.",
+    "Basic structural validation does not establish answer correctness or academic completeness."
   ],
   "nextActions": [
-    "Verify the official CBSE 2026-27 Hindi Course A and Course B syllabus.",
-    "Create separate course-specific topic maps and include only examinable chapters.",
-    "Expand MCQs topic-wise in reviewable batches while preserving the existing schema.",
-    "Run JSON, duplicate, answer-index, and coverage checks before portal integration."
+    "Reconcile all existing literature topics with official 2026-27 Course A/B prescribed and excluded chapters.",
+    "Expand each approved syllabus topic to the agreed question target using non-duplicative, syllabus-specific questions.",
+    "Add diverse unseen prose/poetry passages and course-appropriate writing tasks.",
+    "Review each answer and explanation against NCERT text and CBSE sample-paper style.",
+    "Run automated schema, duplicate, option, answer-index, and coverage validation again before declaring complete."
   ],
-  "note": "This audit records current limitations and is not a claim that Hindi preparation is complete."
+  "note": "This audit records current limitations and is not a claim that Hindi preparation is complete.",
+  "currentBank": {
+    "topics": 27,
+    "questions": 146,
+    "addedThisPass": 54,
+    "perTopicRange": [
+      5,
+      6
+    ],
+    "structuralValidation": {
+      "malformedQuestions": 0,
+      "duplicateIds": 0,
+      "answerIndexErrors": 0
+    }
+  },
+  "syllabusMap": "data/hindi-syllabus-map.json",
+  "officialSyllabus": {
+    "courseA": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_A_SecP1_2026-27.pdf",
+    "courseB": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart1/Hindi_B_SecP1_2026-27.pdf"
+  }
 }
