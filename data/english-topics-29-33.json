@@ -4891,26 +4891,26 @@
         "id": 75,
         "question": "Select the most appropriate modal (Deduction): Tickets are sold out, so the counter ___ have any.",
         "options": [
+          "should",
           "cannot",
-          "should not",
           "must",
-          "might not"
+          "might"
         ],
-        "answer": 2,
-        "explanation": "Must expresses a strong deduction from evidence.",
+        "answer": 1,
+        "explanation": "A sold-out counter is unlikely to have a ticket available; “cannot” completes the negative deduction.",
         "difficulty": "Medium"
       },
       {
         "id": 76,
         "question": "Select the most appropriate modal (Deduction): The printer has no paper, so it ___ print.",
         "options": [
-          "should not",
+          "cannot",
           "must",
-          "might not",
-          "cannot"
+          "might",
+          "should"
         ],
-        "answer": 1,
-        "explanation": "Must expresses a strong deduction from evidence.",
+        "answer": 0,
+        "explanation": "Without paper, the printer cannot print the report.",
         "difficulty": "Hard"
       },
       {
@@ -4930,26 +4930,26 @@
         "id": 78,
         "question": "Select the most appropriate modal (Deduction): The door is locked and we lack a key; we ___ enter.",
         "options": [
-          "might not",
+          "might",
+          "should",
           "cannot",
-          "should not",
           "must"
         ],
-        "answer": 3,
-        "explanation": "Must expresses a strong deduction from evidence.",
+        "answer": 2,
+        "explanation": "A locked door and no key mean we cannot enter at present.",
         "difficulty": "Medium"
       },
       {
         "id": 79,
         "question": "Select the most appropriate modal (Deduction): The map shows a closure, so the route ___ be clear.",
         "options": [
+          "should",
           "cannot",
-          "should not",
           "must",
-          "might not"
+          "might"
         ],
-        "answer": 2,
-        "explanation": "Must expresses a strong deduction from evidence.",
+        "answer": 1,
+        "explanation": "A closure marker means the route cannot be clear for travel.",
         "difficulty": "Easy"
       },
       {
@@ -5249,13 +5249,13 @@
         "id": 2,
         "question": "Choose the verb that agrees with the subject: “The list of supplies ___ on the shelf.”",
         "options": [
-          "have",
+          "was",
           "were",
-          "Unrelated alternative 1",
-          "has"
+          "is",
+          "are"
         ],
-        "answer": 3,
-        "explanation": "The subject “The list of supplies” is singular, so “has” agrees with it.",
+        "answer": 2,
+        "explanation": "The subject “The list of supplies” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -5314,13 +5314,13 @@
         "id": 7,
         "question": "Choose the verb that agrees with the subject: “The notebooks ___ on the shelf.”",
         "options": [
-          "was",
-          "Unrelated alternative 1",
-          "have",
-          "has"
+          "were",
+          "are",
+          "is",
+          "was"
         ],
-        "answer": 2,
-        "explanation": "The subject “The notebooks” is plural, so “have” agrees with it.",
+        "answer": 1,
+        "explanation": "The subject “The notebooks” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Easy"
       },
       {
@@ -5379,13 +5379,13 @@
         "id": 12,
         "question": "Choose the verb that agrees with the subject: “Everyone in the class ___ on the shelf.”",
         "options": [
-          "Unrelated alternative 1",
-          "has",
-          "have",
+          "is",
+          "are",
+          "was",
           "were"
         ],
-        "answer": 1,
-        "explanation": "The subject “Everyone in the class” is singular, so “has” agrees with it.",
+        "answer": 0,
+        "explanation": "The subject “Everyone in the class” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -5444,13 +5444,13 @@
         "id": 17,
         "question": "Choose the verb that agrees with the subject: “The children ___ on the shelf.”",
         "options": [
-          "have",
-          "has",
+          "is",
           "was",
-          "Unrelated alternative 1"
+          "were",
+          "are"
         ],
-        "answer": 0,
-        "explanation": "The subject “The children” is plural, so “have” agrees with it.",
+        "answer": 3,
+        "explanation": "The subject “The children” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -5509,13 +5509,13 @@
         "id": 22,
         "question": "Choose the verb that agrees with the subject: “A pair of shoes ___ on the shelf.”",
         "options": [
-          "have",
+          "was",
           "were",
-          "Unrelated alternative 1",
-          "has"
+          "is",
+          "are"
         ],
-        "answer": 3,
-        "explanation": "The subject “A pair of shoes” is singular, so “has” agrees with it.",
+        "answer": 2,
+        "explanation": "The subject “A pair of shoes” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Easy"
       },
       {
@@ -5574,13 +5574,13 @@
         "id": 27,
         "question": "Choose the verb that agrees with the subject: “Several visitors ___ on the shelf.”",
         "options": [
-          "was",
-          "Unrelated alternative 1",
-          "have",
-          "has"
+          "were",
+          "are",
+          "is",
+          "was"
         ],
-        "answer": 2,
-        "explanation": "The subject “Several visitors” is plural, so “have” agrees with it.",
+        "answer": 1,
+        "explanation": "The subject “Several visitors” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -5639,13 +5639,13 @@
         "id": 32,
         "question": "Choose the verb that agrees with the subject: “Neither answer ___ on the shelf.”",
         "options": [
-          "Unrelated alternative 1",
-          "has",
-          "have",
+          "is",
+          "are",
+          "was",
           "were"
         ],
-        "answer": 1,
-        "explanation": "The subject “Neither answer” is singular, so “has” agrees with it.",
+        "answer": 0,
+        "explanation": "The subject “Neither answer” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -5704,13 +5704,13 @@
         "id": 37,
         "question": "Choose the verb that agrees with the subject: “The volunteers ___ on the shelf.”",
         "options": [
-          "have",
-          "has",
+          "is",
           "was",
-          "Unrelated alternative 1"
+          "were",
+          "are"
         ],
-        "answer": 0,
-        "explanation": "The subject “The volunteers” is plural, so “have” agrees with it.",
+        "answer": 3,
+        "explanation": "The subject “The volunteers” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Easy"
       },
       {
@@ -5769,13 +5769,13 @@
         "id": 42,
         "question": "Choose the verb that agrees with the subject: “The news ___ on the shelf.”",
         "options": [
-          "have",
+          "was",
           "were",
-          "Unrelated alternative 1",
-          "has"
+          "is",
+          "are"
         ],
-        "answer": 3,
-        "explanation": "The subject “The news” is singular, so “has” agrees with it.",
+        "answer": 2,
+        "explanation": "The subject “The news” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -5834,13 +5834,13 @@
         "id": 47,
         "question": "Choose the verb that agrees with the subject: “The scissors ___ on the shelf.”",
         "options": [
-          "was",
-          "Unrelated alternative 1",
-          "have",
-          "has"
+          "were",
+          "are",
+          "is",
+          "was"
         ],
-        "answer": 2,
-        "explanation": "The subject “The scissors” is plural, so “have” agrees with it.",
+        "answer": 1,
+        "explanation": "The subject “The scissors” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -5899,13 +5899,13 @@
         "id": 52,
         "question": "Choose the verb that agrees with the subject: “The committee ___ on the shelf.”",
         "options": [
-          "Unrelated alternative 1",
-          "has",
-          "have",
+          "is",
+          "are",
+          "was",
           "were"
         ],
-        "answer": 1,
-        "explanation": "The subject “The committee” is singular, so “has” agrees with it.",
+        "answer": 0,
+        "explanation": "The subject “The committee” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Easy"
       },
       {
@@ -5964,13 +5964,13 @@
         "id": 57,
         "question": "Choose the verb that agrees with the subject: “The players ___ on the shelf.”",
         "options": [
-          "have",
-          "has",
+          "is",
           "was",
-          "Unrelated alternative 1"
+          "were",
+          "are"
         ],
-        "answer": 0,
-        "explanation": "The subject “The players” is plural, so “have” agrees with it.",
+        "answer": 3,
+        "explanation": "The subject “The players” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -6029,13 +6029,13 @@
         "id": 62,
         "question": "Choose the verb that agrees with the subject: “The number of applicants ___ on the shelf.”",
         "options": [
-          "have",
+          "was",
           "were",
-          "Unrelated alternative 1",
-          "has"
+          "is",
+          "are"
         ],
-        "answer": 3,
-        "explanation": "The subject “The number of applicants” is singular, so “has” agrees with it.",
+        "answer": 2,
+        "explanation": "The subject “The number of applicants” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -6094,13 +6094,13 @@
         "id": 67,
         "question": "Choose the verb that agrees with the subject: “A number of residents ___ on the shelf.”",
         "options": [
-          "was",
-          "Unrelated alternative 1",
-          "have",
-          "has"
+          "were",
+          "are",
+          "is",
+          "was"
         ],
-        "answer": 2,
-        "explanation": "The subject “A number of residents” is plural, so “have” agrees with it.",
+        "answer": 1,
+        "explanation": "The subject “A number of residents” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Easy"
       },
       {
@@ -6159,13 +6159,13 @@
         "id": 72,
         "question": "Choose the verb that agrees with the subject: “The captain, with two assistants ___ on the shelf.”",
         "options": [
-          "Unrelated alternative 1",
-          "has",
-          "have",
+          "is",
+          "are",
+          "was",
           "were"
         ],
-        "answer": 1,
-        "explanation": "The subject “The captain, with two assistants” is singular, so “has” agrees with it.",
+        "answer": 0,
+        "explanation": "The subject “The captain, with two assistants” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -6224,13 +6224,13 @@
         "id": 77,
         "question": "Choose the verb that agrees with the subject: “Ravi and Meena ___ on the shelf.”",
         "options": [
-          "have",
-          "has",
+          "is",
           "was",
-          "Unrelated alternative 1"
+          "were",
+          "are"
         ],
-        "answer": 0,
-        "explanation": "The subject “Ravi and Meena” is plural, so “have” agrees with it.",
+        "answer": 3,
+        "explanation": "The subject “Ravi and Meena” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -6289,13 +6289,13 @@
         "id": 82,
         "question": "Choose the verb that agrees with the subject: “Each student ___ on the shelf.”",
         "options": [
-          "have",
+          "was",
           "were",
-          "Unrelated alternative 1",
-          "has"
+          "is",
+          "are"
         ],
-        "answer": 3,
-        "explanation": "The subject “Each student” is singular, so “has” agrees with it.",
+        "answer": 2,
+        "explanation": "The subject “Each student” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Easy"
       },
       {
@@ -6354,13 +6354,13 @@
         "id": 87,
         "question": "Choose the verb that agrees with the subject: “The results ___ on the shelf.”",
         "options": [
-          "was",
-          "Unrelated alternative 1",
-          "have",
-          "has"
+          "were",
+          "are",
+          "is",
+          "was"
         ],
-        "answer": 2,
-        "explanation": "The subject “The results” is plural, so “have” agrees with it.",
+        "answer": 1,
+        "explanation": "The subject “The results” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -6419,13 +6419,13 @@
         "id": 92,
         "question": "Choose the verb that agrees with the subject: “The furniture ___ on the shelf.”",
         "options": [
-          "Unrelated alternative 1",
-          "has",
-          "have",
+          "is",
+          "are",
+          "was",
           "were"
         ],
-        "answer": 1,
-        "explanation": "The subject “The furniture” is singular, so “has” agrees with it.",
+        "answer": 0,
+        "explanation": "The subject “The furniture” is singular; use “is” to describe its location on the shelf.",
         "difficulty": "Medium"
       },
       {
@@ -6484,13 +6484,13 @@
         "id": 97,
         "question": "Choose the verb that agrees with the subject: “The police ___ on the shelf.”",
         "options": [
-          "have",
-          "has",
+          "is",
           "was",
-          "Unrelated alternative 1"
+          "were",
+          "are"
         ],
-        "answer": 0,
-        "explanation": "The subject “The police” is plural, so “have” agrees with it.",
+        "answer": 3,
+        "explanation": "The subject “The police” is plural; use “are” to describe its location on the shelf.",
         "difficulty": "Easy"
       },
       {
