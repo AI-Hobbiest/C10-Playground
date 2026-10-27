@@ -1435,7 +1435,7 @@
           "5",
           "6",
           "-5",
-          "5 (choice 1)"
+          "4 "
         ],
         "answer": 0,
         "explanation": "Product of zeroes = constant term / leading coefficient = 5.",
@@ -1459,7 +1459,7 @@
         "question": "For p(x)=(x−(-3))(x−(2)), the value p(-4) is:",
         "options": [
           "-7",
-          "6 (choice 1)",
+          "5 ",
           "6",
           "7"
         ],
@@ -1889,7 +1889,7 @@
         "options": [
           "12",
           "-11",
-          "11 (choice 1)",
+          "10 ",
           "11"
         ],
         "answer": 3,
@@ -2371,7 +2371,7 @@
           "14",
           "15",
           "17",
-          "14 (choice 1)"
+          "13 "
         ],
         "answer": 0,
         "explanation": "p(6)=(6−(5))(6−(-8))=1×14=14.",
@@ -2433,7 +2433,7 @@
         "id": 87,
         "question": "For p(x)=x² + 3x + (-4), the product of its zeroes is:",
         "options": [
-          "-4 (choice 1)",
+          "-5 ",
           "-4",
           "-3",
           "4"
@@ -2779,7 +2779,7 @@
         "question": "Two numbers have sum 6 and difference 2. The larger number is:",
         "options": [
           "6",
-          "4 (choice 1)",
+          "5 ",
           "4",
           "2"
         ],
@@ -2831,7 +2831,7 @@
         "question": "If 3x+3y=21 and y=4, find x.",
         "options": [
           "-3",
-          "3 (choice 1)",
+          "2 ",
           "3",
           "4"
         ],
@@ -3195,7 +3195,7 @@
         "question": "If 3x+1y=29 and y=8, find x.",
         "options": [
           "-7",
-          "7 (choice 1)",
+          "6 ",
           "7",
           "8"
         ],
@@ -3743,7 +3743,7 @@
           "5",
           "6",
           "-5",
-          "5 (choice 1)"
+          "4 "
         ],
         "answer": 0,
         "explanation": "Substitute y=5: 2x+25=35; hence x=5.",
@@ -4321,7 +4321,7 @@
         "options": [
           "47",
           "49",
-          "-47 (choice 1)",
+          "-46 ",
           "-47"
         ],
         "answer": 3,
@@ -4737,7 +4737,7 @@
         "options": [
           "71",
           "73",
-          "-71 (choice 1)",
+          "-70 ",
           "-71"
         ],
         "answer": 3,
@@ -5063,7 +5063,7 @@
           "-103",
           "103",
           "105",
-          "-103 (choice 1)"
+          "-102 "
         ],
         "answer": 0,
         "explanation": "D=b²−4ac=1−4×2×13=-103.",
@@ -5343,7 +5343,7 @@
           "31",
           "35",
           "27",
-          "31 (choice 1)"
+          "32 "
         ],
         "answer": 0,
         "explanation": "aₙ=a+(n−1)d=3+(8−1)(4)=31.",
@@ -5353,7 +5353,7 @@
         "id": 10,
         "question": "Find the sum of the first 5 terms of the AP 18, 13, 8, …",
         "options": [
-          "40 (choice 1)",
+          "41 ",
           "40",
           "45",
           "-10"
@@ -5380,8 +5380,8 @@
         "question": "The common difference of the AP 7, 7, 7, … is:",
         "options": [
           "7",
-          "0 (choice 1)",
-          "0 (choice 2)",
+          "1 ",
+          "-1 ",
           "0"
         ],
         "answer": 3,
@@ -5433,7 +5433,7 @@
         "options": [
           "32",
           "26",
-          "29 (choice 1)",
+          "30 ",
           "29"
         ],
         "answer": 3,
@@ -5523,7 +5523,7 @@
         "question": "An AP has first term 18 and common difference -5. Its 10th term is:",
         "options": [
           "-22",
-          "-27 (choice 1)",
+          "-26 ",
           "-27",
           "-32"
         ],
@@ -5613,10 +5613,10 @@
         "id": 30,
         "question": "An AP has first term 7 and common difference 0. Its 11th term is:",
         "options": [
-          "7 (choice 3)",
+          "8 ",
           "7",
-          "7 (choice 1)",
-          "7 (choice 2)"
+          "6 ",
+          "9 "
         ],
         "answer": 1,
         "explanation": "aₙ=a+(n−1)d=7+(11−1)(0)=7.",
@@ -5707,7 +5707,7 @@
           "68",
           "74",
           "62",
-          "68 (choice 1)"
+          "69 "
         ],
         "answer": 0,
         "explanation": "aₙ=a+(n−1)d=2+(12−1)(6)=68.",
@@ -5797,7 +5797,7 @@
         "options": [
           "61",
           "51",
-          "56 (choice 1)",
+          "57 ",
           "56"
         ],
         "answer": 3,
@@ -5887,7 +5887,7 @@
         "question": "An AP has first term 11 and common difference 2. Its 14th term is:",
         "options": [
           "35",
-          "37 (choice 1)",
+          "38 ",
           "37",
           "39"
         ],
@@ -5977,7 +5977,7 @@
         "id": 58,
         "question": "An AP has first term 20 and common difference -3. Its 15th term is:",
         "options": [
-          "-22 (choice 1)",
+          "-21 ",
           "-22",
           "-25",
           "-19"
@@ -6071,7 +6071,7 @@
           "106",
           "113",
           "99",
-          "106 (choice 1)"
+          "107 "
         ],
         "answer": 0,
         "explanation": "aₙ=a+(n−1)d=1+(16−1)(7)=106.",
@@ -6161,7 +6161,7 @@
         "options": [
           "77",
           "69",
-          "73 (choice 1)",
+          "74 ",
           "73"
         ],
         "answer": 3,
@@ -6251,7 +6251,7 @@
         "question": "An AP has first term 15 and common difference -2. Its 18th term is:",
         "options": [
           "-17",
-          "-19 (choice 1)",
+          "-18 ",
           "-19",
           "-21"
         ],
@@ -6341,7 +6341,7 @@
         "id": 86,
         "question": "An AP has first term 6 and common difference 8. Its 19th term is:",
         "options": [
-          "150 (choice 1)",
+          "151 ",
           "150",
           "158",
           "142"
@@ -6435,7 +6435,7 @@
           "70",
           "73",
           "67",
-          "70 (choice 1)"
+          "71 "
         ],
         "answer": 0,
         "explanation": "aₙ=a+(n−1)d=13+(20−1)(3)=70.",
@@ -6525,7 +6525,7 @@
         "options": [
           "-7",
           "1",
-          "-3 (choice 1)",
+          "-2 ",
           "-3"
         ],
         "answer": 3,
@@ -6649,7 +6649,7 @@
         "options": [
           "2.67",
           "10",
-          "6 (choice 1)",
+          "7 ",
           "6"
         ],
         "answer": 3,
@@ -6665,7 +6665,7 @@
       },
       {
         "id": 10,
-        "question": "Two similar triangles have corresponding sides in the ratio 2:3. A side of the smaller triangle is 4 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 2:3. A side in the first triangle is 4 cm. The corresponding side in the second triangle is:",
         "options": [
           "6",
           "4",
@@ -6708,7 +6708,7 @@
         "options": [
           "3/4",
           "16/9",
-          "9/16 (choice 1)",
+          "10/16 ",
           "9/16"
         ],
         "answer": 3,
@@ -6746,7 +6746,7 @@
         "question": "In ΔABC, DE ∥ BC, AD=9 cm, DB=15 cm and AE=9 cm. Find EC.",
         "options": [
           "24",
-          "15 (choice 1)",
+          "16 ",
           "15",
           "5.4"
         ],
@@ -6756,7 +6756,7 @@
       },
       {
         "id": 17,
-        "question": "Two similar triangles have corresponding sides in the ratio 3:5. A side of the smaller triangle is 9 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 3:5. A side in the first triangle is 9 cm. The corresponding side in the second triangle is:",
         "options": [
           "9",
           "24",
@@ -6784,7 +6784,7 @@
         "id": 19,
         "question": "In similar triangles, a side of 3 cm in the first triangle corresponds to 9 cm in the second. If another side of the first is 6 cm, its corresponding side is:",
         "options": [
-          "18 (choice 1)",
+          "19 ",
           "18",
           "6",
           "9"
@@ -6798,7 +6798,7 @@
         "question": "The perimeters of two similar triangles are 8 cm and 12 cm. The ratio of their areas (first:second) is:",
         "options": [
           "9/4",
-          "4/9 (choice 1)",
+          "5/9 ",
           "4/9",
           "2/3"
         ],
@@ -6836,7 +6836,7 @@
         "id": 23,
         "question": "In ΔABC, DE ∥ BC, AD=16 cm, DB=28 cm and AE=16 cm. Find EC.",
         "options": [
-          "28 (choice 1)",
+          "29 ",
           "28",
           "9.14",
           "44"
@@ -6847,7 +6847,7 @@
       },
       {
         "id": 24,
-        "question": "Two similar triangles have corresponding sides in the ratio 4:7. A side of the smaller triangle is 16 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 4:7. A side in the first triangle is 16 cm. The corresponding side in the second triangle is:",
         "options": [
           "44",
           "30",
@@ -6888,7 +6888,7 @@
         "id": 27,
         "question": "The perimeters of two similar triangles are 10 cm and 16 cm. The ratio of their areas (first:second) is:",
         "options": [
-          "25/64 (choice 1)",
+          "26/64 ",
           "25/64",
           "5/8",
           "64/25"
@@ -6930,7 +6930,7 @@
           "45",
           "13.89",
           "70",
-          "45 (choice 1)"
+          "46 "
         ],
         "answer": 0,
         "explanation": "By the Basic Proportionality Theorem, AD/DB=AE/EC; EC=AE×DB/AD=25×45/25=45 cm.",
@@ -6938,7 +6938,7 @@
       },
       {
         "id": 31,
-        "question": "Two similar triangles have corresponding sides in the ratio 5:9. A side of the smaller triangle is 25 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 5:9. A side in the first triangle is 25 cm. The corresponding side in the second triangle is:",
         "options": [
           "47",
           "45",
@@ -6968,7 +6968,7 @@
         "options": [
           "5",
           "10",
-          "25 (choice 1)",
+          "26 ",
           "25"
         ],
         "answer": 3,
@@ -6982,7 +6982,7 @@
           "9/25",
           "3/5",
           "25/9",
-          "9/25 (choice 1)"
+          "10/25 "
         ],
         "answer": 0,
         "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (6/10)²=9/25.",
@@ -7029,7 +7029,7 @@
       },
       {
         "id": 38,
-        "question": "Two similar triangles have corresponding sides in the ratio 6:3. A side of the smaller triangle is 36 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 6:3. A side in the first triangle is 36 cm. The corresponding side in the second triangle is:",
         "options": [
           "18",
           "36",
@@ -7072,7 +7072,7 @@
         "options": [
           "7/12",
           "144/49",
-          "49/144 (choice 1)",
+          "50/144 ",
           "49/144"
         ],
         "answer": 3,
@@ -7120,7 +7120,7 @@
       },
       {
         "id": 45,
-        "question": "Two similar triangles have corresponding sides in the ratio 7:5. A side of the smaller triangle is 49 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 7:5. A side in the first triangle is 49 cm. The corresponding side in the second triangle is:",
         "options": [
           "49",
           "84",
@@ -7162,7 +7162,7 @@
         "question": "The perimeters of two similar triangles are 16 cm and 10 cm. The ratio of their areas (first:second) is:",
         "options": [
           "25/64",
-          "64/25 (choice 1)",
+          "65/25 ",
           "64/25",
           "8/5"
         ],
@@ -7200,7 +7200,7 @@
         "id": 51,
         "question": "In ΔABC, DE ∥ BC, AD=6 cm, DB=24 cm and AE=8 cm. Find EC.",
         "options": [
-          "32 (choice 1)",
+          "33 ",
           "32",
           "2",
           "24"
@@ -7211,10 +7211,10 @@
       },
       {
         "id": 52,
-        "question": "Two similar triangles have corresponding sides in the ratio 8:7. A side of the smaller triangle is 16 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 8:7. A side in the first triangle is 16 cm. The corresponding side in the second triangle is:",
         "options": [
           "30",
-          "14 (choice 1)",
+          "15 ",
           "14",
           "16"
         ],
@@ -7252,7 +7252,7 @@
         "id": 55,
         "question": "The perimeters of two similar triangles are 18 cm and 14 cm. The ratio of their areas (first:second) is:",
         "options": [
-          "81/49 (choice 1)",
+          "82/49 ",
           "81/49",
           "9/7",
           "49/81"
@@ -7294,7 +7294,7 @@
           "15",
           "27",
           "12",
-          "15 (choice 1)"
+          "16 "
         ],
         "answer": 0,
         "explanation": "By the Basic Proportionality Theorem, AD/DB=AE/EC; EC=AE×DB/AD=15×12/12=15 cm.",
@@ -7302,7 +7302,7 @@
       },
       {
         "id": 59,
-        "question": "Two similar triangles have corresponding sides in the ratio 2:9. A side of the smaller triangle is 6 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 2:9. A side in the first triangle is 6 cm. The corresponding side in the second triangle is:",
         "options": [
           "29",
           "27",
@@ -7332,7 +7332,7 @@
         "options": [
           "3",
           "7",
-          "12 (choice 1)",
+          "13 ",
           "12"
         ],
         "answer": 3,
@@ -7346,7 +7346,7 @@
           "100/81",
           "10/9",
           "81/100",
-          "100/81 (choice 1)"
+          "101/81 "
         ],
         "answer": 0,
         "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (10/9)²=100/81.",
@@ -7393,12 +7393,12 @@
       },
       {
         "id": 66,
-        "question": "Two similar triangles have corresponding sides in the ratio 3:3. A side of the smaller triangle is 12 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 3:3. A side in the first triangle is 12 cm. The corresponding side in the second triangle is:",
         "options": [
           "12",
           "24",
           "14",
-          "12 (choice 1)"
+          "13 "
         ],
         "answer": 0,
         "explanation": "Scale factor=3/3; the matching side is 12×3/3=12 cm.",
@@ -7436,7 +7436,7 @@
         "options": [
           "3/11",
           "121/9",
-          "9/121 (choice 1)",
+          "10/121 ",
           "9/121"
         ],
         "answer": 3,
@@ -7484,7 +7484,7 @@
       },
       {
         "id": 73,
-        "question": "Two similar triangles have corresponding sides in the ratio 4:5. A side of the smaller triangle is 20 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 4:5. A side in the first triangle is 20 cm. The corresponding side in the second triangle is:",
         "options": [
           "20",
           "45",
@@ -7525,10 +7525,10 @@
         "id": 76,
         "question": "The perimeters of two similar triangles are 8 cm and 8 cm. The ratio of their areas (first:second) is:",
         "options": [
-          "1 (choice 2)",
-          "1 (choice 3)",
+          "2 ",
+          "0 ",
           "1",
-          "1 (choice 1)"
+          "3 "
         ],
         "answer": 2,
         "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (4/4)²=1.",
@@ -7575,7 +7575,7 @@
       },
       {
         "id": 80,
-        "question": "Two similar triangles have corresponding sides in the ratio 5:7. A side of the smaller triangle is 30 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 5:7. A side in the first triangle is 30 cm. The corresponding side in the second triangle is:",
         "options": [
           "72",
           "44",
@@ -7591,8 +7591,8 @@
         "question": "The corresponding side lengths of two similar triangles are in the ratio 4:4. Their areas are in the ratio:",
         "options": [
           "4",
-          "1 (choice 1)",
-          "1 (choice 2)",
+          "2 ",
+          "0 ",
           "1"
         ],
         "answer": 3,
@@ -7616,7 +7616,7 @@
         "id": 83,
         "question": "The perimeters of two similar triangles are 10 cm and 12 cm. The ratio of their areas (first:second) is:",
         "options": [
-          "25/36 (choice 1)",
+          "26/36 ",
           "25/36",
           "5/6",
           "36/25"
@@ -7666,7 +7666,7 @@
       },
       {
         "id": 87,
-        "question": "Two similar triangles have corresponding sides in the ratio 6:9. A side of the smaller triangle is 42 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 6:9. A side in the first triangle is 42 cm. The corresponding side in the second triangle is:",
         "options": [
           "65",
           "63",
@@ -7710,7 +7710,7 @@
           "9/16",
           "3/4",
           "16/9",
-          "9/16 (choice 1)"
+          "10/16 "
         ],
         "answer": 0,
         "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (6/8)²=9/16.",
@@ -7757,7 +7757,7 @@
       },
       {
         "id": 94,
-        "question": "Two similar triangles have corresponding sides in the ratio 7:3. A side of the smaller triangle is 14 cm. Its matching side in the larger triangle is:",
+        "question": "In two similar triangles, corresponding sides are in the ratio 7:3. A side in the first triangle is 14 cm. The corresponding side in the second triangle is:",
         "options": [
           "6",
           "14",
@@ -7786,7 +7786,7 @@
         "question": "In similar triangles, a side of 2 cm in the first triangle corresponds to 8 cm in the second. If another side of the first is 4 cm, its corresponding side is:",
         "options": [
           "8",
-          "16 (choice 1)",
+          "17 ",
           "16",
           "4"
         ],
@@ -7800,7 +7800,7 @@
         "options": [
           "7/10",
           "100/49",
-          "49/100 (choice 1)",
+          "50/100 ",
           "49/100"
         ],
         "answer": 3,
@@ -7983,7 +7983,7 @@
         "options": [
           "(-2, -3)",
           "(-3, -4)",
-          "(-3, -3) (choice 1)",
+          "(-3, -2) ",
           "(-3, -3)"
         ],
         "answer": 3,
@@ -7997,7 +7997,7 @@
           "25",
           "7",
           "49",
-          "25 (choice 1)"
+          "26 "
         ],
         "answer": 0,
         "explanation": "Distance squared=(x₂−x₁)²+(y₂−y₁)²=9+16=25.",
@@ -8007,7 +8007,7 @@
         "id": 12,
         "question": "P divides A(-3, 2) and B(1, 8) internally in ratio 1:1. What is the x-coordinate of P?",
         "options": [
-          "-1 (choice 1)",
+          "0 ",
           "-1",
           "-2",
           "1"
@@ -8035,7 +8035,7 @@
         "options": [
           "6",
           "2",
-          "3 (choice 1)",
+          "4 ",
           "3"
         ],
         "answer": 3,
@@ -8465,7 +8465,7 @@
           "5",
           "10",
           "7",
-          "5 (choice 1)"
+          "6 "
         ],
         "answer": 0,
         "explanation": "x-coordinate=(m x₂+n x₁)/(m+n)=5.",
@@ -8555,7 +8555,7 @@
         "options": [
           "13",
           "26",
-          "11 (choice 1)",
+          "12 ",
           "11"
         ],
         "answer": 3,
@@ -8735,7 +8735,7 @@
         "id": 68,
         "question": "P divides A(-2, -1) and B(10, 17) internally in ratio 4:2. What is the x-coordinate of P?",
         "options": [
-          "6 (choice 1)",
+          "7 ",
           "6",
           "4",
           "8"
@@ -8749,7 +8749,7 @@
         "question": "For A(1, 5) and B(11, 15), the absolute difference between the y-coordinates is:",
         "options": [
           "20",
-          "10 (choice 1)",
+          "11 ",
           "10",
           "100"
         ],
@@ -8905,7 +8905,7 @@
         "question": "For A(-5, 6) and B(0, 10), the square of their distance is:",
         "options": [
           "81",
-          "41 (choice 1)",
+          "42 ",
           "41",
           "9"
         ],
@@ -8919,7 +8919,7 @@
         "options": [
           "8",
           "6",
-          "4 (choice 1)",
+          "5 ",
           "4"
         ],
         "answer": 3,
@@ -8943,7 +8943,7 @@
         "id": 84,
         "question": "The midpoint of A(5, 6) and B(9, 12) has y-coordinate:",
         "options": [
-          "9 (choice 1)",
+          "10 ",
           "9",
           "18",
           "6"
@@ -8985,7 +8985,7 @@
           "(16, 8)",
           "(17, 8)",
           "(16, 7)",
-          "(16, 8) (choice 1)"
+          "(16, 9) "
         ],
         "answer": 0,
         "explanation": "Section formula gives P=(4x₂+4x₁, 4y₂+4y₁)/(4+4)=(16, 8).",
@@ -9089,7 +9089,7 @@
           "113",
           "15",
           "225",
-          "113 (choice 1)"
+          "114 "
         ],
         "answer": 0,
         "explanation": "Distance squared=(x₂−x₁)²+(y₂−y₁)²=49+64=113.",
@@ -9099,7 +9099,7 @@
         "id": 96,
         "question": "P divides A(2, 0) and B(18, 24) internally in ratio 3:5. What is the x-coordinate of P?",
         "options": [
-          "8 (choice 1)",
+          "9 ",
           "8",
           "10",
           "20"
@@ -9127,7 +9127,7 @@
         "options": [
           "6",
           "2",
-          "3 (choice 1)",
+          "4 ",
           "3"
         ],
         "answer": 3,
@@ -9324,7 +9324,7 @@
           "1",
           "2",
           "0",
-          "1 (choice 1)"
+          "3 "
         ],
         "answer": 0,
         "explanation": "Apply sin²θ+cos²θ=1; the expression equals 1.",
@@ -9334,7 +9334,7 @@
         "id": 13,
         "question": "Evaluate sin30° + cos60°.",
         "options": [
-          "1 (choice 1)",
+          "2 ",
           "1",
           "√3",
           "1/2"
@@ -9345,7 +9345,7 @@
       },
       {
         "id": 14,
-        "question": "For the standard angle 0°, which reciprocal relation corresponds to the sin ratio?",
+        "question": "Which reciprocal identity defines cosec θ in terms of sin θ?",
         "options": [
           "sin θ + cos θ = 1",
           "sin²θ − cos²θ = 1",
@@ -9362,7 +9362,7 @@
         "options": [
           "1/2",
           "√3/2",
-          "1/√2 (choice 1)",
+          "2/√2 ",
           "1/√2"
         ],
         "answer": 3,
@@ -9414,7 +9414,7 @@
         "options": [
           "1",
           "1/2",
-          "√3 (choice 1)",
+          "None of the other options",
           "√3"
         ],
         "answer": 3,
@@ -9423,7 +9423,7 @@
       },
       {
         "id": 20,
-        "question": "For the standard angle 30°, which reciprocal relation corresponds to the sin ratio?",
+        "question": "For sin θ ≠ 0, which equation defines cosec θ?",
         "options": [
           "cosec θ = 1/sin θ",
           "tan θ = sin θ + cos θ",
@@ -9438,7 +9438,7 @@
         "id": 21,
         "question": "The value of sin 60° is:",
         "options": [
-          "√3/2 (choice 1)",
+          "None of the other options",
           "√3/2",
           "1/2",
           "1/√3"
@@ -9490,7 +9490,7 @@
         "id": 25,
         "question": "Evaluate sin45° + cos45°.",
         "options": [
-          "√2 (choice 1)",
+          "None of the other options",
           "√2",
           "1",
           "1/√2"
@@ -9501,7 +9501,7 @@
       },
       {
         "id": 26,
-        "question": "For the standard angle 45°, which reciprocal relation corresponds to the sin ratio?",
+        "question": "Complete the identity: cosec θ = 1/(      ).",
         "options": [
           "sin θ + cos θ = 1",
           "sin²θ − cos²θ = 1",
@@ -9518,7 +9518,7 @@
         "options": [
           "0",
           "√3/2",
-          "1 (choice 1)",
+          "2 ",
           "1"
         ],
         "answer": 3,
@@ -9570,7 +9570,7 @@
         "options": [
           "1/2",
           "2",
-          "1 (choice 1)",
+          "0 ",
           "1"
         ],
         "answer": 3,
@@ -9579,7 +9579,7 @@
       },
       {
         "id": 32,
-        "question": "For the standard angle 60°, which reciprocal relation corresponds to the sin ratio?",
+        "question": "Which named trigonometric function equals 1/sin θ?",
         "options": [
           "cosec θ = 1/sin θ",
           "tan θ = sin θ + cos θ",
@@ -9636,7 +9636,7 @@
           "1",
           "2",
           "0",
-          "1 (choice 1)"
+          "3 "
         ],
         "answer": 0,
         "explanation": "Apply sin²θ+cos²θ=1; the expression equals 1.",
@@ -9646,7 +9646,7 @@
         "id": 37,
         "question": "Evaluate 2cos60°.",
         "options": [
-          "1 (choice 1)",
+          "0 ",
           "1",
           "1/2",
           "2"
@@ -9657,7 +9657,7 @@
       },
       {
         "id": 38,
-        "question": "For the standard angle 90°, which reciprocal relation corresponds to the sin ratio?",
+        "question": "When defined, which reciprocal ratio equals 1/sin θ?",
         "options": [
           "sin θ + cos θ = 1",
           "sin²θ − cos²θ = 1",
@@ -9673,8 +9673,8 @@
         "question": "The value of cos 30° is:",
         "options": [
           "1/2",
-          "√3/2 (choice 1)",
-          "√3/2 (choice 2)",
+          "None of the other options",
+          "Not enough information",
           "√3/2"
         ],
         "answer": 3,
@@ -9726,7 +9726,7 @@
         "options": [
           "1",
           "1/2",
-          "3/2 (choice 1)",
+          "4/2 ",
           "3/2"
         ],
         "answer": 3,
@@ -9735,7 +9735,7 @@
       },
       {
         "id": 44,
-        "question": "For the standard angle 0°, which reciprocal relation corresponds to the cos ratio?",
+        "question": "Which reciprocal identity defines sec θ in terms of cos θ?",
         "options": [
           "sec θ = 1/cos θ",
           "tan θ = sin θ + cos θ",
@@ -9750,7 +9750,7 @@
         "id": 45,
         "question": "The value of cos 45° is:",
         "options": [
-          "1/√2 (choice 1)",
+          "2/√2 ",
           "1/√2",
           "1/2",
           "√3/2"
@@ -9802,7 +9802,7 @@
         "id": 49,
         "question": "Evaluate cos0° + sin90°.",
         "options": [
-          "2 (choice 1)",
+          "3 ",
           "2",
           "1",
           "0"
@@ -9813,7 +9813,7 @@
       },
       {
         "id": 50,
-        "question": "For the standard angle 30°, which reciprocal relation corresponds to the cos ratio?",
+        "question": "For cos θ ≠ 0, which equation defines sec θ?",
         "options": [
           "sin θ + cos θ = 1",
           "sin²θ − cos²θ = 1",
@@ -9830,7 +9830,7 @@
         "options": [
           "√3/2",
           "1/√3",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2"
         ],
         "answer": 3,
@@ -9882,7 +9882,7 @@
         "options": [
           "1/2",
           "√3/2",
-          "(1+√3)/2 (choice 1)",
+          "None of the other options",
           "(1+√3)/2"
         ],
         "answer": 3,
@@ -9891,7 +9891,7 @@
       },
       {
         "id": 56,
-        "question": "For the standard angle 45°, which reciprocal relation corresponds to the cos ratio?",
+        "question": "Complete the identity: sec θ = 1/(      ).",
         "options": [
           "sec θ = 1/cos θ",
           "tan θ = sin θ + cos θ",
@@ -9906,7 +9906,7 @@
         "id": 57,
         "question": "The value of cos 90° is:",
         "options": [
-          "0 (choice 1)",
+          "-1 ",
           "0",
           "1",
           "√3/2"
@@ -9948,7 +9948,7 @@
           "1",
           "2",
           "0",
-          "1 (choice 1)"
+          "3 "
         ],
         "answer": 0,
         "explanation": "Apply sin²θ+cos²θ=1; the expression equals 1.",
@@ -9958,7 +9958,7 @@
         "id": 61,
         "question": "Evaluate sin60° − cos60°.",
         "options": [
-          "(√3−1)/2 (choice 1)",
+          "None of the other options",
           "(√3−1)/2",
           "1/2",
           "√3/2"
@@ -9969,7 +9969,7 @@
       },
       {
         "id": 62,
-        "question": "For the standard angle 60°, which reciprocal relation corresponds to the cos ratio?",
+        "question": "Which ratio is the reciprocal of cos θ?",
         "options": [
           "sin θ + cos θ = 1",
           "sin²θ − cos²θ = 1",
@@ -10038,7 +10038,7 @@
         "options": [
           "1",
           "1/√2",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2"
         ],
         "answer": 3,
@@ -10047,7 +10047,7 @@
       },
       {
         "id": 68,
-        "question": "For the standard angle 90°, which reciprocal relation corresponds to the cos ratio?",
+        "question": "When defined, which reciprocal ratio equals 1/cos θ?",
         "options": [
           "sec θ = 1/cos θ",
           "tan θ = sin θ + cos θ",
@@ -10062,7 +10062,7 @@
         "id": 69,
         "question": "The value of tan 30° is:",
         "options": [
-          "1/√3 (choice 1)",
+          "2/√3 ",
           "1/√3",
           "√3/2",
           "1/2"
@@ -10114,7 +10114,7 @@
         "id": 73,
         "question": "Evaluate sin30° × cos60°.",
         "options": [
-          "1/4 (choice 1)",
+          "2/4 ",
           "1/4",
           "1/2",
           "1"
@@ -10125,7 +10125,7 @@
       },
       {
         "id": 74,
-        "question": "For the standard angle 0°, which reciprocal relation corresponds to the tan ratio?",
+        "question": "Which reciprocal identity defines cot θ in terms of tan θ?",
         "options": [
           "sin θ + cos θ = 1",
           "sin²θ − cos²θ = 1",
@@ -10142,7 +10142,7 @@
         "options": [
           "1/2",
           "1/√3",
-          "√3 (choice 1)",
+          "None of the other options",
           "√3"
         ],
         "answer": 3,
@@ -10194,7 +10194,7 @@
         "options": [
           "√3",
           "1/√3",
-          "1 (choice 1)",
+          "2 ",
           "1"
         ],
         "answer": 3,
@@ -10203,7 +10203,7 @@
       },
       {
         "id": 80,
-        "question": "For the standard angle 30°, which reciprocal relation corresponds to the tan ratio?",
+        "question": "For tan θ ≠ 0 and defined, which equation gives cot θ?",
         "options": [
           "cot θ = 1/tan θ",
           "tan θ = sin θ + cos θ",
@@ -10218,13 +10218,13 @@
         "id": 81,
         "question": "The value of tan 90° is:",
         "options": [
-          "undefined (choice 1)",
           "undefined",
           "0",
-          "√3/2"
+          "1",
+          "√3"
         ],
-        "answer": 1,
-        "explanation": "From standard trigonometric values, tan 90° = undefined.",
+        "answer": 0,
+        "explanation": "tan θ=sin θ/cos θ. Since cos 90°=0, tan 90° is undefined.",
         "difficulty": "Easy"
       },
       {
@@ -10260,7 +10260,7 @@
           "1",
           "2",
           "0",
-          "1 (choice 1)"
+          "3 "
         ],
         "answer": 0,
         "explanation": "Apply sin²θ+cos²θ=1; the expression equals 1.",
@@ -10270,7 +10270,7 @@
         "id": 85,
         "question": "Evaluate sin60° / cos60°.",
         "options": [
-          "√3 (choice 1)",
+          "None of the other options",
           "√3",
           "1",
           "1/√3"
@@ -10281,7 +10281,7 @@
       },
       {
         "id": 86,
-        "question": "For the standard angle 45°, which reciprocal relation corresponds to the tan ratio?",
+        "question": "Complete the identity: cot θ = 1/(      ).",
         "options": [
           "sin θ + cos θ = 1",
           "sin²θ − cos²θ = 1",
@@ -10294,15 +10294,15 @@
       },
       {
         "id": 87,
-        "question": "The value of undefined 0° is:",
+        "question": "At zero degrees, the sine ratio is equal to:",
         "options": [
+          "0",
           "1",
           "1/2",
-          "√3/2",
-          "undefined"
+          "√3/2"
         ],
-        "answer": 3,
-        "explanation": "From standard trigonometric values, undefined 0° = undefined.",
+        "answer": 0,
+        "explanation": "sin 0°=0.",
         "difficulty": "Easy"
       },
       {
@@ -10350,7 +10350,7 @@
         "options": [
           "1",
           "1/√3",
-          "√3 (choice 1)",
+          "None of the other options",
           "√3"
         ],
         "answer": 3,
@@ -10359,7 +10359,7 @@
       },
       {
         "id": 92,
-        "question": "For the standard angle 60°, which reciprocal relation corresponds to the tan ratio?",
+        "question": "Which ratio is the reciprocal of tan θ?",
         "options": [
           "cot θ = 1/tan θ",
           "tan θ = sin θ + cos θ",
@@ -10372,15 +10372,15 @@
       },
       {
         "id": 93,
-        "question": "The value of undefined 30° is:",
+        "question": "At an angle of 30°, the tangent ratio equals:",
         "options": [
-          "undefined (choice 1)",
-          "undefined",
-          "√3/2",
-          "1/2"
+          "1/√3",
+          "√3",
+          "1/2",
+          "1"
         ],
-        "answer": 1,
-        "explanation": "From standard trigonometric values, undefined 30° = undefined.",
+        "answer": 0,
+        "explanation": "tan 30°=sin 30°/cos 30°=(1/2)/(√3/2)=1/√3.",
         "difficulty": "Easy"
       },
       {
@@ -10426,7 +10426,7 @@
         "id": 97,
         "question": "Evaluate sin90° + cos0°.",
         "options": [
-          "2 (choice 1)",
+          "3 ",
           "2",
           "1",
           "0"
@@ -10437,7 +10437,7 @@
       },
       {
         "id": 98,
-        "question": "For the standard angle 90°, which reciprocal relation corresponds to the tan ratio?",
+        "question": "When defined, which reciprocal ratio equals 1/tan θ?",
         "options": [
           "sin θ + cos θ = 1",
           "sin²θ − cos²θ = 1",
@@ -10450,15 +10450,15 @@
       },
       {
         "id": 99,
-        "question": "The value of undefined 45° is:",
+        "question": "For an angle of 45°, the cosine value is:",
         "options": [
           "1/√2",
           "1/2",
           "√3/2",
-          "undefined"
+          "1"
         ],
-        "answer": 3,
-        "explanation": "From standard trigonometric values, undefined 45° = undefined.",
+        "answer": 0,
+        "explanation": "cos 45°=1/√2.",
         "difficulty": "Easy"
       },
       {
@@ -10609,7 +10609,7 @@
         "id": 10,
         "question": "A vertical building is 6 m tall. The horizontal distance from its foot when the angle of elevation is 30° is:",
         "options": [
-          "6√3 m (choice 1)",
+          "7√3 m ",
           "6√3 m",
           "6 m",
           "12 m"
@@ -10661,7 +10661,7 @@
         "id": 14,
         "question": "An observer measures the top of a 12 m building at an angle of elevation 30°. The horizontal distance to the building is:",
         "options": [
-          "12√3 m (choice 1)",
+          "13√3 m ",
           "12√3 m",
           "12 m",
           "24 m"
@@ -10689,7 +10689,7 @@
         "options": [
           "16 m",
           "8√3 m",
-          "8 m (choice 1)",
+          "9 m ",
           "8 m"
         ],
         "answer": 3,
@@ -10703,7 +10703,7 @@
           "8 m",
           "16 m",
           "8√3 m",
-          "8 m (choice 1)"
+          "9 m "
         ],
         "answer": 0,
         "explanation": "distance=height/tan 45°=8 m.",
@@ -10713,7 +10713,7 @@
         "id": 18,
         "question": "The sun's angle of elevation is 45°. A vertical object casts a 10 m shadow on level ground. Its height is:",
         "options": [
-          "10 m (choice 1)",
+          "11 m ",
           "10 m",
           "20 m",
           "10√3 m"
@@ -10741,7 +10741,7 @@
         "options": [
           "24 m",
           "12√3 m",
-          "12 m (choice 1)",
+          "13 m ",
           "12 m"
         ],
         "answer": 3,
@@ -10755,7 +10755,7 @@
           "15 m",
           "30 m",
           "15√3 m",
-          "15 m (choice 1)"
+          "16 m "
         ],
         "answer": 0,
         "explanation": "distance=height/tan 45°=15 m.",
@@ -10779,7 +10779,7 @@
         "question": "From a point 10 m from a tower's foot, the angle of elevation to its top is 60°. Ignoring eye height, the tower height is:",
         "options": [
           "20 m",
-          "10√3 m (choice 1)",
+          "11√3 m ",
           "10√3 m",
           "10 m"
         ],
@@ -10807,7 +10807,7 @@
           "12√3 m",
           "12 m",
           "24 m",
-          "12√3 m (choice 1)"
+          "13√3 m "
         ],
         "answer": 0,
         "explanation": "tan θ=height/shadow, so height=12×tan 60°=12√3 m.",
@@ -10817,7 +10817,7 @@
         "id": 26,
         "question": "A surveyor sees the top of a 12 m pole from a point 12 m away. Which ratio relates its height to horizontal distance for angle θ?",
         "options": [
-          "tan θ=12/12 (choice 1)",
+          "None of the other options",
           "tan θ=12/12",
           "sin θ=12/12",
           "cos θ=12/12"
@@ -10831,7 +10831,7 @@
         "question": "A student stands 14 m from a tower. If the angle of elevation is 60°, the tower's height (ignoring eye level) is:",
         "options": [
           "28 m",
-          "14√3 m (choice 1)",
+          "15√3 m ",
           "14√3 m",
           "14 m"
         ],
@@ -10883,7 +10883,7 @@
         "question": "A vertical building is 12 m tall. The horizontal distance from its foot when the angle of elevation is 30° is:",
         "options": [
           "24 m",
-          "12√3 m (choice 1)",
+          "13√3 m ",
           "12√3 m",
           "12 m"
         ],
@@ -10935,7 +10935,7 @@
         "question": "An observer measures the top of a 21 m building at an angle of elevation 30°. The horizontal distance to the building is:",
         "options": [
           "42 m",
-          "21√3 m (choice 1)",
+          "22√3 m ",
           "21√3 m",
           "21 m"
         ],
@@ -10963,7 +10963,7 @@
           "14 m",
           "28 m",
           "14√3 m",
-          "14 m (choice 1)"
+          "15 m "
         ],
         "answer": 0,
         "explanation": "tan 45°=height/14; height=14×tan 45°=14 m.",
@@ -10973,7 +10973,7 @@
         "id": 38,
         "question": "A vertical building is 14 m tall. The horizontal distance from its foot when the angle of elevation is 45° is:",
         "options": [
-          "14 m (choice 1)",
+          "15 m ",
           "14 m",
           "28 m",
           "14√3 m"
@@ -10987,7 +10987,7 @@
         "question": "The sun's angle of elevation is 45°. A vertical object casts a 18 m shadow on level ground. Its height is:",
         "options": [
           "18√3 m",
-          "18 m (choice 1)",
+          "19 m ",
           "18 m",
           "36 m"
         ],
@@ -11015,7 +11015,7 @@
           "18 m",
           "36 m",
           "18√3 m",
-          "18 m (choice 1)"
+          "19 m "
         ],
         "answer": 0,
         "explanation": "Height=distance×tan 45°=18 m.",
@@ -11025,7 +11025,7 @@
         "id": 42,
         "question": "An observer measures the top of a 24 m building at an angle of elevation 45°. The horizontal distance to the building is:",
         "options": [
-          "24 m (choice 1)",
+          "25 m ",
           "24 m",
           "48 m",
           "24√3 m"
@@ -11053,7 +11053,7 @@
         "options": [
           "15 m",
           "30 m",
-          "15√3 m (choice 1)",
+          "16√3 m ",
           "15√3 m"
         ],
         "answer": 3,
@@ -11077,7 +11077,7 @@
         "id": 46,
         "question": "The sun's angle of elevation is 60°. A vertical object casts a 20 m shadow on level ground. Its height is:",
         "options": [
-          "20√3 m (choice 1)",
+          "21√3 m ",
           "20√3 m",
           "20 m",
           "40 m"
@@ -11105,7 +11105,7 @@
         "options": [
           "20 m",
           "40 m",
-          "20√3 m (choice 1)",
+          "21√3 m ",
           "20√3 m"
         ],
         "answer": 3,
@@ -11157,7 +11157,7 @@
         "options": [
           "18 m",
           "36 m",
-          "18√3 m (choice 1)",
+          "19√3 m ",
           "18√3 m"
         ],
         "answer": 3,
@@ -11209,7 +11209,7 @@
         "options": [
           "30 m",
           "60 m",
-          "30√3 m (choice 1)",
+          "31√3 m ",
           "30√3 m"
         ],
         "answer": 3,
@@ -11233,7 +11233,7 @@
         "id": 58,
         "question": "From a point 20 m from a tower's foot, the angle of elevation to its top is 45°. Ignoring eye height, the tower height is:",
         "options": [
-          "20 m (choice 1)",
+          "21 m ",
           "20 m",
           "40 m",
           "20√3 m"
@@ -11247,7 +11247,7 @@
         "question": "A vertical building is 20 m tall. The horizontal distance from its foot when the angle of elevation is 45° is:",
         "options": [
           "20√3 m",
-          "20 m (choice 1)",
+          "21 m ",
           "20 m",
           "40 m"
         ],
@@ -11261,7 +11261,7 @@
         "options": [
           "48 m",
           "24√3 m",
-          "24 m (choice 1)",
+          "25 m ",
           "24 m"
         ],
         "answer": 3,
@@ -11285,7 +11285,7 @@
         "id": 62,
         "question": "A student stands 24 m from a tower. If the angle of elevation is 45°, the tower's height (ignoring eye level) is:",
         "options": [
-          "24 m (choice 1)",
+          "25 m ",
           "24 m",
           "48 m",
           "24√3 m"
@@ -11299,7 +11299,7 @@
         "question": "An observer measures the top of a 33 m building at an angle of elevation 45°. The horizontal distance to the building is:",
         "options": [
           "33√3 m",
-          "33 m (choice 1)",
+          "34 m ",
           "33 m",
           "66 m"
         ],
@@ -11327,7 +11327,7 @@
           "21√3 m",
           "21 m",
           "42 m",
-          "21√3 m (choice 1)"
+          "22√3 m "
         ],
         "answer": 0,
         "explanation": "tan 60°=height/21; height=21×tan 60°=21√3 m.",
@@ -11351,7 +11351,7 @@
         "question": "The sun's angle of elevation is 60°. A vertical object casts a 27 m shadow on level ground. Its height is:",
         "options": [
           "54 m",
-          "27√3 m (choice 1)",
+          "28√3 m ",
           "27√3 m",
           "27 m"
         ],
@@ -11379,7 +11379,7 @@
           "26√3 m",
           "26 m",
           "52 m",
-          "26√3 m (choice 1)"
+          "27√3 m "
         ],
         "answer": 0,
         "explanation": "Height=distance×tan 60°=26√3 m.",
@@ -11431,7 +11431,7 @@
           "24√3 m",
           "24 m",
           "48 m",
-          "24√3 m (choice 1)"
+          "25√3 m "
         ],
         "answer": 0,
         "explanation": "distance=height/tan 30°=24√3 m.",
@@ -11483,7 +11483,7 @@
           "39√3 m",
           "39 m",
           "78 m",
-          "39√3 m (choice 1)"
+          "40√3 m "
         ],
         "answer": 0,
         "explanation": "distance=height/tan 30°=39√3 m.",
@@ -11507,7 +11507,7 @@
         "question": "From a point 25 m from a tower's foot, the angle of elevation to its top is 45°. Ignoring eye height, the tower height is:",
         "options": [
           "25√3 m",
-          "25 m (choice 1)",
+          "26 m ",
           "25 m",
           "50 m"
         ],
@@ -11521,7 +11521,7 @@
         "options": [
           "50 m",
           "25√3 m",
-          "25 m (choice 1)",
+          "26 m ",
           "25 m"
         ],
         "answer": 3,
@@ -11535,7 +11535,7 @@
           "32 m",
           "64 m",
           "32√3 m",
-          "32 m (choice 1)"
+          "33 m "
         ],
         "answer": 0,
         "explanation": "tan θ=height/shadow, so height=32×tan 45°=32 m.",
@@ -11559,7 +11559,7 @@
         "question": "A student stands 30 m from a tower. If the angle of elevation is 45°, the tower's height (ignoring eye level) is:",
         "options": [
           "30√3 m",
-          "30 m (choice 1)",
+          "31 m ",
           "30 m",
           "60 m"
         ],
@@ -11573,7 +11573,7 @@
         "options": [
           "84 m",
           "42√3 m",
-          "42 m (choice 1)",
+          "43 m ",
           "42 m"
         ],
         "answer": 3,
@@ -11597,7 +11597,7 @@
         "id": 86,
         "question": "From a point 27 m from a tower's foot, the angle of elevation to its top is 60°. Ignoring eye height, the tower height is:",
         "options": [
-          "27√3 m (choice 1)",
+          "28√3 m ",
           "27√3 m",
           "27 m",
           "54 m"
@@ -11625,7 +11625,7 @@
         "options": [
           "36 m",
           "72 m",
-          "36√3 m (choice 1)",
+          "37√3 m ",
           "36√3 m"
         ],
         "answer": 3,
@@ -11649,7 +11649,7 @@
         "id": 90,
         "question": "A student stands 32 m from a tower. If the angle of elevation is 60°, the tower's height (ignoring eye level) is:",
         "options": [
-          "32√3 m (choice 1)",
+          "33√3 m ",
           "32√3 m",
           "32 m",
           "64 m"
@@ -11701,7 +11701,7 @@
         "id": 94,
         "question": "A vertical building is 30 m tall. The horizontal distance from its foot when the angle of elevation is 30° is:",
         "options": [
-          "30√3 m (choice 1)",
+          "31√3 m ",
           "30√3 m",
           "30 m",
           "60 m"
@@ -11753,7 +11753,7 @@
         "id": 98,
         "question": "An observer measures the top of a 48 m building at an angle of elevation 30°. The horizontal distance to the building is:",
         "options": [
-          "48√3 m (choice 1)",
+          "49√3 m ",
           "48√3 m",
           "48 m",
           "96 m"
@@ -11781,7 +11781,7 @@
         "options": [
           "64 m",
           "32√3 m",
-          "32 m (choice 1)",
+          "33 m ",
           "32 m"
         ],
         "answer": 3,
@@ -13239,7 +13239,7 @@
         "options": [
           "2π cm",
           "8π cm",
-          "4π cm (choice 1)",
+          "5π cm ",
           "4π cm"
         ],
         "answer": 3,
@@ -13248,41 +13248,41 @@
       },
       {
         "id": 11,
-        "question": "The length of an arc subtending 60° at the centre of a circle of radius 2 cm is:",
+        "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 2 cm is:",
         "options": [
-          "0.67π cm",
+          "2/3π cm",
+          "2π cm",
           "4π cm",
-          "0.33π cm",
-          "0.67π cm (choice 1)"
+          "1/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=60/360×2π×2=0.67π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×2=2/3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 12,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 2 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 2 cm subtended by a 90° central angle.",
         "options": [
-          "(4π/2 − 1) cm²",
-          "(4π/4 − 2) cm²",
+          "(4π/4 − 4/2) cm²",
           "4π/4 cm²",
-          "4π cm²"
+          "4π cm²",
+          "(4π/2 − 4/2) cm²"
         ],
-        "answer": 1,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 4π/4 cm² and triangle area is 4/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 13,
-        "question": "For radius 3 cm, the area of a minor segment subtended by 60° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 3 cm subtended by a 60° central angle.",
         "options": [
+          "(9π/6 − 9√3/4) cm²",
+          "9π/6 cm²",
           "9π cm²",
-          "(9π/3 − 3.9) cm²",
-          "(9π/6 − 3.9) cm²",
-          "9π/6 cm²"
+          "(9π/3 − 9√3/4) cm²"
         ],
-        "answer": 2,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=3.9 cm².",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 9π/6 cm² and triangle area is 9√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13339,41 +13339,41 @@
       },
       {
         "id": 18,
-        "question": "The length of an arc subtending 90° at the centre of a circle of radius 3 cm is:",
+        "question": "The exact length of an arc subtending 90° at the centre of a circle of radius 3 cm is:",
         "options": [
+          "3/2π cm",
+          "3π cm",
           "6π cm",
-          "0.75π cm",
-          "2.25π cm",
-          "1.5π cm"
+          "3/4π cm"
         ],
-        "answer": 3,
-        "explanation": "Arc length=(θ/360°)×2πr=90/360×2π×3=1.5π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×3=3/2π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 19,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 3 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 3 cm subtended by a 90° central angle.",
         "options": [
-          "(9π/4 − 4.5) cm²",
+          "(9π/4 − 9/2) cm²",
           "9π/4 cm²",
           "9π cm²",
-          "(9π/2 − 2.25) cm²"
+          "(9π/2 − 9/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 9π/4 cm² and triangle area is 9/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 20,
-        "question": "For radius 4 cm, the area of a minor segment subtended by 120° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 4 cm subtended by a 120° central angle.",
         "options": [
-          "(16π/6 − 6.93) cm²",
-          "(16π/3 − 6.93) cm²",
+          "(16π/3 − 16√3/4) cm²",
           "16π/3 cm²",
-          "16π cm²"
+          "16π cm²",
+          "(16π/6 − 16√3/4) cm²"
         ],
-        "answer": 1,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=6.93 cm².",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 16π/3 cm² and triangle area is 16√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13419,7 +13419,7 @@
         "id": 24,
         "question": "The circumference of a circle with radius 4 cm is:",
         "options": [
-          "8π cm (choice 1)",
+          "9π cm ",
           "8π cm",
           "16π cm",
           "4π cm"
@@ -13430,41 +13430,41 @@
       },
       {
         "id": 25,
-        "question": "The length of an arc subtending 120° at the centre of a circle of radius 4 cm is:",
+        "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 4 cm is:",
         "options": [
-          "1.33π cm",
-          "5.33π cm",
-          "2.67π cm",
-          "8π cm"
+          "8/3π cm",
+          "4π cm",
+          "8π cm",
+          "4/3π cm"
         ],
-        "answer": 2,
-        "explanation": "Arc length=(θ/360°)×2πr=120/360×2π×4=2.67π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×4=8/3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 26,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 4 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 4 cm subtended by a 90° central angle.",
         "options": [
+          "(16π/4 − 16/2) cm²",
           "16π/4 cm²",
           "16π cm²",
-          "(16π/2 − 4) cm²",
-          "(16π/4 − 8) cm²"
+          "(16π/2 − 16/2) cm²"
         ],
-        "answer": 3,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 16π/4 cm² and triangle area is 16/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 27,
-        "question": "For radius 5 cm, the area of a minor segment subtended by 60° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 5 cm subtended by a 60° central angle.",
         "options": [
-          "(25π/6 − 10.83) cm²",
+          "(25π/6 − 25√3/4) cm²",
           "25π/6 cm²",
           "25π cm²",
-          "(25π/3 − 10.83) cm²"
+          "(25π/3 − 25√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=10.83 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 25π/6 cm² and triangle area is 25√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13521,41 +13521,41 @@
       },
       {
         "id": 32,
-        "question": "The length of an arc subtending 60° at the centre of a circle of radius 5 cm is:",
+        "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 5 cm is:",
         "options": [
-          "4.17π cm",
-          "1.67π cm",
+          "5/3π cm",
+          "5π cm",
           "10π cm",
-          "0.83π cm"
+          "5/6π cm"
         ],
-        "answer": 1,
-        "explanation": "Arc length=(θ/360°)×2πr=60/360×2π×5=1.67π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×5=5/3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 33,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 5 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 5 cm subtended by a 90° central angle.",
         "options": [
+          "(25π/4 − 25/2) cm²",
+          "25π/4 cm²",
           "25π cm²",
-          "(25π/2 − 6.25) cm²",
-          "(25π/4 − 12.5) cm²",
-          "25π/4 cm²"
+          "(25π/2 − 25/2) cm²"
         ],
-        "answer": 2,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 25π/4 cm² and triangle area is 25/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 34,
-        "question": "For radius 6 cm, the area of a minor segment subtended by 120° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 6 cm subtended by a 120° central angle.",
         "options": [
+          "(36π/3 − 36√3/4) cm²",
           "36π/3 cm²",
           "36π cm²",
-          "(36π/6 − 15.59) cm²",
-          "(36π/3 − 15.59) cm²"
+          "(36π/6 − 36√3/4) cm²"
         ],
-        "answer": 3,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=15.59 cm².",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 36π/3 cm² and triangle area is 36√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13612,41 +13612,41 @@
       },
       {
         "id": 39,
-        "question": "The length of an arc subtending 90° at the centre of a circle of radius 6 cm is:",
+        "question": "The exact length of an arc subtending 90° at the centre of a circle of radius 6 cm is:",
         "options": [
           "3π cm",
+          "6π cm",
           "12π cm",
-          "1.5π cm",
-          "9π cm"
+          "3/2π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=90/360×2π×6=3π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×6=3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 40,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 6 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 6 cm subtended by a 90° central angle.",
         "options": [
-          "(36π/2 − 9) cm²",
-          "(36π/4 − 18) cm²",
+          "(36π/4 − 36/2) cm²",
           "36π/4 cm²",
-          "36π cm²"
+          "36π cm²",
+          "(36π/2 − 36/2) cm²"
         ],
-        "answer": 1,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 36π/4 cm² and triangle area is 36/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 41,
-        "question": "For radius 7 cm, the area of a minor segment subtended by 60° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 7 cm subtended by a 60° central angle.",
         "options": [
+          "(49π/6 − 49√3/4) cm²",
+          "49π/6 cm²",
           "49π cm²",
-          "(49π/3 − 21.22) cm²",
-          "(49π/6 − 21.22) cm²",
-          "49π/6 cm²"
+          "(49π/3 − 49√3/4) cm²"
         ],
-        "answer": 2,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=21.22 cm².",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 49π/6 cm² and triangle area is 49√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13703,41 +13703,41 @@
       },
       {
         "id": 46,
-        "question": "The length of an arc subtending 120° at the centre of a circle of radius 7 cm is:",
+        "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 7 cm is:",
         "options": [
+          "14/3π cm",
+          "7π cm",
           "14π cm",
-          "2.33π cm",
-          "16.33π cm",
-          "4.67π cm"
+          "7/3π cm"
         ],
-        "answer": 3,
-        "explanation": "Arc length=(θ/360°)×2πr=120/360×2π×7=4.67π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×7=14/3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 47,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 7 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 7 cm subtended by a 90° central angle.",
         "options": [
-          "(49π/4 − 24.5) cm²",
+          "(49π/4 − 49/2) cm²",
           "49π/4 cm²",
           "49π cm²",
-          "(49π/2 − 12.25) cm²"
+          "(49π/2 − 49/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 49π/4 cm² and triangle area is 49/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 48,
-        "question": "For radius 8 cm, the area of a minor segment subtended by 120° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 8 cm subtended by a 120° central angle.",
         "options": [
-          "(64π/6 − 27.71) cm²",
-          "(64π/3 − 27.71) cm²",
+          "(64π/3 − 64√3/4) cm²",
           "64π/3 cm²",
-          "64π cm²"
+          "64π cm²",
+          "(64π/6 − 64√3/4) cm²"
         ],
-        "answer": 1,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=27.71 cm².",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 64π/3 cm² and triangle area is 64√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13794,41 +13794,41 @@
       },
       {
         "id": 53,
-        "question": "The length of an arc subtending 60° at the centre of a circle of radius 8 cm is:",
+        "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 8 cm is:",
         "options": [
-          "1.33π cm",
-          "10.67π cm",
-          "2.67π cm",
-          "16π cm"
+          "8/3π cm",
+          "8π cm",
+          "16π cm",
+          "4/3π cm"
         ],
-        "answer": 2,
-        "explanation": "Arc length=(θ/360°)×2πr=60/360×2π×8=2.67π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×8=8/3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 54,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 8 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 8 cm subtended by a 90° central angle.",
         "options": [
+          "(64π/4 − 64/2) cm²",
           "64π/4 cm²",
           "64π cm²",
-          "(64π/2 − 16) cm²",
-          "(64π/4 − 32) cm²"
+          "(64π/2 − 64/2) cm²"
         ],
-        "answer": 3,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 64π/4 cm² and triangle area is 64/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 55,
-        "question": "For radius 9 cm, the area of a minor segment subtended by 60° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 9 cm subtended by a 60° central angle.",
         "options": [
-          "(81π/6 − 35.07) cm²",
+          "(81π/6 − 81√3/4) cm²",
           "81π/6 cm²",
           "81π cm²",
-          "(81π/3 − 35.07) cm²"
+          "(81π/3 − 81√3/4) cm²"
         ],
         "answer": 0,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=35.07 cm².",
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 81π/6 cm² and triangle area is 81√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13885,41 +13885,41 @@
       },
       {
         "id": 60,
-        "question": "The length of an arc subtending 90° at the centre of a circle of radius 9 cm is:",
+        "question": "The exact length of an arc subtending 90° at the centre of a circle of radius 9 cm is:",
         "options": [
-          "20.25π cm",
-          "4.5π cm",
+          "9/2π cm",
+          "9π cm",
           "18π cm",
-          "2.25π cm"
+          "9/4π cm"
         ],
-        "answer": 1,
-        "explanation": "Arc length=(θ/360°)×2πr=90/360×2π×9=4.5π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×9=9/2π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 61,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 9 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 9 cm subtended by a 90° central angle.",
         "options": [
+          "(81π/4 − 81/2) cm²",
+          "81π/4 cm²",
           "81π cm²",
-          "(81π/2 − 20.25) cm²",
-          "(81π/4 − 40.5) cm²",
-          "81π/4 cm²"
+          "(81π/2 − 81/2) cm²"
         ],
-        "answer": 2,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 81π/4 cm² and triangle area is 81/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 62,
-        "question": "For radius 10 cm, the area of a minor segment subtended by 120° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 10 cm subtended by a 120° central angle.",
         "options": [
+          "(100π/3 − 100√3/4) cm²",
           "100π/3 cm²",
           "100π cm²",
-          "(100π/6 − 43.3) cm²",
-          "(100π/3 − 43.3) cm²"
+          "(100π/6 − 100√3/4) cm²"
         ],
-        "answer": 3,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=43.3 cm².",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 100π/3 cm² and triangle area is 100√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -13976,41 +13976,41 @@
       },
       {
         "id": 67,
-        "question": "The length of an arc subtending 120° at the centre of a circle of radius 10 cm is:",
+        "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 10 cm is:",
         "options": [
-          "6.67π cm",
+          "20/3π cm",
+          "10π cm",
           "20π cm",
-          "3.33π cm",
-          "33.33π cm"
+          "10/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=120/360×2π×10=6.67π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×10=20/3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 68,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 10 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 10 cm subtended by a 90° central angle.",
         "options": [
-          "(100π/2 − 25) cm²",
-          "(100π/4 − 50) cm²",
+          "(100π/4 − 100/2) cm²",
           "100π/4 cm²",
-          "100π cm²"
+          "100π cm²",
+          "(100π/2 − 100/2) cm²"
         ],
-        "answer": 1,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 100π/4 cm² and triangle area is 100/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 69,
-        "question": "For radius 11 cm, the area of a minor segment subtended by 60° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 11 cm subtended by a 60° central angle.",
         "options": [
+          "(121π/6 − 121√3/4) cm²",
+          "121π/6 cm²",
           "121π cm²",
-          "(121π/3 − 52.39) cm²",
-          "(121π/6 − 52.39) cm²",
-          "121π/6 cm²"
+          "(121π/3 − 121√3/4) cm²"
         ],
-        "answer": 2,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=52.39 cm².",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 60°, sector area is 121π/6 cm² and triangle area is 121√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14067,41 +14067,41 @@
       },
       {
         "id": 74,
-        "question": "The length of an arc subtending 60° at the centre of a circle of radius 11 cm is:",
+        "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 11 cm is:",
         "options": [
+          "11/3π cm",
+          "11π cm",
           "22π cm",
-          "1.83π cm",
-          "20.17π cm",
-          "3.67π cm"
+          "11/6π cm"
         ],
-        "answer": 3,
-        "explanation": "Arc length=(θ/360°)×2πr=60/360×2π×11=3.67π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×11=11/3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 75,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 11 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 11 cm subtended by a 90° central angle.",
         "options": [
-          "(121π/4 − 60.5) cm²",
+          "(121π/4 − 121/2) cm²",
           "121π/4 cm²",
           "121π cm²",
-          "(121π/2 − 30.25) cm²"
+          "(121π/2 − 121/2) cm²"
         ],
         "answer": 0,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 121π/4 cm² and triangle area is 121/2 cm².",
         "difficulty": "Hard"
       },
       {
         "id": 76,
-        "question": "For radius 12 cm, the area of a minor segment subtended by 120° is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 12 cm subtended by a 120° central angle.",
         "options": [
-          "(144π/6 − 62.35) cm²",
-          "(144π/3 − 62.35) cm²",
+          "(144π/3 − 144√3/4) cm²",
           "144π/3 cm²",
-          "144π cm²"
+          "144π cm²",
+          "(144π/6 − 144√3/4) cm²"
         ],
-        "answer": 1,
-        "explanation": "Segment area=sector area−triangle area. For 60° or 120°, triangle area=(√3/4)r²=62.35 cm².",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 120°, sector area is 144π/3 cm² and triangle area is 144√3/4 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14158,28 +14158,28 @@
       },
       {
         "id": 81,
-        "question": "The length of an arc subtending 90° at the centre of a circle of radius 12 cm is:",
+        "question": "The exact length of an arc subtending 90° at the centre of a circle of radius 12 cm is:",
         "options": [
-          "3π cm",
-          "36π cm",
           "6π cm",
-          "24π cm"
+          "12π cm",
+          "24π cm",
+          "3π cm"
         ],
-        "answer": 2,
-        "explanation": "Arc length=(θ/360°)×2πr=90/360×2π×12=6π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×12=6π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 82,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 12 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 12 cm subtended by a 90° central angle.",
         "options": [
+          "(144π/4 − 144/2) cm²",
           "144π/4 cm²",
           "144π cm²",
-          "(144π/2 − 36) cm²",
-          "(144π/4 − 72) cm²"
+          "(144π/2 − 144/2) cm²"
         ],
-        "answer": 3,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 144π/4 cm² and triangle area is 144/2 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14236,28 +14236,28 @@
       },
       {
         "id": 87,
-        "question": "The length of an arc subtending 120° at the centre of a circle of radius 13 cm is:",
+        "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 13 cm is:",
         "options": [
-          "8.67π cm",
+          "26/3π cm",
+          "13π cm",
           "26π cm",
-          "4.33π cm",
-          "56.33π cm"
+          "13/3π cm"
         ],
         "answer": 0,
-        "explanation": "Arc length=(θ/360°)×2πr=120/360×2π×13=8.67π cm.",
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×13=26/3π cm.",
         "difficulty": "Medium"
       },
       {
         "id": 88,
-        "question": "The area of the minor segment cut off by a 90° chord in a circle of radius 13 cm is:",
+        "question": "Find the exact area of the minor segment in a circle of radius 13 cm subtended by a 90° central angle.",
         "options": [
-          "(169π/2 − 42.25) cm²",
-          "(169π/4 − 84.5) cm²",
+          "(169π/4 − 169/2) cm²",
           "169π/4 cm²",
-          "169π cm²"
+          "169π cm²",
+          "(169π/2 − 169/2) cm²"
         ],
-        "answer": 1,
-        "explanation": "Minor segment area=90° sector area−triangle area=πr²/4−r²/2.",
+        "answer": 0,
+        "explanation": "Minor segment area = sector area − triangle area. For 90°, sector area is 169π/4 cm² and triangle area is 169/2 cm².",
         "difficulty": "Hard"
       },
       {
@@ -14314,15 +14314,15 @@
       },
       {
         "id": 93,
-        "question": "The length of an arc subtending 60° at the centre of a circle of radius 14 cm is:",
+        "question": "The exact length of an arc subtending 60° at the centre of a circle of radius 14 cm is:",
         "options": [
-          "2.33π cm",
-          "32.67π cm",
-          "4.67π cm",
-          "28π cm"
+          "14/3π cm",
+          "14π cm",
+          "28π cm",
+          "7/3π cm"
         ],
-        "answer": 2,
-        "explanation": "Arc length=(θ/360°)×2πr=60/360×2π×14=4.67π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(60/360)×2π×14=14/3π cm.",
         "difficulty": "Medium"
       },
       {
@@ -14366,15 +14366,15 @@
       },
       {
         "id": 97,
-        "question": "The length of an arc subtending 90° at the centre of a circle of radius 2 cm is:",
+        "question": "The exact length of an arc subtending 90° at the centre of a circle of radius 2 cm is:",
         "options": [
-          "0.5π cm",
-          "1π cm (choice 1)",
           "1π cm",
-          "4π cm"
+          "2π cm",
+          "4π cm",
+          "1/2π cm"
         ],
-        "answer": 2,
-        "explanation": "Arc length=(θ/360°)×2πr=90/360×2π×2=1π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(90/360)×2π×2=1π cm.",
         "difficulty": "Medium"
       },
       {
@@ -14405,15 +14405,15 @@
       },
       {
         "id": 100,
-        "question": "The length of an arc subtending 120° at the centre of a circle of radius 3 cm is:",
+        "question": "The exact length of an arc subtending 120° at the centre of a circle of radius 3 cm is:",
         "options": [
-          "3π cm",
           "2π cm",
+          "3π cm",
           "6π cm",
           "1π cm"
         ],
-        "answer": 1,
-        "explanation": "Arc length=(θ/360°)×2πr=120/360×2π×3=2π cm.",
+        "answer": 0,
+        "explanation": "Arc length=(θ/360°)×2πr=(120/360)×2π×3=2π cm.",
         "difficulty": "Medium"
       }
     ]
@@ -14531,7 +14531,7 @@
         "id": 9,
         "question": "The volume of a cylinder of radius 2 cm and height 3 cm is:",
         "options": [
-          "12π cm³ (choice 1)",
+          "13π cm³ ",
           "12π cm³",
           "6π cm³",
           "24π cm³"
@@ -14597,7 +14597,7 @@
         "question": "The total surface area of a cube with edge 2 cm is:",
         "options": [
           "8 cm³",
-          "24 cm² (choice 1)",
+          "25 cm² ",
           "24 cm²",
           "16 cm²"
         ],
@@ -14670,7 +14670,7 @@
         "options": [
           "36π cm³",
           "9π cm³",
-          "18π cm³ (choice 1)",
+          "19π cm³ ",
           "18π cm³"
         ],
         "answer": 3,
@@ -14708,7 +14708,7 @@
         "question": "The total surface area of a cube with edge 3 cm is:",
         "options": [
           "27 cm³",
-          "54 cm² (choice 1)",
+          "55 cm² ",
           "54 cm²",
           "36 cm²"
         ],
@@ -14864,7 +14864,7 @@
         "question": "The volume of a sphere of radius 6 cm is:",
         "options": [
           "72π cm³",
-          "288π cm³ (choice 1)",
+          "289π cm³ ",
           "288π cm³",
           "144π cm³"
         ],
@@ -14982,7 +14982,7 @@
         "options": [
           "288π cm³",
           "72π cm³",
-          "144π cm³ (choice 1)",
+          "145π cm³ ",
           "144π cm³"
         ],
         "answer": 3,
@@ -15316,15 +15316,15 @@
       },
       {
         "id": 69,
-        "question": "The curved surface area of a cone of radius 10 cm and slant height 6 cm is:",
+        "question": "The curved surface area of a cone of radius 10 cm and slant height 16 cm is:",
         "options": [
-          "16π cm²",
-          "60π cm²",
-          "120π cm²",
-          "100π cm²"
+          "160π cm²",
+          "320π cm²",
+          "100π cm²",
+          "162π cm²"
         ],
-        "answer": 1,
-        "explanation": "CSA of cone=πrl=π×10×6=60π cm².",
+        "answer": 0,
+        "explanation": "Curved surface area of a cone=πrl=π×10×16=160π cm². The slant height (16 cm) is greater than the radius (10 cm), as required.",
         "difficulty": "Easy"
       },
       {
@@ -15420,15 +15420,15 @@
       },
       {
         "id": 77,
-        "question": "The curved surface area of a cone of radius 11 cm and slant height 8 cm is:",
+        "question": "The curved surface area of a cone of radius 11 cm and slant height 17 cm is:",
         "options": [
-          "19π cm²",
-          "88π cm²",
-          "176π cm²",
-          "121π cm²"
+          "187π cm²",
+          "374π cm²",
+          "121π cm²",
+          "189π cm²"
         ],
-        "answer": 1,
-        "explanation": "CSA of cone=πrl=π×11×8=88π cm².",
+        "answer": 0,
+        "explanation": "Curved surface area of a cone=πrl=π×11×17=187π cm². The slant height (17 cm) is greater than the radius (11 cm), as required.",
         "difficulty": "Easy"
       },
       {
@@ -15606,7 +15606,7 @@
         "options": [
           "96π cm²",
           "16π cm²",
-          "48π cm² (choice 1)",
+          "49π cm² ",
           "48π cm²"
         ],
         "answer": 3,
@@ -15843,7 +15843,7 @@
       },
       {
         "id": 9,
-        "question": "Find the mean of grouped data (class interval:frequency): 0–10:2, 10–20:4, 20–30:6, 30–40:5, 40–50:3.",
+        "question": "Find the mean of grouped data (class interval:frequency): 0–10:2, 10–20:4, 20–30:6, 30–40:5, 40–50:3. (Give the result to two decimal places if needed.)",
         "options": [
           "26.5",
           "28.5",
@@ -15856,7 +15856,7 @@
       },
       {
         "id": 10,
-        "question": "Find the median of grouped data: 0–10:4, 10–20:7, 20–30:9, 30–40:5, 40–50:3.",
+        "question": "Find the median of grouped data: 0–10:4, 10–20:7, 20–30:9, 30–40:5, 40–50:3. (Give the result to two decimal places if needed.)",
         "options": [
           "33.33",
           "23.33",
@@ -15869,7 +15869,7 @@
       },
       {
         "id": 11,
-        "question": "Estimate the mode for grouped data: 0–10:5, 10–20:12, 20–30:10, 30–40:7, 40–50:4.",
+        "question": "Estimate the mode for grouped data: 0–10:5, 10–20:12, 20–30:10, 30–40:7, 40–50:4. (Give the result to two decimal places if needed.)",
         "options": [
           "12.78",
           "27.78",
@@ -15921,7 +15921,7 @@
       },
       {
         "id": 15,
-        "question": "Find the mean of grouped data (class interval:frequency): 10–20:3, 20–30:5, 30–40:8, 40–50:6, 50–60:4.",
+        "question": "Find the mean of grouped data (class interval:frequency): 10–20:3, 20–30:5, 30–40:8, 40–50:6, 50–60:4. (Give the result to two decimal places if needed.)",
         "options": [
           "33.15",
           "41.15",
@@ -15934,7 +15934,7 @@
       },
       {
         "id": 16,
-        "question": "Find the median of grouped data: 10–20:4, 20–30:6, 30–40:7, 40–50:9, 50–60:4.",
+        "question": "Find the median of grouped data: 10–20:4, 20–30:6, 30–40:7, 40–50:9, 50–60:4. (Give the result to two decimal places if needed.)",
         "options": [
           "42.14",
           "32.14",
@@ -15947,7 +15947,7 @@
       },
       {
         "id": 17,
-        "question": "Estimate the mode for grouped data: 10–20:2, 20–30:5, 30–40:12, 40–50:9, 50–60:6.",
+        "question": "Estimate the mode for grouped data: 10–20:2, 20–30:5, 30–40:12, 40–50:9, 50–60:6. (Give the result to two decimal places if needed.)",
         "options": [
           "37",
           "42",
@@ -15999,7 +15999,7 @@
       },
       {
         "id": 21,
-        "question": "Find the mean of grouped data (class interval:frequency): 20–30:4, 30–40:7, 40–50:9, 50–60:5, 60–70:3.",
+        "question": "Find the mean of grouped data (class interval:frequency): 20–30:4, 30–40:7, 40–50:9, 50–60:5, 60–70:3. (Give the result to two decimal places if needed.)",
         "options": [
           "43.57",
           "45.57",
@@ -16012,7 +16012,7 @@
       },
       {
         "id": 22,
-        "question": "Find the median of grouped data: 20–30:4, 30–40:9, 40–50:10, 50–60:6, 60–70:1.",
+        "question": "Find the median of grouped data: 20–30:4, 30–40:9, 40–50:10, 50–60:6, 60–70:1. (Give the result to two decimal places if needed.)",
         "options": [
           "52",
           "42",
@@ -16025,7 +16025,7 @@
       },
       {
         "id": 23,
-        "question": "Estimate the mode for grouped data: 20–30:2, 30–40:7, 40–50:8, 50–60:12, 60–70:4.",
+        "question": "Estimate the mode for grouped data: 20–30:2, 30–40:7, 40–50:8, 50–60:12, 60–70:4. (Give the result to two decimal places if needed.)",
         "options": [
           "48.33",
           "63.33",
@@ -16077,7 +16077,7 @@
       },
       {
         "id": 27,
-        "question": "Find the mean of grouped data (class interval:frequency): 30–40:5, 40–50:8, 50–60:10, 60–70:7, 70–80:4.",
+        "question": "Find the mean of grouped data (class interval:frequency): 30–40:5, 40–50:8, 50–60:10, 60–70:7, 70–80:4. (Give the result to two decimal places if needed.)",
         "options": [
           "51.12",
           "59.12",
@@ -16090,7 +16090,7 @@
       },
       {
         "id": 28,
-        "question": "Find the median of grouped data: 30–40:3, 40–50:6, 50–60:10, 60–70:8, 70–80:3.",
+        "question": "Find the median of grouped data: 30–40:3, 40–50:6, 50–60:10, 60–70:8, 70–80:3. (Give the result to two decimal places if needed.)",
         "options": [
           "61",
           "51",
@@ -16103,7 +16103,7 @@
       },
       {
         "id": 29,
-        "question": "Estimate the mode for grouped data: 30–40:5, 40–50:13, 50–60:8, 60–70:10, 70–80:3.",
+        "question": "Estimate the mode for grouped data: 30–40:5, 40–50:13, 50–60:8, 60–70:10, 70–80:3. (Give the result to two decimal places if needed.)",
         "options": [
           "46.15",
           "51.15",
@@ -16155,7 +16155,7 @@
       },
       {
         "id": 33,
-        "question": "Find the mean of grouped data (class interval:frequency): 0–10:2, 10–20:6, 20–30:9, 30–40:8, 40–50:5.",
+        "question": "Find the mean of grouped data (class interval:frequency): 0–10:2, 10–20:6, 20–30:9, 30–40:8, 40–50:5. (Give the result to two decimal places if needed.)",
         "options": [
           "27.67",
           "29.67",
@@ -16168,7 +16168,7 @@
       },
       {
         "id": 34,
-        "question": "Find the median of grouped data: 0–10:6, 10–20:7, 20–30:10, 30–40:8, 40–50:4.",
+        "question": "Find the median of grouped data: 0–10:6, 10–20:7, 20–30:10, 30–40:8, 40–50:4. (Give the result to two decimal places if needed.)",
         "options": [
           "34.5",
           "24.5",
@@ -16181,7 +16181,7 @@
       },
       {
         "id": 35,
-        "question": "Estimate the mode for grouped data: 0–10:3, 10–20:8, 20–30:13, 30–40:6, 40–50:2.",
+        "question": "Estimate the mode for grouped data: 0–10:3, 10–20:8, 20–30:13, 30–40:6, 40–50:2. (Give the result to two decimal places if needed.)",
         "options": [
           "19.17",
           "34.17",
@@ -16220,7 +16220,7 @@
       },
       {
         "id": 38,
-        "question": "Find the mean of grouped data (class interval:frequency): 10–20:4, 20–30:6, 30–40:7, 40–50:9, 50–60:4.",
+        "question": "Find the mean of grouped data (class interval:frequency): 10–20:4, 20–30:6, 30–40:7, 40–50:9, 50–60:4. (Give the result to two decimal places if needed.)",
         "options": [
           "41",
           "36",
@@ -16233,7 +16233,7 @@
       },
       {
         "id": 39,
-        "question": "Find the median of grouped data: 10–20:2, 20–30:7, 30–40:8, 40–50:6, 50–60:4.",
+        "question": "Find the median of grouped data: 10–20:2, 20–30:7, 30–40:8, 40–50:6, 50–60:4. (Give the result to two decimal places if needed.)",
         "options": [
           "30.63",
           "45.63",
@@ -16246,7 +16246,7 @@
       },
       {
         "id": 40,
-        "question": "Estimate the mode for grouped data: 10–20:5, 20–30:9, 30–40:11, 40–50:14, 50–60:2.",
+        "question": "Estimate the mode for grouped data: 10–20:5, 20–30:9, 30–40:11, 40–50:14, 50–60:2. (Give the result to two decimal places if needed.)",
         "options": [
           "47",
           "37",
@@ -16285,7 +16285,7 @@
       },
       {
         "id": 43,
-        "question": "Find the mean of grouped data (class interval:frequency): 20–30:3, 30–40:8, 40–50:11, 50–60:6, 60–70:2.",
+        "question": "Find the mean of grouped data (class interval:frequency): 20–30:3, 30–40:8, 40–50:11, 50–60:6, 60–70:2. (Give the result to two decimal places if needed.)",
         "options": [
           "40.67",
           "48.67",
@@ -16298,7 +16298,7 @@
       },
       {
         "id": 44,
-        "question": "Find the median of grouped data: 20–30:6, 30–40:9, 40–50:11, 50–60:6, 60–70:2.",
+        "question": "Find the median of grouped data: 20–30:6, 30–40:9, 40–50:11, 50–60:6, 60–70:2. (Give the result to two decimal places if needed.)",
         "options": [
           "46.82",
           "36.82",
@@ -16311,7 +16311,7 @@
       },
       {
         "id": 45,
-        "question": "Estimate the mode for grouped data: 20–30:6, 30–40:15, 40–50:11, 50–60:6, 60–70:2.",
+        "question": "Estimate the mode for grouped data: 20–30:6, 30–40:15, 40–50:11, 50–60:6, 60–70:2. (Give the result to two decimal places if needed.)",
         "options": [
           "36.92",
           "41.92",
@@ -16350,7 +16350,7 @@
       },
       {
         "id": 48,
-        "question": "Find the mean of grouped data (class interval:frequency): 30–40:5, 40–50:7, 50–60:12, 60–70:8, 70–80:3.",
+        "question": "Find the mean of grouped data (class interval:frequency): 30–40:5, 40–50:7, 50–60:12, 60–70:8, 70–80:3. (Give the result to two decimal places if needed.)",
         "options": [
           "56.14",
           "51.14",
@@ -16363,7 +16363,7 @@
       },
       {
         "id": 49,
-        "question": "Find the median of grouped data: 30–40:3, 40–50:9, 50–60:13, 60–70:7, 70–80:4.",
+        "question": "Find the median of grouped data: 30–40:3, 40–50:9, 50–60:13, 60–70:7, 70–80:4. (Give the result to two decimal places if needed.)",
         "options": [
           "54.62",
           "59.62",
@@ -16376,7 +16376,7 @@
       },
       {
         "id": 50,
-        "question": "Estimate the mode for grouped data: 30–40:4, 40–50:7, 50–60:14, 60–70:5, 70–80:3.",
+        "question": "Estimate the mode for grouped data: 30–40:4, 40–50:7, 50–60:14, 60–70:5, 70–80:3. (Give the result to two decimal places if needed.)",
         "options": [
           "64.38",
           "54.38",
@@ -16415,7 +16415,7 @@
       },
       {
         "id": 53,
-        "question": "Find the mean of grouped data (class interval:frequency): 0–10:4, 10–20:9, 20–30:10, 30–40:6, 40–50:1.",
+        "question": "Find the mean of grouped data (class interval:frequency): 0–10:4, 10–20:9, 20–30:10, 30–40:6, 40–50:1. (Give the result to two decimal places if needed.)",
         "options": [
           "22",
           "24",
@@ -16428,7 +16428,7 @@
       },
       {
         "id": 54,
-        "question": "Find the median of grouped data: 0–10:3, 10–20:5, 20–30:8, 30–40:6, 40–50:4.",
+        "question": "Find the median of grouped data: 0–10:3, 10–20:5, 20–30:8, 30–40:6, 40–50:4. (Give the result to two decimal places if needed.)",
         "options": [
           "36.25",
           "26.25",
@@ -16441,7 +16441,7 @@
       },
       {
         "id": 55,
-        "question": "Estimate the mode for grouped data: 0–10:6, 10–20:8, 20–30:9, 30–40:11, 40–50:2.",
+        "question": "Estimate the mode for grouped data: 0–10:6, 10–20:8, 20–30:9, 30–40:11, 40–50:2. (Give the result to two decimal places if needed.)",
         "options": [
           "26.82",
           "41.82",
@@ -16480,7 +16480,7 @@
       },
       {
         "id": 58,
-        "question": "Find the mean of grouped data (class interval:frequency): 10–20:6, 20–30:8, 30–40:9, 40–50:5, 50–60:2.",
+        "question": "Find the mean of grouped data (class interval:frequency): 10–20:6, 20–30:8, 30–40:9, 40–50:5, 50–60:2. (Give the result to two decimal places if needed.)",
         "options": [
           "36.33",
           "31.33",
@@ -16493,7 +16493,7 @@
       },
       {
         "id": 59,
-        "question": "Find the median of grouped data: 10–20:2, 20–30:6, 30–40:9, 40–50:8, 50–60:5.",
+        "question": "Find the median of grouped data: 10–20:2, 20–30:6, 30–40:9, 40–50:8, 50–60:5. (Give the result to two decimal places if needed.)",
         "options": [
           "32.78",
           "47.78",
@@ -16506,7 +16506,7 @@
       },
       {
         "id": 60,
-        "question": "Estimate the mode for grouped data: 10–20:4, 20–30:12, 30–40:9, 40–50:10, 50–60:5.",
+        "question": "Estimate the mode for grouped data: 10–20:4, 20–30:12, 30–40:9, 40–50:10, 50–60:5. (Give the result to two decimal places if needed.)",
         "options": [
           "32.27",
           "22.27",
@@ -16545,7 +16545,7 @@
       },
       {
         "id": 63,
-        "question": "Find the mean of grouped data (class interval:frequency): 20–30:2, 30–40:5, 40–50:7, 50–60:9, 60–70:6.",
+        "question": "Find the mean of grouped data (class interval:frequency): 20–30:2, 30–40:5, 40–50:7, 50–60:9, 60–70:6. (Give the result to two decimal places if needed.)",
         "options": [
           "46.14",
           "54.14",
@@ -16558,7 +16558,7 @@
       },
       {
         "id": 64,
-        "question": "Find the median of grouped data: 20–30:5, 30–40:7, 40–50:12, 50–60:8, 60–70:3.",
+        "question": "Find the median of grouped data: 20–30:5, 30–40:7, 40–50:12, 50–60:8, 60–70:3. (Give the result to two decimal places if needed.)",
         "options": [
           "49.58",
           "39.58",
@@ -16571,7 +16571,7 @@
       },
       {
         "id": 65,
-        "question": "Estimate the mode for grouped data: 20–30:3, 30–40:9, 40–50:17, 50–60:7, 60–70:4.",
+        "question": "Estimate the mode for grouped data: 20–30:3, 30–40:9, 40–50:17, 50–60:7, 60–70:4. (Give the result to two decimal places if needed.)",
         "options": [
           "44.44",
           "49.44",
@@ -16610,7 +16610,7 @@
       },
       {
         "id": 68,
-        "question": "Find the mean of grouped data (class interval:frequency): 30–40:3, 40–50:6, 50–60:10, 60–70:8, 70–80:3.",
+        "question": "Find the mean of grouped data (class interval:frequency): 30–40:3, 40–50:6, 50–60:10, 60–70:8, 70–80:3. (Give the result to two decimal places if needed.)",
         "options": [
           "57.67",
           "52.67",
@@ -16623,7 +16623,7 @@
       },
       {
         "id": 69,
-        "question": "Find the median of grouped data: 30–40:2, 40–50:5, 50–60:7, 60–70:9, 70–80:6.",
+        "question": "Find the median of grouped data: 30–40:2, 40–50:5, 50–60:7, 60–70:9, 70–80:6. (Give the result to two decimal places if needed.)",
         "options": [
           "60.56",
           "65.56",
@@ -16636,7 +16636,7 @@
       },
       {
         "id": 70,
-        "question": "Estimate the mode for grouped data: 30–40:4, 40–50:6, 50–60:7, 60–70:14, 70–80:4.",
+        "question": "Estimate the mode for grouped data: 30–40:4, 40–50:6, 50–60:7, 60–70:14, 70–80:4. (Give the result to two decimal places if needed.)",
         "options": [
           "74.12",
           "64.12",
@@ -16675,7 +16675,7 @@
       },
       {
         "id": 73,
-        "question": "Find the mean of grouped data (class interval:frequency): 0–10:4, 10–20:8, 20–30:12, 30–40:7, 40–50:4.",
+        "question": "Find the mean of grouped data (class interval:frequency): 0–10:4, 10–20:8, 20–30:12, 30–40:7, 40–50:4. (Give the result to two decimal places if needed.)",
         "options": [
           "24.71",
           "26.71",
@@ -16688,7 +16688,7 @@
       },
       {
         "id": 74,
-        "question": "Find the median of grouped data: 0–10:5, 10–20:9, 20–30:11, 30–40:6, 40–50:2.",
+        "question": "Find the median of grouped data: 0–10:5, 10–20:9, 20–30:11, 30–40:6, 40–50:2. (Give the result to two decimal places if needed.)",
         "options": [
           "32.27",
           "22.27",
@@ -16701,7 +16701,7 @@
       },
       {
         "id": 75,
-        "question": "Estimate the mode for grouped data: 0–10:4, 10–20:14, 20–30:12, 30–40:7, 40–50:4.",
+        "question": "Estimate the mode for grouped data: 0–10:4, 10–20:14, 20–30:12, 30–40:7, 40–50:4. (Give the result to two decimal places if needed.)",
         "options": [
           "13.33",
           "28.33",
@@ -16740,7 +16740,7 @@
       },
       {
         "id": 78,
-        "question": "Find the mean of grouped data (class interval:frequency): 10–20:5, 20–30:9, 30–40:11, 40–50:6, 50–60:2.",
+        "question": "Find the mean of grouped data (class interval:frequency): 10–20:5, 20–30:9, 30–40:11, 40–50:6, 50–60:2. (Give the result to two decimal places if needed.)",
         "options": [
           "37.27",
           "32.27",
@@ -16753,7 +16753,7 @@
       },
       {
         "id": 79,
-        "question": "Find the median of grouped data: 10–20:4, 20–30:6, 30–40:9, 40–50:10, 50–60:5.",
+        "question": "Find the median of grouped data: 10–20:4, 20–30:6, 30–40:9, 40–50:10, 50–60:5. (Give the result to two decimal places if needed.)",
         "options": [
           "32.78",
           "47.78",
@@ -16766,7 +16766,7 @@
       },
       {
         "id": 80,
-        "question": "Estimate the mode for grouped data: 10–20:3, 20–30:7, 30–40:12, 40–50:5, 50–60:4.",
+        "question": "Estimate the mode for grouped data: 10–20:3, 20–30:7, 30–40:12, 40–50:5, 50–60:4. (Give the result to two decimal places if needed.)",
         "options": [
           "39.17",
           "29.17",
@@ -16805,7 +16805,7 @@
       },
       {
         "id": 83,
-        "question": "Find the mean of grouped data (class interval:frequency): 20–30:6, 30–40:7, 40–50:10, 50–60:8, 60–70:4.",
+        "question": "Find the mean of grouped data (class interval:frequency): 20–30:6, 30–40:7, 40–50:10, 50–60:8, 60–70:4. (Give the result to two decimal places if needed.)",
         "options": [
           "41.14",
           "49.14",
@@ -16818,7 +16818,7 @@
       },
       {
         "id": 84,
-        "question": "Find the median of grouped data: 20–30:3, 30–40:7, 40–50:9, 50–60:5, 60–70:4.",
+        "question": "Find the median of grouped data: 20–30:3, 30–40:7, 40–50:9, 50–60:5, 60–70:4. (Give the result to two decimal places if needed.)",
         "options": [
           "49.44",
           "39.44",
@@ -16831,7 +16831,7 @@
       },
       {
         "id": 85,
-        "question": "Estimate the mode for grouped data: 20–30:3, 30–40:5, 40–50:8, 50–60:12, 60–70:4.",
+        "question": "Estimate the mode for grouped data: 20–30:3, 30–40:5, 40–50:8, 50–60:12, 60–70:4. (Give the result to two decimal places if needed.)",
         "options": [
           "53.33",
           "58.33",
@@ -16870,7 +16870,7 @@
       },
       {
         "id": 88,
-        "question": "Find the mean of grouped data (class interval:frequency): 30–40:3, 40–50:4, 50–60:8, 60–70:11, 70–80:6.",
+        "question": "Find the mean of grouped data (class interval:frequency): 30–40:3, 40–50:4, 50–60:8, 60–70:11, 70–80:6. (Give the result to two decimal places if needed.)",
         "options": [
           "61.06",
           "56.06",
@@ -16883,7 +16883,7 @@
       },
       {
         "id": 89,
-        "question": "Find the median of grouped data: 30–40:4, 40–50:5, 50–60:9, 60–70:8, 70–80:6.",
+        "question": "Find the median of grouped data: 30–40:4, 40–50:5, 50–60:9, 60–70:8, 70–80:6. (Give the result to two decimal places if needed.)",
         "options": [
           "57.78",
           "62.78",
@@ -16896,7 +16896,7 @@
       },
       {
         "id": 90,
-        "question": "Estimate the mode for grouped data: 30–40:4, 40–50:15, 50–60:10, 60–70:6, 70–80:1.",
+        "question": "Estimate the mode for grouped data: 30–40:4, 40–50:15, 50–60:10, 60–70:6, 70–80:1. (Give the result to two decimal places if needed.)",
         "options": [
           "56.88",
           "46.88",
@@ -16935,7 +16935,7 @@
       },
       {
         "id": 93,
-        "question": "Find the mean of grouped data (class interval:frequency): 0–10:4, 10–20:6, 20–30:9, 30–40:10, 40–50:5.",
+        "question": "Find the mean of grouped data (class interval:frequency): 0–10:4, 10–20:6, 20–30:9, 30–40:10, 40–50:5. (Give the result to two decimal places if needed.)",
         "options": [
           "26.76",
           "28.76",
@@ -16948,7 +16948,7 @@
       },
       {
         "id": 94,
-        "question": "Find the median of grouped data: 0–10:2, 10–20:4, 20–30:6, 30–40:5, 40–50:3.",
+        "question": "Find the median of grouped data: 0–10:2, 10–20:4, 20–30:6, 30–40:5, 40–50:3. (Give the result to two decimal places if needed.)",
         "options": [
           "36.67",
           "26.67",
@@ -16961,7 +16961,7 @@
       },
       {
         "id": 95,
-        "question": "Estimate the mode for grouped data: 0–10:3, 10–20:4, 20–30:13, 30–40:11, 40–50:6.",
+        "question": "Estimate the mode for grouped data: 0–10:3, 10–20:4, 20–30:13, 30–40:11, 40–50:6. (Give the result to two decimal places if needed.)",
         "options": [
           "23.18",
           "38.18",
@@ -17000,7 +17000,7 @@
       },
       {
         "id": 98,
-        "question": "Find the mean of grouped data (class interval:frequency): 10–20:2, 20–30:7, 30–40:8, 40–50:6, 50–60:4.",
+        "question": "Find the mean of grouped data (class interval:frequency): 10–20:2, 20–30:7, 30–40:8, 40–50:6, 50–60:4. (Give the result to two decimal places if needed.)",
         "options": [
           "41.11",
           "36.11",
@@ -17013,7 +17013,7 @@
       },
       {
         "id": 99,
-        "question": "Find the median of grouped data: 10–20:5, 20–30:8, 30–40:10, 40–50:7, 50–60:4.",
+        "question": "Find the median of grouped data: 10–20:5, 20–30:8, 30–40:10, 40–50:7, 50–60:4. (Give the result to two decimal places if needed.)",
         "options": [
           "29",
           "44",
@@ -17026,7 +17026,7 @@
       },
       {
         "id": 100,
-        "question": "Estimate the mode for grouped data: 10–20:4, 20–30:5, 30–40:9, 40–50:12, 50–60:6.",
+        "question": "Estimate the mode for grouped data: 10–20:4, 20–30:5, 30–40:9, 40–50:12, 50–60:6. (Give the result to two decimal places if needed.)",
         "options": [
           "48.33",
           "38.33",
@@ -17178,7 +17178,7 @@
         "id": 11,
         "question": "A bag has 2 red, 3 blue and 1 green balls. The probability of drawing a blue ball is:",
         "options": [
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2",
           "1/3",
           "1/6"
@@ -17219,8 +17219,8 @@
         "options": [
           "1/2",
           "1/4",
-          "1/2 (choice 1)",
-          "1/2 (choice 2)"
+          "2/2 ",
+          "0/2 "
         ],
         "answer": 0,
         "explanation": "The events are disjoint, so P(red or green)=(1+1)/4=1/2.",
@@ -17310,7 +17310,7 @@
         "options": [
           "1/5",
           "3/10",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2"
         ],
         "answer": 3,
@@ -17400,7 +17400,7 @@
         "question": "A box contains 3 red, 8 blue and 5 green counters. The probability of selecting a red or green counter is:",
         "options": [
           "5/16",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2",
           "3/16"
         ],
@@ -17452,7 +17452,7 @@
         "question": "A bag has 5 red, 9 blue and 4 green balls. The probability of drawing a blue ball is:",
         "options": [
           "2/9",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2",
           "5/18"
         ],
@@ -17490,7 +17490,7 @@
         "id": 35,
         "question": "A box contains 4 red, 4 blue and 1 green counters. The probability of selecting a red or green counter is:",
         "options": [
-          "5/9 (choice 1)",
+          "6/9 ",
           "5/9",
           "4/9",
           "1/9"
@@ -17636,7 +17636,7 @@
           "4/15",
           "7/15",
           "11/15",
-          "4/15 (choice 1)"
+          "5/15 "
         ],
         "answer": 0,
         "explanation": "Total balls=7+4+4=15; P(blue)=4/15=4/15.",
@@ -17854,7 +17854,7 @@
         "id": 63,
         "question": "A box contains 3 red, 2 blue and 3 green counters. The probability of selecting a red or green counter is:",
         "options": [
-          "3/4 (choice 1)",
+          "4/4 ",
           "3/4",
           "1/4",
           "3/8"
@@ -17898,8 +17898,8 @@
           "1/3",
           "5/6"
         ],
-        "answer": 0,
-        "explanation": "There are six equally likely outcomes; counting the specified faces gives probability 1/2.",
+        "answer": 2,
+        "explanation": "The square-number faces on a fair six-sided die are 1 and 4. Thus P(perfect square)=2/6=1/3.",
         "difficulty": "Easy"
       },
       {
@@ -17948,7 +17948,7 @@
           "9/14",
           "5/14",
           "2/7",
-          "9/14 (choice 1)"
+          "10/14 "
         ],
         "answer": 0,
         "explanation": "The events are disjoint, so P(red or green)=(4+5)/14=9/14.",
@@ -17989,8 +17989,8 @@
           "5/6",
           "1/3"
         ],
-        "answer": 3,
-        "explanation": "There are six equally likely outcomes; counting the specified faces gives probability 1/3.",
+        "answer": 1,
+        "explanation": "The die faces that are factors of 4 are 1, 2 and 4. Thus P(factor of 4)=3/6=1/2.",
         "difficulty": "Easy"
       },
       {
@@ -18000,7 +18000,7 @@
           "3/10",
           "2/5",
           "7/10",
-          "3/10 (choice 1)"
+          "4/10 "
         ],
         "answer": 0,
         "explanation": "Total balls=3+3+4=10; P(blue)=3/10=3/10.",
@@ -18090,7 +18090,7 @@
         "options": [
           "2/5",
           "1/10",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2"
         ],
         "answer": 3,
@@ -18128,7 +18128,7 @@
         "question": "A box contains 1 red, 4 blue and 3 green counters. The probability of selecting a red or green counter is:",
         "options": [
           "3/8",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2",
           "1/8"
         ],
@@ -18194,7 +18194,7 @@
         "options": [
           "1/8",
           "1",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2"
         ],
         "answer": 3,
@@ -18218,7 +18218,7 @@
         "id": 91,
         "question": "A box contains 2 red, 7 blue and 5 green counters. The probability of selecting a red or green counter is:",
         "options": [
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2",
           "1/7",
           "5/14"
@@ -18298,7 +18298,7 @@
         "options": [
           "2",
           "1/3",
-          "1/2 (choice 1)",
+          "2/2 ",
           "1/2"
         ],
         "answer": 3,
@@ -18312,7 +18312,7 @@
           "4/7",
           "3/7",
           "1/7",
-          "4/7 (choice 1)"
+          "5/7 "
         ],
         "answer": 0,
         "explanation": "The events are disjoint, so P(red or green)=(3+1)/7=4/7.",
