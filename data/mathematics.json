@@ -6541,15 +6541,15 @@
     "questions": [
       {
         "id": 1,
-        "question": "If two triangles are similar, the ratio of their areas equals the:",
+        "question": "If DE ∥ BC in ΔABC, which ratio is guaranteed by the Basic Proportionality Theorem?",
         "options": [
-          "Ratio of corresponding sides",
-          "Square of the ratio of corresponding sides",
-          "Ratio of their perimeters squared only when unequal",
-          "Product of corresponding sides"
+          "AD/AB = EC/AE",
+          "AD/DB = AE/EC",
+          "AD/DB = AC/AE",
+          "AB/DB = AC/EC"
         ],
         "answer": 1,
-        "explanation": "For similar triangles, areas are proportional to the squares of corresponding sides.",
+        "explanation": "A line parallel to one side divides the other two sides in the same ratio.",
         "difficulty": "Medium"
       },
       {
@@ -6567,16 +6567,16 @@
       },
       {
         "id": 3,
-        "question": "In a right triangle, the hypotenuse is 13 cm and one leg is 5 cm. The other leg is:",
+        "question": "Which condition proves two triangles similar by the AA criterion?",
         "options": [
-          "8 cm",
-          "10 cm",
-          "12 cm",
-          "18 cm"
+          "One side pair is equal",
+          "Their areas are equal",
+          "Two pairs of corresponding angles are equal",
+          "One angle is equal but no other condition is known"
         ],
         "answer": 2,
-        "explanation": "By Pythagoras, the missing leg is √(13²−5²)=√144=12.",
-        "difficulty": "Easy"
+        "explanation": "Two equal pairs of corresponding angles establish AA similarity.",
+        "difficulty": "Medium"
       },
       {
         "id": 4,
@@ -6606,29 +6606,29 @@
       },
       {
         "id": 6,
-        "question": "A triangle has sides 6, 8, 10. It is:",
+        "question": "If AD/DB = AE/EC in ΔABC, what can be concluded about DE and BC?",
         "options": [
-          "Equilateral",
-          "Isosceles",
-          "Right-angled",
-          "Obtuse-angled"
+          "DE ⟂ BC",
+          "DE = BC",
+          "DE ∥ BC",
+          "AB = AC"
         ],
         "answer": 2,
-        "explanation": "6² + 8² = 36 + 64 = 100 = 10².",
-        "difficulty": "Easy"
+        "explanation": "By the converse of BPT, equal ratios on the two sides imply DE is parallel to BC.",
+        "difficulty": "Medium"
       },
       {
         "id": 7,
-        "question": "The Pythagoras theorem applies to:",
+        "question": "When the corresponding sides of two triangles are proportional, the triangles are similar by:",
         "options": [
-          "Every triangle",
-          "Right-angled triangles",
-          "Only equilateral triangles",
-          "Only isosceles triangles"
+          "RHS congruence",
+          "SSS similarity",
+          "ASA congruence",
+          "The triangles must be equilateral"
         ],
         "answer": 1,
-        "explanation": "The theorem relates the legs and hypotenuse of a right triangle.",
-        "difficulty": "Easy"
+        "explanation": "Proportional corresponding sides establish SSS similarity.",
+        "difficulty": "Medium"
       },
       {
         "id": 8,
@@ -6678,15 +6678,15 @@
       },
       {
         "id": 11,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 3:4. Their areas are in the ratio:",
+        "question": "Two angles of one triangle are equal to two angles of another triangle. Which criterion proves the triangles similar?",
         "options": [
-          "9/4",
-          "9/16",
-          "3/4",
-          "16/9"
+          "SSS congruence",
+          "AA similarity",
+          "RHS congruence",
+          "BPT"
         ],
         "answer": 1,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 3²:4²=9/16.",
+        "explanation": "If two corresponding angles are equal, the third angles are equal too, so AA similarity applies.",
         "difficulty": "Medium"
       },
       {
@@ -6704,15 +6704,15 @@
       },
       {
         "id": 13,
-        "question": "The perimeters of two similar triangles are 6 cm and 8 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, D lies on AB and E lies on AC. If DE ∥ BC, AD = 6 cm, AB = 15 cm and AE = 8 cm, then AC is:",
         "options": [
-          "3/4",
-          "16/9",
-          "10/16 ",
-          "9/16"
+          "12 cm",
+          "18 cm",
+          "24 cm",
+          "20 cm"
         ],
         "answer": 3,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (3/4)²=9/16.",
+        "explanation": "By BPT, AD/AB = AE/AC, so 6/15 = 8/AC and AC = 20 cm.",
         "difficulty": "Medium"
       },
       {
@@ -6730,16 +6730,16 @@
       },
       {
         "id": 15,
-        "question": "A right triangle has legs 3 cm and 4 cm. Its hypotenuse is:",
+        "question": "If the corresponding sides of two triangles are in the ratio 5:7, a 10 cm side in the first corresponds to:",
         "options": [
-          "25 cm",
-          "5 cm",
-          "7 cm",
-          "1 cm"
+          "12 cm in the second",
+          "14 cm in the second",
+          "15 cm in the second",
+          "17 cm in the second"
         ],
         "answer": 1,
-        "explanation": "By Pythagoras, c=√(3²+4²)=5 cm.",
-        "difficulty": "Easy"
+        "explanation": "The scale factor is 7/5, so 10×7/5 = 14 cm.",
+        "difficulty": "Medium"
       },
       {
         "id": 16,
@@ -6769,15 +6769,15 @@
       },
       {
         "id": 18,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 4:7. Their areas are in the ratio:",
+        "question": "The three pairs of corresponding sides of two triangles are proportional. Which criterion proves similarity?",
         "options": [
-          "16/49",
-          "4/7",
-          "49/16",
-          "16/7"
+          "SSS similarity",
+          "ASA congruence",
+          "RHS congruence",
+          "The triangles must be equilateral"
         ],
         "answer": 0,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 4²:7²=16/49.",
+        "explanation": "Equal ratios for all three pairs of corresponding sides establish SSS similarity.",
         "difficulty": "Medium"
       },
       {
@@ -6795,15 +6795,15 @@
       },
       {
         "id": 20,
-        "question": "The perimeters of two similar triangles are 8 cm and 12 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, DE ∥ BC and AD:DB = 4:5. If AE = 8 cm, EC equals:",
         "options": [
-          "9/4",
-          "5/9 ",
-          "4/9",
-          "2/3"
+          "6 cm",
+          "8 cm",
+          "10 cm",
+          "12 cm"
         ],
         "answer": 2,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (4/6)²=4/9.",
+        "explanation": "BPT gives AE:EC = AD:DB = 4:5; EC = 8×5/4 = 10 cm.",
         "difficulty": "Medium"
       },
       {
@@ -6821,16 +6821,16 @@
       },
       {
         "id": 22,
-        "question": "A right triangle has legs 10 cm and 24 cm. Its hypotenuse is:",
+        "question": "Which condition is necessary for SSS similarity?",
         "options": [
-          "26 cm",
-          "34 cm",
-          "14 cm",
-          "338 cm"
+          "All three pairs of corresponding sides are proportional",
+          "All three sides are equal within each triangle",
+          "The perimeters must be equal",
+          "One side pair is equal"
         ],
         "answer": 0,
-        "explanation": "By Pythagoras, c=√(10²+24²)=26 cm.",
-        "difficulty": "Easy"
+        "explanation": "SSS similarity requires the same ratio for all three corresponding side pairs.",
+        "difficulty": "Medium"
       },
       {
         "id": 23,
@@ -6860,15 +6860,15 @@
       },
       {
         "id": 25,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 5:10. Their areas are in the ratio:",
+        "question": "Two sides of one triangle are proportional to two sides of another, and their included angles are equal. Which criterion applies?",
         "options": [
-          "1/2",
-          "4",
-          "5/2",
-          "1/4"
+          "SSS congruence",
+          "RHS congruence",
+          "BPT",
+          "SAS similarity"
         ],
         "answer": 3,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 5²:10²=1/4.",
+        "explanation": "Proportional pairs of sides with the equal included angle establish SAS similarity.",
         "difficulty": "Medium"
       },
       {
@@ -6886,15 +6886,15 @@
       },
       {
         "id": 27,
-        "question": "The perimeters of two similar triangles are 10 cm and 16 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, D and E lie on AB and AC. If AD = 4, DB = 6, AE = 6 and EC = 9, then DE is:",
         "options": [
-          "26/64 ",
-          "25/64",
-          "5/8",
-          "64/25"
+          "Perpendicular to BC",
+          "Parallel to BC",
+          "Equal to BC",
+          "Not parallel to BC"
         ],
         "answer": 1,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (5/8)²=25/64.",
+        "explanation": "AD/DB = 4/6 = 2/3 and AE/EC = 6/9 = 2/3. By the converse of BPT, DE ∥ BC.",
         "difficulty": "Medium"
       },
       {
@@ -6912,16 +6912,16 @@
       },
       {
         "id": 29,
-        "question": "A right triangle has legs 24 cm and 45 cm. Its hypotenuse is:",
+        "question": "If two corresponding angles are 42° and 76° in both triangles, the triangles are similar by:",
         "options": [
-          "69 cm",
-          "21 cm",
-          "867 cm",
-          "51 cm"
+          "SSS",
+          "RHS",
+          "BPT",
+          "AA"
         ],
         "answer": 3,
-        "explanation": "By Pythagoras, c=√(24²+45²)=51 cm.",
-        "difficulty": "Easy"
+        "explanation": "Two pairs of equal corresponding angles are enough for AA similarity.",
+        "difficulty": "Medium"
       },
       {
         "id": 30,
@@ -6951,15 +6951,15 @@
       },
       {
         "id": 32,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 6:13. Their areas are in the ratio:",
+        "question": "If ΔABC ∼ ΔDEF, which angle corresponds to ∠B?",
         "options": [
-          "169/36",
-          "36/13",
-          "36/169",
-          "6/13"
+          "∠D",
+          "∠F",
+          "∠E",
+          "∠A"
         ],
         "answer": 2,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 6²:13²=36/169.",
+        "explanation": "The order in ΔABC ∼ ΔDEF gives A↔D, B↔E and C↔F.",
         "difficulty": "Medium"
       },
       {
@@ -6977,15 +6977,15 @@
       },
       {
         "id": 34,
-        "question": "The perimeters of two similar triangles are 12 cm and 20 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, DE ∥ BC. If AD:AB = 5:12 and AE = 10 cm, then AC is:",
         "options": [
-          "9/25",
-          "3/5",
-          "25/9",
-          "10/25 "
+          "24 cm",
+          "20 cm",
+          "12 cm",
+          "30 cm"
         ],
         "answer": 0,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (6/10)²=9/25.",
+        "explanation": "BPT gives AD/AB = AE/AC, so 5/12 = 10/AC and AC = 24 cm.",
         "difficulty": "Medium"
       },
       {
@@ -7003,16 +7003,16 @@
       },
       {
         "id": 36,
-        "question": "A right triangle has legs 28 cm and 96 cm. Its hypotenuse is:",
+        "question": "Two similar triangles have a corresponding side ratio 4:9. A 12 cm side of the first matches a side of:",
         "options": [
-          "68 cm",
-          "2500 cm",
-          "100 cm",
-          "124 cm"
+          "18 cm",
+          "24 cm",
+          "27 cm",
+          "36 cm"
         ],
         "answer": 2,
-        "explanation": "By Pythagoras, c=√(28²+96²)=100 cm.",
-        "difficulty": "Easy"
+        "explanation": "The scale factor is 9/4, so 12×9/4 = 27 cm.",
+        "difficulty": "Medium"
       },
       {
         "id": 37,
@@ -7042,15 +7042,15 @@
       },
       {
         "id": 39,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 7:6. Their areas are in the ratio:",
+        "question": "Two similar triangles have corresponding sides in the ratio 3:5. A side of the first triangle is 12 cm. The matching side of the second is:",
         "options": [
-          "49/6",
-          "49/36",
-          "7/6",
-          "36/49"
+          "15 cm",
+          "20 cm",
+          "8 cm",
+          "24 cm"
         ],
         "answer": 1,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 7²:6²=49/36.",
+        "explanation": "The scale factor from the first to the second is 5/3, so 12×5/3 = 20 cm.",
         "difficulty": "Medium"
       },
       {
@@ -7068,15 +7068,15 @@
       },
       {
         "id": 41,
-        "question": "The perimeters of two similar triangles are 14 cm and 24 cm. The ratio of their areas (first:second) is:",
+        "question": "If a line cuts two sides of a triangle in the same ratio, what can be concluded about the line?",
         "options": [
-          "7/12",
-          "144/49",
-          "50/144 ",
-          "49/144"
+          "It is perpendicular to the third side",
+          "It bisects all three sides",
+          "It must pass through the vertex",
+          "It is parallel to the third side"
         ],
         "answer": 3,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (7/12)²=49/144.",
+        "explanation": "This is the converse of the Basic Proportionality Theorem.",
         "difficulty": "Medium"
       },
       {
@@ -7094,16 +7094,16 @@
       },
       {
         "id": 43,
-        "question": "A right triangle has legs 45 cm and 60 cm. Its hypotenuse is:",
+        "question": "Which statement is the converse of the Basic Proportionality Theorem?",
         "options": [
-          "1125 cm",
-          "75 cm",
-          "105 cm",
-          "15 cm"
+          "A tangent is perpendicular to a radius",
+          "If two sides are divided in the same ratio, the joining line is parallel to the third side",
+          "Corresponding sides of similar triangles are equal",
+          "The sum of angles in a triangle is 90°"
         ],
         "answer": 1,
-        "explanation": "By Pythagoras, c=√(45²+60²)=75 cm.",
-        "difficulty": "Easy"
+        "explanation": "Equal ratios on two sides imply the segment joining those points is parallel to the third side.",
+        "difficulty": "Medium"
       },
       {
         "id": 44,
@@ -7133,15 +7133,15 @@
       },
       {
         "id": 46,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 8:9. Their areas are in the ratio:",
+        "question": "A triangle has sides 4 cm, 6 cm and 8 cm. A second triangle has sides 6 cm, 9 cm and 12 cm. The triangles are:",
         "options": [
-          "64/81",
-          "8/9",
-          "81/64",
-          "64/9"
+          "Similar by SSS",
+          "Congruent",
+          "Not similar",
+          "Similar only if their areas are equal"
         ],
         "answer": 0,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 8²:9²=64/81.",
+        "explanation": "The corresponding side ratios are all 2:3, so SSS similarity applies.",
         "difficulty": "Medium"
       },
       {
@@ -7159,15 +7159,15 @@
       },
       {
         "id": 48,
-        "question": "The perimeters of two similar triangles are 16 cm and 10 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, DE ∥ BC and AD = DB. Which relation must hold?",
         "options": [
-          "25/64",
-          "65/25 ",
-          "64/25",
-          "8/5"
+          "AE = AC",
+          "EC = 2AE",
+          "AE = EC",
+          "AB = AC"
         ],
         "answer": 2,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (8/5)²=64/25.",
+        "explanation": "Since AD/DB = 1, BPT gives AE/EC = 1, so AE = EC.",
         "difficulty": "Medium"
       },
       {
@@ -7185,16 +7185,16 @@
       },
       {
         "id": 50,
-        "question": "A right triangle has legs 6 cm and 8 cm. Its hypotenuse is:",
+        "question": "If ΔABC ∼ ΔPQR, AB = 8 cm and PQ = 12 cm. The scale factor from ABC to PQR is:",
         "options": [
-          "10 cm",
-          "14 cm",
-          "2 cm",
-          "100 cm"
+          "3/2",
+          "2/3",
+          "4/3",
+          "1/2"
         ],
         "answer": 0,
-        "explanation": "By Pythagoras, c=√(6²+8²)=10 cm.",
-        "difficulty": "Easy"
+        "explanation": "The scale factor is PQ/AB = 12/8 = 3/2.",
+        "difficulty": "Medium"
       },
       {
         "id": 51,
@@ -7224,15 +7224,15 @@
       },
       {
         "id": 53,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 9:12. Their areas are in the ratio:",
+        "question": "The side ratios of two triangles are 3:4, 5:6 and 7:8. What can be concluded from these ratios alone?",
         "options": [
-          "3/4",
-          "16/9",
-          "27/4",
-          "9/16"
+          "The triangles are similar by SSS",
+          "The triangles are congruent",
+          "The triangles must be right-angled",
+          "The triangles are not similar by SSS"
         ],
         "answer": 3,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 9²:12²=9/16.",
+        "explanation": "SSS similarity requires all three corresponding side ratios to be equal; these ratios differ.",
         "difficulty": "Medium"
       },
       {
@@ -7250,15 +7250,15 @@
       },
       {
         "id": 55,
-        "question": "The perimeters of two similar triangles are 18 cm and 14 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, AD/AB = 2/5 and DE ∥ BC. If AC = 15 cm, AE is:",
         "options": [
-          "82/49 ",
-          "81/49",
-          "9/7",
-          "49/81"
+          "5 cm",
+          "6 cm",
+          "10 cm",
+          "12 cm"
         ],
         "answer": 1,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (9/7)²=81/49.",
+        "explanation": "BPT gives AE/AC = AD/AB = 2/5, so AE = 2/5×15 = 6 cm.",
         "difficulty": "Medium"
       },
       {
@@ -7276,16 +7276,16 @@
       },
       {
         "id": 57,
-        "question": "A right triangle has legs 24 cm and 32 cm. Its hypotenuse is:",
+        "question": "Two triangles have side lengths 5, 7, 9 and 10, 14, 18. They are:",
         "options": [
-          "56 cm",
-          "8 cm",
-          "800 cm",
-          "40 cm"
+          "Congruent",
+          "Not similar",
+          "Similar by SAS only",
+          "Similar by SSS"
         ],
         "answer": 3,
-        "explanation": "By Pythagoras, c=√(24²+32²)=40 cm.",
-        "difficulty": "Easy"
+        "explanation": "The corresponding side ratios are all 1:2, so SSS similarity applies.",
+        "difficulty": "Medium"
       },
       {
         "id": 58,
@@ -7315,15 +7315,15 @@
       },
       {
         "id": 60,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 10:5. Their areas are in the ratio:",
+        "question": "In ΔABC and ΔPQR, ∠A = ∠P and AB/PQ = AC/PR. Which condition is sufficient to prove similarity?",
         "options": [
-          "1/4",
-          "20",
-          "4",
-          "2"
+          "SSS congruence",
+          "RHS congruence",
+          "SAS similarity",
+          "No similarity criterion applies"
         ],
         "answer": 2,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 10²:5²=4.",
+        "explanation": "The equal angle is included between the two proportional side pairs, so SAS similarity applies.",
         "difficulty": "Medium"
       },
       {
@@ -7341,15 +7341,15 @@
       },
       {
         "id": 62,
-        "question": "The perimeters of two similar triangles are 20 cm and 18 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, AD:DB = 2:1 and DE ∥ BC. If EC = 4 cm, AE is:",
         "options": [
-          "100/81",
-          "10/9",
-          "81/100",
-          "101/81 "
+          "8 cm",
+          "2 cm",
+          "4 cm",
+          "6 cm"
         ],
         "answer": 0,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (10/9)²=100/81.",
+        "explanation": "By BPT, AE:EC = AD:DB = 2:1, so AE = 2×4 = 8 cm.",
         "difficulty": "Medium"
       },
       {
@@ -7367,16 +7367,16 @@
       },
       {
         "id": 64,
-        "question": "A right triangle has legs 80 cm and 84 cm. Its hypotenuse is:",
+        "question": "In two triangles, one angle is equal and the two sides including that angle have ratios 2:3 and 2:3. The triangles are:",
         "options": [
-          "4 cm",
-          "3364 cm",
-          "116 cm",
-          "164 cm"
+          "Congruent by SSS",
+          "Not necessarily similar",
+          "Similar by SAS",
+          "Equal in area only"
         ],
         "answer": 2,
-        "explanation": "By Pythagoras, c=√(80²+84²)=116 cm.",
-        "difficulty": "Easy"
+        "explanation": "The included angles are equal and the adjacent sides are proportional, so SAS similarity applies.",
+        "difficulty": "Medium"
       },
       {
         "id": 65,
@@ -7406,15 +7406,15 @@
       },
       {
         "id": 67,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 11:8. Their areas are in the ratio:",
+        "question": "If ΔABC ∼ ΔPQR and AB:PQ = 4:7, then the ratio of their perimeters (ABC:PQR) is:",
         "options": [
-          "121/8",
-          "121/64",
-          "11/8",
-          "64/121"
+          "16:49",
+          "4:7",
+          "7:4",
+          "1:1"
         ],
         "answer": 1,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 11²:8²=121/64.",
+        "explanation": "For similar triangles, the ratio of perimeters equals the ratio of corresponding sides.",
         "difficulty": "Medium"
       },
       {
@@ -7432,15 +7432,15 @@
       },
       {
         "id": 69,
-        "question": "The perimeters of two similar triangles are 6 cm and 22 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, DE ∥ BC. If AD = 7 cm, DB = 14 cm and EC = 12 cm, AE is:",
         "options": [
-          "3/11",
-          "121/9",
-          "10/121 ",
-          "9/121"
+          "12 cm",
+          "18 cm",
+          "24 cm",
+          "6 cm"
         ],
         "answer": 3,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (3/11)²=9/121.",
+        "explanation": "BPT gives AE/EC = AD/DB = 7/14 = 1/2, so AE = 6 cm.",
         "difficulty": "Medium"
       },
       {
@@ -7458,16 +7458,16 @@
       },
       {
         "id": 71,
-        "question": "A right triangle has legs 60 cm and 175 cm. Its hypotenuse is:",
+        "question": "Which fact is true for similar triangles?",
         "options": [
-          "6845 cm",
-          "185 cm",
-          "235 cm",
-          "115 cm"
+          "All corresponding sides must be equal",
+          "Corresponding sides are proportional",
+          "Their perimeters must be equal",
+          "Each triangle must be right-angled"
         ],
         "answer": 1,
-        "explanation": "By Pythagoras, c=√(60²+175²)=185 cm.",
-        "difficulty": "Easy"
+        "explanation": "Similar triangles have equal corresponding angles and proportional corresponding sides.",
+        "difficulty": "Medium"
       },
       {
         "id": 72,
@@ -7497,15 +7497,15 @@
       },
       {
         "id": 74,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 3:11. Their areas are in the ratio:",
+        "question": "In two similar triangles, corresponding angles are:",
         "options": [
-          "9/121",
-          "3/11",
-          "121/9",
-          "9/11"
+          "Equal",
+          "Always complementary",
+          "Always supplementary",
+          "In the ratio of corresponding sides"
         ],
         "answer": 0,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 3²:11²=9/121.",
+        "explanation": "Similar triangles have equal corresponding angles and proportional corresponding sides.",
         "difficulty": "Medium"
       },
       {
@@ -7523,15 +7523,15 @@
       },
       {
         "id": 76,
-        "question": "The perimeters of two similar triangles are 8 cm and 8 cm. The ratio of their areas (first:second) is:",
+        "question": "Which equality expresses the Basic Proportionality Theorem when D lies on AB, E lies on AC and DE ∥ BC?",
         "options": [
-          "2 ",
-          "0 ",
-          "1",
-          "3 "
+          "AD/AB = EC/AE",
+          "AD/DB = AC/AE",
+          "AD/DB = AE/EC",
+          "AB/DB = EC/AC"
         ],
         "answer": 2,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (4/4)²=1.",
+        "explanation": "A line parallel to one side of a triangle divides the other two sides in the same ratio.",
         "difficulty": "Medium"
       },
       {
@@ -7549,16 +7549,16 @@
       },
       {
         "id": 78,
-        "question": "A right triangle has legs 16 cm and 30 cm. Its hypotenuse is:",
+        "question": "If ΔABC ∼ ΔDEF, then the side corresponding to BC is:",
         "options": [
-          "34 cm",
-          "46 cm",
-          "14 cm",
-          "1156 cm"
+          "EF",
+          "DE",
+          "DF",
+          "AB"
         ],
         "answer": 0,
-        "explanation": "By Pythagoras, c=√(16²+30²)=34 cm.",
-        "difficulty": "Easy"
+        "explanation": "The vertex order gives A↔D, B↔E and C↔F, so BC corresponds to EF.",
+        "difficulty": "Medium"
       },
       {
         "id": 79,
@@ -7588,15 +7588,15 @@
       },
       {
         "id": 81,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 4:4. Their areas are in the ratio:",
+        "question": "Which set of information is sufficient to prove that two triangles are similar by AA?",
         "options": [
-          "4",
-          "2 ",
-          "0 ",
-          "1"
+          "One side pair is equal",
+          "One angle is equal but no other condition is known",
+          "Their perimeters are equal only",
+          "Two pairs of corresponding angles are equal"
         ],
         "answer": 3,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 4²:4²=1.",
+        "explanation": "Two equal pairs of corresponding angles establish AA similarity.",
         "difficulty": "Medium"
       },
       {
@@ -7614,15 +7614,15 @@
       },
       {
         "id": 83,
-        "question": "The perimeters of two similar triangles are 10 cm and 12 cm. The ratio of their areas (first:second) is:",
+        "question": "If AD/DB = 3/4 and DE ∥ BC, what must AE/EC equal?",
         "options": [
-          "26/36 ",
-          "25/36",
-          "5/6",
-          "36/25"
+          "4/3",
+          "3/4",
+          "3/7",
+          "7/3"
         ],
         "answer": 1,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (5/6)²=25/36.",
+        "explanation": "BPT states AD/DB = AE/EC.",
         "difficulty": "Medium"
       },
       {
@@ -7640,16 +7640,16 @@
       },
       {
         "id": 85,
-        "question": "A right triangle has legs 18 cm and 80 cm. Its hypotenuse is:",
+        "question": "If AD:DB = AE:EC, which theorem allows us to conclude DE ∥ BC?",
         "options": [
-          "98 cm",
-          "62 cm",
-          "3362 cm",
-          "82 cm"
+          "Pythagoras theorem",
+          "Tangent-radius theorem",
+          "Quadratic formula",
+          "Converse of the Basic Proportionality Theorem"
         ],
         "answer": 3,
-        "explanation": "By Pythagoras, c=√(18²+80²)=82 cm.",
-        "difficulty": "Easy"
+        "explanation": "The converse of BPT states that equal ratios on two sides imply the joining segment is parallel to the third side.",
+        "difficulty": "Medium"
       },
       {
         "id": 86,
@@ -7679,15 +7679,15 @@
       },
       {
         "id": 88,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 5:7. Their areas are in the ratio:",
+        "question": "If the ratio of corresponding sides of two similar triangles is 2:3, and a side of the first triangle is 14 cm, the corresponding side of the second is:",
         "options": [
-          "49/25",
-          "25/7",
-          "25/49",
-          "5/7"
+          "7 cm",
+          "28 cm",
+          "21 cm",
+          "18 cm"
         ],
         "answer": 2,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 5²:7²=25/49.",
+        "explanation": "The scale factor is 3/2, so the matching side is 14×3/2 = 21 cm.",
         "difficulty": "Medium"
       },
       {
@@ -7705,15 +7705,15 @@
       },
       {
         "id": 90,
-        "question": "The perimeters of two similar triangles are 12 cm and 16 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, AD:AB = 3:8 and AE:AC = 3:8. What follows?",
         "options": [
-          "9/16",
-          "3/4",
-          "16/9",
-          "10/16 "
+          "DE ∥ BC",
+          "DE ⟂ BC",
+          "D and E must be midpoints",
+          "AB = AC"
         ],
         "answer": 0,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (6/8)²=9/16.",
+        "explanation": "Equal ratios along two sides allow the converse of BPT to establish DE ∥ BC.",
         "difficulty": "Medium"
       },
       {
@@ -7731,16 +7731,16 @@
       },
       {
         "id": 92,
-        "question": "A right triangle has legs 30 cm and 72 cm. Its hypotenuse is:",
+        "question": "A triangle has angles 35° and 65°. The third angle is:",
         "options": [
-          "42 cm",
-          "2028 cm",
-          "78 cm",
-          "102 cm"
+          "90°",
+          "100°",
+          "80°",
+          "70°"
         ],
         "answer": 2,
-        "explanation": "By Pythagoras, c=√(30²+72²)=78 cm.",
-        "difficulty": "Easy"
+        "explanation": "The angles of a triangle sum to 180°, so the third angle is 180°−35°−65° = 80°.",
+        "difficulty": "Medium"
       },
       {
         "id": 93,
@@ -7770,15 +7770,15 @@
       },
       {
         "id": 95,
-        "question": "The corresponding side lengths of two similar triangles are in the ratio 6:10. Their areas are in the ratio:",
+        "question": "For two triangles, AB/DE = AC/DF and ∠A = ∠D. The triangles are similar by:",
         "options": [
-          "18/5",
-          "9/25",
-          "3/5",
-          "25/9"
+          "SSS",
+          "SAS",
+          "RHS congruence",
+          "BPT only"
         ],
         "answer": 1,
-        "explanation": "Areas of similar triangles are proportional to squares of corresponding sides: 6²:10²=9/25.",
+        "explanation": "The equal included angle and proportional adjacent sides give SAS similarity.",
         "difficulty": "Medium"
       },
       {
@@ -7796,15 +7796,15 @@
       },
       {
         "id": 97,
-        "question": "The perimeters of two similar triangles are 14 cm and 20 cm. The ratio of their areas (first:second) is:",
+        "question": "In ΔABC, DE ∥ BC, AD = 3 cm and DB = 5 cm. If AE = 9 cm, EC equals:",
         "options": [
-          "7/10",
-          "100/49",
-          "50/100 ",
-          "49/100"
+          "12 cm",
+          "5 cm",
+          "9 cm",
+          "15 cm"
         ],
         "answer": 3,
-        "explanation": "For similar triangles, area ratio equals the square of perimeter ratio: (7/10)²=49/100.",
+        "explanation": "By BPT, AD/DB = AE/EC, so 3/5 = 9/EC and EC = 15 cm.",
         "difficulty": "Medium"
       },
       {
@@ -7822,16 +7822,16 @@
       },
       {
         "id": 99,
-        "question": "A right triangle has legs 80 cm and 192 cm. Its hypotenuse is:",
+        "question": "Which test proves similarity when all three corresponding side ratios are equal?",
         "options": [
-          "10816 cm",
-          "208 cm",
-          "272 cm",
-          "112 cm"
+          "SAS congruence",
+          "SSS similarity",
+          "ASA congruence",
+          "RHS congruence"
         ],
         "answer": 1,
-        "explanation": "By Pythagoras, c=√(80²+192²)=208 cm.",
-        "difficulty": "Easy"
+        "explanation": "Three proportional pairs of corresponding sides establish SSS similarity.",
+        "difficulty": "Medium"
       },
       {
         "id": 100,
@@ -7920,16 +7920,16 @@
       },
       {
         "id": 6,
-        "question": "The area of a triangle with vertices (0,0), (4,0) and (0,3) is:",
+        "question": "P divides A(2, −3) and B(14, 9) internally in the ratio AP:PB = 1:2. The coordinates of P are:",
         "options": [
-          "6 square units",
-          "7 square units",
-          "12 square units",
-          "24 square units"
+          "(6, 1)",
+          "(8, 3)",
+          "(4, 5)",
+          "(10, −1)"
         ],
         "answer": 0,
-        "explanation": "It is a right triangle with base 4 and height 3, so area = ½×4×3 = 6.",
-        "difficulty": "Easy"
+        "explanation": "Section formula gives x=(1×14+2×2)/3=6 and y=(1×9+2×(−3))/3=1.",
+        "difficulty": "Medium"
       },
       {
         "id": 7,
