@@ -27,6 +27,8 @@
 .login-divider{display:flex;align-items:center;gap:10px;color:#9893ae;font-size:.72rem;margin:18px 0 12px}.login-divider:before,.login-divider:after{content:"";height:1px;flex:1;background:var(--c10-line)}
 .github-admin{display:flex;width:100%;align-items:center;justify-content:center;gap:9px;border:1px solid #ded9ee;background:#fff;color:var(--c10-ink);border-radius:11px;min-height:43px;padding:9px 12px;font:inherit;font-size:.82rem;font-weight:800;cursor:pointer}
 .github-admin:hover{background:#f7f5ff}.github-admin small{font-size:.72rem;font-weight:650;color:var(--c10-muted)}
+/* Keep the legacy admin form as a compatibility target, but expose only the shared sign-in fields. */
+#adminLoginForm,.login-divider{display:none!important}
 .login-footnote{font-size:.72rem;color:var(--c10-muted);line-height:1.55;margin-top:14px}
 .login-footer{padding:0 20px 24px;text-align:center;color:var(--c10-muted);font-size:.78rem}
 @media(max-width:760px){.login-page{grid-template-columns:1fr;gap:25px;max-width:520px;padding-top:30px}.login-story h1{font-size:clamp(2.5rem,12vw,3.6rem)}.login-story>p{font-size:.97rem}.login-highlights{margin-top:18px}.login-card{padding:23px}.login-footer{padding-bottom:22px}}
@@ -52,7 +54,7 @@
   <section class="login-card" aria-labelledby="loginTitle">
     <div class="login-card-mark" aria-hidden="true"><img src="./assets/examguru-saraswati.svg" alt="" width="49" height="49"></div>
     <h2 id="loginTitle">Welcome back</h2>
-    <p class="login-subtitle">Use the username and password provided by your ExamGuru administrator.</p>
+    <p class="login-subtitle">Enter your user ID and password. ExamGuru will open the right workspace for your account.</p>
     <form id="studentLoginForm" novalidate>
       <div class="login-field"><label for="username">Username</label><input id="username" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="32" required placeholder="Enter your username"></div>
       <div class="login-field"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" maxlength="256" required placeholder="Enter your password"></div>
@@ -64,11 +66,32 @@
       <div class="login-field"><label for="adminPassword">Admin password</label><input id="adminPassword" name="adminPassword" type="password" autocomplete="current-password" maxlength="256" required placeholder="Admin password"></div>
       <button class="github-admin" id="adminLoginSubmit" type="submit"><span aria-hidden="true">🔐</span><span>Sign in as administrator</span></button>
     </form>
-    <p id="loginStatus" class="login-status" role="status" aria-live="polite">Student accounts are issued by the administrator. There is no public self-registration.</p>
+    <p id="loginStatus" class="login-status" role="status" aria-live="polite">Student accounts are issued by the administrator. Administrators use this same sign-in form.</p>
     <p class="login-footnote">Temporary MVP admin sign-in only. This browser-side check is not secure authentication; do not use it to protect sensitive data. Server-side authentication will be added after core functionality is complete.</p>
   </section>
 </main>
 <footer class="login-footer">ExamGuru · Independent learning project · Conceptualised by JP Ganathe</footer>
+<script>
+/* Route the shared login fields to the existing admin verifier when the entered ID is the admin account. */
+(() => {
+  const studentForm = document.getElementById("studentLoginForm");
+  const sharedUser = document.getElementById("username");
+  const sharedPassword = document.getElementById("password");
+  const adminForm = document.getElementById("adminLoginForm");
+  const adminUser = document.getElementById("adminUsername");
+  const adminPassword = document.getElementById("adminPassword");
+  const ADMIN_ID = "Jayaprakashganathe@gmail.com";
+  studentForm.addEventListener("submit", event => {
+    if (sharedUser.value.trim().toLowerCase() !== ADMIN_ID.toLowerCase()) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    adminUser.value = sharedUser.value.trim();
+    adminPassword.value = sharedPassword.value;
+    sharedPassword.value = "";
+    adminForm.requestSubmit();
+  }, true);
+})();
+</script>
 <script src="./js/student-auth.js"></script>
 <script src="./js/api-config.js"></script>
 <script src="./js/api-client.js"></script>
