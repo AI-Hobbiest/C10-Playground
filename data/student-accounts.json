@@ -23,6 +23,26 @@
       "active": true,
       "createdAt": "2026-10-26T17:46:00.000Z",
       "updatedAt": "2026-10-26T18:18:58.091Z"
+    },
+    {
+      "username": "srivatsav",
+      "classId": "6",
+      "salt": "Ojx9FcdExkKZ5cA5/au56Q==",
+      "passwordHash": "vmo4KNp7eLbAkqtcD2bFM98z3XdlHKOK1riXKLS8Clc=",
+      "iterations": 600000,
+      "active": true,
+      "createdAt": "2026-10-27T12:59:00.000Z",
+      "updatedAt": "2026-10-27T12:59:00.000Z"
+    },
+    {
+      "username": "sonaakshi",
+      "classId": "10",
+      "salt": "flTjx5JSpUOIyfK9ZJD75g==",
+      "passwordHash": "CBm57Xaahor8XkGEtG+AOqt25zrMqyFiiJGB4VNORg8=",
+      "iterations": 600000,
+      "active": true,
+      "createdAt": "2026-10-27T12:59:00.000Z",
+      "updatedAt": "2026-10-27T12:59:00.000Z"
     }
   ]
 }
