@@ -1,0 +1,462 @@
+[
+  {
+    "chapter_no": 1,
+    "title": "Patterns in Mathematics",
+    "key": "patterns-in-mathematics",
+    "questions": [
+      {
+        "id": "c6m01q01",
+        "question": "Next: 2, 4, 6, 8, __?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "Add 2 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m01q02",
+        "question": "Which is a square number?",
+        "options": [
+          "12",
+          "16",
+          "18",
+          "20"
+        ],
+        "answer": 1,
+        "explanation": "16 = 4 × 4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m01q03",
+        "question": "1 + 3 + 5 + 7 = ?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "The sum is 16.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 2,
+    "title": "Lines and Angles",
+    "key": "lines-and-angles",
+    "questions": [
+      {
+        "id": "c6m02q01",
+        "question": "Which has two endpoints?",
+        "options": [
+          "Line",
+          "Ray",
+          "Line segment",
+          "Angle"
+        ],
+        "answer": 2,
+        "explanation": "A segment has two endpoints.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m02q02",
+        "question": "An angle of 90° is:",
+        "options": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Straight"
+        ],
+        "answer": 1,
+        "explanation": "A right angle measures 90°.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m02q03",
+        "question": "A straight angle measures:",
+        "options": [
+          "90°",
+          "120°",
+          "180°",
+          "360°"
+        ],
+        "answer": 2,
+        "explanation": "A straight angle is 180°.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 3,
+    "title": "Number Play",
+    "key": "number-play",
+    "questions": [
+      {
+        "id": "c6m03q01",
+        "question": "Which number is divisible by 2?",
+        "options": [
+          "135",
+          "247",
+          "368",
+          "451"
+        ],
+        "answer": 2,
+        "explanation": "Even numbers end in 0, 2, 4, 6 or 8.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m03q02",
+        "question": "Remainder when 29 is divided by 5?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "29 = 5 × 5 + 4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m03q03",
+        "question": "Next: 1, 1, 2, 3, 5, 8, __?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": 3,
+        "explanation": "Add the previous two terms: 5 + 8 = 13.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 4,
+    "title": "Data Handling and Presentation",
+    "key": "data-handling-and-presentation",
+    "questions": [
+      {
+        "id": "c6m04q01",
+        "question": "Best display to compare category counts?",
+        "options": [
+          "Bar graph",
+          "Paragraph",
+          "Compass",
+          "Number line"
+        ],
+        "answer": 0,
+        "explanation": "Bar graphs compare categories.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m04q02",
+        "question": "Books read: 2, 3, 3, 4. Total?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "2 + 3 + 3 + 4 = 12.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m04q03",
+        "question": "One pictograph symbol = 4 students. Three symbols = ?",
+        "options": [
+          "7",
+          "8",
+          "12",
+          "16"
+        ],
+        "answer": 2,
+        "explanation": "3 × 4 = 12.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 5,
+    "title": "Prime Time",
+    "key": "prime-time",
+    "questions": [
+      {
+        "id": "c6m05q01",
+        "question": "Which number is prime?",
+        "options": [
+          "9",
+          "15",
+          "17",
+          "21"
+        ],
+        "answer": 2,
+        "explanation": "17 has only factors 1 and 17.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m05q02",
+        "question": "Which is a factor of 24?",
+        "options": [
+          "5",
+          "7",
+          "8",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "24 ÷ 8 = 3.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m05q03",
+        "question": "The number 1 is:",
+        "options": [
+          "Prime",
+          "Composite",
+          "Neither",
+          "Even prime"
+        ],
+        "answer": 2,
+        "explanation": "1 has only one positive factor.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 6,
+    "title": "Perimeter and Area",
+    "key": "perimeter-and-area",
+    "questions": [
+      {
+        "id": "c6m06q01",
+        "question": "Perimeter of a square with side 5 cm?",
+        "options": [
+          "10 cm",
+          "15 cm",
+          "20 cm",
+          "25 cm"
+        ],
+        "answer": 2,
+        "explanation": "4 × 5 = 20 cm.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m06q02",
+        "question": "Area of a 6 cm by 3 cm rectangle?",
+        "options": [
+          "9 cm²",
+          "18 cm²",
+          "18 cm",
+          "36 cm²"
+        ],
+        "answer": 1,
+        "explanation": "Area = 6 × 3 = 18 cm².",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m06q03",
+        "question": "Square perimeter is 28 cm. Side length?",
+        "options": [
+          "6 cm",
+          "7 cm",
+          "8 cm",
+          "14 cm"
+        ],
+        "answer": 1,
+        "explanation": "28 ÷ 4 = 7 cm.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 7,
+    "title": "Fractions",
+    "key": "fractions",
+    "questions": [
+      {
+        "id": "c6m07q01",
+        "question": "Which is equivalent to 1/2?",
+        "options": [
+          "2/3",
+          "2/4",
+          "3/5",
+          "4/6"
+        ],
+        "answer": 1,
+        "explanation": "Multiply numerator and denominator by 2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m07q02",
+        "question": "Which is greater?",
+        "options": [
+          "1/3",
+          "1/2",
+          "Equal",
+          "Cannot compare"
+        ],
+        "answer": 1,
+        "explanation": "One half is greater than one third.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m07q03",
+        "question": "2/7 + 3/7 = ?",
+        "options": [
+          "5/14",
+          "5/7",
+          "6/7",
+          "1/7"
+        ],
+        "answer": 1,
+        "explanation": "Add numerators when denominators match.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 8,
+    "title": "Playing with Constructions",
+    "key": "playing-with-constructions",
+    "questions": [
+      {
+        "id": "c6m08q01",
+        "question": "Which tool draws a circle of chosen radius?",
+        "options": [
+          "Protractor",
+          "Compass",
+          "Set square",
+          "Ruler only"
+        ],
+        "answer": 1,
+        "explanation": "A compass draws circles and arcs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m08q02",
+        "question": "Best tool for checking a 6 cm segment?",
+        "options": [
+          "Ruler",
+          "Compass only",
+          "Clock",
+          "Thermometer"
+        ],
+        "answer": 0,
+        "explanation": "A ruler measures length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m08q03",
+        "question": "Centre-to-circle distance is the:",
+        "options": [
+          "Diameter",
+          "Radius",
+          "Perimeter",
+          "Area"
+        ],
+        "answer": 1,
+        "explanation": "The radius joins centre to circumference.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 9,
+    "title": "Symmetry",
+    "key": "symmetry",
+    "questions": [
+      {
+        "id": "c6m09q01",
+        "question": "A line of symmetry divides a shape into:",
+        "options": [
+          "Matching mirror halves",
+          "Larger parts",
+          "Unequal colours",
+          "No parts"
+        ],
+        "answer": 0,
+        "explanation": "The halves match when folded along the line.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m09q02",
+        "question": "How many symmetry lines does a square have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "A square has four lines of symmetry.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m09q03",
+        "question": "A half-turn is:",
+        "options": [
+          "45°",
+          "90°",
+          "180°",
+          "360°"
+        ],
+        "answer": 2,
+        "explanation": "A half-turn equals 180°.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 10,
+    "title": "The Other Side of Zero",
+    "key": "the-other-side-of-zero",
+    "questions": [
+      {
+        "id": "c6m10q01",
+        "question": "Which integer is less than zero?",
+        "options": [
+          "4",
+          "0",
+          "−3",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "Negative integers are less than zero.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m10q02",
+        "question": "Which is greater?",
+        "options": [
+          "−5",
+          "−2",
+          "Equal",
+          "Cannot tell"
+        ],
+        "answer": 1,
+        "explanation": "−2 is to the right of −5 on the number line.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6m10q03",
+        "question": "−3 + 5 = ?",
+        "options": [
+          "−8",
+          "−2",
+          "2",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Starting at −3 and moving 5 right gives 2.",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+]
