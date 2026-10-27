@@ -59,6 +59,35 @@ jobs:
           cp js/dashboard-manager.js _site/js/dashboard-manager.js
           cp js/quiz-engine.js _site/js/quiz-engine.js
           cp data/*.json _site/data/
+          # Merge the maintained English chapter override file into the deployed bank.
+          node <<'NODE'
+          const fs = require('fs');
+          const englishPath = '_site/data/english.json';
+          const additionsPath = '_site/data/english-chapters-19-25.json';
+          const english = JSON.parse(fs.readFileSync(englishPath, 'utf8'));
+          const additions = JSON.parse(fs.readFileSync(additionsPath, 'utf8'));
+          const norm = value => String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9]+/g, ' ').trim();
+          if (additions.length !== 7) throw new Error('Expected exactly seven English chapter overrides.');
+          for (const override of additions) {
+            if (!Array.isArray(override.questions) || override.questions.length !== 100) {
+              throw new Error('English override must contain 100 questions: ' + override.title);
+            }
+            const target = english.find(ch => norm(ch.key) === norm(override.key))
+              || english.find(ch => norm(ch.title) === norm(override.title))
+              || english.find(ch => Number(ch.chapter_no) === Number(override.chapter_no));
+            if (!target) throw new Error('English chapter not found for override: ' + override.title);
+            if (norm(target.title) !== norm(override.title)) {
+              throw new Error('Chapter number/key matched a different title: ' + override.title + ' vs ' + target.title);
+            }
+            target.questions = override.questions;
+          }
+          const total = english.reduce((sum, chapter) => sum + chapter.questions.length, 0);
+          if (english.length !== 37 || total !== 2545) {
+            throw new Error('Merged English bank expected 37 chapter sets / 2545 MCQs, got ' + english.length + ' / ' + total);
+          }
+          fs.writeFileSync(englishPath, JSON.stringify(english, null, 2) + '\\n');
+          console.log('Merged English chapter overrides: 7 chapters, 700 MCQs; deployed English total: ' + total + '.');
+          NODE
           cp data/contracts/v1/* _site/data/contracts/v1/
           if [ -d assets ]; then cp -R assets _site/assets; fi
           if [ -d knowledge ]; then cp -R knowledge _site/knowledge; fi
@@ -124,7 +153,7 @@ jobs:
           const expected = {
             science: { chapters: 14, questions: 1400 },
             mathematics: { chapters: 14, questions: 112 },
-            english: { chapters: 37, questions: 1866 },
+            english: { chapters: 37, questions: 2545 },
             'social-science': { chapters: 22, questions: 110 },
             hindi: { chapters: 27, questions: 92 }
           };
