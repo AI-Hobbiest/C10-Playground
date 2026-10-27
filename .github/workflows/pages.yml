@@ -101,6 +101,70 @@ jobs:
           fs.writeFileSync(englishPath, JSON.stringify(english, null, 2) + String.fromCharCode(10));
           console.log('Merged four English override files: 19 topic sets; deployed English total: ' + total + '.');
           NODE
+          # Merge the maintained Social Science topic overrides into the deployed bank.
+          node <<'NODE'
+          const fs = require('fs');
+          const socialPath = '_site/data/social-science.json';
+          const overrideFiles = [
+            '_site/data/social-science-topics-01-06.json',
+            '_site/data/social-science-topics-07-12.json',
+            '_site/data/social-science-topics-13-17.json',
+            '_site/data/social-science-topics-18-22.json'
+          ];
+          const social = JSON.parse(fs.readFileSync(socialPath, 'utf8'));
+          const overrides = overrideFiles.flatMap(path => JSON.parse(fs.readFileSync(path, 'utf8')));
+          const norm = value => String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9]+/g, ' ').trim();
+          if (overrides.length !== 22) throw new Error('Expected exactly 22 Social Science topic overrides, got ' + overrides.length);
+          const replaced = new Set();
+          for (const override of overrides) {
+            if (!Array.isArray(override.questions) || override.questions.length !== 100) {
+              throw new Error('Social Science override must contain 100 questions: ' + override.title);
+            }
+            const target = social.find(ch => norm(ch.key) === norm(override.key))
+              || social.find(ch => norm(ch.title) === norm(override.title))
+              || social.find(ch => Number(ch.chapter_no) === Number(override.chapter_no));
+            if (!target) throw new Error('Social Science topic not found for override: ' + override.title);
+            if (norm(target.title) !== norm(override.title)) {
+              throw new Error('Topic/key matched a different Social Science title: ' + override.title + ' vs ' + target.title);
+            }
+            if (replaced.has(norm(target.title))) throw new Error('Duplicate Social Science override for ' + target.title);
+            const ids = new Set();
+            const stems = new Set();
+            for (const question of override.questions) {
+              if (!question.question || !Array.isArray(question.options) || question.options.length !== 4 ||
+                  new Set(question.options).size !== 4 || !Number.isInteger(question.answer) ||
+                  question.answer < 0 || question.answer > 3 || !question.explanation) {
+                throw new Error('Malformed Social Science MCQ in ' + override.title + ', id ' + question.id);
+              }
+              if (ids.has(question.id)) throw new Error('Duplicate question ID in ' + override.title + ': ' + question.id);
+              ids.add(question.id);
+              const stem = norm(question.question);
+              if (stems.has(stem)) throw new Error('Duplicate question stem in ' + override.title + ': ' + question.question);
+              stems.add(stem);
+            }
+            replaced.add(norm(target.title));
+            target.questions = override.questions;
+          }
+          for (const chapter of social) {
+            const n = Number(chapter.chapter_no);
+            if (n === 3) chapter.section = 'History · board scope limited to pre-modern world through conquest, disease and trade (sections 1.1–1.3)';
+            if (n === 4) chapter.section = 'History · periodic assessment only';
+            if (n === 12) chapter.section = 'Geography · board exam map work only';
+            if (n === 21) chapter.section = 'Economics · board scope: what globalisation is and factors enabling it; other themes are project/enrichment';
+            if (n === 22) chapter.section = 'Economics · project work / internal assessment';
+          }
+          const total = social.reduce((sum, chapter) => sum + chapter.questions.length, 0);
+          if (social.length !== 22 || total !== 2200 || replaced.size !== 22) {
+            throw new Error('Merged Social Science bank expected 22 topics / 2200 MCQs / 22 upgrades, got ' + social.length + ' / ' + total + ' / ' + replaced.size);
+          }
+          for (const chapter of social) {
+            if (!chapter.title || !Array.isArray(chapter.questions) || chapter.questions.length !== 100) {
+              throw new Error('Social Science topic does not have exactly 100 questions: ' + chapter.title + ' (' + (chapter.questions || []).length + ')');
+            }
+          }
+          fs.writeFileSync(socialPath, JSON.stringify(social, null, 2) + String.fromCharCode(10));
+          console.log('Merged four Social Science override files: 22 topic sets; deployed total: ' + total + '.');
+          NODE
           cp data/contracts/v1/* _site/data/contracts/v1/
           if [ -d assets ]; then cp -R assets _site/assets; fi
           if [ -d knowledge ]; then cp -R knowledge _site/knowledge; fi
@@ -167,7 +231,7 @@ jobs:
             science: { chapters: 14, questions: 1400 },
             mathematics: { chapters: 14, questions: 112 },
             english: { chapters: 37, questions: 3700 },
-            'social-science': { chapters: 22, questions: 110 },
+            'social-science': { chapters: 22, questions: 2200 },
             hindi: { chapters: 27, questions: 92 }
           };
           for (const [name, totals] of Object.entries(expected)) {
