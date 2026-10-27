@@ -28,11 +28,11 @@ The portal uses the **Midnight Indigo + Electric Coral + Mint** theme and the at
 |---|---|---:|
 | Science | 14 chapter sets | 1,400 embedded MCQs |
 | Mathematics | 14 chapters | 112 |
-| English | Prescribed literature topics, reading, grammar and writing | 120 |
+| English | Prescribed literature topics, reading, grammar and writing | 1,769 |
 | Social Science | History, Geography, Political Science, Economics and marked enrichment topics | 110 |
 | Hindi | General grammar/comprehension and selected Course A/B literature topics | 92 |
 
-The four committed JSON banks are starter banks, **not yet 100 questions per chapter**. The Science bank is generated from its existing compressed source during deployment. Questions are original practice items rather than copied from commercial question banks. English prompts discuss literature themes and events without reproducing textbook passages. Social Science includes some enrichment/map/project-related topics; confirm which chapters are included in the student’s exam. Hindi literature coverage is a selection and should be matched to the student’s actual Hindi Course A or Course B syllabus.
+The committed JSON banks are starter banks, **not yet 100 questions per chapter**. English now has 1,769 questions across 37 topic sets, with 100 MCQs in each of the first six literature chapters. The Science bank is generated from its existing compressed source during deployment. Questions are original practice items rather than copied from commercial question banks. English prompts discuss literature themes and events without reproducing textbook passages. Social Science includes some enrichment/map/project-related topics; confirm which chapters are included in the student’s exam. Hindi literature coverage is a selection and should be matched to the student’s actual Hindi Course A or Course B syllabus.
 
 ## Admin Workspace
 
