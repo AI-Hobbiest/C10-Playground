@@ -1,6 +1,6 @@
-# C10-Playground
+# ExamGuru Quest
 
-A mobile-friendly, non-commercial CBSE Class 10 learning and MCQ practice portal hosted on GitHub Pages.
+A mobile-friendly, non-commercial CBSE learning and MCQ practice portal for multiple classes, hosted on GitHub Pages.
 
 ## Live portal
 
