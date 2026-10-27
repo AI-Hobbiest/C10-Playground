@@ -227,7 +227,8 @@
     rows.push([],["Question-level response history"],["Subject","Attempt ID","Question ID","Selected answer","Correct answer","Status","Correct?","Time spent (seconds)"]);
     for(const [subject,title] of Object.entries(SUBJECTS)){
       const ledger=subjectStore("test-attempt-ledger",subject).load();
-      (ledger.answerRecords||[]).forEach(answer=>rows.push([title,answer.attemptId||"",answer.questionId||"",answer.selectedOptionText||"",answer.correctOptionText||"",answer.status||"",answer.isCorrect===true?"Yes":answer.isCorrect===false?"No":"—",answer.timeSpentSeconds||0]));
+      const visibleAttemptIds=new Set((ledger.attempts||[]).filter(attempt=>!attempt.profileId||attempt.profileId===profile.profileId).map(attempt=>String(attempt.attemptId)));
+      (ledger.answerRecords||[]).filter(answer=>visibleAttemptIds.has(String(answer.attemptId))).forEach(answer=>rows.push([title,answer.attemptId||"",answer.questionId||"",answer.selectedOptionText||"",answer.correctOptionText||"",answer.status||"",answer.isCorrect===true?"Yes":answer.isCorrect===false?"No":"—",answer.timeSpentSeconds||0]));
     }
     return rows;
   }
