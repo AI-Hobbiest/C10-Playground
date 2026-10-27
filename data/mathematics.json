@@ -10603,13 +10603,13 @@
         "id": 9,
         "question": "From a point 6 m from a tower's foot, the angle of elevation to its top is 30°. Ignoring eye height, the tower height is:",
         "options": [
-          "6√3/3 m",
+          "2√3 m",
           "6 m",
           "12 m",
           "6√3 m"
         ],
         "answer": 0,
-        "explanation": "tan 30°=height/6; height=6×tan 30°=6√3/3 m.",
+        "explanation": "tan 30°=height/6; height=6×tan 30°=2√3 m.",
         "difficulty": "Medium",
         "images": [
           {
@@ -10638,11 +10638,11 @@
         "options": [
           "12 m",
           "6√3 m",
-          "6√3/3 m",
+          "2√3 m",
           "6 m"
         ],
         "answer": 2,
-        "explanation": "tan θ=height/shadow, so height=6×tan 30°=6√3/3 m.",
+        "explanation": "tan θ=height/shadow, so height=6×tan 30°=2√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -10860,10 +10860,10 @@
           "18 m",
           "36 m",
           "18√3 m",
-          "18√3/3 m"
+          "6√3 m"
         ],
         "answer": 3,
-        "explanation": "distance=height/tan 60°=18√3/3 m.",
+        "explanation": "distance=height/tan 60°=6√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -10884,12 +10884,12 @@
         "question": "From a point 12 m from a tower's foot, the angle of elevation to its top is 30°. Ignoring eye height, the tower height is:",
         "options": [
           "12√3 m",
-          "12√3/3 m",
+          "4√3 m",
           "12 m",
           "24 m"
         ],
         "answer": 1,
-        "explanation": "tan 30°=height/12; height=12×tan 30°=12√3/3 m.",
+        "explanation": "tan 30°=height/12; height=12×tan 30°=4√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -10912,10 +10912,10 @@
           "15 m",
           "30 m",
           "15√3 m",
-          "15√3/3 m"
+          "5√3 m"
         ],
         "answer": 3,
-        "explanation": "tan θ=height/shadow, so height=15×tan 30°=15√3/3 m.",
+        "explanation": "tan θ=height/shadow, so height=15×tan 30°=5√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11078,13 +11078,13 @@
         "id": 45,
         "question": "A vertical building is 15 m tall. The horizontal distance from its foot when the angle of elevation is 60° is:",
         "options": [
-          "15√3/3 m",
+          "5√3 m",
           "15 m",
           "30 m",
           "15√3 m"
         ],
         "answer": 0,
-        "explanation": "distance=height/tan 60°=15√3/3 m.",
+        "explanation": "distance=height/tan 60°=5√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11130,13 +11130,13 @@
         "id": 49,
         "question": "An observer measures the top of a 27 m building at an angle of elevation 60°. The horizontal distance to the building is:",
         "options": [
-          "27√3/3 m",
+          "9√3 m",
           "27 m",
           "54 m",
           "27√3 m"
         ],
         "answer": 0,
-        "explanation": "distance=height/tan 60°=27√3/3 m.",
+        "explanation": "distance=height/tan 60°=9√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11158,11 +11158,11 @@
         "options": [
           "36 m",
           "18√3 m",
-          "18√3/3 m",
+          "6√3 m",
           "18 m"
         ],
         "answer": 2,
-        "explanation": "tan 30°=height/18; height=18×tan 30°=18√3/3 m.",
+        "explanation": "tan 30°=height/18; height=18×tan 30°=6√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11182,13 +11182,13 @@
         "id": 53,
         "question": "The sun's angle of elevation is 30°. A vertical object casts a 21 m shadow on level ground. Its height is:",
         "options": [
-          "21√3/3 m",
+          "7√3 m",
           "21 m",
           "42 m",
           "21√3 m"
         ],
         "answer": 0,
-        "explanation": "tan θ=height/shadow, so height=21×tan 30°=21√3/3 m.",
+        "explanation": "tan θ=height/shadow, so height=21×tan 30°=7√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11352,12 +11352,12 @@
         "question": "A vertical building is 21 m tall. The horizontal distance from its foot when the angle of elevation is 60° is:",
         "options": [
           "21√3 m",
-          "21√3/3 m",
+          "7√3 m",
           "21 m",
           "42 m"
         ],
         "answer": 1,
-        "explanation": "distance=height/tan 60°=21√3/3 m.",
+        "explanation": "distance=height/tan 60°=7√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11404,12 +11404,12 @@
         "question": "An observer measures the top of a 36 m building at an angle of elevation 60°. The horizontal distance to the building is:",
         "options": [
           "36√3 m",
-          "36√3/3 m",
+          "12√3 m",
           "36 m",
           "72 m"
         ],
         "answer": 1,
-        "explanation": "distance=height/tan 60°=36√3/3 m.",
+        "explanation": "distance=height/tan 60°=12√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11432,10 +11432,10 @@
           "24 m",
           "48 m",
           "24√3 m",
-          "24√3/3 m"
+          "8√3 m"
         ],
         "answer": 3,
-        "explanation": "tan 30°=height/24; height=24×tan 30°=24√3/3 m.",
+        "explanation": "tan 30°=height/24; height=24×tan 30°=8√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11456,12 +11456,12 @@
         "question": "The sun's angle of elevation is 30°. A vertical object casts a 30 m shadow on level ground. Its height is:",
         "options": [
           "30√3 m",
-          "30√3/3 m",
+          "10√3 m",
           "30 m",
           "60 m"
         ],
         "answer": 1,
-        "explanation": "tan θ=height/shadow, so height=30×tan 30°=30√3/3 m.",
+        "explanation": "tan θ=height/shadow, so height=30×tan 30°=10√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11626,11 +11626,11 @@
         "options": [
           "54 m",
           "27√3 m",
-          "27√3/3 m",
+          "9√3 m",
           "27 m"
         ],
         "answer": 2,
-        "explanation": "distance=height/tan 60°=27√3/3 m.",
+        "explanation": "distance=height/tan 60°=9√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11678,11 +11678,11 @@
         "options": [
           "90 m",
           "45√3 m",
-          "45√3/3 m",
+          "15√3 m",
           "45 m"
         ],
         "answer": 2,
-        "explanation": "distance=height/tan 60°=45√3/3 m.",
+        "explanation": "distance=height/tan 60°=15√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11702,13 +11702,13 @@
         "id": 93,
         "question": "From a point 30 m from a tower's foot, the angle of elevation to its top is 30°. Ignoring eye height, the tower height is:",
         "options": [
-          "30√3/3 m",
+          "10√3 m",
           "30 m",
           "60 m",
           "30√3 m"
         ],
         "answer": 0,
-        "explanation": "tan 30°=height/30; height=30×tan 30°=30√3/3 m.",
+        "explanation": "tan 30°=height/30; height=30×tan 30°=10√3 m.",
         "difficulty": "Medium"
       },
       {
@@ -11948,7 +11948,7 @@
       },
       {
         "id": 11,
-        "question": "A tangent PT touches a circle at T. If OT=3 cm and PT=4 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=3 cm and PT=4 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "25 cm",
           "5 cm",
@@ -12039,7 +12039,7 @@
       },
       {
         "id": 18,
-        "question": "A tangent PT touches a circle at T. If OT=4 cm and PT=6 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=4 cm and PT=6 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "7.21 cm",
           "10 cm",
@@ -12130,7 +12130,7 @@
       },
       {
         "id": 25,
-        "question": "A tangent PT touches a circle at T. If OT=5 cm and PT=8 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=5 cm and PT=8 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "13 cm",
           "3 cm",
@@ -12221,7 +12221,7 @@
       },
       {
         "id": 32,
-        "question": "A tangent PT touches a circle at T. If OT=6 cm and PT=10 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=6 cm and PT=10 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "4 cm",
           "136 cm",
@@ -12312,7 +12312,7 @@
       },
       {
         "id": 39,
-        "question": "A tangent PT touches a circle at T. If OT=7 cm and PT=12 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=7 cm and PT=12 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "193 cm",
           "13.89 cm",
@@ -12403,7 +12403,7 @@
       },
       {
         "id": 46,
-        "question": "A tangent PT touches a circle at T. If OT=8 cm and PT=14 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=8 cm and PT=14 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "16.12 cm",
           "22 cm",
@@ -12494,7 +12494,7 @@
       },
       {
         "id": 53,
-        "question": "A tangent PT touches a circle at T. If OT=9 cm and PT=16 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=9 cm and PT=16 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "25 cm",
           "7 cm",
@@ -12585,7 +12585,7 @@
       },
       {
         "id": 60,
-        "question": "A tangent PT touches a circle at T. If OT=10 cm and PT=4 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=10 cm and PT=4 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "6 cm",
           "116 cm",
@@ -12676,7 +12676,7 @@
       },
       {
         "id": 67,
-        "question": "A tangent PT touches a circle at T. If OT=11 cm and PT=6 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=11 cm and PT=6 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "157 cm",
           "12.53 cm",
@@ -12767,7 +12767,7 @@
       },
       {
         "id": 74,
-        "question": "A tangent PT touches a circle at T. If OT=12 cm and PT=8 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=12 cm and PT=8 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "14.42 cm",
           "20 cm",
@@ -12858,7 +12858,7 @@
       },
       {
         "id": 81,
-        "question": "A tangent PT touches a circle at T. If OT=3 cm and PT=10 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=3 cm and PT=10 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "13 cm",
           "7 cm",
@@ -12949,7 +12949,7 @@
       },
       {
         "id": 88,
-        "question": "A tangent PT touches a circle at T. If OT=4 cm and PT=12 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=4 cm and PT=12 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "8 cm",
           "160 cm",
@@ -13040,7 +13040,7 @@
       },
       {
         "id": 95,
-        "question": "A tangent PT touches a circle at T. If OT=5 cm and PT=14 cm, then OP is:",
+        "question": "A tangent PT touches a circle at T. If OT=5 cm and PT=14 cm, find OP (give the answer to two decimal places where needed):",
         "options": [
           "221 cm",
           "14.87 cm",
