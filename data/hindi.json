@@ -3,7 +3,7 @@
     "chapter_no": 1,
     "title": "अपठित गद्यांश · पर्यावरण",
     "section": "सामान्य भाषा अभ्यास",
-    "key": "",
+    "key": "hindi-general-chapter-01",
     "questions": [
       {
         "id": 1,
@@ -141,7 +141,7 @@
     "chapter_no": 2,
     "title": "अपठित गद्यांश · पठन और पुस्तकालय",
     "section": "सामान्य भाषा अभ्यास",
-    "key": "",
+    "key": "hindi-general-chapter-02",
     "questions": [
       {
         "id": 1,
@@ -279,7 +279,7 @@
     "chapter_no": 3,
     "title": "Course A · वाक्य भेद और रूपांतरण",
     "section": "Hindi Course A · व्याकरण",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-03",
     "questions": [
       {
         "id": 1,
@@ -417,7 +417,7 @@
     "chapter_no": 4,
     "title": "Course A · वाच्य",
     "section": "Hindi Course A · व्याकरण",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-04",
     "questions": [
       {
         "id": 1,
@@ -555,7 +555,7 @@
     "chapter_no": 5,
     "title": "Course A · पद परिचय",
     "section": "Hindi Course A · व्याकरण",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-05",
     "questions": [
       {
         "id": 1,
@@ -693,7 +693,7 @@
     "chapter_no": 6,
     "title": "Course A · अलंकार",
     "section": "Hindi Course A · व्याकरण",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-06",
     "questions": [
       {
         "id": 1,
@@ -831,7 +831,7 @@
     "chapter_no": 7,
     "title": "Course B · पदबंध",
     "section": "Hindi Course B · व्याकरण",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-07",
     "questions": [
       {
         "id": 1,
@@ -969,7 +969,7 @@
     "chapter_no": 8,
     "title": "Course B · वाक्य रूपांतरण",
     "section": "Hindi Course B · व्याकरण",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-08",
     "questions": [
       {
         "id": 1,
@@ -1107,7 +1107,7 @@
     "chapter_no": 9,
     "title": "Course B · समास",
     "section": "Hindi Course B · व्याकरण",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-09",
     "questions": [
       {
         "id": 1,
@@ -1245,7 +1245,7 @@
     "chapter_no": 10,
     "title": "Course B · मुहावरे",
     "section": "Hindi Course B · व्याकरण",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-10",
     "questions": [
       {
         "id": 1,
@@ -1383,7 +1383,7 @@
     "chapter_no": 11,
     "title": "Course A · नेताजी का चश्मा",
     "section": "Hindi Course A · साहित्य",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-11",
     "questions": [
       {
         "id": 1,
@@ -1508,7 +1508,7 @@
     "chapter_no": 12,
     "title": "Course A · बालगोबिन भगत",
     "section": "Hindi Course A · साहित्य",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-12",
     "questions": [
       {
         "id": 1,
@@ -1633,7 +1633,7 @@
     "chapter_no": 13,
     "title": "Course A · लखनवी अंदाज़",
     "section": "Hindi Course A · साहित्य",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-13",
     "questions": [
       {
         "id": 1,
@@ -1758,7 +1758,7 @@
     "chapter_no": 14,
     "title": "Course A · एक कहानी यह भी",
     "section": "Hindi Course A · साहित्य",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-14",
     "questions": [
       {
         "id": 1,
@@ -1883,7 +1883,7 @@
     "chapter_no": 15,
     "title": "Course A · नौबतखाने में इबादत",
     "section": "Hindi Course A · साहित्य",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-15",
     "questions": [
       {
         "id": 1,
@@ -2008,7 +2008,7 @@
     "chapter_no": 16,
     "title": "Course A · कन्यादान",
     "section": "Hindi Course A · साहित्य",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-16",
     "questions": [
       {
         "id": 1,
@@ -2133,7 +2133,7 @@
     "chapter_no": 17,
     "title": "Course A · संगतकार",
     "section": "Hindi Course A · साहित्य",
-    "key": "course_a",
+    "key": "hindi-course-a-chapter-17",
     "questions": [
       {
         "id": 1,
@@ -2258,7 +2258,7 @@
     "chapter_no": 18,
     "title": "Course B · बड़े भाई साहब",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-18",
     "questions": [
       {
         "id": 1,
@@ -2383,7 +2383,7 @@
     "chapter_no": 19,
     "title": "Course B · डायरी का एक पन्ना",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-19",
     "questions": [
       {
         "id": 1,
@@ -2508,7 +2508,7 @@
     "chapter_no": 20,
     "title": "Course B · तताँरा-वामीरो कथा",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-20",
     "questions": [
       {
         "id": 1,
@@ -2633,7 +2633,7 @@
     "chapter_no": 21,
     "title": "Course B · अब कहाँ दूसरे के दुख से दुखी होने वाले",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-21",
     "questions": [
       {
         "id": 1,
@@ -2758,7 +2758,7 @@
     "chapter_no": 22,
     "title": "Course B · कारतूस",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-22",
     "questions": [
       {
         "id": 1,
@@ -2883,7 +2883,7 @@
     "chapter_no": 23,
     "title": "Course B · कबीर की साखियाँ",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-23",
     "questions": [
       {
         "id": 1,
@@ -3008,7 +3008,7 @@
     "chapter_no": 24,
     "title": "Course B · मनुष्यता",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-24",
     "questions": [
       {
         "id": 1,
@@ -3133,7 +3133,7 @@
     "chapter_no": 25,
     "title": "Course B · कर चले हम फ़िदा",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-25",
     "questions": [
       {
         "id": 1,
@@ -3258,7 +3258,7 @@
     "chapter_no": 26,
     "title": "Course B · आत्मत्राण",
     "section": "Hindi Course B · साहित्य",
-    "key": "course_b",
+    "key": "hindi-course-b-chapter-26",
     "questions": [
       {
         "id": 1,
@@ -3383,7 +3383,7 @@
     "chapter_no": 27,
     "title": "अनुच्छेद और औपचारिक लेखन",
     "section": "सामान्य भाषा अभ्यास",
-    "key": "",
+    "key": "hindi-general-chapter-27",
     "questions": [
       {
         "id": 1,
