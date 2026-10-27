@@ -85,7 +85,7 @@ jobs:
           if (english.length !== 37 || total !== 2545) {
             throw new Error('Merged English bank expected 37 chapter sets / 2545 MCQs, got ' + english.length + ' / ' + total);
           }
-          fs.writeFileSync(englishPath, JSON.stringify(english, null, 2) + '\\n');
+          fs.writeFileSync(englishPath, JSON.stringify(english, null, 2) + String.fromCharCode(10));
           console.log('Merged English chapter overrides: 7 chapters, 700 MCQs; deployed English total: ' + total + '.');
           NODE
           cp data/contracts/v1/* _site/data/contracts/v1/
