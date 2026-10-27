@@ -61,7 +61,7 @@ function updateStats(){
   setText("progressText",total+" answers recorded on this device · "+progress.correct+" correct · "+progress.missed.length+" questions in your retry list.");
 }
 function allQuestions(){return chapters.flatMap(chapter=>chapter.questions.map(question=>({...question,chapter_no:chapter.chapter_no,chapterTitle:chapter.title})));}
-function selectedChapterIndexes(){const select=$("chapter");return Array.from(select.selectedOptions||[]).map(option=>Number(option.value)).filter(Number.isInteger);}
+function selectedChapterIndexes(){const select=$("chapter");if(!select.options)return chapters.map((_,i)=>i);return Array.from(select.selectedOptions||[]).map(option=>Number(option.value)).filter(Number.isInteger);}
 function selectedChapters(){return selectedChapterIndexes().map(i=>chapters[i]).filter(Boolean);}
 function updateChapterPickerSummary(){
   const chosen=selectedChapterIndexes(),count=chosen.reduce((sum,i)=>sum+(chapters[i]?chapters[i].questions.length:0),0);
