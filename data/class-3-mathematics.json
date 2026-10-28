@@ -9215,15 +9215,15 @@
       },
       {
         "id": "c3m08q005",
-        "question": "What is one-half of 16?",
+        "question": "A cake has 8 equal slices. Sam eats 2 slices. What fraction of the whole cake did Sam eat?",
         "options": [
-          "8",
-          "9",
-          "7",
-          "10"
+          "One-quarter",
+          "One-half",
+          "Two-thirds",
+          "One whole"
         ],
         "answer": 0,
-        "explanation": "Half means divide by 2: 16 ÷ 2 = 8.",
+        "explanation": "Sam ate 2 of 8 equal slices: 2/8 is the same as 1/4, or one-quarter.",
         "difficulty": "Medium"
       },
       {
