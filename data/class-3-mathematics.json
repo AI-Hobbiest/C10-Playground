@@ -6214,7 +6214,7 @@
       },
       {
         "id": "c3m05q076",
-        "question": "The description \"four straight sides\" belongs to which flat shape?",
+        "question": "The description \"four equal sides and four corners\" belongs to which flat shape?",
         "options": [
           "Triangle",
           "Circle",
@@ -6222,7 +6222,7 @@
           "Square"
         ],
         "answer": 3,
-        "explanation": "A square has four straight sides.",
+        "explanation": "A square has four equal sides and four corners. A rectangle has four corners but does not need all four sides to be equal.",
         "difficulty": "Medium"
       },
       {
