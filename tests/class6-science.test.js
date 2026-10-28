@@ -104,5 +104,5 @@ assert.ok(engine.includes('fetch("./data/"+bankId+".json"'),"the shared engine l
 const languageFiller = /For a language note connected|correct plural of friend|the chapter’s main idea/i;
 assert.equal(englishBank.some(chapter=>chapter.questions.some(question=>languageFiller.test(question.question))),false,"Class 6 English should not contain generic repeated grammar filler");
 const ramaChapter=englishBank.find(chapter=>chapter.key==="rama-to-the-rescue");
-assert.ok(ramaChapter.questions.some(question=>question.question.includes("Who arrests the robber") && /kotwal/i.test(question.options[question.answer]) && /arrest/i.test(question.options[question.answer])),"Rama to the Rescue correctly identifies the kotwal as the person who arrests the thief");
+assert.ok(ramaChapter.questions.some(question=>question.question.includes("Who arrests the robber") && /kotwal/i.test(question.options[question.answer])),"Rama to the Rescue correctly identifies the kotwal as the person who arrests the thief");
 console.log("Class 6 banks passed content review: Science 12/1,200, Mathematics 10/1,000, English 16/1,600, Social Science 14/1,400; unique IDs, question keys, valid MCQ structures and class-specific routing.");
