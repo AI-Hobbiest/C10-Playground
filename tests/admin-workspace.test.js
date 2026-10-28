@@ -9,7 +9,7 @@ assert.ok(html.includes("Admin publishing:") && html.includes("trusted repositor
 assert.ok(html.includes('id="centralStudentUsername"'),"admin can assign a distinct student username");
 assert.ok(manager.includes("apiReady&&protectedTabs.has(name)&&!isAdminAuthenticated()"),"authoring and report tabs require an authenticated administrator");
 for(const section of ["overview","banks","classes","knowledge","students","leaderboard","access","operations"])assert.ok(html.includes('data-tab="'+section+'"'),"missing Admin section "+section);
-for(const item of ["id=\"bankSubject\"","id=\"questionList\"","id=\"imageFile\"","id=\"addClassBtn\"","id=\"resourceFile\"","id=\"studentBackups\"","id=\"exportReportBtn\"","id=\"leaderboardTable\""])assert.ok(html.includes(item),"missing Admin control "+item);
+for(const item of ["id=\"bankClass\"","id=\"bankSubject\"","id=\"bankTargetTitle\"","id=\"questionList\"","id=\"imageFile\"","id=\"addClassBtn\"","id=\"resourceFile\"","id=\"studentBackups\"","id=\"exportReportBtn\"","id=\"leaderboardTable\""])assert.ok(html.includes(item),"missing Admin control "+item);
 assert.ok(html.includes("data/student-accounts.json") && html.includes("not secure authentication"),"flat-file account limits are disclosed");
 assert.ok(html.includes("staticAccountClass") && html.includes("updateStaticAccountClassBtn") && html.includes("students cannot edit their assigned class"),"flat-file account creation and admin-only class promotion controls exist");
 assert.ok(manager.includes('username:$("centralStudentUsername").value.trim().toLowerCase()'),"student creation submits a username separately from the Student ID");
@@ -43,7 +43,7 @@ class FakeElement{
  dispatch(type){for(const h of this.handlers[type]||[])h({target:this});}
 }
 const ids=[
-"statQuestions","statClasses","statStudents","questionBankInventoryStatus","questionBankInventory","overviewStatus","centralStudentUsername","bankSubject","loadBankBtn","chooseBankBtn","bankFile","bankStatus","bankChapter","newChapterTitle","addChapterBtn","renameChapterBtn","deleteChapterBtn","questionList","newQuestionBtn","questionEditorTitle","qId","qDifficulty","qPrompt","qOption0","qOption1","qOption2","qOption3","qAnswer","qExplanation","imageFile","imagePath","imageAlt","imageCaption","addImageBtn","questionImageList","pendingAssets","saveQuestionBtn","exportBankBtn","deleteQuestionBtn","classId","classLabel","addClassBtn","exportClassesBtn","reloadClassesBtn","classesStatus","classesTable","resourceFile","resourceTitle","resourceType","resourceSubject","resourceChapter","resourcePath","resourceRights","addResourceBtn","exportManifestBtn","importManifestBtn","manifestFile","knowledgeStatus","pendingResources","knowledgeTable","studentBackups","clearStudentsBtn","exportReportBtn","studentStatus","studentsTable","leaderClass","leaderSubject","leaderboardStatus","leaderboardTable","exportLeaderboardBtn","profileEditorModal","closeProfileEditor","editStudentName","editStudentClass","editStudentSchool","editStudentCity","editStudentState","saveStudentProfileBtn","downloadStudentBackupBtn","studentEditStatus"
+"statQuestions","statClasses","statStudents","bankClass","bankTargetTitle","bankTargetPath","bankTargetStatus","bankChapterTotal","bankQuestionTotal","bankDraftState","questionBankInventoryStatus","questionBankInventory","overviewStatus","centralStudentUsername","bankSubject","loadBankBtn","chooseBankBtn","bankFile","bankStatus","bankChapter","newChapterTitle","addChapterBtn","renameChapterBtn","deleteChapterBtn","questionList","newQuestionBtn","questionEditorTitle","qId","qDifficulty","qPrompt","qOption0","qOption1","qOption2","qOption3","qAnswer","qExplanation","imageFile","imagePath","imageAlt","imageCaption","addImageBtn","questionImageList","pendingAssets","saveQuestionBtn","exportBankBtn","deleteQuestionBtn","classId","classLabel","addClassBtn","exportClassesBtn","reloadClassesBtn","classesStatus","classesTable","resourceFile","resourceTitle","resourceType","resourceSubject","resourceChapter","resourcePath","resourceRights","addResourceBtn","exportManifestBtn","importManifestBtn","manifestFile","knowledgeStatus","pendingResources","knowledgeTable","studentBackups","clearStudentsBtn","exportReportBtn","studentStatus","studentsTable","leaderClass","leaderSubject","leaderboardStatus","leaderboardTable","exportLeaderboardBtn","profileEditorModal","closeProfileEditor","editStudentName","editStudentClass","editStudentSchool","editStudentCity","editStudentState","saveStudentProfileBtn","downloadStudentBackupBtn","studentEditStatus"
 ];
 const elements={};ids.forEach(id=>elements[id]=new FakeElement(id));
 elements.bankSubject.value="science";elements.bankChapter.value="0";
@@ -71,7 +71,7 @@ const context={
   const path=String(url).split("?")[0].split("/").pop();
   if(path==="classes.json")return {ok:true,json:async()=>classes};
   if(path==="knowledge-base.json")return {ok:true,json:async()=>manifest};
-  if(path==="science.json")return {ok:true,json:async()=>miniBank};
+  if(path==="science.json"||path==="class-6-social-science.json")return {ok:true,json:async()=>miniBank};
   return {ok:false,status:404,json:async()=>({})};
  },
  window:{},URLSearchParams
@@ -84,12 +84,21 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
 
 (async()=>{
  await delay();await delay();
- assert.equal(elements.statQuestions.textContent,"2","published question summary counts actual bank records");
+ assert.equal(elements.statQuestions.textContent,"4","published question summary counts actual bank records from available class-specific banks");
  assert.equal(elements.statClasses.textContent,"7","class catalogue loaded");
- assert.ok(elements.questionBankInventoryStatus.textContent.includes("2 questions counted across 1 available primary banks"),"question-bank inventory dynamically totals available JSON banks");
+ assert.ok(elements.questionBankInventoryStatus.textContent.includes("4 questions counted across 2 available primary banks"),"question-bank inventory dynamically totals available JSON banks");
  assert.equal(elements.questionBankInventory.children[0].children[1].children.length,9,"inventory lists all eight supported bank files and a total row");
  assert.equal(elements.questionBankInventory.children[0].children[1].children[7].children[0].textContent,"Class 6 · Social Science","Class 6 Social Science appears in the Admin inventory");
  assert.ok(elements.questionList.children.length===2,"questions render in the Admin editor");
+
+ // Switching class filters the subject choices and loads the class-specific path.
+ elements.bankClass.value="6";elements.bankClass.dispatch("change");
+ await delay();await delay();
+ assert.ok(elements.bankSubject.options.some(option=>option.value==="social-science"),"Class 6 exposes its Social Science bank");
+ elements.bankSubject.value="social-science";elements.bankSubject.dispatch("change");
+ await delay();await delay();
+ assert.ok(elements.bankStatus.textContent.includes("Class 6 · Social Science"),"Class 6 Social Science loads as a distinct bank");
+ assert.equal(elements.bankTargetPath.textContent,"Published file: data/class-6-social-science.json","selected class-subject displays its actual JSON path");
 
  // Add a question draft and export a JSON bank.
  elements.newQuestionBtn.click();

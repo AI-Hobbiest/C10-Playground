@@ -13,7 +13,7 @@
   const EMPTY_MANIFEST={schemaVersion:1,kind:"knowledge-base-manifest",resources:[]};
   let classCatalog=structuredCloneSafe(EMPTY_CLASSES);
   let knowledgeManifest=structuredCloneSafe(EMPTY_MANIFEST);
-  let bankSubject="science",bank=[],selectedChapter=0,selectedQuestion=-1,selectedImages=[];
+  let bankClassId="10",bankSubject="science",bank=[],selectedChapter=0,selectedQuestion=-1,selectedImages=[];
   let bankDirty=false,bankLoaded=false,classesDirty=false,manifestDirty=false;
   let pendingAssets=[],selectedImageFile=null,selectedImageUrl="";
   let pendingResources=[],selectedResourceFile=null,selectedResourceUrl="";
@@ -23,15 +23,17 @@
   let publishedQuestionTotal=null;
   let publishedBankInventory=[];
 
+  // The Admin editor is keyed by class + subject, not by subject alone.
+  // Paths are explicit because Class 10 uses legacy filenames while Class 6 uses class-prefixed files.
   const PUBLISHED_QUESTION_BANKS=[
-    {path:"science.json",label:"Class 10 · Science"},
-    {path:"mathematics.json",label:"Class 10 · Mathematics"},
-    {path:"english.json",label:"Class 10 · English"},
-    {path:"social-science.json",label:"Class 10 · Social Science"},
-    {path:"hindi.json",label:"Class 10 · Hindi"},
-    {path:"class-6-science.json",label:"Class 6 · Science"},
-    {path:"class-6-mathematics.json",label:"Class 6 · Mathematics"},
-    {path:"class-6-social-science.json",label:"Class 6 · Social Science"}
+    {classId:"10",classLabel:"Class 10",subject:"science",path:"science.json",label:"Class 10 · Science"},
+    {classId:"10",classLabel:"Class 10",subject:"mathematics",path:"mathematics.json",label:"Class 10 · Mathematics"},
+    {classId:"10",classLabel:"Class 10",subject:"english",path:"english.json",label:"Class 10 · English"},
+    {classId:"10",classLabel:"Class 10",subject:"social-science",path:"social-science.json",label:"Class 10 · Social Science"},
+    {classId:"10",classLabel:"Class 10",subject:"hindi",path:"hindi.json",label:"Class 10 · Hindi"},
+    {classId:"6",classLabel:"Class 6",subject:"science",path:"class-6-science.json",label:"Class 6 · Science"},
+    {classId:"6",classLabel:"Class 6",subject:"mathematics",path:"class-6-mathematics.json",label:"Class 6 · Mathematics"},
+    {classId:"6",classLabel:"Class 6",subject:"social-science",path:"class-6-social-science.json",label:"Class 6 · Social Science"}
   ];
 
   function structuredCloneSafe(value){return JSON.parse(JSON.stringify(value));}
@@ -74,6 +76,49 @@
     const found=classCatalog.classes.find(item=>String(item.classId)===String(id));
     return found?found.label:(id?"Class "+id:"—");
   }
+  function bankDefinition(classId,subject){
+    return PUBLISHED_QUESTION_BANKS.find(item=>String(item.classId)===String(classId)&&item.subject===subject)||null;
+  }
+  function selectedBankDefinition(){
+    return bankDefinition($("bankClass")&&$("bankClass").value||bankClassId,$("bankSubject")&&$("bankSubject").value||bankSubject);
+  }
+  function renderBankTargetSummary(){
+    const definition=selectedBankDefinition();
+    if(!definition)return;
+    const loaded=bankLoaded&&bankClassId===definition.classId&&bankSubject===definition.subject;
+    const inventory=publishedBankInventory.find(item=>item.path===definition.path);
+    $("bankTargetTitle").textContent=definition.label;
+    $("bankTargetPath").textContent="Published file: data/"+definition.path;
+    $("bankTargetStatus").textContent=loaded?"This bank is open in the editor. Changes are local until exported.":"Select “Load selected bank” to open this published bank.";
+    $("bankChapterTotal").textContent=loaded?bank.length.toLocaleString():(inventory&&inventory.chapters!==null?inventory.chapters.toLocaleString():"—");
+    $("bankQuestionTotal").textContent=loaded?questionCount().toLocaleString():(inventory&&inventory.questions!==null?inventory.questions.toLocaleString():"—");
+    $("bankDraftState").textContent=loaded?(bankDirty?"Draft edits":"Loaded"):(inventory&&!inventory.error?"Published":"Not loaded");
+  }
+  function renderBankSelectors(preferredClassId){
+    const classSelect=$("bankClass"),subjectSelect=$("bankSubject");
+    if(!classSelect||!subjectSelect)return;
+    const classIds=[...new Set(PUBLISHED_QUESTION_BANKS.map(item=>String(item.classId)))].sort((a,b)=>Number(a)-Number(b));
+    const requested=String(preferredClassId||classSelect.value||bankClassId||"10");
+    classSelect.innerHTML="";
+    classIds.forEach(id=>{const item=PUBLISHED_QUESTION_BANKS.find(entry=>String(entry.classId)===id);const option=make("option","",item.classLabel||classLabel(id));option.value=id;classSelect.appendChild(option);});
+    const classId=classIds.includes(requested)?requested:(classIds.includes("10")?"10":classIds[0]);
+    classSelect.value=classId;
+    const oldSubject=subjectSelect.value||bankSubject;
+    const options=PUBLISHED_QUESTION_BANKS.filter(item=>String(item.classId)===classId);
+    const subject=options.some(item=>item.subject===oldSubject)?oldSubject:options[0].subject;
+    subjectSelect.innerHTML="";
+    options.forEach(item=>{const option=make("option","",SUBJECTS[item.subject]||item.subject);option.value=item.subject;subjectSelect.appendChild(option);});
+    subjectSelect.value=subject;
+    renderBankTargetSummary();
+  }
+  function restoreLoadedBankSelection(){
+    $("bankClass").value=bankClassId;
+    $("bankSubject").value=bankSubject;
+    renderBankSelectors(bankClassId);
+    $("bankSubject").value=bankSubject;
+    renderBankTargetSummary();
+  }
+
   function setTab(name){
     const protectedTabs=new Set(["banks","classes","knowledge","students","leaderboard","operations"]);
     const apiReady=!!(window.C10Api&&window.C10Api.isConfigured());
@@ -147,21 +192,28 @@
   function setBankDirty(message){
     bankDirty=true;
     setStatus("bankStatus",(message||"Question bank has draft changes.")+" Export the bank JSON before leaving this workspace.");
-    updateSummary();
+    updateSummary();renderBankTargetSummary();
   }
   async function loadBank(){
-    const subject=$("bankSubject").value;
-    if(bankDirty&&!confirm("Discard unexported question-bank drafts and load another bank?"))return;
-    bankSubject=subject;setStatus("bankStatus","Loading "+SUBJECTS[subject]+" bank…");
+    const definition=selectedBankDefinition();
+    if(!definition){setStatus("bankStatus","Choose a supported class and subject first.","error");return;}
+    if(bankDirty&&!confirm("Discard unexported question-bank drafts and load another bank?")){
+      restoreLoadedBankSelection();return;
+    }
+    bankClassId=String(definition.classId);bankSubject=definition.subject;
+    setStatus("bankStatus","Loading "+definition.label+"…");
     try{
-      const response=await fetch("./data/"+subject+".json",{cache:"no-store"});
-      if(!response.ok)throw new Error("Could not load published bank (HTTP "+response.status+").");
+      const response=await fetch("./data/"+definition.path,{cache:"no-store"});
+      if(!response.ok)throw new Error("Could not load "+definition.label+" (HTTP "+response.status+").");
       const data=await response.json();
-      bank=normalizeImportedBank(data,subject);validateBank(bank);
+      bank=normalizeImportedBank(data,bankSubject);validateBank(bank);
       bankLoaded=true;bankDirty=false;selectedChapter=0;selectedQuestion=-1;
-      renderChapters();renderQuestions();clearQuestionEditor();updateSummary();
-      setStatus("bankStatus","Loaded "+SUBJECTS[subject]+": "+bank.length+" chapters and "+questionCount()+" questions.","success");
-    }catch(error){bank=[];bankLoaded=false;renderChapters();renderQuestions();clearQuestionEditor();setStatus("bankStatus",error.message||"Unable to load bank.","error");updateSummary();}
+      renderChapters();renderQuestions();clearQuestionEditor();updateSummary();renderBankTargetSummary();
+      setStatus("bankStatus","Loaded "+definition.label+": "+bank.length+" chapters and "+questionCount()+" questions.","success");
+    }catch(error){
+      bank=[];bankLoaded=false;renderChapters();renderQuestions();clearQuestionEditor();
+      setStatus("bankStatus",error.message||"Unable to load bank.","error");updateSummary();renderBankTargetSummary();
+    }
   }
   function renderChapters(){
     const select=$("bankChapter");select.innerHTML="";
@@ -269,9 +321,11 @@
   function exportBank(){
     if(!bankLoaded){setStatus("bankStatus","Load a bank first.","error");return;}
     try{validateBank(bank);}catch(error){setStatus("bankStatus","Cannot export: "+error.message,"error");return;}
-    downloadJson(bank,""+bankSubject+".json");bankDirty=false;
-    setStatus("bankStatus","Exported "+bankSubject+".json. Review and upload it to data/"+bankSubject+".json in GitHub. Download all new image assets and place them at their referenced paths.","success");
-    updateSummary();
+    const definition=bankDefinition(bankClassId,bankSubject);
+    const filename=definition?definition.path.split("/").pop():bankSubject+".json";
+    downloadJson(bank,filename);bankDirty=false;
+    setStatus("bankStatus","Exported "+filename+". Review and upload it to data/"+filename+" in GitHub. Download all new image assets and place them at their referenced paths.","success");
+    updateSummary();renderBankTargetSummary();
   }
   async function importBank(event){
     const file=event.target.files&&event.target.files[0];event.target.value="";if(!file)return;
@@ -294,7 +348,7 @@
     selectedImageUrl=URL.createObjectURL(selectedImageFile);
     const ext=selectedImageFile.name.includes(".")?selectedImageFile.name.split(".").pop().toLowerCase():"png";
     const stem=slug(selectedImageFile.name.replace(/\.[^.]+$/,""));
-    $("imagePath").value="./assets/questions/"+bankSubject+"/"+stem+"."+ext;
+    $("imagePath").value="./assets/questions/class-"+bankClassId+"/"+bankSubject+"/"+stem+"."+ext;
     if(!$("imageAlt").value.trim())$("imageAlt").value=selectedImageFile.name.replace(/\.[^.]+$/,"").replace(/[-_]+/g," ");
     setStatus("bankStatus","Selected "+selectedImageFile.name+". Add alt text, then attach it to the question.");
   }
@@ -344,7 +398,7 @@
       if(!response.ok)throw new Error("Could not load classes.json.");
       const data=await response.json();
       if(!data||data.kind!=="class-catalog"||!Array.isArray(data.classes))throw new Error("Published class catalogue has an invalid shape.");
-      classCatalog=data;classesDirty=false;renderClasses();renderLeaderClassOptions();updateSummary();setStatus("classesStatus","Loaded "+activeClasses().length+" active classes.","success");
+      classCatalog=data;classesDirty=false;renderClasses();renderLeaderClassOptions();renderBankSelectors(bankClassId);updateSummary();setStatus("classesStatus","Loaded "+activeClasses().length+" active classes.","success");
       setStatus("overviewStatus","Class catalogue and knowledge-base manifest loaded. This workspace prepares local drafts; it does not publish files.");
     }catch(error){setStatus("classesStatus",error.message||"Class catalogue failed to load.","error");}
   }
@@ -627,6 +681,7 @@
     $("statQuestions").textContent=publishedQuestionTotal===null?"…":publishedQuestionTotal.toLocaleString();
     $("statClasses").textContent=String(activeClasses().length);
     $("statStudents").textContent=String(studentBackups.length);
+    renderBankTargetSummary();
   }
 
   function countBankQuestions(data){
@@ -668,7 +723,7 @@
       }
     }));
     publishedQuestionTotal=publishedBankInventory.reduce((total,record)=>total+(Number.isFinite(record.questions)?record.questions:0),0);
-    renderQuestionBankInventory();
+    renderQuestionBankInventory();renderBankTargetSummary();
     updateSummary();
     const available=publishedBankInventory.filter(record=>!record.error).length;
     const missing=publishedBankInventory.filter(record=>record.error);
@@ -892,6 +947,7 @@
   function init(){
     initTabs();
     initAdminAuth();
+    renderBankSelectors(bankClassId);
     $("createCentralStudentBtn").addEventListener("click",createCentralStudent);
     $("refreshCentralStudentsBtn").addEventListener("click",refreshCentralStudents);
     $("copyCentralTempPasswordBtn").addEventListener("click",async()=>{
@@ -912,14 +968,14 @@
     $("liveLeaderClass").addEventListener("change",refreshLiveLeaderboard);
     $("liveLeaderSubject").addEventListener("change",refreshLiveLeaderboard);
 
+    $("bankClass").addEventListener("change",()=>{
+      renderBankSelectors($("bankClass").value);
+      loadBank();
+    });
+    $("bankSubject").addEventListener("change",loadBank);
     $("loadBankBtn").addEventListener("click",loadBank);
     $("chooseBankBtn").addEventListener("click",()=>$("bankFile").click());
     $("bankFile").addEventListener("change",importBank);
-    $("bankSubject").addEventListener("change",()=>{
-      const next=$("bankSubject").value;if(next===bankSubject)return;
-      loadBank();
-      if(bankSubject!==next)$("bankSubject").value=bankSubject;
-    });
     $("bankChapter").addEventListener("change",()=>{selectedChapter=Number($("bankChapter").value)||0;selectedQuestion=-1;renderQuestions();clearQuestionEditor();});
     $("addChapterBtn").addEventListener("click",addChapter);
     $("renameChapterBtn").addEventListener("click",renameChapter);

@@ -82,3 +82,17 @@
 /* Admin navigation is provided by the shared app sidebar. */
 .admin-tabs{display:none!important}
 .admin-workspace{grid-template-columns:minmax(0,1fr)}
+
+
+/* Class-first question bank browser and at-a-glance bank status. */
+.admin-bank-selection{display:grid;gap:13px;padding:15px;border:1px solid var(--c10-line);border-radius:16px;background:linear-gradient(135deg,#fbfaff,#fff)}
+.admin-bank-toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.admin-bank-context{display:grid;gap:4px;min-width:220px}
+.admin-bank-context strong{font-size:1rem;color:var(--c10-ink)}
+.admin-bank-context span{font-size:.78rem;color:var(--c10-muted);line-height:1.4;overflow-wrap:anywhere}
+.admin-bank-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.admin-bank-metric{display:grid;gap:5px;min-width:0;padding:12px 13px;border:1px solid var(--c10-line);border-radius:12px;background:#fff}
+.admin-bank-metric strong{font-size:1.2rem;line-height:1.2;color:var(--c10-ink);overflow-wrap:anywhere}
+.admin-bank-metric span{font-size:.74rem;color:var(--c10-muted)}
+.admin-bank-metric:nth-child(3) strong{font-size:.95rem}
+@media(max-width:600px){.admin-bank-selection{padding:11px}.admin-bank-metrics{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.admin-bank-metric{padding:9px 7px}.admin-bank-metric strong{font-size:1rem}.admin-bank-metric span{font-size:.68rem}.admin-bank-toolbar .admin-actions{width:100%}.admin-bank-toolbar .admin-btn{flex:1}}

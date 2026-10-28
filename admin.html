@@ -68,13 +68,33 @@
       </section>
 
       <section class="admin-panel" id="tab-banks">
-        <h2>Question bank editor</h2>
-        <p class="admin-muted">Changes are drafts in this workspace. Export the JSON and all referenced image assets, then publish them together via GitHub. Digital question-bank PDFs will be handled by the next builder phase.</p>
-        <div class="admin-form-grid">
-          <div class="admin-field"><label for="bankSubject">Subject</label><select id="bankSubject"><option value="science">Science</option><option value="mathematics">Mathematics</option><option value="english">English</option><option value="social-science">Social Science</option><option value="hindi">Hindi</option></select></div>
-          <div class="admin-field"><label>Load or import bank JSON</label><div class="admin-actions"><button class="admin-btn secondary" type="button" id="loadBankBtn">Load published bank</button><button class="admin-btn secondary" type="button" id="chooseBankBtn">Import JSON</button><input hidden type="file" id="bankFile" accept=".json,application/json"></div></div>
+        <h2>Question banks</h2>
+        <p class="admin-muted">Browse the banks by class first, then subject. Each published class–subject combination points to its own JSON file. Edits stay local until you export the bank and publish the file through GitHub.</p>
+        <div class="admin-bank-selection">
+          <div class="admin-form-grid">
+            <div class="admin-field"><label for="bankClass">Class</label><select id="bankClass" aria-describedby="bankSelectionHelp"></select></div>
+            <div class="admin-field"><label for="bankSubject">Subject</label><select id="bankSubject" aria-describedby="bankSelectionHelp"></select></div>
+            <p class="admin-inline-help full" id="bankSelectionHelp">Only published banks are listed here. Choosing another class or subject loads that bank and asks before discarding unsaved draft edits.</p>
+          </div>
+          <div class="admin-bank-toolbar">
+            <div class="admin-bank-context">
+              <strong id="bankTargetTitle">Class 10 · Science</strong>
+              <span id="bankTargetPath">Published file: data/science.json</span>
+              <span id="bankTargetStatus">Choose a bank to view its current contents.</span>
+            </div>
+            <div class="admin-actions">
+              <button class="admin-btn" type="button" id="loadBankBtn">Load selected bank</button>
+              <button class="admin-btn secondary" type="button" id="chooseBankBtn">Import JSON</button>
+              <input hidden type="file" id="bankFile" accept=".json,application/json">
+            </div>
+          </div>
+          <div class="admin-bank-metrics" aria-label="Selected question bank summary">
+            <div class="admin-bank-metric"><strong id="bankChapterTotal">—</strong><span>Chapters</span></div>
+            <div class="admin-bank-metric"><strong id="bankQuestionTotal">—</strong><span>Questions</span></div>
+            <div class="admin-bank-metric"><strong id="bankDraftState">Not loaded</strong><span>Selected bank status</span></div>
+          </div>
         </div>
-        <div id="bankStatus" class="admin-status" role="status">Choose a subject and load its published bank.</div>
+        <div id="bankStatus" class="admin-status" role="status">Choose a class and subject.</div>
         <hr class="admin-rule">
         <div class="admin-split">
           <div class="admin-content">
