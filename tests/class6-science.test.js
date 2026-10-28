@@ -100,4 +100,9 @@ assert.ok(engine.includes('classId === "6" && ["science","mathematics","english"
 assert.ok(engine.includes('sessionStorage.getItem("c10playground_static_student_v1")'),"quiz engine reads the same static student session as the navigation");
 assert.ok(engine.includes('recordId:bankId'),"progress and attempts are isolated by class-specific bank");
 assert.ok(engine.includes('fetch("./data/"+bankId+".json"'),"the shared engine loads the selected class bank");
-console.log("Class 6 banks passed: Science 12/1,200, Mathematics 10/1,000, English 16/1,600, Social Science 14/1,400; unique IDs, question keys, valid MCQ structures and class-specific routing.");
+
+const languageFiller = /For a language note connected|correct plural of friend|the chapter’s main idea/i;
+assert.equal(englishBank.some(chapter=>chapter.questions.some(question=>languageFiller.test(question.question))),false,"Class 6 English should not contain generic repeated grammar filler");
+const ramaChapter=englishBank.find(chapter=>chapter.key==="rama-to-the-rescue");
+assert.ok(ramaChapter.questions.some(question=>question.question.includes("Who arrests the robber") && /kotwal/i.test(question.options[question.answer]) && /arrest/i.test(question.options[question.answer])),"Rama to the Rescue correctly identifies the kotwal as the person who arrests the thief");
+console.log("Class 6 banks passed content review: Science 12/1,200, Mathematics 10/1,000, English 16/1,600, Social Science 14/1,400; unique IDs, question keys, valid MCQ structures and class-specific routing.");
