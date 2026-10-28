@@ -43,7 +43,7 @@ class FakeElement{
  dispatch(type){for(const h of this.handlers[type]||[])h({target:this});}
 }
 const ids=[
-"statQuestions","statClasses","statStudents","overviewStatus","centralStudentUsername","bankSubject","loadBankBtn","chooseBankBtn","bankFile","bankStatus","bankChapter","newChapterTitle","addChapterBtn","renameChapterBtn","deleteChapterBtn","questionList","newQuestionBtn","questionEditorTitle","qId","qDifficulty","qPrompt","qOption0","qOption1","qOption2","qOption3","qAnswer","qExplanation","imageFile","imagePath","imageAlt","imageCaption","addImageBtn","questionImageList","pendingAssets","saveQuestionBtn","exportBankBtn","deleteQuestionBtn","classId","classLabel","addClassBtn","exportClassesBtn","reloadClassesBtn","classesStatus","classesTable","resourceFile","resourceTitle","resourceType","resourceSubject","resourceChapter","resourcePath","resourceRights","addResourceBtn","exportManifestBtn","importManifestBtn","manifestFile","knowledgeStatus","pendingResources","knowledgeTable","studentBackups","clearStudentsBtn","exportReportBtn","studentStatus","studentsTable","leaderClass","leaderSubject","leaderboardStatus","leaderboardTable","exportLeaderboardBtn","profileEditorModal","closeProfileEditor","editStudentName","editStudentClass","editStudentSchool","editStudentCity","editStudentState","saveStudentProfileBtn","downloadStudentBackupBtn","studentEditStatus"
+"statQuestions","statClasses","statStudents","questionBankInventoryStatus","questionBankInventory","overviewStatus","centralStudentUsername","bankSubject","loadBankBtn","chooseBankBtn","bankFile","bankStatus","bankChapter","newChapterTitle","addChapterBtn","renameChapterBtn","deleteChapterBtn","questionList","newQuestionBtn","questionEditorTitle","qId","qDifficulty","qPrompt","qOption0","qOption1","qOption2","qOption3","qAnswer","qExplanation","imageFile","imagePath","imageAlt","imageCaption","addImageBtn","questionImageList","pendingAssets","saveQuestionBtn","exportBankBtn","deleteQuestionBtn","classId","classLabel","addClassBtn","exportClassesBtn","reloadClassesBtn","classesStatus","classesTable","resourceFile","resourceTitle","resourceType","resourceSubject","resourceChapter","resourcePath","resourceRights","addResourceBtn","exportManifestBtn","importManifestBtn","manifestFile","knowledgeStatus","pendingResources","knowledgeTable","studentBackups","clearStudentsBtn","exportReportBtn","studentStatus","studentsTable","leaderClass","leaderSubject","leaderboardStatus","leaderboardTable","exportLeaderboardBtn","profileEditorModal","closeProfileEditor","editStudentName","editStudentClass","editStudentSchool","editStudentCity","editStudentState","saveStudentProfileBtn","downloadStudentBackupBtn","studentEditStatus"
 ];
 const elements={};ids.forEach(id=>elements[id]=new FakeElement(id));
 elements.bankSubject.value="science";elements.bankChapter.value="0";
@@ -68,9 +68,10 @@ const context={
  Blob,URL:{createObjectURL:blob=>{context.lastBlob=blob;return "blob:mock";},revokeObjectURL:()=>{}},
  setTimeout:()=>0,confirm:()=>true,prompt:(message,value)=>value,
  fetch:async url=>{
-  if(String(url).includes("classes.json"))return {ok:true,json:async()=>classes};
-  if(String(url).includes("knowledge-base.json"))return {ok:true,json:async()=>manifest};
-  if(String(url).includes("science.json"))return {ok:true,json:async()=>miniBank};
+  const path=String(url).split("?")[0].split("/").pop();
+  if(path==="classes.json")return {ok:true,json:async()=>classes};
+  if(path==="knowledge-base.json")return {ok:true,json:async()=>manifest};
+  if(path==="science.json")return {ok:true,json:async()=>miniBank};
   return {ok:false,status:404,json:async()=>({})};
  },
  window:{},URLSearchParams
@@ -83,8 +84,10 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
 
 (async()=>{
  await delay();await delay();
- assert.equal(elements.statQuestions.textContent,"2","published starter bank loaded");
+ assert.equal(elements.statQuestions.textContent,"2","published question summary counts actual bank records");
  assert.equal(elements.statClasses.textContent,"7","class catalogue loaded");
+ assert.ok(elements.questionBankInventoryStatus.textContent.includes("2 questions counted across 1 available primary banks"),"question-bank inventory dynamically totals available JSON banks");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children.length,8,"inventory lists all seven supported bank files and a total row");
  assert.ok(elements.questionList.children.length===2,"questions render in the Admin editor");
 
  // Add a question draft and export a JSON bank.
