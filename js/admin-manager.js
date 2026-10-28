@@ -24,13 +24,14 @@
   let publishedBankInventory=[];
 
   // The Admin editor is keyed by class + subject, not by subject alone.
-  // Paths are explicit because Class 10 uses legacy filenames while Class 6 uses class-prefixed files.
+  // Paths are explicit because Class 10 uses legacy filenames while Classes 3 and 6 use class-prefixed files.
   const PUBLISHED_QUESTION_BANKS=[
     {classId:"10",classLabel:"Class 10",subject:"science",path:"science.json",label:"Class 10 · Science"},
     {classId:"10",classLabel:"Class 10",subject:"mathematics",path:"mathematics.json",label:"Class 10 · Mathematics"},
     {classId:"10",classLabel:"Class 10",subject:"english",path:"english.json",label:"Class 10 · English"},
     {classId:"10",classLabel:"Class 10",subject:"social-science",path:"social-science.json",label:"Class 10 · Social Science"},
     {classId:"10",classLabel:"Class 10",subject:"hindi",path:"hindi.json",label:"Class 10 · Hindi"},
+    {classId:"3",classLabel:"Class 3",subject:"mathematics",path:"class-3-mathematics.json",label:"Class 3 · Mathematics"},
     {classId:"6",classLabel:"Class 6",subject:"science",path:"class-6-science.json",label:"Class 6 · Science"},
     {classId:"6",classLabel:"Class 6",subject:"mathematics",path:"class-6-mathematics.json",label:"Class 6 · Mathematics"},
     {classId:"6",classLabel:"Class 6",subject:"english",path:"class-6-english.json",label:"Class 6 · English"},
