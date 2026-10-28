@@ -7,132 +7,132 @@
     "questions": [
       {
         "id": "c3m01q001",
-        "question": "A class records 6 mangoes in its survey. How many mangoes were counted?",
+        "question": "A class survey finds 8 children like mangoes, 5 like bananas and 7 like apples. Which fruit is most popular?",
         "options": [
-          "6",
-          "7",
-          "5",
-          "8"
+          "Mangoes",
+          "Bananas",
+          "Apples",
+          "All are equally popular"
         ],
         "answer": 0,
-        "explanation": "Each item is counted once, giving a total of 6.",
+        "explanation": "8 is the greatest of the three counts.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m01q002",
-        "question": "A class records 7 laddoos in its survey. How many laddoos were counted?",
+        "question": "In a tally chart, one group has 12 votes and another has 9. How many more votes did the first group get?",
         "options": [
-          "9",
-          "7",
-          "8",
-          "6"
+          "21",
+          "3",
+          "2",
+          "4"
         ],
         "answer": 1,
-        "explanation": "Each item is counted once, giving a total of 7.",
+        "explanation": "12 − 9 = 3 votes.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m01q003",
-        "question": "A class records 8 books in its survey. How many books were counted?",
+        "question": "A pictograph shows 4 stars for birds. If each star means 2 birds, how many birds were counted?",
         "options": [
           "7",
-          "10",
+          "6",
           "8",
-          "9"
+          "4"
         ],
         "answer": 2,
-        "explanation": "Each item is counted once, giving a total of 8.",
+        "explanation": "4 × 2 = 8 birds.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m01q004",
-        "question": "A class records 9 leaves in its survey. How many leaves were counted?",
+        "question": "A class counts 6 red kites and 6 blue kites. What can you conclude?",
         "options": [
-          "10",
-          "8",
-          "11",
-          "9"
+          "There are 12 red kites",
+          "There are twice as many blue kites",
+          "There are no kites",
+          "The two groups are equal in number"
         ],
         "answer": 3,
-        "explanation": "Each item is counted once, giving a total of 9.",
+        "explanation": "Both groups contain 6 kites.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m01q005",
-        "question": "A class records 10 kites in its survey. How many kites were counted?",
+        "question": "A survey records 14 children choosing cricket and 11 choosing football. How many children chose either sport altogether?",
         "options": [
-          "10",
-          "11",
-          "9",
-          "12"
+          "25",
+          "3",
+          "24",
+          "26"
         ],
         "answer": 0,
-        "explanation": "Each item is counted once, giving a total of 10.",
+        "explanation": "14 + 11 = 25 children.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m01q006",
-        "question": "A class records 11 shells in its survey. How many shells were counted?",
+        "question": "Which is the clearest way to record repeated counts during a survey?",
         "options": [
-          "13",
-          "11",
-          "12",
-          "10"
+          "A calendar",
+          "A tally chart",
+          "A weighing scale",
+          "A clock face"
         ],
         "answer": 1,
-        "explanation": "Each item is counted once, giving a total of 11.",
+        "explanation": "Tally marks help organise survey results.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m01q007",
-        "question": "A class records 12 stickers in its survey. How many stickers were counted?",
+        "question": "A chart shows 15 children walk to school and 8 come by bus. How many more walk than come by bus?",
         "options": [
-          "11",
-          "14",
-          "12",
-          "13"
+          "23",
+          "6",
+          "7",
+          "8"
         ],
         "answer": 2,
-        "explanation": "Each item is counted once, giving a total of 12.",
+        "explanation": "15 − 8 = 7 children.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m01q008",
-        "question": "A class records 13 marbles in its survey. How many marbles were counted?",
+        "question": "A pictograph uses one picture to represent 5 books. What do 3 pictures represent?",
         "options": [
-          "14",
-          "12",
-          "15",
-          "13"
+          "8 books",
+          "10 books",
+          "20 books",
+          "15 books"
         ],
         "answer": 3,
-        "explanation": "Each item is counted once, giving a total of 13.",
+        "explanation": "3 groups of 5 make 15 books.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m01q009",
-        "question": "A class records 14 flowers in its survey. How many flowers were counted?",
+        "question": "Four groups have counts 9, 13, 7 and 11. Which group has the fewest?",
         "options": [
-          "14",
-          "15",
-          "13",
-          "16"
+          "The group with 7",
+          "The group with 9",
+          "The group with 11",
+          "The group with 13"
         ],
         "answer": 0,
-        "explanation": "Each item is counted once, giving a total of 14.",
+        "explanation": "7 is the smallest count.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m01q010",
-        "question": "A class records 15 toffees in its survey. How many toffees were counted?",
+        "question": "A class has 18 votes for a story and 16 for a poem. How many votes were cast altogether?",
         "options": [
-          "17",
-          "15",
-          "16",
-          "14"
+          "2",
+          "34",
+          "32",
+          "35"
         ],
         "answer": 1,
-        "explanation": "Each item is counted once, giving a total of 15.",
+        "explanation": "18 + 16 = 34 votes.",
         "difficulty": "Challenge"
       },
       {
@@ -2623,132 +2623,132 @@
     "questions": [
       {
         "id": "c3m03q001",
-        "question": "What number comes immediately before 120?",
+        "question": "Which number is 10 more than 146?",
         "options": [
-          "119",
-          "120",
-          "118",
-          "121"
+          "156",
+          "145",
+          "150",
+          "246"
         ],
         "answer": 0,
-        "explanation": "One less than 120 is 119.",
+        "explanation": "146 + 10 = 156.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m03q002",
-        "question": "What number comes immediately before 123?",
+        "question": "Arrange 198, 189 and 201 from smallest to greatest.",
         "options": [
-          "124",
-          "122",
-          "123",
-          "121"
+          "198, 189, 201",
+          "189, 198, 201",
+          "201, 198, 189",
+          "189, 201, 198"
         ],
         "answer": 1,
-        "explanation": "One less than 123 is 122.",
+        "explanation": "Compare the hundreds, then tens and ones.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m03q003",
-        "question": "What number comes immediately before 126?",
+        "question": "A number line starts at 175. Move forward 5 steps of 1. Where do you land?",
         "options": [
-          "124",
-          "127",
-          "125",
-          "126"
+          "170",
+          "185",
+          "180",
+          "176"
         ],
         "answer": 2,
-        "explanation": "One less than 126 is 125.",
+        "explanation": "175 + 5 = 180.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m03q004",
-        "question": "What number comes immediately before 129?",
+        "question": "Which number lies between 199 and 201?",
         "options": [
-          "129",
-          "127",
-          "130",
-          "128"
+          "198",
+          "202",
+          "210",
+          "200"
         ],
         "answer": 3,
-        "explanation": "One less than 129 is 128.",
+        "explanation": "200 comes after 199 and before 201.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m03q005",
-        "question": "What number comes immediately before 132?",
+        "question": "What is the greatest number made using 2, 0 and 7 once each?",
         "options": [
-          "131",
-          "132",
-          "130",
-          "133"
+          "720",
+          "702",
+          "270",
+          "207"
         ],
         "answer": 0,
-        "explanation": "One less than 132 is 131.",
+        "explanation": "Place the largest digit in the hundreds place.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m03q006",
-        "question": "What number comes immediately before 135?",
+        "question": "A library has 198 storybooks and receives 2 more. How many now?",
         "options": [
-          "136",
-          "134",
-          "135",
-          "133"
+          "196",
+          "200",
+          "199",
+          "210"
         ],
         "answer": 1,
-        "explanation": "One less than 135 is 134.",
+        "explanation": "198 + 2 = 200.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m03q007",
-        "question": "What number comes immediately before 138?",
+        "question": "Which number is closest to 150: 148, 162 or 139?",
         "options": [
-          "136",
+          "162",
           "139",
-          "137",
-          "138"
+          "148",
+          "All are equally close"
         ],
         "answer": 2,
-        "explanation": "One less than 138 is 137.",
+        "explanation": "148 is only 2 away from 150.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m03q008",
-        "question": "What number comes immediately before 141?",
+        "question": "Count backwards by 10 from 184. What comes next?",
         "options": [
-          "141",
-          "139",
-          "142",
-          "140"
+          "194",
+          "183",
+          "164",
+          "174"
         ],
         "answer": 3,
-        "explanation": "One less than 141 is 140.",
+        "explanation": "184 − 10 = 174.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m03q009",
-        "question": "What number comes immediately before 144?",
+        "question": "A hall has 125 seats on each of two sides. How many seats are there?",
         "options": [
-          "143",
-          "144",
-          "142",
-          "145"
+          "250",
+          "225",
+          "150",
+          "260"
         ],
         "answer": 0,
-        "explanation": "One less than 144 is 143.",
+        "explanation": "125 + 125 = 250.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m03q010",
-        "question": "What number comes immediately before 147?",
+        "question": "Which number has 2 hundreds, 0 tens and 5 ones?",
         "options": [
-          "148",
-          "146",
-          "147",
-          "145"
+          "250",
+          "205",
+          "25",
+          "2005"
         ],
         "answer": 1,
-        "explanation": "One less than 147 is 146.",
+        "explanation": "200 + 0 + 5 = 205.",
         "difficulty": "Challenge"
       },
       {
@@ -3931,132 +3931,132 @@
     "questions": [
       {
         "id": "c3m04q001",
-        "question": "Nani Maa has 34 postcards and gets 18 more. How many postcards does she have now?",
+        "question": "Nani Maa has 46 postcards. She sends 19 away. How many remain?",
         "options": [
-          "52",
-          "53",
-          "51",
-          "54"
+          "27",
+          "65",
+          "25",
+          "29"
         ],
         "answer": 0,
-        "explanation": "34 + 18 = 52.",
+        "explanation": "46 − 19 = 27.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m04q002",
-        "question": "Nani Maa has 37 postcards and gets 20 more. How many postcards does she have now?",
+        "question": "A bus travels 38 km in the morning and 27 km in the afternoon. Total distance?",
         "options": [
-          "59",
-          "57",
-          "58",
-          "56"
+          "11 km",
+          "65 km",
+          "55 km",
+          "66 km"
         ],
         "answer": 1,
-        "explanation": "37 + 20 = 57.",
+        "explanation": "38 + 27 = 65 km.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m04q003",
-        "question": "Nani Maa has 40 postcards and gets 22 more. How many postcards does she have now?",
+        "question": "There are 52 guavas. The family eats 18. How many are left?",
         "options": [
-          "61",
-          "64",
-          "62",
-          "63"
+          "70",
+          "36",
+          "34",
+          "32"
         ],
         "answer": 2,
-        "explanation": "40 + 22 = 62.",
+        "explanation": "52 − 18 = 34.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m04q004",
-        "question": "Nani Maa has 43 postcards and gets 24 more. How many postcards does she have now?",
+        "question": "A basket has 24 mangoes and 17 oranges. How many fruits?",
         "options": [
-          "68",
-          "66",
-          "69",
-          "67"
+          "7",
+          "40",
+          "42",
+          "41"
         ],
         "answer": 3,
-        "explanation": "43 + 24 = 67.",
+        "explanation": "24 + 17 = 41.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m04q005",
-        "question": "Nani Maa has 46 postcards and gets 26 more. How many postcards does she have now?",
+        "question": "There are 63 visitors at a museum. 28 leave. How many remain?",
         "options": [
-          "72",
-          "73",
-          "71",
-          "74"
+          "35",
+          "91",
+          "45",
+          "34"
         ],
         "answer": 0,
-        "explanation": "46 + 26 = 72.",
+        "explanation": "63 − 28 = 35.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m04q006",
-        "question": "Nani Maa has 49 postcards and gets 28 more. How many postcards does she have now?",
+        "question": "A train has 48 passengers and 16 board. How many passengers now?",
         "options": [
-          "79",
-          "77",
-          "78",
-          "76"
+          "32",
+          "64",
+          "62",
+          "66"
         ],
         "answer": 1,
-        "explanation": "49 + 28 = 77.",
+        "explanation": "48 + 16 = 64.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m04q007",
-        "question": "Nani Maa has 52 postcards and gets 30 more. How many postcards does she have now?",
+        "question": "Which number must be added to 36 to make 80?",
         "options": [
-          "81",
-          "84",
-          "82",
-          "83"
+          "46",
+          "54",
+          "44",
+          "116"
         ],
         "answer": 2,
-        "explanation": "52 + 30 = 82.",
+        "explanation": "80 − 36 = 44.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m04q008",
-        "question": "Nani Maa has 55 postcards and gets 32 more. How many postcards does she have now?",
+        "question": "A family picks 29 oranges on Saturday and 35 on Sunday. Total?",
         "options": [
-          "88",
-          "86",
-          "89",
-          "87"
+          "6",
+          "54",
+          "65",
+          "64"
         ],
         "answer": 3,
-        "explanation": "55 + 32 = 87.",
+        "explanation": "29 + 35 = 64.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m04q009",
-        "question": "Nani Maa has 58 postcards and gets 34 more. How many postcards does she have now?",
+        "question": "A shop has 90 postcards and sells 37. How many remain?",
         "options": [
-          "92",
-          "93",
-          "91",
-          "94"
+          "53",
+          "63",
+          "57",
+          "127"
         ],
         "answer": 0,
-        "explanation": "58 + 34 = 92.",
+        "explanation": "90 − 37 = 53.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m04q010",
-        "question": "Nani Maa has 61 postcards and gets 36 more. How many postcards does she have now?",
+        "question": "Nani Maa walks 25 minutes to the park and 25 minutes back. Total walking time?",
         "options": [
-          "99",
-          "97",
-          "98",
-          "96"
+          "25 minutes",
+          "50 minutes",
+          "45 minutes",
+          "60 minutes"
         ],
         "answer": 1,
-        "explanation": "61 + 36 = 97.",
+        "explanation": "25 + 25 = 50 minutes.",
         "difficulty": "Challenge"
       },
       {
@@ -6547,132 +6547,132 @@
     "questions": [
       {
         "id": "c3m06q001",
-        "question": "A place-value chart shows 2 hundreds, 3 tens and 0 ones. Which number is shown?",
+        "question": "Write 4 hundreds, 2 tens and 6 ones as a number.",
         "options": [
-          "230",
-          "231",
-          "229",
-          "232"
+          "426",
+          "462",
+          "246",
+          "4026"
         ],
         "answer": 0,
-        "explanation": "200 + 30 + 0 = 230.",
+        "explanation": "400 + 20 + 6 = 426.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m06q002",
-        "question": "A place-value chart shows 3 hundreds, 4 tens and 1 one. Which number is shown?",
+        "question": "In 583, what is the value of the digit 8?",
         "options": [
-          "343",
-          "341",
-          "342",
-          "340"
+          "8",
+          "80",
+          "800",
+          "58"
         ],
         "answer": 1,
-        "explanation": "300 + 40 + 1 = 341.",
+        "explanation": "8 is in the tens place, so its value is 80.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m06q003",
-        "question": "A place-value chart shows 4 hundreds, 5 tens and 2 ones. Which number is shown?",
+        "question": "Which number is made from 7 hundreds and 3 ones?",
         "options": [
-          "451",
-          "454",
-          "452",
-          "453"
+          "730",
+          "73",
+          "703",
+          "7003"
         ],
         "answer": 2,
-        "explanation": "400 + 50 + 2 = 452.",
+        "explanation": "700 + 0 + 3 = 703.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m06q004",
-        "question": "A place-value chart shows 2 hundreds, 6 tens and 3 ones. Which number is shown?",
+        "question": "What is 10 more than 268?",
         "options": [
-          "264",
-          "262",
-          "265",
-          "263"
+          "269",
+          "258",
+          "368",
+          "278"
         ],
         "answer": 3,
-        "explanation": "200 + 60 + 3 = 263.",
+        "explanation": "Adding one ten gives 278.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m06q005",
-        "question": "A place-value chart shows 3 hundreds, 7 tens and 4 ones. Which number is shown?",
+        "question": "What is 100 less than 645?",
         "options": [
-          "374",
-          "375",
-          "373",
-          "376"
+          "545",
+          "635",
+          "645",
+          "445"
         ],
         "answer": 0,
-        "explanation": "300 + 70 + 4 = 374.",
+        "explanation": "645 − 100 = 545.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m06q006",
-        "question": "A place-value chart shows 4 hundreds, 8 tens and 5 ones. Which number is shown?",
+        "question": "Which is greater: 409 or 490?",
         "options": [
-          "487",
-          "485",
-          "486",
-          "484"
+          "409",
+          "490",
+          "They are equal",
+          "Neither is a three-digit number"
         ],
         "answer": 1,
-        "explanation": "400 + 80 + 5 = 485.",
+        "explanation": "490 has 9 tens; 409 has no tens.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m06q007",
-        "question": "A place-value chart shows 2 hundreds, 3 tens and 6 ones. Which number is shown?",
+        "question": "How many tens are in 360?",
         "options": [
-          "235",
-          "238",
-          "236",
-          "237"
+          "3 tens",
+          "6 tens",
+          "36 tens",
+          "360 tens"
         ],
         "answer": 2,
-        "explanation": "200 + 30 + 6 = 236.",
+        "explanation": "360 ÷ 10 = 36 tens.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m06q008",
-        "question": "A place-value chart shows 3 hundreds, 4 tens and 7 ones. Which number is shown?",
+        "question": "Which number has 5 hundreds, 0 tens and 9 ones?",
         "options": [
-          "348",
-          "346",
-          "349",
-          "347"
+          "590",
+          "59",
+          "5009",
+          "509"
         ],
         "answer": 3,
-        "explanation": "300 + 40 + 7 = 347.",
+        "explanation": "500 + 0 + 9 = 509.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m06q009",
-        "question": "A place-value chart shows 4 hundreds, 5 tens and 8 ones. Which number is shown?",
+        "question": "In 327, what is the value of the hundreds digit?",
         "options": [
-          "458",
-          "459",
-          "457",
-          "460"
+          "300",
+          "3",
+          "30",
+          "327"
         ],
         "answer": 0,
-        "explanation": "400 + 50 + 8 = 458.",
+        "explanation": "The 3 in the hundreds place represents 300.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m06q010",
-        "question": "A place-value chart shows 2 hundreds, 6 tens and 9 ones. Which number is shown?",
+        "question": "Count on by 100 from 246. What comes next?",
         "options": [
-          "271",
-          "269",
-          "270",
-          "268"
+          "256",
+          "346",
+          "446",
+          "246"
         ],
         "answer": 1,
-        "explanation": "200 + 60 + 9 = 269.",
+        "explanation": "246 + 100 = 346.",
         "difficulty": "Challenge"
       },
       {
@@ -7855,132 +7855,132 @@
     "questions": [
       {
         "id": "c3m07q001",
-        "question": "Each Rakhi needs 2 beads. How many beads are needed for 2 Rakhis?",
+        "question": "Four children each receive 3 rakhis. How many rakhis are given out?",
         "options": [
-          "4",
-          "5",
-          "3",
-          "6"
+          "12",
+          "7",
+          "9",
+          "15"
         ],
         "answer": 0,
-        "explanation": "2 equal groups of 2: 2 × 2 = 4.",
+        "explanation": "4 × 3 = 12.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m07q002",
-        "question": "Each Rakhi needs 3 beads. How many beads are needed for 3 Rakhis?",
+        "question": "There are 5 plates with 4 laddoos on each. How many laddoos?",
         "options": [
-          "11",
           "9",
-          "10",
-          "8"
+          "20",
+          "15",
+          "25"
         ],
         "answer": 1,
-        "explanation": "3 equal groups of 3: 3 × 3 = 9.",
+        "explanation": "5 × 4 = 20.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m07q003",
-        "question": "Each Rakhi needs 4 beads. How many beads are needed for 4 Rakhis?",
+        "question": "Which repeated addition equals 3 × 6?",
         "options": [
-          "15",
-          "18",
-          "16",
-          "17"
+          "3 + 6",
+          "3 + 3 + 3",
+          "6 + 6 + 6",
+          "6 + 6"
         ],
         "answer": 2,
-        "explanation": "4 equal groups of 4: 4 × 4 = 16.",
+        "explanation": "Three groups of six make 18.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m07q004",
-        "question": "Each Rakhi needs 5 beads. How many beads are needed for 5 Rakhis?",
+        "question": "A pattern has 4 beads in each row and 3 rows. How many beads?",
         "options": [
-          "26",
-          "24",
-          "27",
-          "25"
+          "7",
+          "16",
+          "9",
+          "12"
         ],
         "answer": 3,
-        "explanation": "5 equal groups of 5: 5 × 5 = 25.",
+        "explanation": "3 × 4 = 12 beads.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m07q005",
-        "question": "Each Rakhi needs 6 beads. How many beads are needed for 6 Rakhis?",
+        "question": "Skip-count by 5: 5, 10, 15, __. What comes next?",
         "options": [
-          "36",
-          "37",
-          "35",
-          "38"
+          "20",
+          "18",
+          "25",
+          "16"
         ],
         "answer": 0,
-        "explanation": "6 equal groups of 6: 6 × 6 = 36.",
+        "explanation": "The pattern increases by 5.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m07q006",
-        "question": "Each Rakhi needs 7 beads. How many beads are needed for 7 Rakhis?",
+        "question": "Six gift bags each contain 2 stickers. How many stickers are needed?",
         "options": [
-          "51",
-          "49",
-          "50",
-          "48"
+          "8",
+          "12",
+          "10",
+          "14"
         ],
         "answer": 1,
-        "explanation": "7 equal groups of 7: 7 × 7 = 49.",
+        "explanation": "6 × 2 = 12.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m07q007",
-        "question": "Each Rakhi needs 8 beads. How many beads are needed for 8 Rakhis?",
+        "question": "Which multiplication sentence matches 4 equal groups of 7?",
         "options": [
-          "63",
-          "66",
-          "64",
-          "65"
+          "4 + 7 = 11",
+          "7 − 4 = 3",
+          "4 × 7 = 28",
+          "7 ÷ 4 = 3"
         ],
         "answer": 2,
-        "explanation": "8 equal groups of 8: 8 × 8 = 64.",
+        "explanation": "Four groups of seven contain 28 items.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m07q008",
-        "question": "Each Rakhi needs 9 beads. How many beads are needed for 9 Rakhis?",
+        "question": "Eighteen beads are shared equally into 3 rows. How many in each row?",
         "options": [
-          "82",
-          "80",
-          "83",
-          "81"
+          "5",
+          "9",
+          "15",
+          "6"
         ],
         "answer": 3,
-        "explanation": "9 equal groups of 9: 9 × 9 = 81.",
+        "explanation": "18 ÷ 3 = 6.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m07q009",
-        "question": "Each Rakhi needs 10 beads. How many beads are needed for 2 Rakhis?",
+        "question": "There are 2 teams with 8 players each. How many players?",
         "options": [
-          "20",
-          "21",
-          "19",
-          "22"
+          "16",
+          "10",
+          "8",
+          "18"
         ],
         "answer": 0,
-        "explanation": "2 equal groups of 10: 2 × 10 = 20.",
+        "explanation": "2 × 8 = 16.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m07q010",
-        "question": "Each Rakhi needs 2 beads. How many beads are needed for 3 Rakhis?",
+        "question": "A tray has 5 rows of 5 sweets. How many sweets?",
         "options": [
-          "8",
-          "6",
-          "7",
-          "5"
+          "10",
+          "25",
+          "20",
+          "30"
         ],
         "answer": 1,
-        "explanation": "3 equal groups of 2: 3 × 2 = 6.",
+        "explanation": "5 × 5 = 25.",
         "difficulty": "Challenge"
       },
       {
@@ -10471,132 +10471,132 @@
     "questions": [
       {
         "id": "c3m09q001",
-        "question": "In 321, what is the value of the digit in the ones place?",
+        "question": "In 472, what is the value of the digit in the tens place?",
         "options": [
-          "1",
-          "2",
-          "0",
-          "3"
+          "70",
+          "7",
+          "700",
+          "72"
         ],
         "answer": 0,
-        "explanation": "The ones digit in 321 is 1.",
+        "explanation": "7 tens have a value of 70.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m09q002",
-        "question": "In 334, what is the value of the digit in the ones place?",
+        "question": "Which expanded form matches 538?",
         "options": [
-          "6",
-          "4",
-          "5",
-          "3"
+          "50 + 300 + 8",
+          "500 + 30 + 8",
+          "500 + 3 + 8",
+          "5 + 30 + 800"
         ],
         "answer": 1,
-        "explanation": "The ones digit in 334 is 4.",
+        "explanation": "538 has 5 hundreds, 3 tens and 8 ones.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m09q003",
-        "question": "In 347, what is the value of the digit in the ones place?",
+        "question": "Which number is smallest: 305, 350 or 503?",
         "options": [
-          "6",
-          "9",
-          "7",
-          "8"
+          "350",
+          "503",
+          "305",
+          "They are equal"
         ],
         "answer": 2,
-        "explanation": "The ones digit in 347 is 7.",
+        "explanation": "305 is less than 350 and 503.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m09q004",
-        "question": "In 360, what is the value of the digit in the ones place?",
+        "question": "What number is 1 less than 400?",
         "options": [
-          "1",
-          "2",
-          "3",
-          "0"
+          "401",
+          "390",
+          "300",
+          "399"
         ],
         "answer": 3,
-        "explanation": "The ones digit in 360 is 0.",
+        "explanation": "400 − 1 = 399.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m09q005",
-        "question": "In 373, what is the value of the digit in the ones place?",
+        "question": "What is 10 more than 286?",
         "options": [
-          "3",
-          "4",
-          "2",
-          "5"
+          "296",
+          "287",
+          "276",
+          "386"
         ],
         "answer": 0,
-        "explanation": "The ones digit in 373 is 3.",
+        "explanation": "286 + 10 = 296.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m09q006",
-        "question": "In 386, what is the value of the digit in the ones place?",
+        "question": "Arrange 412, 421 and 402 from greatest to smallest.",
         "options": [
-          "8",
-          "6",
-          "7",
-          "5"
+          "402, 412, 421",
+          "421, 412, 402",
+          "412, 402, 421",
+          "421, 402, 412"
         ],
         "answer": 1,
-        "explanation": "The ones digit in 386 is 6.",
+        "explanation": "421 is greatest, followed by 412 and 402.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m09q007",
-        "question": "In 399, what is the value of the digit in the ones place?",
+        "question": "Which number has 6 hundreds, 4 tens and 0 ones?",
         "options": [
-          "8",
-          "11",
-          "9",
-          "10"
+          "604",
+          "460",
+          "640",
+          "64"
         ],
         "answer": 2,
-        "explanation": "The ones digit in 399 is 9.",
+        "explanation": "600 + 40 + 0 = 640.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m09q008",
-        "question": "In 412, what is the value of the digit in the ones place?",
+        "question": "What is 100 more than 357?",
         "options": [
-          "3",
-          "1",
-          "4",
-          "2"
+          "367",
+          "357",
+          "557",
+          "457"
         ],
         "answer": 3,
-        "explanation": "The ones digit in 412 is 2.",
+        "explanation": "357 + 100 = 457.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m09q009",
-        "question": "In 425, what is the value of the digit in the ones place?",
+        "question": "In 808, what is the value of the digit 0?",
         "options": [
-          "5",
-          "6",
-          "4",
-          "7"
+          "0",
+          "8",
+          "80",
+          "800"
         ],
         "answer": 0,
-        "explanation": "The ones digit in 425 is 5.",
+        "explanation": "The tens digit is zero.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m09q010",
-        "question": "In 438, what is the value of the digit in the ones place?",
+        "question": "A number has 2 hundreds, 9 tens and 4 ones. What is it?",
         "options": [
-          "10",
-          "8",
-          "9",
-          "7"
+          "249",
+          "294",
+          "924",
+          "204"
         ],
         "answer": 1,
-        "explanation": "The ones digit in 438 is 8.",
+        "explanation": "200 + 90 + 4 = 294.",
         "difficulty": "Challenge"
       },
       {
@@ -14395,132 +14395,132 @@
     "questions": [
       {
         "id": "c3m12q001",
-        "question": "A shop sells 125 pencils in the morning and 36 in the afternoon. How many are sold altogether?",
+        "question": "A shop has 245 pencils and receives 128 more. How many now?",
         "options": [
-          "161",
-          "162",
-          "160",
-          "163"
+          "373",
+          "363",
+          "383",
+          "372"
         ],
         "answer": 0,
-        "explanation": "125 + 36 = 161.",
+        "explanation": "245 + 128 = 373.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m12q002",
-        "question": "A shop sells 142 pencils in the morning and 41 in the afternoon. How many are sold altogether?",
+        "question": "A book costs ₹38. You pay ₹50. How much change?",
         "options": [
-          "185",
-          "183",
-          "184",
-          "182"
+          "₹18",
+          "₹12",
+          "₹22",
+          "₹88"
         ],
         "answer": 1,
-        "explanation": "142 + 41 = 183.",
+        "explanation": "₹50 − ₹38 = ₹12.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m12q003",
-        "question": "A shop sells 159 pencils in the morning and 46 in the afternoon. How many are sold altogether?",
+        "question": "Estimate 198 + 203 by rounding to the nearest hundred.",
         "options": [
-          "204",
-          "207",
-          "205",
-          "206"
+          "About 200",
+          "About 300",
+          "About 400",
+          "About 500"
         ],
         "answer": 2,
-        "explanation": "159 + 46 = 205.",
+        "explanation": "198 is about 200 and 203 is about 200.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m12q004",
-        "question": "A shop sells 176 pencils in the morning and 51 in the afternoon. How many are sold altogether?",
+        "question": "A shop had 500 notebooks and sold 175. How many remain?",
         "options": [
-          "228",
-          "226",
-          "229",
-          "227"
+          "375",
+          "335",
+          "675",
+          "325"
         ],
         "answer": 3,
-        "explanation": "176 + 51 = 227.",
+        "explanation": "500 − 175 = 325.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m12q005",
-        "question": "A shop sells 193 pencils in the morning and 56 in the afternoon. How many are sold altogether?",
+        "question": "Which amount is greater: ₹145 or ₹154?",
         "options": [
-          "249",
-          "250",
-          "248",
-          "251"
+          "₹154",
+          "₹145",
+          "They are equal",
+          "Cannot compare"
         ],
         "answer": 0,
-        "explanation": "193 + 56 = 249.",
+        "explanation": "154 is greater than 145.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m12q006",
-        "question": "A shop sells 210 pencils in the morning and 61 in the afternoon. How many are sold altogether?",
+        "question": "A child has ₹100 and buys a toy for ₹67. How much remains?",
         "options": [
-          "273",
-          "271",
-          "272",
-          "270"
+          "₹43",
+          "₹33",
+          "₹27",
+          "₹167"
         ],
         "answer": 1,
-        "explanation": "210 + 61 = 271.",
+        "explanation": "100 − 67 = 33.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m12q007",
-        "question": "A shop sells 227 pencils in the morning and 66 in the afternoon. How many are sold altogether?",
+        "question": "A shop sells 86 pens on Monday and 79 on Tuesday. Total?",
         "options": [
-          "292",
-          "295",
-          "293",
-          "294"
+          "155",
+          "175",
+          "165",
+          "164"
         ],
         "answer": 2,
-        "explanation": "227 + 66 = 293.",
+        "explanation": "86 + 79 = 165.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m12q008",
-        "question": "A shop sells 244 pencils in the morning and 71 in the afternoon. How many are sold altogether?",
+        "question": "What number must be added to 275 to make 400?",
         "options": [
-          "316",
-          "314",
-          "317",
-          "315"
+          "115",
+          "135",
+          "675",
+          "125"
         ],
         "answer": 3,
-        "explanation": "244 + 71 = 315.",
+        "explanation": "400 − 275 = 125.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m12q009",
-        "question": "A shop sells 261 pencils in the morning and 76 in the afternoon. How many are sold altogether?",
+        "question": "A bag costs ₹235 and a lunch box ₹149. What is the total cost?",
         "options": [
-          "337",
-          "338",
-          "336",
-          "339"
+          "₹384",
+          "₹374",
+          "₹394",
+          "₹386"
         ],
         "answer": 0,
-        "explanation": "261 + 76 = 337.",
+        "explanation": "235 + 149 = 384.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m12q010",
-        "question": "A shop sells 278 pencils in the morning and 81 in the afternoon. How many are sold altogether?",
+        "question": "A shopkeeper has ₹500 and gives ₹185 as change. What was the purchase price?",
         "options": [
-          "361",
-          "359",
-          "360",
-          "358"
+          "₹325",
+          "₹315",
+          "₹285",
+          "₹685"
         ],
         "answer": 1,
-        "explanation": "278 + 81 = 359.",
+        "explanation": "500 − 185 = 315.",
         "difficulty": "Challenge"
       },
       {
@@ -15703,132 +15703,132 @@
     "questions": [
       {
         "id": "c3m13q001",
-        "question": "For a school trip, today is Monday. What day will it be tomorrow?",
+        "question": "A school trip lasts 2 days, including Friday as the first day. What is the second day?",
         "options": [
-          "Tuesday",
-          "Monday",
-          "Wednesday",
-          "Thursday"
+          "Saturday",
+          "Sunday",
+          "Thursday",
+          "Monday"
         ],
         "answer": 0,
-        "explanation": "The day after Monday is Tuesday.",
+        "explanation": "The two days are Friday and Saturday.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m13q002",
-        "question": "For sports day, today is Tuesday. What day will it be tomorrow?",
+        "question": "How many minutes are there in half an hour?",
         "options": [
-          "Thursday",
-          "Wednesday",
-          "Monday",
-          "Tuesday"
+          "15",
+          "30",
+          "45",
+          "60"
         ],
         "answer": 1,
-        "explanation": "The day after Tuesday is Wednesday.",
+        "explanation": "Half of 60 minutes is 30.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m13q003",
-        "question": "For a class party, today is Wednesday. What day will it be tomorrow?",
+        "question": "The clock shows 3:30. How would you say this time?",
         "options": [
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Monday"
+          "Quarter past three",
+          "Quarter to three",
+          "Half past three",
+          "Three o'clock"
         ],
         "answer": 2,
-        "explanation": "The day after Wednesday is Thursday.",
+        "explanation": "3:30 is half past three.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m13q004",
-        "question": "For a music lesson, today is Thursday. What day will it be tomorrow?",
+        "question": "A class begins at 9:15 and ends at 10:00. How long is it?",
         "options": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Friday"
+          "30 minutes",
+          "60 minutes",
+          "15 minutes",
+          "45 minutes"
         ],
         "answer": 3,
-        "explanation": "The day after Thursday is Friday.",
+        "explanation": "From 9:15 to 10:00 is 45 minutes.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m13q005",
-        "question": "For a family picnic, today is Friday. What day will it be tomorrow?",
+        "question": "Which month comes immediately after September?",
         "options": [
-          "Saturday",
-          "Monday",
-          "Tuesday",
-          "Wednesday"
+          "October",
+          "August",
+          "November",
+          "December"
         ],
         "answer": 0,
-        "explanation": "The day after Friday is Saturday.",
+        "explanation": "October follows September.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m13q006",
-        "question": "For a library visit, today is Saturday. What day will it be tomorrow?",
+        "question": "A movie starts at 2:00 and lasts 90 minutes. When does it end?",
         "options": [
-          "Wednesday",
-          "Sunday",
-          "Monday",
-          "Tuesday"
+          "3:00",
+          "3:30",
+          "4:00",
+          "2:30"
         ],
         "answer": 1,
-        "explanation": "The day after Saturday is Sunday.",
+        "explanation": "90 minutes is 1 hour 30 minutes.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m13q007",
-        "question": "For a game day, today is Sunday. What day will it be tomorrow?",
+        "question": "How many days are there in one week?",
         "options": [
-          "Wednesday",
-          "Thursday",
-          "Monday",
-          "Tuesday"
+          "5",
+          "6",
+          "7",
+          "8"
         ],
         "answer": 2,
-        "explanation": "The day after Sunday is Monday.",
+        "explanation": "A week has seven days.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m13q008",
-        "question": "For a nature walk, today is Monday. What day will it be tomorrow?",
+        "question": "The time is 6:45. How would you say it using quarter-hours?",
         "options": [
-          "Monday",
-          "Wednesday",
-          "Thursday",
-          "Tuesday"
+          "Quarter past six",
+          "Half past six",
+          "Seven o'clock",
+          "Quarter to seven"
         ],
         "answer": 3,
-        "explanation": "The day after Monday is Tuesday.",
+        "explanation": "6:45 is fifteen minutes before seven.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m13q009",
-        "question": "For an art class, today is Tuesday. What day will it be tomorrow?",
+        "question": "If today is Sunday, what day will it be three days later?",
         "options": [
           "Wednesday",
-          "Monday",
           "Tuesday",
-          "Thursday"
+          "Thursday",
+          "Monday"
         ],
         "answer": 0,
-        "explanation": "The day after Tuesday is Wednesday.",
+        "explanation": "Monday is one day later, Tuesday two, Wednesday three.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m13q010",
-        "question": "For a school assembly, today is Wednesday. What day will it be tomorrow?",
+        "question": "A bus leaves at 11:20 and arrives at 11:50. How long is the journey?",
         "options": [
-          "Wednesday",
-          "Thursday",
-          "Monday",
-          "Tuesday"
+          "20 minutes",
+          "30 minutes",
+          "40 minutes",
+          "50 minutes"
         ],
         "answer": 1,
-        "explanation": "The day after Wednesday is Thursday.",
+        "explanation": "From 11:20 to 11:50 is 30 minutes.",
         "difficulty": "Challenge"
       },
       {
