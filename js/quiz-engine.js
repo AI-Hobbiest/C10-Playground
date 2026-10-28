@@ -152,12 +152,21 @@ function loadBank(data){
 function currentPool(){
   const chosen=selectedChapters();
   const selectedQuestions=chosen.flatMap(chapter=>chapter.questions);
-  if(mode==="random")return shuffle(selectedQuestions);
   if(mode==="retry"){
     const chapterKeys=new Set(chosen.map(chapter=>String(chapter.chapter_no)));
     return shuffle(allQuestions().filter(question=>progress.missed.includes(keyFor(question))&&chapterKeys.has(String(question.chapter_no))));
   }
   return shuffle(selectedQuestions);
+}
+function prioritizeUnseenQuestions(pool, desiredCount){
+  if(mode==="retry" || !Array.isArray(ledger.attempts) || !ledger.attempts.length)return shuffle(pool);
+  const recentAttempts=ledger.attempts.filter(attempt=>attempt&&attempt.subjectId===subject&&Array.isArray(attempt.questionIds)).slice(0,3);
+  if(!recentAttempts.length)return shuffle(pool);
+  const seen=new Set(recentAttempts.flatMap(attempt=>attempt.questionIds.map(String)));
+  const unseen=shuffle(pool.filter(question=>!seen.has(String(keyFor(question)))));
+  const previouslySeen=shuffle(pool.filter(question=>seen.has(String(keyFor(question)))));
+  const required=desiredCount===0?pool.length:Math.min(desiredCount,pool.length);
+  return unseen.length>=required?unseen.concat(previouslySeen):unseen.concat(previouslySeen);
 }
 function selectedTiming(){
   let choice=$("timerSetting").value;
@@ -201,6 +210,7 @@ function start(){
   let pool=currentPool();
   if(mode==="retry"&&!pool.length){setText("modeHint","No missed questions in this chapter yet. Choose Learn mode or Mixed practice first.");return;}
   const chosen=+$("length").value;
+  if(mode!=="retry")pool=prioritizeUnseenQuestions(pool,chosen);
   if(chosen!==0)pool=pool.slice(0,Math.min(chosen,pool.length));
   if(!pool.length){setText("modeHint","No questions are available for this selection.");return;}
   session=pool;index=0;picked=null;answers=Array(session.length).fill(null);
