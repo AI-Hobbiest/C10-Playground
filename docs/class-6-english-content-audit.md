@@ -11,6 +11,8 @@
 ## Material correction
 In **Rama to the Rescue**, a previous answer stated that villagers caught the thief and took him to the kotwal. The comic shows **Rama, the village kotwal, arresting the thief** after hearing his name being called. The related questions and explanations have been corrected.
 
+A second correction was made in **The Kites**: “stand and stare” was incorrectly treated as a rhyme in one practice question. It is now correctly identified as alliteration, matching the textbook’s activity on repeated initial consonant sounds.
+
 ## Interpretation and safety
 Questions about the traditional remedies in “Spices that Heal Us” test what Daadi’s letter says and the vocabulary of the passage; they are not medical advice. The text itself tells learners to consult an elder before using the remedies.
 

@@ -18246,68 +18246,68 @@
       },
       {
         "id": "c6e14v2q096",
-        "question": "Which phrase contains rhyming end words in the final stanza?",
+        "question": "Which phrase in “The Kites” is an example of alliteration?",
         "options": [
           "Stand and stare",
-          "Paper wings",
+          "Park and rooftops",
           "Look right down",
-          "Park rooftops"
+          "High in the air"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “stand and stare” in this context; the correct choice is Stand and stare.",
-        "difficulty": "Medium"
+        "explanation": "The textbook asks learners to find words that begin with the same consonant sound. “Stand” and “stare” both begin with the /st/ sound.",
+        "difficulty": "Easy"
       },
       {
         "id": "c6e14v2q097",
-        "question": "Which literary feature or meaning is shown by “stand and stare” in “The Kites”?",
+        "question": "What sound pattern is repeated in “stand and stare” in “The Kites”?",
         "options": [
-          "Paper wings",
-          "Look right down",
-          "Park rooftops",
-          "Stand and stare"
+          "The same initial consonant sound",
+          "A pair of words with opposite meanings",
+          "A perfect end rhyme",
+          "A repeated past-tense ending"
         ],
-        "answer": 3,
-        "explanation": "The textbook uses “stand and stare” in this context; the correct choice is Stand and stare.",
+        "answer": 0,
+        "explanation": "“Stand” and “stare” both begin with /st/, so the phrase illustrates alliteration.",
         "difficulty": "Medium"
       },
       {
         "id": "c6e14v2q098",
-        "question": "Choose the best interpretation of “stand and stare” as it appears in “The Kites”.",
+        "question": "Why are “stand” and “stare” an example of alliteration?",
         "options": [
-          "Look right down",
-          "Park rooftops",
-          "Stand and stare",
-          "Paper wings"
+          "Both begin with the same consonant sound",
+          "They have exactly the same meaning",
+          "They rhyme at the ends",
+          "Both describe a colour"
         ],
-        "answer": 2,
-        "explanation": "The textbook uses “stand and stare” in this context; the correct choice is Stand and stare.",
+        "answer": 0,
+        "explanation": "Alliteration is the repetition of an initial consonant sound in nearby words; stand and stare both begin with /st/.",
         "difficulty": "Medium"
       },
       {
         "id": "c6e14v2q099",
-        "question": "A reader notices “stand and stare” in “The Kites”. Which explanation is correct?",
+        "question": "Which line from “The Kites” contains words that begin with the same consonant sound?",
         "options": [
-          "Park rooftops",
-          "Stand and stare",
-          "Paper wings",
-          "Look right down"
+          "“Would stand and stare”",
+          "“Over the park”",
+          "“I would drift upon”",
+          "“The rooftops of town”"
         ],
-        "answer": 1,
-        "explanation": "The textbook uses “stand and stare” in this context; the correct choice is Stand and stare.",
+        "answer": 0,
+        "explanation": "“Stand” and “stare” begin with the same /st/ consonant sound.",
         "difficulty": "Medium"
       },
       {
         "id": "c6e14v2q100",
-        "question": "Which description best explains “stand and stare” in “The Kites”?",
+        "question": "Which literary device is demonstrated by “stand and stare” in “The Kites”?",
         "options": [
-          "Stand and stare",
-          "Paper wings",
-          "Look right down",
-          "Park rooftops"
+          "Alliteration",
+          "Simile",
+          "Personification",
+          "Onomatopoeia"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “stand and stare” in this context; the correct choice is Stand and stare.",
-        "difficulty": "Hard"
+        "explanation": "The repeated initial /st/ sound in “stand” and “stare” is alliteration.",
+        "difficulty": "Easy"
       }
     ]
   },

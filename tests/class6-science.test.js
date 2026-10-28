@@ -105,4 +105,6 @@ const languageFiller = /For a language note connected|correct plural of friend|t
 assert.equal(englishBank.some(chapter=>chapter.questions.some(question=>languageFiller.test(question.question))),false,"Class 6 English should not contain generic repeated grammar filler");
 const ramaChapter=englishBank.find(chapter=>chapter.key==="rama-to-the-rescue");
 assert.ok(ramaChapter.questions.some(question=>question.question.includes("Who arrests the robber") && /kotwal/i.test(question.options[question.answer])),"Rama to the Rescue correctly identifies the kotwal as the person who arrests the thief");
+const kiteChapter=englishBank.find(chapter=>chapter.key==="the-kites");
+assert.ok(kiteChapter.questions.some(question=>question.question.includes("example of alliteration") && question.options[question.answer]==="Stand and stare"),"The Kites correctly identifies stand and stare as alliteration, not rhyme");
 console.log("Class 6 banks passed content review: Science 12/1,200, Mathematics 10/1,000, English 16/1,600, Social Science 14/1,400; unique IDs, question keys, valid MCQ structures and class-specific routing.");
