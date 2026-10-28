@@ -55,6 +55,23 @@ assert.ok(questionsIn("Give and Take").some(q => /₹/.test(q.question) && /chan
 assert.ok(questionsIn("Time Goes On").some(q => /60 minutes/i.test(q.explanation)), "Time Goes On covers hour-to-minute conversion");
 assert.ok(questionsIn("The Surajkund Fair").some(q => /symmetr/i.test(q.question + " " + q.explanation)), "Surajkund Fair covers symmetry");
 
+
+const allQuestions = bank.flatMap(chapter => chapter.questions);
+assert.equal(allQuestions.filter(q => /\\b1 (?:metres|litres|kilograms|tens|ones)\\b/i.test(q.question + " " + q.explanation)).length, 0,
+  "singular quantities and place-value language use correct grammar");
+assert.equal(allQuestions.filter(q => /\\bsymmetrical\\s+symmetrical\\b/i.test(q.question)).length, 0,
+  "question text does not repeat words accidentally");
+assert.equal(allQuestions.filter(q => /\\ba dice\\b/i.test(q.question + " " + q.explanation)).length, 0,
+  "singular die is not incorrectly written as 'a dice'");
+const fairQuestions = questionsIn("The Surajkund Fair");
+assert.ok(fairQuestions.some(q => /line of symmetry/i.test(q.question)), "Surajkund Fair includes a line-of-symmetry concept");
+assert.ok(fairQuestions.some(q => /mala/i.test(q.question)), "Surajkund Fair includes symmetrical mala patterns");
+assert.ok(fairQuestions.some(q => /map key|map legend/i.test(q.question)), "Surajkund Fair includes map symbols and keys");
+assert.ok(fairQuestions.some(q => /maze/i.test(q.question)), "Surajkund Fair includes maze route reasoning");
+assert.ok(fairQuestions.some(q => /tiling|tiles cover/i.test(q.question)), "Surajkund Fair includes tiling");
+const fairNormalizedStems = new Set(fairQuestions.map(q => q.question.toLowerCase().replace(/\\d+/g, "#").replace(/[^a-z0-9#]+/g, " ").trim()));
+assert.ok(fairNormalizedStems.size >= 75, "Surajkund Fair exercises varied question stems rather than a few copied templates");
+
 const catalogue = JSON.parse(fs.readFileSync("data/classes.json", "utf8"));
 const class3 = catalogue.classes.find(item => String(item.classId) === "3");
 assert.ok(class3 && class3.active && class3.subjects.includes("mathematics"), "Class 3 Mathematics appears in the catalogue");
