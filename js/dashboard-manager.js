@@ -98,6 +98,51 @@
       container.appendChild(card);
     });
   }
+  async function renderSubjectLaunches(){
+    const container=$("subjectLaunchCards");
+    if(!container)return;
+    const cards=Array.from(container.querySelectorAll("[data-subject-id]"));
+    let student=null;
+    try{student=window.C10StudentAuth&&window.C10StudentAuth.currentUser?window.C10StudentAuth.currentUser():null;}catch(_){}
+    if(!student){
+      try{student=JSON.parse(sessionStorage.getItem("c10playground_static_student_v1")||"null");}catch(_){}
+    }
+    const classId=String(student&&student.classId||"10");
+    try{
+      const response=await fetch("./data/classes.json",{cache:"no-store"});
+      if(!response.ok)throw new Error("Class catalogue unavailable");
+      const catalog=await response.json();
+      const record=(catalog.classes||[]).find(item=>String(item.classId)===classId&&item.active!==false);
+      const subjects=record&&Array.isArray(record.subjects)?record.subjects:[];
+      await Promise.all(cards.map(async card=>{
+        const subject=card.dataset.subjectId;
+        const allowed=subjects.includes(subject);
+        card.hidden=!allowed;
+        card.style.display=allowed?"":"none";
+        if(!allowed)return;
+        const bankId=classId==="10"?subject:"class-"+classId+"-"+subject;
+        const meta=card.querySelector("[data-bank-meta]");
+        try{
+          const bankResponse=await fetch("./data/"+bankId+".json",{cache:"no-store"});
+          if(!bankResponse.ok)throw new Error("Bank not published");
+          const bank=await bankResponse.json();
+          const total=(bank||[]).reduce((sum,chapter)=>sum+(Array.isArray(chapter.questions)?chapter.questions.length:0),0);
+          if(meta)meta.textContent=total.toLocaleString()+" MCQs · "+bank.length+" chapter sets";
+        }catch(_){card.hidden=true;card.style.display="none";}
+      }));
+      let note=$("subjectLaunchStatus");
+      if(!note){note=document.createElement("p");note.id="subjectLaunchStatus";note.className="dash-help";container.insertAdjacentElement("afterend",note);}
+      const visible=cards.some(card=>!card.hidden);
+      note.textContent=visible?"":"No practice banks are published for this class yet.";
+      note.hidden=visible;
+    }catch(_){
+      cards.forEach(card=>{card.hidden=true;card.style.display="none";});
+      let note=$("subjectLaunchStatus");
+      if(!note){note=document.createElement("p");note.id="subjectLaunchStatus";note.className="dash-help";container.insertAdjacentElement("afterend",note);}
+      note.textContent="Practice subjects could not be loaded. Please refresh the page.";
+      note.hidden=false;
+    }
+  }
   function render(){
     const attempts=getAttempts();
     const summary=window.C10Gamification.calculate(attempts);
@@ -129,4 +174,5 @@
     renderBadges(summary.badges,summary.earnedBadges);
   }
   render();
+  renderSubjectLaunches();
 })();
