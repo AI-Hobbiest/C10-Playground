@@ -57,7 +57,7 @@ const document={
  querySelectorAll:selector=>selector===".admin-tab-button"?tabButtons:selector===".admin-panel"?panels:[],
  addEventListener:()=>{}
 };
-const classes={schemaVersion:1,kind:"class-catalog",classes:[6,7,8,9,10,11,12].map(n=>({classId:String(n),label:"Class "+n,sortOrder:n,active:true}))};
+const classes={schemaVersion:1,kind:"class-catalog",classes:[3,6,7,8,9,10,11,12].map(n=>({classId:String(n),label:"Class "+n,sortOrder:n,active:true}))};
 const manifest={schemaVersion:1,kind:"knowledge-base-manifest",resources:[]};
 const miniBank=[{chapter_no:1,title:"Mini Science",key:"mini-science",questions:[
 {id:1,question:"Which is a gas?",options:["Ice","Water","Oxygen","Stone"],answer:2,explanation:"Oxygen is a gas."},
@@ -85,11 +85,11 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
 (async()=>{
  await delay();await delay();
  assert.equal(elements.statQuestions.textContent,"6","published question summary counts actual bank records from available class-specific banks");
- assert.equal(elements.statClasses.textContent,"7","class catalogue loaded");
+ assert.equal(elements.statClasses.textContent,"8","class catalogue loaded, including Class 3");
  assert.ok(elements.questionBankInventoryStatus.textContent.includes("6 questions counted across 3 available primary banks"),"question-bank inventory dynamically totals available JSON banks");
- assert.equal(elements.questionBankInventory.children[0].children[1].children.length,10,"inventory lists all nine supported bank files and a total row");
- assert.equal(elements.questionBankInventory.children[0].children[1].children[7].children[0].textContent,"Class 6 · English","Class 6 English appears in the Admin inventory");
- assert.equal(elements.questionBankInventory.children[0].children[1].children[8].children[0].textContent,"Class 6 · Social Science","Class 6 Social Science appears in the Admin inventory");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children.length,11,"inventory lists all ten supported bank files and a total row");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children[8].children[0].textContent,"Class 6 · English","Class 6 English appears in the Admin inventory");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children[9].children[0].textContent,"Class 6 · Social Science","Class 6 Social Science appears in the Admin inventory");
  assert.ok(elements.questionList.children.length===2,"questions render in the Admin editor");
 
  // Switching class filters the subject choices and loads the class-specific path.
