@@ -1315,7 +1315,7 @@
     "questions": [
       {
         "id": "c3m02q001",
-        "question": "Which solid shape is most like a dice?",
+        "question": "Which solid shape is most like a die?",
         "options": [
           "Cube",
           "Cuboid",
@@ -1323,7 +1323,7 @@
           "Cone"
         ],
         "answer": 0,
-        "explanation": "A dice is commonly modelled by a cube.",
+        "explanation": "A standard die is shaped like a cube.",
         "difficulty": "Easy"
       },
       {
@@ -1614,7 +1614,7 @@
       },
       {
         "id": "c3m02q024",
-        "question": "A dice has six equal square faces. Which solid shape best matches the clue?",
+        "question": "a die has six equal square faces. Which solid shape best matches the clue?",
         "options": [
           "Cuboid",
           "Cylinder",
@@ -1965,7 +1965,7 @@
       },
       {
         "id": "c3m02q051",
-        "question": "From the front, what shape can the outline of a dice look like?",
+        "question": "From the front, what shape can the outline of a die look like?",
         "options": [
           "Hexagon",
           "Oval",
@@ -1973,7 +1973,7 @@
           "Triangle"
         ],
         "answer": 2,
-        "explanation": "A dice may have a square-shaped outline from this view.",
+        "explanation": "A die may have a square-shaped outline from this view.",
         "difficulty": "Easy"
       },
       {
@@ -2225,7 +2225,7 @@
       },
       {
         "id": "c3m02q071",
-        "question": "A dice is modelled by a cube. How many flat faces does the solid have?",
+        "question": "a die is modelled by a cube. How many flat faces does the solid have?",
         "options": [
           "2",
           "3",
@@ -2485,7 +2485,7 @@
       },
       {
         "id": "c3m02q091",
-        "question": "A child draws a dice on a shape chart. Which solid name fits it best?",
+        "question": "A child draws a die on a shape chart. Which solid name fits it best?",
         "options": [
           "Cylinder",
           "Cone",
@@ -2493,7 +2493,7 @@
           "Cuboid"
         ],
         "answer": 2,
-        "explanation": "The familiar shape of a dice is a cube.",
+        "explanation": "The familiar shape of A die is a cube.",
         "difficulty": "Easy"
       },
       {
@@ -3663,7 +3663,7 @@
       },
       {
         "id": "c3m03q081",
-        "question": "A number has 1 hundred, 1 tens and 0 ones. What is the number?",
+        "question": "A number has 1 hundred, 1 ten and 0 ones. What is the number?",
         "options": [
           "110",
           "111",
@@ -3676,7 +3676,7 @@
       },
       {
         "id": "c3m03q082",
-        "question": "A number has 1 hundred, 2 tens and 1 ones. What is the number?",
+        "question": "A number has 1 hundred, 2 tens and 1 one. What is the number?",
         "options": [
           "123",
           "121",
@@ -3780,7 +3780,7 @@
       },
       {
         "id": "c3m03q090",
-        "question": "A number has 1 hundred, 1 tens and 9 ones. What is the number?",
+        "question": "A number has 1 hundred, 1 ten and 9 ones. What is the number?",
         "options": [
           "121",
           "119",
@@ -6560,7 +6560,7 @@
       },
       {
         "id": "c3m06q002",
-        "question": "A place-value chart shows 3 hundreds, 4 tens and 1 ones. Which number is shown?",
+        "question": "A place-value chart shows 3 hundreds, 4 tens and 1 one. Which number is shown?",
         "options": [
           "343",
           "341",
@@ -7717,7 +7717,7 @@
       },
       {
         "id": "c3m06q091",
-        "question": "Write 2 hundreds, 2 tens and 1 ones as a number.",
+        "question": "Write 2 hundreds, 2 tens and 1 one as a number.",
         "options": [
           "220",
           "223",
@@ -11251,7 +11251,7 @@
       },
       {
         "id": "c3m09q061",
-        "question": "What number has 4 hundreds, 1 tens and 0 ones?",
+        "question": "What number has 4 hundreds, 1 ten and 0 ones?",
         "options": [
           "410",
           "411",
@@ -11264,7 +11264,7 @@
       },
       {
         "id": "c3m09q062",
-        "question": "What number has 4 hundreds, 2 tens and 1 ones?",
+        "question": "What number has 4 hundreds, 2 tens and 1 one?",
         "options": [
           "423",
           "421",
@@ -11368,7 +11368,7 @@
       },
       {
         "id": "c3m09q070",
-        "question": "What number has 4 hundreds, 1 tens and 9 ones?",
+        "question": "What number has 4 hundreds, 1 ten and 9 ones?",
         "options": [
           "421",
           "419",
@@ -11641,7 +11641,7 @@
       },
       {
         "id": "c3m09q091",
-        "question": "Write 5 hundreds, 1 tens and 0 ones as a number.",
+        "question": "Write 5 hundreds, 1 ten and 0 ones as a number.",
         "options": [
           "509",
           "512",
@@ -11654,7 +11654,7 @@
       },
       {
         "id": "c3m09q092",
-        "question": "Write 5 hundreds, 2 tens and 1 ones as a number.",
+        "question": "Write 5 hundreds, 2 tens and 1 one as a number.",
         "options": [
           "522",
           "520",
@@ -11758,7 +11758,7 @@
       },
       {
         "id": "c3m09q100",
-        "question": "Write 5 hundreds, 1 tens and 9 ones as a number.",
+        "question": "Write 5 hundreds, 1 ten and 9 ones as a number.",
         "options": [
           "520",
           "518",
@@ -11779,7 +11779,7 @@
     "questions": [
       {
         "id": "c3m10q001",
-        "question": "A ribbon is 2 metres long and another is 1 metres long. What is their total length?",
+        "question": "A ribbon is 2 metres long and another is 1 metre long. What is their total length?",
         "options": [
           "3",
           "4",
@@ -11831,7 +11831,7 @@
       },
       {
         "id": "c3m10q005",
-        "question": "A ribbon is 6 metres long and another is 1 metres long. What is their total length?",
+        "question": "A ribbon is 6 metres long and another is 1 metre long. What is their total length?",
         "options": [
           "7",
           "8",
@@ -11883,7 +11883,7 @@
       },
       {
         "id": "c3m10q009",
-        "question": "A ribbon is 10 metres long and another is 1 metres long. What is their total length?",
+        "question": "A ribbon is 10 metres long and another is 1 metre long. What is their total length?",
         "options": [
           "11",
           "12",
@@ -12429,7 +12429,7 @@
       },
       {
         "id": "c3m10q051",
-        "question": "A tailor has 3 metres of ribbon and uses 1 metres. How much ribbon remains?",
+        "question": "A tailor has 3 metres of ribbon and uses 1 metre. How much ribbon remains?",
         "options": [
           "1",
           "4",
@@ -12468,7 +12468,7 @@
       },
       {
         "id": "c3m10q054",
-        "question": "A tailor has 6 metres of ribbon and uses 1 metres. How much ribbon remains?",
+        "question": "A tailor has 6 metres of ribbon and uses 1 metre. How much ribbon remains?",
         "options": [
           "7",
           "5",
@@ -12507,7 +12507,7 @@
       },
       {
         "id": "c3m10q057",
-        "question": "A tailor has 9 metres of ribbon and uses 1 metres. How much ribbon remains?",
+        "question": "A tailor has 9 metres of ribbon and uses 1 metre. How much ribbon remains?",
         "options": [
           "8",
           "9",
@@ -12546,7 +12546,7 @@
       },
       {
         "id": "c3m10q060",
-        "question": "A tailor has 12 metres of ribbon and uses 1 metres. How much ribbon remains?",
+        "question": "A tailor has 12 metres of ribbon and uses 1 metre. How much ribbon remains?",
         "options": [
           "12",
           "10",
@@ -13087,7 +13087,7 @@
     "questions": [
       {
         "id": "c3m11q001",
-        "question": "A jug holds 1 litres and a bottle holds 1 litres. What is their total capacity?",
+        "question": "A jug holds 1 litre and a bottle holds 1 litre. What is their total capacity?",
         "options": [
           "2",
           "3",
@@ -13139,7 +13139,7 @@
       },
       {
         "id": "c3m11q005",
-        "question": "A jug holds 5 litres and a bottle holds 1 litres. What is their total capacity?",
+        "question": "A jug holds 5 litres and a bottle holds 1 litre. What is their total capacity?",
         "options": [
           "6",
           "7",
@@ -13191,7 +13191,7 @@
       },
       {
         "id": "c3m11q009",
-        "question": "A jug holds 9 litres and a bottle holds 1 litres. What is their total capacity?",
+        "question": "A jug holds 9 litres and a bottle holds 1 litre. What is their total capacity?",
         "options": [
           "10",
           "11",
@@ -13217,7 +13217,7 @@
       },
       {
         "id": "c3m11q011",
-        "question": "How many half-litre bottles hold 1 litres altogether?",
+        "question": "How many half-litre bottles hold 1 litre altogether?",
         "options": [
           "1",
           "4",
@@ -13347,7 +13347,7 @@
       },
       {
         "id": "c3m11q021",
-        "question": "How many quarter-litre cups are needed to hold 1 litres?",
+        "question": "How many quarter-litre cups are needed to hold 1 litre?",
         "options": [
           "4",
           "5",
@@ -14127,7 +14127,7 @@
       },
       {
         "id": "c3m11q081",
-        "question": "How many quarter-kilogram packets make 1 kilograms?",
+        "question": "How many quarter-kilogram packets make 1 kilogram?",
         "options": [
           "4",
           "5",
@@ -14257,7 +14257,7 @@
       },
       {
         "id": "c3m11q091",
-        "question": "A tank holds 1 litres. What does the number of litres describe?",
+        "question": "A tank holds 1 litre. What does the number of litres describe?",
         "options": [
           "Time",
           "Colour",
@@ -17011,272 +17011,272 @@
     "questions": [
       {
         "id": "c3m14q001",
-        "question": "In a symmetrical butterfly, what is true of the two halves?",
+        "question": "What does it mean when a shape has a line of symmetry?",
         "options": [
-          "They match like a mirror",
-          "One half is always larger",
-          "They have different outlines",
-          "Only the colours must match"
+          "The two sides match when folded on that line",
+          "The shape becomes a solid",
+          "The shape has no corners",
+          "The two sides must be different"
         ],
         "answer": 0,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "A line of symmetry divides a shape into matching halves.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q002",
-        "question": "In a symmetrical square rangoli, what is true of the two halves?",
+        "question": "A six-bead mala is the same from either end. Which colour pattern is symmetric?",
         "options": [
-          "Only the colours must match",
-          "They match like a mirror",
-          "One half is always larger",
-          "They have different outlines"
+          "Red, blue, green, red, blue, green",
+          "Red, blue, green, green, blue, red",
+          "Red, red, blue, green, green, blue",
+          "Blue, red, green, blue, green, red"
         ],
         "answer": 1,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "Reading from either end gives the same sequence: red, blue, green, green, blue, red.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q003",
-        "question": "In a symmetrical symmetrical mask, what is true of the two halves?",
+        "question": "You fold a paper shape along its line of symmetry. What should happen?",
         "options": [
-          "They have different outlines",
-          "Only the colours must match",
-          "They match like a mirror",
-          "One half is always larger"
+          "One half is longer",
+          "The edges never meet",
+          "The two halves lie on top of each other",
+          "The paper becomes a circle"
         ],
         "answer": 2,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "Matching halves cover one another when folded along a line of symmetry.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q004",
-        "question": "In a symmetrical leaf, what is true of the two halves?",
+        "question": "Which action is a good way to test whether a paper shape is symmetric?",
         "options": [
-          "One half is always larger",
-          "They have different outlines",
-          "Only the colours must match",
-          "They match like a mirror"
+          "Measure only its colour",
+          "Count the paper's weight",
+          "Turn it into a ball",
+          "Fold it along a possible symmetry line"
         ],
         "answer": 3,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "A fold test shows whether the two halves match.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q005",
-        "question": "In a symmetrical square tile, what is true of the two halves?",
+        "question": "A rangoli has matching left and right halves. Where could its line of symmetry be?",
         "options": [
-          "They match like a mirror",
-          "One half is always larger",
-          "They have different outlines",
-          "Only the colours must match"
+          "Down the middle from top to bottom",
+          "Only around the outside",
+          "At any random corner",
+          "It cannot have a line of symmetry"
         ],
         "answer": 0,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "A vertical line through the middle separates matching left and right halves.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q006",
-        "question": "In a symmetrical open book, what is true of the two halves?",
+        "question": "A butterfly picture has matching wings on both sides. What does this show?",
         "options": [
-          "Only the colours must match",
-          "They match like a mirror",
-          "One half is always larger",
-          "They have different outlines"
+          "It has no line segments",
+          "The picture has left-right symmetry",
+          "It is a three-dimensional solid",
+          "Its wings must be different sizes"
         ],
         "answer": 1,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "Matching left and right sides show symmetry.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q007",
-        "question": "In a symmetrical butterfly design, what is true of the two halves?",
+        "question": "Two halves of a design match in shape but use different colours. Are the halves geometrically symmetric?",
         "options": [
-          "They have different outlines",
-          "Only the colours must match",
-          "They match like a mirror",
-          "One half is always larger"
+          "No, only identical colours can be symmetric",
+          "No, a design cannot have two halves",
+          "Yes, if the shapes match across the line",
+          "Yes, but only if it is a circle"
         ],
         "answer": 2,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "Symmetry is about matching shape across the line; colour alone need not decide it.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q008",
-        "question": "In a symmetrical round plate, what is true of the two halves?",
+        "question": "A square is folded exactly through its centre from top to bottom. What do the halves do?",
         "options": [
-          "One half is always larger",
-          "They have different outlines",
-          "Only the colours must match",
-          "They match like a mirror"
+          "They never touch",
+          "One half is twice as large",
+          "They form a cone",
+          "They match"
         ],
         "answer": 3,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "A square has a vertical line of symmetry through its centre.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q009",
-        "question": "In a symmetrical rangoli design, what is true of the two halves?",
+        "question": "Why is a mirror useful when learning about symmetry?",
         "options": [
-          "They match like a mirror",
-          "One half is always larger",
-          "They have different outlines",
-          "Only the colours must match"
+          "It helps show how one side reflects the other",
+          "It tells the time",
+          "It measures length in metres",
+          "It weighs the paper"
         ],
         "answer": 0,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "A mirror can help us see a reflected matching side.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q010",
-        "question": "In a symmetrical paper heart, what is true of the two halves?",
+        "question": "Which design is most likely to have left-right symmetry?",
         "options": [
-          "Only the colours must match",
-          "They match like a mirror",
-          "One half is always larger",
-          "They have different outlines"
+          "A one-sided arrow shape",
+          "A simple butterfly with matching wings",
+          "A random uneven scribble",
+          "A shape with only one side drawn"
         ],
         "answer": 1,
-        "explanation": "Symmetry means the two halves match across a line.",
+        "explanation": "A butterfly drawn with matching wings is a familiar example of left-right symmetry.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q011",
-        "question": "Which statement is correct about this figure: square?",
+        "question": "How many lines of symmetry does a square have?",
         "options": [
-          "It is always a solid",
-          "Its halves can never match",
-          "has lines dividing it into matching halves",
-          "It must have no sides"
+          "1",
+          "2",
+          "4",
+          "3"
         ],
         "answer": 2,
-        "explanation": "Square has lines dividing it into matching halves.",
+        "explanation": "A square has four lines of symmetry: vertical, horizontal and two diagonals.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q012",
-        "question": "Which statement is correct about this figure: rectangle?",
+        "question": "How many lines of symmetry does a rectangle that is not a square have?",
         "options": [
-          "It must have no sides",
-          "It is always a solid",
-          "Its halves can never match",
-          "has a line of symmetry through its middle"
+          "1",
+          "3",
+          "4",
+          "2"
         ],
         "answer": 3,
-        "explanation": "Rectangle has a line of symmetry through its middle.",
+        "explanation": "A non-square rectangle has a vertical and a horizontal line of symmetry.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q013",
-        "question": "Which statement is correct about this figure: circle?",
+        "question": "How many lines of symmetry does an equilateral triangle have?",
         "options": [
-          "can be divided into matching halves through its centre",
-          "It must have no sides",
-          "It is always a solid",
-          "Its halves can never match"
+          "3",
+          "1",
+          "2",
+          "4"
         ],
         "answer": 0,
-        "explanation": "Circle can be divided into matching halves through its centre.",
+        "explanation": "Each vertex of an equilateral triangle can be joined to the midpoint of the opposite side.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q014",
-        "question": "Which statement is correct about this figure: equilateral triangle?",
+        "question": "How many lines of symmetry can be drawn through the centre of a circle?",
         "options": [
-          "Its halves can never match",
-          "has matching halves",
-          "It must have no sides",
-          "It is always a solid"
+          "Exactly one",
+          "Many; every diameter is a line of symmetry",
+          "Exactly two",
+          "None"
         ],
         "answer": 1,
-        "explanation": "Equilateral triangle has matching halves.",
+        "explanation": "Any diameter divides a circle into two matching halves.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q015",
-        "question": "Which statement is correct about this figure: irregular scribble?",
+        "question": "Which shape has no line of symmetry in the way it is drawn: an uneven, scalene triangle or a square?",
         "options": [
-          "It is always a solid",
-          "Its halves can never match",
-          "usually has no matching halves",
-          "It must have no sides"
+          "The square",
+          "Both always have four",
+          "The uneven, scalene triangle",
+          "Neither has sides"
         ],
         "answer": 2,
-        "explanation": "Irregular scribble usually has no matching halves.",
+        "explanation": "A scalene triangle has no line of symmetry, while a square has four.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q016",
-        "question": "Which statement is correct about this figure: square tile?",
+        "question": "What do we call the line that divides a symmetrical shape into matching halves?",
         "options": [
-          "It must have no sides",
-          "It is always a solid",
-          "Its halves can never match",
-          "has matching halves"
+          "A number line",
+          "A calendar line",
+          "A measuring scale",
+          "A line of symmetry"
         ],
         "answer": 3,
-        "explanation": "Square tile has matching halves.",
+        "explanation": "A line of symmetry separates matching halves.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q017",
-        "question": "Which statement is correct about this figure: round plate?",
+        "question": "A rectangle is not a square. Which statement is correct?",
         "options": [
-          "has matching halves",
-          "It must have no sides",
-          "It is always a solid",
-          "Its halves can never match"
+          "It has two lines of symmetry",
+          "It has no lines of symmetry",
+          "It has four diagonal lines of symmetry",
+          "It has exactly one curved side"
         ],
         "answer": 0,
-        "explanation": "Round plate has matching halves.",
+        "explanation": "A non-square rectangle has two lines of symmetry through its centre.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q018",
-        "question": "Which statement is correct about this figure: butterfly shape?",
+        "question": "A square paper is folded along one diagonal. What will the two triangular halves do?",
         "options": [
-          "Its halves can never match",
-          "has matching left and right halves",
-          "It must have no sides",
-          "It is always a solid"
+          "One half is always bigger",
+          "They match exactly",
+          "They cannot overlap",
+          "They turn into circles"
         ],
         "answer": 1,
-        "explanation": "Butterfly shape has matching left and right halves.",
+        "explanation": "A diagonal of a square divides it into two congruent triangles.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q019",
-        "question": "Which statement is correct about this figure: regular rectangle?",
+        "question": "Which item is naturally useful to demonstrate mirror symmetry?",
         "options": [
-          "It is always a solid",
-          "Its halves can never match",
-          "has matching halves",
-          "It must have no sides"
+          "A single straight ruler",
+          "A calendar page showing dates",
+          "A butterfly drawing with matching wings",
+          "A closed bottle viewed from above"
         ],
         "answer": 2,
-        "explanation": "Regular rectangle has matching halves.",
+        "explanation": "The matching wings make the symmetry easy to see.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q020",
-        "question": "Which statement is correct about this figure: symmetrical rangoli?",
+        "question": "When checking a shape for symmetry, which feature matters most?",
         "options": [
-          "It must have no sides",
-          "It is always a solid",
-          "Its halves can never match",
-          "has matching halves"
+          "Whether the shape is red",
+          "Whether it weighs one kilogram",
+          "Whether it is named after a person",
+          "Whether the two sides match across the fold line"
         ],
         "answer": 3,
-        "explanation": "Symmetrical rangoli has matching halves.",
+        "explanation": "The key test is whether folding along the line makes the halves match.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q021",
         "question": "A repeating bead pattern is \"red, blue, red, blue\". Which colour comes next?",
         "options": [
-          "red",
-          "blue",
-          "green",
-          "yellow"
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
         ],
         "answer": 0,
         "explanation": "The two-colour unit repeats in the same order, so red comes next.",
@@ -17287,9 +17287,9 @@
         "question": "A repeating bead pattern is \"blue, green, blue, green\". Which colour comes next?",
         "options": [
           "None of these",
-          "blue",
-          "green",
-          "yellow"
+          "Blue",
+          "Green",
+          "Yellow"
         ],
         "answer": 1,
         "explanation": "The two-colour unit repeats in the same order, so blue comes next.",
@@ -17301,8 +17301,8 @@
         "options": [
           "None of these",
           "Another shape",
-          "green",
-          "yellow"
+          "Green",
+          "Yellow"
         ],
         "answer": 2,
         "explanation": "The two-colour unit repeats in the same order, so green comes next.",
@@ -17312,10 +17312,10 @@
         "id": "c3m14q024",
         "question": "A repeating bead pattern is \"yellow, purple, yellow, purple\". Which colour comes next?",
         "options": [
-          "purple",
-          "green",
+          "Purple",
+          "Green",
           "None of these",
-          "yellow"
+          "Yellow"
         ],
         "answer": 3,
         "explanation": "The two-colour unit repeats in the same order, so yellow comes next.",
@@ -17325,10 +17325,10 @@
         "id": "c3m14q025",
         "question": "A repeating bead pattern is \"purple, orange, purple, orange\". Which colour comes next?",
         "options": [
-          "purple",
-          "orange",
-          "green",
-          "yellow"
+          "Purple",
+          "Orange",
+          "Green",
+          "Yellow"
         ],
         "answer": 0,
         "explanation": "The two-colour unit repeats in the same order, so purple comes next.",
@@ -17338,10 +17338,10 @@
         "id": "c3m14q026",
         "question": "A repeating bead pattern is \"orange, pink, orange, pink\". Which colour comes next?",
         "options": [
-          "yellow",
-          "orange",
-          "pink",
-          "green"
+          "Yellow",
+          "Orange",
+          "Pink",
+          "Green"
         ],
         "answer": 1,
         "explanation": "The two-colour unit repeats in the same order, so orange comes next.",
@@ -17351,10 +17351,10 @@
         "id": "c3m14q027",
         "question": "A repeating bead pattern is \"pink, white, pink, white\". Which colour comes next?",
         "options": [
-          "green",
-          "yellow",
-          "pink",
-          "white"
+          "Green",
+          "Yellow",
+          "Pink",
+          "White"
         ],
         "answer": 2,
         "explanation": "The two-colour unit repeats in the same order, so pink comes next.",
@@ -17364,10 +17364,10 @@
         "id": "c3m14q028",
         "question": "A repeating bead pattern is \"white, black, white, black\". Which colour comes next?",
         "options": [
-          "black",
-          "green",
-          "yellow",
-          "white"
+          "Black",
+          "Green",
+          "Yellow",
+          "White"
         ],
         "answer": 3,
         "explanation": "The two-colour unit repeats in the same order, so white comes next.",
@@ -17377,10 +17377,10 @@
         "id": "c3m14q029",
         "question": "A repeating bead pattern is \"black, brown, black, brown\". Which colour comes next?",
         "options": [
-          "black",
-          "brown",
-          "green",
-          "yellow"
+          "Black",
+          "Brown",
+          "Green",
+          "Yellow"
         ],
         "answer": 0,
         "explanation": "The two-colour unit repeats in the same order, so black comes next.",
@@ -17390,10 +17390,10 @@
         "id": "c3m14q030",
         "question": "A repeating bead pattern is \"brown, red, brown, red\". Which colour comes next?",
         "options": [
-          "yellow",
-          "brown",
-          "red",
-          "green"
+          "Yellow",
+          "Brown",
+          "Red",
+          "Green"
         ],
         "answer": 1,
         "explanation": "The two-colour unit repeats in the same order, so brown comes next.",
@@ -17403,10 +17403,10 @@
         "id": "c3m14q031",
         "question": "At fair map station 1, you face north and turn right. Which direction do you face now?",
         "options": [
-          "south",
-          "west",
-          "east",
-          "north"
+          "South",
+          "West",
+          "East",
+          "North"
         ],
         "answer": 2,
         "explanation": "A right turn from north points to east.",
@@ -17416,10 +17416,10 @@
         "id": "c3m14q032",
         "question": "At fair map station 2, you face east and turn left. Which direction do you face now?",
         "options": [
-          "east",
-          "south",
-          "west",
-          "north"
+          "East",
+          "South",
+          "West",
+          "North"
         ],
         "answer": 3,
         "explanation": "A left turn from east points to north.",
@@ -17429,10 +17429,10 @@
         "id": "c3m14q033",
         "question": "At fair map station 3, you face south and turn around. Which direction do you face now?",
         "options": [
-          "north",
-          "east",
-          "south",
-          "west"
+          "North",
+          "East",
+          "South",
+          "West"
         ],
         "answer": 0,
         "explanation": "A around turn from south points to north.",
@@ -17442,10 +17442,10 @@
         "id": "c3m14q034",
         "question": "At fair map station 4, you face west and turn right. Which direction do you face now?",
         "options": [
-          "west",
-          "north",
-          "east",
-          "south"
+          "West",
+          "North",
+          "East",
+          "South"
         ],
         "answer": 1,
         "explanation": "A right turn from west points to north.",
@@ -17455,10 +17455,10 @@
         "id": "c3m14q035",
         "question": "At fair map station 5, you face north and turn left. Which direction do you face now?",
         "options": [
-          "east",
-          "south",
-          "west",
-          "north"
+          "East",
+          "South",
+          "West",
+          "North"
         ],
         "answer": 2,
         "explanation": "A left turn from north points to west.",
@@ -17468,10 +17468,10 @@
         "id": "c3m14q036",
         "question": "At fair map station 6, you face east and turn around. Which direction do you face now?",
         "options": [
-          "north",
-          "east",
-          "south",
-          "west"
+          "North",
+          "East",
+          "South",
+          "West"
         ],
         "answer": 3,
         "explanation": "A around turn from east points to west.",
@@ -17481,10 +17481,10 @@
         "id": "c3m14q037",
         "question": "At fair map station 7, you face south and turn right. Which direction do you face now?",
         "options": [
-          "west",
-          "north",
-          "east",
-          "south"
+          "West",
+          "North",
+          "East",
+          "South"
         ],
         "answer": 0,
         "explanation": "A right turn from south points to west.",
@@ -17494,10 +17494,10 @@
         "id": "c3m14q038",
         "question": "At fair map station 8, you face west and turn left. Which direction do you face now?",
         "options": [
-          "west",
-          "south",
-          "north",
-          "east"
+          "West",
+          "South",
+          "North",
+          "East"
         ],
         "answer": 1,
         "explanation": "A left turn from west points to south.",
@@ -17507,10 +17507,10 @@
         "id": "c3m14q039",
         "question": "At fair map station 9, you face north and turn around. Which direction do you face now?",
         "options": [
-          "east",
-          "west",
-          "south",
-          "north"
+          "East",
+          "West",
+          "South",
+          "North"
         ],
         "answer": 2,
         "explanation": "A around turn from north points to south.",
@@ -17520,10 +17520,10 @@
         "id": "c3m14q040",
         "question": "At fair map station 10, you face east and turn right. Which direction do you face now?",
         "options": [
-          "north",
-          "east",
-          "west",
-          "south"
+          "North",
+          "East",
+          "West",
+          "South"
         ],
         "answer": 3,
         "explanation": "A right turn from east points to south.",
@@ -17531,272 +17531,272 @@
       },
       {
         "id": "c3m14q041",
-        "question": "You need to find the first-aid post at the fair. What should you use to choose a route?",
+        "question": "At a fair map, the legend uses a blue cup symbol for drinking water. What does that symbol help you find?",
         "options": [
-          "The map and its signs",
-          "A ruler",
-          "A weighing scale",
-          "A calendar"
+          "The drinking-water stall",
+          "The first-aid post",
+          "The exit gate",
+          "The stage"
         ],
         "answer": 0,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "A map legend explains what each symbol stands for.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q042",
-        "question": "You need to find the ticket counter at the fair. What should you use to choose a route?",
+        "question": "You are at the entrance and want to reach the first-aid post marked on the map. What should you check first?",
         "options": [
-          "A calendar",
-          "The map and its signs",
-          "A ruler",
-          "A weighing scale"
+          "The colour of your shoes",
+          "The map key and the route from the entrance",
+          "The date on a calendar",
+          "The length of a pencil"
         ],
         "answer": 1,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "The map key explains symbols, and the route helps plan where to go.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q043",
-        "question": "You need to find the water stall at the fair. What should you use to choose a route?",
+        "question": "The map shows the ticket counter beside the main path. Which information is most useful?",
         "options": [
-          "A weighing scale",
-          "A calendar",
-          "The map and its signs",
-          "A ruler"
+          "The weight of a bag",
+          "A pattern of beads",
+          "The path and the ticket-counter symbol",
+          "The number of days in a week"
         ],
         "answer": 2,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "Map symbols and paths help locate places.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q044",
-        "question": "You need to find the craft stall at the fair. What should you use to choose a route?",
+        "question": "A sign says the exit is east of the food stalls. Which direction should you look from the food stalls?",
         "options": [
-          "A ruler",
-          "A weighing scale",
-          "A calendar",
-          "The map and its signs"
+          "North",
+          "South",
+          "West",
+          "East"
         ],
         "answer": 3,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "The sign tells you the exit is to the east.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q045",
-        "question": "You need to find the main stage at the fair. What should you use to choose a route?",
+        "question": "You walk north, then turn right at a junction. Which direction are you facing?",
         "options": [
-          "The map and its signs",
-          "A ruler",
-          "A weighing scale",
-          "A calendar"
+          "East",
+          "West",
+          "South",
+          "North"
         ],
         "answer": 0,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "A right turn from north points east.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q046",
-        "question": "You need to find the parking area at the fair. What should you use to choose a route?",
+        "question": "You walk east and then turn left. Which direction are you facing?",
         "options": [
-          "A calendar",
-          "The map and its signs",
-          "A ruler",
-          "A weighing scale"
+          "South",
+          "North",
+          "West",
+          "East"
         ],
         "answer": 1,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "A left turn from east points north.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q047",
-        "question": "You need to find the entrance at the fair. What should you use to choose a route?",
+        "question": "A map has a symbol for toilets, but you do not know what it means. What should you look at?",
         "options": [
+          "The page number only",
           "A weighing scale",
-          "A calendar",
-          "The map and its signs",
-          "A ruler"
+          "The map legend or key",
+          "The time on a clock"
         ],
         "answer": 2,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "The legend explains the symbols used on a map.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q048",
-        "question": "You need to find the exit at the fair. What should you use to choose a route?",
+        "question": "You reach a crossroads and the map route bends to the left. What should you do to follow the route?",
         "options": [
-          "A ruler",
-          "A weighing scale",
-          "A calendar",
-          "The map and its signs"
+          "Keep going straight no matter what",
+          "Turn right every time",
+          "Return to the entrance",
+          "Turn left at the crossroads"
         ],
         "answer": 3,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "Follow the route shown on the map and turn left where it bends.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q049",
-        "question": "You need to find the restaurant at the fair. What should you use to choose a route?",
+        "question": "Which item is most useful for finding a stall in a large fairground?",
         "options": [
-          "The map and its signs",
-          "A ruler",
-          "A weighing scale",
-          "A calendar"
+          "A map with labelled places",
+          "A ruler without a map",
+          "A list of colours",
+          "A litre measure"
         ],
         "answer": 0,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "A map with labels helps locate a destination.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q050",
-        "question": "You need to find the play area at the fair. What should you use to choose a route?",
+        "question": "A marked path leads from the entrance to the stage. What does the path show?",
         "options": [
-          "A calendar",
-          "The map and its signs",
-          "A ruler",
-          "A weighing scale"
+          "How heavy the stage is",
+          "One way to travel to the stage",
+          "How many days the fair lasts",
+          "The shape of every stall"
         ],
         "answer": 1,
-        "explanation": "Maps and signs help visitors identify places and follow routes.",
+        "explanation": "A route on the map shows how to travel between places.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q051",
-        "question": "A fair walkway has 2 tiles in each row and 2 rows. How many tiles are used?",
+        "question": "Which shape can cover a flat floor by repeating it with no gaps or overlaps?",
         "options": [
-          "3",
-          "6",
-          "4",
-          "5"
+          "Circles of the same size",
+          "Open rings",
+          "Squares",
+          "Separate dots"
         ],
         "answer": 2,
-        "explanation": "2 × 2 = 4 tiles.",
+        "explanation": "Squares fit edge to edge without gaps or overlaps.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q052",
-        "question": "A fair walkway has 3 tiles in each row and 3 rows. How many tiles are used?",
+        "question": "Why can equal square tiles cover a floor neatly?",
         "options": [
-          "10",
-          "8",
-          "11",
-          "9"
+          "They leave a round hole between every tile",
+          "They must be stacked as solids",
+          "They can only be used one at a time",
+          "Their straight edges fit together"
         ],
         "answer": 3,
-        "explanation": "3 × 3 = 9 tiles.",
+        "explanation": "Equal square tiles meet along their straight edges.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q053",
-        "question": "A fair walkway has 4 tiles in each row and 4 rows. How many tiles are used?",
+        "question": "When tiles cover a surface with no gaps or overlaps, what is this called?",
         "options": [
-          "16",
-          "17",
-          "15",
-          "18"
+          "Tiling",
+          "Weighing",
+          "Timing",
+          "Counting backwards"
         ],
         "answer": 0,
-        "explanation": "4 × 4 = 16 tiles.",
+        "explanation": "Tiling covers a surface without gaps or overlaps.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q054",
-        "question": "A fair walkway has 5 tiles in each row and 5 rows. How many tiles are used?",
+        "question": "A designer wants a pattern made of triangles. What should the designer check when placing each tile?",
         "options": [
-          "27",
-          "25",
-          "26",
-          "24"
+          "That every triangle has a different colour",
+          "That the edges meet without gaps or overlaps",
+          "That the tiles are all circles",
+          "That the tiles float above the surface"
         ],
         "answer": 1,
-        "explanation": "5 × 5 = 25 tiles.",
+        "explanation": "A tiling needs the pieces to cover the surface without spaces or overlap.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q055",
-        "question": "A fair walkway has 6 tiles in each row and 2 rows. How many tiles are used?",
+        "question": "Two square tiles are placed side by side with their edges touching. What shape is their combined outline?",
         "options": [
-          "11",
-          "14",
-          "12",
-          "13"
+          "A circle",
+          "A cone",
+          "A rectangle",
+          "A triangle"
         ],
         "answer": 2,
-        "explanation": "6 × 2 = 12 tiles.",
+        "explanation": "Two equal squares joined edge to edge make a rectangle.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q056",
-        "question": "A fair walkway has 7 tiles in each row and 3 rows. How many tiles are used?",
+        "question": "Four equal square tiles are arranged in a 2 by 2 block. What is the outside shape?",
         "options": [
-          "22",
-          "20",
-          "23",
-          "21"
+          "A circle",
+          "A triangle",
+          "A cylinder",
+          "A larger square"
         ],
         "answer": 3,
-        "explanation": "7 × 3 = 21 tiles.",
+        "explanation": "A 2 by 2 arrangement of equal square tiles forms a larger square.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q057",
-        "question": "A fair walkway has 8 tiles in each row and 4 rows. How many tiles are used?",
+        "question": "Which arrangement leaves a gap between round pieces on a flat floor?",
         "options": [
-          "32",
-          "33",
-          "31",
-          "34"
+          "Circles placed side by side",
+          "Squares joined edge to edge",
+          "Rectangles joined edge to edge",
+          "Triangles fitted edge to edge"
         ],
         "answer": 0,
-        "explanation": "8 × 4 = 32 tiles.",
+        "explanation": "Equal circles leave spaces between them when placed in a simple row.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q058",
-        "question": "A fair walkway has 9 tiles in each row and 5 rows. How many tiles are used?",
+        "question": "A rangoli pattern repeats the same tile shape evenly. What should be checked to keep the pattern tidy?",
         "options": [
-          "47",
-          "45",
-          "46",
-          "44"
+          "Every shape must be a different size",
+          "The shapes fit together consistently",
+          "The pattern must use only circles",
+          "The spaces must be covered by overlapping tiles"
         ],
         "answer": 1,
-        "explanation": "9 × 5 = 45 tiles.",
+        "explanation": "Repeating a consistent fitting arrangement makes a neat pattern.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q059",
-        "question": "A fair walkway has 10 tiles in each row and 2 rows. How many tiles are used?",
+        "question": "A floor is covered with square tiles. One tile is missing and leaves a square hole. What should replace it?",
         "options": [
-          "19",
-          "22",
-          "20",
-          "21"
+          "A round ball",
+          "A long rope",
+          "A square tile of the same size",
+          "A cup of water"
         ],
         "answer": 2,
-        "explanation": "10 × 2 = 20 tiles.",
+        "explanation": "A matching square tile fills the gap without overlap.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q060",
-        "question": "A fair walkway has 11 tiles in each row and 3 rows. How many tiles are used?",
+        "question": "Which statement describes a good tiling?",
         "options": [
-          "34",
-          "32",
-          "35",
-          "33"
+          "Tiles are piled on top of each other",
+          "Large gaps are left between all tiles",
+          "Only one tile is used",
+          "The surface is covered without gaps or overlaps"
         ],
         "answer": 3,
-        "explanation": "11 × 3 = 33 tiles.",
+        "explanation": "A tiling covers the surface without gaps or overlaps.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q061",
         "question": "What comes next in the repeating pattern red, blue, red, blue?",
         "options": [
-          "red",
-          "black",
-          "square",
-          "purple"
+          "Red",
+          "Black",
+          "Square",
+          "Purple"
         ],
         "answer": 0,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17806,10 +17806,10 @@
         "id": "c3m14q062",
         "question": "What comes next in the repeating pattern circle, square, circle, square?",
         "options": [
-          "purple",
-          "circle",
-          "black",
-          "square"
+          "Purple",
+          "Circle",
+          "Black",
+          "Square"
         ],
         "answer": 1,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17819,10 +17819,10 @@
         "id": "c3m14q063",
         "question": "What comes next in the repeating pattern green, yellow, green, yellow?",
         "options": [
-          "square",
-          "purple",
-          "green",
-          "black"
+          "Square",
+          "Purple",
+          "Green",
+          "Black"
         ],
         "answer": 2,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17832,10 +17832,10 @@
         "id": "c3m14q064",
         "question": "What comes next in the repeating pattern triangle, circle, triangle, circle?",
         "options": [
-          "black",
-          "square",
-          "purple",
-          "triangle"
+          "Black",
+          "Square",
+          "Purple",
+          "Triangle"
         ],
         "answer": 3,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17845,10 +17845,10 @@
         "id": "c3m14q065",
         "question": "What comes next in the repeating pattern red, red, blue, red, red, blue?",
         "options": [
-          "red",
-          "black",
-          "square",
-          "purple"
+          "Red",
+          "Black",
+          "Square",
+          "Purple"
         ],
         "answer": 0,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17859,9 +17859,9 @@
         "question": "What comes next in the repeating pattern square, triangle, square, triangle?",
         "options": [
           "None of these",
-          "square",
-          "black",
-          "purple"
+          "Square",
+          "Black",
+          "Purple"
         ],
         "answer": 1,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17871,10 +17871,10 @@
         "id": "c3m14q067",
         "question": "What comes next in the repeating pattern blue, green, blue, green?",
         "options": [
-          "square",
-          "purple",
-          "blue",
-          "black"
+          "Square",
+          "Purple",
+          "Blue",
+          "Black"
         ],
         "answer": 2,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17884,10 +17884,10 @@
         "id": "c3m14q068",
         "question": "What comes next in the repeating pattern circle, triangle, circle, triangle?",
         "options": [
-          "black",
-          "square",
-          "purple",
-          "circle"
+          "Black",
+          "Square",
+          "Purple",
+          "Circle"
         ],
         "answer": 3,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17897,10 +17897,10 @@
         "id": "c3m14q069",
         "question": "What comes next in the repeating pattern yellow, purple, yellow, purple?",
         "options": [
-          "yellow",
-          "black",
-          "square",
-          "purple"
+          "Yellow",
+          "Black",
+          "Square",
+          "Purple"
         ],
         "answer": 0,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17910,10 +17910,10 @@
         "id": "c3m14q070",
         "question": "What comes next in the repeating pattern green, green, orange, green, green, orange?",
         "options": [
-          "purple",
-          "green",
-          "black",
-          "square"
+          "Purple",
+          "Green",
+          "Black",
+          "Square"
         ],
         "answer": 1,
         "explanation": "Follow the repeating unit in the same order.",
@@ -17921,262 +17921,262 @@
       },
       {
         "id": "c3m14q071",
-        "question": "Tiles cover a fair path without gaps or overlaps. What is this arrangement called?",
+        "question": "A square tile has a small gap on one side after placement. What is the best correction?",
         "options": [
-          "Timing",
-          "Counting backwards",
-          "Tiling",
-          "Weighing"
+          "Leave the gap as part of the tiling",
+          "Put a round ball in the gap",
+          "Move or replace it so its edge meets the next tile",
+          "Cover the other tiles with it"
         ],
         "answer": 2,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "Tiles should meet without gaps and should not overlap.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q072",
-        "question": "Tiles cover a floor without gaps or overlaps. What is this arrangement called?",
+        "question": "A pattern uses the same square tile again and again. What makes it a repeating pattern?",
         "options": [
-          "Weighing",
-          "Timing",
-          "Counting backwards",
-          "Tiling"
+          "Every tile must be a new shape",
+          "The tiles are all different sizes",
+          "The pattern stops after one tile",
+          "The same unit appears in the same order"
         ],
         "answer": 3,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "Repeating a unit means the unit appears again in the same order.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q073",
-        "question": "Tiles cover a rangoli without gaps or overlaps. What is this arrangement called?",
+        "question": "Which pair of flat shapes can be fitted edge to edge in a simple row without gaps?",
         "options": [
-          "Tiling",
-          "Weighing",
-          "Timing",
-          "Counting backwards"
+          "Two rectangles with matching edges",
+          "Two circles with space between them",
+          "Two open loops",
+          "Two balls"
         ],
         "answer": 0,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "Rectangles can be lined up by their straight edges.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q074",
-        "question": "Tiles cover a wall design without gaps or overlaps. What is this arrangement called?",
+        "question": "When making a paper-tile design, why should pieces not overlap?",
         "options": [
-          "Counting backwards",
-          "Tiling",
-          "Weighing",
-          "Timing"
+          "Overlapping makes every tile a circle",
+          "Overlapping hides part of a tile and changes the arrangement",
+          "Overlapping tells the time",
+          "Overlapping measures weight"
         ],
         "answer": 1,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "A proper tiling covers the surface without pieces covering one another.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q075",
-        "question": "Tiles cover a tile pattern without gaps or overlaps. What is this arrangement called?",
+        "question": "A square tile pattern has 3 rows with 4 tiles in each row. How many tiles are there?",
         "options": [
-          "Timing",
-          "Counting backwards",
-          "Tiling",
-          "Weighing"
+          "7",
+          "10",
+          "12",
+          "14"
         ],
         "answer": 2,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "3 rows of 4 tiles make 3 × 4 = 12 tiles.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q076",
-        "question": "Tiles cover a courtyard without gaps or overlaps. What is this arrangement called?",
+        "question": "A rectangular floor has 5 tiles in each row and 2 rows. How many tiles are used?",
         "options": [
-          "Weighing",
-          "Timing",
-          "Counting backwards",
-          "Tiling"
+          "7",
+          "12",
+          "15",
+          "10"
         ],
         "answer": 3,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "5 tiles in each of 2 rows make 5 × 2 = 10.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q077",
-        "question": "Tiles cover a walkway without gaps or overlaps. What is this arrangement called?",
+        "question": "What is one reason squares are useful for making a repeating floor pattern?",
         "options": [
-          "Tiling",
-          "Weighing",
-          "Timing",
-          "Counting backwards"
+          "They can fit edge to edge in rows",
+          "They have no edges",
+          "They are always curved",
+          "They cannot touch another square"
         ],
         "answer": 0,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "Squares have straight edges that fit together.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q078",
-        "question": "Tiles cover a mosaic without gaps or overlaps. What is this arrangement called?",
+        "question": "A paper rangoli has matching shapes on the left and right. What could make the design symmetric?",
         "options": [
-          "Counting backwards",
-          "Tiling",
-          "Weighing",
-          "Timing"
+          "Putting all parts on the left only",
+          "Repeating matching parts on both sides of a centre line",
+          "Making the right side much larger",
+          "Removing one half"
         ],
         "answer": 1,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "Matching parts on both sides of a line create symmetry.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q079",
-        "question": "Tiles cover a decorative floor without gaps or overlaps. What is this arrangement called?",
+        "question": "A tile pattern is made by repeating triangle, square, triangle, square. Which shape comes next?",
         "options": [
-          "Timing",
-          "Counting backwards",
-          "Tiling",
-          "Weighing"
+          "Circle",
+          "Rectangle",
+          "Triangle",
+          "Cone"
         ],
         "answer": 2,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "The two-shape pattern repeats triangle, square.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q080",
-        "question": "Tiles cover a school entrance without gaps or overlaps. What is this arrangement called?",
+        "question": "Which is the best way to describe a maze on a map?",
         "options": [
-          "Weighing",
-          "Timing",
-          "Counting backwards",
-          "Tiling"
+          "A measurement of water",
+          "A pattern of weights",
+          "A calendar of months",
+          "A path with turns that can lead to a destination"
         ],
         "answer": 3,
-        "explanation": "Tiling covers a surface without gaps or overlaps.",
+        "explanation": "A maze is a path with turns that a person follows to reach a destination.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q081",
-        "question": "The gate is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "On a fair map, you move from the entrance to a fork in the path. One branch is marked toward the stage. Which branch should you take to reach the stage?",
         "options": [
-          "The left side",
-          "The right side",
-          "The back of the page",
-          "Only the top"
+          "The branch marked toward the stage",
+          "Any branch at random",
+          "The branch leading back outside",
+          "No branch; maps cannot show routes"
         ],
         "answer": 0,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "Follow the route marked for your destination.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q082",
-        "question": "The stage is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "You face north and turn around at a map station. Which way do you face now?",
         "options": [
-          "Only the top",
-          "The left side",
-          "The right side",
-          "The back of the page"
+          "North",
+          "South",
+          "East",
+          "West"
         ],
         "answer": 1,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "Turning around from north points south.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q083",
-        "question": "The craft stall is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "You face west and turn right. Which direction do you face now?",
         "options": [
-          "The back of the page",
-          "Only the top",
-          "The left side",
-          "The right side"
+          "South",
+          "East",
+          "North",
+          "West"
         ],
         "answer": 2,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "A right turn from west points north.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q084",
-        "question": "The water stall is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "The map key marks an emergency exit with an E. Which place should you look for?",
         "options": [
-          "The right side",
-          "The back of the page",
-          "Only the top",
-          "The left side"
+          "A symbol for food",
+          "A ruler measurement",
+          "A calendar date",
+          "The exit symbol labelled E"
         ],
         "answer": 3,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "The key tells you what the E symbol means.",
         "difficulty": "Easy"
       },
       {
         "id": "c3m14q085",
-        "question": "The ticket counter is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "A path on a fair map goes straight and then turns right. What should you do at the corner?",
         "options": [
-          "The left side",
-          "The right side",
-          "The back of the page",
-          "Only the top"
+          "Turn right and continue on the marked path",
+          "Turn left instead",
+          "Stop using the map",
+          "Go back to the starting point"
         ],
         "answer": 0,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "Following each turn keeps you on the mapped route.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q086",
-        "question": "The parking area is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "The map shows the water stall north of the entrance. From the entrance, in which direction is the water stall?",
         "options": [
-          "Only the top",
-          "The left side",
-          "The right side",
-          "The back of the page"
+          "South",
+          "North",
+          "East",
+          "West"
         ],
         "answer": 1,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "The map states that the water stall is north of the entrance.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q087",
-        "question": "The play area is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "You are at a fork and want to reach the exit. What information matters most?",
         "options": [
-          "The back of the page",
-          "Only the top",
-          "The left side",
-          "The right side"
+          "The colour of your bag",
+          "The number of beads in a mala",
+          "Which branch is marked toward the exit",
+          "The weight of your shoes"
         ],
         "answer": 2,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "The destination label helps you choose the correct branch.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q088",
-        "question": "The restaurant is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "What does a map symbol do?",
         "options": [
-          "The right side",
-          "The back of the page",
-          "Only the top",
-          "The left side"
+          "Measures the length of a table",
+          "Counts the days in a month",
+          "Shows the mass of a person",
+          "Stands for a place or feature"
         ],
         "answer": 3,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "Map symbols represent places or features.",
         "difficulty": "Medium"
       },
       {
         "id": "c3m14q089",
-        "question": "The first-aid post is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "You have followed a maze and reached a dead end. What is a sensible next step?",
         "options": [
-          "The left side",
-          "The right side",
-          "The back of the page",
-          "Only the top"
+          "Return to the last junction and try another path",
+          "Keep walking through the wall",
+          "Ignore all paths",
+          "Start counting water litres"
         ],
         "answer": 0,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "A dead end means you need to go back to a junction and choose another route.",
         "difficulty": "Challenge"
       },
       {
         "id": "c3m14q090",
-        "question": "The exit is shown to the left of the entrance on a fair map. Which side of the map should you check?",
+        "question": "Which direction is opposite to east?",
         "options": [
-          "Only the top",
-          "The left side",
-          "The right side",
-          "The back of the page"
+          "North",
+          "West",
+          "South",
+          "East"
         ],
         "answer": 1,
-        "explanation": "Use the direction shown on the map to locate the place.",
+        "explanation": "West is opposite to east.",
         "difficulty": "Challenge"
       },
       {
@@ -18185,7 +18185,7 @@
         "options": [
           "They all tell the time",
           "They are all numbers",
-          "flat shapes",
+          "Flat shapes",
           "They all mean length"
         ],
         "answer": 2,
@@ -18199,7 +18199,7 @@
           "They all mean length",
           "They all tell the time",
           "They are all numbers",
-          "solid shapes"
+          "Solid shapes"
         ],
         "answer": 3,
         "explanation": "The three examples are solid shapes.",
@@ -18209,7 +18209,7 @@
         "id": "c3m14q093",
         "question": "What do Monday, Friday and Sunday have in common?",
         "options": [
-          "days of the week",
+          "Days of the week",
           "They all mean length",
           "They all tell the time",
           "They are all numbers"
@@ -18223,7 +18223,7 @@
         "question": "What do litre, metre and kilogram have in common?",
         "options": [
           "They are all numbers",
-          "units of measurement",
+          "Units of measurement",
           "They all mean length",
           "They all tell the time"
         ],
@@ -18237,7 +18237,7 @@
         "options": [
           "They all tell the time",
           "They are all numbers",
-          "compass directions",
+          "Compass directions",
           "They all mean length"
         ],
         "answer": 2,
@@ -18251,7 +18251,7 @@
           "They all mean length",
           "They all tell the time",
           "They are all numbers",
-          "parts or shares"
+          "Parts or shares"
         ],
         "answer": 3,
         "explanation": "The three examples are parts or shares.",
@@ -18261,7 +18261,7 @@
         "id": "c3m14q097",
         "question": "What do circle, square and triangle have in common?",
         "options": [
-          "flat shapes",
+          "Flat shapes",
           "They all mean length",
           "They all tell the time",
           "They are all numbers"
@@ -18275,7 +18275,7 @@
         "question": "What do January, June and October have in common?",
         "options": [
           "They are all numbers",
-          "months",
+          "Months",
           "They all mean length",
           "They all tell the time"
         ],
@@ -18289,7 +18289,7 @@
         "options": [
           "They all tell the time",
           "They are all numbers",
-          "solid shapes",
+          "Solid shapes",
           "They all mean length"
         ],
         "answer": 2,
@@ -18303,7 +18303,7 @@
           "They all mean length",
           "They all tell the time",
           "They are all numbers",
-          "colours"
+          "Colours"
         ],
         "answer": 3,
         "explanation": "The three examples are colours.",
