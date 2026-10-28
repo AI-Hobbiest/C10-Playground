@@ -103,6 +103,8 @@ assert.ok(engine.includes('fetch("./data/"+bankId+".json"'),"the shared engine l
 
 const languageFiller = /For a language note connected|correct plural of friend|the chapter’s main idea/i;
 assert.equal(englishBank.some(chapter=>chapter.questions.some(question=>languageFiller.test(question.question))),false,"Class 6 English should not contain generic repeated grammar filler");
+const explanationFiller=/The textbook uses .* in this context; the correct choice is/i;
+assert.equal(englishBank.some(chapter=>chapter.questions.some(question=>explanationFiller.test(question.explanation))),false,"Class 6 English should use informative explanations rather than boilerplate answer-key text");
 const ramaChapter=englishBank.find(chapter=>chapter.key==="rama-to-the-rescue");
 assert.ok(ramaChapter.questions.some(question=>question.question.includes("Who arrests the robber") && /kotwal/i.test(question.options[question.answer])),"Rama to the Rescue correctly identifies the kotwal as the person who arrests the thief");
 const kiteChapter=englishBank.find(chapter=>chapter.key==="the-kites");

@@ -145,7 +145,7 @@
           "A score in a game"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “potion” in this context; the correct choice is A liquid believed to have magical properties.",
+        "explanation": "A potion is a liquid believed to have magical effects. Rama Natha hopes it will turn ordinary objects into gold.",
         "difficulty": "Easy"
       },
       {
@@ -158,7 +158,7 @@
           "A kind of seed"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “dew” in this context; the correct choice is Small drops of water that form on leaves at night.",
+        "explanation": "Dew forms when water vapour condenses into tiny droplets on cool surfaces. In the story, the droplets are gathered from banana leaves in the morning.",
         "difficulty": "Easy"
       },
       {
@@ -171,7 +171,7 @@
           "A storage space under a roof"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “plantation” in this context; the correct choice is A large area where plants or crops are grown.",
+        "explanation": "A plantation is a large area of land used to grow crops. Rama Natha’s banana plants eventually become a source of income.",
         "difficulty": "Easy"
       },
       {
@@ -184,7 +184,7 @@
           "Looked after"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “tended” in this context; the correct choice is Looked after.",
+        "explanation": "To tend plants is to look after them by providing care. Rama Natha must tend the banana plants patiently.",
         "difficulty": "Easy"
       },
       {
@@ -197,7 +197,7 @@
           "Remained silent"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “muttered” in this context; the correct choice is Spoke in a low voice.",
+        "explanation": "To mutter is to speak quietly, often so the words are not easily heard.",
         "difficulty": "Medium"
       },
       {
@@ -210,7 +210,7 @@
           "Noisy"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “precious” in this context; the correct choice is Valuable.",
+        "explanation": "Precious means valuable or greatly valued. Rama Natha thinks the dew is important because he associates it with the hoped-for potion.",
         "difficulty": "Medium"
       },
       {
@@ -223,7 +223,7 @@
           "A sudden noise"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “wisdom” in this context; the correct choice is Deep understanding.",
+        "explanation": "Wisdom is good judgement or deep understanding. Rama Natha learns from experience that steady work creates real value.",
         "difficulty": "Medium"
       },
       {
@@ -236,7 +236,7 @@
           "Stop trying"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “give up” in this context; the correct choice is Stop trying.",
+        "explanation": "To give up means to stop trying. Rama Natha continues gathering dew over a long period.",
         "difficulty": "Medium"
       },
       {
@@ -249,7 +249,7 @@
           "A young banana plant"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “sage” in this context; the correct choice is A wise person.",
+        "explanation": "A sage is a wise person, often respected for knowledge and judgement. Sage Mahipati guides Rama Natha towards the lesson of hard work.",
         "difficulty": "Medium"
       },
       {
@@ -262,7 +262,7 @@
           "Narrow village streets"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “large tracts” in this context; the correct choice is Large areas of land.",
+        "explanation": "A tract is an area or stretch of land, so “large tracts of land” means large areas of land.",
         "difficulty": "Medium"
       }
     ]
@@ -413,7 +413,7 @@
           "Sat on a branch"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “perched” in this context; the correct choice is Sat on a branch.",
+        "explanation": "Perched means settled or sitting on a raised place. The raven is on a tree branch while holding the morsel.",
         "difficulty": "Easy"
       },
       {
@@ -426,7 +426,7 @@
           "A forest path"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “morsel” in this context; the correct choice is A small piece of food.",
+        "explanation": "A morsel is a small piece or mouthful of food. The raven loses its morsel when it opens its beak to sing.",
         "difficulty": "Easy"
       },
       {
@@ -439,7 +439,7 @@
           "Hide from"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “seek” in this context; the correct choice is Look for.",
+        "explanation": "To seek means to look for or try to find something.",
         "difficulty": "Easy"
       },
       {
@@ -452,7 +452,7 @@
           "A bird’s beak"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “limb” in this context; the correct choice is A branch of a tree.",
+        "explanation": "A tree’s limb is one of its branches. Here the raven is perched on a limb.",
         "difficulty": "Easy"
       },
       {
@@ -462,10 +462,10 @@
           "A room in a house",
           "A market full of people",
           "A field with no trees",
-          "A smaller area of forest with similar kinds of trees"
+          "A tree-covered area, usually smaller than a forest"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “woods” in this context; the correct choice is A smaller area of forest with similar kinds of trees.",
+        "explanation": "“Woods” means a tree-covered area, usually smaller than a forest. It refers to the wooded setting of the fable.",
         "difficulty": "Medium"
       },
       {
@@ -478,7 +478,7 @@
           "Sang about it"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “eyed” in this context; the correct choice is Looked at with interest.",
+        "explanation": "Here, “eyed” means looked at with interest. The fox watches the food because he wants to get it.",
         "difficulty": "Medium"
       },
       {
@@ -491,7 +491,7 @@
           "Feeling sleepy"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “pride” in this context; the correct choice is Feeling that you are better than others.",
+        "explanation": "In the poem’s lesson, pride means an exaggerated belief in one’s own importance. The raven’s vanity makes the fox’s flattery effective.",
         "difficulty": "Medium"
       },
       {
@@ -504,7 +504,7 @@
           "Words that have opposite meanings"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “alliteration” in this context; the correct choice is Repetition of consonant sounds at the beginnings of nearby words.",
+        "explanation": "Alliteration is the repetition of the same or similar beginning consonant sounds in nearby words.",
         "difficulty": "Medium"
       },
       {
@@ -517,7 +517,7 @@
           "Limb and him"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “limb and him” in this context; the correct choice is Limb and him.",
+        "explanation": "“Limb” and “him” rhyme because their ending sounds match. Rhyme depends on sound, not identical spelling.",
         "difficulty": "Medium"
       },
       {
@@ -530,7 +530,7 @@
           "Hide"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “ignore” in this context; the correct choice is Notice.",
+        "explanation": "To ignore something is to pay no attention to it. To notice it is the opposite: to become aware of it.",
         "difficulty": "Medium"
       }
     ]
@@ -681,7 +681,7 @@
           "Make fun of someone"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “rescue” in this context; the correct choice is Save someone from danger.",
+        "explanation": "To rescue someone is to save them from danger or harm. The household’s quick thinking helps bring the police officer to the scene.",
         "difficulty": "Easy"
       },
       {
@@ -694,7 +694,7 @@
           "A feeling of surprise"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “wonder” in this context; the correct choice is A feeling of surprise.",
+        "explanation": "Wonder can mean a feeling of surprise or amazement. Its precise meaning depends on the sentence.",
         "difficulty": "Easy"
       },
       {
@@ -707,7 +707,7 @@
           "A village officer"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “yard” in this context; the correct choice is An area outside a building.",
+        "explanation": "A yard is an outdoor area beside or around a building, not a room inside a house.",
         "difficulty": "Easy"
       },
       {
@@ -720,7 +720,7 @@
           "Run quickly to help someone"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “chatter” in this context; the correct choice is Talk for a long time about unimportant things.",
+        "explanation": "To chatter is to talk continuously, often about things that are not very important.",
         "difficulty": "Easy"
       },
       {
@@ -733,7 +733,7 @@
           "At the same time"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “instead” in this context; the correct choice is In place of someone or something.",
+        "explanation": "Instead means “in place of” or “as an alternative to”. It signals that one choice replaces another.",
         "difficulty": "Medium"
       },
       {
@@ -746,7 +746,7 @@
           "Carefully"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “closely” in this context; the correct choice is Carefully.",
+        "explanation": "Closely means carefully or with close attention. Someone who watches closely notices details.",
         "difficulty": "Medium"
       },
       {
@@ -759,7 +759,7 @@
           "In the past"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “perhaps” in this context; the correct choice is Maybe.",
+        "explanation": "Perhaps means maybe; it expresses possibility rather than certainty.",
         "difficulty": "Medium"
       },
       {
@@ -772,7 +772,7 @@
           "The family’s doctor"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “kotwal” in this context; the correct choice is The village police officer.",
+        "explanation": "The kotwal is the local police officer in the story. Rama hears his name and rushes towards the house.",
         "difficulty": "Medium"
       },
       {
@@ -785,7 +785,7 @@
           "Mahout"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “thaanedar” in this context; the correct choice is Thaanedar.",
+        "explanation": "The chapter mentions “thaanedar” as another term some people use for a police officer. It is a usage note, not a separate character.",
         "difficulty": "Medium"
       },
       {
@@ -798,7 +798,7 @@
           "Talking for a long time"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “chatter in context” in this context; the correct choice is Talking for a long time.",
+        "explanation": "A person who chatters talks for a long time, often about unimportant matters.",
         "difficulty": "Medium"
       }
     ]
@@ -949,7 +949,7 @@
           "A small river"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “booth” in this context; the correct choice is A rectangular space.",
+        "explanation": "In the stable description, a booth is a small enclosed or divided space. The word refers to a space, not an entire house.",
         "difficulty": "Easy"
       },
       {
@@ -962,7 +962,7 @@
           "Places where books are stored"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “stables” in this context; the correct choice is Living spaces for animals.",
+        "explanation": "A stable is a building or space where animals are kept; the royal stable houses Gajaraj.",
         "difficulty": "Easy"
       },
       {
@@ -975,7 +975,7 @@
           "Communicated with"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “interacted with” in this context; the correct choice is Communicated with.",
+        "explanation": "To interact is to communicate or take part in an activity with someone. Gajaraj and Buntee build friendship through interactions.",
         "difficulty": "Easy"
       },
       {
@@ -988,7 +988,7 @@
           "Returned with a message"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “strayed” in this context; the correct choice is Came by mistake.",
+        "explanation": "To stray means to wander away from the expected place or route, sometimes by accident.",
         "difficulty": "Easy"
       },
       {
@@ -1001,7 +1001,7 @@
           "Swimming"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “munching” in this context; the correct choice is Chewing.",
+        "explanation": "Munching means chewing food, usually steadily or audibly.",
         "difficulty": "Medium"
       },
       {
@@ -1014,7 +1014,7 @@
           "Held it still"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “wagged” in this context; the correct choice is Moved it from side to side.",
+        "explanation": "A dog that wags its tail moves it from side to side. In the story, the movement shows Buntee’s response.",
         "difficulty": "Medium"
       },
       {
@@ -1027,7 +1027,7 @@
           "Went with someone"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “accompanied” in this context; the correct choice is Went with someone.",
+        "explanation": "Accompanied means went with someone or something; it describes travelling together.",
         "difficulty": "Medium"
       },
       {
@@ -1040,7 +1040,7 @@
           "Watching from a distance"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “plunging” in this context; the correct choice is Jumping into the water.",
+        "explanation": "Plunging into water means entering suddenly or forcefully, often by jumping or diving.",
         "difficulty": "Medium"
       },
       {
@@ -1053,7 +1053,7 @@
           "Chewed food quickly"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “winced” in this context; the correct choice is Shrank back in pain or distress.",
+        "explanation": "To wince is to make a brief movement because of pain, discomfort or distress.",
         "difficulty": "Medium"
       },
       {
@@ -1066,7 +1066,7 @@
           "Special prizes"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “chores” in this context; the correct choice is Daily duties.",
+        "explanation": "Chores are routine tasks or duties, such as everyday jobs that need to be done.",
         "difficulty": "Medium"
       }
     ]
@@ -1217,7 +1217,7 @@
           "Loud or noisy"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “blessed” in this context; the correct choice is Grateful or thankful.",
+        "explanation": "Blessed means feeling fortunate or thankful for something good. The speaker feels fortunate to have special friends.",
         "difficulty": "Easy"
       },
       {
@@ -1230,7 +1230,7 @@
           "Wishes and mind"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “share and care” in this context; the correct choice is Share and care.",
+        "explanation": "“Share” and “care” rhyme because their final stressed sounds match. A rhyme depends on the sounds at the ends of the words.",
         "difficulty": "Easy"
       },
       {
@@ -1243,7 +1243,7 @@
           "A race the speaker wants to win"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “hopes and plans” in this context; the correct choice is Friends who care.",
+        "explanation": "The phrase “hopes and plans” is linked with friends who care and the speaker’s wish to support them. It conveys thoughtful friendship.",
         "difficulty": "Easy"
       },
       {
@@ -1256,7 +1256,7 @@
           "From a distance"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “afar” in this context; the correct choice is From a distance.",
+        "explanation": "Afar means far away or at a distance. The poem cautions against judging friends from a distance without understanding them.",
         "difficulty": "Easy"
       },
       {
@@ -1269,7 +1269,7 @@
           "Accepting people as they are"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “judgements” in this context; the correct choice is Deciding what others are like without understanding them.",
+        "explanation": "The line advises readers not to form opinions about people without knowing them. It encourages empathy instead of assumptions.",
         "difficulty": "Medium"
       },
       {
@@ -1282,7 +1282,7 @@
           "Those"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “first-person pronoun” in this context; the correct choice is I.",
+        "explanation": "“I” is a first-person singular pronoun. It gives the reader the speaker’s own point of view.",
         "difficulty": "Medium"
       },
       {
@@ -1295,7 +1295,7 @@
           "It gives instructions for cooking"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “prayer” in this context; the correct choice is The speaker expresses heartfelt wishes about friendship.",
+        "explanation": "The poem is called a prayer because the speaker expresses heartfelt hopes about how to treat friends.",
         "difficulty": "Medium"
       },
       {
@@ -1308,7 +1308,7 @@
           "Caring"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “caring” in this context; the correct choice is Caring.",
+        "explanation": "Helping friends achieve their wishes shows care and consideration for other people’s hopes.",
         "difficulty": "Medium"
       },
       {
@@ -1321,7 +1321,7 @@
           "Feel"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “special friends” in this context; the correct choice is Special.",
+        "explanation": "“Special” is an adjective because it describes the noun “friends”. Adjectives add information about nouns.",
         "difficulty": "Medium"
       },
       {
@@ -1329,12 +1329,12 @@
         "question": "How long does the speaker want friendship to remain important?",
         "options": [
           "Until the next game",
-          "Throughout her complete life",
+          "Throughout her life",
           "Only during school days",
           "Only during holidays"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “complete life” in this context; the correct choice is Throughout her complete life.",
+        "explanation": "The speaker wants friendship to remain important throughout her life, not just for one event.",
         "difficulty": "Medium"
       }
     ]
@@ -1485,7 +1485,7 @@
           "Boasted to impress others"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “showed off” in this context; the correct choice is Boasted to impress others.",
+        "explanation": "To show off is to boast or behave in a way intended to impress others. Mario boasts about how many friends he has.",
         "difficulty": "Easy"
       },
       {
@@ -1498,7 +1498,7 @@
           "Without understanding the words"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “readily” in this context; the correct choice is Willingly or without difficulty.",
+        "explanation": "Readily means willingly or without much hesitation. Mario accepts the bet without much persuasion.",
         "difficulty": "Easy"
       },
       {
@@ -1511,7 +1511,7 @@
           "A school playground"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “attic” in this context; the correct choice is A storage space just under a house’s roof.",
+        "explanation": "An attic is the space just below a building’s roof, often used for storage. Grandpa says the invisible chair is kept there.",
         "difficulty": "Easy"
       },
       {
@@ -1524,7 +1524,7 @@
           "Easy to repair"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “invisible” in this context; the correct choice is Impossible to see.",
+        "explanation": "Invisible means impossible or very difficult to see. The story’s joke depends on Mario trying to sit on a chair he cannot see.",
         "difficulty": "Easy"
       },
       {
@@ -1537,7 +1537,7 @@
           "He is firm in his decision to keep trying"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “determined” in this context; the correct choice is He is firm in his decision to keep trying.",
+        "explanation": "Determined describes someone firmly resolved to do something. Mario keeps trying despite falling.",
         "difficulty": "Medium"
       },
       {
@@ -1550,7 +1550,7 @@
           "Impossible to hear"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “amazing” in this context; the correct choice is Very surprising.",
+        "explanation": "Amazing means very surprising or impressive. It expresses a strong reaction to something unusual.",
         "difficulty": "Medium"
       },
       {
@@ -1563,7 +1563,7 @@
           "Forgot something"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “experienced” in this context; the correct choice is Felt or underwent something.",
+        "explanation": "Experienced can mean “felt” or “underwent” an event. Here it does not mean “skilled through long practice.”",
         "difficulty": "Medium"
       },
       {
@@ -1576,7 +1576,7 @@
           "Opponents"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “buddies” in this context; the correct choice is Buddies.",
+        "explanation": "Buddies is an informal word for friends, suitable for casual conversation.",
         "difficulty": "Medium"
       },
       {
@@ -1589,7 +1589,7 @@
           "Companion"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “companion” in this context; the correct choice is Companion.",
+        "explanation": "A companion is someone who spends time with or accompanies another person. It does not automatically mean a close or loyal friend.",
         "difficulty": "Medium"
       },
       {
@@ -1602,7 +1602,7 @@
           "People who sell fruit"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “classmates” in this context; the correct choice is Children who are in the same class at school.",
+        "explanation": "Classmates are pupils who study in the same class or school group.",
         "difficulty": "Medium"
       }
     ]
@@ -1753,7 +1753,7 @@
           "Too small to notice"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “thought-provoking” in this context; the correct choice is Interesting and making someone think.",
+        "explanation": "Thought-provoking describes something that makes a person think deeply. The conversation encourages Amber to consider a tree’s uses.",
         "difficulty": "Easy"
       },
       {
@@ -1766,7 +1766,7 @@
           "Small, thin branches"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “twigs” in this context; the correct choice is Small, thin branches.",
+        "explanation": "Twigs are small, thin branches growing from a larger branch or stem.",
         "difficulty": "Easy"
       },
       {
@@ -1779,7 +1779,7 @@
           "Dry in the sun"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “breed” in this context; the correct choice is Grow or reproduce.",
+        "explanation": "Breed means to reproduce or produce young; for germs and insects it refers to multiplying.",
         "difficulty": "Easy"
       },
       {
@@ -1792,7 +1792,7 @@
           "Water that has just boiled"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “stagnant” in this context; the correct choice is Water that is not flowing.",
+        "explanation": "Stagnant water is water that is not flowing. It may provide a breeding place for some insects.",
         "difficulty": "Easy"
       },
       {
@@ -1805,7 +1805,7 @@
           "Always being very expensive"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “cost-effective” in this context; the correct choice is Giving a good outcome with few resources.",
+        "explanation": "Cost-effective means achieving a useful result without excessive cost or resource use.",
         "difficulty": "Medium"
       },
       {
@@ -1818,7 +1818,7 @@
           "Makes cleaner by removing harmful particles"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “purifies” in this context; the correct choice is Makes cleaner by removing harmful particles.",
+        "explanation": "Purifies means makes cleaner or removes impurities. It does not mean that a plant makes every substance completely safe.",
         "difficulty": "Medium"
       },
       {
@@ -1831,7 +1831,7 @@
           "A kind of spice"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “Arishta” in this context; the correct choice is The one who cures diseases.",
+        "explanation": "In the textbook’s explanation, Arishta is associated with curing disease. This is a traditional name meaning, not a guarantee that neem cures every illness.",
         "difficulty": "Medium"
       },
       {
@@ -1844,7 +1844,7 @@
           "Makku"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “Nimb” in this context; the correct choice is Nimb.",
+        "explanation": "The passage gives “Nimb” as a Hindi name for neem. This checks the name used in the textbook dialogue.",
         "difficulty": "Medium"
       },
       {
@@ -1857,7 +1857,7 @@
           "Everyone should try any remedy alone"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “remedy caution” in this context; the correct choice is They should be used only by people who are well trained and experienced.",
+        "explanation": "Neem Baba advises that remedies should be used only by people who are properly trained and experienced.",
         "difficulty": "Medium"
       },
       {
@@ -1870,7 +1870,7 @@
           "Their names appear before their lines"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “dialogue speakers” in this context; the correct choice is Their names appear before their lines.",
+        "explanation": "In a dialogue, a speaker’s name appears before that person’s words, helping the reader follow the conversation.",
         "difficulty": "Medium"
       }
     ]
@@ -2021,7 +2021,7 @@
           "Extremely heavy"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “pale” in this context; the correct choice is Light in colour.",
+        "explanation": "Pale means light or not strong in colour. It describes the shell’s soft blue appearance.",
         "difficulty": "Easy"
       },
       {
@@ -2034,7 +2034,7 @@
           "Sank underwater"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “fluttered” in this context; the correct choice is Moved lightly and quickly.",
+        "explanation": "Fluttered means moved with light, quick movements. It helps the reader imagine the bird’s movement.",
         "difficulty": "Easy"
       },
       {
@@ -2047,7 +2047,7 @@
           "Finally or after some time"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “at length” in this context; the correct choice is Finally or after some time.",
+        "explanation": "At length means eventually or after some time.",
         "difficulty": "Easy"
       },
       {
@@ -2060,7 +2060,7 @@
           "A neighbour’s house"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “labour” in this context; the correct choice is Work or effort.",
+        "explanation": "Labour means work or effort. In the poem it refers to exertion, not a job title.",
         "difficulty": "Easy"
       },
       {
@@ -2073,7 +2073,7 @@
           "Beyond"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “describing words” in this context; the correct choice is Round.",
+        "explanation": "Round is an adjective describing the shape of the bird’s first world.",
         "difficulty": "Medium"
       },
       {
@@ -2086,7 +2086,7 @@
           "Nest and mother"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “well and shell” in this context; the correct choice is Well and shell.",
+        "explanation": "“Well” and “shell” rhyme because their ending sounds match.",
         "difficulty": "Medium"
       },
       {
@@ -2099,7 +2099,7 @@
           "I"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “first-person voice” in this context; the correct choice is I.",
+        "explanation": "“I” is a first-person pronoun, signalling that the bird tells the experience from its own point of view.",
         "difficulty": "Medium"
       },
       {
@@ -2112,7 +2112,7 @@
           "The bird has lost its nest forever"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “blind in context” in this context; the correct choice is The bird had not understood the wider world.",
+        "explanation": "The phrase suggests the bird’s earlier understanding was limited. Exploring the wider world changes its perspective.",
         "difficulty": "Medium"
       },
       {
@@ -2125,7 +2125,7 @@
           "The raven and the fox"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “neighbours” in this context; the correct choice is Those living or present nearby.",
+        "explanation": "Neighbours are people or beings nearby. In the poem, the word refers to others around the bird.",
         "difficulty": "Medium"
       },
       {
@@ -2138,7 +2138,7 @@
           "A word that means the opposite"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “stanzas” in this context; the correct choice is A group of lines forming one section of a poem.",
+        "explanation": "A stanza is a group of lines forming a section of a poem, much like a paragraph in prose.",
         "difficulty": "Medium"
       }
     ]
@@ -2224,7 +2224,7 @@
           "Fennel seeds"
         ],
         "answer": 2,
-        "explanation": "Jeera is cumin.",
+        "explanation": "Jeera is the Hindi name for cumin seeds, which are commonly used to flavour food. The question checks the English name for this spice.",
         "difficulty": "Medium"
       },
       {
@@ -2289,7 +2289,7 @@
           "Cardamom"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “haldi” in this context; the correct choice is Turmeric.",
+        "explanation": "Haldi is the Hindi name for turmeric, a yellow spice commonly used in cooking.",
         "difficulty": "Easy"
       },
       {
@@ -2302,7 +2302,7 @@
           "Black pepper"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “methi” in this context; the correct choice is Fenugreek.",
+        "explanation": "Methi means fenugreek. Daadi describes a traditional way of soaking the seeds.",
         "difficulty": "Easy"
       },
       {
@@ -2315,7 +2315,7 @@
           "Clove"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “jeera” in this context; the correct choice is Cumin seeds.",
+        "explanation": "Jeera means cumin seeds, which are commonly used to flavour food.",
         "difficulty": "Easy"
       },
       {
@@ -2328,7 +2328,7 @@
           "Asafoetida"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “heeng” in this context; the correct choice is Asafoetida.",
+        "explanation": "Heeng is asafoetida, a strong-smelling spice used in small amounts in cooking.",
         "difficulty": "Easy"
       },
       {
@@ -2341,7 +2341,7 @@
           "Black pepper"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “dalchini” in this context; the correct choice is Cinnamon.",
+        "explanation": "Dalchini means cinnamon, the aromatic bark used as a spice.",
         "difficulty": "Medium"
       },
       {
@@ -2354,7 +2354,7 @@
           "Turmeric"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “laung” in this context; the correct choice is Clove.",
+        "explanation": "Laung means clove, a dried flower bud used in cooking.",
         "difficulty": "Medium"
       },
       {
@@ -2367,7 +2367,7 @@
           "Asafoetida"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “adrak” in this context; the correct choice is Ginger.",
+        "explanation": "Adrak means ginger, a rhizome used fresh or dried to flavour food.",
         "difficulty": "Medium"
       },
       {
@@ -2380,7 +2380,7 @@
           "Black pepper"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “kali mirch” in this context; the correct choice is Black pepper.",
+        "explanation": "Kali mirch means black pepper, made from the dried peppercorn.",
         "difficulty": "Medium"
       },
       {
@@ -2393,7 +2393,7 @@
           "Asafoetida"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “saunf” in this context; the correct choice is Fennel seeds.",
+        "explanation": "Saunf means fennel seeds, which have a distinctive sweet, aromatic flavour.",
         "difficulty": "Medium"
       },
       {
@@ -2406,7 +2406,7 @@
           "Ginger"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “elaichi” in this context; the correct choice is Cardamom.",
+        "explanation": "Elaichi means cardamom, an aromatic spice used in sweet and savoury dishes.",
         "difficulty": "Medium"
       }
     ]
@@ -2557,7 +2557,7 @@
           "A loss"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “defeat” in this context; the correct choice is A loss.",
+        "explanation": "Defeat means a loss in a contest or match. Prabhat struggles with losing because he ties too much enjoyment to winning.",
         "difficulty": "Easy"
       },
       {
@@ -2570,7 +2570,7 @@
           "For that reason"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “on the contrary” in this context; the correct choice is Just the opposite.",
+        "explanation": "On the contrary introduces the opposite idea and signals a contrast with the previous statement.",
         "difficulty": "Easy"
       },
       {
@@ -2583,7 +2583,7 @@
           "Changed the rules"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “sensed” in this context; the correct choice is Knew or realised.",
+        "explanation": "Sensed means perceived, noticed or became aware of something. Here Prabhat anticipates that he may lose.",
         "difficulty": "Easy"
       },
       {
@@ -2596,7 +2596,7 @@
           "Very pleased"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “terrible” in this context; the correct choice is Very unhappy.",
+        "explanation": "Terrible means very bad or distressing. Its strength depends on the situation being described.",
         "difficulty": "Easy"
       },
       {
@@ -2609,7 +2609,7 @@
           "Important"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “significant” in this context; the correct choice is Important.",
+        "explanation": "Significant means important or meaningful. It signals that the timing of the matches matters in the story.",
         "difficulty": "Medium"
       },
       {
@@ -2622,7 +2622,7 @@
           "Lost"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “conducted” in this context; the correct choice is Organised.",
+        "explanation": "Conducted means organised or carried out. The coach conducts the matches by arranging and running them.",
         "difficulty": "Medium"
       },
       {
@@ -2635,7 +2635,7 @@
           "A place to store sports gear"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “phenomenon” in this context; the correct choice is Someone with special qualities.",
+        "explanation": "In the story’s vocabulary activity, phenomenon is used for a person with unusual or notable qualities. More generally, it can also mean an observable event.",
         "difficulty": "Medium"
       },
       {
@@ -2648,7 +2648,7 @@
           "Being extremely worried"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “hopeless” in this context; the correct choice is Having no skill in something.",
+        "explanation": "Hopeless here means very poor or unlikely to succeed at the activity. It describes basketball skill, not a person’s worth.",
         "difficulty": "Medium"
       },
       {
@@ -2661,7 +2661,7 @@
           "Observed carefully"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “kept a close watch” in this context; the correct choice is Observed carefully.",
+        "explanation": "To keep a close watch on something is to observe it carefully and attentively.",
         "difficulty": "Medium"
       },
       {
@@ -2674,7 +2674,7 @@
           "A kind of bird"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “tally” in this context; the correct choice is A record or count of points.",
+        "explanation": "A tally is a record or count of points. It lets players track a game’s score.",
         "difficulty": "Medium"
       }
     ]
@@ -2825,7 +2825,7 @@
           "A large building"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “creek” in this context; the correct choice is A small body of water.",
+        "explanation": "A creek is a small stream or narrow body of flowing water. The children play in a neighbour’s field beside it.",
         "difficulty": "Easy"
       },
       {
@@ -2838,7 +2838,7 @@
           "Recover normal breathing after running"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “catch my breath” in this context; the correct choice is Recover normal breathing after running.",
+        "explanation": "To catch one’s breath means to recover normal breathing after physical effort. The line shows how hard the children have been running.",
         "difficulty": "Easy"
       },
       {
@@ -2851,7 +2851,7 @@
           "The creek drying up"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “blue dark turns to black” in this context; the correct choice is The sky growing darker as night approaches.",
+        "explanation": "The phrase describes the sky becoming darker as daylight fades and night approaches.",
         "difficulty": "Easy"
       },
       {
@@ -2864,7 +2864,7 @@
           "The children are planting more trees"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “trees creep close” in this context; the correct choice is In the darkness, they become less clearly visible and seem nearer.",
+        "explanation": "The trees seem to “creep close” because the growing darkness changes how the children see their surroundings. The trees are not literally moving.",
         "difficulty": "Easy"
       },
       {
@@ -2877,7 +2877,7 @@
           "The speaker is whispering a secret"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “line breaks” in this context; the correct choice is The speaker is breathless after running.",
+        "explanation": "The short lines mimic the quick rhythm of a breathless speaker, conveying the excitement of running.",
         "difficulty": "Medium"
       },
       {
@@ -2890,7 +2890,7 @@
           "“Night wins!”"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “personification” in this context; the correct choice is “Night wins!”.",
+        "explanation": "“Night wins!” gives night the role of a competitor. This is personification.",
         "difficulty": "Medium"
       },
       {
@@ -2903,7 +2903,7 @@
           "A quiet pause only"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “exclamation mark” in this context; the correct choice is Emphasis or strong feeling.",
+        "explanation": "The exclamation mark adds emphasis and excitement to the ending.",
         "difficulty": "Medium"
       },
       {
@@ -2916,7 +2916,7 @@
           "The word is a verb"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “neighbour’s” in this context; the correct choice is The field belongs to the neighbour.",
+        "explanation": "The apostrophe-s in “neighbour’s” shows possession: the field belongs to the neighbour.",
         "difficulty": "Medium"
       },
       {
@@ -2929,7 +2929,7 @@
           "Only the creek"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “we” in this context; the correct choice is The speaker and the other children playing.",
+        "explanation": "“We” is a first-person plural pronoun referring to the speaker and the other children playing.",
         "difficulty": "Medium"
       },
       {
@@ -2942,7 +2942,7 @@
           "It is time to stop playing because night has come"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “game’s over” in this context; the correct choice is It is time to stop playing because night has come.",
+        "explanation": "“Game’s over” is a shortened form of “the game is over”. The children must stop because night has fallen.",
         "difficulty": "Medium"
       }
     ]
@@ -3093,7 +3093,7 @@
           "Moved silently"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “originated” in this context; the correct choice is Started or began.",
+        "explanation": "Originated means began or started. The passage traces yoga’s beginnings to ancient India.",
         "difficulty": "Easy"
       },
       {
@@ -3106,7 +3106,7 @@
           "A type of yoga posture"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “circulation” in this context; the correct choice is The movement of blood around the body.",
+        "explanation": "Circulation is the movement of blood around the body. The passage connects activity with aspects of heart and body health.",
         "difficulty": "Easy"
       },
       {
@@ -3119,7 +3119,7 @@
           "Balance or agreement"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “harmony” in this context; the correct choice is Balance or agreement.",
+        "explanation": "Harmony means balance or a state of things working well together. The text discusses balance between body and mind.",
         "difficulty": "Easy"
       },
       {
@@ -3132,7 +3132,7 @@
           "A type of food"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “distractions” in this context; the correct choice is Disturbances that take attention away.",
+        "explanation": "Distractions are things that draw attention away from a task or thought.",
         "difficulty": "Easy"
       },
       {
@@ -3145,7 +3145,7 @@
           "A short break"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “endurance” in this context; the correct choice is The capacity to continue without giving up.",
+        "explanation": "Endurance is the ability to continue an activity over time despite effort or tiredness.",
         "difficulty": "Medium"
       },
       {
@@ -3158,7 +3158,7 @@
           "Balance"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “anxiety” in this context; the correct choice is Worry.",
+        "explanation": "Anxiety means worry or nervousness. The passage says breathing and meditation may help some people feel calmer; it does not promise anxiety will always disappear.",
         "difficulty": "Medium"
       },
       {
@@ -3171,7 +3171,7 @@
           "Increase"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “boost” in this context; the correct choice is Increase.",
+        "explanation": "Boost means increase or strengthen. The phrase does not guarantee that a person will never become ill.",
         "difficulty": "Medium"
       },
       {
@@ -3184,7 +3184,7 @@
           "Using only one muscle"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “holistic” in this context; the correct choice is Considering health and well-being as a whole.",
+        "explanation": "A holistic approach considers health and well-being as a whole, rather than focusing on only one part.",
         "difficulty": "Medium"
       },
       {
@@ -3197,7 +3197,7 @@
           "Sports teams"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “asanas” in this context; the correct choice is Yoga postures.",
+        "explanation": "Asanas are yoga postures, or body positions used in yoga practice.",
         "difficulty": "Medium"
       },
       {
@@ -3210,7 +3210,7 @@
           "Height alone"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “well-being” in this context; the correct choice is General health and wellness.",
+        "explanation": "Overall well-being means a person’s general state of health and wellness, not just one measurement such as strength.",
         "difficulty": "Medium"
       }
     ]
@@ -3361,7 +3361,7 @@
           "Under the ground"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “worldwide” in this context; the correct choice is Across the world.",
+        "explanation": "Worldwide means throughout or across the world. It describes reach beyond one country or region.",
         "difficulty": "Easy"
       },
       {
@@ -3374,7 +3374,7 @@
           "Empty of traditions"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “diverse” in this context; the correct choice is Made up of different kinds.",
+        "explanation": "Diverse means varied or made up of different kinds. The passage applies it to Bharat’s cultural and natural features.",
         "difficulty": "Easy"
       },
       {
@@ -3387,7 +3387,7 @@
           "Far apart"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “unison” in this context; the correct choice is Together or as one.",
+        "explanation": "In unison means together or as one. Here it supports the idea that people can live together despite differences.",
         "difficulty": "Easy"
       },
       {
@@ -3400,7 +3400,7 @@
           "People who live there"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “inhabitants” in this context; the correct choice is People who live there.",
+        "explanation": "Inhabitants are people who live in a place.",
         "difficulty": "Easy"
       },
       {
@@ -3413,7 +3413,7 @@
           "Remain silent"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “prosper” in this context; the correct choice is Do well or thrive.",
+        "explanation": "Prosper means to do well, thrive or become successful. The passage connects prosperity with natural richness and people’s efforts.",
         "difficulty": "Medium"
       },
       {
@@ -3426,7 +3426,7 @@
           "The passage only"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “rich and diverse” in this context; the correct choice is Rich and diverse.",
+        "explanation": "Rich and diverse are adjectives describing the noun culture. “Rich” suggests abundance, while “diverse” highlights variety.",
         "difficulty": "Medium"
       },
       {
@@ -3439,7 +3439,7 @@
           "It is a plural verb"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “proper noun” in this context; the correct choice is It is a proper name.",
+        "explanation": "Bharat is capitalised because it is a proper name.",
         "difficulty": "Medium"
       },
       {
@@ -3452,7 +3452,7 @@
           "Joins items in a list"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “and” in this context; the correct choice is Joins items in a list.",
+        "explanation": "The conjunction “and” links the final item to earlier items in a list.",
         "difficulty": "Medium"
       },
       {
@@ -3465,7 +3465,7 @@
           "The names of languages"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “these elements” in this context; the correct choice is The natural and cultural features described just before.",
+        "explanation": "“These elements” refers to the natural and cultural features mentioned in the preceding lines.",
         "difficulty": "Medium"
       },
       {
@@ -3478,7 +3478,7 @@
           "People should avoid learning about other regions"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “main idea” in this context; the correct choice is Bharat’s diverse culture and natural richness deserve appreciation and care.",
+        "explanation": "The passage celebrates Bharat’s varied culture and geography while encouraging people to contribute to the country’s future.",
         "difficulty": "Medium"
       }
     ]
@@ -3629,7 +3629,7 @@
           "Simile"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “like coloured birds” in this context; the correct choice is Simile.",
+        "explanation": "A simile compares two things using “like” or “as.” The poem compares kites to coloured birds using “like.”",
         "difficulty": "Easy"
       },
       {
@@ -3642,7 +3642,7 @@
           "A sky made of paper"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “wind-whipped” in this context; the correct choice is A sky swept or stirred by wind.",
+        "explanation": "“Wind-whipped” suggests a sky stirred or swept by wind, giving the opening scene energy.",
         "difficulty": "Easy"
       },
       {
@@ -3655,7 +3655,7 @@
           "Run at full speed"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “drift” in this context; the correct choice is Move gently with the air.",
+        "explanation": "Drift means to move gently or be carried along, as the speaker imagines doing while riding a kite.",
         "difficulty": "Easy"
       },
       {
@@ -3668,7 +3668,7 @@
           "The floors beneath houses"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “rooftops” in this context; the correct choice is The top surfaces of roofs.",
+        "explanation": "Rooftops are the upper surfaces of roofs. The speaker imagines seeing them from high above.",
         "difficulty": "Easy"
       },
       {
@@ -3681,7 +3681,7 @@
           "A figurative description of the kite"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “paper wings” in this context; the correct choice is A figurative description of the kite.",
+        "explanation": "“Paper wings” is a figurative description: a kite is imagined as if it could carry someone like a bird. The kite does not literally have wings.",
         "difficulty": "Medium"
       },
       {
@@ -3694,7 +3694,7 @@
           "A direct quotation from a letter"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “wild wind sings” in this context; the correct choice is Personification.",
+        "explanation": "Personification gives human actions or qualities to something non-human. The phrase imagines the wind singing.",
         "difficulty": "Medium"
       },
       {
@@ -3707,7 +3707,7 @@
           "A command to another person"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “I wish” in this context; the correct choice is A desire for something imagined.",
+        "explanation": "“I wish” introduces a desire or imagined possibility, not an actual flight.",
         "difficulty": "Medium"
       },
       {
@@ -3720,7 +3720,7 @@
           "A completed past action"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “would” in this context; the correct choice is An imagined action.",
+        "explanation": "“Would” presents an imagined or conditional action in this line.",
         "difficulty": "Medium"
       },
       {
@@ -3733,7 +3733,7 @@
           "Air and there"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “air and there” in this context; the correct choice is Air and there.",
+        "explanation": "“Stand” and “stare” begin with the same consonant sound /st/, so the phrase illustrates alliteration. Alliteration is about beginning sounds, not end rhyme.",
         "difficulty": "Medium"
       },
       {
@@ -3897,7 +3897,7 @@
           "Guaranteed rewards"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “challenges” in this context; the correct choice is Difficulties that need effort to overcome.",
+        "explanation": "A challenge is a difficulty that requires effort, patience or skill to deal with. The biography describes obstacles Ila worked to overcome.",
         "difficulty": "Easy"
       },
       {
@@ -3910,7 +3910,7 @@
           "Focused on one purpose"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “single-minded” in this context; the correct choice is Focused on one purpose.",
+        "explanation": "Single-minded means strongly focused on a purpose. The family consistently supports Ila’s learning and practice.",
         "difficulty": "Easy"
       },
       {
@@ -3923,7 +3923,7 @@
           "A type of needle"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “determination” in this context; the correct choice is Strong will power.",
+        "explanation": "Determination is the resolve to keep working towards a goal despite difficulties. Ila’s repeated practice reflects this quality.",
         "difficulty": "Easy"
       },
       {
@@ -3936,7 +3936,7 @@
           "Angry"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “awestruck” in this context; the correct choice is Amazed.",
+        "explanation": "Awestruck means filled with amazement or wonder. People are impressed by the skill and detail in Ila’s embroidery.",
         "difficulty": "Easy"
       },
       {
@@ -3949,7 +3949,7 @@
           "A person who has just begun"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “expert” in this context; the correct choice is A person highly skilled at something.",
+        "explanation": "An expert is someone with a high level of skill or knowledge in an area.",
         "difficulty": "Medium"
       },
       {
@@ -3962,7 +3962,7 @@
           "It displayed her work and opened new opportunities"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “state exhibition” in this context; the correct choice is It displayed her work and opened new opportunities.",
+        "explanation": "The exhibition gave people a chance to see Ila’s work and helped her talent gain wider recognition.",
         "difficulty": "Medium"
       },
       {
@@ -3975,7 +3975,7 @@
           "A job as a village police officer"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “new independence” in this context; the correct choice is A regular income and joy in doing what she loved.",
+        "explanation": "The biography says embroidery brought Ila both income and joy, supporting her livelihood and personal fulfilment.",
         "difficulty": "Medium"
       },
       {
@@ -3988,7 +3988,7 @@
           "Make a noun plural"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “not only... but also” in this context; the correct choice is Link two related ideas.",
+        "explanation": "“Not only…but also” links two related points and emphasises that both are true: Ila earned income and found joy in her work.",
         "difficulty": "Medium"
       },
       {
@@ -4001,7 +4001,7 @@
           "Small"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “tiny” in this context; the correct choice is Huge.",
+        "explanation": "Huge is an opposite of tiny because it describes something very large rather than very small.",
         "difficulty": "Medium"
       },
       {
@@ -4014,7 +4014,7 @@
           "It is a proper place name"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “place name” in this context; the correct choice is It is a proper place name.",
+        "explanation": "Gujarat is capitalised because it names a particular state. Place names are proper nouns.",
         "difficulty": "Medium"
       }
     ]
@@ -4165,7 +4165,7 @@
           "Spoken aloud"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “etched” in this context; the correct choice is Carved or marked into a hard surface.",
+        "explanation": "Etched means carved or marked into a hard surface. The poem suggests the soldiers’ names are durably recorded in the memorial.",
         "difficulty": "Easy"
       },
       {
@@ -4178,7 +4178,7 @@
           "Tiny and hidden"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “grand” in this context; the correct choice is Impressive or magnificent.",
+        "explanation": "Grand means impressive or magnificent, conveying the strong effect the memorial has on visitors.",
         "difficulty": "Easy"
       },
       {
@@ -4191,7 +4191,7 @@
           "A public expression of respect"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “homage” in this context; the correct choice is A public expression of respect.",
+        "explanation": "Homage is an expression of respect or honour. The poem presents the flame as a tribute to soldiers’ courage.",
         "difficulty": "Easy"
       },
       {
@@ -4204,7 +4204,7 @@
           "Making a paper kite"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “sacrifice” in this context; the correct choice is Giving up something valuable for a greater purpose.",
+        "explanation": "Sacrifice means giving up something valuable for a greater purpose. Here it refers to what soldiers gave in service to the country.",
         "difficulty": "Easy"
       },
       {
@@ -4217,7 +4217,7 @@
           "Made of paper"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “eternal” in this context; the correct choice is Lasting forever or for a very long time.",
+        "explanation": "Eternal means lasting forever or seeming never-ending. The “eternal flame” symbolises continuing remembrance.",
         "difficulty": "Medium"
       },
       {
@@ -4230,7 +4230,7 @@
           "Memorial and sacrifice"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “behold and retold” in this context; the correct choice is Behold and retold.",
+        "explanation": "“Behold” and “retold” rhyme because their final sounds match.",
         "difficulty": "Medium"
       },
       {
@@ -4243,7 +4243,7 @@
           "Let us"
         ],
         "answer": 3,
-        "explanation": "The textbook uses “let’s” in this context; the correct choice is Let us.",
+        "explanation": "“Let’s” is the contraction of “let us.” The poem invites readers to join in a shared act of remembrance.",
         "difficulty": "Medium"
       },
       {
@@ -4256,7 +4256,7 @@
           "It is an adjective"
         ],
         "answer": 0,
-        "explanation": "The textbook uses “proper name” in this context; the correct choice is It is a proper place name.",
+        "explanation": "New Delhi is a proper place name, so both words start with capital letters.",
         "difficulty": "Medium"
       },
       {
@@ -4269,7 +4269,7 @@
           "Hiding a name"
         ],
         "answer": 1,
-        "explanation": "The textbook uses “paying homage” in this context; the correct choice is Showing respect.",
+        "explanation": "To pay homage is to show respect or honour. The expression is more formal than simply saying “thank” or “praise.”",
         "difficulty": "Medium"
       },
       {
@@ -4282,7 +4282,7 @@
           "Forget the sacrifice"
         ],
         "answer": 2,
-        "explanation": "The textbook uses “shared commitment” in this context; the correct choice is Make a shared commitment to remember the soldiers.",
+        "explanation": "“Let’s always remember” invites readers to share responsibility for remembering the soldiers’ service and sacrifice.",
         "difficulty": "Medium"
       }
     ]
