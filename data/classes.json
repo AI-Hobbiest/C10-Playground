@@ -3,6 +3,15 @@
   "kind": "class-catalog",
   "classes": [
     {
+      "classId": "3",
+      "label": "Class 3",
+      "sortOrder": 3,
+      "active": true,
+      "subjects": [
+        "mathematics"
+      ]
+    },
+    {
       "classId": "6",
       "label": "Class 6",
       "sortOrder": 6,
