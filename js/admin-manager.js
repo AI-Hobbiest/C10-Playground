@@ -31,6 +31,7 @@
     {classId:"10",classLabel:"Class 10",subject:"english",path:"english.json",label:"Class 10 · English"},
     {classId:"10",classLabel:"Class 10",subject:"social-science",path:"social-science.json",label:"Class 10 · Social Science"},
     {classId:"10",classLabel:"Class 10",subject:"hindi",path:"hindi.json",label:"Class 10 · Hindi"},
+    {classId:"6",classLabel:"Class 6",subject:"english",path:"class-6-english.json",label:"Class 6 · English"},
     {classId:"6",classLabel:"Class 6",subject:"science",path:"class-6-science.json",label:"Class 6 · Science"},
     {classId:"6",classLabel:"Class 6",subject:"mathematics",path:"class-6-mathematics.json",label:"Class 6 · Mathematics"},
     {classId:"6",classLabel:"Class 6",subject:"social-science",path:"class-6-social-science.json",label:"Class 6 · Social Science"}

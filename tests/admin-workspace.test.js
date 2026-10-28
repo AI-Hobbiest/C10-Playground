@@ -71,7 +71,7 @@ const context={
   const path=String(url).split("?")[0].split("/").pop();
   if(path==="classes.json")return {ok:true,json:async()=>classes};
   if(path==="knowledge-base.json")return {ok:true,json:async()=>manifest};
-  if(path==="science.json"||path==="class-6-social-science.json")return {ok:true,json:async()=>miniBank};
+  if(path==="science.json"||path==="class-6-social-science.json"||path==="class-6-english.json")return {ok:true,json:async()=>miniBank};
   return {ok:false,status:404,json:async()=>({})};
  },
  window:{},URLSearchParams
@@ -84,16 +84,22 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
 
 (async()=>{
  await delay();await delay();
- assert.equal(elements.statQuestions.textContent,"4","published question summary counts actual bank records from available class-specific banks");
+ assert.equal(elements.statQuestions.textContent,"6","published question summary counts actual bank records from available class-specific banks");
  assert.equal(elements.statClasses.textContent,"7","class catalogue loaded");
- assert.ok(elements.questionBankInventoryStatus.textContent.includes("4 questions counted across 2 available primary banks"),"question-bank inventory dynamically totals available JSON banks");
- assert.equal(elements.questionBankInventory.children[0].children[1].children.length,9,"inventory lists all eight supported bank files and a total row");
- assert.equal(elements.questionBankInventory.children[0].children[1].children[7].children[0].textContent,"Class 6 · Social Science","Class 6 Social Science appears in the Admin inventory");
+ assert.ok(elements.questionBankInventoryStatus.textContent.includes("6 questions counted across 3 available primary banks"),"question-bank inventory dynamically totals available JSON banks");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children.length,10,"inventory lists all nine supported bank files and a total row");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children[5].children[0].textContent,"Class 6 · English","Class 6 English appears in the Admin inventory");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children[8].children[0].textContent,"Class 6 · Social Science","Class 6 Social Science appears in the Admin inventory");
  assert.ok(elements.questionList.children.length===2,"questions render in the Admin editor");
 
  // Switching class filters the subject choices and loads the class-specific path.
  elements.bankClass.value="6";elements.bankClass.dispatch("change");
  await delay();await delay();
+ assert.ok(elements.bankSubject.options.some(option=>option.value==="english"),"Class 6 exposes its English bank");
+ elements.bankSubject.value="english";elements.bankSubject.dispatch("change");
+ await delay();await delay();
+ assert.ok(elements.bankStatus.textContent.includes("Class 6 · English"),"Class 6 English loads as a distinct bank");
+ assert.equal(elements.bankTargetPath.textContent,"Published file: data/class-6-english.json","selected bank shows the Class 6 English path");
  assert.ok(elements.bankSubject.options.some(option=>option.value==="social-science"),"Class 6 exposes its Social Science bank");
  elements.bankSubject.value="social-science";elements.bankSubject.dispatch("change");
  await delay();await delay();

@@ -53,7 +53,7 @@ for(const chapter of mathBank){
   }
 }
 const catalog=JSON.parse(fs.readFileSync("data/classes.json","utf8"));
-assert.deepEqual(catalog.classes.find(row=>row.classId==="6").subjects,["science","mathematics","social-science"],"Class 6 is configured for Science, Mathematics and Social Science");
+assert.deepEqual(catalog.classes.find(row=>row.classId==="6").subjects,["science","mathematics","english","social-science"],"Class 6 is configured for Science, Mathematics, English and Social Science");
 assert.deepEqual(catalog.classes.find(row=>row.classId==="10").subjects,["science","mathematics","english","social-science","hindi"],"Class 10 subjects remain unchanged");
 const context={window:{}};context.globalThis=context;vm.createContext(context);
 vm.runInContext(fs.readFileSync("js/question-bank.js","utf8"),context,{filename:"js/question-bank.js"});
@@ -65,14 +65,39 @@ const normalizedSocial=context.window.C10QuestionBank.normalize(socialBank,"clas
 const socialQuestions=normalizedSocial.flatMap(chapter=>chapter.questions);
 assert.equal(socialQuestions.length,1400);
 assert.equal(new Set(socialQuestions.map(question=>question.questionKey)).size,1400,"Class 6 Social Science question keys are unique");
+
+const englishBank=JSON.parse(fs.readFileSync("data/class-6-english.json","utf8"));
+assert.equal(englishBank.length,16,"Class 6 English follows the 16 reading pieces in Poorvi (2026-27)");
+assert.equal(englishBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),1600,"Class 6 English includes 100 MCQs per reading piece");
+const englishPrompts=new Set(),englishIds=new Set();
+for(const chapter of englishBank){
+  assert.ok(chapter.title,"every English topic has a title");
+  assert.equal(chapter.questions.length,100,"each English topic has 100 questions");
+  assert.ok(chapter.section&&chapter.section.startsWith("Unit "),"each English topic records the source unit");
+  for(const question of chapter.questions){
+    assert.ok(question.id&&question.question&&question.explanation,"English question ID, prompt and explanation are present");
+    assert.ok(!englishIds.has(question.id),"English question IDs are unique");englishIds.add(question.id);
+    assert.equal(question.options.length,4,"each English MCQ has four options");
+    assert.equal(new Set(question.options).size,4,"each English MCQ has four distinct options");
+    assert.ok(Number.isInteger(question.answer)&&question.answer>=0&&question.answer<4,"English answer index is valid");
+    assert.ok(!englishPrompts.has(question.question),"English question stems are unique");englishPrompts.add(question.question);
+  }
+}
+
+
+const normalizedEnglish=context.window.C10QuestionBank.normalize(englishBank,"class-6-english");
+const englishQuestions=normalizedEnglish.flatMap(chapter=>chapter.questions);
+assert.equal(englishQuestions.length,1600);
+assert.equal(new Set(englishQuestions.map(question=>question.questionKey)).size,1600,"Class 6 English question keys are unique");
+
 const normalizedMath=context.window.C10QuestionBank.normalize(mathBank,"class-6-mathematics");
 const mathQuestions=normalizedMath.flatMap(chapter=>chapter.questions);
 assert.equal(mathQuestions.length,1000);
 assert.equal(new Set(mathQuestions.map(question=>question.questionKey)).size,1000,"Class 6 Mathematics question keys are unique");
 for(const question of questions)assert.ok(question.options.includes(question.options[question.answer])&&question.explanation);
 const engine=fs.readFileSync("js/quiz-engine.js","utf8");
-assert.ok(engine.includes('classId === "6" && ["science","mathematics","social-science"].includes(subject) ? "class-6-" + subject : subject'),"Class 6 Science, Mathematics and Social Science select class-specific JSON banks");
+assert.ok(engine.includes('classId === "6" && ["science","mathematics","english","social-science"].includes(subject) ? "class-6-" + subject : subject'),"Class 6 Science, Mathematics, English and Social Science select class-specific JSON banks");
 assert.ok(engine.includes('sessionStorage.getItem("c10playground_static_student_v1")'),"quiz engine reads the same static student session as the navigation");
 assert.ok(engine.includes('recordId:bankId'),"progress and attempts are isolated by class-specific bank");
 assert.ok(engine.includes('fetch("./data/"+bankId+".json"'),"the shared engine loads the selected class bank");
-console.log("Class 6 banks passed: Science 12/1,200, Mathematics 10/1,000, Social Science 14/1,400; unique IDs, question keys, valid MCQ structures and class-specific routing.");
+console.log("Class 6 banks passed: Science 12/1,200, Mathematics 10/1,000, English 16/1,600, Social Science 14/1,400; unique IDs, question keys, valid MCQ structures and class-specific routing.");
