@@ -21,7 +21,8 @@ function readActiveStudent(){
 }
 const activeStudent = readActiveStudent();
 const classId = String(activeStudent && activeStudent.classId || "10");
-const bankId = classId === "6" && ["science","mathematics","english","social-science"].includes(subject) ? "class-6-" + subject : subject;
+const bankId = classId === "10" ? subject : "class-" + classId + "-" + subject;
+const CLASS_SUBJECTS = { "3":["mathematics"], "6":["science","mathematics","english","social-science"], "10":["science","mathematics","english","social-science","hindi"] };
 const config = SUBJECTS[subject];
 let chapters=[], mode="learn", session=[], index=0, picked=null, answers=[], lastMissed=[];
 let currentAttempt=null, completedAttempt=null, clockHandle=null, ledger;
@@ -528,6 +529,7 @@ function resetProgress(){
 function init(){
   initQuestionImageViewer();
   if(!config){setText("status","Unknown subject link.");$("status").classList.remove("hide");return;}
+  if(!(CLASS_SUBJECTS[classId]||[]).includes(subject)){setText("status","The selected subject bank is not published for Class "+classId+" yet.");$("status").classList.remove("hide");return;}
   document.querySelectorAll("[data-mode]").forEach(button=>button.onclick=()=>{
     if(ledger.activeAttempt&&ledger.activeAttempt.status==="in-progress"){setText("modeHint","Finish or resume the saved session before changing mode.");return;}
     mode=button.dataset.mode;document.querySelectorAll("[data-mode]").forEach(item=>item.classList.toggle("active",item===button));
