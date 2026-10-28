@@ -1,0 +1,1658 @@
+[
+  {
+    "chapter_no": 1,
+    "title": "Colours",
+    "key": "colours",
+    "section": "Colour vocabulary and description",
+    "questions": [
+      {
+        "id": "c3e01q001",
+        "question": "Which word is most closely connected with Colours?",
+        "options": [
+          "red",
+          "pencil case",
+          "traffic light",
+          "washing machine"
+        ],
+        "answer": 0,
+        "explanation": "red is directly connected with the chapter Colours.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e01q002",
+        "question": "Which option best describes the main idea of “Colours”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "colour",
+          "Learning how to repair a car",
+          "Planning a railway timetable"
+        ],
+        "answer": 1,
+        "explanation": "The chapter's theme is colour.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e01q003",
+        "question": "Choose the word that belongs with red, blue and green.",
+        "options": [
+          "microwave",
+          "helmet",
+          "yellow",
+          "keyboard"
+        ],
+        "answer": 2,
+        "explanation": "yellow belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e01q004",
+        "question": "Which sentence is a complete sentence about “Colours”?",
+        "options": [
+          "About red because.",
+          "The chapter in red.",
+          "Learning and red when.",
+          "We learn about red in this chapter."
+        ],
+        "answer": 3,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e01q005",
+        "question": "Which word is a naming word in this sentence: “The red is interesting.”",
+        "options": [
+          "red",
+          "quickly",
+          "under",
+          "beautifully"
+        ],
+        "answer": 0,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e01q006",
+        "question": "Choose the describing word: “The bright red caught my attention.”",
+        "options": [
+          "because",
+          "bright",
+          "under",
+          "yesterday"
+        ],
+        "answer": 1,
+        "explanation": "bright describes the noun red.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e01q007",
+        "question": "Which punctuation mark should end this question about red?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Question mark (?)",
+          "Apostrophe (')"
+        ],
+        "answer": 2,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e01q008",
+        "question": "Which is the most polite way to ask about red?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen.",
+          "Could you tell me about red, please?"
+        ],
+        "answer": 3,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e01q009",
+        "question": "Which word is closest in meaning to “kind”?",
+        "options": [
+          "caring",
+          "cruel",
+          "careless",
+          "selfish"
+        ],
+        "answer": 0,
+        "explanation": "caring is closest in meaning to kind.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e01q010",
+        "question": "What is a helpful way to learn from “Colours”?",
+        "options": [
+          "Guess every answer without reading",
+          "Read carefully and think about the ideas",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time"
+        ],
+        "answer": 1,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 2,
+    "title": "Badal and Moti",
+    "key": "badal-and-moti",
+    "section": "Story comprehension and animal care",
+    "questions": [
+      {
+        "id": "c3e02q001",
+        "question": "Which word is most closely connected with Badal and Moti?",
+        "options": [
+          "pencil case",
+          "Badal",
+          "traffic light",
+          "washing machine"
+        ],
+        "answer": 1,
+        "explanation": "Badal is directly connected with the chapter Badal and Moti.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e02q002",
+        "question": "Which option best describes the main idea of “Badal and Moti”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "kindness",
+          "Planning a railway timetable"
+        ],
+        "answer": 2,
+        "explanation": "The chapter's theme is kindness.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e02q003",
+        "question": "Choose the word that belongs with Badal, Moti and puppy.",
+        "options": [
+          "microwave",
+          "helmet",
+          "keyboard",
+          "mother"
+        ],
+        "answer": 3,
+        "explanation": "mother belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e02q004",
+        "question": "Which sentence is a complete sentence about “Badal and Moti”?",
+        "options": [
+          "We learn about Badal in this chapter.",
+          "About Badal because.",
+          "The chapter in Badal.",
+          "Learning and Badal when."
+        ],
+        "answer": 0,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e02q005",
+        "question": "Which word is a naming word in this sentence: “The Badal is interesting.”",
+        "options": [
+          "quickly",
+          "Badal",
+          "under",
+          "beautifully"
+        ],
+        "answer": 1,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e02q006",
+        "question": "Choose the describing word: “The gentle Badal caught my attention.”",
+        "options": [
+          "because",
+          "under",
+          "gentle",
+          "yesterday"
+        ],
+        "answer": 2,
+        "explanation": "gentle describes the noun Badal.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e02q007",
+        "question": "Which punctuation mark should end this question about Badal?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')",
+          "Question mark (?)"
+        ],
+        "answer": 3,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e02q008",
+        "question": "Which is the most polite way to ask about Badal?",
+        "options": [
+          "Could you tell me about Badal, please?",
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 0,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e02q009",
+        "question": "Which word is closest in meaning to “happy”?",
+        "options": [
+          "angry",
+          "glad",
+          "sad",
+          "worried"
+        ],
+        "answer": 1,
+        "explanation": "glad is closest in meaning to happy.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e02q010",
+        "question": "What is a helpful way to learn from “Badal and Moti”?",
+        "options": [
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Read carefully and think about the ideas",
+          "Choose the longest option every time"
+        ],
+        "answer": 2,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 3,
+    "title": "Best Friends",
+    "key": "best-friends",
+    "section": "Story comprehension and shapes",
+    "questions": [
+      {
+        "id": "c3e03q001",
+        "question": "Which word is most closely connected with Best Friends?",
+        "options": [
+          "pencil case",
+          "traffic light",
+          "Circle",
+          "washing machine"
+        ],
+        "answer": 2,
+        "explanation": "Circle is directly connected with the chapter Best Friends.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e03q002",
+        "question": "Which option best describes the main idea of “Best Friends”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "Planning a railway timetable",
+          "friendship"
+        ],
+        "answer": 3,
+        "explanation": "The chapter's theme is friendship.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e03q003",
+        "question": "Choose the word that belongs with Circle, Square and Triangle.",
+        "options": [
+          "Rectangle",
+          "microwave",
+          "helmet",
+          "keyboard"
+        ],
+        "answer": 0,
+        "explanation": "Rectangle belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e03q004",
+        "question": "Which sentence is a complete sentence about “Best Friends”?",
+        "options": [
+          "About Circle because.",
+          "We learn about Circle in this chapter.",
+          "The chapter in Circle.",
+          "Learning and Circle when."
+        ],
+        "answer": 1,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e03q005",
+        "question": "Which word is a naming word in this sentence: “The Circle is interesting.”",
+        "options": [
+          "quickly",
+          "under",
+          "Circle",
+          "beautifully"
+        ],
+        "answer": 2,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e03q006",
+        "question": "Choose the describing word: “The friendly Circle caught my attention.”",
+        "options": [
+          "because",
+          "under",
+          "yesterday",
+          "friendly"
+        ],
+        "answer": 3,
+        "explanation": "friendly describes the noun Circle.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e03q007",
+        "question": "Which punctuation mark should end this question about Circle?",
+        "options": [
+          "Question mark (?)",
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 0,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e03q008",
+        "question": "Which is the most polite way to ask about Circle?",
+        "options": [
+          "Tell me now!",
+          "Could you tell me about Circle, please?",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 1,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e03q009",
+        "question": "Which word is closest in meaning to “large”?",
+        "options": [
+          "tiny",
+          "narrow",
+          "big",
+          "short"
+        ],
+        "answer": 2,
+        "explanation": "big is closest in meaning to large.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e03q010",
+        "question": "What is a helpful way to learn from “Best Friends”?",
+        "options": [
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time",
+          "Read carefully and think about the ideas"
+        ],
+        "answer": 3,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 4,
+    "title": "Out in the Garden",
+    "key": "out-in-the-garden",
+    "section": "Nature vocabulary and observation",
+    "questions": [
+      {
+        "id": "c3e04q001",
+        "question": "Which word is most closely connected with Out in the Garden?",
+        "options": [
+          "pencil case",
+          "traffic light",
+          "washing machine",
+          "garden"
+        ],
+        "answer": 3,
+        "explanation": "garden is directly connected with the chapter Out in the Garden.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e04q002",
+        "question": "Which option best describes the main idea of “Out in the Garden”?",
+        "options": [
+          "nature",
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "Planning a railway timetable"
+        ],
+        "answer": 0,
+        "explanation": "The chapter's theme is nature.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e04q003",
+        "question": "Choose the word that belongs with garden, plant and flower.",
+        "options": [
+          "microwave",
+          "butterfly",
+          "helmet",
+          "keyboard"
+        ],
+        "answer": 1,
+        "explanation": "butterfly belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e04q004",
+        "question": "Which sentence is a complete sentence about “Out in the Garden”?",
+        "options": [
+          "About garden because.",
+          "The chapter in garden.",
+          "We learn about garden in this chapter.",
+          "Learning and garden when."
+        ],
+        "answer": 2,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e04q005",
+        "question": "Which word is a naming word in this sentence: “The garden is interesting.”",
+        "options": [
+          "quickly",
+          "under",
+          "beautifully",
+          "garden"
+        ],
+        "answer": 3,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e04q006",
+        "question": "Choose the describing word: “The beautiful garden caught my attention.”",
+        "options": [
+          "beautiful",
+          "because",
+          "under",
+          "yesterday"
+        ],
+        "answer": 0,
+        "explanation": "beautiful describes the noun garden.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e04q007",
+        "question": "Which punctuation mark should end this question about garden?",
+        "options": [
+          "Full stop (.)",
+          "Question mark (?)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 1,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e04q008",
+        "question": "Which is the most polite way to ask about garden?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "Could you tell me about garden, please?",
+          "I will not listen."
+        ],
+        "answer": 2,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e04q009",
+        "question": "Which word is closest in meaning to “observe”?",
+        "options": [
+          "forget",
+          "hide",
+          "break",
+          "notice"
+        ],
+        "answer": 3,
+        "explanation": "notice is closest in meaning to observe.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e04q010",
+        "question": "What is a helpful way to learn from “Out in the Garden”?",
+        "options": [
+          "Read carefully and think about the ideas",
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time"
+        ],
+        "answer": 0,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 5,
+    "title": "Talking Toys",
+    "key": "talking-toys",
+    "section": "Imagination and dialogue",
+    "questions": [
+      {
+        "id": "c3e05q001",
+        "question": "Which word is most closely connected with Talking Toys?",
+        "options": [
+          "toy",
+          "pencil case",
+          "traffic light",
+          "washing machine"
+        ],
+        "answer": 0,
+        "explanation": "toy is directly connected with the chapter Talking Toys.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e05q002",
+        "question": "Which option best describes the main idea of “Talking Toys”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "imagination",
+          "Learning how to repair a car",
+          "Planning a railway timetable"
+        ],
+        "answer": 1,
+        "explanation": "The chapter's theme is imagination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e05q003",
+        "question": "Choose the word that belongs with toy, train and doll.",
+        "options": [
+          "microwave",
+          "helmet",
+          "story",
+          "keyboard"
+        ],
+        "answer": 2,
+        "explanation": "story belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e05q004",
+        "question": "Which sentence is a complete sentence about “Talking Toys”?",
+        "options": [
+          "About toy because.",
+          "The chapter in toy.",
+          "Learning and toy when.",
+          "We learn about toy in this chapter."
+        ],
+        "answer": 3,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e05q005",
+        "question": "Which word is a naming word in this sentence: “The toy is interesting.”",
+        "options": [
+          "toy",
+          "quickly",
+          "under",
+          "beautifully"
+        ],
+        "answer": 0,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e05q006",
+        "question": "Choose the describing word: “The playful toy caught my attention.”",
+        "options": [
+          "because",
+          "playful",
+          "under",
+          "yesterday"
+        ],
+        "answer": 1,
+        "explanation": "playful describes the noun toy.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e05q007",
+        "question": "Which punctuation mark should end this question about toy?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Question mark (?)",
+          "Apostrophe (')"
+        ],
+        "answer": 2,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e05q008",
+        "question": "Which is the most polite way to ask about toy?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen.",
+          "Could you tell me about toy, please?"
+        ],
+        "answer": 3,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e05q009",
+        "question": "Which word is closest in meaning to “imagine”?",
+        "options": [
+          "picture in the mind",
+          "measure exactly",
+          "close a door",
+          "count backwards"
+        ],
+        "answer": 0,
+        "explanation": "picture in the mind is closest in meaning to imagine.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e05q010",
+        "question": "What is a helpful way to learn from “Talking Toys”?",
+        "options": [
+          "Guess every answer without reading",
+          "Read carefully and think about the ideas",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time"
+        ],
+        "answer": 1,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 6,
+    "title": "Paper Boats",
+    "key": "paper-boats",
+    "section": "Poetry, sequencing and craft",
+    "questions": [
+      {
+        "id": "c3e06q001",
+        "question": "Which word is most closely connected with Paper Boats?",
+        "options": [
+          "pencil case",
+          "paper",
+          "traffic light",
+          "washing machine"
+        ],
+        "answer": 1,
+        "explanation": "paper is directly connected with the chapter Paper Boats.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e06q002",
+        "question": "Which option best describes the main idea of “Paper Boats”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "craft",
+          "Planning a railway timetable"
+        ],
+        "answer": 2,
+        "explanation": "The chapter's theme is craft.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e06q003",
+        "question": "Choose the word that belongs with paper, boat and fold.",
+        "options": [
+          "microwave",
+          "helmet",
+          "keyboard",
+          "float"
+        ],
+        "answer": 3,
+        "explanation": "float belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e06q004",
+        "question": "Which sentence is a complete sentence about “Paper Boats”?",
+        "options": [
+          "We learn about paper in this chapter.",
+          "About paper because.",
+          "The chapter in paper.",
+          "Learning and paper when."
+        ],
+        "answer": 0,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e06q005",
+        "question": "Which word is a naming word in this sentence: “The paper is interesting.”",
+        "options": [
+          "quickly",
+          "paper",
+          "under",
+          "beautifully"
+        ],
+        "answer": 1,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e06q006",
+        "question": "Choose the describing word: “The neat paper caught my attention.”",
+        "options": [
+          "because",
+          "under",
+          "neat",
+          "yesterday"
+        ],
+        "answer": 2,
+        "explanation": "neat describes the noun paper.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e06q007",
+        "question": "Which punctuation mark should end this question about paper?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')",
+          "Question mark (?)"
+        ],
+        "answer": 3,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e06q008",
+        "question": "Which is the most polite way to ask about paper?",
+        "options": [
+          "Could you tell me about paper, please?",
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 0,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e06q009",
+        "question": "Which word is closest in meaning to “make”?",
+        "options": [
+          "destroy",
+          "create",
+          "lose",
+          "forget"
+        ],
+        "answer": 1,
+        "explanation": "create is closest in meaning to make.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e06q010",
+        "question": "What is a helpful way to learn from “Paper Boats”?",
+        "options": [
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Read carefully and think about the ideas",
+          "Choose the longest option every time"
+        ],
+        "answer": 2,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 7,
+    "title": "The Big Laddoo",
+    "key": "the-big-laddoo",
+    "section": "Food vocabulary and size words",
+    "questions": [
+      {
+        "id": "c3e07q001",
+        "question": "Which word is most closely connected with The Big Laddoo?",
+        "options": [
+          "pencil case",
+          "traffic light",
+          "laddoo",
+          "washing machine"
+        ],
+        "answer": 2,
+        "explanation": "laddoo is directly connected with the chapter The Big Laddoo.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e07q002",
+        "question": "Which option best describes the main idea of “The Big Laddoo”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "Planning a railway timetable",
+          "sharing"
+        ],
+        "answer": 3,
+        "explanation": "The chapter's theme is sharing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e07q003",
+        "question": "Choose the word that belongs with laddoo, sweet and big.",
+        "options": [
+          "small",
+          "microwave",
+          "helmet",
+          "keyboard"
+        ],
+        "answer": 0,
+        "explanation": "small belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e07q004",
+        "question": "Which sentence is a complete sentence about “The Big Laddoo”?",
+        "options": [
+          "About laddoo because.",
+          "We learn about laddoo in this chapter.",
+          "The chapter in laddoo.",
+          "Learning and laddoo when."
+        ],
+        "answer": 1,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e07q005",
+        "question": "Which word is a naming word in this sentence: “The laddoo is interesting.”",
+        "options": [
+          "quickly",
+          "under",
+          "laddoo",
+          "beautifully"
+        ],
+        "answer": 2,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e07q006",
+        "question": "Choose the describing word: “The round laddoo caught my attention.”",
+        "options": [
+          "because",
+          "under",
+          "yesterday",
+          "round"
+        ],
+        "answer": 3,
+        "explanation": "round describes the noun laddoo.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e07q007",
+        "question": "Which punctuation mark should end this question about laddoo?",
+        "options": [
+          "Question mark (?)",
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 0,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e07q008",
+        "question": "Which is the most polite way to ask about laddoo?",
+        "options": [
+          "Tell me now!",
+          "Could you tell me about laddoo, please?",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 1,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e07q009",
+        "question": "Which word is closest in meaning to “share”?",
+        "options": [
+          "hide away",
+          "throw out",
+          "divide with others",
+          "keep alone"
+        ],
+        "answer": 2,
+        "explanation": "divide with others is closest in meaning to share.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e07q010",
+        "question": "What is a helpful way to learn from “The Big Laddoo”?",
+        "options": [
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time",
+          "Read carefully and think about the ideas"
+        ],
+        "answer": 3,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 8,
+    "title": "Thank God",
+    "key": "thank-god",
+    "section": "Orchard vocabulary and gratitude",
+    "questions": [
+      {
+        "id": "c3e08q001",
+        "question": "Which word is most closely connected with Thank God?",
+        "options": [
+          "pencil case",
+          "traffic light",
+          "washing machine",
+          "orchard"
+        ],
+        "answer": 3,
+        "explanation": "orchard is directly connected with the chapter Thank God.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e08q002",
+        "question": "Which option best describes the main idea of “Thank God”?",
+        "options": [
+          "gratitude",
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "Planning a railway timetable"
+        ],
+        "answer": 0,
+        "explanation": "The chapter's theme is gratitude.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e08q003",
+        "question": "Choose the word that belongs with orchard, mango and fruit.",
+        "options": [
+          "microwave",
+          "thankful",
+          "helmet",
+          "keyboard"
+        ],
+        "answer": 1,
+        "explanation": "thankful belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e08q004",
+        "question": "Which sentence is a complete sentence about “Thank God”?",
+        "options": [
+          "About orchard because.",
+          "The chapter in orchard.",
+          "We learn about orchard in this chapter.",
+          "Learning and orchard when."
+        ],
+        "answer": 2,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e08q005",
+        "question": "Which word is a naming word in this sentence: “The orchard is interesting.”",
+        "options": [
+          "quickly",
+          "under",
+          "beautifully",
+          "orchard"
+        ],
+        "answer": 3,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e08q006",
+        "question": "Choose the describing word: “The fresh orchard caught my attention.”",
+        "options": [
+          "fresh",
+          "because",
+          "under",
+          "yesterday"
+        ],
+        "answer": 0,
+        "explanation": "fresh describes the noun orchard.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e08q007",
+        "question": "Which punctuation mark should end this question about orchard?",
+        "options": [
+          "Full stop (.)",
+          "Question mark (?)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 1,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e08q008",
+        "question": "Which is the most polite way to ask about orchard?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "Could you tell me about orchard, please?",
+          "I will not listen."
+        ],
+        "answer": 2,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e08q009",
+        "question": "Which word is closest in meaning to “grateful”?",
+        "options": [
+          "careless",
+          "unhappy",
+          "sleepy",
+          "thankful"
+        ],
+        "answer": 3,
+        "explanation": "thankful is closest in meaning to grateful.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e08q010",
+        "question": "What is a helpful way to learn from “Thank God”?",
+        "options": [
+          "Read carefully and think about the ideas",
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time"
+        ],
+        "answer": 0,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 9,
+    "title": "Madhu’s Wish",
+    "key": "madhus-wish",
+    "section": "Story comprehension and water",
+    "questions": [
+      {
+        "id": "c3e09q001",
+        "question": "Which word is most closely connected with Madhu’s Wish?",
+        "options": [
+          "Madhu",
+          "pencil case",
+          "traffic light",
+          "washing machine"
+        ],
+        "answer": 0,
+        "explanation": "Madhu is directly connected with the chapter Madhu’s Wish.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e09q002",
+        "question": "Which option best describes the main idea of “Madhu’s Wish”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "hope",
+          "Learning how to repair a car",
+          "Planning a railway timetable"
+        ],
+        "answer": 1,
+        "explanation": "The chapter's theme is hope.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e09q003",
+        "question": "Choose the word that belongs with Madhu, wish and water.",
+        "options": [
+          "microwave",
+          "helmet",
+          "save",
+          "keyboard"
+        ],
+        "answer": 2,
+        "explanation": "save belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e09q004",
+        "question": "Which sentence is a complete sentence about “Madhu’s Wish”?",
+        "options": [
+          "About Madhu because.",
+          "The chapter in Madhu.",
+          "Learning and Madhu when.",
+          "We learn about Madhu in this chapter."
+        ],
+        "answer": 3,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e09q005",
+        "question": "Which word is a naming word in this sentence: “The Madhu is interesting.”",
+        "options": [
+          "Madhu",
+          "quickly",
+          "under",
+          "beautifully"
+        ],
+        "answer": 0,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e09q006",
+        "question": "Choose the describing word: “The precious Madhu caught my attention.”",
+        "options": [
+          "because",
+          "precious",
+          "under",
+          "yesterday"
+        ],
+        "answer": 1,
+        "explanation": "precious describes the noun Madhu.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e09q007",
+        "question": "Which punctuation mark should end this question about Madhu?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Question mark (?)",
+          "Apostrophe (')"
+        ],
+        "answer": 2,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e09q008",
+        "question": "Which is the most polite way to ask about Madhu?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen.",
+          "Could you tell me about Madhu, please?"
+        ],
+        "answer": 3,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e09q009",
+        "question": "Which word is closest in meaning to “wish”?",
+        "options": [
+          "hope",
+          "argument",
+          "noise",
+          "mistake"
+        ],
+        "answer": 0,
+        "explanation": "hope is closest in meaning to wish.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e09q010",
+        "question": "What is a helpful way to learn from “Madhu’s Wish”?",
+        "options": [
+          "Guess every answer without reading",
+          "Read carefully and think about the ideas",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time"
+        ],
+        "answer": 1,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 10,
+    "title": "Night",
+    "key": "night",
+    "section": "Poetry and sky vocabulary",
+    "questions": [
+      {
+        "id": "c3e10q001",
+        "question": "Which word is most closely connected with Night?",
+        "options": [
+          "pencil case",
+          "night",
+          "traffic light",
+          "washing machine"
+        ],
+        "answer": 1,
+        "explanation": "night is directly connected with the chapter Night.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e10q002",
+        "question": "Which option best describes the main idea of “Night”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "sky",
+          "Planning a railway timetable"
+        ],
+        "answer": 2,
+        "explanation": "The chapter's theme is sky.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e10q003",
+        "question": "Choose the word that belongs with night, day and stars.",
+        "options": [
+          "microwave",
+          "helmet",
+          "keyboard",
+          "Moon"
+        ],
+        "answer": 3,
+        "explanation": "Moon belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e10q004",
+        "question": "Which sentence is a complete sentence about “Night”?",
+        "options": [
+          "We learn about night in this chapter.",
+          "About night because.",
+          "The chapter in night.",
+          "Learning and night when."
+        ],
+        "answer": 0,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e10q005",
+        "question": "Which word is a naming word in this sentence: “The night is interesting.”",
+        "options": [
+          "quickly",
+          "night",
+          "under",
+          "beautifully"
+        ],
+        "answer": 1,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e10q006",
+        "question": "Choose the describing word: “The quiet night caught my attention.”",
+        "options": [
+          "because",
+          "under",
+          "quiet",
+          "yesterday"
+        ],
+        "answer": 2,
+        "explanation": "quiet describes the noun night.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e10q007",
+        "question": "Which punctuation mark should end this question about night?",
+        "options": [
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')",
+          "Question mark (?)"
+        ],
+        "answer": 3,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e10q008",
+        "question": "Which is the most polite way to ask about night?",
+        "options": [
+          "Could you tell me about night, please?",
+          "Tell me now!",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 0,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e10q009",
+        "question": "Which word is closest in meaning to “dark”?",
+        "options": [
+          "noisy",
+          "not bright",
+          "colourful",
+          "warm"
+        ],
+        "answer": 1,
+        "explanation": "not bright is closest in meaning to dark.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e10q010",
+        "question": "What is a helpful way to learn from “Night”?",
+        "options": [
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Read carefully and think about the ideas",
+          "Choose the longest option every time"
+        ],
+        "answer": 2,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 11,
+    "title": "Chanda Mama Counts the Stars",
+    "key": "chanda-mama-counts-the-stars",
+    "section": "Story comprehension and counting language",
+    "questions": [
+      {
+        "id": "c3e11q001",
+        "question": "Which word is most closely connected with Chanda Mama Counts the Stars?",
+        "options": [
+          "pencil case",
+          "traffic light",
+          "Chanda Mama",
+          "washing machine"
+        ],
+        "answer": 2,
+        "explanation": "Chanda Mama is directly connected with the chapter Chanda Mama Counts the Stars.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e11q002",
+        "question": "Which option best describes the main idea of “Chanda Mama Counts the Stars”?",
+        "options": [
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "Planning a railway timetable",
+          "curiosity"
+        ],
+        "answer": 3,
+        "explanation": "The chapter's theme is curiosity.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e11q003",
+        "question": "Choose the word that belongs with Chanda Mama, Moon and stars.",
+        "options": [
+          "count",
+          "microwave",
+          "helmet",
+          "keyboard"
+        ],
+        "answer": 0,
+        "explanation": "count belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e11q004",
+        "question": "Which sentence is a complete sentence about “Chanda Mama Counts the Stars”?",
+        "options": [
+          "About Chanda Mama because.",
+          "We learn about Chanda Mama in this chapter.",
+          "The chapter in Chanda Mama.",
+          "Learning and Chanda Mama when."
+        ],
+        "answer": 1,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e11q005",
+        "question": "Which word is a naming word in this sentence: “The Chanda Mama is interesting.”",
+        "options": [
+          "quickly",
+          "under",
+          "Chanda Mama",
+          "beautifully"
+        ],
+        "answer": 2,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e11q006",
+        "question": "Choose the describing word: “The distant Chanda Mama caught my attention.”",
+        "options": [
+          "because",
+          "under",
+          "yesterday",
+          "distant"
+        ],
+        "answer": 3,
+        "explanation": "distant describes the noun Chanda Mama.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e11q007",
+        "question": "Which punctuation mark should end this question about Chanda Mama?",
+        "options": [
+          "Question mark (?)",
+          "Full stop (.)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 0,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e11q008",
+        "question": "Which is the most polite way to ask about Chanda Mama?",
+        "options": [
+          "Tell me now!",
+          "Could you tell me about Chanda Mama, please?",
+          "You must answer me.",
+          "I will not listen."
+        ],
+        "answer": 1,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e11q009",
+        "question": "Which word is closest in meaning to “count”?",
+        "options": [
+          "paint a picture",
+          "fold a sheet",
+          "find the number",
+          "tell a joke"
+        ],
+        "answer": 2,
+        "explanation": "find the number is closest in meaning to count.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e11q010",
+        "question": "What is a helpful way to learn from “Chanda Mama Counts the Stars”?",
+        "options": [
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time",
+          "Read carefully and think about the ideas"
+        ],
+        "answer": 3,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 12,
+    "title": "Chandrayaan",
+    "key": "chandrayaan",
+    "section": "Space vocabulary and science language",
+    "questions": [
+      {
+        "id": "c3e12q001",
+        "question": "Which word is most closely connected with Chandrayaan?",
+        "options": [
+          "pencil case",
+          "traffic light",
+          "washing machine",
+          "Chandrayaan"
+        ],
+        "answer": 3,
+        "explanation": "Chandrayaan is directly connected with the chapter Chandrayaan.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e12q002",
+        "question": "Which option best describes the main idea of “Chandrayaan”?",
+        "options": [
+          "science",
+          "Memorising unrelated numbers",
+          "Learning how to repair a car",
+          "Planning a railway timetable"
+        ],
+        "answer": 0,
+        "explanation": "The chapter's theme is science.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e12q003",
+        "question": "Choose the word that belongs with Chandrayaan, Moon and Rani.",
+        "options": [
+          "microwave",
+          "scientist",
+          "helmet",
+          "keyboard"
+        ],
+        "answer": 1,
+        "explanation": "scientist belongs with the chapter's topic vocabulary.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e12q004",
+        "question": "Which sentence is a complete sentence about “Chandrayaan”?",
+        "options": [
+          "About Chandrayaan because.",
+          "The chapter in Chandrayaan.",
+          "We learn about Chandrayaan in this chapter.",
+          "Learning and Chandrayaan when."
+        ],
+        "answer": 2,
+        "explanation": "A complete sentence expresses a whole idea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e12q005",
+        "question": "Which word is a naming word in this sentence: “The Chandrayaan is interesting.”",
+        "options": [
+          "quickly",
+          "under",
+          "beautifully",
+          "Chandrayaan"
+        ],
+        "answer": 3,
+        "explanation": "A naming word (noun) names a person, place, animal or thing.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e12q006",
+        "question": "Choose the describing word: “The amazing Chandrayaan caught my attention.”",
+        "options": [
+          "amazing",
+          "because",
+          "under",
+          "yesterday"
+        ],
+        "answer": 0,
+        "explanation": "amazing describes the noun Chandrayaan.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e12q007",
+        "question": "Which punctuation mark should end this question about Chandrayaan?",
+        "options": [
+          "Full stop (.)",
+          "Question mark (?)",
+          "Comma (,)",
+          "Apostrophe (')"
+        ],
+        "answer": 1,
+        "explanation": "A direct question ends with a question mark.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c3e12q008",
+        "question": "Which is the most polite way to ask about Chandrayaan?",
+        "options": [
+          "Tell me now!",
+          "You must answer me.",
+          "Could you tell me about Chandrayaan, please?",
+          "I will not listen."
+        ],
+        "answer": 2,
+        "explanation": "Polite questions use respectful words such as 'could' and 'please'.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e12q009",
+        "question": "Which word is closest in meaning to “explore”?",
+        "options": [
+          "ignore completely",
+          "put away",
+          "copy blindly",
+          "learn about by investigating"
+        ],
+        "answer": 3,
+        "explanation": "learn about by investigating is closest in meaning to explore.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c3e12q010",
+        "question": "What is a helpful way to learn from “Chandrayaan”?",
+        "options": [
+          "Read carefully and think about the ideas",
+          "Guess every answer without reading",
+          "Ignore unfamiliar words",
+          "Choose the longest option every time"
+        ],
+        "answer": 0,
+        "explanation": "Careful reading and thinking support comprehension.",
+        "difficulty": "Challenge"
+      }
+    ]
+  }
+]
