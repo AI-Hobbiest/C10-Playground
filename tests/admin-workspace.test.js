@@ -87,7 +87,8 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
  assert.equal(elements.statQuestions.textContent,"2","published question summary counts actual bank records");
  assert.equal(elements.statClasses.textContent,"7","class catalogue loaded");
  assert.ok(elements.questionBankInventoryStatus.textContent.includes("2 questions counted across 1 available primary banks"),"question-bank inventory dynamically totals available JSON banks");
- assert.equal(elements.questionBankInventory.children[0].children[1].children.length,8,"inventory lists all seven supported bank files and a total row");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children.length,9,"inventory lists all eight supported bank files and a total row");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children[7].children[0].textContent,"Class 6 · Social Science","Class 6 Social Science appears in the Admin inventory");
  assert.ok(elements.questionList.children.length===2,"questions render in the Admin editor");
 
  // Add a question draft and export a JSON bank.
