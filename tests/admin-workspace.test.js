@@ -88,7 +88,7 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
  assert.equal(elements.statClasses.textContent,"7","class catalogue loaded");
  assert.ok(elements.questionBankInventoryStatus.textContent.includes("6 questions counted across 3 available primary banks"),"question-bank inventory dynamically totals available JSON banks");
  assert.equal(elements.questionBankInventory.children[0].children[1].children.length,10,"inventory lists all nine supported bank files and a total row");
- assert.equal(elements.questionBankInventory.children[0].children[1].children[5].children[0].textContent,"Class 6 · English","Class 6 English appears in the Admin inventory");
+ assert.equal(elements.questionBankInventory.children[0].children[1].children[7].children[0].textContent,"Class 6 · English","Class 6 English appears in the Admin inventory");
  assert.equal(elements.questionBankInventory.children[0].children[1].children[8].children[0].textContent,"Class 6 · Social Science","Class 6 Social Science appears in the Admin inventory");
  assert.ok(elements.questionList.children.length===2,"questions render in the Admin editor");
 
