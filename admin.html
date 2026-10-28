@@ -38,7 +38,7 @@
     <div id="adminAuthStatus" class="admin-status" role="status" aria-live="polite">In-app admin sign-in is deferred. GitHub repository permissions control publishing.</div>
   </section>
   <div class="admin-grid" aria-label="Workspace summary">
-    <div class="admin-stat"><strong id="statQuestions">—</strong><span>Questions in loaded bank</span></div>
+    <div class="admin-stat"><strong id="statQuestions">—</strong><span>Questions across published banks</span></div>
     <div class="admin-stat"><strong id="statClasses">—</strong><span>Active classes</span></div>
     <div class="admin-stat"><strong id="statStudents">0</strong><span>Student backups loaded in this session</span></div>
   </div>
@@ -131,7 +131,7 @@
 
       <section class="admin-panel" id="tab-knowledge">
         <h2>Knowledge base and source files</h2>
-        <p class="admin-muted">Track books, course notes, question-bank PDFs and image-reference PDFs. This is an inventory/manifest, not a document parser yet. The upcoming builder will process selectable text from digital PDFs; scanned/image-only PDFs and OCR are excluded.</p>
+        <p class="admin-muted">Track books, course notes, question-bank PDFs and image-reference PDFs. This source-file manifest is separate from the live MCQ banks; the question-bank inventory below reads published bank JSON files and calculates current totals automatically. The upcoming builder will process selectable text from digital PDFs; scanned/image-only PDFs and OCR are excluded.</p>
         <div class="admin-notice"><strong>Public-repository warning:</strong> a PDF or image committed to this repository will be publicly downloadable. Only publish resources you own or are permitted to redistribute. Do not put private student data here.</div>
         <div class="admin-form-grid">
           <div class="admin-field full"><label for="resourceFile">Select resource file</label><input class="admin-file" type="file" id="resourceFile" accept=".pdf,application/pdf,image/png,image/jpeg,image/webp,.txt,.md,.json"></div>
@@ -145,6 +145,10 @@
         <div class="admin-actions"><button class="admin-btn" id="addResourceBtn" type="button">＋ Add resource to manifest</button><button class="admin-btn secondary" id="exportManifestBtn" type="button">Export manifest JSON</button><button class="admin-btn secondary" id="importManifestBtn" type="button">Import manifest JSON</button><input hidden type="file" id="manifestFile" accept=".json,application/json"></div>
         <div id="knowledgeStatus" class="admin-status" role="status"></div>
         <div id="pendingResources" class="admin-content"><div class="admin-empty">No resource files selected in this session.</div></div>
+        <h3>Published question-bank inventory</h3>
+        <p class="admin-inline-help">Counts are calculated from the primary question-bank JSON files used by the portal, not typed in as fixed numbers. Source-batch/chunk files are not added separately when they are not the active bank for a subject.</p>
+        <div id="questionBankInventoryStatus" class="admin-status" role="status">Calculating published question totals…</div>
+        <div id="questionBankInventory" class="admin-table-wrap"><div class="admin-empty">Reading published question banks…</div></div>
         <h3>Published knowledge-base manifest</h3>
         <div id="knowledgeTable" class="admin-table-wrap"></div>
       </section>
