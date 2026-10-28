@@ -30,7 +30,8 @@
     {path:"social-science.json",label:"Class 10 · Social Science"},
     {path:"hindi.json",label:"Class 10 · Hindi"},
     {path:"class-6-science.json",label:"Class 6 · Science"},
-    {path:"class-6-mathematics.json",label:"Class 6 · Mathematics"}
+    {path:"class-6-mathematics.json",label:"Class 6 · Mathematics"},
+    {path:"class-6-social-science.json",label:"Class 6 · Social Science"}
   ];
 
   function structuredCloneSafe(value){return JSON.parse(JSON.stringify(value));}
