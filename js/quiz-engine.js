@@ -21,7 +21,7 @@ function readActiveStudent(){
 }
 const activeStudent = readActiveStudent();
 const classId = String(activeStudent && activeStudent.classId || "10");
-const bankId = classId === "6" && ["science","mathematics"].includes(subject) ? "class-6-" + subject : subject;
+const bankId = classId === "6" && ["science","mathematics","social-science"].includes(subject) ? "class-6-" + subject : subject;
 const config = SUBJECTS[subject];
 let chapters=[], mode="learn", session=[], index=0, picked=null, answers=[], lastMissed=[];
 let currentAttempt=null, completedAttempt=null, clockHandle=null, ledger;
