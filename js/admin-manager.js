@@ -20,6 +20,18 @@
   let studentBackups=[],editingStudentProfileId=null;
   let adminIdentity=null,centralStudents=[],centralProgressRows=[],centralLeaderboardRows=[],editingCentralStudentId=null;
   const pendingAssetByPath=new Map();
+  let publishedQuestionTotal=null;
+  let publishedBankInventory=[];
+
+  const PUBLISHED_QUESTION_BANKS=[
+    {path:"science.json",label:"Class 10 · Science"},
+    {path:"mathematics.json",label:"Class 10 · Mathematics"},
+    {path:"english.json",label:"Class 10 · English"},
+    {path:"social-science.json",label:"Class 10 · Social Science"},
+    {path:"hindi.json",label:"Class 10 · Hindi"},
+    {path:"class-6-science.json",label:"Class 6 · Science"},
+    {path:"class-6-mathematics.json",label:"Class 6 · Mathematics"}
+  ];
 
   function structuredCloneSafe(value){return JSON.parse(JSON.stringify(value));}
   function slug(value){return String(value||"file").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"file";}
@@ -611,9 +623,58 @@
     downloadCsv(rows,"c10-leaderboard-"+new Date().toISOString().slice(0,10)+".csv");
   }
   function updateSummary(){
-    $("statQuestions").textContent=bankLoaded?String(questionCount()):"—";
+    $("statQuestions").textContent=publishedQuestionTotal===null?"…":publishedQuestionTotal.toLocaleString();
     $("statClasses").textContent=String(activeClasses().length);
     $("statStudents").textContent=String(studentBackups.length);
+  }
+
+  function countBankQuestions(data){
+    const chapters=Array.isArray(data)?data:(data&&Array.isArray(data.chapters)?data.chapters:null);
+    if(!chapters)throw new Error("JSON is not a supported chapter/question bank.");
+    return {chapters:chapters.length,questions:chapters.reduce((total,chapter)=>total+(Array.isArray(chapter.questions)?chapter.questions.length:0),0)};
+  }
+
+  function renderQuestionBankInventory(){
+    const container=$("questionBankInventory");
+    if(!container)return;
+    container.innerHTML="";
+    const table=make("table","admin-table"),thead=make("thead"),head=make("tr");
+    ["Published bank","Chapters","Questions","Status"].forEach(label=>head.appendChild(make("th","",label)));
+    thead.appendChild(head);table.appendChild(thead);
+    const body=make("tbody");
+    publishedBankInventory.forEach(record=>{
+      const tr=make("tr");
+      tr.append(make("td","",record.label),make("td","",record.chapters===null?"—":record.chapters.toLocaleString()),
+        make("td","",record.questions===null?"—":record.questions.toLocaleString()),
+        make("td","",record.error?"Unavailable":"Loaded"));
+      body.appendChild(tr);
+    });
+    const totalRow=make("tr");
+    totalRow.append(make("td","","Total across available primary banks"),make("td","","—"),
+      make("td","",publishedQuestionTotal===null?"…":publishedQuestionTotal.toLocaleString()),make("td","","Calculated from JSON"));
+    body.appendChild(totalRow);table.appendChild(body);container.appendChild(table);
+  }
+
+  async function loadPublishedQuestionSummary(){
+    publishedBankInventory=await Promise.all(PUBLISHED_QUESTION_BANKS.map(async definition=>{
+      try{
+        const response=await fetch("./data/"+definition.path,{cache:"no-store"});
+        if(!response.ok)throw new Error("HTTP "+response.status);
+        const counts=countBankQuestions(await response.json());
+        return {...definition,...counts,error:""};
+      }catch(error){
+        return {...definition,chapters:null,questions:null,error:error&&error.message?error.message:"Could not load"};
+      }
+    }));
+    publishedQuestionTotal=publishedBankInventory.reduce((total,record)=>total+(Number.isFinite(record.questions)?record.questions:0),0);
+    renderQuestionBankInventory();
+    updateSummary();
+    const available=publishedBankInventory.filter(record=>!record.error).length;
+    const missing=publishedBankInventory.filter(record=>record.error);
+    const message=publishedQuestionTotal.toLocaleString()+" questions counted across "+available+" available primary banks."+
+      (missing.length?" Unavailable bank file(s): "+missing.map(record=>record.path+" ("+record.error+")").join(", ")+".":"");
+    const status=$("questionBankInventoryStatus");
+    if(status){status.textContent=message;status.className="admin-status"+(missing.length?"":" success");}
   }
   function setAccountStatus(message,type=""){setStatus("adminAuthStatus",message,type);}
   function isAdminAuthenticated(){return !!adminIdentity&&adminIdentity.role==="admin"&&window.C10Api&&window.C10Api.isAuthenticated();}
@@ -891,7 +952,7 @@
         event.preventDefault();event.returnValue="";
       }
     });
-    loadClasses();loadManifest();loadBank();renderStudents();renderKnowledgeTable();renderPendingResources();renderPendingAssets();updateSummary();
+    loadClasses();loadManifest();loadBank();loadPublishedQuestionSummary();renderStudents();renderKnowledgeTable();renderPendingResources();renderPendingAssets();updateSummary();
   }
   init();
 })();
