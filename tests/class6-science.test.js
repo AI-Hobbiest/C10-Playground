@@ -53,7 +53,7 @@ for(const chapter of mathBank){
   }
 }
 const catalog=JSON.parse(fs.readFileSync("data/classes.json","utf8"));
-assert.deepEqual(catalog.classes.find(row=>row.classId==="6").subjects,["science","mathematics","english","social-science","mathematics-sof"],"Class 6 includes CBSE subjects plus the separate Mathematics - SOF subject");
+assert.deepEqual(catalog.classes.find(row=>row.classId==="6").subjects,["science","mathematics","english","social-science","mathematics-sof","science-sof"],"Class 6 includes CBSE subjects plus separate SOF Mathematics and Science subjects");
 assert.deepEqual(catalog.classes.find(row=>row.classId==="10").subjects,["science","mathematics","english","social-science","hindi"],"Class 10 subjects remain unchanged");
 const context={window:{}};context.globalThis=context;vm.createContext(context);
 vm.runInContext(fs.readFileSync("js/question-bank.js","utf8"),context,{filename:"js/question-bank.js"});
@@ -98,7 +98,7 @@ for(const question of questions)assert.ok(question.options.includes(question.opt
 const engine=fs.readFileSync("js/quiz-engine.js","utf8");
 assert.ok(engine.includes('const bankId = classId === "10" ? subject : "class-" + classId + "-" + subject'),"non-Class-10 learners use class-prefixed question-bank files");
 assert.ok(engine.includes('"3":["mathematics"]'),"Class 3 only exposes its published Mathematics bank");
-assert.ok(engine.includes('"6":["science","mathematics","mathematics-sof","english","social-science"]'),"Class 6 subject banks stay explicitly mapped including Mathematics - SOF");
+assert.ok(engine.includes('"6":["science","science-sof","mathematics","mathematics-sof","english","social-science"]'),"Class 6 subject banks stay explicitly mapped including Mathematics - SOF");
 assert.ok(engine.includes('if(!(CLASS_SUBJECTS[classId]||[]).includes(subject))'),"unpublished class-subject combinations are blocked");
 assert.ok(engine.includes('sessionStorage.getItem("c10playground_static_student_v1")'),"quiz engine reads the same static student session as the navigation");
 assert.ok(engine.includes('recordId:bankId'),"progress and attempts are isolated by class-specific bank");
@@ -124,6 +124,27 @@ const normalizedSof=context.window.C10QuestionBank.normalize(sofBank,"class-6-ma
 assert.equal(normalizedSof.flatMap(chapter=>chapter.questions).length,100,"SOF bank normalizes through shared engine");
 assert.equal(new Set(normalizedSof.flatMap(chapter=>chapter.questions).map(question=>question.questionKey)).size,100,"SOF question keys are unique");
 assert.ok(engine.includes('"mathematics-sof": { title:"Mathematics - SOF"'),"SOF has its own named subject entry");
+
+
+const sofScienceBank=JSON.parse(fs.readFileSync("data/class-6-science-sof.json","utf8"));
+assert.equal(sofScienceBank.length,10,"Class 6 SOF NSO bank has ten topic sets");
+assert.equal(sofScienceBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),100,"Class 6 SOF NSO bank contains 100 original practice MCQs");
+const sofScienceIds=new Set(),sofSciencePrompts=new Set();
+for(const chapter of sofScienceBank){
+  assert.ok(chapter.title&&chapter.questions.length===10,"each SOF Science topic has ten questions");
+  for(const question of chapter.questions){
+    assert.ok(question.id&&question.question&&question.explanation,"SOF Science question has ID, prompt and explanation");
+    assert.ok(!sofScienceIds.has(question.id),"SOF Science question IDs are unique");sofScienceIds.add(question.id);
+    assert.equal(question.options.length,4,"SOF Science MCQs have four options");
+    assert.equal(new Set(question.options).size,4,"SOF Science options are distinct");
+    assert.ok(Number.isInteger(question.answer)&&question.answer>=0&&question.answer<4,"SOF Science answer index is valid");
+    assert.ok(!sofSciencePrompts.has(question.question),"SOF Science prompts are unique");sofSciencePrompts.add(question.question);
+  }
+}
+const normalizedSofScience=context.window.C10QuestionBank.normalize(sofScienceBank,"class-6-science-sof");
+assert.equal(normalizedSofScience.flatMap(chapter=>chapter.questions).length,100,"SOF Science bank normalizes through shared engine");
+assert.equal(new Set(normalizedSofScience.flatMap(chapter=>chapter.questions).map(question=>question.questionKey)).size,100,"SOF Science question keys are unique");
+assert.ok(engine.includes('"science-sof": { title:"Science - SOF"'),"SOF Science has its own named subject entry");
 
 const languageFiller = /For a language note connected|correct plural of friend|the chapter’s main idea/i;
 assert.equal(englishBank.some(chapter=>chapter.questions.some(question=>languageFiller.test(question.question))),false,"Class 6 English should not contain generic repeated grammar filler");
