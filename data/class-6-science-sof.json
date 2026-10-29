@@ -133,6 +133,526 @@
         "answer": 3,
         "explanation": "Tables make patterns and comparisons easier to identify.",
         "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq101",
+        "question": "Which instrument measures 2 cm of length? (practice case 2)",
+        "options": [
+          "Balance",
+          "Thermometer",
+          "Stopwatch",
+          "Ruler"
+        ],
+        "answer": 3,
+        "explanation": "A ruler measures length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq102",
+        "question": "A student repeats a measurement 3 times. What improves when readings are consistent? (practice case 3)",
+        "options": [
+          "Mass",
+          "Temperature",
+          "Reliability",
+          "Colour"
+        ],
+        "answer": 2,
+        "explanation": "Repeated consistent readings improve reliability.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq103",
+        "question": "A test changes light exposure from 4 to 5 hours. What is the independent variable? (practice case 4)",
+        "options": [
+          "The conclusion",
+          "Light exposure",
+          "Final plant height",
+          "The ruler"
+        ],
+        "answer": 1,
+        "explanation": "The independent variable is the factor deliberately changed.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq104",
+        "question": "A sample has a mass of 25 g. Which quantity is measured? (practice case 5)",
+        "options": [
+          "Mass",
+          "Length",
+          "Time",
+          "Temperature"
+        ],
+        "answer": 0,
+        "explanation": "Grams are units of mass.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq105",
+        "question": "Why should a fair test change one factor at a time? (practice case 6)",
+        "options": [
+          "To guarantee the expected result",
+          "To avoid recording data",
+          "To change all variables",
+          "To identify which factor affects the result"
+        ],
+        "answer": 3,
+        "explanation": "Controlling other factors helps identify the effect of the variable being tested.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq106",
+        "question": "A student records 7, 8, 8 and 9 cm. Which value occurs most often? (practice case 7)",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "8 occurs twice; the others occur once.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq107",
+        "question": "Which is a direct observation of a plant measured at 8 cm? (practice case 8)",
+        "options": [
+          "The plant wants more light",
+          "The plant is  8 cm tall",
+          "The plant is certainly thirsty",
+          "The soil is definitely poor"
+        ],
+        "answer": 1,
+        "explanation": "An observation records something seen or measured, not an untested cause.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq108",
+        "question": "A prediction about growth after 9 days should be checked by... (practice case 9)",
+        "options": [
+          "collecting evidence in a controlled experiment",
+          "accepting it without testing",
+          "changing every condition at once",
+          "discarding unexpected results"
+        ],
+        "answer": 0,
+        "explanation": "Predictions are tested by collecting evidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq109",
+        "question": "Which instrument measures 10 cm of length? (practice case 10)",
+        "options": [
+          "Balance",
+          "Thermometer",
+          "Stopwatch",
+          "Ruler"
+        ],
+        "answer": 3,
+        "explanation": "A ruler measures length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq110",
+        "question": "A student repeats a measurement 11 times. What improves when readings are consistent? (practice case 11)",
+        "options": [
+          "Mass",
+          "Temperature",
+          "Reliability",
+          "Colour"
+        ],
+        "answer": 2,
+        "explanation": "Repeated consistent readings improve reliability.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq111",
+        "question": "A test changes light exposure from 12 to 13 hours. What is the independent variable? (practice case 12)",
+        "options": [
+          "The conclusion",
+          "Light exposure",
+          "Final plant height",
+          "The ruler"
+        ],
+        "answer": 1,
+        "explanation": "The independent variable is the factor deliberately changed.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq112",
+        "question": "A sample has a mass of 65 g. Which quantity is measured? (practice case 13)",
+        "options": [
+          "Mass",
+          "Length",
+          "Time",
+          "Temperature"
+        ],
+        "answer": 0,
+        "explanation": "Grams are units of mass.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq113",
+        "question": "Why should a fair test change one factor at a time? (practice case 14)",
+        "options": [
+          "To guarantee the expected result",
+          "To avoid recording data",
+          "To change all variables",
+          "To identify which factor affects the result"
+        ],
+        "answer": 3,
+        "explanation": "Controlling other factors helps identify the effect of the variable being tested.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq114",
+        "question": "A student records 15, 16, 16 and 17 cm. Which value occurs most often? (practice case 15)",
+        "options": [
+          "17",
+          "18",
+          "16",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "16 occurs twice; the others occur once.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq115",
+        "question": "Which is a direct observation of a plant measured at 16 cm? (practice case 16)",
+        "options": [
+          "The plant wants more light",
+          "The plant is  16 cm tall",
+          "The plant is certainly thirsty",
+          "The soil is definitely poor"
+        ],
+        "answer": 1,
+        "explanation": "An observation records something seen or measured, not an untested cause.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq116",
+        "question": "A prediction about growth after 17 days should be checked by... (practice case 17)",
+        "options": [
+          "collecting evidence in a controlled experiment",
+          "accepting it without testing",
+          "changing every condition at once",
+          "discarding unexpected results"
+        ],
+        "answer": 0,
+        "explanation": "Predictions are tested by collecting evidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq117",
+        "question": "Which instrument measures 18 cm of length? (practice case 18)",
+        "options": [
+          "Balance",
+          "Thermometer",
+          "Stopwatch",
+          "Ruler"
+        ],
+        "answer": 3,
+        "explanation": "A ruler measures length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq118",
+        "question": "A student repeats a measurement 19 times. What improves when readings are consistent? (practice case 19)",
+        "options": [
+          "Mass",
+          "Temperature",
+          "Reliability",
+          "Colour"
+        ],
+        "answer": 2,
+        "explanation": "Repeated consistent readings improve reliability.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq119",
+        "question": "A test changes light exposure from 20 to 21 hours. What is the independent variable? (practice case 20)",
+        "options": [
+          "The conclusion",
+          "Light exposure",
+          "Final plant height",
+          "The ruler"
+        ],
+        "answer": 1,
+        "explanation": "The independent variable is the factor deliberately changed.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq120",
+        "question": "A sample has a mass of 105 g. Which quantity is measured? (practice case 21)",
+        "options": [
+          "Mass",
+          "Length",
+          "Time",
+          "Temperature"
+        ],
+        "answer": 0,
+        "explanation": "Grams are units of mass.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq121",
+        "question": "Why should a fair test change one factor at a time? (practice case 22)",
+        "options": [
+          "To guarantee the expected result",
+          "To avoid recording data",
+          "To change all variables",
+          "To identify which factor affects the result"
+        ],
+        "answer": 3,
+        "explanation": "Controlling other factors helps identify the effect of the variable being tested.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq122",
+        "question": "A student records 23, 24, 24 and 25 cm. Which value occurs most often? (practice case 23)",
+        "options": [
+          "25",
+          "26",
+          "24",
+          "23"
+        ],
+        "answer": 2,
+        "explanation": "24 occurs twice; the others occur once.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq123",
+        "question": "Which is a direct observation of a plant measured at 24 cm? (practice case 24)",
+        "options": [
+          "The plant wants more light",
+          "The plant is  24 cm tall",
+          "The plant is certainly thirsty",
+          "The soil is definitely poor"
+        ],
+        "answer": 1,
+        "explanation": "An observation records something seen or measured, not an untested cause.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq124",
+        "question": "A prediction about growth after 25 days should be checked by... (practice case 25)",
+        "options": [
+          "collecting evidence in a controlled experiment",
+          "accepting it without testing",
+          "changing every condition at once",
+          "discarding unexpected results"
+        ],
+        "answer": 0,
+        "explanation": "Predictions are tested by collecting evidence.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq125",
+        "question": "Which instrument measures 26 cm of length? (practice case 26)",
+        "options": [
+          "Balance",
+          "Thermometer",
+          "Stopwatch",
+          "Ruler"
+        ],
+        "answer": 3,
+        "explanation": "A ruler measures length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq126",
+        "question": "A student repeats a measurement 27 times. What improves when readings are consistent? (practice case 27)",
+        "options": [
+          "Mass",
+          "Temperature",
+          "Reliability",
+          "Colour"
+        ],
+        "answer": 2,
+        "explanation": "Repeated consistent readings improve reliability.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq127",
+        "question": "A test changes light exposure from 28 to 29 hours. What is the independent variable? (practice case 28)",
+        "options": [
+          "The conclusion",
+          "Light exposure",
+          "Final plant height",
+          "The ruler"
+        ],
+        "answer": 1,
+        "explanation": "The independent variable is the factor deliberately changed.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq128",
+        "question": "A sample has a mass of 145 g. Which quantity is measured? (practice case 29)",
+        "options": [
+          "Mass",
+          "Length",
+          "Time",
+          "Temperature"
+        ],
+        "answer": 0,
+        "explanation": "Grams are units of mass.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq129",
+        "question": "Why should a fair test change one factor at a time? (practice case 30)",
+        "options": [
+          "To guarantee the expected result",
+          "To avoid recording data",
+          "To change all variables",
+          "To identify which factor affects the result"
+        ],
+        "answer": 3,
+        "explanation": "Controlling other factors helps identify the effect of the variable being tested.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq130",
+        "question": "A student records 31, 32, 32 and 33 cm. Which value occurs most often? (practice case 31)",
+        "options": [
+          "33",
+          "34",
+          "32",
+          "31"
+        ],
+        "answer": 2,
+        "explanation": "32 occurs twice; the others occur once.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq131",
+        "question": "Which is a direct observation of a plant measured at 32 cm? (practice case 32)",
+        "options": [
+          "The plant wants more light",
+          "The plant is  32 cm tall",
+          "The plant is certainly thirsty",
+          "The soil is definitely poor"
+        ],
+        "answer": 1,
+        "explanation": "An observation records something seen or measured, not an untested cause.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq132",
+        "question": "A prediction about growth after 33 days should be checked by... (practice case 33)",
+        "options": [
+          "collecting evidence in a controlled experiment",
+          "accepting it without testing",
+          "changing every condition at once",
+          "discarding unexpected results"
+        ],
+        "answer": 0,
+        "explanation": "Predictions are tested by collecting evidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq133",
+        "question": "Which instrument measures 34 cm of length? (practice case 34)",
+        "options": [
+          "Balance",
+          "Thermometer",
+          "Stopwatch",
+          "Ruler"
+        ],
+        "answer": 3,
+        "explanation": "A ruler measures length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq134",
+        "question": "A student repeats a measurement 35 times. What improves when readings are consistent? (practice case 35)",
+        "options": [
+          "Mass",
+          "Temperature",
+          "Reliability",
+          "Colour"
+        ],
+        "answer": 2,
+        "explanation": "Repeated consistent readings improve reliability.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq135",
+        "question": "A test changes light exposure from 36 to 37 hours. What is the independent variable? (practice case 36)",
+        "options": [
+          "The conclusion",
+          "Light exposure",
+          "Final plant height",
+          "The ruler"
+        ],
+        "answer": 1,
+        "explanation": "The independent variable is the factor deliberately changed.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq136",
+        "question": "A sample has a mass of 185 g. Which quantity is measured? (practice case 37)",
+        "options": [
+          "Mass",
+          "Length",
+          "Time",
+          "Temperature"
+        ],
+        "answer": 0,
+        "explanation": "Grams are units of mass.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq137",
+        "question": "Why should a fair test change one factor at a time? (practice case 38)",
+        "options": [
+          "To guarantee the expected result",
+          "To avoid recording data",
+          "To change all variables",
+          "To identify which factor affects the result"
+        ],
+        "answer": 3,
+        "explanation": "Controlling other factors helps identify the effect of the variable being tested.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq138",
+        "question": "A student records 39, 40, 40 and 41 cm. Which value occurs most often? (practice case 39)",
+        "options": [
+          "41",
+          "42",
+          "40",
+          "39"
+        ],
+        "answer": 2,
+        "explanation": "40 occurs twice; the others occur once.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq139",
+        "question": "Which is a direct observation of a plant measured at 40 cm? (practice case 40)",
+        "options": [
+          "The plant wants more light",
+          "The plant is  40 cm tall",
+          "The plant is certainly thirsty",
+          "The soil is definitely poor"
+        ],
+        "answer": 1,
+        "explanation": "An observation records something seen or measured, not an untested cause.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq140",
+        "question": "A prediction about growth after 41 days should be checked by... (practice case 41)",
+        "options": [
+          "collecting evidence in a controlled experiment",
+          "accepting it without testing",
+          "changing every condition at once",
+          "discarding unexpected results"
+        ],
+        "answer": 0,
+        "explanation": "Predictions are tested by collecting evidence.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -270,6 +790,526 @@
         "answer": 0,
         "explanation": "Photosynthesis requires light, water and carbon dioxide; chlorophyll captures light energy.",
         "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq141",
+        "question": "Which plant part absorbs water and minerals from soil? (practice case 2)",
+        "options": [
+          "Flowers",
+          "Leaves",
+          "Fruits",
+          "Roots"
+        ],
+        "answer": 3,
+        "explanation": "Roots absorb water and mineral nutrients.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq142",
+        "question": "A green plant receives 3 hours of light. Which process uses light energy to make sugars? (practice case 3)",
+        "options": [
+          "Filtration",
+          "Condensation",
+          "Photosynthesis",
+          "Digestion"
+        ],
+        "answer": 2,
+        "explanation": "Photosynthesis uses light energy to make sugars.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq143",
+        "question": "Which gas do green plants take in for photosynthesis? (practice case 4)",
+        "options": [
+          "Hydrogen only",
+          "Carbon dioxide",
+          "Helium",
+          "Neon"
+        ],
+        "answer": 1,
+        "explanation": "Carbon dioxide is used in photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq144",
+        "question": "What is the loss of water vapour from leaves called? (practice case 5)",
+        "options": [
+          "Transpiration",
+          "Pollination",
+          "Germination",
+          "Sedimentation"
+        ],
+        "answer": 0,
+        "explanation": "Transpiration is water loss as vapour from plant parts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq145",
+        "question": "Which process transfers pollen to a flower's stigma? (practice case 6)",
+        "options": [
+          "Photosynthesis",
+          "Evaporation",
+          "Respiration",
+          "Pollination"
+        ],
+        "answer": 3,
+        "explanation": "Pollination is the transfer of pollen to the stigma.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq146",
+        "question": "A seed has water, air and suitable warmth at 22°C. What can many seeds do first? (practice case 7)",
+        "options": [
+          "Photosynthesise before a root appears",
+          "Grow without absorbing water",
+          "Germinate using stored food",
+          "Produce flowers immediately"
+        ],
+        "answer": 2,
+        "explanation": "Many seeds use stored food during early germination.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq147",
+        "question": "Why are many leaves broad and flat? (practice case 8)",
+        "options": [
+          "To absorb minerals from rocks",
+          "To capture more light",
+          "To remove the need for roots",
+          "To prevent all water loss"
+        ],
+        "answer": 1,
+        "explanation": "Broad leaves can capture more light for photosynthesis.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq148",
+        "question": "Which plant structure mainly transports water between roots and leaves? (practice case 9)",
+        "options": [
+          "Stem",
+          "Petal",
+          "Seed coat",
+          "Fruit skin"
+        ],
+        "answer": 0,
+        "explanation": "The stem transports water and supports the plant.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq149",
+        "question": "Which plant part absorbs water and minerals from soil? (practice case 10)",
+        "options": [
+          "Flowers",
+          "Leaves",
+          "Fruits",
+          "Roots"
+        ],
+        "answer": 3,
+        "explanation": "Roots absorb water and mineral nutrients.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq150",
+        "question": "A green plant receives 11 hours of light. Which process uses light energy to make sugars? (practice case 11)",
+        "options": [
+          "Filtration",
+          "Condensation",
+          "Photosynthesis",
+          "Digestion"
+        ],
+        "answer": 2,
+        "explanation": "Photosynthesis uses light energy to make sugars.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq151",
+        "question": "Which gas do green plants take in for photosynthesis? (practice case 12)",
+        "options": [
+          "Hydrogen only",
+          "Carbon dioxide",
+          "Helium",
+          "Neon"
+        ],
+        "answer": 1,
+        "explanation": "Carbon dioxide is used in photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq152",
+        "question": "What is the loss of water vapour from leaves called? (practice case 13)",
+        "options": [
+          "Transpiration",
+          "Pollination",
+          "Germination",
+          "Sedimentation"
+        ],
+        "answer": 0,
+        "explanation": "Transpiration is water loss as vapour from plant parts.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq153",
+        "question": "Which process transfers pollen to a flower's stigma? (practice case 14)",
+        "options": [
+          "Photosynthesis",
+          "Evaporation",
+          "Respiration",
+          "Pollination"
+        ],
+        "answer": 3,
+        "explanation": "Pollination is the transfer of pollen to the stigma.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq154",
+        "question": "A seed has water, air and suitable warmth at 30°C. What can many seeds do first? (practice case 15)",
+        "options": [
+          "Photosynthesise before a root appears",
+          "Grow without absorbing water",
+          "Germinate using stored food",
+          "Produce flowers immediately"
+        ],
+        "answer": 2,
+        "explanation": "Many seeds use stored food during early germination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq155",
+        "question": "Why are many leaves broad and flat? (practice case 16)",
+        "options": [
+          "To absorb minerals from rocks",
+          "To capture more light",
+          "To remove the need for roots",
+          "To prevent all water loss"
+        ],
+        "answer": 1,
+        "explanation": "Broad leaves can capture more light for photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq156",
+        "question": "Which plant structure mainly transports water between roots and leaves? (practice case 17)",
+        "options": [
+          "Stem",
+          "Petal",
+          "Seed coat",
+          "Fruit skin"
+        ],
+        "answer": 0,
+        "explanation": "The stem transports water and supports the plant.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq157",
+        "question": "Which plant part absorbs water and minerals from soil? (practice case 18)",
+        "options": [
+          "Flowers",
+          "Leaves",
+          "Fruits",
+          "Roots"
+        ],
+        "answer": 3,
+        "explanation": "Roots absorb water and mineral nutrients.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq158",
+        "question": "A green plant receives 19 hours of light. Which process uses light energy to make sugars? (practice case 19)",
+        "options": [
+          "Filtration",
+          "Condensation",
+          "Photosynthesis",
+          "Digestion"
+        ],
+        "answer": 2,
+        "explanation": "Photosynthesis uses light energy to make sugars.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq159",
+        "question": "Which gas do green plants take in for photosynthesis? (practice case 20)",
+        "options": [
+          "Hydrogen only",
+          "Carbon dioxide",
+          "Helium",
+          "Neon"
+        ],
+        "answer": 1,
+        "explanation": "Carbon dioxide is used in photosynthesis.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq160",
+        "question": "What is the loss of water vapour from leaves called? (practice case 21)",
+        "options": [
+          "Transpiration",
+          "Pollination",
+          "Germination",
+          "Sedimentation"
+        ],
+        "answer": 0,
+        "explanation": "Transpiration is water loss as vapour from plant parts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq161",
+        "question": "Which process transfers pollen to a flower's stigma? (practice case 22)",
+        "options": [
+          "Photosynthesis",
+          "Evaporation",
+          "Respiration",
+          "Pollination"
+        ],
+        "answer": 3,
+        "explanation": "Pollination is the transfer of pollen to the stigma.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq162",
+        "question": "A seed has water, air and suitable warmth at 38°C. What can many seeds do first? (practice case 23)",
+        "options": [
+          "Photosynthesise before a root appears",
+          "Grow without absorbing water",
+          "Germinate using stored food",
+          "Produce flowers immediately"
+        ],
+        "answer": 2,
+        "explanation": "Many seeds use stored food during early germination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq163",
+        "question": "Why are many leaves broad and flat? (practice case 24)",
+        "options": [
+          "To absorb minerals from rocks",
+          "To capture more light",
+          "To remove the need for roots",
+          "To prevent all water loss"
+        ],
+        "answer": 1,
+        "explanation": "Broad leaves can capture more light for photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq164",
+        "question": "Which plant structure mainly transports water between roots and leaves? (practice case 25)",
+        "options": [
+          "Stem",
+          "Petal",
+          "Seed coat",
+          "Fruit skin"
+        ],
+        "answer": 0,
+        "explanation": "The stem transports water and supports the plant.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq165",
+        "question": "Which plant part absorbs water and minerals from soil? (practice case 26)",
+        "options": [
+          "Flowers",
+          "Leaves",
+          "Fruits",
+          "Roots"
+        ],
+        "answer": 3,
+        "explanation": "Roots absorb water and mineral nutrients.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq166",
+        "question": "A green plant receives 27 hours of light. Which process uses light energy to make sugars? (practice case 27)",
+        "options": [
+          "Filtration",
+          "Condensation",
+          "Photosynthesis",
+          "Digestion"
+        ],
+        "answer": 2,
+        "explanation": "Photosynthesis uses light energy to make sugars.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq167",
+        "question": "Which gas do green plants take in for photosynthesis? (practice case 28)",
+        "options": [
+          "Hydrogen only",
+          "Carbon dioxide",
+          "Helium",
+          "Neon"
+        ],
+        "answer": 1,
+        "explanation": "Carbon dioxide is used in photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq168",
+        "question": "What is the loss of water vapour from leaves called? (practice case 29)",
+        "options": [
+          "Transpiration",
+          "Pollination",
+          "Germination",
+          "Sedimentation"
+        ],
+        "answer": 0,
+        "explanation": "Transpiration is water loss as vapour from plant parts.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq169",
+        "question": "Which process transfers pollen to a flower's stigma? (practice case 30)",
+        "options": [
+          "Photosynthesis",
+          "Evaporation",
+          "Respiration",
+          "Pollination"
+        ],
+        "answer": 3,
+        "explanation": "Pollination is the transfer of pollen to the stigma.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq170",
+        "question": "A seed has water, air and suitable warmth at 46°C. What can many seeds do first? (practice case 31)",
+        "options": [
+          "Photosynthesise before a root appears",
+          "Grow without absorbing water",
+          "Germinate using stored food",
+          "Produce flowers immediately"
+        ],
+        "answer": 2,
+        "explanation": "Many seeds use stored food during early germination.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq171",
+        "question": "Why are many leaves broad and flat? (practice case 32)",
+        "options": [
+          "To absorb minerals from rocks",
+          "To capture more light",
+          "To remove the need for roots",
+          "To prevent all water loss"
+        ],
+        "answer": 1,
+        "explanation": "Broad leaves can capture more light for photosynthesis.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq172",
+        "question": "Which plant structure mainly transports water between roots and leaves? (practice case 33)",
+        "options": [
+          "Stem",
+          "Petal",
+          "Seed coat",
+          "Fruit skin"
+        ],
+        "answer": 0,
+        "explanation": "The stem transports water and supports the plant.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq173",
+        "question": "Which plant part absorbs water and minerals from soil? (practice case 34)",
+        "options": [
+          "Flowers",
+          "Leaves",
+          "Fruits",
+          "Roots"
+        ],
+        "answer": 3,
+        "explanation": "Roots absorb water and mineral nutrients.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq174",
+        "question": "A green plant receives 35 hours of light. Which process uses light energy to make sugars? (practice case 35)",
+        "options": [
+          "Filtration",
+          "Condensation",
+          "Photosynthesis",
+          "Digestion"
+        ],
+        "answer": 2,
+        "explanation": "Photosynthesis uses light energy to make sugars.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq175",
+        "question": "Which gas do green plants take in for photosynthesis? (practice case 36)",
+        "options": [
+          "Hydrogen only",
+          "Carbon dioxide",
+          "Helium",
+          "Neon"
+        ],
+        "answer": 1,
+        "explanation": "Carbon dioxide is used in photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq176",
+        "question": "What is the loss of water vapour from leaves called? (practice case 37)",
+        "options": [
+          "Transpiration",
+          "Pollination",
+          "Germination",
+          "Sedimentation"
+        ],
+        "answer": 0,
+        "explanation": "Transpiration is water loss as vapour from plant parts.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq177",
+        "question": "Which process transfers pollen to a flower's stigma? (practice case 38)",
+        "options": [
+          "Photosynthesis",
+          "Evaporation",
+          "Respiration",
+          "Pollination"
+        ],
+        "answer": 3,
+        "explanation": "Pollination is the transfer of pollen to the stigma.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq178",
+        "question": "A seed has water, air and suitable warmth at 54°C. What can many seeds do first? (practice case 39)",
+        "options": [
+          "Photosynthesise before a root appears",
+          "Grow without absorbing water",
+          "Germinate using stored food",
+          "Produce flowers immediately"
+        ],
+        "answer": 2,
+        "explanation": "Many seeds use stored food during early germination.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq179",
+        "question": "Why are many leaves broad and flat? (practice case 40)",
+        "options": [
+          "To absorb minerals from rocks",
+          "To capture more light",
+          "To remove the need for roots",
+          "To prevent all water loss"
+        ],
+        "answer": 1,
+        "explanation": "Broad leaves can capture more light for photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq180",
+        "question": "Which plant structure mainly transports water between roots and leaves? (practice case 41)",
+        "options": [
+          "Stem",
+          "Petal",
+          "Seed coat",
+          "Fruit skin"
+        ],
+        "answer": 0,
+        "explanation": "The stem transports water and supports the plant.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -407,6 +1447,526 @@
         "answer": 1,
         "explanation": "Mammalian mothers produce milk to nourish their young.",
         "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq181",
+        "question": "Which organ pumps blood around the body? (practice case 2)",
+        "options": [
+          "Lungs",
+          "Stomach",
+          "Brain",
+          "Heart"
+        ],
+        "answer": 3,
+        "explanation": "The heart pumps blood.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq182",
+        "question": "Which organs exchange oxygen and carbon dioxide with the air? (practice case 3)",
+        "options": [
+          "Stomach",
+          "Bones",
+          "Lungs",
+          "Kidneys"
+        ],
+        "answer": 2,
+        "explanation": "The lungs are the main organs of gas exchange.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq183",
+        "question": "Which organ mixes food with digestive juices? (practice case 4)",
+        "options": [
+          "Skull",
+          "Stomach",
+          "Heart",
+          "Lungs"
+        ],
+        "answer": 1,
+        "explanation": "The stomach mixes food with digestive juices.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq184",
+        "question": "Where are most digested nutrients absorbed? (practice case 5)",
+        "options": [
+          "Small intestine",
+          "Trachea",
+          "Heart",
+          "Skull"
+        ],
+        "answer": 0,
+        "explanation": "Most nutrient absorption occurs in the small intestine.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq185",
+        "question": "Which structure protects the brain? (practice case 6)",
+        "options": [
+          "Rib cage",
+          "Pelvis",
+          "Kneecap",
+          "Skull"
+        ],
+        "answer": 3,
+        "explanation": "The skull surrounds and protects the brain.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq186",
+        "question": "A tadpole develops into an adult frog. What is this change called? (practice case 7)",
+        "options": [
+          "Pollination",
+          "Magnetism",
+          "Metamorphosis",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Metamorphosis is a major change in body form during development.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq187",
+        "question": "Which structure helps a fish obtain dissolved oxygen? (practice case 8)",
+        "options": [
+          "Fins alone",
+          "Gills",
+          "Feathers",
+          "Fur"
+        ],
+        "answer": 1,
+        "explanation": "Gills extract dissolved oxygen from water.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq188",
+        "question": "Which feature is characteristic of mammals such as humans and camels? (practice case 9)",
+        "options": [
+          "Females produce milk for their young",
+          "All lay hard-shelled eggs",
+          "All have gills",
+          "All live only in water"
+        ],
+        "answer": 0,
+        "explanation": "Milk production is a defining mammalian characteristic.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq189",
+        "question": "Which organ pumps blood around the body? (practice case 10)",
+        "options": [
+          "Lungs",
+          "Stomach",
+          "Brain",
+          "Heart"
+        ],
+        "answer": 3,
+        "explanation": "The heart pumps blood.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq190",
+        "question": "Which organs exchange oxygen and carbon dioxide with the air? (practice case 11)",
+        "options": [
+          "Stomach",
+          "Bones",
+          "Lungs",
+          "Kidneys"
+        ],
+        "answer": 2,
+        "explanation": "The lungs are the main organs of gas exchange.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq191",
+        "question": "Which organ mixes food with digestive juices? (practice case 12)",
+        "options": [
+          "Skull",
+          "Stomach",
+          "Heart",
+          "Lungs"
+        ],
+        "answer": 1,
+        "explanation": "The stomach mixes food with digestive juices.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq192",
+        "question": "Where are most digested nutrients absorbed? (practice case 13)",
+        "options": [
+          "Small intestine",
+          "Trachea",
+          "Heart",
+          "Skull"
+        ],
+        "answer": 0,
+        "explanation": "Most nutrient absorption occurs in the small intestine.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq193",
+        "question": "Which structure protects the brain? (practice case 14)",
+        "options": [
+          "Rib cage",
+          "Pelvis",
+          "Kneecap",
+          "Skull"
+        ],
+        "answer": 3,
+        "explanation": "The skull surrounds and protects the brain.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq194",
+        "question": "A tadpole develops into an adult frog. What is this change called? (practice case 15)",
+        "options": [
+          "Pollination",
+          "Magnetism",
+          "Metamorphosis",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Metamorphosis is a major change in body form during development.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq195",
+        "question": "Which structure helps a fish obtain dissolved oxygen? (practice case 16)",
+        "options": [
+          "Fins alone",
+          "Gills",
+          "Feathers",
+          "Fur"
+        ],
+        "answer": 1,
+        "explanation": "Gills extract dissolved oxygen from water.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq196",
+        "question": "Which feature is characteristic of mammals such as humans and camels? (practice case 17)",
+        "options": [
+          "Females produce milk for their young",
+          "All lay hard-shelled eggs",
+          "All have gills",
+          "All live only in water"
+        ],
+        "answer": 0,
+        "explanation": "Milk production is a defining mammalian characteristic.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq197",
+        "question": "Which organ pumps blood around the body? (practice case 18)",
+        "options": [
+          "Lungs",
+          "Stomach",
+          "Brain",
+          "Heart"
+        ],
+        "answer": 3,
+        "explanation": "The heart pumps blood.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq198",
+        "question": "Which organs exchange oxygen and carbon dioxide with the air? (practice case 19)",
+        "options": [
+          "Stomach",
+          "Bones",
+          "Lungs",
+          "Kidneys"
+        ],
+        "answer": 2,
+        "explanation": "The lungs are the main organs of gas exchange.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq199",
+        "question": "Which organ mixes food with digestive juices? (practice case 20)",
+        "options": [
+          "Skull",
+          "Stomach",
+          "Heart",
+          "Lungs"
+        ],
+        "answer": 1,
+        "explanation": "The stomach mixes food with digestive juices.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq200",
+        "question": "Where are most digested nutrients absorbed? (practice case 21)",
+        "options": [
+          "Small intestine",
+          "Trachea",
+          "Heart",
+          "Skull"
+        ],
+        "answer": 0,
+        "explanation": "Most nutrient absorption occurs in the small intestine.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq201",
+        "question": "Which structure protects the brain? (practice case 22)",
+        "options": [
+          "Rib cage",
+          "Pelvis",
+          "Kneecap",
+          "Skull"
+        ],
+        "answer": 3,
+        "explanation": "The skull surrounds and protects the brain.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq202",
+        "question": "A tadpole develops into an adult frog. What is this change called? (practice case 23)",
+        "options": [
+          "Pollination",
+          "Magnetism",
+          "Metamorphosis",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Metamorphosis is a major change in body form during development.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq203",
+        "question": "Which structure helps a fish obtain dissolved oxygen? (practice case 24)",
+        "options": [
+          "Fins alone",
+          "Gills",
+          "Feathers",
+          "Fur"
+        ],
+        "answer": 1,
+        "explanation": "Gills extract dissolved oxygen from water.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq204",
+        "question": "Which feature is characteristic of mammals such as humans and camels? (practice case 25)",
+        "options": [
+          "Females produce milk for their young",
+          "All lay hard-shelled eggs",
+          "All have gills",
+          "All live only in water"
+        ],
+        "answer": 0,
+        "explanation": "Milk production is a defining mammalian characteristic.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq205",
+        "question": "Which organ pumps blood around the body? (practice case 26)",
+        "options": [
+          "Lungs",
+          "Stomach",
+          "Brain",
+          "Heart"
+        ],
+        "answer": 3,
+        "explanation": "The heart pumps blood.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq206",
+        "question": "Which organs exchange oxygen and carbon dioxide with the air? (practice case 27)",
+        "options": [
+          "Stomach",
+          "Bones",
+          "Lungs",
+          "Kidneys"
+        ],
+        "answer": 2,
+        "explanation": "The lungs are the main organs of gas exchange.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq207",
+        "question": "Which organ mixes food with digestive juices? (practice case 28)",
+        "options": [
+          "Skull",
+          "Stomach",
+          "Heart",
+          "Lungs"
+        ],
+        "answer": 1,
+        "explanation": "The stomach mixes food with digestive juices.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq208",
+        "question": "Where are most digested nutrients absorbed? (practice case 29)",
+        "options": [
+          "Small intestine",
+          "Trachea",
+          "Heart",
+          "Skull"
+        ],
+        "answer": 0,
+        "explanation": "Most nutrient absorption occurs in the small intestine.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq209",
+        "question": "Which structure protects the brain? (practice case 30)",
+        "options": [
+          "Rib cage",
+          "Pelvis",
+          "Kneecap",
+          "Skull"
+        ],
+        "answer": 3,
+        "explanation": "The skull surrounds and protects the brain.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq210",
+        "question": "A tadpole develops into an adult frog. What is this change called? (practice case 31)",
+        "options": [
+          "Pollination",
+          "Magnetism",
+          "Metamorphosis",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Metamorphosis is a major change in body form during development.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq211",
+        "question": "Which structure helps a fish obtain dissolved oxygen? (practice case 32)",
+        "options": [
+          "Fins alone",
+          "Gills",
+          "Feathers",
+          "Fur"
+        ],
+        "answer": 1,
+        "explanation": "Gills extract dissolved oxygen from water.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq212",
+        "question": "Which feature is characteristic of mammals such as humans and camels? (practice case 33)",
+        "options": [
+          "Females produce milk for their young",
+          "All lay hard-shelled eggs",
+          "All have gills",
+          "All live only in water"
+        ],
+        "answer": 0,
+        "explanation": "Milk production is a defining mammalian characteristic.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq213",
+        "question": "Which organ pumps blood around the body? (practice case 34)",
+        "options": [
+          "Lungs",
+          "Stomach",
+          "Brain",
+          "Heart"
+        ],
+        "answer": 3,
+        "explanation": "The heart pumps blood.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq214",
+        "question": "Which organs exchange oxygen and carbon dioxide with the air? (practice case 35)",
+        "options": [
+          "Stomach",
+          "Bones",
+          "Lungs",
+          "Kidneys"
+        ],
+        "answer": 2,
+        "explanation": "The lungs are the main organs of gas exchange.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq215",
+        "question": "Which organ mixes food with digestive juices? (practice case 36)",
+        "options": [
+          "Skull",
+          "Stomach",
+          "Heart",
+          "Lungs"
+        ],
+        "answer": 1,
+        "explanation": "The stomach mixes food with digestive juices.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq216",
+        "question": "Where are most digested nutrients absorbed? (practice case 37)",
+        "options": [
+          "Small intestine",
+          "Trachea",
+          "Heart",
+          "Skull"
+        ],
+        "answer": 0,
+        "explanation": "Most nutrient absorption occurs in the small intestine.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq217",
+        "question": "Which structure protects the brain? (practice case 38)",
+        "options": [
+          "Rib cage",
+          "Pelvis",
+          "Kneecap",
+          "Skull"
+        ],
+        "answer": 3,
+        "explanation": "The skull surrounds and protects the brain.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq218",
+        "question": "A tadpole develops into an adult frog. What is this change called? (practice case 39)",
+        "options": [
+          "Pollination",
+          "Magnetism",
+          "Metamorphosis",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Metamorphosis is a major change in body form during development.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq219",
+        "question": "Which structure helps a fish obtain dissolved oxygen? (practice case 40)",
+        "options": [
+          "Fins alone",
+          "Gills",
+          "Feathers",
+          "Fur"
+        ],
+        "answer": 1,
+        "explanation": "Gills extract dissolved oxygen from water.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq220",
+        "question": "Which feature is characteristic of mammals such as humans and camels? (practice case 41)",
+        "options": [
+          "Females produce milk for their young",
+          "All lay hard-shelled eggs",
+          "All have gills",
+          "All live only in water"
+        ],
+        "answer": 0,
+        "explanation": "Milk production is a defining mammalian characteristic.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -544,6 +2104,526 @@
         "answer": 2,
         "explanation": "Water is essential for transport, temperature regulation and other body processes.",
         "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq221",
+        "question": "Which nutrient is a major source of energy in rice and bread? (practice case 2)",
+        "options": [
+          "Proteins only",
+          "Fibre only",
+          "Water",
+          "Carbohydrates"
+        ],
+        "answer": 3,
+        "explanation": "Carbohydrates are a major energy source.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq222",
+        "question": "Which nutrient supports growth and tissue repair? (practice case 3)",
+        "options": [
+          "Water only",
+          "Salt only",
+          "Protein",
+          "Fibre"
+        ],
+        "answer": 2,
+        "explanation": "Proteins help build and repair tissues.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq223",
+        "question": "Which food is a commonly useful source of vitamin C? (practice case 4)",
+        "options": [
+          "Plain salt",
+          "Orange",
+          "Table sugar",
+          "Cooking oil"
+        ],
+        "answer": 1,
+        "explanation": "Oranges provide vitamin C.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq224",
+        "question": "Which reagent is commonly used to test food for starch? (practice case 5)",
+        "options": [
+          "Iodine solution",
+          "Limewater",
+          "Salt solution",
+          "Vinegar only"
+        ],
+        "answer": 0,
+        "explanation": "Iodine turns blue-black when starch is present.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq225",
+        "question": "Why is dietary fibre useful? (practice case 6)",
+        "options": [
+          "It replaces all vitamins",
+          "It supplies no physical benefit",
+          "It stops digestion",
+          "It helps food move through the digestive tract"
+        ],
+        "answer": 3,
+        "explanation": "Fibre supports normal bowel movement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq226",
+        "question": "Why should a person eat a varied diet? (practice case 7)",
+        "options": [
+          "Variety removes the need for water",
+          "Only one food can be digested",
+          "Different foods supply different nutrients",
+          "Every food contains every nutrient equally"
+        ],
+        "answer": 2,
+        "explanation": "A varied diet is more likely to provide a range of nutrients.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq227",
+        "question": "Which habit helps prevent food contamination? (practice case 8)",
+        "options": [
+          "Taste spoiled food",
+          "Wash hands and clean utensils",
+          "Leave food uncovered for hours",
+          "Reuse dirty utensils"
+        ],
+        "answer": 1,
+        "explanation": "Hygiene helps prevent food-borne illness.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq228",
+        "question": "Water helps the body mainly by... (practice case 9)",
+        "options": [
+          "transporting substances and regulating temperature",
+          "replacing all nutrients",
+          "building bones alone",
+          "making digestion unnecessary"
+        ],
+        "answer": 0,
+        "explanation": "Water supports transport and temperature regulation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq229",
+        "question": "Which nutrient is a major source of energy in rice and bread? (practice case 10)",
+        "options": [
+          "Proteins only",
+          "Fibre only",
+          "Water",
+          "Carbohydrates"
+        ],
+        "answer": 3,
+        "explanation": "Carbohydrates are a major energy source.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq230",
+        "question": "Which nutrient supports growth and tissue repair? (practice case 11)",
+        "options": [
+          "Water only",
+          "Salt only",
+          "Protein",
+          "Fibre"
+        ],
+        "answer": 2,
+        "explanation": "Proteins help build and repair tissues.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq231",
+        "question": "Which food is a commonly useful source of vitamin C? (practice case 12)",
+        "options": [
+          "Plain salt",
+          "Orange",
+          "Table sugar",
+          "Cooking oil"
+        ],
+        "answer": 1,
+        "explanation": "Oranges provide vitamin C.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq232",
+        "question": "Which reagent is commonly used to test food for starch? (practice case 13)",
+        "options": [
+          "Iodine solution",
+          "Limewater",
+          "Salt solution",
+          "Vinegar only"
+        ],
+        "answer": 0,
+        "explanation": "Iodine turns blue-black when starch is present.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq233",
+        "question": "Why is dietary fibre useful? (practice case 14)",
+        "options": [
+          "It replaces all vitamins",
+          "It supplies no physical benefit",
+          "It stops digestion",
+          "It helps food move through the digestive tract"
+        ],
+        "answer": 3,
+        "explanation": "Fibre supports normal bowel movement.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq234",
+        "question": "Why should a person eat a varied diet? (practice case 15)",
+        "options": [
+          "Variety removes the need for water",
+          "Only one food can be digested",
+          "Different foods supply different nutrients",
+          "Every food contains every nutrient equally"
+        ],
+        "answer": 2,
+        "explanation": "A varied diet is more likely to provide a range of nutrients.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq235",
+        "question": "Which habit helps prevent food contamination? (practice case 16)",
+        "options": [
+          "Taste spoiled food",
+          "Wash hands and clean utensils",
+          "Leave food uncovered for hours",
+          "Reuse dirty utensils"
+        ],
+        "answer": 1,
+        "explanation": "Hygiene helps prevent food-borne illness.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq236",
+        "question": "Water helps the body mainly by... (practice case 17)",
+        "options": [
+          "transporting substances and regulating temperature",
+          "replacing all nutrients",
+          "building bones alone",
+          "making digestion unnecessary"
+        ],
+        "answer": 0,
+        "explanation": "Water supports transport and temperature regulation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq237",
+        "question": "Which nutrient is a major source of energy in rice and bread? (practice case 18)",
+        "options": [
+          "Proteins only",
+          "Fibre only",
+          "Water",
+          "Carbohydrates"
+        ],
+        "answer": 3,
+        "explanation": "Carbohydrates are a major energy source.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq238",
+        "question": "Which nutrient supports growth and tissue repair? (practice case 19)",
+        "options": [
+          "Water only",
+          "Salt only",
+          "Protein",
+          "Fibre"
+        ],
+        "answer": 2,
+        "explanation": "Proteins help build and repair tissues.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq239",
+        "question": "Which food is a commonly useful source of vitamin C? (practice case 20)",
+        "options": [
+          "Plain salt",
+          "Orange",
+          "Table sugar",
+          "Cooking oil"
+        ],
+        "answer": 1,
+        "explanation": "Oranges provide vitamin C.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq240",
+        "question": "Which reagent is commonly used to test food for starch? (practice case 21)",
+        "options": [
+          "Iodine solution",
+          "Limewater",
+          "Salt solution",
+          "Vinegar only"
+        ],
+        "answer": 0,
+        "explanation": "Iodine turns blue-black when starch is present.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq241",
+        "question": "Why is dietary fibre useful? (practice case 22)",
+        "options": [
+          "It replaces all vitamins",
+          "It supplies no physical benefit",
+          "It stops digestion",
+          "It helps food move through the digestive tract"
+        ],
+        "answer": 3,
+        "explanation": "Fibre supports normal bowel movement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq242",
+        "question": "Why should a person eat a varied diet? (practice case 23)",
+        "options": [
+          "Variety removes the need for water",
+          "Only one food can be digested",
+          "Different foods supply different nutrients",
+          "Every food contains every nutrient equally"
+        ],
+        "answer": 2,
+        "explanation": "A varied diet is more likely to provide a range of nutrients.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq243",
+        "question": "Which habit helps prevent food contamination? (practice case 24)",
+        "options": [
+          "Taste spoiled food",
+          "Wash hands and clean utensils",
+          "Leave food uncovered for hours",
+          "Reuse dirty utensils"
+        ],
+        "answer": 1,
+        "explanation": "Hygiene helps prevent food-borne illness.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq244",
+        "question": "Water helps the body mainly by... (practice case 25)",
+        "options": [
+          "transporting substances and regulating temperature",
+          "replacing all nutrients",
+          "building bones alone",
+          "making digestion unnecessary"
+        ],
+        "answer": 0,
+        "explanation": "Water supports transport and temperature regulation.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq245",
+        "question": "Which nutrient is a major source of energy in rice and bread? (practice case 26)",
+        "options": [
+          "Proteins only",
+          "Fibre only",
+          "Water",
+          "Carbohydrates"
+        ],
+        "answer": 3,
+        "explanation": "Carbohydrates are a major energy source.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq246",
+        "question": "Which nutrient supports growth and tissue repair? (practice case 27)",
+        "options": [
+          "Water only",
+          "Salt only",
+          "Protein",
+          "Fibre"
+        ],
+        "answer": 2,
+        "explanation": "Proteins help build and repair tissues.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq247",
+        "question": "Which food is a commonly useful source of vitamin C? (practice case 28)",
+        "options": [
+          "Plain salt",
+          "Orange",
+          "Table sugar",
+          "Cooking oil"
+        ],
+        "answer": 1,
+        "explanation": "Oranges provide vitamin C.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq248",
+        "question": "Which reagent is commonly used to test food for starch? (practice case 29)",
+        "options": [
+          "Iodine solution",
+          "Limewater",
+          "Salt solution",
+          "Vinegar only"
+        ],
+        "answer": 0,
+        "explanation": "Iodine turns blue-black when starch is present.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq249",
+        "question": "Why is dietary fibre useful? (practice case 30)",
+        "options": [
+          "It replaces all vitamins",
+          "It supplies no physical benefit",
+          "It stops digestion",
+          "It helps food move through the digestive tract"
+        ],
+        "answer": 3,
+        "explanation": "Fibre supports normal bowel movement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq250",
+        "question": "Why should a person eat a varied diet? (practice case 31)",
+        "options": [
+          "Variety removes the need for water",
+          "Only one food can be digested",
+          "Different foods supply different nutrients",
+          "Every food contains every nutrient equally"
+        ],
+        "answer": 2,
+        "explanation": "A varied diet is more likely to provide a range of nutrients.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq251",
+        "question": "Which habit helps prevent food contamination? (practice case 32)",
+        "options": [
+          "Taste spoiled food",
+          "Wash hands and clean utensils",
+          "Leave food uncovered for hours",
+          "Reuse dirty utensils"
+        ],
+        "answer": 1,
+        "explanation": "Hygiene helps prevent food-borne illness.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq252",
+        "question": "Water helps the body mainly by... (practice case 33)",
+        "options": [
+          "transporting substances and regulating temperature",
+          "replacing all nutrients",
+          "building bones alone",
+          "making digestion unnecessary"
+        ],
+        "answer": 0,
+        "explanation": "Water supports transport and temperature regulation.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq253",
+        "question": "Which nutrient is a major source of energy in rice and bread? (practice case 34)",
+        "options": [
+          "Proteins only",
+          "Fibre only",
+          "Water",
+          "Carbohydrates"
+        ],
+        "answer": 3,
+        "explanation": "Carbohydrates are a major energy source.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq254",
+        "question": "Which nutrient supports growth and tissue repair? (practice case 35)",
+        "options": [
+          "Water only",
+          "Salt only",
+          "Protein",
+          "Fibre"
+        ],
+        "answer": 2,
+        "explanation": "Proteins help build and repair tissues.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq255",
+        "question": "Which food is a commonly useful source of vitamin C? (practice case 36)",
+        "options": [
+          "Plain salt",
+          "Orange",
+          "Table sugar",
+          "Cooking oil"
+        ],
+        "answer": 1,
+        "explanation": "Oranges provide vitamin C.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq256",
+        "question": "Which reagent is commonly used to test food for starch? (practice case 37)",
+        "options": [
+          "Iodine solution",
+          "Limewater",
+          "Salt solution",
+          "Vinegar only"
+        ],
+        "answer": 0,
+        "explanation": "Iodine turns blue-black when starch is present.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq257",
+        "question": "Why is dietary fibre useful? (practice case 38)",
+        "options": [
+          "It replaces all vitamins",
+          "It supplies no physical benefit",
+          "It stops digestion",
+          "It helps food move through the digestive tract"
+        ],
+        "answer": 3,
+        "explanation": "Fibre supports normal bowel movement.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq258",
+        "question": "Why should a person eat a varied diet? (practice case 39)",
+        "options": [
+          "Variety removes the need for water",
+          "Only one food can be digested",
+          "Different foods supply different nutrients",
+          "Every food contains every nutrient equally"
+        ],
+        "answer": 2,
+        "explanation": "A varied diet is more likely to provide a range of nutrients.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq259",
+        "question": "Which habit helps prevent food contamination? (practice case 40)",
+        "options": [
+          "Taste spoiled food",
+          "Wash hands and clean utensils",
+          "Leave food uncovered for hours",
+          "Reuse dirty utensils"
+        ],
+        "answer": 1,
+        "explanation": "Hygiene helps prevent food-borne illness.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq260",
+        "question": "Water helps the body mainly by... (practice case 41)",
+        "options": [
+          "transporting substances and regulating temperature",
+          "replacing all nutrients",
+          "building bones alone",
+          "making digestion unnecessary"
+        ],
+        "answer": 0,
+        "explanation": "Water supports transport and temperature regulation.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -680,6 +2760,526 @@
         ],
         "answer": 3,
         "explanation": "A strainer or filter separates solid tea leaves from liquid tea.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq261",
+        "question": "Which method separates tea leaves from tea? (practice case 2)",
+        "options": [
+          "Magnetic separation",
+          "Evaporation only",
+          "Sieving with a large mesh",
+          "Filtration"
+        ],
+        "answer": 3,
+        "explanation": "A strainer filters solid tea leaves from liquid tea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq262",
+        "question": "Which method can separate iron filings from sand? (practice case 3)",
+        "options": [
+          "Sieving only",
+          "Hand-warming",
+          "Magnetic separation",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Iron is attracted to a magnet; sand is not.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq263",
+        "question": "Salt dissolved uniformly in water forms what? (practice case 4)",
+        "options": [
+          "An insoluble residue",
+          "A solution",
+          "A pure element",
+          "A gas"
+        ],
+        "answer": 1,
+        "explanation": "A solution is a uniform mixture of solute and solvent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq264",
+        "question": "Why does filtration separate sand from water? (practice case 5)",
+        "options": [
+          "The filter traps sand while water passes through",
+          "Sand evaporates first",
+          "Water is magnetic",
+          "The filter changes sand into salt"
+        ],
+        "answer": 0,
+        "explanation": "Filtration retains insoluble particles while liquid passes through.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq265",
+        "question": "What remains when salt water is evaporated completely? (practice case 6)",
+        "options": [
+          "Only oxygen",
+          "Iron filings",
+          "Fresh water",
+          "Salt"
+        ],
+        "answer": 3,
+        "explanation": "Water evaporates and dissolved salt remains.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq266",
+        "question": "Which tool separates pebbles from fine sand? (practice case 7)",
+        "options": [
+          "Stopwatch",
+          "Balance only",
+          "Sieve",
+          "Thermometer"
+        ],
+        "answer": 2,
+        "explanation": "Sieving separates solids by particle size.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq267",
+        "question": "Mud settles at the bottom of water left still for 8 minutes. What is this called? (practice case 8)",
+        "options": [
+          "Magnetisation",
+          "Sedimentation",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 1,
+        "explanation": "Sedimentation is the settling of suspended particles.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq268",
+        "question": "Pouring clear liquid away from settled mud is called... (practice case 9)",
+        "options": [
+          "Decantation",
+          "Churning",
+          "Magnetic separation",
+          "Combustion"
+        ],
+        "answer": 0,
+        "explanation": "Decantation pours off liquid without disturbing settled solids.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq269",
+        "question": "Which method separates tea leaves from tea? (practice case 10)",
+        "options": [
+          "Magnetic separation",
+          "Evaporation only",
+          "Sieving with a large mesh",
+          "Filtration"
+        ],
+        "answer": 3,
+        "explanation": "A strainer filters solid tea leaves from liquid tea.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq270",
+        "question": "Which method can separate iron filings from sand? (practice case 11)",
+        "options": [
+          "Sieving only",
+          "Hand-warming",
+          "Magnetic separation",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Iron is attracted to a magnet; sand is not.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq271",
+        "question": "Salt dissolved uniformly in water forms what? (practice case 12)",
+        "options": [
+          "An insoluble residue",
+          "A solution",
+          "A pure element",
+          "A gas"
+        ],
+        "answer": 1,
+        "explanation": "A solution is a uniform mixture of solute and solvent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq272",
+        "question": "Why does filtration separate sand from water? (practice case 13)",
+        "options": [
+          "The filter traps sand while water passes through",
+          "Sand evaporates first",
+          "Water is magnetic",
+          "The filter changes sand into salt"
+        ],
+        "answer": 0,
+        "explanation": "Filtration retains insoluble particles while liquid passes through.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq273",
+        "question": "What remains when salt water is evaporated completely? (practice case 14)",
+        "options": [
+          "Only oxygen",
+          "Iron filings",
+          "Fresh water",
+          "Salt"
+        ],
+        "answer": 3,
+        "explanation": "Water evaporates and dissolved salt remains.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq274",
+        "question": "Which tool separates pebbles from fine sand? (practice case 15)",
+        "options": [
+          "Stopwatch",
+          "Balance only",
+          "Sieve",
+          "Thermometer"
+        ],
+        "answer": 2,
+        "explanation": "Sieving separates solids by particle size.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq275",
+        "question": "Mud settles at the bottom of water left still for 16 minutes. What is this called? (practice case 16)",
+        "options": [
+          "Magnetisation",
+          "Sedimentation",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 1,
+        "explanation": "Sedimentation is the settling of suspended particles.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq276",
+        "question": "Pouring clear liquid away from settled mud is called... (practice case 17)",
+        "options": [
+          "Decantation",
+          "Churning",
+          "Magnetic separation",
+          "Combustion"
+        ],
+        "answer": 0,
+        "explanation": "Decantation pours off liquid without disturbing settled solids.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq277",
+        "question": "Which method separates tea leaves from tea? (practice case 18)",
+        "options": [
+          "Magnetic separation",
+          "Evaporation only",
+          "Sieving with a large mesh",
+          "Filtration"
+        ],
+        "answer": 3,
+        "explanation": "A strainer filters solid tea leaves from liquid tea.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq278",
+        "question": "Which method can separate iron filings from sand? (practice case 19)",
+        "options": [
+          "Sieving only",
+          "Hand-warming",
+          "Magnetic separation",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Iron is attracted to a magnet; sand is not.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq279",
+        "question": "Salt dissolved uniformly in water forms what? (practice case 20)",
+        "options": [
+          "An insoluble residue",
+          "A solution",
+          "A pure element",
+          "A gas"
+        ],
+        "answer": 1,
+        "explanation": "A solution is a uniform mixture of solute and solvent.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq280",
+        "question": "Why does filtration separate sand from water? (practice case 21)",
+        "options": [
+          "The filter traps sand while water passes through",
+          "Sand evaporates first",
+          "Water is magnetic",
+          "The filter changes sand into salt"
+        ],
+        "answer": 0,
+        "explanation": "Filtration retains insoluble particles while liquid passes through.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq281",
+        "question": "What remains when salt water is evaporated completely? (practice case 22)",
+        "options": [
+          "Only oxygen",
+          "Iron filings",
+          "Fresh water",
+          "Salt"
+        ],
+        "answer": 3,
+        "explanation": "Water evaporates and dissolved salt remains.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq282",
+        "question": "Which tool separates pebbles from fine sand? (practice case 23)",
+        "options": [
+          "Stopwatch",
+          "Balance only",
+          "Sieve",
+          "Thermometer"
+        ],
+        "answer": 2,
+        "explanation": "Sieving separates solids by particle size.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq283",
+        "question": "Mud settles at the bottom of water left still for 24 minutes. What is this called? (practice case 24)",
+        "options": [
+          "Magnetisation",
+          "Sedimentation",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 1,
+        "explanation": "Sedimentation is the settling of suspended particles.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq284",
+        "question": "Pouring clear liquid away from settled mud is called... (practice case 25)",
+        "options": [
+          "Decantation",
+          "Churning",
+          "Magnetic separation",
+          "Combustion"
+        ],
+        "answer": 0,
+        "explanation": "Decantation pours off liquid without disturbing settled solids.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq285",
+        "question": "Which method separates tea leaves from tea? (practice case 26)",
+        "options": [
+          "Magnetic separation",
+          "Evaporation only",
+          "Sieving with a large mesh",
+          "Filtration"
+        ],
+        "answer": 3,
+        "explanation": "A strainer filters solid tea leaves from liquid tea.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq286",
+        "question": "Which method can separate iron filings from sand? (practice case 27)",
+        "options": [
+          "Sieving only",
+          "Hand-warming",
+          "Magnetic separation",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Iron is attracted to a magnet; sand is not.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq287",
+        "question": "Salt dissolved uniformly in water forms what? (practice case 28)",
+        "options": [
+          "An insoluble residue",
+          "A solution",
+          "A pure element",
+          "A gas"
+        ],
+        "answer": 1,
+        "explanation": "A solution is a uniform mixture of solute and solvent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq288",
+        "question": "Why does filtration separate sand from water? (practice case 29)",
+        "options": [
+          "The filter traps sand while water passes through",
+          "Sand evaporates first",
+          "Water is magnetic",
+          "The filter changes sand into salt"
+        ],
+        "answer": 0,
+        "explanation": "Filtration retains insoluble particles while liquid passes through.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq289",
+        "question": "What remains when salt water is evaporated completely? (practice case 30)",
+        "options": [
+          "Only oxygen",
+          "Iron filings",
+          "Fresh water",
+          "Salt"
+        ],
+        "answer": 3,
+        "explanation": "Water evaporates and dissolved salt remains.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq290",
+        "question": "Which tool separates pebbles from fine sand? (practice case 31)",
+        "options": [
+          "Stopwatch",
+          "Balance only",
+          "Sieve",
+          "Thermometer"
+        ],
+        "answer": 2,
+        "explanation": "Sieving separates solids by particle size.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq291",
+        "question": "Mud settles at the bottom of water left still for 32 minutes. What is this called? (practice case 32)",
+        "options": [
+          "Magnetisation",
+          "Sedimentation",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 1,
+        "explanation": "Sedimentation is the settling of suspended particles.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq292",
+        "question": "Pouring clear liquid away from settled mud is called... (practice case 33)",
+        "options": [
+          "Decantation",
+          "Churning",
+          "Magnetic separation",
+          "Combustion"
+        ],
+        "answer": 0,
+        "explanation": "Decantation pours off liquid without disturbing settled solids.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq293",
+        "question": "Which method separates tea leaves from tea? (practice case 34)",
+        "options": [
+          "Magnetic separation",
+          "Evaporation only",
+          "Sieving with a large mesh",
+          "Filtration"
+        ],
+        "answer": 3,
+        "explanation": "A strainer filters solid tea leaves from liquid tea.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq294",
+        "question": "Which method can separate iron filings from sand? (practice case 35)",
+        "options": [
+          "Sieving only",
+          "Hand-warming",
+          "Magnetic separation",
+          "Condensation"
+        ],
+        "answer": 2,
+        "explanation": "Iron is attracted to a magnet; sand is not.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq295",
+        "question": "Salt dissolved uniformly in water forms what? (practice case 36)",
+        "options": [
+          "An insoluble residue",
+          "A solution",
+          "A pure element",
+          "A gas"
+        ],
+        "answer": 1,
+        "explanation": "A solution is a uniform mixture of solute and solvent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq296",
+        "question": "Why does filtration separate sand from water? (practice case 37)",
+        "options": [
+          "The filter traps sand while water passes through",
+          "Sand evaporates first",
+          "Water is magnetic",
+          "The filter changes sand into salt"
+        ],
+        "answer": 0,
+        "explanation": "Filtration retains insoluble particles while liquid passes through.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq297",
+        "question": "What remains when salt water is evaporated completely? (practice case 38)",
+        "options": [
+          "Only oxygen",
+          "Iron filings",
+          "Fresh water",
+          "Salt"
+        ],
+        "answer": 3,
+        "explanation": "Water evaporates and dissolved salt remains.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq298",
+        "question": "Which tool separates pebbles from fine sand? (practice case 39)",
+        "options": [
+          "Stopwatch",
+          "Balance only",
+          "Sieve",
+          "Thermometer"
+        ],
+        "answer": 2,
+        "explanation": "Sieving separates solids by particle size.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq299",
+        "question": "Mud settles at the bottom of water left still for 40 minutes. What is this called? (practice case 40)",
+        "options": [
+          "Magnetisation",
+          "Sedimentation",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 1,
+        "explanation": "Sedimentation is the settling of suspended particles.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq300",
+        "question": "Pouring clear liquid away from settled mud is called... (practice case 41)",
+        "options": [
+          "Decantation",
+          "Churning",
+          "Magnetic separation",
+          "Combustion"
+        ],
+        "answer": 0,
+        "explanation": "Decantation pours off liquid without disturbing settled solids.",
         "difficulty": "Medium"
       }
     ]
@@ -818,6 +3418,526 @@
         "answer": 0,
         "explanation": "Displacement is zero when the final position equals the initial position.",
         "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq301",
+        "question": "A cart travels 20 m in 2 s. What is its average speed in m/s? (practice case 2)",
+        "options": [
+          "40.00",
+          "0.10",
+          "22",
+          "10.00"
+        ],
+        "answer": 3,
+        "explanation": "Average speed = distance ÷ time = 20 ÷ 2 = 10.00 m/s.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq302",
+        "question": "Convert 5 metres into centimetres. (practice case 3)",
+        "options": [
+          "5",
+          "5000",
+          "500",
+          "50"
+        ],
+        "answer": 2,
+        "explanation": "1 m = 100 cm, so 5 m = 500 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq303",
+        "question": "Which example shows periodic motion? (practice case 4)",
+        "options": [
+          "A cup on a shelf",
+          "A swing moving back and forth regularly",
+          "A book resting on a desk",
+          "A stone lying still"
+        ],
+        "answer": 1,
+        "explanation": "Periodic motion repeats at regular intervals.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq304",
+        "question": "Which instrument measures elapsed time for a moving ball? (practice case 5)",
+        "options": [
+          "Stopwatch",
+          "Thermometer",
+          "Balance",
+          "Measuring cylinder"
+        ],
+        "answer": 0,
+        "explanation": "A stopwatch measures elapsed time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq305",
+        "question": "Which unit is suitable for measuring classroom length? (practice case 6)",
+        "options": [
+          "Millilitres",
+          "Kilograms",
+          "Degrees Celsius",
+          "Metres"
+        ],
+        "answer": 3,
+        "explanation": "Metres are appropriate for room length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq306",
+        "question": "Why measure distance over a fixed 7-second interval when comparing motion? (practice case 7)",
+        "options": [
+          "To make time irrelevant",
+          "To guarantee identical results",
+          "To make comparisons fair",
+          "To remove the need to measure distance"
+        ],
+        "answer": 2,
+        "explanation": "A fixed interval makes measurements comparable.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq307",
+        "question": "A runner covers 40 m in 9 s. Which calculation gives average speed? (practice case 8)",
+        "options": [
+          "40 + 9",
+          "40 ÷ 9",
+          "9 ÷ 40",
+          "40 × 9"
+        ],
+        "answer": 1,
+        "explanation": "Average speed is distance divided by time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq308",
+        "question": "Which quantity describes how far an object moves per unit time? (practice case 9)",
+        "options": [
+          "Speed",
+          "Mass",
+          "Temperature",
+          "Volume"
+        ],
+        "answer": 0,
+        "explanation": "Speed is distance travelled per unit time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq309",
+        "question": "A cart travels 100 m in 3 s. What is its average speed in m/s? (practice case 10)",
+        "options": [
+          "300.00",
+          "0.03",
+          "103",
+          "33.33"
+        ],
+        "answer": 3,
+        "explanation": "Average speed = distance ÷ time = 100 ÷ 3 = 33.33 m/s.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq310",
+        "question": "Convert 13 metres into centimetres. (practice case 11)",
+        "options": [
+          "13",
+          "13000",
+          "1300",
+          "130"
+        ],
+        "answer": 2,
+        "explanation": "1 m = 100 cm, so 13 m = 1300 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq311",
+        "question": "Which example shows periodic motion? (practice case 12)",
+        "options": [
+          "A cup on a shelf",
+          "A swing moving back and forth regularly",
+          "A book resting on a desk",
+          "A stone lying still"
+        ],
+        "answer": 1,
+        "explanation": "Periodic motion repeats at regular intervals.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq312",
+        "question": "Which instrument measures elapsed time for a moving ball? (practice case 13)",
+        "options": [
+          "Stopwatch",
+          "Thermometer",
+          "Balance",
+          "Measuring cylinder"
+        ],
+        "answer": 0,
+        "explanation": "A stopwatch measures elapsed time.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq313",
+        "question": "Which unit is suitable for measuring classroom length? (practice case 14)",
+        "options": [
+          "Millilitres",
+          "Kilograms",
+          "Degrees Celsius",
+          "Metres"
+        ],
+        "answer": 3,
+        "explanation": "Metres are appropriate for room length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq314",
+        "question": "Why measure distance over a fixed 15-second interval when comparing motion? (practice case 15)",
+        "options": [
+          "To make time irrelevant",
+          "To guarantee identical results",
+          "To make comparisons fair",
+          "To remove the need to measure distance"
+        ],
+        "answer": 2,
+        "explanation": "A fixed interval makes measurements comparable.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq315",
+        "question": "A runner covers 80 m in 3 s. Which calculation gives average speed? (practice case 16)",
+        "options": [
+          "80 + 3",
+          "80 ÷ 3",
+          "3 ÷ 80",
+          "80 × 3"
+        ],
+        "answer": 1,
+        "explanation": "Average speed is distance divided by time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq316",
+        "question": "Which quantity describes how far an object moves per unit time? (practice case 17)",
+        "options": [
+          "Speed",
+          "Mass",
+          "Temperature",
+          "Volume"
+        ],
+        "answer": 0,
+        "explanation": "Speed is distance travelled per unit time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq317",
+        "question": "A cart travels 180 m in 4 s. What is its average speed in m/s? (practice case 18)",
+        "options": [
+          "720.00",
+          "0.02",
+          "184",
+          "45.00"
+        ],
+        "answer": 3,
+        "explanation": "Average speed = distance ÷ time = 180 ÷ 4 = 45.00 m/s.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq318",
+        "question": "Convert 21 metres into centimetres. (practice case 19)",
+        "options": [
+          "21",
+          "21000",
+          "2100",
+          "210"
+        ],
+        "answer": 2,
+        "explanation": "1 m = 100 cm, so 21 m = 2100 cm.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq319",
+        "question": "Which example shows periodic motion? (practice case 20)",
+        "options": [
+          "A cup on a shelf",
+          "A swing moving back and forth regularly",
+          "A book resting on a desk",
+          "A stone lying still"
+        ],
+        "answer": 1,
+        "explanation": "Periodic motion repeats at regular intervals.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq320",
+        "question": "Which instrument measures elapsed time for a moving ball? (practice case 21)",
+        "options": [
+          "Stopwatch",
+          "Thermometer",
+          "Balance",
+          "Measuring cylinder"
+        ],
+        "answer": 0,
+        "explanation": "A stopwatch measures elapsed time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq321",
+        "question": "Which unit is suitable for measuring classroom length? (practice case 22)",
+        "options": [
+          "Millilitres",
+          "Kilograms",
+          "Degrees Celsius",
+          "Metres"
+        ],
+        "answer": 3,
+        "explanation": "Metres are appropriate for room length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq322",
+        "question": "Why measure distance over a fixed 23-second interval when comparing motion? (practice case 23)",
+        "options": [
+          "To make time irrelevant",
+          "To guarantee identical results",
+          "To make comparisons fair",
+          "To remove the need to measure distance"
+        ],
+        "answer": 2,
+        "explanation": "A fixed interval makes measurements comparable.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq323",
+        "question": "A runner covers 120 m in 4 s. Which calculation gives average speed? (practice case 24)",
+        "options": [
+          "120 + 4",
+          "120 ÷ 4",
+          "4 ÷ 120",
+          "120 × 4"
+        ],
+        "answer": 1,
+        "explanation": "Average speed is distance divided by time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq324",
+        "question": "Which quantity describes how far an object moves per unit time? (practice case 25)",
+        "options": [
+          "Speed",
+          "Mass",
+          "Temperature",
+          "Volume"
+        ],
+        "answer": 0,
+        "explanation": "Speed is distance travelled per unit time.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq325",
+        "question": "A cart travels 260 m in 5 s. What is its average speed in m/s? (practice case 26)",
+        "options": [
+          "1300.00",
+          "0.02",
+          "265",
+          "52.00"
+        ],
+        "answer": 3,
+        "explanation": "Average speed = distance ÷ time = 260 ÷ 5 = 52.00 m/s.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq326",
+        "question": "Convert 29 metres into centimetres. (practice case 27)",
+        "options": [
+          "29",
+          "29000",
+          "2900",
+          "290"
+        ],
+        "answer": 2,
+        "explanation": "1 m = 100 cm, so 29 m = 2900 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq327",
+        "question": "Which example shows periodic motion? (practice case 28)",
+        "options": [
+          "A cup on a shelf",
+          "A swing moving back and forth regularly",
+          "A book resting on a desk",
+          "A stone lying still"
+        ],
+        "answer": 1,
+        "explanation": "Periodic motion repeats at regular intervals.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq328",
+        "question": "Which instrument measures elapsed time for a moving ball? (practice case 29)",
+        "options": [
+          "Stopwatch",
+          "Thermometer",
+          "Balance",
+          "Measuring cylinder"
+        ],
+        "answer": 0,
+        "explanation": "A stopwatch measures elapsed time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq329",
+        "question": "Which unit is suitable for measuring classroom length? (practice case 30)",
+        "options": [
+          "Millilitres",
+          "Kilograms",
+          "Degrees Celsius",
+          "Metres"
+        ],
+        "answer": 3,
+        "explanation": "Metres are appropriate for room length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq330",
+        "question": "Why measure distance over a fixed 31-second interval when comparing motion? (practice case 31)",
+        "options": [
+          "To make time irrelevant",
+          "To guarantee identical results",
+          "To make comparisons fair",
+          "To remove the need to measure distance"
+        ],
+        "answer": 2,
+        "explanation": "A fixed interval makes measurements comparable.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq331",
+        "question": "A runner covers 160 m in 5 s. Which calculation gives average speed? (practice case 32)",
+        "options": [
+          "160 + 5",
+          "160 ÷ 5",
+          "5 ÷ 160",
+          "160 × 5"
+        ],
+        "answer": 1,
+        "explanation": "Average speed is distance divided by time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq332",
+        "question": "Which quantity describes how far an object moves per unit time? (practice case 33)",
+        "options": [
+          "Speed",
+          "Mass",
+          "Temperature",
+          "Volume"
+        ],
+        "answer": 0,
+        "explanation": "Speed is distance travelled per unit time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq333",
+        "question": "A cart travels 340 m in 6 s. What is its average speed in m/s? (practice case 34)",
+        "options": [
+          "2040.00",
+          "0.02",
+          "346",
+          "56.67"
+        ],
+        "answer": 3,
+        "explanation": "Average speed = distance ÷ time = 340 ÷ 6 = 56.67 m/s.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq334",
+        "question": "Convert 37 metres into centimetres. (practice case 35)",
+        "options": [
+          "37",
+          "37000",
+          "3700",
+          "370"
+        ],
+        "answer": 2,
+        "explanation": "1 m = 100 cm, so 37 m = 3700 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq335",
+        "question": "Which example shows periodic motion? (practice case 36)",
+        "options": [
+          "A cup on a shelf",
+          "A swing moving back and forth regularly",
+          "A book resting on a desk",
+          "A stone lying still"
+        ],
+        "answer": 1,
+        "explanation": "Periodic motion repeats at regular intervals.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq336",
+        "question": "Which instrument measures elapsed time for a moving ball? (practice case 37)",
+        "options": [
+          "Stopwatch",
+          "Thermometer",
+          "Balance",
+          "Measuring cylinder"
+        ],
+        "answer": 0,
+        "explanation": "A stopwatch measures elapsed time.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq337",
+        "question": "Which unit is suitable for measuring classroom length? (practice case 38)",
+        "options": [
+          "Millilitres",
+          "Kilograms",
+          "Degrees Celsius",
+          "Metres"
+        ],
+        "answer": 3,
+        "explanation": "Metres are appropriate for room length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq338",
+        "question": "Why measure distance over a fixed 39-second interval when comparing motion? (practice case 39)",
+        "options": [
+          "To make time irrelevant",
+          "To guarantee identical results",
+          "To make comparisons fair",
+          "To remove the need to measure distance"
+        ],
+        "answer": 2,
+        "explanation": "A fixed interval makes measurements comparable.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq339",
+        "question": "A runner covers 200 m in 6 s. Which calculation gives average speed? (practice case 40)",
+        "options": [
+          "200 + 6",
+          "200 ÷ 6",
+          "6 ÷ 200",
+          "200 × 6"
+        ],
+        "answer": 1,
+        "explanation": "Average speed is distance divided by time.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq340",
+        "question": "Which quantity describes how far an object moves per unit time? (practice case 41)",
+        "options": [
+          "Speed",
+          "Mass",
+          "Temperature",
+          "Volume"
+        ],
+        "answer": 0,
+        "explanation": "Speed is distance travelled per unit time.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -955,6 +4075,526 @@
         "answer": 1,
         "explanation": "Plucking makes the string vibrate and produce sound.",
         "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq341",
+        "question": "Which material lets light pass through clearly? (practice case 2)",
+        "options": [
+          "Wood",
+          "Cardboard",
+          "Metal sheet",
+          "Clear glass"
+        ],
+        "answer": 3,
+        "explanation": "Clear glass is transparent.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq342",
+        "question": "Which object usually forms the darkest shadow? (practice case 3)",
+        "options": [
+          "Clean water",
+          "Transparent plastic",
+          "An opaque object",
+          "Clear glass"
+        ],
+        "answer": 2,
+        "explanation": "Opaque materials block light.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq343",
+        "question": "Why does a tree's shadow change length during the day? (practice case 4)",
+        "options": [
+          "The ground creates sunlight",
+          "The Sun's apparent position changes",
+          "The tree changes material",
+          "Light stops travelling in straight lines"
+        ],
+        "answer": 1,
+        "explanation": "The changing angle of sunlight changes shadow length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq344",
+        "question": "Which surface produces regular reflection? (practice case 5)",
+        "options": [
+          "A smooth polished mirror",
+          "Rough cloth",
+          "Crushed paper",
+          "Unpolished soil"
+        ],
+        "answer": 0,
+        "explanation": "Smooth surfaces reflect light regularly.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq345",
+        "question": "What produces sound from a drum? (practice case 6)",
+        "options": [
+          "The drum's colour",
+          "Its shadow",
+          "The absence of all matter",
+          "Vibrations of the drum skin"
+        ],
+        "answer": 3,
+        "explanation": "Sound is produced by vibrations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq346",
+        "question": "Why cannot sound travel through a perfect vacuum? (practice case 7)",
+        "options": [
+          "Sound needs sunlight",
+          "Sound travels only through metal",
+          "There are no particles to transmit vibrations",
+          "A vacuum has too much air"
+        ],
+        "answer": 2,
+        "explanation": "Sound needs a material medium.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq347",
+        "question": "Which object emits its own light when switched on? (practice case 8)",
+        "options": [
+          "White paper",
+          "A glowing electric bulb",
+          "The Moon",
+          "A mirror"
+        ],
+        "answer": 1,
+        "explanation": "A luminous object emits its own light.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq348",
+        "question": "What generally happens to shadow magnification as a nearby torch moves farther away from an object and screen? (practice case 9)",
+        "options": [
+          "It generally becomes smaller",
+          "It becomes a sound wave",
+          "It must become brighter than the torch",
+          "It always vanishes instantly"
+        ],
+        "answer": 0,
+        "explanation": "Moving the source farther away generally reduces magnification.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq349",
+        "question": "Which material lets light pass through clearly? (practice case 10)",
+        "options": [
+          "Wood",
+          "Cardboard",
+          "Metal sheet",
+          "Clear glass"
+        ],
+        "answer": 3,
+        "explanation": "Clear glass is transparent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq350",
+        "question": "Which object usually forms the darkest shadow? (practice case 11)",
+        "options": [
+          "Clean water",
+          "Transparent plastic",
+          "An opaque object",
+          "Clear glass"
+        ],
+        "answer": 2,
+        "explanation": "Opaque materials block light.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq351",
+        "question": "Why does a tree's shadow change length during the day? (practice case 12)",
+        "options": [
+          "The ground creates sunlight",
+          "The Sun's apparent position changes",
+          "The tree changes material",
+          "Light stops travelling in straight lines"
+        ],
+        "answer": 1,
+        "explanation": "The changing angle of sunlight changes shadow length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq352",
+        "question": "Which surface produces regular reflection? (practice case 13)",
+        "options": [
+          "A smooth polished mirror",
+          "Rough cloth",
+          "Crushed paper",
+          "Unpolished soil"
+        ],
+        "answer": 0,
+        "explanation": "Smooth surfaces reflect light regularly.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq353",
+        "question": "What produces sound from a drum? (practice case 14)",
+        "options": [
+          "The drum's colour",
+          "Its shadow",
+          "The absence of all matter",
+          "Vibrations of the drum skin"
+        ],
+        "answer": 3,
+        "explanation": "Sound is produced by vibrations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq354",
+        "question": "Why cannot sound travel through a perfect vacuum? (practice case 15)",
+        "options": [
+          "Sound needs sunlight",
+          "Sound travels only through metal",
+          "There are no particles to transmit vibrations",
+          "A vacuum has too much air"
+        ],
+        "answer": 2,
+        "explanation": "Sound needs a material medium.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq355",
+        "question": "Which object emits its own light when switched on? (practice case 16)",
+        "options": [
+          "White paper",
+          "A glowing electric bulb",
+          "The Moon",
+          "A mirror"
+        ],
+        "answer": 1,
+        "explanation": "A luminous object emits its own light.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq356",
+        "question": "What generally happens to shadow magnification as a nearby torch moves farther away from an object and screen? (practice case 17)",
+        "options": [
+          "It generally becomes smaller",
+          "It becomes a sound wave",
+          "It must become brighter than the torch",
+          "It always vanishes instantly"
+        ],
+        "answer": 0,
+        "explanation": "Moving the source farther away generally reduces magnification.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq357",
+        "question": "Which material lets light pass through clearly? (practice case 18)",
+        "options": [
+          "Wood",
+          "Cardboard",
+          "Metal sheet",
+          "Clear glass"
+        ],
+        "answer": 3,
+        "explanation": "Clear glass is transparent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq358",
+        "question": "Which object usually forms the darkest shadow? (practice case 19)",
+        "options": [
+          "Clean water",
+          "Transparent plastic",
+          "An opaque object",
+          "Clear glass"
+        ],
+        "answer": 2,
+        "explanation": "Opaque materials block light.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq359",
+        "question": "Why does a tree's shadow change length during the day? (practice case 20)",
+        "options": [
+          "The ground creates sunlight",
+          "The Sun's apparent position changes",
+          "The tree changes material",
+          "Light stops travelling in straight lines"
+        ],
+        "answer": 1,
+        "explanation": "The changing angle of sunlight changes shadow length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq360",
+        "question": "Which surface produces regular reflection? (practice case 21)",
+        "options": [
+          "A smooth polished mirror",
+          "Rough cloth",
+          "Crushed paper",
+          "Unpolished soil"
+        ],
+        "answer": 0,
+        "explanation": "Smooth surfaces reflect light regularly.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq361",
+        "question": "What produces sound from a drum? (practice case 22)",
+        "options": [
+          "The drum's colour",
+          "Its shadow",
+          "The absence of all matter",
+          "Vibrations of the drum skin"
+        ],
+        "answer": 3,
+        "explanation": "Sound is produced by vibrations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq362",
+        "question": "Why cannot sound travel through a perfect vacuum? (practice case 23)",
+        "options": [
+          "Sound needs sunlight",
+          "Sound travels only through metal",
+          "There are no particles to transmit vibrations",
+          "A vacuum has too much air"
+        ],
+        "answer": 2,
+        "explanation": "Sound needs a material medium.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq363",
+        "question": "Which object emits its own light when switched on? (practice case 24)",
+        "options": [
+          "White paper",
+          "A glowing electric bulb",
+          "The Moon",
+          "A mirror"
+        ],
+        "answer": 1,
+        "explanation": "A luminous object emits its own light.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq364",
+        "question": "What generally happens to shadow magnification as a nearby torch moves farther away from an object and screen? (practice case 25)",
+        "options": [
+          "It generally becomes smaller",
+          "It becomes a sound wave",
+          "It must become brighter than the torch",
+          "It always vanishes instantly"
+        ],
+        "answer": 0,
+        "explanation": "Moving the source farther away generally reduces magnification.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq365",
+        "question": "Which material lets light pass through clearly? (practice case 26)",
+        "options": [
+          "Wood",
+          "Cardboard",
+          "Metal sheet",
+          "Clear glass"
+        ],
+        "answer": 3,
+        "explanation": "Clear glass is transparent.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq366",
+        "question": "Which object usually forms the darkest shadow? (practice case 27)",
+        "options": [
+          "Clean water",
+          "Transparent plastic",
+          "An opaque object",
+          "Clear glass"
+        ],
+        "answer": 2,
+        "explanation": "Opaque materials block light.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq367",
+        "question": "Why does a tree's shadow change length during the day? (practice case 28)",
+        "options": [
+          "The ground creates sunlight",
+          "The Sun's apparent position changes",
+          "The tree changes material",
+          "Light stops travelling in straight lines"
+        ],
+        "answer": 1,
+        "explanation": "The changing angle of sunlight changes shadow length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq368",
+        "question": "Which surface produces regular reflection? (practice case 29)",
+        "options": [
+          "A smooth polished mirror",
+          "Rough cloth",
+          "Crushed paper",
+          "Unpolished soil"
+        ],
+        "answer": 0,
+        "explanation": "Smooth surfaces reflect light regularly.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq369",
+        "question": "What produces sound from a drum? (practice case 30)",
+        "options": [
+          "The drum's colour",
+          "Its shadow",
+          "The absence of all matter",
+          "Vibrations of the drum skin"
+        ],
+        "answer": 3,
+        "explanation": "Sound is produced by vibrations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq370",
+        "question": "Why cannot sound travel through a perfect vacuum? (practice case 31)",
+        "options": [
+          "Sound needs sunlight",
+          "Sound travels only through metal",
+          "There are no particles to transmit vibrations",
+          "A vacuum has too much air"
+        ],
+        "answer": 2,
+        "explanation": "Sound needs a material medium.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq371",
+        "question": "Which object emits its own light when switched on? (practice case 32)",
+        "options": [
+          "White paper",
+          "A glowing electric bulb",
+          "The Moon",
+          "A mirror"
+        ],
+        "answer": 1,
+        "explanation": "A luminous object emits its own light.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq372",
+        "question": "What generally happens to shadow magnification as a nearby torch moves farther away from an object and screen? (practice case 33)",
+        "options": [
+          "It generally becomes smaller",
+          "It becomes a sound wave",
+          "It must become brighter than the torch",
+          "It always vanishes instantly"
+        ],
+        "answer": 0,
+        "explanation": "Moving the source farther away generally reduces magnification.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq373",
+        "question": "Which material lets light pass through clearly? (practice case 34)",
+        "options": [
+          "Wood",
+          "Cardboard",
+          "Metal sheet",
+          "Clear glass"
+        ],
+        "answer": 3,
+        "explanation": "Clear glass is transparent.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq374",
+        "question": "Which object usually forms the darkest shadow? (practice case 35)",
+        "options": [
+          "Clean water",
+          "Transparent plastic",
+          "An opaque object",
+          "Clear glass"
+        ],
+        "answer": 2,
+        "explanation": "Opaque materials block light.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq375",
+        "question": "Why does a tree's shadow change length during the day? (practice case 36)",
+        "options": [
+          "The ground creates sunlight",
+          "The Sun's apparent position changes",
+          "The tree changes material",
+          "Light stops travelling in straight lines"
+        ],
+        "answer": 1,
+        "explanation": "The changing angle of sunlight changes shadow length.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq376",
+        "question": "Which surface produces regular reflection? (practice case 37)",
+        "options": [
+          "A smooth polished mirror",
+          "Rough cloth",
+          "Crushed paper",
+          "Unpolished soil"
+        ],
+        "answer": 0,
+        "explanation": "Smooth surfaces reflect light regularly.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq377",
+        "question": "What produces sound from a drum? (practice case 38)",
+        "options": [
+          "The drum's colour",
+          "Its shadow",
+          "The absence of all matter",
+          "Vibrations of the drum skin"
+        ],
+        "answer": 3,
+        "explanation": "Sound is produced by vibrations.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq378",
+        "question": "Why cannot sound travel through a perfect vacuum? (practice case 39)",
+        "options": [
+          "Sound needs sunlight",
+          "Sound travels only through metal",
+          "There are no particles to transmit vibrations",
+          "A vacuum has too much air"
+        ],
+        "answer": 2,
+        "explanation": "Sound needs a material medium.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq379",
+        "question": "Which object emits its own light when switched on? (practice case 40)",
+        "options": [
+          "White paper",
+          "A glowing electric bulb",
+          "The Moon",
+          "A mirror"
+        ],
+        "answer": 1,
+        "explanation": "A luminous object emits its own light.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq380",
+        "question": "What generally happens to shadow magnification as a nearby torch moves farther away from an object and screen? (practice case 41)",
+        "options": [
+          "It generally becomes smaller",
+          "It becomes a sound wave",
+          "It must become brighter than the torch",
+          "It always vanishes instantly"
+        ],
+        "answer": 0,
+        "explanation": "Moving the source farther away generally reduces magnification.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1091,6 +4731,526 @@
         ],
         "answer": 2,
         "explanation": "Earth's magnetic field makes a freely suspended magnet align roughly north–south.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq381",
+        "question": "Which material is a good conductor used in electrical wires? (practice case 2)",
+        "options": [
+          "Rubber",
+          "Dry wood",
+          "Plastic",
+          "Copper"
+        ],
+        "answer": 3,
+        "explanation": "Copper conducts electricity well.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq382",
+        "question": "What must be true for a simple bulb circuit to glow? (practice case 3)",
+        "options": [
+          "All wires are plastic",
+          "The cell is disconnected",
+          "There is a complete conducting path",
+          "The circuit has a gap"
+        ],
+        "answer": 2,
+        "explanation": "A closed conducting path allows current to flow.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq383",
+        "question": "Which material commonly insulates electrical wires? (practice case 4)",
+        "options": [
+          "Aluminium",
+          "Plastic",
+          "Copper",
+          "Iron"
+        ],
+        "answer": 1,
+        "explanation": "Plastic is an electrical insulator.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq384",
+        "question": "What happens when two north poles of magnets are brought together? (practice case 5)",
+        "options": [
+          "They repel",
+          "They attract",
+          "They lose magnetism instantly",
+          "They become cells"
+        ],
+        "answer": 0,
+        "explanation": "Like magnetic poles repel.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq385",
+        "question": "Which component opens or closes a circuit? (practice case 6)",
+        "options": [
+          "Bulb glass",
+          "Cell label",
+          "Plastic sleeve alone",
+          "Switch"
+        ],
+        "answer": 3,
+        "explanation": "A switch opens or closes the circuit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq386",
+        "question": "A bulb does not glow. What should be checked first? (practice case 7)",
+        "options": [
+          "Remove every wire",
+          "Replace wire with string",
+          "Switch, connections and cell",
+          "Pour water into the bulb"
+        ],
+        "answer": 2,
+        "explanation": "An open switch or loose connection can stop current.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq387",
+        "question": "Where is a bar magnet's magnetic effect usually strongest? (practice case 8)",
+        "options": [
+          "Only on its label",
+          "Near its poles",
+          "Only at its centre",
+          "Equally strong everywhere"
+        ],
+        "answer": 1,
+        "explanation": "Magnetic effect is strongest near the poles.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq388",
+        "question": "Which object is attracted to a magnet? (practice case 9)",
+        "options": [
+          "An iron nail",
+          "Wooden pencil",
+          "Glass marble",
+          "Plastic ruler"
+        ],
+        "answer": 0,
+        "explanation": "Iron is magnetic.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq389",
+        "question": "Which material is a good conductor used in electrical wires? (practice case 10)",
+        "options": [
+          "Rubber",
+          "Dry wood",
+          "Plastic",
+          "Copper"
+        ],
+        "answer": 3,
+        "explanation": "Copper conducts electricity well.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq390",
+        "question": "What must be true for a simple bulb circuit to glow? (practice case 11)",
+        "options": [
+          "All wires are plastic",
+          "The cell is disconnected",
+          "There is a complete conducting path",
+          "The circuit has a gap"
+        ],
+        "answer": 2,
+        "explanation": "A closed conducting path allows current to flow.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq391",
+        "question": "Which material commonly insulates electrical wires? (practice case 12)",
+        "options": [
+          "Aluminium",
+          "Plastic",
+          "Copper",
+          "Iron"
+        ],
+        "answer": 1,
+        "explanation": "Plastic is an electrical insulator.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq392",
+        "question": "What happens when two north poles of magnets are brought together? (practice case 13)",
+        "options": [
+          "They repel",
+          "They attract",
+          "They lose magnetism instantly",
+          "They become cells"
+        ],
+        "answer": 0,
+        "explanation": "Like magnetic poles repel.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq393",
+        "question": "Which component opens or closes a circuit? (practice case 14)",
+        "options": [
+          "Bulb glass",
+          "Cell label",
+          "Plastic sleeve alone",
+          "Switch"
+        ],
+        "answer": 3,
+        "explanation": "A switch opens or closes the circuit.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq394",
+        "question": "A bulb does not glow. What should be checked first? (practice case 15)",
+        "options": [
+          "Remove every wire",
+          "Replace wire with string",
+          "Switch, connections and cell",
+          "Pour water into the bulb"
+        ],
+        "answer": 2,
+        "explanation": "An open switch or loose connection can stop current.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq395",
+        "question": "Where is a bar magnet's magnetic effect usually strongest? (practice case 16)",
+        "options": [
+          "Only on its label",
+          "Near its poles",
+          "Only at its centre",
+          "Equally strong everywhere"
+        ],
+        "answer": 1,
+        "explanation": "Magnetic effect is strongest near the poles.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq396",
+        "question": "Which object is attracted to a magnet? (practice case 17)",
+        "options": [
+          "An iron nail",
+          "Wooden pencil",
+          "Glass marble",
+          "Plastic ruler"
+        ],
+        "answer": 0,
+        "explanation": "Iron is magnetic.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq397",
+        "question": "Which material is a good conductor used in electrical wires? (practice case 18)",
+        "options": [
+          "Rubber",
+          "Dry wood",
+          "Plastic",
+          "Copper"
+        ],
+        "answer": 3,
+        "explanation": "Copper conducts electricity well.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq398",
+        "question": "What must be true for a simple bulb circuit to glow? (practice case 19)",
+        "options": [
+          "All wires are plastic",
+          "The cell is disconnected",
+          "There is a complete conducting path",
+          "The circuit has a gap"
+        ],
+        "answer": 2,
+        "explanation": "A closed conducting path allows current to flow.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq399",
+        "question": "Which material commonly insulates electrical wires? (practice case 20)",
+        "options": [
+          "Aluminium",
+          "Plastic",
+          "Copper",
+          "Iron"
+        ],
+        "answer": 1,
+        "explanation": "Plastic is an electrical insulator.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq400",
+        "question": "What happens when two north poles of magnets are brought together? (practice case 21)",
+        "options": [
+          "They repel",
+          "They attract",
+          "They lose magnetism instantly",
+          "They become cells"
+        ],
+        "answer": 0,
+        "explanation": "Like magnetic poles repel.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq401",
+        "question": "Which component opens or closes a circuit? (practice case 22)",
+        "options": [
+          "Bulb glass",
+          "Cell label",
+          "Plastic sleeve alone",
+          "Switch"
+        ],
+        "answer": 3,
+        "explanation": "A switch opens or closes the circuit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq402",
+        "question": "A bulb does not glow. What should be checked first? (practice case 23)",
+        "options": [
+          "Remove every wire",
+          "Replace wire with string",
+          "Switch, connections and cell",
+          "Pour water into the bulb"
+        ],
+        "answer": 2,
+        "explanation": "An open switch or loose connection can stop current.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq403",
+        "question": "Where is a bar magnet's magnetic effect usually strongest? (practice case 24)",
+        "options": [
+          "Only on its label",
+          "Near its poles",
+          "Only at its centre",
+          "Equally strong everywhere"
+        ],
+        "answer": 1,
+        "explanation": "Magnetic effect is strongest near the poles.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq404",
+        "question": "Which object is attracted to a magnet? (practice case 25)",
+        "options": [
+          "An iron nail",
+          "Wooden pencil",
+          "Glass marble",
+          "Plastic ruler"
+        ],
+        "answer": 0,
+        "explanation": "Iron is magnetic.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq405",
+        "question": "Which material is a good conductor used in electrical wires? (practice case 26)",
+        "options": [
+          "Rubber",
+          "Dry wood",
+          "Plastic",
+          "Copper"
+        ],
+        "answer": 3,
+        "explanation": "Copper conducts electricity well.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq406",
+        "question": "What must be true for a simple bulb circuit to glow? (practice case 27)",
+        "options": [
+          "All wires are plastic",
+          "The cell is disconnected",
+          "There is a complete conducting path",
+          "The circuit has a gap"
+        ],
+        "answer": 2,
+        "explanation": "A closed conducting path allows current to flow.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq407",
+        "question": "Which material commonly insulates electrical wires? (practice case 28)",
+        "options": [
+          "Aluminium",
+          "Plastic",
+          "Copper",
+          "Iron"
+        ],
+        "answer": 1,
+        "explanation": "Plastic is an electrical insulator.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq408",
+        "question": "What happens when two north poles of magnets are brought together? (practice case 29)",
+        "options": [
+          "They repel",
+          "They attract",
+          "They lose magnetism instantly",
+          "They become cells"
+        ],
+        "answer": 0,
+        "explanation": "Like magnetic poles repel.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq409",
+        "question": "Which component opens or closes a circuit? (practice case 30)",
+        "options": [
+          "Bulb glass",
+          "Cell label",
+          "Plastic sleeve alone",
+          "Switch"
+        ],
+        "answer": 3,
+        "explanation": "A switch opens or closes the circuit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq410",
+        "question": "A bulb does not glow. What should be checked first? (practice case 31)",
+        "options": [
+          "Remove every wire",
+          "Replace wire with string",
+          "Switch, connections and cell",
+          "Pour water into the bulb"
+        ],
+        "answer": 2,
+        "explanation": "An open switch or loose connection can stop current.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq411",
+        "question": "Where is a bar magnet's magnetic effect usually strongest? (practice case 32)",
+        "options": [
+          "Only on its label",
+          "Near its poles",
+          "Only at its centre",
+          "Equally strong everywhere"
+        ],
+        "answer": 1,
+        "explanation": "Magnetic effect is strongest near the poles.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq412",
+        "question": "Which object is attracted to a magnet? (practice case 33)",
+        "options": [
+          "An iron nail",
+          "Wooden pencil",
+          "Glass marble",
+          "Plastic ruler"
+        ],
+        "answer": 0,
+        "explanation": "Iron is magnetic.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq413",
+        "question": "Which material is a good conductor used in electrical wires? (practice case 34)",
+        "options": [
+          "Rubber",
+          "Dry wood",
+          "Plastic",
+          "Copper"
+        ],
+        "answer": 3,
+        "explanation": "Copper conducts electricity well.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq414",
+        "question": "What must be true for a simple bulb circuit to glow? (practice case 35)",
+        "options": [
+          "All wires are plastic",
+          "The cell is disconnected",
+          "There is a complete conducting path",
+          "The circuit has a gap"
+        ],
+        "answer": 2,
+        "explanation": "A closed conducting path allows current to flow.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq415",
+        "question": "Which material commonly insulates electrical wires? (practice case 36)",
+        "options": [
+          "Aluminium",
+          "Plastic",
+          "Copper",
+          "Iron"
+        ],
+        "answer": 1,
+        "explanation": "Plastic is an electrical insulator.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq416",
+        "question": "What happens when two north poles of magnets are brought together? (practice case 37)",
+        "options": [
+          "They repel",
+          "They attract",
+          "They lose magnetism instantly",
+          "They become cells"
+        ],
+        "answer": 0,
+        "explanation": "Like magnetic poles repel.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq417",
+        "question": "Which component opens or closes a circuit? (practice case 38)",
+        "options": [
+          "Bulb glass",
+          "Cell label",
+          "Plastic sleeve alone",
+          "Switch"
+        ],
+        "answer": 3,
+        "explanation": "A switch opens or closes the circuit.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq418",
+        "question": "A bulb does not glow. What should be checked first? (practice case 39)",
+        "options": [
+          "Remove every wire",
+          "Replace wire with string",
+          "Switch, connections and cell",
+          "Pour water into the bulb"
+        ],
+        "answer": 2,
+        "explanation": "An open switch or loose connection can stop current.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq419",
+        "question": "Where is a bar magnet's magnetic effect usually strongest? (practice case 40)",
+        "options": [
+          "Only on its label",
+          "Near its poles",
+          "Only at its centre",
+          "Equally strong everywhere"
+        ],
+        "answer": 1,
+        "explanation": "Magnetic effect is strongest near the poles.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq420",
+        "question": "Which object is attracted to a magnet? (practice case 41)",
+        "options": [
+          "An iron nail",
+          "Wooden pencil",
+          "Glass marble",
+          "Plastic ruler"
+        ],
+        "answer": 0,
+        "explanation": "Iron is magnetic.",
         "difficulty": "Medium"
       }
     ]
@@ -1229,6 +5389,526 @@
         "answer": 3,
         "explanation": "Trapped air prevents water from immediately filling the cup.",
         "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq421",
+        "question": "Liquid water in a puddle changes to vapour. What is this process? (practice case 2)",
+        "options": [
+          "Freezing",
+          "Condensation",
+          "Sedimentation",
+          "Evaporation"
+        ],
+        "answer": 3,
+        "explanation": "Evaporation changes liquid water into vapour.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq422",
+        "question": "Water vapour cools and forms liquid droplets. What is this called? (practice case 3)",
+        "options": [
+          "Filtration",
+          "Combustion",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 2,
+        "explanation": "Condensation changes vapour into liquid.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq423",
+        "question": "Which is a renewable energy source? (practice case 4)",
+        "options": [
+          "Natural gas",
+          "Sunlight",
+          "Coal",
+          "Petroleum"
+        ],
+        "answer": 1,
+        "explanation": "Sunlight is naturally replenished.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq424",
+        "question": "How do plant roots help reduce soil erosion? (practice case 5)",
+        "options": [
+          "They hold soil particles together",
+          "They remove gravity",
+          "They turn soil into plastic",
+          "They stop all rain"
+        ],
+        "answer": 0,
+        "explanation": "Roots bind soil and reduce erosion.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq425",
+        "question": "Which action reduces plastic pollution? (practice case 6)",
+        "options": [
+          "Throw plastic into streams",
+          "Burn plastic in streets",
+          "Use disposable items unnecessarily",
+          "Reuse items and recycle where possible"
+        ],
+        "answer": 3,
+        "explanation": "Reducing, reusing and recycling help reduce plastic waste.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq426",
+        "question": "Which gas is commonly released during photosynthesis? (practice case 7)",
+        "options": [
+          "Neon",
+          "Methane only",
+          "Oxygen",
+          "Helium"
+        ],
+        "answer": 2,
+        "explanation": "Oxygen is released during photosynthesis.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq427",
+        "question": "Why is biodiversity valuable in an ecosystem? (practice case 8)",
+        "options": [
+          "It removes the need for habitats",
+          "It supports food webs and ecosystem functioning",
+          "It makes all species identical",
+          "It prevents all change"
+        ],
+        "answer": 1,
+        "explanation": "Different species contribute to interconnected ecosystem processes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq428",
+        "question": "Which household action conserves water? (practice case 9)",
+        "options": [
+          "Repairing leaking taps",
+          "Leaving taps running",
+          "Using a hose unnecessarily",
+          "Pouring clean water away"
+        ],
+        "answer": 0,
+        "explanation": "Repairing leaks reduces water waste.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq429",
+        "question": "Liquid water in a puddle changes to vapour. What is this process? (practice case 10)",
+        "options": [
+          "Freezing",
+          "Condensation",
+          "Sedimentation",
+          "Evaporation"
+        ],
+        "answer": 3,
+        "explanation": "Evaporation changes liquid water into vapour.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq430",
+        "question": "Water vapour cools and forms liquid droplets. What is this called? (practice case 11)",
+        "options": [
+          "Filtration",
+          "Combustion",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 2,
+        "explanation": "Condensation changes vapour into liquid.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq431",
+        "question": "Which is a renewable energy source? (practice case 12)",
+        "options": [
+          "Natural gas",
+          "Sunlight",
+          "Coal",
+          "Petroleum"
+        ],
+        "answer": 1,
+        "explanation": "Sunlight is naturally replenished.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq432",
+        "question": "How do plant roots help reduce soil erosion? (practice case 13)",
+        "options": [
+          "They hold soil particles together",
+          "They remove gravity",
+          "They turn soil into plastic",
+          "They stop all rain"
+        ],
+        "answer": 0,
+        "explanation": "Roots bind soil and reduce erosion.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq433",
+        "question": "Which action reduces plastic pollution? (practice case 14)",
+        "options": [
+          "Throw plastic into streams",
+          "Burn plastic in streets",
+          "Use disposable items unnecessarily",
+          "Reuse items and recycle where possible"
+        ],
+        "answer": 3,
+        "explanation": "Reducing, reusing and recycling help reduce plastic waste.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq434",
+        "question": "Which gas is commonly released during photosynthesis? (practice case 15)",
+        "options": [
+          "Neon",
+          "Methane only",
+          "Oxygen",
+          "Helium"
+        ],
+        "answer": 2,
+        "explanation": "Oxygen is released during photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq435",
+        "question": "Why is biodiversity valuable in an ecosystem? (practice case 16)",
+        "options": [
+          "It removes the need for habitats",
+          "It supports food webs and ecosystem functioning",
+          "It makes all species identical",
+          "It prevents all change"
+        ],
+        "answer": 1,
+        "explanation": "Different species contribute to interconnected ecosystem processes.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq436",
+        "question": "Which household action conserves water? (practice case 17)",
+        "options": [
+          "Repairing leaking taps",
+          "Leaving taps running",
+          "Using a hose unnecessarily",
+          "Pouring clean water away"
+        ],
+        "answer": 0,
+        "explanation": "Repairing leaks reduces water waste.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq437",
+        "question": "Liquid water in a puddle changes to vapour. What is this process? (practice case 18)",
+        "options": [
+          "Freezing",
+          "Condensation",
+          "Sedimentation",
+          "Evaporation"
+        ],
+        "answer": 3,
+        "explanation": "Evaporation changes liquid water into vapour.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq438",
+        "question": "Water vapour cools and forms liquid droplets. What is this called? (practice case 19)",
+        "options": [
+          "Filtration",
+          "Combustion",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 2,
+        "explanation": "Condensation changes vapour into liquid.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq439",
+        "question": "Which is a renewable energy source? (practice case 20)",
+        "options": [
+          "Natural gas",
+          "Sunlight",
+          "Coal",
+          "Petroleum"
+        ],
+        "answer": 1,
+        "explanation": "Sunlight is naturally replenished.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq440",
+        "question": "How do plant roots help reduce soil erosion? (practice case 21)",
+        "options": [
+          "They hold soil particles together",
+          "They remove gravity",
+          "They turn soil into plastic",
+          "They stop all rain"
+        ],
+        "answer": 0,
+        "explanation": "Roots bind soil and reduce erosion.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq441",
+        "question": "Which action reduces plastic pollution? (practice case 22)",
+        "options": [
+          "Throw plastic into streams",
+          "Burn plastic in streets",
+          "Use disposable items unnecessarily",
+          "Reuse items and recycle where possible"
+        ],
+        "answer": 3,
+        "explanation": "Reducing, reusing and recycling help reduce plastic waste.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq442",
+        "question": "Which gas is commonly released during photosynthesis? (practice case 23)",
+        "options": [
+          "Neon",
+          "Methane only",
+          "Oxygen",
+          "Helium"
+        ],
+        "answer": 2,
+        "explanation": "Oxygen is released during photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq443",
+        "question": "Why is biodiversity valuable in an ecosystem? (practice case 24)",
+        "options": [
+          "It removes the need for habitats",
+          "It supports food webs and ecosystem functioning",
+          "It makes all species identical",
+          "It prevents all change"
+        ],
+        "answer": 1,
+        "explanation": "Different species contribute to interconnected ecosystem processes.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq444",
+        "question": "Which household action conserves water? (practice case 25)",
+        "options": [
+          "Repairing leaking taps",
+          "Leaving taps running",
+          "Using a hose unnecessarily",
+          "Pouring clean water away"
+        ],
+        "answer": 0,
+        "explanation": "Repairing leaks reduces water waste.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq445",
+        "question": "Liquid water in a puddle changes to vapour. What is this process? (practice case 26)",
+        "options": [
+          "Freezing",
+          "Condensation",
+          "Sedimentation",
+          "Evaporation"
+        ],
+        "answer": 3,
+        "explanation": "Evaporation changes liquid water into vapour.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq446",
+        "question": "Water vapour cools and forms liquid droplets. What is this called? (practice case 27)",
+        "options": [
+          "Filtration",
+          "Combustion",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 2,
+        "explanation": "Condensation changes vapour into liquid.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq447",
+        "question": "Which is a renewable energy source? (practice case 28)",
+        "options": [
+          "Natural gas",
+          "Sunlight",
+          "Coal",
+          "Petroleum"
+        ],
+        "answer": 1,
+        "explanation": "Sunlight is naturally replenished.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq448",
+        "question": "How do plant roots help reduce soil erosion? (practice case 29)",
+        "options": [
+          "They hold soil particles together",
+          "They remove gravity",
+          "They turn soil into plastic",
+          "They stop all rain"
+        ],
+        "answer": 0,
+        "explanation": "Roots bind soil and reduce erosion.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq449",
+        "question": "Which action reduces plastic pollution? (practice case 30)",
+        "options": [
+          "Throw plastic into streams",
+          "Burn plastic in streets",
+          "Use disposable items unnecessarily",
+          "Reuse items and recycle where possible"
+        ],
+        "answer": 3,
+        "explanation": "Reducing, reusing and recycling help reduce plastic waste.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq450",
+        "question": "Which gas is commonly released during photosynthesis? (practice case 31)",
+        "options": [
+          "Neon",
+          "Methane only",
+          "Oxygen",
+          "Helium"
+        ],
+        "answer": 2,
+        "explanation": "Oxygen is released during photosynthesis.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq451",
+        "question": "Why is biodiversity valuable in an ecosystem? (practice case 32)",
+        "options": [
+          "It removes the need for habitats",
+          "It supports food webs and ecosystem functioning",
+          "It makes all species identical",
+          "It prevents all change"
+        ],
+        "answer": 1,
+        "explanation": "Different species contribute to interconnected ecosystem processes.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq452",
+        "question": "Which household action conserves water? (practice case 33)",
+        "options": [
+          "Repairing leaking taps",
+          "Leaving taps running",
+          "Using a hose unnecessarily",
+          "Pouring clean water away"
+        ],
+        "answer": 0,
+        "explanation": "Repairing leaks reduces water waste.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq453",
+        "question": "Liquid water in a puddle changes to vapour. What is this process? (practice case 34)",
+        "options": [
+          "Freezing",
+          "Condensation",
+          "Sedimentation",
+          "Evaporation"
+        ],
+        "answer": 3,
+        "explanation": "Evaporation changes liquid water into vapour.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq454",
+        "question": "Water vapour cools and forms liquid droplets. What is this called? (practice case 35)",
+        "options": [
+          "Filtration",
+          "Combustion",
+          "Condensation",
+          "Melting"
+        ],
+        "answer": 2,
+        "explanation": "Condensation changes vapour into liquid.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq455",
+        "question": "Which is a renewable energy source? (practice case 36)",
+        "options": [
+          "Natural gas",
+          "Sunlight",
+          "Coal",
+          "Petroleum"
+        ],
+        "answer": 1,
+        "explanation": "Sunlight is naturally replenished.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq456",
+        "question": "How do plant roots help reduce soil erosion? (practice case 37)",
+        "options": [
+          "They hold soil particles together",
+          "They remove gravity",
+          "They turn soil into plastic",
+          "They stop all rain"
+        ],
+        "answer": 0,
+        "explanation": "Roots bind soil and reduce erosion.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq457",
+        "question": "Which action reduces plastic pollution? (practice case 38)",
+        "options": [
+          "Throw plastic into streams",
+          "Burn plastic in streets",
+          "Use disposable items unnecessarily",
+          "Reuse items and recycle where possible"
+        ],
+        "answer": 3,
+        "explanation": "Reducing, reusing and recycling help reduce plastic waste.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq458",
+        "question": "Which gas is commonly released during photosynthesis? (practice case 39)",
+        "options": [
+          "Neon",
+          "Methane only",
+          "Oxygen",
+          "Helium"
+        ],
+        "answer": 2,
+        "explanation": "Oxygen is released during photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq459",
+        "question": "Why is biodiversity valuable in an ecosystem? (practice case 40)",
+        "options": [
+          "It removes the need for habitats",
+          "It supports food webs and ecosystem functioning",
+          "It makes all species identical",
+          "It prevents all change"
+        ],
+        "answer": 1,
+        "explanation": "Different species contribute to interconnected ecosystem processes.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq460",
+        "question": "Which household action conserves water? (practice case 41)",
+        "options": [
+          "Repairing leaking taps",
+          "Leaving taps running",
+          "Using a hose unnecessarily",
+          "Pouring clean water away"
+        ],
+        "answer": 0,
+        "explanation": "Repairing leaks reduces water waste.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1366,6 +6046,526 @@
         "answer": 0,
         "explanation": "A single result is not enough; check conditions and repeat with more seeds.",
         "difficulty": "Challenge"
+      },
+      {
+        "id": "c6nsoq461",
+        "question": "A student compares 2 seedlings under two light levels. Which plan is fairest? (practice case 2)",
+        "options": [
+          "Change light, water and soil together",
+          "Use different plant species",
+          "Measure only the tallest after selection",
+          "Keep water, soil and pot size the same"
+        ],
+        "answer": 3,
+        "explanation": "A fair test changes light while controlling other relevant factors.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq462",
+        "question": "A mixture contains iron, sand and salt. Which sequence separates all three? (practice case 3)",
+        "options": [
+          "Thermometer only",
+          "Add more sand",
+          "Magnet, dissolve in water, filter, evaporate",
+          "Sieve only"
+        ],
+        "answer": 2,
+        "explanation": "A magnet removes iron; filtration separates sand and evaporation recovers salt.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq463",
+        "question": "Metal and wood spoons are both at 19°C. Why can metal feel colder? (practice case 4)",
+        "options": [
+          "It contains cold air permanently",
+          "It conducts heat away from the hand faster",
+          "It is always colder",
+          "It creates coldness"
+        ],
+        "answer": 1,
+        "explanation": "Metal generally conducts heat away from skin faster than wood.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq464",
+        "question": "A plant bends toward a window after 5 days. What is this growth response called? (practice case 5)",
+        "options": [
+          "Phototropism",
+          "Sedimentation",
+          "Condensation",
+          "Magnetism"
+        ],
+        "answer": 0,
+        "explanation": "Phototropism is growth in response to light direction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq465",
+        "question": "A drum sounds louder when struck harder. What changes most directly? (practice case 6)",
+        "options": [
+          "The drum stops vibrating",
+          "Sound no longer needs a medium",
+          "Light wavelength changes",
+          "Vibration amplitude increases"
+        ],
+        "answer": 3,
+        "explanation": "Greater vibration amplitude generally produces louder sound.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq466",
+        "question": "A bulb glows when a switch closes the circuit. What does this show? (practice case 7)",
+        "options": [
+          "The switch creates sunlight",
+          "The bulb needs no energy",
+          "The circuit needs a complete conducting path",
+          "Current flows through a gap"
+        ],
+        "answer": 2,
+        "explanation": "Closing the switch completes the path for current.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq467",
+        "question": "A student records 8 repeated readings. What is the best practice? (practice case 8)",
+        "options": [
+          "Choose an unrelated value",
+          "Record all readings and summarise them honestly",
+          "Delete unexpected results",
+          "Change the object to fit a prediction"
+        ],
+        "answer": 1,
+        "explanation": "Keeping all measurements supports reliable conclusions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq468",
+        "question": "Which action reduces energy use while maintaining electrical safety? (practice case 9)",
+        "options": [
+          "Switch off unused lights and use efficient bulbs",
+          "Overload sockets",
+          "Block ventilation",
+          "Leave appliances running"
+        ],
+        "answer": 0,
+        "explanation": "Efficient lighting and switching off unused lights reduce energy use safely.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq469",
+        "question": "A student compares 10 seedlings under two light levels. Which plan is fairest? (practice case 10)",
+        "options": [
+          "Change light, water and soil together",
+          "Use different plant species",
+          "Measure only the tallest after selection",
+          "Keep water, soil and pot size the same"
+        ],
+        "answer": 3,
+        "explanation": "A fair test changes light while controlling other relevant factors.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq470",
+        "question": "A mixture contains iron, sand and salt. Which sequence separates all three? (practice case 11)",
+        "options": [
+          "Thermometer only",
+          "Add more sand",
+          "Magnet, dissolve in water, filter, evaporate",
+          "Sieve only"
+        ],
+        "answer": 2,
+        "explanation": "A magnet removes iron; filtration separates sand and evaporation recovers salt.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq471",
+        "question": "Metal and wood spoons are both at 27°C. Why can metal feel colder? (practice case 12)",
+        "options": [
+          "It contains cold air permanently",
+          "It conducts heat away from the hand faster",
+          "It is always colder",
+          "It creates coldness"
+        ],
+        "answer": 1,
+        "explanation": "Metal generally conducts heat away from skin faster than wood.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq472",
+        "question": "A plant bends toward a window after 13 days. What is this growth response called? (practice case 13)",
+        "options": [
+          "Phototropism",
+          "Sedimentation",
+          "Condensation",
+          "Magnetism"
+        ],
+        "answer": 0,
+        "explanation": "Phototropism is growth in response to light direction.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq473",
+        "question": "A drum sounds louder when struck harder. What changes most directly? (practice case 14)",
+        "options": [
+          "The drum stops vibrating",
+          "Sound no longer needs a medium",
+          "Light wavelength changes",
+          "Vibration amplitude increases"
+        ],
+        "answer": 3,
+        "explanation": "Greater vibration amplitude generally produces louder sound.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq474",
+        "question": "A bulb glows when a switch closes the circuit. What does this show? (practice case 15)",
+        "options": [
+          "The switch creates sunlight",
+          "The bulb needs no energy",
+          "The circuit needs a complete conducting path",
+          "Current flows through a gap"
+        ],
+        "answer": 2,
+        "explanation": "Closing the switch completes the path for current.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq475",
+        "question": "A student records 16 repeated readings. What is the best practice? (practice case 16)",
+        "options": [
+          "Choose an unrelated value",
+          "Record all readings and summarise them honestly",
+          "Delete unexpected results",
+          "Change the object to fit a prediction"
+        ],
+        "answer": 1,
+        "explanation": "Keeping all measurements supports reliable conclusions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq476",
+        "question": "Which action reduces energy use while maintaining electrical safety? (practice case 17)",
+        "options": [
+          "Switch off unused lights and use efficient bulbs",
+          "Overload sockets",
+          "Block ventilation",
+          "Leave appliances running"
+        ],
+        "answer": 0,
+        "explanation": "Efficient lighting and switching off unused lights reduce energy use safely.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq477",
+        "question": "A student compares 18 seedlings under two light levels. Which plan is fairest? (practice case 18)",
+        "options": [
+          "Change light, water and soil together",
+          "Use different plant species",
+          "Measure only the tallest after selection",
+          "Keep water, soil and pot size the same"
+        ],
+        "answer": 3,
+        "explanation": "A fair test changes light while controlling other relevant factors.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq478",
+        "question": "A mixture contains iron, sand and salt. Which sequence separates all three? (practice case 19)",
+        "options": [
+          "Thermometer only",
+          "Add more sand",
+          "Magnet, dissolve in water, filter, evaporate",
+          "Sieve only"
+        ],
+        "answer": 2,
+        "explanation": "A magnet removes iron; filtration separates sand and evaporation recovers salt.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq479",
+        "question": "Metal and wood spoons are both at 35°C. Why can metal feel colder? (practice case 20)",
+        "options": [
+          "It contains cold air permanently",
+          "It conducts heat away from the hand faster",
+          "It is always colder",
+          "It creates coldness"
+        ],
+        "answer": 1,
+        "explanation": "Metal generally conducts heat away from skin faster than wood.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq480",
+        "question": "A plant bends toward a window after 21 days. What is this growth response called? (practice case 21)",
+        "options": [
+          "Phototropism",
+          "Sedimentation",
+          "Condensation",
+          "Magnetism"
+        ],
+        "answer": 0,
+        "explanation": "Phototropism is growth in response to light direction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq481",
+        "question": "A drum sounds louder when struck harder. What changes most directly? (practice case 22)",
+        "options": [
+          "The drum stops vibrating",
+          "Sound no longer needs a medium",
+          "Light wavelength changes",
+          "Vibration amplitude increases"
+        ],
+        "answer": 3,
+        "explanation": "Greater vibration amplitude generally produces louder sound.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq482",
+        "question": "A bulb glows when a switch closes the circuit. What does this show? (practice case 23)",
+        "options": [
+          "The switch creates sunlight",
+          "The bulb needs no energy",
+          "The circuit needs a complete conducting path",
+          "Current flows through a gap"
+        ],
+        "answer": 2,
+        "explanation": "Closing the switch completes the path for current.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq483",
+        "question": "A student records 24 repeated readings. What is the best practice? (practice case 24)",
+        "options": [
+          "Choose an unrelated value",
+          "Record all readings and summarise them honestly",
+          "Delete unexpected results",
+          "Change the object to fit a prediction"
+        ],
+        "answer": 1,
+        "explanation": "Keeping all measurements supports reliable conclusions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq484",
+        "question": "Which action reduces energy use while maintaining electrical safety? (practice case 25)",
+        "options": [
+          "Switch off unused lights and use efficient bulbs",
+          "Overload sockets",
+          "Block ventilation",
+          "Leave appliances running"
+        ],
+        "answer": 0,
+        "explanation": "Efficient lighting and switching off unused lights reduce energy use safely.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq485",
+        "question": "A student compares 26 seedlings under two light levels. Which plan is fairest? (practice case 26)",
+        "options": [
+          "Change light, water and soil together",
+          "Use different plant species",
+          "Measure only the tallest after selection",
+          "Keep water, soil and pot size the same"
+        ],
+        "answer": 3,
+        "explanation": "A fair test changes light while controlling other relevant factors.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq486",
+        "question": "A mixture contains iron, sand and salt. Which sequence separates all three? (practice case 27)",
+        "options": [
+          "Thermometer only",
+          "Add more sand",
+          "Magnet, dissolve in water, filter, evaporate",
+          "Sieve only"
+        ],
+        "answer": 2,
+        "explanation": "A magnet removes iron; filtration separates sand and evaporation recovers salt.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq487",
+        "question": "Metal and wood spoons are both at 43°C. Why can metal feel colder? (practice case 28)",
+        "options": [
+          "It contains cold air permanently",
+          "It conducts heat away from the hand faster",
+          "It is always colder",
+          "It creates coldness"
+        ],
+        "answer": 1,
+        "explanation": "Metal generally conducts heat away from skin faster than wood.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq488",
+        "question": "A plant bends toward a window after 29 days. What is this growth response called? (practice case 29)",
+        "options": [
+          "Phototropism",
+          "Sedimentation",
+          "Condensation",
+          "Magnetism"
+        ],
+        "answer": 0,
+        "explanation": "Phototropism is growth in response to light direction.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq489",
+        "question": "A drum sounds louder when struck harder. What changes most directly? (practice case 30)",
+        "options": [
+          "The drum stops vibrating",
+          "Sound no longer needs a medium",
+          "Light wavelength changes",
+          "Vibration amplitude increases"
+        ],
+        "answer": 3,
+        "explanation": "Greater vibration amplitude generally produces louder sound.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq490",
+        "question": "A bulb glows when a switch closes the circuit. What does this show? (practice case 31)",
+        "options": [
+          "The switch creates sunlight",
+          "The bulb needs no energy",
+          "The circuit needs a complete conducting path",
+          "Current flows through a gap"
+        ],
+        "answer": 2,
+        "explanation": "Closing the switch completes the path for current.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq491",
+        "question": "A student records 32 repeated readings. What is the best practice? (practice case 32)",
+        "options": [
+          "Choose an unrelated value",
+          "Record all readings and summarise them honestly",
+          "Delete unexpected results",
+          "Change the object to fit a prediction"
+        ],
+        "answer": 1,
+        "explanation": "Keeping all measurements supports reliable conclusions.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq492",
+        "question": "Which action reduces energy use while maintaining electrical safety? (practice case 33)",
+        "options": [
+          "Switch off unused lights and use efficient bulbs",
+          "Overload sockets",
+          "Block ventilation",
+          "Leave appliances running"
+        ],
+        "answer": 0,
+        "explanation": "Efficient lighting and switching off unused lights reduce energy use safely.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq493",
+        "question": "A student compares 34 seedlings under two light levels. Which plan is fairest? (practice case 34)",
+        "options": [
+          "Change light, water and soil together",
+          "Use different plant species",
+          "Measure only the tallest after selection",
+          "Keep water, soil and pot size the same"
+        ],
+        "answer": 3,
+        "explanation": "A fair test changes light while controlling other relevant factors.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq494",
+        "question": "A mixture contains iron, sand and salt. Which sequence separates all three? (practice case 35)",
+        "options": [
+          "Thermometer only",
+          "Add more sand",
+          "Magnet, dissolve in water, filter, evaporate",
+          "Sieve only"
+        ],
+        "answer": 2,
+        "explanation": "A magnet removes iron; filtration separates sand and evaporation recovers salt.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq495",
+        "question": "Metal and wood spoons are both at 51°C. Why can metal feel colder? (practice case 36)",
+        "options": [
+          "It contains cold air permanently",
+          "It conducts heat away from the hand faster",
+          "It is always colder",
+          "It creates coldness"
+        ],
+        "answer": 1,
+        "explanation": "Metal generally conducts heat away from skin faster than wood.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq496",
+        "question": "A plant bends toward a window after 37 days. What is this growth response called? (practice case 37)",
+        "options": [
+          "Phototropism",
+          "Sedimentation",
+          "Condensation",
+          "Magnetism"
+        ],
+        "answer": 0,
+        "explanation": "Phototropism is growth in response to light direction.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6nsoq497",
+        "question": "A drum sounds louder when struck harder. What changes most directly? (practice case 38)",
+        "options": [
+          "The drum stops vibrating",
+          "Sound no longer needs a medium",
+          "Light wavelength changes",
+          "Vibration amplitude increases"
+        ],
+        "answer": 3,
+        "explanation": "Greater vibration amplitude generally produces louder sound.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq498",
+        "question": "A bulb glows when a switch closes the circuit. What does this show? (practice case 39)",
+        "options": [
+          "The switch creates sunlight",
+          "The bulb needs no energy",
+          "The circuit needs a complete conducting path",
+          "Current flows through a gap"
+        ],
+        "answer": 2,
+        "explanation": "Closing the switch completes the path for current.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq499",
+        "question": "A student records 40 repeated readings. What is the best practice? (practice case 40)",
+        "options": [
+          "Choose an unrelated value",
+          "Record all readings and summarise them honestly",
+          "Delete unexpected results",
+          "Change the object to fit a prediction"
+        ],
+        "answer": 1,
+        "explanation": "Keeping all measurements supports reliable conclusions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq500",
+        "question": "Which action reduces energy use while maintaining electrical safety? (practice case 41)",
+        "options": [
+          "Switch off unused lights and use efficient bulbs",
+          "Overload sockets",
+          "Block ventilation",
+          "Leave appliances running"
+        ],
+        "answer": 0,
+        "explanation": "Efficient lighting and switching off unused lights reduce energy use safely.",
+        "difficulty": "Medium"
       }
     ]
   }
