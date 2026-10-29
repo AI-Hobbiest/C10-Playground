@@ -53,7 +53,7 @@ for(const chapter of mathBank){
   }
 }
 const catalog=JSON.parse(fs.readFileSync("data/classes.json","utf8"));
-assert.deepEqual(catalog.classes.find(row=>row.classId==="6").subjects,["science","mathematics","english","social-science","mathematics-sof","science-sof"],"Class 6 includes CBSE subjects plus separate SOF Mathematics and Science subjects");
+assert.deepEqual(catalog.classes.find(row=>row.classId==="6").subjects,["science","mathematics","english","social-science","mathematics-sof","science-sof","english-sof"],"Class 6 includes CBSE subjects plus separate SOF Mathematics and Science subjects");
 assert.deepEqual(catalog.classes.find(row=>row.classId==="10").subjects,["science","mathematics","english","social-science","hindi"],"Class 10 subjects remain unchanged");
 const context={window:{}};context.globalThis=context;vm.createContext(context);
 vm.runInContext(fs.readFileSync("js/question-bank.js","utf8"),context,{filename:"js/question-bank.js"});
