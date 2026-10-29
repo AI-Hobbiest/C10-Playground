@@ -68,11 +68,11 @@ assert.equal(new Set(socialQuestions.map(question=>question.questionKey)).size,1
 
 const englishBank=JSON.parse(fs.readFileSync("data/class-6-english.json","utf8"));
 assert.equal(englishBank.length,16,"Class 6 English follows the 16 reading pieces in Poorvi (2026-27)");
-assert.equal(englishBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),320,"Class 6 English contains 20 distinct MCQs per reading piece");
+assert.equal(englishBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),1600,"Class 6 English contains 100 MCQs per reading piece");
 const englishPrompts=new Set(),englishIds=new Set();
 for(const chapter of englishBank){
   assert.ok(chapter.title,"every English topic has a title");
-  assert.equal(chapter.questions.length,20,"each English topic has 20 distinct questions");
+  assert.equal(chapter.questions.length,100,"each English topic has 100 distinct questions");
   assert.ok(chapter.section&&chapter.section.startsWith("Unit "),"each English topic records the source unit");
   for(const question of chapter.questions){
     assert.ok(question.id&&question.question&&question.explanation,"English question ID, prompt and explanation are present");
@@ -87,8 +87,8 @@ for(const chapter of englishBank){
 
 const normalizedEnglish=context.window.C10QuestionBank.normalize(englishBank,"class-6-english");
 const englishQuestions=normalizedEnglish.flatMap(chapter=>chapter.questions);
-assert.equal(englishQuestions.length,320);
-assert.equal(new Set(englishQuestions.map(question=>question.questionKey)).size,320,"Class 6 English question keys are unique");
+assert.equal(englishQuestions.length,1600);
+assert.equal(new Set(englishQuestions.map(question=>question.questionKey)).size,1600,"Class 6 English question keys are unique");
 
 const normalizedMath=context.window.C10QuestionBank.normalize(mathBank,"class-6-mathematics");
 const mathQuestions=normalizedMath.flatMap(chapter=>chapter.questions);
