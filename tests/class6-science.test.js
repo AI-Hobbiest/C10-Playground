@@ -129,10 +129,10 @@ assert.ok(engine.includes('"mathematics-sof": { title:"Mathematics - SOF"'),"SOF
 
 const sofScienceBank=JSON.parse(fs.readFileSync("data/class-6-science-sof.json","utf8"));
 assert.equal(sofScienceBank.length,10,"Class 6 SOF NSO bank has ten topic sets");
-assert.equal(sofScienceBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),100,"Class 6 SOF NSO bank contains 100 original practice MCQs");
+assert.equal(sofScienceBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),500,"Class 6 SOF NSO bank contains 500 original practice MCQs");
 const sofScienceIds=new Set(),sofSciencePrompts=new Set();
 for(const chapter of sofScienceBank){
-  assert.ok(chapter.title&&chapter.questions.length===10,"each SOF Science topic has ten questions");
+  assert.ok(chapter.title&&chapter.questions.length===50,"each SOF Science topic has fifty questions");
   for(const question of chapter.questions){
     assert.ok(question.id&&question.question&&question.explanation,"SOF Science question has ID, prompt and explanation");
     assert.ok(!sofScienceIds.has(question.id),"SOF Science question IDs are unique");sofScienceIds.add(question.id);
@@ -143,8 +143,8 @@ for(const chapter of sofScienceBank){
   }
 }
 const normalizedSofScience=context.window.C10QuestionBank.normalize(sofScienceBank,"class-6-science-sof");
-assert.equal(normalizedSofScience.flatMap(chapter=>chapter.questions).length,100,"SOF Science bank normalizes through shared engine");
-assert.equal(new Set(normalizedSofScience.flatMap(chapter=>chapter.questions).map(question=>question.questionKey)).size,100,"SOF Science question keys are unique");
+assert.equal(normalizedSofScience.flatMap(chapter=>chapter.questions).length,500,"SOF Science bank normalizes through shared engine");
+assert.equal(new Set(normalizedSofScience.flatMap(chapter=>chapter.questions).map(question=>question.questionKey)).size,500,"SOF Science question keys are unique");
 assert.ok(engine.includes('"science-sof": { title:"Science - SOF"'),"SOF Science has its own named subject entry");
 
 const languageFiller = /For a language note connected|correct plural of friend|the chapter’s main idea/i;
