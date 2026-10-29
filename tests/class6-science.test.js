@@ -108,7 +108,7 @@ assert.ok(engine.includes('fetch("./data/"+bankId+".json"'),"the shared engine l
 const sofBank=JSON.parse(fs.readFileSync("data/class-6-mathematics-sof.json","utf8"));
 assert.equal(sofBank.length,10,"Class 6 SOF IMO bank has ten topic sets");
 assert.equal(sofBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),500,"Class 6 SOF IMO bank contains 500 original practice MCQs");
-tfor(const chapter of sofBank)assert.equal(chapter.questions.length,50,"each SOF IMO topic has 50 questions");
+for(const chapter of sofBank)assert.equal(chapter.questions.length,50,"each SOF IMO topic has 50 questions");
 const sofIds=new Set(),sofPrompts=new Set();
 for(const chapter of sofBank){
   assert.ok(chapter.title&&chapter.questions.length>0,"each SOF topic has questions");
