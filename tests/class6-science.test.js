@@ -98,7 +98,7 @@ for(const question of questions)assert.ok(question.options.includes(question.opt
 const engine=fs.readFileSync("js/quiz-engine.js","utf8");
 assert.ok(engine.includes('const bankId = classId === "10" ? subject : "class-" + classId + "-" + subject'),"non-Class-10 learners use class-prefixed question-bank files");
 assert.ok(engine.includes('"3":["mathematics"]'),"Class 3 only exposes its published Mathematics bank");
-assert.ok(engine.includes('"6":["science","science-sof","mathematics","mathematics-sof","english","social-science"]'),"Class 6 subject banks stay explicitly mapped including Mathematics - SOF");
+assert.ok(engine.includes('"6":["science","science-sof","mathematics","mathematics-sof","english","english-sof","social-science"]'),"Class 6 subject banks stay explicitly mapped including Mathematics - SOF");
 assert.ok(engine.includes('if(!(CLASS_SUBJECTS[classId]||[]).includes(subject))'),"unpublished class-subject combinations are blocked");
 assert.ok(engine.includes('sessionStorage.getItem("c10playground_static_student_v1")'),"quiz engine reads the same static student session as the navigation");
 assert.ok(engine.includes('recordId:bankId'),"progress and attempts are isolated by class-specific bank");
