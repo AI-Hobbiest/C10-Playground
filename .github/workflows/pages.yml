@@ -238,7 +238,7 @@ jobs:
             'class-6-mathematics': { chapters: 10, questions: 1000 },
             'class-6-english': { chapters: 16, questions: 1600 },
             'class-6-social-science': { chapters: 14, questions: 1400 },
-            'class-6-mathematics-sof': { chapters: 10, questions: 100 },
+            'class-6-mathematics-sof': { chapters: 10, questions: 500 },
             'class-6-science-sof': { chapters: 10, questions: 100 }
           };
           for (const [name, totals] of Object.entries(expected)) {
