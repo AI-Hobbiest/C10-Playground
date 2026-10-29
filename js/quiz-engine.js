@@ -6,6 +6,7 @@ const SUBJECTS = {
   mathematics: { title:"Mathematics", icon:"📐", subtitle:"Reason it out, work step by step, and use each mistake to sharpen the method." },
   "mathematics-sof": { title:"Mathematics - SOF", icon:"🏆", subtitle:"Class 6 SOF International Mathematics Olympiad (IMO) practice with original reasoning-focused questions." },
   english: { title:"English", icon:"📚", subtitle:"Practise reading, grammar and original questions about the prescribed literature." },
+  "english-sof": { title:"English - SOF", icon:"🏆", subtitle:"Class 6 SOF International English Olympiad (IEO) practice across vocabulary, grammar, reading and verbal ability." },
   "social-science": { title:"Social Science", icon:"🌍", subtitle:"Connect historical evidence, geography, democratic ideas and economic choices." },
   hindi: { title:"Hindi · Course A / Course B", icon:"📝", subtitle:"Core grammar, comprehension, and starter literature practice. Choose the course that matches your school." }
 };
@@ -24,7 +25,7 @@ function readActiveStudent(){
 const activeStudent = readActiveStudent();
 const classId = String(activeStudent && activeStudent.classId || "10");
 const bankId = classId === "10" ? subject : "class-" + classId + "-" + subject;
-const CLASS_SUBJECTS = { "3":["mathematics"], "6":["science","science-sof","mathematics","mathematics-sof","english","social-science"], "10":["science","mathematics","english","social-science","hindi"] };
+const CLASS_SUBJECTS = { "3":["mathematics"], "6":["science","science-sof","mathematics","mathematics-sof","english","english-sof","social-science"], "10":["science","mathematics","english","social-science","hindi"] };
 const config = SUBJECTS[subject];
 let chapters=[], mode="learn", session=[], index=0, picked=null, answers=[], lastMissed=[];
 let currentAttempt=null, completedAttempt=null, clockHandle=null, ledger;
