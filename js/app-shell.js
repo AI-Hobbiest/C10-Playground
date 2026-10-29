@@ -9,6 +9,7 @@
     {label:"Levels & rewards",icon:"🏆",href:"./dashboard.html#rewards",page:"dashboard.html",hash:"#rewards",auth:"student"},
     {section:"SUBJECTS",auth:"student"},
     {label:"Science",icon:"🧪",href:"./practice.html?subject=science",page:"practice.html",subject:"science",auth:"student"},
+    {label:"Science - SOF",icon:"🏆",href:"./practice.html?subject=science-sof",page:"practice.html",subject:"science-sof",auth:"student"},
     {label:"Mathematics",icon:"📐",href:"./practice.html?subject=mathematics",page:"practice.html",subject:"mathematics",auth:"student"},
     {label:"Mathematics - SOF",icon:"🏆",href:"./practice.html?subject=mathematics-sof",page:"practice.html",subject:"mathematics-sof",auth:"student"},
     {label:"English",icon:"📖",href:"./practice.html?subject=english",page:"practice.html",subject:"english",auth:"student"},
