@@ -107,7 +107,8 @@ assert.ok(engine.includes('fetch("./data/"+bankId+".json"'),"the shared engine l
 
 const sofBank=JSON.parse(fs.readFileSync("data/class-6-mathematics-sof.json","utf8"));
 assert.equal(sofBank.length,10,"Class 6 SOF IMO bank has ten topic sets");
-assert.equal(sofBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),100,"Class 6 SOF IMO bank contains 100 original practice MCQs");
+assert.equal(sofBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),500,"Class 6 SOF IMO bank contains 500 original practice MCQs");
+tfor(const chapter of sofBank)assert.equal(chapter.questions.length,50,"each SOF IMO topic has 50 questions");
 const sofIds=new Set(),sofPrompts=new Set();
 for(const chapter of sofBank){
   assert.ok(chapter.title&&chapter.questions.length>0,"each SOF topic has questions");
@@ -121,8 +122,8 @@ for(const chapter of sofBank){
   }
 }
 const normalizedSof=context.window.C10QuestionBank.normalize(sofBank,"class-6-mathematics-sof");
-assert.equal(normalizedSof.flatMap(chapter=>chapter.questions).length,100,"SOF bank normalizes through shared engine");
-assert.equal(new Set(normalizedSof.flatMap(chapter=>chapter.questions).map(question=>question.questionKey)).size,100,"SOF question keys are unique");
+assert.equal(normalizedSof.flatMap(chapter=>chapter.questions).length,500,"SOF bank normalizes through shared engine");
+assert.equal(new Set(normalizedSof.flatMap(chapter=>chapter.questions).map(question=>question.questionKey)).size,500,"SOF question keys are unique");
 assert.ok(engine.includes('"mathematics-sof": { title:"Mathematics - SOF"'),"SOF has its own named subject entry");
 
 
