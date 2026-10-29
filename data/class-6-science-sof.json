@@ -1,0 +1,1372 @@
+[
+  {
+    "chapter_no": 1,
+    "title": "Scientific Method & Measurement",
+    "key": "sof-nso-scientific-method-measurement",
+    "questions": [
+      {
+        "id": "c6nsoq001",
+        "question": "Which is the best first step when investigating why a plant is wilting?",
+        "options": [
+          "Observe the plant and gather information",
+          "Add several chemicals immediately",
+          "Assume the cause without checking",
+          "Throw the plant away"
+        ],
+        "answer": 0,
+        "explanation": "Careful observation helps frame a testable question.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq002",
+        "question": "A student tests whether sunlight affects seedling growth. Which factor should be changed deliberately?",
+        "options": [
+          "Type of seed in each pot",
+          "Amount of water for each pot",
+          "Size of each pot",
+          "Amount of sunlight"
+        ],
+        "answer": 3,
+        "explanation": "Change one variable while keeping other conditions the same.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq003",
+        "question": "Which tool is most suitable for measuring the length of a pencil?",
+        "options": [
+          "Thermometer",
+          "Measuring cylinder",
+          "Ruler",
+          "Compass"
+        ],
+        "answer": 2,
+        "explanation": "A ruler measures length.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq004",
+        "question": "Which unit is appropriate for the length of a classroom?",
+        "options": [
+          "Millilitre",
+          "Metre",
+          "Gram",
+          "Degree Celsius"
+        ],
+        "answer": 1,
+        "explanation": "Room length is conveniently measured in metres.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq005",
+        "question": "Why should a measurement be repeated?",
+        "options": [
+          "To check reliability and reduce accidental error",
+          "To make the result larger",
+          "To guarantee the expected result",
+          "To avoid recording data"
+        ],
+        "answer": 0,
+        "explanation": "Repeated measurements help identify unusual readings and improve confidence.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq006",
+        "question": "Which statement is an observation rather than an explanation?",
+        "options": [
+          "The plant lacks a nutrient",
+          "The soil is definitely poisonous",
+          "The plant is unhappy",
+          "The leaf has yellow patches"
+        ],
+        "answer": 3,
+        "explanation": "An observation records what can be seen directly.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq007",
+        "question": "A fair test compares two groups of plants. What should be kept the same?",
+        "options": [
+          "Every condition including the tested one",
+          "Only the labels",
+          "All conditions except the one being tested",
+          "Nothing at all"
+        ],
+        "answer": 2,
+        "explanation": "A fair test changes one factor and controls the others.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq008",
+        "question": "Which is a testable question?",
+        "options": [
+          "Are plants beautiful?",
+          "Does the amount of water affect bean plant growth?",
+          "Is science the best subject?",
+          "Do flowers feel proud?"
+        ],
+        "answer": 1,
+        "explanation": "A testable question can be investigated through observations or experiments.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq009",
+        "question": "A beaker contains 35 mL of water. Which tool measures this volume most accurately?",
+        "options": [
+          "Graduated measuring cylinder",
+          "Metre ruler",
+          "Spring balance",
+          "Stopwatch"
+        ],
+        "answer": 0,
+        "explanation": "A graduated cylinder is designed to measure liquid volume.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq010",
+        "question": "Why should results be recorded in a table?",
+        "options": [
+          "To change the observations",
+          "To hide unexpected results",
+          "To replace the experiment",
+          "To organise and compare observations clearly"
+        ],
+        "answer": 3,
+        "explanation": "Tables make patterns and comparisons easier to identify.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 2,
+    "title": "Plants & Photosynthesis",
+    "key": "sof-nso-plants-photosynthesis",
+    "questions": [
+      {
+        "id": "c6nsoq011",
+        "question": "Which plant part usually absorbs water from the soil?",
+        "options": [
+          "Flowers",
+          "Roots",
+          "Fruits",
+          "Petals"
+        ],
+        "answer": 1,
+        "explanation": "Roots absorb water and minerals from the soil.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq012",
+        "question": "Which gas do green plants take in for photosynthesis?",
+        "options": [
+          "Carbon dioxide",
+          "Oxygen",
+          "Nitrogen",
+          "Hydrogen"
+        ],
+        "answer": 0,
+        "explanation": "Plants use carbon dioxide and water to make food using light energy.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq013",
+        "question": "What is the main role of leaves in most green plants?",
+        "options": [
+          "Anchoring the plant in soil",
+          "Absorbing water from deep soil",
+          "Protecting seeds inside fruits",
+          "Making food by photosynthesis"
+        ],
+        "answer": 3,
+        "explanation": "Leaves contain chlorophyll and are the main site of photosynthesis.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq014",
+        "question": "Which part usually develops into a fruit after fertilisation?",
+        "options": [
+          "Root tip",
+          "Leaf stalk",
+          "Ovary of the flower",
+          "Sepal only"
+        ],
+        "answer": 2,
+        "explanation": "The flower's ovary develops into the fruit.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq015",
+        "question": "What is the function of a flower's petals in many plants?",
+        "options": [
+          "Absorb minerals from soil",
+          "Attract pollinators",
+          "Carry water from roots",
+          "Anchor the plant"
+        ],
+        "answer": 1,
+        "explanation": "Bright petals can attract insects and other pollinators.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq016",
+        "question": "A plant kept in darkness for a long time may become pale because it cannot make enough",
+        "options": [
+          "Chlorophyll",
+          "Sand",
+          "Mineral oil",
+          "Carbon dioxide"
+        ],
+        "answer": 0,
+        "explanation": "Light is needed for normal chlorophyll formation and photosynthesis.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq017",
+        "question": "Which of these is most likely dispersed by wind?",
+        "options": [
+          "A heavy coconut with no air space",
+          "A seed inside a juicy fruit eaten by birds",
+          "A burr with hooks",
+          "A light, feathery seed"
+        ],
+        "answer": 3,
+        "explanation": "Light seeds with hairs or wings can be carried by air.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq018",
+        "question": "Which structure carries water from roots towards leaves?",
+        "options": [
+          "Petals",
+          "Pollen grains",
+          "Xylem vessels",
+          "Root hairs only"
+        ],
+        "answer": 2,
+        "explanation": "Xylem transports water and minerals through the plant.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq019",
+        "question": "What is pollination?",
+        "options": [
+          "Growth of a root towards water",
+          "Transfer of pollen from anther to stigma",
+          "Formation of food in leaves",
+          "Release of water vapour from leaves"
+        ],
+        "answer": 1,
+        "explanation": "Pollination transfers pollen to the stigma of a flower.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq020",
+        "question": "Which condition is essential for photosynthesis?",
+        "options": [
+          "Light",
+          "Complete absence of water",
+          "No carbon dioxide",
+          "Total darkness"
+        ],
+        "answer": 0,
+        "explanation": "Photosynthesis requires light, water and carbon dioxide; chlorophyll captures light energy.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 3,
+    "title": "Animals & Human Body",
+    "key": "sof-nso-animals-human-body",
+    "questions": [
+      {
+        "id": "c6nsoq021",
+        "question": "Which organ pumps blood around the human body?",
+        "options": [
+          "Lungs",
+          "Stomach",
+          "Heart",
+          "Kidneys"
+        ],
+        "answer": 2,
+        "explanation": "The heart pumps blood through blood vessels.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq022",
+        "question": "Which body system helps us breathe?",
+        "options": [
+          "Digestive system",
+          "Respiratory system",
+          "Skeletal system",
+          "Excretory system"
+        ],
+        "answer": 1,
+        "explanation": "The respiratory system includes airways and lungs.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq023",
+        "question": "Which part of the skeleton protects the brain?",
+        "options": [
+          "Skull",
+          "Rib cage",
+          "Pelvis",
+          "Spine"
+        ],
+        "answer": 0,
+        "explanation": "The skull surrounds and protects the brain.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq024",
+        "question": "Which animal is a herbivore?",
+        "options": [
+          "Tiger",
+          "Eagle",
+          "Crocodile",
+          "Deer"
+        ],
+        "answer": 3,
+        "explanation": "Herbivores feed mainly on plants; deer eat leaves and grasses.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq025",
+        "question": "Which adaptation helps a fish breathe underwater?",
+        "options": [
+          "Lungs only",
+          "Feathers",
+          "Gills",
+          "Moist skin only"
+        ],
+        "answer": 2,
+        "explanation": "Gills extract dissolved oxygen from water.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq026",
+        "question": "Which is an example of a vertebrate?",
+        "options": [
+          "Earthworm",
+          "Frog",
+          "Snail",
+          "Butterfly"
+        ],
+        "answer": 1,
+        "explanation": "Vertebrates have a backbone; frogs are amphibian vertebrates.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq027",
+        "question": "What is the main function of the small intestine?",
+        "options": [
+          "Absorb digested nutrients",
+          "Pump blood",
+          "Exchange gases with air",
+          "Filter sound"
+        ],
+        "answer": 0,
+        "explanation": "Most nutrient absorption occurs in the small intestine.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq028",
+        "question": "Which joint allows the arm to move in many directions at the shoulder?",
+        "options": [
+          "Hinge joint",
+          "Fixed joint",
+          "Pivot joint only",
+          "Ball-and-socket joint"
+        ],
+        "answer": 3,
+        "explanation": "The shoulder's ball-and-socket joint allows movement in several directions.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq029",
+        "question": "Which relationship is correctly matched?",
+        "options": [
+          "Lion and deer — both benefit",
+          "Tick and dog — neither is affected",
+          "Bee and flowering plant — mutual benefit",
+          "Cactus and desert — both are animals"
+        ],
+        "answer": 2,
+        "explanation": "Bees gain nectar or pollen while helping pollinate flowers.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq030",
+        "question": "Why do mammals feed milk to their young?",
+        "options": [
+          "Milk helps them breathe underwater",
+          "Milk provides nourishment",
+          "Milk replaces their skeleton",
+          "Milk makes them plants"
+        ],
+        "answer": 1,
+        "explanation": "Mammalian mothers produce milk to nourish their young.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 4,
+    "title": "Food & Nutrition",
+    "key": "sof-nso-food-nutrition",
+    "questions": [
+      {
+        "id": "c6nsoq031",
+        "question": "Which nutrient is the body's main immediate source of energy?",
+        "options": [
+          "Vitamins",
+          "Minerals",
+          "Water",
+          "Carbohydrates"
+        ],
+        "answer": 3,
+        "explanation": "Carbohydrates are an important energy source.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq032",
+        "question": "Which food is a good source of protein?",
+        "options": [
+          "Sugar",
+          "Cooking oil",
+          "Lentils",
+          "Salt"
+        ],
+        "answer": 2,
+        "explanation": "Pulses such as lentils provide plant protein.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq033",
+        "question": "Which vitamin is made in the skin with help from sunlight?",
+        "options": [
+          "Vitamin C",
+          "Vitamin D",
+          "Vitamin B12",
+          "Vitamin K only"
+        ],
+        "answer": 1,
+        "explanation": "Sunlight helps the skin synthesise vitamin D.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq034",
+        "question": "Which nutrient helps build and repair body tissues?",
+        "options": [
+          "Protein",
+          "Water only",
+          "Dietary fibre only",
+          "Salt"
+        ],
+        "answer": 0,
+        "explanation": "Proteins supply building materials for growth and tissue repair.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq035",
+        "question": "Why is dietary fibre useful?",
+        "options": [
+          "It replaces all vitamins",
+          "It supplies more energy than fat",
+          "It stops the need for water",
+          "It helps food move through the digestive tract"
+        ],
+        "answer": 3,
+        "explanation": "Fibre supports healthy bowel movement.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq036",
+        "question": "Which is the best example of a balanced meal?",
+        "options": [
+          "Only sweets",
+          "Only fried chips",
+          "Rice, dal, vegetables and curd",
+          "Only soft drink"
+        ],
+        "answer": 2,
+        "explanation": "A varied meal provides different nutrients.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq037",
+        "question": "Which practice helps prevent food contamination?",
+        "options": [
+          "Leave cooked food uncovered near flies",
+          "Wash hands before handling food",
+          "Use the same unwashed board for raw meat and fruit",
+          "Taste food to test whether it is safe"
+        ],
+        "answer": 1,
+        "explanation": "Handwashing reduces transfer of germs to food.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq038",
+        "question": "Which nutrient is especially important for healthy bones and teeth?",
+        "options": [
+          "Calcium",
+          "Starch",
+          "Vitamin C only",
+          "Dietary fibre"
+        ],
+        "answer": 0,
+        "explanation": "Calcium is a key mineral in bones and teeth.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq039",
+        "question": "A lack of iron can lead to which condition?",
+        "options": [
+          "Scurvy",
+          "Night blindness",
+          "Rickets only",
+          "Anaemia"
+        ],
+        "answer": 3,
+        "explanation": "Iron is needed to make haemoglobin; deficiency can cause anaemia.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq040",
+        "question": "Why should we drink safe water regularly?",
+        "options": [
+          "It replaces all food",
+          "It removes the need for sleep",
+          "It supports body functions and prevents dehydration",
+          "It provides all nutrients in sufficient amounts"
+        ],
+        "answer": 2,
+        "explanation": "Water is essential for transport, temperature regulation and other body processes.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 5,
+    "title": "Materials & Separation",
+    "key": "sof-nso-materials-separation",
+    "questions": [
+      {
+        "id": "c6nsoq041",
+        "question": "Which material is attracted to a magnet?",
+        "options": [
+          "Iron",
+          "Wood",
+          "Glass",
+          "Rubber"
+        ],
+        "answer": 0,
+        "explanation": "Iron is a magnetic material.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq042",
+        "question": "Which method separates insoluble sand from water?",
+        "options": [
+          "Evaporation only",
+          "Magnetic separation",
+          "Churning",
+          "Filtration"
+        ],
+        "answer": 3,
+        "explanation": "Filter paper traps sand while water passes through.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq043",
+        "question": "How can salt be recovered from salt solution?",
+        "options": [
+          "Use a magnet",
+          "Filter out dissolved salt",
+          "Evaporate the water",
+          "Pick salt grains by hand"
+        ],
+        "answer": 2,
+        "explanation": "Evaporation removes water and leaves salt behind.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq044",
+        "question": "Which object is translucent?",
+        "options": [
+          "Clear window glass",
+          "Frosted glass",
+          "Wooden plank",
+          "Metal sheet"
+        ],
+        "answer": 1,
+        "explanation": "Translucent materials let some light through but do not form a clear image.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq045",
+        "question": "Which material is a good conductor of electricity?",
+        "options": [
+          "Copper",
+          "Rubber",
+          "Dry wood",
+          "Plastic"
+        ],
+        "answer": 0,
+        "explanation": "Copper is a metal and conducts electricity well.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq046",
+        "question": "Which property makes aluminium useful for making cooking foil?",
+        "options": [
+          "It dissolves quickly in water",
+          "It is attracted strongly to magnets",
+          "It is transparent",
+          "It can be rolled into thin sheets"
+        ],
+        "answer": 3,
+        "explanation": "Malleability allows aluminium to be made into thin sheets.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq047",
+        "question": "A mixture contains iron filings and sand. Which is the simplest way to separate them?",
+        "options": [
+          "Add more sand",
+          "Filter through cloth",
+          "Use a magnet",
+          "Freeze the mixture"
+        ],
+        "answer": 2,
+        "explanation": "A magnet attracts the iron filings but not the sand.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq048",
+        "question": "Which substance dissolves readily in water?",
+        "options": [
+          "Chalk powder",
+          "Sugar",
+          "Cooking oil",
+          "Sand"
+        ],
+        "answer": 1,
+        "explanation": "Sugar dissolves in water to form a solution.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq049",
+        "question": "Which is an example of an irreversible change?",
+        "options": [
+          "Burning paper",
+          "Melting ice",
+          "Freezing water",
+          "Dissolving sugar in water"
+        ],
+        "answer": 0,
+        "explanation": "Burning creates new substances and cannot be reversed simply.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq050",
+        "question": "Which pair is correctly matched with a separation method?",
+        "options": [
+          "Salt from salt solution — sieving",
+          "Iron filings from sand — evaporation",
+          "Oil from water — magnetism",
+          "Tea leaves from tea — filtration"
+        ],
+        "answer": 3,
+        "explanation": "A strainer or filter separates solid tea leaves from liquid tea.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 6,
+    "title": "Motion & Measurement",
+    "key": "sof-nso-motion-measurement",
+    "questions": [
+      {
+        "id": "c6nsoq051",
+        "question": "Which is the SI unit of length?",
+        "options": [
+          "Kilogram",
+          "Metre",
+          "Second",
+          "Litre"
+        ],
+        "answer": 1,
+        "explanation": "The SI base unit for length is the metre.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq052",
+        "question": "A cyclist travels 60 metres in 10 seconds. What is the average speed?",
+        "options": [
+          "6 m/s",
+          "10 m/s",
+          "50 m/s",
+          "600 m/s"
+        ],
+        "answer": 0,
+        "explanation": "Speed = distance ÷ time = 60 ÷ 10 = 6 m/s.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq053",
+        "question": "Which motion repeats at regular intervals?",
+        "options": [
+          "Random motion",
+          "Only straight-line motion",
+          "Motionless state",
+          "Periodic motion"
+        ],
+        "answer": 3,
+        "explanation": "Periodic motion repeats after equal time intervals.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq054",
+        "question": "Which instrument measures time intervals in a race?",
+        "options": [
+          "Thermometer",
+          "Barometer",
+          "Stopwatch",
+          "Measuring cylinder"
+        ],
+        "answer": 2,
+        "explanation": "A stopwatch measures elapsed time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq055",
+        "question": "A car moves along a straight road. This is an example of",
+        "options": [
+          "Circular motion",
+          "Rectilinear motion",
+          "Rotational motion only",
+          "No motion"
+        ],
+        "answer": 1,
+        "explanation": "Rectilinear motion occurs along a straight line.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq056",
+        "question": "The tip of a clock's second hand moves in what path?",
+        "options": [
+          "Circle",
+          "Straight line",
+          "Square",
+          "Zigzag"
+        ],
+        "answer": 0,
+        "explanation": "The hand rotates around the clock's centre, tracing a circle.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq057",
+        "question": "If the same distance is covered in less time, average speed is",
+        "options": [
+          "Smaller",
+          "Always zero",
+          "Unchanged in every case",
+          "Greater"
+        ],
+        "answer": 3,
+        "explanation": "Speed increases when distance stays fixed and time decreases.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq058",
+        "question": "Which reading is most suitable for a room's temperature?",
+        "options": [
+          "28 kg",
+          "28 cm",
+          "28 °C",
+          "28 mL"
+        ],
+        "answer": 2,
+        "explanation": "Temperature is measured in degrees Celsius in everyday settings.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq059",
+        "question": "Why should the eye be level with the liquid surface when reading a measuring cylinder?",
+        "options": [
+          "To make the liquid warmer",
+          "To reduce parallax error",
+          "To increase the volume",
+          "To change the liquid's colour"
+        ],
+        "answer": 1,
+        "explanation": "Eye-level reading reduces parallax error.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq060",
+        "question": "A runner completes one full lap of a circular track and returns to the start. What is the displacement?",
+        "options": [
+          "Zero",
+          "Equal to the track circumference",
+          "Always one metre",
+          "Twice the circumference"
+        ],
+        "answer": 0,
+        "explanation": "Displacement is zero when the final position equals the initial position.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 7,
+    "title": "Light, Shadows & Sound",
+    "key": "sof-nso-light-shadows-sound",
+    "questions": [
+      {
+        "id": "c6nsoq061",
+        "question": "Light usually travels in which way through a uniform transparent medium?",
+        "options": [
+          "Only in circles",
+          "Only upward",
+          "In straight lines",
+          "In a zigzag path"
+        ],
+        "answer": 2,
+        "explanation": "Light travels in straight lines in a uniform medium.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq062",
+        "question": "Which object is luminous?",
+        "options": [
+          "The Moon",
+          "A lit electric bulb",
+          "A book",
+          "A mirror"
+        ],
+        "answer": 1,
+        "explanation": "A luminous object produces its own light.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq063",
+        "question": "A shadow forms when light is blocked by an",
+        "options": [
+          "Opaque object",
+          "Transparent object only",
+          "Empty space",
+          "Sound wave"
+        ],
+        "answer": 0,
+        "explanation": "An opaque object blocks light and creates a shadow.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq064",
+        "question": "Which surface gives the clearest regular reflection?",
+        "options": [
+          "Rough wall",
+          "Crushed paper",
+          "Unpolished stone",
+          "Smooth plane mirror"
+        ],
+        "answer": 3,
+        "explanation": "A smooth surface reflects light in an orderly way.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq065",
+        "question": "The Moon appears bright mainly because it",
+        "options": [
+          "Produces sunlight itself",
+          "Stores electricity",
+          "Reflects sunlight",
+          "Burns like a lamp"
+        ],
+        "answer": 2,
+        "explanation": "The Moon reflects light from the Sun.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq066",
+        "question": "Which is needed for a shadow to form?",
+        "options": [
+          "Only sound",
+          "Light source, opaque object and screen or surface",
+          "Only a transparent object",
+          "A magnet and iron"
+        ],
+        "answer": 1,
+        "explanation": "A shadow appears where an opaque object blocks light from reaching a surface.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq067",
+        "question": "Sound is produced by",
+        "options": [
+          "Vibrations",
+          "Shadows",
+          "Reflection of light only",
+          "Still objects without movement"
+        ],
+        "answer": 0,
+        "explanation": "Vibrating objects produce sound.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq068",
+        "question": "Why can sound not travel through a vacuum?",
+        "options": [
+          "It always travels only through water",
+          "Vacuum absorbs all light",
+          "Sound is a type of shadow",
+          "It needs a material medium to carry vibrations"
+        ],
+        "answer": 3,
+        "explanation": "Sound requires particles to transmit vibrations.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq069",
+        "question": "Which material is likely to absorb more sound and reduce echoes?",
+        "options": [
+          "Bare concrete wall",
+          "Metal sheet",
+          "Thick curtain",
+          "Glass pane"
+        ],
+        "answer": 2,
+        "explanation": "Soft porous materials absorb more sound than hard smooth surfaces.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq070",
+        "question": "Which action can make a guitar string produce a sound?",
+        "options": [
+          "Paint the string",
+          "Pluck the string so it vibrates",
+          "Hold it perfectly still",
+          "Shine a torch on it"
+        ],
+        "answer": 1,
+        "explanation": "Plucking makes the string vibrate and produce sound.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 8,
+    "title": "Electricity & Magnets",
+    "key": "sof-nso-electricity-magnets",
+    "questions": [
+      {
+        "id": "c6nsoq071",
+        "question": "What is needed to make a simple electric circuit work?",
+        "options": [
+          "A broken wire only",
+          "A plastic loop with no cell",
+          "A magnet alone",
+          "A closed conducting path with a cell and component"
+        ],
+        "answer": 3,
+        "explanation": "Current flows in a complete circuit with a source of electrical energy.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq072",
+        "question": "Which material is an electrical insulator?",
+        "options": [
+          "Copper",
+          "Aluminium",
+          "Rubber",
+          "Iron"
+        ],
+        "answer": 2,
+        "explanation": "Rubber resists the flow of electric current.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq073",
+        "question": "What happens when a switch opens a simple circuit?",
+        "options": [
+          "The cell becomes larger",
+          "The current stops flowing",
+          "The wire becomes magnetic forever",
+          "The bulb must get brighter"
+        ],
+        "answer": 1,
+        "explanation": "An open circuit interrupts the conducting path.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq074",
+        "question": "Which poles of two magnets attract each other?",
+        "options": [
+          "Unlike poles",
+          "Like poles",
+          "Two north poles",
+          "Two south poles"
+        ],
+        "answer": 0,
+        "explanation": "North and south poles attract; like poles repel.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq075",
+        "question": "Where is a bar magnet's magnetic effect strongest?",
+        "options": [
+          "At the exact middle only",
+          "Equally nowhere",
+          "Only outside the magnet",
+          "Near its poles"
+        ],
+        "answer": 3,
+        "explanation": "Magnetic forces are strongest near the poles.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq076",
+        "question": "Which item can act as a temporary magnet when wrapped with wire carrying current?",
+        "options": [
+          "Wooden stick",
+          "Plastic straw",
+          "Iron nail",
+          "Glass rod"
+        ],
+        "answer": 2,
+        "explanation": "An electric current in a coil can magnetise an iron nail temporarily.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq077",
+        "question": "Which safety action is correct around electrical appliances?",
+        "options": [
+          "Touch bare wires to test current",
+          "Keep hands dry when touching switches",
+          "Use damaged cords",
+          "Put metal objects into sockets"
+        ],
+        "answer": 1,
+        "explanation": "Dry hands and intact insulation reduce electric-shock risk.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq078",
+        "question": "In a circuit diagram, why are symbols used?",
+        "options": [
+          "To represent components clearly and consistently",
+          "To decorate the page",
+          "To make wires carry more current",
+          "To replace all safety rules"
+        ],
+        "answer": 0,
+        "explanation": "Standard symbols make circuit diagrams easier to read.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq079",
+        "question": "A bulb does not glow in a circuit. Which is a sensible first check?",
+        "options": [
+          "Pour water onto the cell",
+          "Remove every wire and leave it disconnected",
+          "Assume the bulb is too bright",
+          "Check whether the circuit is closed and connections are secure"
+        ],
+        "answer": 3,
+        "explanation": "Loose connections or an open switch can stop current.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq080",
+        "question": "Which statement about a freely suspended bar magnet is correct?",
+        "options": [
+          "It always points east–west",
+          "It points towards the nearest light source",
+          "It tends to align roughly north–south",
+          "It loses all magnetism immediately"
+        ],
+        "answer": 2,
+        "explanation": "Earth's magnetic field makes a freely suspended magnet align roughly north–south.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 9,
+    "title": "Earth, Environment & Everyday Science",
+    "key": "sof-nso-earth-environment-everyday-science",
+    "questions": [
+      {
+        "id": "c6nsoq081",
+        "question": "Which action helps reduce plastic waste?",
+        "options": [
+          "Reuse suitable items and recycle where facilities exist",
+          "Use a new disposable bag for every item",
+          "Burn plastic in the open",
+          "Throw plastic into rivers"
+        ],
+        "answer": 0,
+        "explanation": "Reducing and reusing materials prevents waste before recycling.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq082",
+        "question": "Which gas do plants release during photosynthesis?",
+        "options": [
+          "Carbon monoxide",
+          "Methane only",
+          "Helium",
+          "Oxygen"
+        ],
+        "answer": 3,
+        "explanation": "Oxygen is released when plants photosynthesise.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq083",
+        "question": "Which is a renewable energy source?",
+        "options": [
+          "Coal",
+          "Petroleum",
+          "Sunlight",
+          "Natural gas"
+        ],
+        "answer": 2,
+        "explanation": "Sunlight is replenished naturally and is renewable.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq084",
+        "question": "What is the main cause of day and night on Earth?",
+        "options": [
+          "Earth stops moving every night",
+          "Earth rotates on its axis",
+          "The Moon blocks the Sun every evening",
+          "The Sun circles Earth once each day"
+        ],
+        "answer": 1,
+        "explanation": "Earth's rotation causes different places to face towards or away from the Sun.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq085",
+        "question": "Which practice conserves water at home?",
+        "options": [
+          "Repair leaking taps",
+          "Leave the tap running while brushing",
+          "Wash one cup under a running tap for ten minutes",
+          "Ignore leaking pipes"
+        ],
+        "answer": 0,
+        "explanation": "Repairing leaks prevents unnecessary water loss.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq086",
+        "question": "Which is a producer in a food chain?",
+        "options": [
+          "Grasshopper",
+          "Frog",
+          "Snake",
+          "Green grass"
+        ],
+        "answer": 3,
+        "explanation": "Green plants make their own food and are producers.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq087",
+        "question": "What is the main role of decomposers in an ecosystem?",
+        "options": [
+          "Make sunlight",
+          "Stop all plant growth",
+          "Break down dead organisms and recycle nutrients",
+          "Turn rocks into animals"
+        ],
+        "answer": 2,
+        "explanation": "Decomposers return nutrients to the environment by breaking down dead matter.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq088",
+        "question": "Which event is caused by the Moon's gravity acting on Earth's oceans, together with the Sun's influence?",
+        "options": [
+          "Earthquakes",
+          "Tides",
+          "Volcanic eruptions",
+          "Rainbows"
+        ],
+        "answer": 1,
+        "explanation": "Gravitational forces from the Moon and Sun cause ocean tides.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq089",
+        "question": "Why should e-waste not be mixed casually with household rubbish?",
+        "options": [
+          "It can contain hazardous materials and needs suitable handling",
+          "It is always edible",
+          "It turns into clean water immediately",
+          "It has no environmental impact"
+        ],
+        "answer": 0,
+        "explanation": "Electronic waste can contain materials that require specialised collection and recycling.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq090",
+        "question": "Which observation best supports that air occupies space?",
+        "options": [
+          "A stone sinks in water",
+          "A magnet attracts iron",
+          "Salt dissolves in water",
+          "An inverted empty-looking cup traps air and resists filling fully underwater"
+        ],
+        "answer": 3,
+        "explanation": "Trapped air prevents water from immediately filling the cup.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 10,
+    "title": "Olympiad Reasoning & Applied Science",
+    "key": "sof-nso-olympiad-reasoning-applied-science",
+    "questions": [
+      {
+        "id": "c6nsoq091",
+        "question": "A student observes that a metal spoon feels colder than a wooden spoon in the same room. What best explains this?",
+        "options": [
+          "Metal is always at a lower temperature",
+          "Metal conducts heat away from the hand faster",
+          "Wood produces cold",
+          "The spoons contain ice"
+        ],
+        "answer": 1,
+        "explanation": "Metal conducts heat more readily, so it draws heat from the hand faster.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6nsoq092",
+        "question": "A shadow is shortest around noon on a sunny day because",
+        "options": [
+          "The Sun is relatively high in the sky",
+          "The Sun turns off at noon",
+          "Objects become transparent",
+          "Earth stops rotating"
+        ],
+        "answer": 0,
+        "explanation": "A higher Sun angle produces a shorter shadow.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6nsoq093",
+        "question": "Four seedlings receive equal water, soil and light, but one gets no light. Which comparison best tests light's effect?",
+        "options": [
+          "Give each seedling different soil and water",
+          "Change the seed type every day",
+          "Measure only the colour of the pots",
+          "Compare the growth of the seedling kept without light with the others"
+        ],
+        "answer": 3,
+        "explanation": "Keeping other factors similar makes the light comparison fair.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6nsoq094",
+        "question": "A mixture contains rice grains, iron pins and salt. Which sequence is most suitable to separate all three?",
+        "options": [
+          "Filter once and collect everything together",
+          "Use only a magnet to remove all three",
+          "Use a magnet for pins, sieve rice, then dissolve and evaporate salt solution",
+          "Freeze the mixture and shake it"
+        ],
+        "answer": 2,
+        "explanation": "Magnetism separates iron, size can separate rice, and evaporation can recover dissolved salt.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6nsoq095",
+        "question": "A toy car travels 12 m in 4 s and then 12 m in 2 s. During which part is it faster?",
+        "options": [
+          "The first part",
+          "The second part",
+          "Both have equal speed",
+          "It is stationary in both parts"
+        ],
+        "answer": 1,
+        "explanation": "The first speed is 3 m/s and the second is 6 m/s.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6nsoq096",
+        "question": "A student sees a plant bend towards a window. This response is called",
+        "options": [
+          "Phototropism",
+          "Digestion",
+          "Evaporation",
+          "Condensation"
+        ],
+        "answer": 0,
+        "explanation": "Phototropism is plant growth in response to light direction.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6nsoq097",
+        "question": "A torch beam is aimed at a wall. An opaque book is placed in the beam. What appears on the wall?",
+        "options": [
+          "A new light source",
+          "A sound wave",
+          "A magnetic pole",
+          "A dark shadow where light is blocked"
+        ],
+        "answer": 3,
+        "explanation": "The book blocks light from reaching part of the wall.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6nsoq098",
+        "question": "A compass needle changes direction near a bar magnet because",
+        "options": [
+          "The magnet changes the air into water",
+          "The compass measures temperature",
+          "The magnet exerts a magnetic force on the needle",
+          "The needle is attracted by sunlight"
+        ],
+        "answer": 2,
+        "explanation": "A compass needle is magnetic and responds to nearby magnetic fields.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6nsoq099",
+        "question": "A student wants to compare how quickly sugar dissolves in cold and warm water. Which is the fairest setup?",
+        "options": [
+          "Use more sugar in the cold water",
+          "Use equal water volumes and sugar amounts, changing only water temperature",
+          "Stir only the warm water",
+          "Use different cups with unknown volumes"
+        ],
+        "answer": 1,
+        "explanation": "Changing only temperature allows a fair comparison of dissolving rate.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6nsoq100",
+        "question": "Which conclusion is best after one seed fails to germinate?",
+        "options": [
+          "One failure alone does not prove that the seed type can never germinate",
+          "All seeds of this type are dead",
+          "Water is never needed by seeds",
+          "The seed has become an animal"
+        ],
+        "answer": 0,
+        "explanation": "A single result is not enough; check conditions and repeat with more seeds.",
+        "difficulty": "Challenge"
+      }
+    ]
+  }
+]
