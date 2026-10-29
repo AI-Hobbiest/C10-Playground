@@ -13,6 +13,7 @@
     {label:"Mathematics",icon:"📐",href:"./practice.html?subject=mathematics",page:"practice.html",subject:"mathematics",auth:"student"},
     {label:"Mathematics - SOF",icon:"🏆",href:"./practice.html?subject=mathematics-sof",page:"practice.html",subject:"mathematics-sof",auth:"student"},
     {label:"English",icon:"📖",href:"./practice.html?subject=english",page:"practice.html",subject:"english",auth:"student"},
+    {label:"English - SOF",icon:"🏆",href:"./practice.html?subject=english-sof",page:"practice.html",subject:"english-sof",auth:"student"},
     {label:"Social Science",icon:"🌍",href:"./practice.html?subject=social-science",page:"practice.html",subject:"social-science",auth:"student"},
     {label:"Hindi",icon:"📝",href:"./practice.html?subject=hindi",page:"practice.html",subject:"hindi",auth:"student"},
     {section:"MY LEARNING",auth:"student"},
