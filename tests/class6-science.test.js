@@ -155,4 +155,26 @@ const ramaChapter=englishBank.find(chapter=>chapter.key==="rama-to-the-rescue");
 assert.ok(ramaChapter.questions.some(question=>question.question.includes("Who arrests the robber") && /kotwal/i.test(question.options[question.answer])),"Rama to the Rescue correctly identifies the kotwal as the person who arrests the thief");
 const kiteChapter=englishBank.find(chapter=>chapter.key==="the-kites");
 assert.ok(kiteChapter.questions.some(question=>question.question.includes("example of alliteration") && question.options[question.answer]==="Stand and stare"),"The Kites correctly identifies stand and stare as alliteration, not rhyme");
+
+const sofEnglishBank=JSON.parse(fs.readFileSync("data/class-6-english-sof.json","utf8"));
+assert.equal(sofEnglishBank.length,10,"Class 6 SOF IEO bank has ten topic sets");
+assert.equal(sofEnglishBank.reduce((sum,chapter)=>sum+chapter.questions.length,0),500,"Class 6 SOF IEO bank contains 500 practice MCQs");
+const sofEnglishIds=new Set(),sofEnglishPrompts=new Set();
+for(const chapter of sofEnglishBank){
+  assert.equal(chapter.questions.length,50,"each SOF IEO topic has fifty questions");
+  for(const question of chapter.questions){
+    assert.ok(question.id&&question.question&&question.explanation,"SOF IEO question has ID, prompt and explanation");
+    assert.ok(!sofEnglishIds.has(question.id),"SOF IEO question IDs are unique");sofEnglishIds.add(question.id);
+    assert.ok(!sofEnglishPrompts.has(question.question),"SOF IEO prompts are unique");sofEnglishPrompts.add(question.question);
+    assert.equal(question.options.length,4,"SOF IEO MCQs have four options");
+    assert.equal(new Set(question.options).size,4,"SOF IEO options are distinct");
+    assert.ok(Number.isInteger(question.answer)&&question.answer>=0&&question.answer<4,"SOF IEO answer index is valid");
+  }
+}
+const normalizedSofEnglish=context.window.C10QuestionBank.normalize(sofEnglishBank,"class-6-english-sof");
+assert.equal(normalizedSofEnglish.flatMap(chapter=>chapter.questions).length,500,"SOF English bank normalizes through shared engine");
+assert.equal(new Set(normalizedSofEnglish.flatMap(chapter=>chapter.questions).map(question=>question.questionKey)).size,500,"SOF English question keys are unique");
+assert.ok(engine.includes('"english-sof": { title:"English - SOF"'),"SOF English has its own named subject entry");
+assert.ok(engine.includes('"english","english-sof","social-science"'),"Class 6 English - SOF is included in class-subject routing");
+
 console.log("Class 6 banks passed content review: Science 12/1,200, Mathematics 10/1,000, English 16/320, Social Science 14/1,400; unique IDs, question keys, valid MCQ structures and class-specific routing.");
