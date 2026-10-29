@@ -1,0 +1,1372 @@
+[
+  {
+    "chapter_no": 1,
+    "title": "Patterns and Number Sense",
+    "key": "sof-imo-patterns-and-number-sense",
+    "questions": [
+      {
+        "id": "c6imoq001",
+        "question": "What number comes next: 7, 11, 15, 19, __?",
+        "options": [
+          "23",
+          "21",
+          "25",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq011",
+        "question": "What number comes next: 10, 14, 18, 22, __?",
+        "options": [
+          "24",
+          "28",
+          "26",
+          "30"
+        ],
+        "answer": 2,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq021",
+        "question": "What number comes next: 13, 17, 21, 25, __?",
+        "options": [
+          "29",
+          "27",
+          "31",
+          "33"
+        ],
+        "answer": 0,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq031",
+        "question": "What number comes next: 16, 20, 24, 28, __?",
+        "options": [
+          "30",
+          "34",
+          "32",
+          "36"
+        ],
+        "answer": 2,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq041",
+        "question": "What number comes next: 19, 23, 27, 31, __?",
+        "options": [
+          "35",
+          "33",
+          "37",
+          "39"
+        ],
+        "answer": 0,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq051",
+        "question": "What number comes next: 22, 26, 30, 34, __?",
+        "options": [
+          "36",
+          "40",
+          "38",
+          "42"
+        ],
+        "answer": 2,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq061",
+        "question": "What number comes next: 25, 29, 33, 37, __?",
+        "options": [
+          "41",
+          "39",
+          "43",
+          "45"
+        ],
+        "answer": 0,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq071",
+        "question": "What number comes next: 28, 32, 36, 40, __?",
+        "options": [
+          "42",
+          "46",
+          "44",
+          "48"
+        ],
+        "answer": 2,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq081",
+        "question": "What number comes next: 31, 35, 39, 43, __?",
+        "options": [
+          "47",
+          "45",
+          "49",
+          "51"
+        ],
+        "answer": 0,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq091",
+        "question": "What number comes next: 34, 38, 42, 46, __?",
+        "options": [
+          "48",
+          "52",
+          "50",
+          "54"
+        ],
+        "answer": 2,
+        "explanation": "The sequence increases by 4 each time.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 2,
+    "title": "Arithmetic and Operations",
+    "key": "sof-imo-arithmetic-and-operations",
+    "questions": [
+      {
+        "id": "c6imoq002",
+        "question": "A school collects 24 pencils on Monday and 13 on Tuesday. How many altogether?",
+        "options": [
+          "32",
+          "42",
+          "37",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "24 + 13 = 37.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq012",
+        "question": "A school collects 31 pencils on Monday and 16 on Tuesday. How many altogether?",
+        "options": [
+          "47",
+          "42",
+          "52",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "31 + 16 = 47.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq022",
+        "question": "A school collects 38 pencils on Monday and 19 on Tuesday. How many altogether?",
+        "options": [
+          "52",
+          "62",
+          "57",
+          "19"
+        ],
+        "answer": 2,
+        "explanation": "38 + 19 = 57.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq032",
+        "question": "A school collects 45 pencils on Monday and 22 on Tuesday. How many altogether?",
+        "options": [
+          "67",
+          "62",
+          "72",
+          "23"
+        ],
+        "answer": 0,
+        "explanation": "45 + 22 = 67.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq042",
+        "question": "A school collects 52 pencils on Monday and 25 on Tuesday. How many altogether?",
+        "options": [
+          "72",
+          "82",
+          "77",
+          "27"
+        ],
+        "answer": 2,
+        "explanation": "52 + 25 = 77.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq052",
+        "question": "A school collects 59 pencils on Monday and 28 on Tuesday. How many altogether?",
+        "options": [
+          "87",
+          "82",
+          "92",
+          "31"
+        ],
+        "answer": 0,
+        "explanation": "59 + 28 = 87.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq062",
+        "question": "A school collects 66 pencils on Monday and 31 on Tuesday. How many altogether?",
+        "options": [
+          "92",
+          "102",
+          "97",
+          "35"
+        ],
+        "answer": 2,
+        "explanation": "66 + 31 = 97.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq072",
+        "question": "A school collects 73 pencils on Monday and 34 on Tuesday. How many altogether?",
+        "options": [
+          "107",
+          "102",
+          "112",
+          "39"
+        ],
+        "answer": 0,
+        "explanation": "73 + 34 = 107.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq082",
+        "question": "A school collects 80 pencils on Monday and 37 on Tuesday. How many altogether?",
+        "options": [
+          "112",
+          "122",
+          "117",
+          "43"
+        ],
+        "answer": 2,
+        "explanation": "80 + 37 = 117.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq092",
+        "question": "A school collects 87 pencils on Monday and 40 on Tuesday. How many altogether?",
+        "options": [
+          "127",
+          "122",
+          "132",
+          "47"
+        ],
+        "answer": 0,
+        "explanation": "87 + 40 = 127.",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "chapter_no": 3,
+    "title": "Factors and Multiples",
+    "key": "sof-imo-factors-and-multiples",
+    "questions": [
+      {
+        "id": "c6imoq003",
+        "question": "What is the greatest common factor of 12 and 18?",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "The greatest common factor of 12 and 18 is 6.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq013",
+        "question": "What is the greatest common factor of 14 and 21?",
+        "options": [
+          "8",
+          "6",
+          "7",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "The greatest common factor of 14 and 21 is 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq023",
+        "question": "What is the greatest common factor of 16 and 24?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "The greatest common factor of 16 and 24 is 8.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq033",
+        "question": "What is the greatest common factor of 18 and 27?",
+        "options": [
+          "10",
+          "8",
+          "9",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "The greatest common factor of 18 and 27 is 9.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq043",
+        "question": "What is the greatest common factor of 20 and 30?",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "The greatest common factor of 20 and 30 is 10.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq053",
+        "question": "What is the greatest common factor of 22 and 33?",
+        "options": [
+          "12",
+          "10",
+          "11",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "The greatest common factor of 22 and 33 is 11.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq063",
+        "question": "What is the greatest common factor of 24 and 36?",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "14"
+        ],
+        "answer": 0,
+        "explanation": "The greatest common factor of 24 and 36 is 12.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq073",
+        "question": "What is the greatest common factor of 26 and 39?",
+        "options": [
+          "14",
+          "12",
+          "13",
+          "15"
+        ],
+        "answer": 2,
+        "explanation": "The greatest common factor of 26 and 39 is 13.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq083",
+        "question": "What is the greatest common factor of 28 and 42?",
+        "options": [
+          "14",
+          "15",
+          "13",
+          "16"
+        ],
+        "answer": 0,
+        "explanation": "The greatest common factor of 28 and 42 is 14.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq093",
+        "question": "What is the greatest common factor of 30 and 45?",
+        "options": [
+          "16",
+          "14",
+          "15",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "The greatest common factor of 30 and 45 is 15.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 4,
+    "title": "Fractions",
+    "key": "sof-imo-fractions",
+    "questions": [
+      {
+        "id": "c6imoq004",
+        "question": "Find 1/2 + 2/4 using a common denominator.",
+        "options": [
+          "9/8",
+          "3/6",
+          "8/8",
+          "0/8"
+        ],
+        "answer": 2,
+        "explanation": "Common denominator 8: numerator 1×4 + 2×2 = 8.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq014",
+        "question": "Find 2/3 + 3/5 using a common denominator.",
+        "options": [
+          "19/15",
+          "20/15",
+          "5/8",
+          "1/15"
+        ],
+        "answer": 0,
+        "explanation": "Common denominator 15: numerator 2×5 + 3×3 = 19.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq024",
+        "question": "Find 3/4 + 4/6 using a common denominator.",
+        "options": [
+          "35/24",
+          "7/10",
+          "34/24",
+          "2/24"
+        ],
+        "answer": 2,
+        "explanation": "Common denominator 24: numerator 3×6 + 4×4 = 34.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq034",
+        "question": "Find 4/5 + 5/7 using a common denominator.",
+        "options": [
+          "53/35",
+          "54/35",
+          "9/12",
+          "3/35"
+        ],
+        "answer": 0,
+        "explanation": "Common denominator 35: numerator 4×7 + 5×5 = 53.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq044",
+        "question": "Find 5/6 + 6/8 using a common denominator.",
+        "options": [
+          "77/48",
+          "11/14",
+          "76/48",
+          "4/48"
+        ],
+        "answer": 2,
+        "explanation": "Common denominator 48: numerator 5×8 + 6×6 = 76.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq054",
+        "question": "Find 6/7 + 7/9 using a common denominator.",
+        "options": [
+          "103/63",
+          "104/63",
+          "13/16",
+          "5/63"
+        ],
+        "answer": 0,
+        "explanation": "Common denominator 63: numerator 6×9 + 7×7 = 103.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq064",
+        "question": "Find 7/8 + 8/10 using a common denominator.",
+        "options": [
+          "135/80",
+          "15/18",
+          "134/80",
+          "6/80"
+        ],
+        "answer": 2,
+        "explanation": "Common denominator 80: numerator 7×10 + 8×8 = 134.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq074",
+        "question": "Find 1/2 + 2/4 using a common denominator. (Olympiad practice variant)",
+        "options": [
+          "8/8",
+          "9/8",
+          "3/6",
+          "0/8"
+        ],
+        "answer": 0,
+        "explanation": "Common denominator 8: numerator 1×4 + 2×2 = 8.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq084",
+        "question": "Find 1/3 + 2/5 using a common denominator.",
+        "options": [
+          "12/15",
+          "3/8",
+          "11/15",
+          "-1/15"
+        ],
+        "answer": 2,
+        "explanation": "Common denominator 15: numerator 1×5 + 2×3 = 11.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq094",
+        "question": "Find 1/4 + 2/6 using a common denominator.",
+        "options": [
+          "14/24",
+          "15/24",
+          "3/10",
+          "-2/24"
+        ],
+        "answer": 0,
+        "explanation": "Common denominator 24: numerator 1×6 + 2×4 = 14.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 5,
+    "title": "Decimals",
+    "key": "sof-imo-decimals",
+    "questions": [
+      {
+        "id": "c6imoq005",
+        "question": "What is 2 + 0.10?",
+        "options": [
+          "2.10",
+          "2.20",
+          "2.00",
+          "3.10"
+        ],
+        "answer": 0,
+        "explanation": "Adding the decimal to 2 gives 2.10.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq015",
+        "question": "What is 3 + 0.27?",
+        "options": [
+          "3.37",
+          "3.17",
+          "3.27",
+          "4.27"
+        ],
+        "answer": 2,
+        "explanation": "Adding the decimal to 3 gives 3.27.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq025",
+        "question": "What is 4 + 0.34?",
+        "options": [
+          "4.34",
+          "4.44",
+          "4.24",
+          "5.34"
+        ],
+        "answer": 0,
+        "explanation": "Adding the decimal to 4 gives 4.34.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq035",
+        "question": "What is 5 + 0.41?",
+        "options": [
+          "5.51",
+          "5.31",
+          "5.41",
+          "6.41"
+        ],
+        "answer": 2,
+        "explanation": "Adding the decimal to 5 gives 5.41.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq045",
+        "question": "What is 6 + 0.58?",
+        "options": [
+          "6.58",
+          "6.68",
+          "6.48",
+          "7.58"
+        ],
+        "answer": 0,
+        "explanation": "Adding the decimal to 6 gives 6.58.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq055",
+        "question": "What is 7 + 0.65?",
+        "options": [
+          "7.75",
+          "7.55",
+          "7.65",
+          "8.65"
+        ],
+        "answer": 2,
+        "explanation": "Adding the decimal to 7 gives 7.65.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq065",
+        "question": "What is 8 + 0.72?",
+        "options": [
+          "8.72",
+          "8.82",
+          "8.62",
+          "9.72"
+        ],
+        "answer": 0,
+        "explanation": "Adding the decimal to 8 gives 8.72.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq075",
+        "question": "What is 9 + 0.89?",
+        "options": [
+          "9.99",
+          "9.79",
+          "9.89",
+          "10.89"
+        ],
+        "answer": 2,
+        "explanation": "Adding the decimal to 9 gives 9.89.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq085",
+        "question": "What is 10 + 0.16?",
+        "options": [
+          "10.16",
+          "10.26",
+          "10.06",
+          "11.16"
+        ],
+        "answer": 0,
+        "explanation": "Adding the decimal to 10 gives 10.16.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq095",
+        "question": "What is 11 + 0.23?",
+        "options": [
+          "11.33",
+          "11.13",
+          "11.23",
+          "12.23"
+        ],
+        "answer": 2,
+        "explanation": "Adding the decimal to 11 gives 11.23.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 6,
+    "title": "Geometry",
+    "key": "sof-imo-geometry",
+    "questions": [
+      {
+        "id": "c6imoq006",
+        "question": "What is the complement of an angle of 20°?",
+        "options": [
+          "160°",
+          "20°",
+          "70°",
+          "110°"
+        ],
+        "answer": 2,
+        "explanation": "Complement = 90° − 20° = 70°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq016",
+        "question": "What is the complement of an angle of 27°?",
+        "options": [
+          "63°",
+          "153°",
+          "27°",
+          "117°"
+        ],
+        "answer": 0,
+        "explanation": "Complement = 90° − 27° = 63°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq026",
+        "question": "What is the complement of an angle of 34°?",
+        "options": [
+          "146°",
+          "34°",
+          "56°",
+          "124°"
+        ],
+        "answer": 2,
+        "explanation": "Complement = 90° − 34° = 56°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq036",
+        "question": "What is the complement of an angle of 41°?",
+        "options": [
+          "49°",
+          "139°",
+          "41°",
+          "131°"
+        ],
+        "answer": 0,
+        "explanation": "Complement = 90° − 41° = 49°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq046",
+        "question": "What is the complement of an angle of 48°?",
+        "options": [
+          "132°",
+          "48°",
+          "42°",
+          "138°"
+        ],
+        "answer": 2,
+        "explanation": "Complement = 90° − 48° = 42°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq056",
+        "question": "What is the complement of an angle of 55°?",
+        "options": [
+          "35°",
+          "125°",
+          "55°",
+          "145°"
+        ],
+        "answer": 0,
+        "explanation": "Complement = 90° − 55° = 35°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq066",
+        "question": "What is the complement of an angle of 62°?",
+        "options": [
+          "118°",
+          "62°",
+          "28°",
+          "152°"
+        ],
+        "answer": 2,
+        "explanation": "Complement = 90° − 62° = 28°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq076",
+        "question": "What is the complement of an angle of 69°?",
+        "options": [
+          "21°",
+          "111°",
+          "69°",
+          "159°"
+        ],
+        "answer": 0,
+        "explanation": "Complement = 90° − 69° = 21°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq086",
+        "question": "What is the complement of an angle of 76°?",
+        "options": [
+          "104°",
+          "76°",
+          "14°",
+          "166°"
+        ],
+        "answer": 2,
+        "explanation": "Complement = 90° − 76° = 14°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq096",
+        "question": "What is the complement of an angle of 83°?",
+        "options": [
+          "7°",
+          "97°",
+          "83°",
+          "173°"
+        ],
+        "answer": 0,
+        "explanation": "Complement = 90° − 83° = 7°.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 7,
+    "title": "Perimeter and Area",
+    "key": "sof-imo-perimeter-and-area",
+    "questions": [
+      {
+        "id": "c6imoq007",
+        "question": "A rectangle is 5 cm long and 2 cm wide. What is its perimeter?",
+        "options": [
+          "14 cm",
+          "10 cm",
+          "16 cm",
+          "7 cm"
+        ],
+        "answer": 0,
+        "explanation": "Perimeter = 2 × (5 + 2) = 14 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq017",
+        "question": "A rectangle is 6 cm long and 3 cm wide. What is its perimeter?",
+        "options": [
+          "20 cm",
+          "9 cm",
+          "18 cm",
+          "NaN"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter = 2 × (6 + 3) = 18 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq027",
+        "question": "A rectangle is 7 cm long and 4 cm wide. What is its perimeter?",
+        "options": [
+          "22 cm",
+          "28 cm",
+          "24 cm",
+          "11 cm"
+        ],
+        "answer": 0,
+        "explanation": "Perimeter = 2 × (7 + 4) = 22 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq037",
+        "question": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter?",
+        "options": [
+          "40 cm",
+          "28 cm",
+          "26 cm",
+          "13 cm"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter = 2 × (8 + 5) = 26 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq047",
+        "question": "A rectangle is 9 cm long and 6 cm wide. What is its perimeter?",
+        "options": [
+          "30 cm",
+          "54 cm",
+          "32 cm",
+          "15 cm"
+        ],
+        "answer": 0,
+        "explanation": "Perimeter = 2 × (9 + 6) = 30 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq057",
+        "question": "A rectangle is 10 cm long and 2 cm wide. What is its perimeter?",
+        "options": [
+          "20 cm",
+          "26 cm",
+          "24 cm",
+          "12 cm"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter = 2 × (10 + 2) = 24 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq067",
+        "question": "A rectangle is 11 cm long and 3 cm wide. What is its perimeter?",
+        "options": [
+          "28 cm",
+          "33 cm",
+          "30 cm",
+          "14 cm"
+        ],
+        "answer": 0,
+        "explanation": "Perimeter = 2 × (11 + 3) = 28 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq077",
+        "question": "A rectangle is 12 cm long and 4 cm wide. What is its perimeter?",
+        "options": [
+          "48 cm",
+          "34 cm",
+          "32 cm",
+          "16 cm"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter = 2 × (12 + 4) = 32 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq087",
+        "question": "A rectangle is 13 cm long and 5 cm wide. What is its perimeter?",
+        "options": [
+          "36 cm",
+          "65 cm",
+          "38 cm",
+          "18 cm"
+        ],
+        "answer": 0,
+        "explanation": "Perimeter = 2 × (13 + 5) = 36 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq097",
+        "question": "A rectangle is 14 cm long and 6 cm wide. What is its perimeter?",
+        "options": [
+          "84 cm",
+          "42 cm",
+          "40 cm",
+          "20 cm"
+        ],
+        "answer": 2,
+        "explanation": "Perimeter = 2 × (14 + 6) = 40 cm.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 8,
+    "title": "Data Handling",
+    "key": "sof-imo-data-handling",
+    "questions": [
+      {
+        "id": "c6imoq008",
+        "question": "A data set contains 2, 4, 6. What is the mean?",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Mean = (2 + 4 + 6) ÷ 3 = 4.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq018",
+        "question": "A data set contains 3, 5, 7. What is the mean?",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "Mean = (3 + 5 + 7) ÷ 3 = 5.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq028",
+        "question": "A data set contains 4, 6, 8. What is the mean?",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "Mean = (4 + 6 + 8) ÷ 3 = 6.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq038",
+        "question": "A data set contains 5, 7, 9. What is the mean?",
+        "options": [
+          "7",
+          "8",
+          "6",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "Mean = (5 + 7 + 9) ÷ 3 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq048",
+        "question": "A data set contains 6, 8, 10. What is the mean?",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "Mean = (6 + 8 + 10) ÷ 3 = 8.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq058",
+        "question": "A data set contains 7, 9, 11. What is the mean?",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "Mean = (7 + 9 + 11) ÷ 3 = 9.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq068",
+        "question": "A data set contains 8, 10, 12. What is the mean?",
+        "options": [
+          "11",
+          "9",
+          "10",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "Mean = (8 + 10 + 12) ÷ 3 = 10.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq078",
+        "question": "A data set contains 9, 11, 13. What is the mean?",
+        "options": [
+          "11",
+          "12",
+          "10",
+          "13"
+        ],
+        "answer": 0,
+        "explanation": "Mean = (9 + 11 + 13) ÷ 3 = 11.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq088",
+        "question": "A data set contains 10, 12, 14. What is the mean?",
+        "options": [
+          "13",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "Mean = (10 + 12 + 14) ÷ 3 = 12.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq098",
+        "question": "A data set contains 11, 13, 15. What is the mean?",
+        "options": [
+          "13",
+          "14",
+          "12",
+          "15"
+        ],
+        "answer": 0,
+        "explanation": "Mean = (11 + 13 + 15) ÷ 3 = 13.",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "chapter_no": 9,
+    "title": "Logical Reasoning",
+    "key": "sof-imo-logical-reasoning",
+    "questions": [
+      {
+        "id": "c6imoq009",
+        "question": "Mira faces north and turns right twice. Which direction is she facing?",
+        "options": [
+          "South",
+          "East",
+          "West",
+          "North"
+        ],
+        "answer": 0,
+        "explanation": "North → East → South.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq019",
+        "question": "If today is Tuesday, what day will it be 10 days later?",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Friday",
+          "Sunday"
+        ],
+        "answer": 2,
+        "explanation": "Seven days later is Tuesday; three more days is Friday.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq029",
+        "question": "Which does not belong: 2, 4, 8, 10, 16?",
+        "options": [
+          "10",
+          "2",
+          "8",
+          "16"
+        ],
+        "answer": 0,
+        "explanation": "The others are powers of 2; 10 is not.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq039",
+        "question": "A is taller than B; B is taller than C. Who is shortest?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "Cannot tell"
+        ],
+        "answer": 2,
+        "explanation": "A > B > C, so C is shortest.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq049",
+        "question": "A code changes CAT to DBU by moving each letter forward one step. How is DOG coded?",
+        "options": [
+          "EPH",
+          "EPG",
+          "COF",
+          "FQI"
+        ],
+        "answer": 0,
+        "explanation": "D→E, O→P, G→H.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq059",
+        "question": "What is next in A, C, F, J, O, __?",
+        "options": [
+          "T",
+          "V",
+          "U",
+          "W"
+        ],
+        "answer": 2,
+        "explanation": "The jumps are +2, +3, +4, +5, then +6.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq069",
+        "question": "A clock shows 3:00. What is the smaller angle between its hands?",
+        "options": [
+          "90°",
+          "60°",
+          "120°",
+          "180°"
+        ],
+        "answer": 0,
+        "explanation": "Three hour marks × 30° = 90°.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq079",
+        "question": "If every square is a rectangle, which must be true?",
+        "options": [
+          "Every rectangle is a square",
+          "A square has three sides",
+          "A square has four right angles",
+          "A square has no equal sides"
+        ],
+        "answer": 2,
+        "explanation": "A square has four right angles.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq089",
+        "question": "5 machines make 5 toys in 5 minutes. How long do 10 identical machines take to make 10 toys?",
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "2.5 minutes",
+          "15 minutes"
+        ],
+        "answer": 0,
+        "explanation": "Each machine makes one toy in five minutes.",
+        "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq099",
+        "question": "Which number is even, greater than 20 and less than 26?",
+        "options": [
+          "21",
+          "23",
+          "24",
+          "27"
+        ],
+        "answer": 2,
+        "explanation": "24 is even and between 20 and 26.",
+        "difficulty": "Challenge"
+      }
+    ]
+  },
+  {
+    "chapter_no": 10,
+    "title": "Everyday Mathematics",
+    "key": "sof-imo-everyday-mathematics",
+    "questions": [
+      {
+        "id": "c6imoq010",
+        "question": "A child buys 3 pens at ₹10 each and pays ₹50. How much change is due?",
+        "options": [
+          "₹25",
+          "₹30",
+          "₹20",
+          "₹40"
+        ],
+        "answer": 2,
+        "explanation": "Cost = 3 × ₹10 = ₹30; change = ₹50 − ₹30 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq020",
+        "question": "A child buys 4 pens at ₹12 each and pays ₹68. How much change is due?",
+        "options": [
+          "₹20",
+          "₹25",
+          "₹48",
+          "₹56"
+        ],
+        "answer": 0,
+        "explanation": "Cost = 4 × ₹12 = ₹48; change = ₹68 − ₹48 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq030",
+        "question": "A child buys 5 pens at ₹14 each and pays ₹90. How much change is due?",
+        "options": [
+          "₹25",
+          "₹70",
+          "₹20",
+          "₹76"
+        ],
+        "answer": 2,
+        "explanation": "Cost = 5 × ₹14 = ₹70; change = ₹90 − ₹70 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq040",
+        "question": "A child buys 6 pens at ₹16 each and pays ₹116. How much change is due?",
+        "options": [
+          "₹20",
+          "₹25",
+          "₹96",
+          "₹100"
+        ],
+        "answer": 0,
+        "explanation": "Cost = 6 × ₹16 = ₹96; change = ₹116 − ₹96 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq050",
+        "question": "A child buys 7 pens at ₹18 each and pays ₹146. How much change is due?",
+        "options": [
+          "₹25",
+          "₹126",
+          "₹20",
+          "₹128"
+        ],
+        "answer": 2,
+        "explanation": "Cost = 7 × ₹18 = ₹126; change = ₹146 − ₹126 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq060",
+        "question": "A child buys 3 pens at ₹20 each and pays ₹80. How much change is due?",
+        "options": [
+          "₹20",
+          "₹25",
+          "₹60",
+          "NaN"
+        ],
+        "answer": 0,
+        "explanation": "Cost = 3 × ₹20 = ₹60; change = ₹80 − ₹60 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq070",
+        "question": "A child buys 4 pens at ₹22 each and pays ₹108. How much change is due?",
+        "options": [
+          "₹25",
+          "₹88",
+          "₹20",
+          "₹86"
+        ],
+        "answer": 2,
+        "explanation": "Cost = 4 × ₹22 = ₹88; change = ₹108 − ₹88 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq080",
+        "question": "A child buys 5 pens at ₹24 each and pays ₹140. How much change is due?",
+        "options": [
+          "₹20",
+          "₹25",
+          "₹120",
+          "₹116"
+        ],
+        "answer": 0,
+        "explanation": "Cost = 5 × ₹24 = ₹120; change = ₹140 − ₹120 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq090",
+        "question": "A child buys 6 pens at ₹26 each and pays ₹176. How much change is due?",
+        "options": [
+          "₹25",
+          "₹156",
+          "₹20",
+          "₹150"
+        ],
+        "answer": 2,
+        "explanation": "Cost = 6 × ₹26 = ₹156; change = ₹176 − ₹156 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq100",
+        "question": "A child buys 7 pens at ₹28 each and pays ₹216. How much change is due?",
+        "options": [
+          "₹20",
+          "₹25",
+          "₹196",
+          "₹188"
+        ],
+        "answer": 0,
+        "explanation": "Cost = 7 × ₹28 = ₹196; change = ₹216 − ₹196 = ₹20.",
+        "difficulty": "Medium"
+      }
+    ]
+  }
+]
