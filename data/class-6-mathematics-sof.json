@@ -133,6 +133,526 @@
         "answer": 2,
         "explanation": "The sequence increases by 4 each time.",
         "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq101",
+        "question": "A number pattern starts 33, 35, 37, 39. What is the next term?",
+        "options": [
+          "39",
+          "43",
+          "54",
+          "41"
+        ],
+        "answer": 3,
+        "explanation": "Add 2 each time: 39 + 2 = 41.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq102",
+        "question": "A number pattern starts 36, 39, 42, 45. What is the next term?",
+        "options": [
+          "51",
+          "50",
+          "48",
+          "45"
+        ],
+        "answer": 2,
+        "explanation": "Add 3 each time: 45 + 3 = 48.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq103",
+        "question": "A number pattern starts 39, 43, 47, 51. What is the next term?",
+        "options": [
+          "57",
+          "55",
+          "51",
+          "59"
+        ],
+        "answer": 1,
+        "explanation": "Add 4 each time: 51 + 4 = 55.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq104",
+        "question": "A number pattern starts 42, 47, 52, 57. What is the next term?",
+        "options": [
+          "62",
+          "57",
+          "67",
+          "64"
+        ],
+        "answer": 0,
+        "explanation": "Add 5 each time: 57 + 5 = 62.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq105",
+        "question": "A number pattern starts 45, 51, 57, 63. What is the next term?",
+        "options": [
+          "63",
+          "75",
+          "71",
+          "69"
+        ],
+        "answer": 3,
+        "explanation": "Add 6 each time: 63 + 6 = 69.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq106",
+        "question": "A number pattern starts 48, 55, 62, 69. What is the next term?",
+        "options": [
+          "83",
+          "78",
+          "76",
+          "69"
+        ],
+        "answer": 2,
+        "explanation": "Add 7 each time: 69 + 7 = 76.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq107",
+        "question": "A number pattern starts 51, 59, 67, 75. What is the next term?",
+        "options": [
+          "85",
+          "83",
+          "75",
+          "91"
+        ],
+        "answer": 1,
+        "explanation": "Add 8 each time: 75 + 8 = 83.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq108",
+        "question": "A number pattern starts 54, 63, 72, 81. What is the next term?",
+        "options": [
+          "90",
+          "81",
+          "99",
+          "92"
+        ],
+        "answer": 0,
+        "explanation": "Add 9 each time: 81 + 9 = 90.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq109",
+        "question": "A number pattern starts 57, 67, 77, 87. What is the next term?",
+        "options": [
+          "87",
+          "107",
+          "99",
+          "97"
+        ],
+        "answer": 3,
+        "explanation": "Add 10 each time: 87 + 10 = 97.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq110",
+        "question": "A number pattern starts 60, 71, 82, 93. What is the next term?",
+        "options": [
+          "115",
+          "106",
+          "104",
+          "93"
+        ],
+        "answer": 2,
+        "explanation": "Add 11 each time: 93 + 11 = 104.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq111",
+        "question": "A number pattern starts 63, 75, 87, 99. What is the next term?",
+        "options": [
+          "113",
+          "111",
+          "99",
+          "123"
+        ],
+        "answer": 1,
+        "explanation": "Add 12 each time: 99 + 12 = 111.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq112",
+        "question": "A number pattern starts 66, 68, 70, 72. What is the next term?",
+        "options": [
+          "74",
+          "72",
+          "76",
+          "87"
+        ],
+        "answer": 0,
+        "explanation": "Add 2 each time: 72 + 2 = 74.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq113",
+        "question": "A number pattern starts 69, 72, 75, 78. What is the next term?",
+        "options": [
+          "78",
+          "84",
+          "83",
+          "81"
+        ],
+        "answer": 3,
+        "explanation": "Add 3 each time: 78 + 3 = 81.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq114",
+        "question": "A number pattern starts 72, 76, 80, 84. What is the next term?",
+        "options": [
+          "92",
+          "90",
+          "88",
+          "84"
+        ],
+        "answer": 2,
+        "explanation": "Add 4 each time: 84 + 4 = 88.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq115",
+        "question": "A number pattern starts 75, 80, 85, 90. What is the next term?",
+        "options": [
+          "97",
+          "95",
+          "90",
+          "100"
+        ],
+        "answer": 1,
+        "explanation": "Add 5 each time: 90 + 5 = 95.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq116",
+        "question": "A number pattern starts 78, 84, 90, 96. What is the next term?",
+        "options": [
+          "102",
+          "96",
+          "108",
+          "104"
+        ],
+        "answer": 0,
+        "explanation": "Add 6 each time: 96 + 6 = 102.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq117",
+        "question": "A number pattern starts 81, 88, 95, 102. What is the next term?",
+        "options": [
+          "102",
+          "116",
+          "111",
+          "109"
+        ],
+        "answer": 3,
+        "explanation": "Add 7 each time: 102 + 7 = 109.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq118",
+        "question": "A number pattern starts 84, 92, 100, 108. What is the next term?",
+        "options": [
+          "124",
+          "118",
+          "116",
+          "108"
+        ],
+        "answer": 2,
+        "explanation": "Add 8 each time: 108 + 8 = 116.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq119",
+        "question": "A number pattern starts 87, 96, 105, 114. What is the next term?",
+        "options": [
+          "125",
+          "123",
+          "114",
+          "132"
+        ],
+        "answer": 1,
+        "explanation": "Add 9 each time: 114 + 9 = 123.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq120",
+        "question": "A number pattern starts 90, 100, 110, 120. What is the next term?",
+        "options": [
+          "130",
+          "120",
+          "140",
+          "132"
+        ],
+        "answer": 0,
+        "explanation": "Add 10 each time: 120 + 10 = 130.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq121",
+        "question": "A number pattern starts 93, 104, 115, 126. What is the next term?",
+        "options": [
+          "126",
+          "148",
+          "139",
+          "137"
+        ],
+        "answer": 3,
+        "explanation": "Add 11 each time: 126 + 11 = 137.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq122",
+        "question": "A number pattern starts 96, 108, 120, 132. What is the next term?",
+        "options": [
+          "156",
+          "146",
+          "144",
+          "132"
+        ],
+        "answer": 2,
+        "explanation": "Add 12 each time: 132 + 12 = 144.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq123",
+        "question": "A number pattern starts 99, 101, 103, 105. What is the next term?",
+        "options": [
+          "120",
+          "107",
+          "105",
+          "109"
+        ],
+        "answer": 1,
+        "explanation": "Add 2 each time: 105 + 2 = 107.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq124",
+        "question": "A number pattern starts 102, 105, 108, 111. What is the next term?",
+        "options": [
+          "114",
+          "111",
+          "117",
+          "116"
+        ],
+        "answer": 0,
+        "explanation": "Add 3 each time: 111 + 3 = 114.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq125",
+        "question": "A number pattern starts 105, 109, 113, 117. What is the next term?",
+        "options": [
+          "117",
+          "125",
+          "123",
+          "121"
+        ],
+        "answer": 3,
+        "explanation": "Add 4 each time: 117 + 4 = 121.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq126",
+        "question": "A number pattern starts 108, 113, 118, 123. What is the next term?",
+        "options": [
+          "133",
+          "130",
+          "128",
+          "123"
+        ],
+        "answer": 2,
+        "explanation": "Add 5 each time: 123 + 5 = 128.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq127",
+        "question": "A number pattern starts 111, 117, 123, 129. What is the next term?",
+        "options": [
+          "137",
+          "135",
+          "129",
+          "141"
+        ],
+        "answer": 1,
+        "explanation": "Add 6 each time: 129 + 6 = 135.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq128",
+        "question": "A number pattern starts 114, 121, 128, 135. What is the next term?",
+        "options": [
+          "142",
+          "135",
+          "149",
+          "144"
+        ],
+        "answer": 0,
+        "explanation": "Add 7 each time: 135 + 7 = 142.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq129",
+        "question": "A number pattern starts 117, 125, 133, 141. What is the next term?",
+        "options": [
+          "141",
+          "157",
+          "151",
+          "149"
+        ],
+        "answer": 3,
+        "explanation": "Add 8 each time: 141 + 8 = 149.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq130",
+        "question": "A number pattern starts 120, 129, 138, 147. What is the next term?",
+        "options": [
+          "165",
+          "158",
+          "156",
+          "147"
+        ],
+        "answer": 2,
+        "explanation": "Add 9 each time: 147 + 9 = 156.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq131",
+        "question": "A number pattern starts 123, 133, 143, 153. What is the next term?",
+        "options": [
+          "165",
+          "163",
+          "153",
+          "173"
+        ],
+        "answer": 1,
+        "explanation": "Add 10 each time: 153 + 10 = 163.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq132",
+        "question": "A number pattern starts 126, 137, 148, 159. What is the next term?",
+        "options": [
+          "170",
+          "159",
+          "181",
+          "172"
+        ],
+        "answer": 0,
+        "explanation": "Add 11 each time: 159 + 11 = 170.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq133",
+        "question": "A number pattern starts 129, 141, 153, 165. What is the next term?",
+        "options": [
+          "165",
+          "189",
+          "179",
+          "177"
+        ],
+        "answer": 3,
+        "explanation": "Add 12 each time: 165 + 12 = 177.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq134",
+        "question": "A number pattern starts 132, 134, 136, 138. What is the next term?",
+        "options": [
+          "142",
+          "153",
+          "140",
+          "138"
+        ],
+        "answer": 2,
+        "explanation": "Add 2 each time: 138 + 2 = 140.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq135",
+        "question": "A number pattern starts 135, 138, 141, 144. What is the next term?",
+        "options": [
+          "149",
+          "147",
+          "144",
+          "150"
+        ],
+        "answer": 1,
+        "explanation": "Add 3 each time: 144 + 3 = 147.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq136",
+        "question": "A number pattern starts 138, 142, 146, 150. What is the next term?",
+        "options": [
+          "154",
+          "150",
+          "158",
+          "156"
+        ],
+        "answer": 0,
+        "explanation": "Add 4 each time: 150 + 4 = 154.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq137",
+        "question": "A number pattern starts 141, 146, 151, 156. What is the next term?",
+        "options": [
+          "156",
+          "166",
+          "163",
+          "161"
+        ],
+        "answer": 3,
+        "explanation": "Add 5 each time: 156 + 5 = 161.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq138",
+        "question": "A number pattern starts 144, 150, 156, 162. What is the next term?",
+        "options": [
+          "174",
+          "170",
+          "168",
+          "162"
+        ],
+        "answer": 2,
+        "explanation": "Add 6 each time: 162 + 6 = 168.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq139",
+        "question": "A number pattern starts 147, 154, 161, 168. What is the next term?",
+        "options": [
+          "177",
+          "175",
+          "168",
+          "182"
+        ],
+        "answer": 1,
+        "explanation": "Add 7 each time: 168 + 7 = 175.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq140",
+        "question": "A number pattern starts 150, 158, 166, 174. What is the next term?",
+        "options": [
+          "182",
+          "174",
+          "190",
+          "184"
+        ],
+        "answer": 0,
+        "explanation": "Add 8 each time: 174 + 8 = 182.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -270,6 +790,526 @@
         "answer": 0,
         "explanation": "87 + 40 = 127.",
         "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq141",
+        "question": "Evaluate 19 × 5 − 3.",
+        "options": [
+          "38",
+          "98",
+          "94",
+          "92"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 19 × 5 = 95; subtract 3 to get 92.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq142",
+        "question": "A school buys 20 packs with 6 pencils in each pack. How many pencils are there?",
+        "options": [
+          "140",
+          "114",
+          "120",
+          "26"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 20 × 6 = 120.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq143",
+        "question": "Evaluate 21 × 7 − 5.",
+        "options": [
+          "144",
+          "142",
+          "42",
+          "152"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 21 × 7 = 147; subtract 5 to get 142.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq144",
+        "question": "A school buys 22 packs with 8 pencils in each pack. How many pencils are there?",
+        "options": [
+          "176",
+          "30",
+          "198",
+          "168"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 22 × 8 = 176.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq145",
+        "question": "Evaluate 23 × 9 − 7.",
+        "options": [
+          "46",
+          "214",
+          "202",
+          "200"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 23 × 9 = 207; subtract 7 to get 200.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq146",
+        "question": "A school buys 24 packs with 10 pencils in each pack. How many pencils are there?",
+        "options": [
+          "264",
+          "230",
+          "240",
+          "34"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 24 × 10 = 240.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq147",
+        "question": "Evaluate 25 × 11 − 9.",
+        "options": [
+          "268",
+          "266",
+          "50",
+          "284"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 25 × 11 = 275; subtract 9 to get 266.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq148",
+        "question": "A school buys 26 packs with 12 pencils in each pack. How many pencils are there?",
+        "options": [
+          "312",
+          "38",
+          "338",
+          "300"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 26 × 12 = 312.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq149",
+        "question": "Evaluate 27 × 13 − 11.",
+        "options": [
+          "54",
+          "362",
+          "342",
+          "340"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 27 × 13 = 351; subtract 11 to get 340.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq150",
+        "question": "A school buys 28 packs with 5 pencils in each pack. How many pencils are there?",
+        "options": [
+          "168",
+          "135",
+          "140",
+          "33"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 28 × 5 = 140.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq151",
+        "question": "Evaluate 29 × 6 − 4.",
+        "options": [
+          "172",
+          "170",
+          "58",
+          "178"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 29 × 6 = 174; subtract 4 to get 170.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq152",
+        "question": "A school buys 30 packs with 7 pencils in each pack. How many pencils are there?",
+        "options": [
+          "210",
+          "37",
+          "240",
+          "203"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 30 × 7 = 210.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq153",
+        "question": "Evaluate 31 × 8 − 6.",
+        "options": [
+          "62",
+          "254",
+          "244",
+          "242"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 31 × 8 = 248; subtract 6 to get 242.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq154",
+        "question": "A school buys 32 packs with 9 pencils in each pack. How many pencils are there?",
+        "options": [
+          "320",
+          "279",
+          "288",
+          "41"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 32 × 9 = 288.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq155",
+        "question": "Evaluate 33 × 10 − 8.",
+        "options": [
+          "324",
+          "322",
+          "66",
+          "338"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 33 × 10 = 330; subtract 8 to get 322.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq156",
+        "question": "A school buys 34 packs with 11 pencils in each pack. How many pencils are there?",
+        "options": [
+          "374",
+          "45",
+          "408",
+          "363"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 34 × 11 = 374.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq157",
+        "question": "Evaluate 35 × 12 − 10.",
+        "options": [
+          "70",
+          "430",
+          "412",
+          "410"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 35 × 12 = 420; subtract 10 to get 410.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq158",
+        "question": "A school buys 36 packs with 13 pencils in each pack. How many pencils are there?",
+        "options": [
+          "504",
+          "455",
+          "468",
+          "49"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 36 × 13 = 468.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq159",
+        "question": "Evaluate 37 × 5 − 3.",
+        "options": [
+          "184",
+          "182",
+          "74",
+          "188"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 37 × 5 = 185; subtract 3 to get 182.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq160",
+        "question": "A school buys 38 packs with 6 pencils in each pack. How many pencils are there?",
+        "options": [
+          "228",
+          "44",
+          "266",
+          "222"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 38 × 6 = 228.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq161",
+        "question": "Evaluate 39 × 7 − 5.",
+        "options": [
+          "78",
+          "278",
+          "270",
+          "268"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 39 × 7 = 273; subtract 5 to get 268.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq162",
+        "question": "A school buys 40 packs with 8 pencils in each pack. How many pencils are there?",
+        "options": [
+          "360",
+          "312",
+          "320",
+          "48"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 40 × 8 = 320.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq163",
+        "question": "Evaluate 41 × 9 − 7.",
+        "options": [
+          "364",
+          "362",
+          "82",
+          "376"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 41 × 9 = 369; subtract 7 to get 362.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq164",
+        "question": "A school buys 42 packs with 10 pencils in each pack. How many pencils are there?",
+        "options": [
+          "420",
+          "52",
+          "462",
+          "410"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 42 × 10 = 420.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq165",
+        "question": "Evaluate 43 × 11 − 9.",
+        "options": [
+          "86",
+          "482",
+          "466",
+          "464"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 43 × 11 = 473; subtract 9 to get 464.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq166",
+        "question": "A school buys 44 packs with 12 pencils in each pack. How many pencils are there?",
+        "options": [
+          "572",
+          "516",
+          "528",
+          "56"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 44 × 12 = 528.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq167",
+        "question": "Evaluate 45 × 13 − 11.",
+        "options": [
+          "576",
+          "574",
+          "90",
+          "596"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 45 × 13 = 585; subtract 11 to get 574.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq168",
+        "question": "A school buys 46 packs with 5 pencils in each pack. How many pencils are there?",
+        "options": [
+          "230",
+          "51",
+          "276",
+          "225"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 46 × 5 = 230.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq169",
+        "question": "Evaluate 47 × 6 − 4.",
+        "options": [
+          "94",
+          "286",
+          "280",
+          "278"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 47 × 6 = 282; subtract 4 to get 278.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq170",
+        "question": "A school buys 48 packs with 7 pencils in each pack. How many pencils are there?",
+        "options": [
+          "384",
+          "329",
+          "336",
+          "55"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 48 × 7 = 336.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq171",
+        "question": "Evaluate 49 × 8 − 6.",
+        "options": [
+          "388",
+          "386",
+          "98",
+          "398"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 49 × 8 = 392; subtract 6 to get 386.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq172",
+        "question": "A school buys 50 packs with 9 pencils in each pack. How many pencils are there?",
+        "options": [
+          "450",
+          "59",
+          "500",
+          "441"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 50 × 9 = 450.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq173",
+        "question": "Evaluate 51 × 10 − 8.",
+        "options": [
+          "102",
+          "518",
+          "504",
+          "502"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 51 × 10 = 510; subtract 8 to get 502.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq174",
+        "question": "A school buys 52 packs with 11 pencils in each pack. How many pencils are there?",
+        "options": [
+          "624",
+          "561",
+          "572",
+          "63"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 52 × 11 = 572.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq175",
+        "question": "Evaluate 53 × 12 − 10.",
+        "options": [
+          "628",
+          "626",
+          "106",
+          "646"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 53 × 12 = 636; subtract 10 to get 626.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq176",
+        "question": "A school buys 54 packs with 13 pencils in each pack. How many pencils are there?",
+        "options": [
+          "702",
+          "67",
+          "756",
+          "689"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 54 × 13 = 702.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq177",
+        "question": "Evaluate 55 × 5 − 3.",
+        "options": [
+          "110",
+          "278",
+          "274",
+          "272"
+        ],
+        "answer": 3,
+        "explanation": "Multiply first: 55 × 5 = 275; subtract 3 to get 272.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq178",
+        "question": "A school buys 56 packs with 6 pencils in each pack. How many pencils are there?",
+        "options": [
+          "392",
+          "330",
+          "336",
+          "62"
+        ],
+        "answer": 2,
+        "explanation": "Multiply packs by pencils per pack: 56 × 6 = 336.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq179",
+        "question": "Evaluate 57 × 7 − 5.",
+        "options": [
+          "396",
+          "394",
+          "114",
+          "404"
+        ],
+        "answer": 1,
+        "explanation": "Multiply first: 57 × 7 = 399; subtract 5 to get 394.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq180",
+        "question": "A school buys 58 packs with 8 pencils in each pack. How many pencils are there?",
+        "options": [
+          "464",
+          "66",
+          "522",
+          "456"
+        ],
+        "answer": 0,
+        "explanation": "Multiply packs by pencils per pack: 58 × 8 = 464.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -406,6 +1446,526 @@
         ],
         "answer": 2,
         "explanation": "The greatest common factor of 30 and 45 is 15.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq181",
+        "question": "Find the HCF of 32 and 12.",
+        "options": [
+          "12",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 32 and 12 is 4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq182",
+        "question": "Find the LCM of 17 and 7.",
+        "options": [
+          "126",
+          "132",
+          "119",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 17 and 7 is 119.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq183",
+        "question": "Find the HCF of 36 and 16.",
+        "options": [
+          "6",
+          "4",
+          "16",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 36 and 16 is 4.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq184",
+        "question": "Find the LCM of 19 and 9.",
+        "options": [
+          "171",
+          "9",
+          "180",
+          "184"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 19 and 9 is 171.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq185",
+        "question": "Find the HCF of 40 and 20.",
+        "options": [
+          "11",
+          "22",
+          "33",
+          "20"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 40 and 20 is 20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq186",
+        "question": "Find the LCM of 21 and 11.",
+        "options": [
+          "242",
+          "244",
+          "231",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 21 and 11 is 231.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq187",
+        "question": "Find the HCF of 44 and 24.",
+        "options": [
+          "6",
+          "4",
+          "24",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 44 and 24 is 4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq188",
+        "question": "Find the LCM of 23 and 13.",
+        "options": [
+          "299",
+          "13",
+          "312",
+          "325"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 23 and 13 is 299.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq189",
+        "question": "Find the HCF of 48 and 28.",
+        "options": [
+          "28",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 48 and 28 is 4.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq190",
+        "question": "Find the LCM of 25 and 6.",
+        "options": [
+          "156",
+          "163",
+          "150",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 25 and 6 is 150.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq191",
+        "question": "Find the HCF of 52 and 14.",
+        "options": [
+          "15",
+          "2",
+          "14",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 52 and 14 is 2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq192",
+        "question": "Find the LCM of 27 and 8.",
+        "options": [
+          "216",
+          "8",
+          "224",
+          "229"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 27 and 8 is 216.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq193",
+        "question": "Find the HCF of 56 and 18.",
+        "options": [
+          "18",
+          "4",
+          "15",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 56 and 18 is 2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq194",
+        "question": "Find the LCM of 29 and 10.",
+        "options": [
+          "300",
+          "303",
+          "290",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 29 and 10 is 290.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq195",
+        "question": "Find the HCF of 60 and 22.",
+        "options": [
+          "15",
+          "2",
+          "22",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 60 and 22 is 2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq196",
+        "question": "Find the LCM of 31 and 12.",
+        "options": [
+          "372",
+          "12",
+          "384",
+          "385"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 31 and 12 is 372.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq197",
+        "question": "Find the HCF of 64 and 26.",
+        "options": [
+          "26",
+          "4",
+          "15",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 64 and 26 is 2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq198",
+        "question": "Find the LCM of 33 and 14.",
+        "options": [
+          "476",
+          "475",
+          "462",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 33 and 14 is 462.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq199",
+        "question": "Find the HCF of 68 and 12.",
+        "options": [
+          "6",
+          "4",
+          "12",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 68 and 12 is 4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq200",
+        "question": "Find the LCM of 35 and 7.",
+        "options": [
+          "35",
+          "245",
+          "7",
+          "42"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 35 and 7 is 35.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq201",
+        "question": "Find the HCF of 72 and 16.",
+        "options": [
+          "16",
+          "5",
+          "10",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 72 and 16 is 8.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq202",
+        "question": "Find the LCM of 37 and 9.",
+        "options": [
+          "342",
+          "346",
+          "333",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 37 and 9 is 333.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq203",
+        "question": "Find the HCF of 76 and 20.",
+        "options": [
+          "6",
+          "4",
+          "20",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 76 and 20 is 4.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq204",
+        "question": "Find the LCM of 39 and 11.",
+        "options": [
+          "429",
+          "11",
+          "440",
+          "442"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 39 and 11 is 429.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq205",
+        "question": "Find the HCF of 80 and 24.",
+        "options": [
+          "24",
+          "5",
+          "10",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 80 and 24 is 8.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq206",
+        "question": "Find the LCM of 41 and 13.",
+        "options": [
+          "546",
+          "559",
+          "533",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 41 and 13 is 533.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq207",
+        "question": "Find the HCF of 84 and 28.",
+        "options": [
+          "41",
+          "28",
+          "15",
+          "30"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 84 and 28 is 28.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq208",
+        "question": "Find the LCM of 43 and 6.",
+        "options": [
+          "258",
+          "6",
+          "264",
+          "271"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 43 and 6 is 258.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq209",
+        "question": "Find the HCF of 88 and 14.",
+        "options": [
+          "14",
+          "4",
+          "15",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 88 and 14 is 2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq210",
+        "question": "Find the LCM of 45 and 8.",
+        "options": [
+          "368",
+          "373",
+          "360",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 45 and 8 is 360.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq211",
+        "question": "Find the HCF of 92 and 18.",
+        "options": [
+          "15",
+          "2",
+          "18",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 92 and 18 is 2.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq212",
+        "question": "Find the LCM of 47 and 10.",
+        "options": [
+          "470",
+          "10",
+          "480",
+          "483"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 47 and 10 is 470.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq213",
+        "question": "Find the HCF of 96 and 22.",
+        "options": [
+          "22",
+          "4",
+          "15",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 96 and 22 is 2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq214",
+        "question": "Find the LCM of 49 and 12.",
+        "options": [
+          "600",
+          "601",
+          "588",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 49 and 12 is 588.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq215",
+        "question": "Find the HCF of 100 and 26.",
+        "options": [
+          "15",
+          "2",
+          "26",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 100 and 26 is 2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq216",
+        "question": "Find the LCM of 51 and 14.",
+        "options": [
+          "714",
+          "14",
+          "728",
+          "727"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 51 and 14 is 714.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq217",
+        "question": "Find the HCF of 104 and 12.",
+        "options": [
+          "12",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "The greatest common factor of 104 and 12 is 4.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq218",
+        "question": "Find the LCM of 53 and 7.",
+        "options": [
+          "378",
+          "384",
+          "371",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "The least common multiple of 53 and 7 is 371.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq219",
+        "question": "Find the HCF of 108 and 16.",
+        "options": [
+          "6",
+          "4",
+          "16",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The greatest common factor of 108 and 16 is 4.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq220",
+        "question": "Find the LCM of 55 and 9.",
+        "options": [
+          "495",
+          "9",
+          "504",
+          "508"
+        ],
+        "answer": 0,
+        "explanation": "The least common multiple of 55 and 9 is 495.",
         "difficulty": "Medium"
       }
     ]
@@ -544,6 +2104,526 @@
         "answer": 0,
         "explanation": "Common denominator 24: numerator 1×6 + 2×4 = 14.",
         "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq221",
+        "question": "What is 1/5 of 60?",
+        "options": [
+          "13",
+          "11",
+          "25",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "60 ÷ 5 = 12; multiply by 1 to get 12.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq222",
+        "question": "A strip is divided into 6 equal parts. What fraction represents 2 of those parts?",
+        "options": [
+          "2/7",
+          "6/2",
+          "2/6",
+          "3/6"
+        ],
+        "answer": 2,
+        "explanation": "2 selected parts out of 6 equal parts is 2/6.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq223",
+        "question": "What is 3/7 of 98?",
+        "options": [
+          "39",
+          "42",
+          "45",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "98 ÷ 7 = 14; multiply by 3 to get 42.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq224",
+        "question": "A strip is divided into 8 equal parts. What fraction represents 1 of those parts?",
+        "options": [
+          "1/8",
+          "2/8",
+          "1/9",
+          "8/1"
+        ],
+        "answer": 0,
+        "explanation": "1 selected parts out of 8 equal parts is 1/8.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq225",
+        "question": "What is 2/9 of 144?",
+        "options": [
+          "34",
+          "16",
+          "30",
+          "32"
+        ],
+        "answer": 3,
+        "explanation": "144 ÷ 9 = 16; multiply by 2 to get 32.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq226",
+        "question": "A strip is divided into 10 equal parts. What fraction represents 3 of those parts?",
+        "options": [
+          "3/11",
+          "10/3",
+          "3/10",
+          "4/10"
+        ],
+        "answer": 2,
+        "explanation": "3 selected parts out of 10 equal parts is 3/10.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq227",
+        "question": "What is 1/11 of 198?",
+        "options": [
+          "31",
+          "18",
+          "19",
+          "17"
+        ],
+        "answer": 1,
+        "explanation": "198 ÷ 11 = 18; multiply by 1 to get 18.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq228",
+        "question": "A strip is divided into 12 equal parts. What fraction represents 2 of those parts?",
+        "options": [
+          "2/12",
+          "3/12",
+          "2/13",
+          "12/2"
+        ],
+        "answer": 0,
+        "explanation": "2 selected parts out of 12 equal parts is 2/12.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq229",
+        "question": "What is 3/13 of 260?",
+        "options": [
+          "63",
+          "20",
+          "57",
+          "60"
+        ],
+        "answer": 3,
+        "explanation": "260 ÷ 13 = 20; multiply by 3 to get 60.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq230",
+        "question": "A strip is divided into 14 equal parts. What fraction represents 1 of those parts?",
+        "options": [
+          "1/15",
+          "14/1",
+          "1/14",
+          "2/14"
+        ],
+        "answer": 2,
+        "explanation": "1 selected parts out of 14 equal parts is 1/14.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq231",
+        "question": "What is 2/15 of 330?",
+        "options": [
+          "42",
+          "44",
+          "46",
+          "22"
+        ],
+        "answer": 1,
+        "explanation": "330 ÷ 15 = 22; multiply by 2 to get 44.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq232",
+        "question": "A strip is divided into 16 equal parts. What fraction represents 3 of those parts?",
+        "options": [
+          "3/16",
+          "4/16",
+          "3/17",
+          "16/3"
+        ],
+        "answer": 0,
+        "explanation": "3 selected parts out of 16 equal parts is 3/16.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq233",
+        "question": "What is 1/17 of 408?",
+        "options": [
+          "25",
+          "23",
+          "37",
+          "24"
+        ],
+        "answer": 3,
+        "explanation": "408 ÷ 17 = 24; multiply by 1 to get 24.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq234",
+        "question": "A strip is divided into 18 equal parts. What fraction represents 2 of those parts?",
+        "options": [
+          "2/19",
+          "18/2",
+          "2/18",
+          "3/18"
+        ],
+        "answer": 2,
+        "explanation": "2 selected parts out of 18 equal parts is 2/18.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq235",
+        "question": "What is 3/19 of 494?",
+        "options": [
+          "75",
+          "78",
+          "81",
+          "26"
+        ],
+        "answer": 1,
+        "explanation": "494 ÷ 19 = 26; multiply by 3 to get 78.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq236",
+        "question": "A strip is divided into 20 equal parts. What fraction represents 1 of those parts?",
+        "options": [
+          "1/20",
+          "2/20",
+          "1/21",
+          "20/1"
+        ],
+        "answer": 0,
+        "explanation": "1 selected parts out of 20 equal parts is 1/20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq237",
+        "question": "What is 2/21 of 588?",
+        "options": [
+          "58",
+          "28",
+          "54",
+          "56"
+        ],
+        "answer": 3,
+        "explanation": "588 ÷ 21 = 28; multiply by 2 to get 56.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq238",
+        "question": "A strip is divided into 22 equal parts. What fraction represents 3 of those parts?",
+        "options": [
+          "3/23",
+          "22/3",
+          "3/22",
+          "4/22"
+        ],
+        "answer": 2,
+        "explanation": "3 selected parts out of 22 equal parts is 3/22.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq239",
+        "question": "What is 1/23 of 690?",
+        "options": [
+          "43",
+          "30",
+          "31",
+          "29"
+        ],
+        "answer": 1,
+        "explanation": "690 ÷ 23 = 30; multiply by 1 to get 30.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq240",
+        "question": "A strip is divided into 24 equal parts. What fraction represents 2 of those parts?",
+        "options": [
+          "2/24",
+          "3/24",
+          "2/25",
+          "24/2"
+        ],
+        "answer": 0,
+        "explanation": "2 selected parts out of 24 equal parts is 2/24.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq241",
+        "question": "What is 3/25 of 800?",
+        "options": [
+          "99",
+          "32",
+          "93",
+          "96"
+        ],
+        "answer": 3,
+        "explanation": "800 ÷ 25 = 32; multiply by 3 to get 96.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq242",
+        "question": "A strip is divided into 26 equal parts. What fraction represents 1 of those parts?",
+        "options": [
+          "1/27",
+          "26/1",
+          "1/26",
+          "2/26"
+        ],
+        "answer": 2,
+        "explanation": "1 selected parts out of 26 equal parts is 1/26.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq243",
+        "question": "What is 2/27 of 918?",
+        "options": [
+          "66",
+          "68",
+          "70",
+          "34"
+        ],
+        "answer": 1,
+        "explanation": "918 ÷ 27 = 34; multiply by 2 to get 68.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq244",
+        "question": "A strip is divided into 28 equal parts. What fraction represents 3 of those parts?",
+        "options": [
+          "3/28",
+          "4/28",
+          "3/29",
+          "28/3"
+        ],
+        "answer": 0,
+        "explanation": "3 selected parts out of 28 equal parts is 3/28.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq245",
+        "question": "What is 1/29 of 1044?",
+        "options": [
+          "37",
+          "35",
+          "49",
+          "36"
+        ],
+        "answer": 3,
+        "explanation": "1044 ÷ 29 = 36; multiply by 1 to get 36.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq246",
+        "question": "A strip is divided into 30 equal parts. What fraction represents 2 of those parts?",
+        "options": [
+          "2/31",
+          "30/2",
+          "2/30",
+          "3/30"
+        ],
+        "answer": 2,
+        "explanation": "2 selected parts out of 30 equal parts is 2/30.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq247",
+        "question": "What is 3/31 of 1178?",
+        "options": [
+          "111",
+          "114",
+          "117",
+          "38"
+        ],
+        "answer": 1,
+        "explanation": "1178 ÷ 31 = 38; multiply by 3 to get 114.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq248",
+        "question": "A strip is divided into 32 equal parts. What fraction represents 1 of those parts?",
+        "options": [
+          "1/32",
+          "2/32",
+          "1/33",
+          "32/1"
+        ],
+        "answer": 0,
+        "explanation": "1 selected parts out of 32 equal parts is 1/32.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq249",
+        "question": "What is 2/33 of 1320?",
+        "options": [
+          "82",
+          "40",
+          "78",
+          "80"
+        ],
+        "answer": 3,
+        "explanation": "1320 ÷ 33 = 40; multiply by 2 to get 80.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq250",
+        "question": "A strip is divided into 34 equal parts. What fraction represents 3 of those parts?",
+        "options": [
+          "3/35",
+          "34/3",
+          "3/34",
+          "4/34"
+        ],
+        "answer": 2,
+        "explanation": "3 selected parts out of 34 equal parts is 3/34.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq251",
+        "question": "What is 1/35 of 1470?",
+        "options": [
+          "55",
+          "42",
+          "43",
+          "41"
+        ],
+        "answer": 1,
+        "explanation": "1470 ÷ 35 = 42; multiply by 1 to get 42.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq252",
+        "question": "A strip is divided into 36 equal parts. What fraction represents 2 of those parts?",
+        "options": [
+          "2/36",
+          "3/36",
+          "2/37",
+          "36/2"
+        ],
+        "answer": 0,
+        "explanation": "2 selected parts out of 36 equal parts is 2/36.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq253",
+        "question": "What is 3/37 of 1628?",
+        "options": [
+          "135",
+          "44",
+          "129",
+          "132"
+        ],
+        "answer": 3,
+        "explanation": "1628 ÷ 37 = 44; multiply by 3 to get 132.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq254",
+        "question": "A strip is divided into 38 equal parts. What fraction represents 1 of those parts?",
+        "options": [
+          "1/39",
+          "38/1",
+          "1/38",
+          "2/38"
+        ],
+        "answer": 2,
+        "explanation": "1 selected parts out of 38 equal parts is 1/38.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq255",
+        "question": "What is 2/39 of 1794?",
+        "options": [
+          "90",
+          "92",
+          "94",
+          "46"
+        ],
+        "answer": 1,
+        "explanation": "1794 ÷ 39 = 46; multiply by 2 to get 92.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq256",
+        "question": "A strip is divided into 40 equal parts. What fraction represents 3 of those parts?",
+        "options": [
+          "3/40",
+          "4/40",
+          "3/41",
+          "40/3"
+        ],
+        "answer": 0,
+        "explanation": "3 selected parts out of 40 equal parts is 3/40.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq257",
+        "question": "What is 1/41 of 1968?",
+        "options": [
+          "49",
+          "47",
+          "61",
+          "48"
+        ],
+        "answer": 3,
+        "explanation": "1968 ÷ 41 = 48; multiply by 1 to get 48.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq258",
+        "question": "A strip is divided into 42 equal parts. What fraction represents 2 of those parts?",
+        "options": [
+          "2/43",
+          "42/2",
+          "2/42",
+          "3/42"
+        ],
+        "answer": 2,
+        "explanation": "2 selected parts out of 42 equal parts is 2/42.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq259",
+        "question": "What is 3/43 of 2150?",
+        "options": [
+          "147",
+          "150",
+          "153",
+          "50"
+        ],
+        "answer": 1,
+        "explanation": "2150 ÷ 43 = 50; multiply by 3 to get 150.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq260",
+        "question": "A strip is divided into 44 equal parts. What fraction represents 1 of those parts?",
+        "options": [
+          "1/44",
+          "2/44",
+          "1/45",
+          "44/1"
+        ],
+        "answer": 0,
+        "explanation": "1 selected parts out of 44 equal parts is 1/44.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -680,6 +2760,526 @@
         ],
         "answer": 2,
         "explanation": "Adding the decimal to 11 gives 11.23.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq261",
+        "question": "Calculate 1.3 + 0.05.",
+        "options": [
+          "1.45",
+          "1.25",
+          "2.35",
+          "1.35"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 1.30 + 0.05 = 1.35.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq262",
+        "question": "What is 14 ÷ 10?",
+        "options": [
+          "0.14",
+          "140.0",
+          "1.4",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 1.4.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq263",
+        "question": "Calculate 1.5 + 0.07.",
+        "options": [
+          "2.57",
+          "1.57",
+          "1.67",
+          "1.47"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 1.50 + 0.07 = 1.57.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq264",
+        "question": "What is 16 ÷ 10?",
+        "options": [
+          "1.6",
+          "16",
+          "0.16",
+          "160.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 1.6.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq265",
+        "question": "Calculate 1.7 + 0.09.",
+        "options": [
+          "1.89",
+          "1.69",
+          "2.79",
+          "1.79"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 1.70 + 0.09 = 1.79.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq266",
+        "question": "What is 18 ÷ 10?",
+        "options": [
+          "0.18",
+          "180.0",
+          "1.8",
+          "18"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 1.8.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq267",
+        "question": "Calculate 1.9 + 0.11.",
+        "options": [
+          "3.01",
+          "2.01",
+          "2.11",
+          "1.91"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 1.90 + 0.11 = 2.01.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq268",
+        "question": "What is 20 ÷ 10?",
+        "options": [
+          "2.0",
+          "20",
+          "0.20",
+          "200.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 2.0.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq269",
+        "question": "Calculate 2.1 + 0.13.",
+        "options": [
+          "2.33",
+          "2.13",
+          "3.23",
+          "2.23"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 2.10 + 0.13 = 2.23.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq270",
+        "question": "What is 22 ÷ 10?",
+        "options": [
+          "0.22",
+          "220.0",
+          "2.2",
+          "22"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 2.2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq271",
+        "question": "Calculate 2.3 + 0.06.",
+        "options": [
+          "3.36",
+          "2.36",
+          "2.46",
+          "2.26"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 2.30 + 0.06 = 2.36.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq272",
+        "question": "What is 24 ÷ 10?",
+        "options": [
+          "2.4",
+          "24",
+          "0.24",
+          "240.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 2.4.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq273",
+        "question": "Calculate 2.5 + 0.08.",
+        "options": [
+          "2.68",
+          "2.48",
+          "3.58",
+          "2.58"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 2.50 + 0.08 = 2.58.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq274",
+        "question": "What is 26 ÷ 10?",
+        "options": [
+          "0.26",
+          "260.0",
+          "2.6",
+          "26"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 2.6.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq275",
+        "question": "Calculate 2.7 + 0.10.",
+        "options": [
+          "3.80",
+          "2.80",
+          "2.90",
+          "2.70"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 2.70 + 0.10 = 2.80.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq276",
+        "question": "What is 28 ÷ 10?",
+        "options": [
+          "2.8",
+          "28",
+          "0.28",
+          "280.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 2.8.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq277",
+        "question": "Calculate 2.9 + 0.12.",
+        "options": [
+          "3.12",
+          "2.92",
+          "4.02",
+          "3.02"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 2.90 + 0.12 = 3.02.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq278",
+        "question": "What is 30 ÷ 10?",
+        "options": [
+          "0.30",
+          "300.0",
+          "3.0",
+          "30"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 3.0.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq279",
+        "question": "Calculate 3.1 + 0.05.",
+        "options": [
+          "4.15",
+          "3.15",
+          "3.25",
+          "3.05"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 3.10 + 0.05 = 3.15.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq280",
+        "question": "What is 32 ÷ 10?",
+        "options": [
+          "3.2",
+          "32",
+          "0.32",
+          "320.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 3.2.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq281",
+        "question": "Calculate 3.3 + 0.07.",
+        "options": [
+          "3.47",
+          "3.27",
+          "4.37",
+          "3.37"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 3.30 + 0.07 = 3.37.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq282",
+        "question": "What is 34 ÷ 10?",
+        "options": [
+          "0.34",
+          "340.0",
+          "3.4",
+          "34"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 3.4.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq283",
+        "question": "Calculate 3.5 + 0.09.",
+        "options": [
+          "4.59",
+          "3.59",
+          "3.69",
+          "3.49"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 3.50 + 0.09 = 3.59.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq284",
+        "question": "What is 36 ÷ 10?",
+        "options": [
+          "3.6",
+          "36",
+          "0.36",
+          "360.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 3.6.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq285",
+        "question": "Calculate 3.7 + 0.11.",
+        "options": [
+          "3.91",
+          "3.71",
+          "4.81",
+          "3.81"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 3.70 + 0.11 = 3.81.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq286",
+        "question": "What is 38 ÷ 10?",
+        "options": [
+          "0.38",
+          "380.0",
+          "3.8",
+          "38"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 3.8.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq287",
+        "question": "Calculate 3.9 + 0.13.",
+        "options": [
+          "5.03",
+          "4.03",
+          "4.13",
+          "3.93"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 3.90 + 0.13 = 4.03.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq288",
+        "question": "What is 40 ÷ 10?",
+        "options": [
+          "4.0",
+          "40",
+          "0.40",
+          "400.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 4.0.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq289",
+        "question": "Calculate 4.1 + 0.06.",
+        "options": [
+          "4.26",
+          "4.06",
+          "5.16",
+          "4.16"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 4.10 + 0.06 = 4.16.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq290",
+        "question": "What is 42 ÷ 10?",
+        "options": [
+          "0.42",
+          "420.0",
+          "4.2",
+          "42"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 4.2.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq291",
+        "question": "Calculate 4.3 + 0.08.",
+        "options": [
+          "5.38",
+          "4.38",
+          "4.48",
+          "4.28"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 4.30 + 0.08 = 4.38.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq292",
+        "question": "What is 44 ÷ 10?",
+        "options": [
+          "4.4",
+          "44",
+          "0.44",
+          "440.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 4.4.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq293",
+        "question": "Calculate 4.5 + 0.10.",
+        "options": [
+          "4.70",
+          "4.50",
+          "5.60",
+          "4.60"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 4.50 + 0.10 = 4.60.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq294",
+        "question": "What is 46 ÷ 10?",
+        "options": [
+          "0.46",
+          "460.0",
+          "4.6",
+          "46"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 4.6.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq295",
+        "question": "Calculate 4.7 + 0.12.",
+        "options": [
+          "5.82",
+          "4.82",
+          "4.92",
+          "4.72"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 4.70 + 0.12 = 4.82.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq296",
+        "question": "What is 48 ÷ 10?",
+        "options": [
+          "4.8",
+          "48",
+          "0.48",
+          "480.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 4.8.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq297",
+        "question": "Calculate 4.9 + 0.05.",
+        "options": [
+          "5.05",
+          "4.85",
+          "5.95",
+          "4.95"
+        ],
+        "answer": 3,
+        "explanation": "Align decimal points: 4.90 + 0.05 = 4.95.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq298",
+        "question": "What is 50 ÷ 10?",
+        "options": [
+          "0.50",
+          "500.0",
+          "5.0",
+          "50"
+        ],
+        "answer": 2,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 5.0.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq299",
+        "question": "Calculate 5.1 + 0.07.",
+        "options": [
+          "6.17",
+          "5.17",
+          "5.27",
+          "5.07"
+        ],
+        "answer": 1,
+        "explanation": "Align decimal points: 5.10 + 0.07 = 5.17.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq300",
+        "question": "What is 52 ÷ 10?",
+        "options": [
+          "5.2",
+          "52",
+          "0.52",
+          "520.0"
+        ],
+        "answer": 0,
+        "explanation": "Dividing by 10 moves the decimal point one place left, giving 5.2.",
         "difficulty": "Medium"
       }
     ]
@@ -818,6 +3418,526 @@
         "answer": 0,
         "explanation": "Complement = 90° − 83° = 7°.",
         "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq301",
+        "question": "An angle measures 20°. Which type of angle is it?",
+        "options": [
+          "Right",
+          "Obtuse",
+          "Straight",
+          "Acute"
+        ],
+        "answer": 3,
+        "explanation": "20° is less than 90°, so it is acute.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq302",
+        "question": "A triangle has angles 12° and 24°. Find the third angle.",
+        "options": [
+          "156",
+          "36",
+          "144",
+          "168"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 12 − 24 = 144°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq303",
+        "question": "An angle measures 26°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Acute",
+          "Right",
+          "Obtuse"
+        ],
+        "answer": 1,
+        "explanation": "26° is less than 90°, so it is acute.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq304",
+        "question": "A triangle has angles 14° and 26°. Find the third angle.",
+        "options": [
+          "140",
+          "166",
+          "154",
+          "40"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 14 − 26 = 140°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq305",
+        "question": "An angle measures 32°. Which type of angle is it?",
+        "options": [
+          "Right",
+          "Obtuse",
+          "Straight",
+          "Acute"
+        ],
+        "answer": 3,
+        "explanation": "32° is less than 90°, so it is acute.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq306",
+        "question": "A triangle has angles 16° and 28°. Find the third angle.",
+        "options": [
+          "152",
+          "44",
+          "136",
+          "164"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 16 − 28 = 136°.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq307",
+        "question": "An angle measures 38°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Acute",
+          "Right",
+          "Obtuse"
+        ],
+        "answer": 1,
+        "explanation": "38° is less than 90°, so it is acute.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq308",
+        "question": "A triangle has angles 18° and 30°. Find the third angle.",
+        "options": [
+          "132",
+          "162",
+          "150",
+          "48"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 18 − 30 = 132°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq309",
+        "question": "An angle measures 44°. Which type of angle is it?",
+        "options": [
+          "Right",
+          "Obtuse",
+          "Straight",
+          "Acute"
+        ],
+        "answer": 3,
+        "explanation": "44° is less than 90°, so it is acute.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq310",
+        "question": "A triangle has angles 20° and 23°. Find the third angle.",
+        "options": [
+          "157",
+          "43",
+          "137",
+          "160"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 20 − 23 = 137°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq311",
+        "question": "An angle measures 50°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Acute",
+          "Right",
+          "Obtuse"
+        ],
+        "answer": 1,
+        "explanation": "50° is less than 90°, so it is acute.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq312",
+        "question": "A triangle has angles 22° and 25°. Find the third angle.",
+        "options": [
+          "133",
+          "158",
+          "155",
+          "47"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 22 − 25 = 133°.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq313",
+        "question": "An angle measures 56°. Which type of angle is it?",
+        "options": [
+          "Right",
+          "Obtuse",
+          "Straight",
+          "Acute"
+        ],
+        "answer": 3,
+        "explanation": "56° is less than 90°, so it is acute.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq314",
+        "question": "A triangle has angles 24° and 27°. Find the third angle.",
+        "options": [
+          "153",
+          "51",
+          "129",
+          "156"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 24 − 27 = 129°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq315",
+        "question": "An angle measures 62°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Acute",
+          "Right",
+          "Obtuse"
+        ],
+        "answer": 1,
+        "explanation": "62° is less than 90°, so it is acute.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq316",
+        "question": "A triangle has angles 26° and 29°. Find the third angle.",
+        "options": [
+          "125",
+          "154",
+          "151",
+          "55"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 26 − 29 = 125°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq317",
+        "question": "An angle measures 68°. Which type of angle is it?",
+        "options": [
+          "Right",
+          "Obtuse",
+          "Straight",
+          "Acute"
+        ],
+        "answer": 3,
+        "explanation": "68° is less than 90°, so it is acute.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq318",
+        "question": "A triangle has angles 28° and 31°. Find the third angle.",
+        "options": [
+          "149",
+          "59",
+          "121",
+          "152"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 28 − 31 = 121°.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq319",
+        "question": "An angle measures 74°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Acute",
+          "Right",
+          "Obtuse"
+        ],
+        "answer": 1,
+        "explanation": "74° is less than 90°, so it is acute.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq320",
+        "question": "A triangle has angles 30° and 24°. Find the third angle.",
+        "options": [
+          "126",
+          "150",
+          "156",
+          "54"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 30 − 24 = 126°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq321",
+        "question": "An angle measures 80°. Which type of angle is it?",
+        "options": [
+          "Right",
+          "Obtuse",
+          "Straight",
+          "Acute"
+        ],
+        "answer": 3,
+        "explanation": "80° is less than 90°, so it is acute.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq322",
+        "question": "A triangle has angles 32° and 26°. Find the third angle.",
+        "options": [
+          "154",
+          "58",
+          "122",
+          "148"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 32 − 26 = 122°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq323",
+        "question": "An angle measures 86°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Acute",
+          "Right",
+          "Obtuse"
+        ],
+        "answer": 1,
+        "explanation": "86° is less than 90°, so it is acute.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq324",
+        "question": "A triangle has angles 34° and 28°. Find the third angle.",
+        "options": [
+          "118",
+          "146",
+          "152",
+          "62"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 34 − 28 = 118°.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq325",
+        "question": "An angle measures 92°. Which type of angle is it?",
+        "options": [
+          "Acute",
+          "Right",
+          "Straight",
+          "Obtuse"
+        ],
+        "answer": 3,
+        "explanation": "92° is between 90° and 180°, so it is obtuse.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq326",
+        "question": "A triangle has angles 36° and 30°. Find the third angle.",
+        "options": [
+          "150",
+          "66",
+          "114",
+          "144"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 36 − 30 = 114°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq327",
+        "question": "An angle measures 98°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Obtuse",
+          "Acute",
+          "Right"
+        ],
+        "answer": 1,
+        "explanation": "98° is between 90° and 180°, so it is obtuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq328",
+        "question": "A triangle has angles 38° and 23°. Find the third angle.",
+        "options": [
+          "119",
+          "142",
+          "157",
+          "61"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 38 − 23 = 119°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq329",
+        "question": "An angle measures 104°. Which type of angle is it?",
+        "options": [
+          "Acute",
+          "Right",
+          "Straight",
+          "Obtuse"
+        ],
+        "answer": 3,
+        "explanation": "104° is between 90° and 180°, so it is obtuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq330",
+        "question": "A triangle has angles 40° and 25°. Find the third angle.",
+        "options": [
+          "155",
+          "65",
+          "115",
+          "140"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 40 − 25 = 115°.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq331",
+        "question": "An angle measures 110°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Obtuse",
+          "Acute",
+          "Right"
+        ],
+        "answer": 1,
+        "explanation": "110° is between 90° and 180°, so it is obtuse.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq332",
+        "question": "A triangle has angles 42° and 27°. Find the third angle.",
+        "options": [
+          "111",
+          "138",
+          "153",
+          "69"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 42 − 27 = 111°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq333",
+        "question": "An angle measures 116°. Which type of angle is it?",
+        "options": [
+          "Acute",
+          "Right",
+          "Straight",
+          "Obtuse"
+        ],
+        "answer": 3,
+        "explanation": "116° is between 90° and 180°, so it is obtuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq334",
+        "question": "A triangle has angles 44° and 29°. Find the third angle.",
+        "options": [
+          "151",
+          "73",
+          "107",
+          "136"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 44 − 29 = 107°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq335",
+        "question": "An angle measures 122°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Obtuse",
+          "Acute",
+          "Right"
+        ],
+        "answer": 1,
+        "explanation": "122° is between 90° and 180°, so it is obtuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq336",
+        "question": "A triangle has angles 46° and 31°. Find the third angle.",
+        "options": [
+          "103",
+          "134",
+          "149",
+          "77"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 46 − 31 = 103°.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq337",
+        "question": "An angle measures 128°. Which type of angle is it?",
+        "options": [
+          "Acute",
+          "Right",
+          "Straight",
+          "Obtuse"
+        ],
+        "answer": 3,
+        "explanation": "128° is between 90° and 180°, so it is obtuse.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq338",
+        "question": "A triangle has angles 48° and 24°. Find the third angle.",
+        "options": [
+          "156",
+          "72",
+          "108",
+          "132"
+        ],
+        "answer": 2,
+        "explanation": "Triangle angles total 180°: 180 − 48 − 24 = 108°.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq339",
+        "question": "An angle measures 134°. Which type of angle is it?",
+        "options": [
+          "Straight",
+          "Obtuse",
+          "Acute",
+          "Right"
+        ],
+        "answer": 1,
+        "explanation": "134° is between 90° and 180°, so it is obtuse.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq340",
+        "question": "A triangle has angles 50° and 26°. Find the third angle.",
+        "options": [
+          "104",
+          "130",
+          "154",
+          "76"
+        ],
+        "answer": 0,
+        "explanation": "Triangle angles total 180°: 180 − 50 − 26 = 104°.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -954,6 +4074,526 @@
         ],
         "answer": 2,
         "explanation": "Perimeter = 2 × (14 + 6) = 40 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq341",
+        "question": "Find the perimeter of a rectangle 15 cm long and 5 cm wide.",
+        "options": [
+          "75",
+          "20",
+          "35",
+          "40"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (15 + 5) = 40 cm.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq342",
+        "question": "Find the area of a rectangle 16 cm long and 6 cm wide.",
+        "options": [
+          "22",
+          "98",
+          "96",
+          "44"
+        ],
+        "answer": 2,
+        "explanation": "Area = 16 × 6 = 96 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq343",
+        "question": "Find the perimeter of a rectangle 17 cm long and 7 cm wide.",
+        "options": [
+          "41",
+          "48",
+          "119",
+          "24"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (17 + 7) = 48 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq344",
+        "question": "Find the area of a rectangle 18 cm long and 8 cm wide.",
+        "options": [
+          "144",
+          "52",
+          "26",
+          "146"
+        ],
+        "answer": 0,
+        "explanation": "Area = 18 × 8 = 144 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq345",
+        "question": "Find the perimeter of a rectangle 19 cm long and 9 cm wide.",
+        "options": [
+          "171",
+          "28",
+          "47",
+          "56"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (19 + 9) = 56 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq346",
+        "question": "Find the area of a rectangle 20 cm long and 10 cm wide.",
+        "options": [
+          "30",
+          "202",
+          "200",
+          "60"
+        ],
+        "answer": 2,
+        "explanation": "Area = 20 × 10 = 200 cm².",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq347",
+        "question": "Find the perimeter of a rectangle 21 cm long and 11 cm wide.",
+        "options": [
+          "53",
+          "64",
+          "231",
+          "32"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (21 + 11) = 64 cm.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq348",
+        "question": "Find the area of a rectangle 22 cm long and 12 cm wide.",
+        "options": [
+          "264",
+          "68",
+          "34",
+          "266"
+        ],
+        "answer": 0,
+        "explanation": "Area = 22 × 12 = 264 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq349",
+        "question": "Find the perimeter of a rectangle 23 cm long and 13 cm wide.",
+        "options": [
+          "299",
+          "36",
+          "59",
+          "72"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (23 + 13) = 72 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq350",
+        "question": "Find the area of a rectangle 24 cm long and 5 cm wide.",
+        "options": [
+          "29",
+          "122",
+          "120",
+          "58"
+        ],
+        "answer": 2,
+        "explanation": "Area = 24 × 5 = 120 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq351",
+        "question": "Find the perimeter of a rectangle 25 cm long and 6 cm wide.",
+        "options": [
+          "56",
+          "62",
+          "150",
+          "31"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (25 + 6) = 62 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq352",
+        "question": "Find the area of a rectangle 26 cm long and 7 cm wide.",
+        "options": [
+          "182",
+          "66",
+          "33",
+          "184"
+        ],
+        "answer": 0,
+        "explanation": "Area = 26 × 7 = 182 cm².",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq353",
+        "question": "Find the perimeter of a rectangle 27 cm long and 8 cm wide.",
+        "options": [
+          "216",
+          "35",
+          "62",
+          "70"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (27 + 8) = 70 cm.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq354",
+        "question": "Find the area of a rectangle 28 cm long and 9 cm wide.",
+        "options": [
+          "37",
+          "254",
+          "252",
+          "74"
+        ],
+        "answer": 2,
+        "explanation": "Area = 28 × 9 = 252 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq355",
+        "question": "Find the perimeter of a rectangle 29 cm long and 10 cm wide.",
+        "options": [
+          "68",
+          "78",
+          "290",
+          "39"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (29 + 10) = 78 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq356",
+        "question": "Find the area of a rectangle 30 cm long and 11 cm wide.",
+        "options": [
+          "330",
+          "82",
+          "41",
+          "332"
+        ],
+        "answer": 0,
+        "explanation": "Area = 30 × 11 = 330 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq357",
+        "question": "Find the perimeter of a rectangle 31 cm long and 12 cm wide.",
+        "options": [
+          "372",
+          "43",
+          "74",
+          "86"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (31 + 12) = 86 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq358",
+        "question": "Find the area of a rectangle 32 cm long and 13 cm wide.",
+        "options": [
+          "45",
+          "418",
+          "416",
+          "90"
+        ],
+        "answer": 2,
+        "explanation": "Area = 32 × 13 = 416 cm².",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq359",
+        "question": "Find the perimeter of a rectangle 33 cm long and 5 cm wide.",
+        "options": [
+          "71",
+          "76",
+          "165",
+          "38"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (33 + 5) = 76 cm.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq360",
+        "question": "Find the area of a rectangle 34 cm long and 6 cm wide.",
+        "options": [
+          "204",
+          "80",
+          "40",
+          "206"
+        ],
+        "answer": 0,
+        "explanation": "Area = 34 × 6 = 204 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq361",
+        "question": "Find the perimeter of a rectangle 35 cm long and 7 cm wide.",
+        "options": [
+          "245",
+          "42",
+          "77",
+          "84"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (35 + 7) = 84 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq362",
+        "question": "Find the area of a rectangle 36 cm long and 8 cm wide.",
+        "options": [
+          "44",
+          "290",
+          "288",
+          "88"
+        ],
+        "answer": 2,
+        "explanation": "Area = 36 × 8 = 288 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq363",
+        "question": "Find the perimeter of a rectangle 37 cm long and 9 cm wide.",
+        "options": [
+          "83",
+          "92",
+          "333",
+          "46"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (37 + 9) = 92 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq364",
+        "question": "Find the area of a rectangle 38 cm long and 10 cm wide.",
+        "options": [
+          "380",
+          "96",
+          "48",
+          "382"
+        ],
+        "answer": 0,
+        "explanation": "Area = 38 × 10 = 380 cm².",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq365",
+        "question": "Find the perimeter of a rectangle 39 cm long and 11 cm wide.",
+        "options": [
+          "429",
+          "50",
+          "89",
+          "100"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (39 + 11) = 100 cm.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq366",
+        "question": "Find the area of a rectangle 40 cm long and 12 cm wide.",
+        "options": [
+          "52",
+          "482",
+          "480",
+          "104"
+        ],
+        "answer": 2,
+        "explanation": "Area = 40 × 12 = 480 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq367",
+        "question": "Find the perimeter of a rectangle 41 cm long and 13 cm wide.",
+        "options": [
+          "95",
+          "108",
+          "533",
+          "54"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (41 + 13) = 108 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq368",
+        "question": "Find the area of a rectangle 42 cm long and 5 cm wide.",
+        "options": [
+          "210",
+          "94",
+          "47",
+          "212"
+        ],
+        "answer": 0,
+        "explanation": "Area = 42 × 5 = 210 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq369",
+        "question": "Find the perimeter of a rectangle 43 cm long and 6 cm wide.",
+        "options": [
+          "258",
+          "49",
+          "92",
+          "98"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (43 + 6) = 98 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq370",
+        "question": "Find the area of a rectangle 44 cm long and 7 cm wide.",
+        "options": [
+          "51",
+          "310",
+          "308",
+          "102"
+        ],
+        "answer": 2,
+        "explanation": "Area = 44 × 7 = 308 cm².",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq371",
+        "question": "Find the perimeter of a rectangle 45 cm long and 8 cm wide.",
+        "options": [
+          "98",
+          "106",
+          "360",
+          "53"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (45 + 8) = 106 cm.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq372",
+        "question": "Find the area of a rectangle 46 cm long and 9 cm wide.",
+        "options": [
+          "414",
+          "110",
+          "55",
+          "416"
+        ],
+        "answer": 0,
+        "explanation": "Area = 46 × 9 = 414 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq373",
+        "question": "Find the perimeter of a rectangle 47 cm long and 10 cm wide.",
+        "options": [
+          "470",
+          "57",
+          "104",
+          "114"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (47 + 10) = 114 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq374",
+        "question": "Find the area of a rectangle 48 cm long and 11 cm wide.",
+        "options": [
+          "59",
+          "530",
+          "528",
+          "118"
+        ],
+        "answer": 2,
+        "explanation": "Area = 48 × 11 = 528 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq375",
+        "question": "Find the perimeter of a rectangle 49 cm long and 12 cm wide.",
+        "options": [
+          "110",
+          "122",
+          "588",
+          "61"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (49 + 12) = 122 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq376",
+        "question": "Find the area of a rectangle 50 cm long and 13 cm wide.",
+        "options": [
+          "650",
+          "126",
+          "63",
+          "652"
+        ],
+        "answer": 0,
+        "explanation": "Area = 50 × 13 = 650 cm².",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq377",
+        "question": "Find the perimeter of a rectangle 51 cm long and 5 cm wide.",
+        "options": [
+          "255",
+          "56",
+          "107",
+          "112"
+        ],
+        "answer": 3,
+        "explanation": "Perimeter = 2 × (51 + 5) = 112 cm.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq378",
+        "question": "Find the area of a rectangle 52 cm long and 6 cm wide.",
+        "options": [
+          "58",
+          "314",
+          "312",
+          "116"
+        ],
+        "answer": 2,
+        "explanation": "Area = 52 × 6 = 312 cm².",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq379",
+        "question": "Find the perimeter of a rectangle 53 cm long and 7 cm wide.",
+        "options": [
+          "113",
+          "120",
+          "371",
+          "60"
+        ],
+        "answer": 1,
+        "explanation": "Perimeter = 2 × (53 + 7) = 120 cm.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq380",
+        "question": "Find the area of a rectangle 54 cm long and 8 cm wide.",
+        "options": [
+          "432",
+          "124",
+          "62",
+          "434"
+        ],
+        "answer": 0,
+        "explanation": "Area = 54 × 8 = 432 cm².",
         "difficulty": "Medium"
       }
     ]
@@ -1092,6 +4732,526 @@
         "answer": 0,
         "explanation": "Mean = (11 + 13 + 15) ÷ 3 = 13.",
         "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq381",
+        "question": "Find the mean of 11, 13, 15, 17.",
+        "options": [
+          "15",
+          "13",
+          "17",
+          "14"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (11 + 13 + 15 + 17) ÷ 4 = 14.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq382",
+        "question": "Find the range of 12, 15, 19, 14.",
+        "options": [
+          "9",
+          "19",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 19 − 12 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq383",
+        "question": "Find the mean of 13, 15, 17, 19.",
+        "options": [
+          "19",
+          "16",
+          "17",
+          "15"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (13 + 15 + 17 + 19) ÷ 4 = 16.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq384",
+        "question": "Find the range of 14, 17, 21, 16.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "21"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 21 − 14 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq385",
+        "question": "Find the mean of 15, 17, 19, 21.",
+        "options": [
+          "19",
+          "17",
+          "21",
+          "18"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (15 + 17 + 19 + 21) ÷ 4 = 18.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq386",
+        "question": "Find the range of 16, 19, 23, 18.",
+        "options": [
+          "9",
+          "23",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 23 − 16 = 7.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq387",
+        "question": "Find the mean of 17, 19, 21, 23.",
+        "options": [
+          "23",
+          "20",
+          "21",
+          "19"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (17 + 19 + 21 + 23) ÷ 4 = 20.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq388",
+        "question": "Find the range of 18, 21, 25, 20.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "25"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 25 − 18 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq389",
+        "question": "Find the mean of 19, 21, 23, 25.",
+        "options": [
+          "23",
+          "21",
+          "25",
+          "22"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (19 + 21 + 23 + 25) ÷ 4 = 22.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq390",
+        "question": "Find the range of 20, 23, 27, 22.",
+        "options": [
+          "9",
+          "27",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 27 − 20 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq391",
+        "question": "Find the mean of 21, 23, 25, 27.",
+        "options": [
+          "27",
+          "24",
+          "25",
+          "23"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (21 + 23 + 25 + 27) ÷ 4 = 24.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq392",
+        "question": "Find the range of 22, 25, 29, 24.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "29"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 29 − 22 = 7.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq393",
+        "question": "Find the mean of 23, 25, 27, 29.",
+        "options": [
+          "27",
+          "25",
+          "29",
+          "26"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (23 + 25 + 27 + 29) ÷ 4 = 26.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq394",
+        "question": "Find the range of 24, 27, 31, 26.",
+        "options": [
+          "9",
+          "31",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 31 − 24 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq395",
+        "question": "Find the mean of 25, 27, 29, 31.",
+        "options": [
+          "31",
+          "28",
+          "29",
+          "27"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (25 + 27 + 29 + 31) ÷ 4 = 28.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq396",
+        "question": "Find the range of 26, 29, 33, 28.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "33"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 33 − 26 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq397",
+        "question": "Find the mean of 27, 29, 31, 33.",
+        "options": [
+          "31",
+          "29",
+          "33",
+          "30"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (27 + 29 + 31 + 33) ÷ 4 = 30.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq398",
+        "question": "Find the range of 28, 31, 35, 30.",
+        "options": [
+          "9",
+          "35",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 35 − 28 = 7.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq399",
+        "question": "Find the mean of 29, 31, 33, 35.",
+        "options": [
+          "35",
+          "32",
+          "33",
+          "31"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (29 + 31 + 33 + 35) ÷ 4 = 32.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq400",
+        "question": "Find the range of 30, 33, 37, 32.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "37"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 37 − 30 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq401",
+        "question": "Find the mean of 31, 33, 35, 37.",
+        "options": [
+          "35",
+          "33",
+          "37",
+          "34"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (31 + 33 + 35 + 37) ÷ 4 = 34.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq402",
+        "question": "Find the range of 32, 35, 39, 34.",
+        "options": [
+          "9",
+          "39",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 39 − 32 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq403",
+        "question": "Find the mean of 33, 35, 37, 39.",
+        "options": [
+          "39",
+          "36",
+          "37",
+          "35"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (33 + 35 + 37 + 39) ÷ 4 = 36.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq404",
+        "question": "Find the range of 34, 37, 41, 36.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "41"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 41 − 34 = 7.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq405",
+        "question": "Find the mean of 35, 37, 39, 41.",
+        "options": [
+          "39",
+          "37",
+          "41",
+          "38"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (35 + 37 + 39 + 41) ÷ 4 = 38.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq406",
+        "question": "Find the range of 36, 39, 43, 38.",
+        "options": [
+          "9",
+          "43",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 43 − 36 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq407",
+        "question": "Find the mean of 37, 39, 41, 43.",
+        "options": [
+          "43",
+          "40",
+          "41",
+          "39"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (37 + 39 + 41 + 43) ÷ 4 = 40.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq408",
+        "question": "Find the range of 38, 41, 45, 40.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "45"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 45 − 38 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq409",
+        "question": "Find the mean of 39, 41, 43, 45.",
+        "options": [
+          "43",
+          "41",
+          "45",
+          "42"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (39 + 41 + 43 + 45) ÷ 4 = 42.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq410",
+        "question": "Find the range of 40, 43, 47, 42.",
+        "options": [
+          "9",
+          "47",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 47 − 40 = 7.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq411",
+        "question": "Find the mean of 41, 43, 45, 47.",
+        "options": [
+          "47",
+          "44",
+          "45",
+          "43"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (41 + 43 + 45 + 47) ÷ 4 = 44.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq412",
+        "question": "Find the range of 42, 45, 49, 44.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "49"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 49 − 42 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq413",
+        "question": "Find the mean of 43, 45, 47, 49.",
+        "options": [
+          "47",
+          "45",
+          "49",
+          "46"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (43 + 45 + 47 + 49) ÷ 4 = 46.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq414",
+        "question": "Find the range of 44, 47, 51, 46.",
+        "options": [
+          "9",
+          "51",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 51 − 44 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq415",
+        "question": "Find the mean of 45, 47, 49, 51.",
+        "options": [
+          "51",
+          "48",
+          "49",
+          "47"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (45 + 47 + 49 + 51) ÷ 4 = 48.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq416",
+        "question": "Find the range of 46, 49, 53, 48.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "53"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 53 − 46 = 7.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq417",
+        "question": "Find the mean of 47, 49, 51, 53.",
+        "options": [
+          "51",
+          "49",
+          "53",
+          "50"
+        ],
+        "answer": 3,
+        "explanation": "Mean = (47 + 49 + 51 + 53) ÷ 4 = 50.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq418",
+        "question": "Find the range of 48, 51, 55, 50.",
+        "options": [
+          "9",
+          "55",
+          "7",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Range = largest − smallest = 55 − 48 = 7.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq419",
+        "question": "Find the mean of 49, 51, 53, 55.",
+        "options": [
+          "55",
+          "52",
+          "53",
+          "51"
+        ],
+        "answer": 1,
+        "explanation": "Mean = (49 + 51 + 53 + 55) ÷ 4 = 52.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq420",
+        "question": "Find the range of 50, 53, 57, 52.",
+        "options": [
+          "7",
+          "5",
+          "9",
+          "57"
+        ],
+        "answer": 0,
+        "explanation": "Range = largest − smallest = 57 − 50 = 7.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1229,6 +5389,526 @@
         "answer": 2,
         "explanation": "24 is even and between 20 and 26.",
         "difficulty": "Challenge"
+      },
+      {
+        "id": "c6imoq421",
+        "question": "Complete the number sequence: 14, 16, 18, __.",
+        "options": [
+          "18",
+          "22",
+          "21",
+          "20"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 2; the next term is 18 + 2 = 20.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq422",
+        "question": "Complete the number sequence: 15, 18, 21, __.",
+        "options": [
+          "27",
+          "25",
+          "24",
+          "21"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 3; the next term is 21 + 3 = 24.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq423",
+        "question": "Complete the number sequence: 16, 20, 24, __.",
+        "options": [
+          "29",
+          "28",
+          "24",
+          "32"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 4; the next term is 24 + 4 = 28.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq424",
+        "question": "Complete the number sequence: 17, 22, 27, __.",
+        "options": [
+          "32",
+          "27",
+          "37",
+          "33"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 5; the next term is 27 + 5 = 32.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq425",
+        "question": "Complete the number sequence: 18, 24, 30, __.",
+        "options": [
+          "30",
+          "42",
+          "37",
+          "36"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 6; the next term is 30 + 6 = 36.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq426",
+        "question": "Complete the number sequence: 19, 26, 33, __.",
+        "options": [
+          "47",
+          "41",
+          "40",
+          "33"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 7; the next term is 33 + 7 = 40.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq427",
+        "question": "Complete the number sequence: 20, 28, 36, __.",
+        "options": [
+          "45",
+          "44",
+          "36",
+          "52"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 8; the next term is 36 + 8 = 44.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq428",
+        "question": "Complete the number sequence: 21, 30, 39, __.",
+        "options": [
+          "48",
+          "39",
+          "57",
+          "49"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 9; the next term is 39 + 9 = 48.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq429",
+        "question": "Complete the number sequence: 22, 32, 42, __.",
+        "options": [
+          "42",
+          "62",
+          "53",
+          "52"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 10; the next term is 42 + 10 = 52.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq430",
+        "question": "Complete the number sequence: 23, 34, 45, __.",
+        "options": [
+          "67",
+          "57",
+          "56",
+          "45"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 11; the next term is 45 + 11 = 56.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq431",
+        "question": "Complete the number sequence: 24, 36, 48, __.",
+        "options": [
+          "61",
+          "60",
+          "48",
+          "72"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 12; the next term is 48 + 12 = 60.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq432",
+        "question": "Complete the number sequence: 25, 27, 29, __.",
+        "options": [
+          "31",
+          "29",
+          "33",
+          "32"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 2; the next term is 29 + 2 = 31.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq433",
+        "question": "Complete the number sequence: 26, 29, 32, __.",
+        "options": [
+          "32",
+          "38",
+          "36",
+          "35"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 3; the next term is 32 + 3 = 35.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq434",
+        "question": "Complete the number sequence: 27, 31, 35, __.",
+        "options": [
+          "43",
+          "40",
+          "39",
+          "35"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 4; the next term is 35 + 4 = 39.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq435",
+        "question": "Complete the number sequence: 28, 33, 38, __.",
+        "options": [
+          "44",
+          "43",
+          "38",
+          "48"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 5; the next term is 38 + 5 = 43.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq436",
+        "question": "Complete the number sequence: 29, 35, 41, __.",
+        "options": [
+          "47",
+          "41",
+          "53",
+          "48"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 6; the next term is 41 + 6 = 47.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq437",
+        "question": "Complete the number sequence: 30, 37, 44, __.",
+        "options": [
+          "44",
+          "58",
+          "52",
+          "51"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 7; the next term is 44 + 7 = 51.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq438",
+        "question": "Complete the number sequence: 31, 39, 47, __.",
+        "options": [
+          "63",
+          "56",
+          "55",
+          "47"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 8; the next term is 47 + 8 = 55.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq439",
+        "question": "Complete the number sequence: 32, 41, 50, __.",
+        "options": [
+          "60",
+          "59",
+          "50",
+          "68"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 9; the next term is 50 + 9 = 59.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq440",
+        "question": "Complete the number sequence: 33, 43, 53, __.",
+        "options": [
+          "63",
+          "53",
+          "73",
+          "64"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 10; the next term is 53 + 10 = 63.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq441",
+        "question": "Complete the number sequence: 34, 45, 56, __.",
+        "options": [
+          "56",
+          "78",
+          "68",
+          "67"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 11; the next term is 56 + 11 = 67.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq442",
+        "question": "Complete the number sequence: 35, 47, 59, __.",
+        "options": [
+          "83",
+          "72",
+          "71",
+          "59"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 12; the next term is 59 + 12 = 71.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq443",
+        "question": "Complete the number sequence: 36, 38, 40, __.",
+        "options": [
+          "43",
+          "42",
+          "40",
+          "44"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 2; the next term is 40 + 2 = 42.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq444",
+        "question": "Complete the number sequence: 37, 40, 43, __.",
+        "options": [
+          "46",
+          "43",
+          "49",
+          "47"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 3; the next term is 43 + 3 = 46.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq445",
+        "question": "Complete the number sequence: 38, 42, 46, __.",
+        "options": [
+          "46",
+          "54",
+          "51",
+          "50"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 4; the next term is 46 + 4 = 50.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq446",
+        "question": "Complete the number sequence: 39, 44, 49, __.",
+        "options": [
+          "59",
+          "55",
+          "54",
+          "49"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 5; the next term is 49 + 5 = 54.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq447",
+        "question": "Complete the number sequence: 40, 46, 52, __.",
+        "options": [
+          "59",
+          "58",
+          "52",
+          "64"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 6; the next term is 52 + 6 = 58.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq448",
+        "question": "Complete the number sequence: 41, 48, 55, __.",
+        "options": [
+          "62",
+          "55",
+          "69",
+          "63"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 7; the next term is 55 + 7 = 62.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq449",
+        "question": "Complete the number sequence: 42, 50, 58, __.",
+        "options": [
+          "58",
+          "74",
+          "67",
+          "66"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 8; the next term is 58 + 8 = 66.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq450",
+        "question": "Complete the number sequence: 43, 52, 61, __.",
+        "options": [
+          "79",
+          "71",
+          "70",
+          "61"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 9; the next term is 61 + 9 = 70.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq451",
+        "question": "Complete the number sequence: 44, 54, 64, __.",
+        "options": [
+          "75",
+          "74",
+          "64",
+          "84"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 10; the next term is 64 + 10 = 74.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq452",
+        "question": "Complete the number sequence: 45, 56, 67, __.",
+        "options": [
+          "78",
+          "67",
+          "89",
+          "79"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 11; the next term is 67 + 11 = 78.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq453",
+        "question": "Complete the number sequence: 46, 58, 70, __.",
+        "options": [
+          "70",
+          "94",
+          "83",
+          "82"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 12; the next term is 70 + 12 = 82.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq454",
+        "question": "Complete the number sequence: 47, 49, 51, __.",
+        "options": [
+          "55",
+          "54",
+          "53",
+          "51"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 2; the next term is 51 + 2 = 53.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq455",
+        "question": "Complete the number sequence: 48, 51, 54, __.",
+        "options": [
+          "58",
+          "57",
+          "54",
+          "60"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 3; the next term is 54 + 3 = 57.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq456",
+        "question": "Complete the number sequence: 49, 53, 57, __.",
+        "options": [
+          "61",
+          "57",
+          "65",
+          "62"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 4; the next term is 57 + 4 = 61.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq457",
+        "question": "Complete the number sequence: 50, 55, 60, __.",
+        "options": [
+          "60",
+          "70",
+          "66",
+          "65"
+        ],
+        "answer": 3,
+        "explanation": "Each term increases by 5; the next term is 60 + 5 = 65.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq458",
+        "question": "Complete the number sequence: 51, 57, 63, __.",
+        "options": [
+          "75",
+          "70",
+          "69",
+          "63"
+        ],
+        "answer": 2,
+        "explanation": "Each term increases by 6; the next term is 63 + 6 = 69.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq459",
+        "question": "Complete the number sequence: 52, 59, 66, __.",
+        "options": [
+          "74",
+          "73",
+          "66",
+          "80"
+        ],
+        "answer": 1,
+        "explanation": "Each term increases by 7; the next term is 66 + 7 = 73.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq460",
+        "question": "Complete the number sequence: 53, 61, 69, __.",
+        "options": [
+          "77",
+          "69",
+          "85",
+          "78"
+        ],
+        "answer": 0,
+        "explanation": "Each term increases by 8; the next term is 69 + 8 = 77.",
+        "difficulty": "Medium"
       }
     ]
   },
@@ -1365,6 +6045,526 @@
         ],
         "answer": 0,
         "explanation": "Cost = 7 × ₹28 = ₹196; change = ₹216 − ₹196 = ₹20.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq461",
+        "question": "Convert 13 kg into grams.",
+        "options": [
+          "1300",
+          "130",
+          "130000",
+          "13000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 13 kg = 13000 g.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq462",
+        "question": "A ticket costs AED 14. What is the cost of 6 tickets?",
+        "options": [
+          "98",
+          "70",
+          "84",
+          "20"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 14 × 6 = AED 84.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq463",
+        "question": "Convert 15 kg into grams.",
+        "options": [
+          "150000",
+          "15000",
+          "1500",
+          "150"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 15 kg = 15000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq464",
+        "question": "A ticket costs AED 16. What is the cost of 8 tickets?",
+        "options": [
+          "128",
+          "24",
+          "144",
+          "112"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 16 × 8 = AED 128.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq465",
+        "question": "Convert 17 kg into grams.",
+        "options": [
+          "1700",
+          "170",
+          "170000",
+          "17000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 17 kg = 17000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq466",
+        "question": "A ticket costs AED 18. What is the cost of 10 tickets?",
+        "options": [
+          "198",
+          "162",
+          "180",
+          "28"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 18 × 10 = AED 180.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq467",
+        "question": "Convert 19 kg into grams.",
+        "options": [
+          "190000",
+          "19000",
+          "1900",
+          "190"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 19 kg = 19000 g.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq468",
+        "question": "A ticket costs AED 20. What is the cost of 12 tickets?",
+        "options": [
+          "240",
+          "32",
+          "260",
+          "220"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 20 × 12 = AED 240.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq469",
+        "question": "Convert 21 kg into grams.",
+        "options": [
+          "2100",
+          "210",
+          "210000",
+          "21000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 21 kg = 21000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq470",
+        "question": "A ticket costs AED 22. What is the cost of 5 tickets?",
+        "options": [
+          "132",
+          "88",
+          "110",
+          "27"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 22 × 5 = AED 110.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq471",
+        "question": "Convert 23 kg into grams.",
+        "options": [
+          "230000",
+          "23000",
+          "2300",
+          "230"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 23 kg = 23000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq472",
+        "question": "A ticket costs AED 24. What is the cost of 7 tickets?",
+        "options": [
+          "168",
+          "31",
+          "192",
+          "144"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 24 × 7 = AED 168.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq473",
+        "question": "Convert 25 kg into grams.",
+        "options": [
+          "2500",
+          "250",
+          "250000",
+          "25000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 25 kg = 25000 g.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq474",
+        "question": "A ticket costs AED 26. What is the cost of 9 tickets?",
+        "options": [
+          "260",
+          "208",
+          "234",
+          "35"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 26 × 9 = AED 234.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq475",
+        "question": "Convert 27 kg into grams.",
+        "options": [
+          "270000",
+          "27000",
+          "2700",
+          "270"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 27 kg = 27000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq476",
+        "question": "A ticket costs AED 28. What is the cost of 11 tickets?",
+        "options": [
+          "308",
+          "39",
+          "336",
+          "280"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 28 × 11 = AED 308.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq477",
+        "question": "Convert 29 kg into grams.",
+        "options": [
+          "2900",
+          "290",
+          "290000",
+          "29000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 29 kg = 29000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq478",
+        "question": "A ticket costs AED 30. What is the cost of 13 tickets?",
+        "options": [
+          "420",
+          "360",
+          "390",
+          "43"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 30 × 13 = AED 390.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq479",
+        "question": "Convert 31 kg into grams.",
+        "options": [
+          "310000",
+          "31000",
+          "3100",
+          "310"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 31 kg = 31000 g.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq480",
+        "question": "A ticket costs AED 32. What is the cost of 6 tickets?",
+        "options": [
+          "192",
+          "38",
+          "224",
+          "160"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 32 × 6 = AED 192.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq481",
+        "question": "Convert 33 kg into grams.",
+        "options": [
+          "3300",
+          "330",
+          "330000",
+          "33000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 33 kg = 33000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq482",
+        "question": "A ticket costs AED 34. What is the cost of 8 tickets?",
+        "options": [
+          "306",
+          "238",
+          "272",
+          "42"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 34 × 8 = AED 272.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq483",
+        "question": "Convert 35 kg into grams.",
+        "options": [
+          "350000",
+          "35000",
+          "3500",
+          "350"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 35 kg = 35000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq484",
+        "question": "A ticket costs AED 36. What is the cost of 10 tickets?",
+        "options": [
+          "360",
+          "46",
+          "396",
+          "324"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 36 × 10 = AED 360.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq485",
+        "question": "Convert 37 kg into grams.",
+        "options": [
+          "3700",
+          "370",
+          "370000",
+          "37000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 37 kg = 37000 g.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq486",
+        "question": "A ticket costs AED 38. What is the cost of 12 tickets?",
+        "options": [
+          "494",
+          "418",
+          "456",
+          "50"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 38 × 12 = AED 456.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq487",
+        "question": "Convert 39 kg into grams.",
+        "options": [
+          "390000",
+          "39000",
+          "3900",
+          "390"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 39 kg = 39000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq488",
+        "question": "A ticket costs AED 40. What is the cost of 5 tickets?",
+        "options": [
+          "200",
+          "45",
+          "240",
+          "160"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 40 × 5 = AED 200.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq489",
+        "question": "Convert 41 kg into grams.",
+        "options": [
+          "4100",
+          "410",
+          "410000",
+          "41000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 41 kg = 41000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq490",
+        "question": "A ticket costs AED 42. What is the cost of 7 tickets?",
+        "options": [
+          "336",
+          "252",
+          "294",
+          "49"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 42 × 7 = AED 294.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq491",
+        "question": "Convert 43 kg into grams.",
+        "options": [
+          "430000",
+          "43000",
+          "4300",
+          "430"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 43 kg = 43000 g.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq492",
+        "question": "A ticket costs AED 44. What is the cost of 9 tickets?",
+        "options": [
+          "396",
+          "53",
+          "440",
+          "352"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 44 × 9 = AED 396.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq493",
+        "question": "Convert 45 kg into grams.",
+        "options": [
+          "4500",
+          "450",
+          "450000",
+          "45000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 45 kg = 45000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq494",
+        "question": "A ticket costs AED 46. What is the cost of 11 tickets?",
+        "options": [
+          "552",
+          "460",
+          "506",
+          "57"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 46 × 11 = AED 506.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq495",
+        "question": "Convert 47 kg into grams.",
+        "options": [
+          "470000",
+          "47000",
+          "4700",
+          "470"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 47 kg = 47000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq496",
+        "question": "A ticket costs AED 48. What is the cost of 13 tickets?",
+        "options": [
+          "624",
+          "61",
+          "672",
+          "576"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 48 × 13 = AED 624.",
+        "difficulty": "Hard"
+      },
+      {
+        "id": "c6imoq497",
+        "question": "Convert 49 kg into grams.",
+        "options": [
+          "4900",
+          "490",
+          "490000",
+          "49000"
+        ],
+        "answer": 3,
+        "explanation": "1 kg = 1,000 g, so 49 kg = 49000 g.",
+        "difficulty": "Easy"
+      },
+      {
+        "id": "c6imoq498",
+        "question": "A ticket costs AED 50. What is the cost of 6 tickets?",
+        "options": [
+          "350",
+          "250",
+          "300",
+          "56"
+        ],
+        "answer": 2,
+        "explanation": "Total cost = AED 50 × 6 = AED 300.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq499",
+        "question": "Convert 51 kg into grams.",
+        "options": [
+          "510000",
+          "51000",
+          "5100",
+          "510"
+        ],
+        "answer": 1,
+        "explanation": "1 kg = 1,000 g, so 51 kg = 51000 g.",
+        "difficulty": "Medium"
+      },
+      {
+        "id": "c6imoq500",
+        "question": "A ticket costs AED 52. What is the cost of 8 tickets?",
+        "options": [
+          "416",
+          "60",
+          "468",
+          "364"
+        ],
+        "answer": 0,
+        "explanation": "Total cost = AED 52 × 8 = AED 416.",
         "difficulty": "Medium"
       }
     ]
