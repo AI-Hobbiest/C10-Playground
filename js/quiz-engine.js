@@ -269,8 +269,9 @@ function renderQuestionNavigator(){
   const grid=$("questionNavigatorGrid");if(!grid)return;
   grid.innerHTML="";
   const answeredCount=currentAttempt.answers.filter(record=>record&&record.status==="answered").length;
+  const skippedCount=currentAttempt.answers.filter(record=>record&&record.status==="skipped").length;
   const markedCount=(currentAttempt.markedQuestionIndexes||[]).length;
-  setText("navigatorSummary",answeredCount+" answered · "+markedCount+" marked for review");
+  setText("navigatorSummary",answeredCount+" answered · "+skippedCount+" skipped · "+markedCount+" marked");
   session.forEach((question,i)=>{
     const button=document.createElement("button");button.type="button";button.className="question-nav-item";button.textContent=String(i+1);
     const expired=isQuestionExpired(i),record=currentAttempt.answers[i];
@@ -554,9 +555,11 @@ function next(){
 function previousQuestion(){if(currentAttempt&&index>0)moveToQuestion(index-1);}
 function confirmSubmit(){
   if(!currentAttempt)return;
-  const unanswered=currentAttempt.answers.filter(record=>!record||record.status!=="answered").length;
+  const unanswered=currentAttempt.answers.filter(record=>!record||record.status==="unanswered").length;
+  const skipped=currentAttempt.answers.filter(record=>record&&record.status==="skipped").length;
   const marked=(currentAttempt.markedQuestionIndexes||[]).length,details=[];
   if(unanswered)details.push(unanswered+" unanswered");
+  if(skipped)details.push(skipped+" skipped");
   if(marked)details.push(marked+" marked for review");
   finish("submitted",true,"Submit this quiz now?"+(details.length?" You still have "+details.join(" and ")+".":"")+" Your answers will be final.");
 }
