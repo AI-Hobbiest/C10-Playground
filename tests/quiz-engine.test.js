@@ -181,6 +181,22 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   assert.equal(timedWrapped.data.activeAttempt.timingMode,"countdown","Timed Exam records an overall countdown");
   assert.equal(timedWrapped.data.activeAttempt.timeLimitSeconds,1200,"Timed Exam uses the required duration");
 
+  const overallOnly=makeEnvironment();
+  await delay();
+  overallOnly.modeButtons.find(button=>button.dataset.mode==="test").click();
+  overallOnly.elements.overallTimerSetting.value="600";
+  overallOnly.elements.questionTimerSetting.value="off";
+  overallOnly.elements.startBtn.click();
+  overallOnly.elements.options.children[0].click();
+  overallOnly.elements.nextBtn.click();
+  overallOnly.elements.mobilePreviousBtn.click();
+  overallOnly.elements.options.children[1].click();
+  const overallOnlyRow=[...overallOnly.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
+  const overallOnlyActive=JSON.parse(overallOnlyRow[1]).data.activeAttempt;
+  assert.equal(overallOnlyActive.overallTimeLimitSeconds,600,"overall-only test stores the selected quiz deadline");
+  assert.equal(overallOnlyActive.questionTimeLimitSeconds,null,"overall-only timer leaves question clocks disabled");
+  assert.equal(overallOnlyActive.answers[0].selectedOptionId,"b","overall-only mode permits returning and changing an earlier answer");
+
   const custom=makeEnvironment();
   await delay();
   custom.modeButtons.find(button=>button.dataset.mode==="test").click();
