@@ -17,22 +17,22 @@
     {
       "username": "c6pilot",
       "classId": "6",
-      "salt": "fjuks/y/q2EEbCSFl1onfw==",
-      "passwordHash": "2T6QN2bELyRQTp5S/JSxHpC6lzY6PazgmzHIc3+SVmg=",
+      "salt": "gGtsyJ7BVz1r3lHELBEJEw==",
+      "passwordHash": "o2+t8M4zBBcteoOop6UCerhupz4LjPBq7ojs6pJwGBI=",
       "iterations": 600000,
       "active": true,
       "createdAt": "2026-10-26T17:46:00.000Z",
-      "updatedAt": "2026-10-26T18:18:58.091Z"
+      "updatedAt": "2026-10-30T20:37:00+04:00"
     },
     {
       "username": "srivatsav",
       "classId": "6",
-      "salt": "Ojx9FcdExkKZ5cA5/au56Q==",
-      "passwordHash": "vmo4KNp7eLbAkqtcD2bFM98z3XdlHKOK1riXKLS8Clc=",
+      "salt": "PZXmf0B3oaFRV6uwpHQ6LA==",
+      "passwordHash": "+PU2/FqmVZO8w3Ceusf/fr3QxTzwSLZPlUgb1ZXBf7E=",
       "iterations": 600000,
       "active": true,
       "createdAt": "2026-10-27T12:59:00.000Z",
-      "updatedAt": "2026-10-27T12:59:00.000Z"
+      "updatedAt": "2026-10-30T20:37:00+04:00"
     },
     {
       "username": "sonaakshi",
