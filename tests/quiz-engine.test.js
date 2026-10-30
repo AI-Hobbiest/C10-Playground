@@ -205,7 +205,7 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   const overallResultRow=[...overallExpired.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
   const overallResult=JSON.parse(overallResultRow[1]).data.attempts[0];
   assert.equal(overallResult.status,"timed-out","overall timer records a timed-out attempt");
-  assert.equal(overallResult.correctCount,1,"overall timer expiry preserves answers already selected");
+  assert.equal(overallResult.answeredCount,1,"overall timer expiry preserves answers already selected");
 
   const overallOnly=makeEnvironment();
   await delay();
