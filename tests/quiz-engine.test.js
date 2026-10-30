@@ -196,7 +196,7 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   const overallOnlyActive=JSON.parse(overallOnlyRow[1]).data.activeAttempt;
   assert.equal(overallOnlyActive.overallTimeLimitSeconds,600,"overall-only test stores the selected quiz deadline");
   assert.equal(overallOnlyActive.questionTimeLimitSeconds,null,"overall-only timer leaves question clocks disabled");
-  assert.equal(overallOnlyActive.answers[0].selectedOptionId,"b","overall-only mode permits returning and changing an earlier answer");
+  assert.equal(overallOnlyActive.answers[0].selectedOptionId,"option-2","overall-only mode permits returning and changing an earlier answer");
 
   const custom=makeEnvironment();
   await delay();
@@ -222,7 +222,7 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   custom.elements.options.children[1].click();
   customRow=[...custom.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
   customActive=JSON.parse(customRow[1]).data.activeAttempt;
-  assert.equal(customActive.answers[0].selectedOptionId,"b","a revisited answer can be changed before its deadline");
+  assert.equal(customActive.answers[0].selectedOptionId,"option-2","a revisited answer can be changed before its deadline");
   custom.elements.navigatorInlineBtn.click();
   assert.equal(custom.elements.questionNavigatorGrid.children.length,2,"desktop navigator uses the same question list");
   custom.elements.questionNavigatorGrid.children[1].click();
