@@ -182,6 +182,14 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   assert.equal(timedWrapped.data.activeAttempt.timingMode,"countdown","Timed Exam records an overall countdown");
   assert.equal(timedWrapped.data.activeAttempt.timeLimitSeconds,1200,"Timed Exam uses the required duration");
 
+  const skippedNav=makeEnvironment();
+  await delay();
+  skippedNav.elements.startBtn.click();
+  skippedNav.elements.skipBtn.click();
+  skippedNav.elements.mobileNavigatorBtn.click();
+  assert.equal(skippedNav.elements.questionNavigatorGrid.children[0].classList.contains("skipped"),true,"skipped questions have a distinct navigator tile state");
+  assert.ok(skippedNav.elements.questionNavigatorGrid.children[0].attributes["aria-label"].includes("skipped"),"navigator announces skipped state to assistive technology");
+
   const overallOnly=makeEnvironment();
   await delay();
   overallOnly.modeButtons.find(button=>button.dataset.mode==="test").click();
