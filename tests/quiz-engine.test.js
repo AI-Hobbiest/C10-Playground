@@ -13,7 +13,7 @@ class FakeClassList {
 class FakeElement {
   constructor(id=""){
     this.id=id;this.children=[];this.handlers={};this.classList=new FakeClassList();this.className="";
-    this.dataset={};this.disabled=false;this.hidden=false;this.value=id==="length"?"10":id==="timerSetting"?"1200":"0";
+    this.dataset={};this.disabled=false;this.hidden=false;this.open=false;this.value=id==="length"?"10":id==="overallTimerSetting"?"off":id==="questionTimerSetting"?"off":id==="overallTimerCustom"?"30":id==="questionTimerCustom"?"45":"0";
     this._innerHTML="";this.textContent="";this.style={};this.attributes={};this.tagName="DIV";
   }
   set innerHTML(value){this._innerHTML=String(value);this.children=[];}
@@ -45,7 +45,7 @@ function makeEnvironment(seed = new Map(), subject = "mathematics"){
   });
   const elements={};
   const allIds=[
-    "chapter","timerSetting","timingField","practiceLayout","quizPanel","length","chapterTotal","questionTotal","overallStat","progressText","modeHint",
+    "chapter","overallTimerSetting","questionTimerSetting","overallTimerCustom","questionTimerCustom","overallCustomLabel","questionCustomLabel","timingControls","timingHelp","practiceLayout","quizPanel","questionTimerPill","markReviewBtn","mobilePreviousBtn","mobileNextBtn","mobileNavigatorBtn","navigatorInlineBtn","questionNavDock","questionNavigatorOverlay","questionNavigatorGrid","navigatorSummary","closeQuestionNavigator","questionNavigatorBackdrop","navigatorReturnBtn","navigatorSubmitBtn","length","chapterTotal","questionTotal","overallStat","progressText","modeHint",
     "status","welcome","session","results","review","subjectIcon","subjectTitle","subjectSubtitle","chapterPill",
     "numberPill","difficultyPill","timerPill","progressBar","questionText","options","feedback","sessionHint",
     "nextBtn","skipBtn","submitBtn","startBtn","reviewBtn","clearBtn","againBtn","reviewAnswersBtn","reportPdfBtn","reportExcelBtn","reviewPdfBtn","reviewExcelBtn","backBtn",
@@ -58,6 +58,7 @@ function makeEnvironment(seed = new Map(), subject = "mathematics"){
   elements["reviewBtn"].tagName="BUTTON";elements["clearBtn"].tagName="BUTTON";
   elements["againBtn"].tagName="BUTTON";elements["reviewAnswersBtn"].tagName="BUTTON";
   elements["backBtn"].tagName="BUTTON";elements["retrySetBtn"].tagName="BUTTON";
+  ["mobilePreviousBtn","mobileNextBtn","mobileNavigatorBtn","navigatorInlineBtn","markReviewBtn","closeQuestionNavigator","questionNavigatorBackdrop","navigatorReturnBtn","navigatorSubmitBtn"].forEach(id=>elements[id].tagName="BUTTON");
   const document={
     title:"",
     hidden:false,
@@ -95,12 +96,24 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   assert.equal(first.elements.chapterTotal.textContent,"1");
   first.elements.startBtn.click();
   assert.equal(first.elements.session.classList.contains("hide"),false);
+  assert.equal(first.elements.timerPill.classList.contains("hide"),false,"elapsed time is shown when overall countdown is off");
+  assert.equal(first.elements.questionTimerPill.classList.contains("hide"),true,"question timer is off by default");
+  const firstLedger=[...first.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
+  const firstActive=JSON.parse(firstLedger[1]).data.activeAttempt;
+  assert.equal(firstActive.overallTimeLimitSeconds,null,"overall countdown is optional by default");
+  assert.equal(firstActive.questionTimeLimitSeconds,null,"question countdown is optional by default");
   assert.equal(first.elements.practiceLayout.classList.contains("quiz-active"),true,"active practice switches to the focused quiz layout on mobile");
   assert.equal(first.elements.quizPanel.scrollOptions.behavior,"smooth","mobile start brings the question panel into view");
   assert.equal(first.elements.quizPanel.scrollOptions.block,"start");
   assert.equal(first.elements.timingField.hidden,true,"timing control is hidden in Learn mode");
   assert.equal(first.elements.questionMedia.children.length,1,"question illustration renders in practice");
   const firstFigure=first.elements.questionMedia.children[0];
+  first.elements.mobileNavigatorBtn.click();
+  assert.equal(first.elements.questionNavigatorOverlay.classList.contains("hide"),false,"mobile navigator opens as a drawer");
+  assert.equal(first.elements.questionNavigatorGrid.children.length,2,"navigator lists every question");
+  first.elements.closeQuestionNavigator.click();
+  first.elements.markReviewBtn.click();
+  assert.equal(first.elements.markReviewBtn.attributes["aria-pressed"],"true","current question can be marked for review");
   const zoomTrigger=firstFigure.children[0];
   zoomTrigger.click();
   assert.equal(first.elements.imageViewer.classList.contains("hide"),false,"diagram can be enlarged");
@@ -157,18 +170,62 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
 
   const timed=makeEnvironment();
   await delay();
-  assert.equal(timed.elements.timingField.hidden,true,"timing control starts hidden for non-timed modes");
+  assert.equal(timed.elements.overallTimerSetting.value,"off","non-timed modes start without an overall countdown");
   timed.modeButtons.find(button=>button.dataset.mode==="timed").click();
-  assert.equal(timed.elements.timingField.hidden,false,"duration control appears for Timed Exam");
-  assert.equal(timed.elements.timerSetting.value,"1200","Timed Exam defaults to a 20-minute countdown");
+  assert.equal(timed.elements.overallTimerSetting.value,"1200","Timed Exam requires a 20-minute overall countdown by default");
   timed.modeButtons.find(button=>button.dataset.mode==="learn").click();
-  assert.equal(timed.elements.timingField.hidden,true,"duration control hides again outside Timed Exam");
   timed.modeButtons.find(button=>button.dataset.mode==="timed").click();
   timed.elements.startBtn.click();
   const timedLedger=[...timed.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
   const timedWrapped=JSON.parse(timedLedger[1]);
-  assert.equal(timedWrapped.data.activeAttempt.timingMode,"countdown","Timed Exam records a countdown");
-  assert.equal(timedWrapped.data.activeAttempt.timeLimitSeconds,1200,"Timed Exam uses the selected duration");
+  assert.equal(timedWrapped.data.activeAttempt.timingMode,"countdown","Timed Exam records an overall countdown");
+  assert.equal(timedWrapped.data.activeAttempt.timeLimitSeconds,1200,"Timed Exam uses the required duration");
+
+  const custom=makeEnvironment();
+  await delay();
+  custom.modeButtons.find(button=>button.dataset.mode==="test").click();
+  custom.elements.overallTimerSetting.value="custom";custom.elements.overallTimerCustom.value="25";
+  custom.elements.questionTimerSetting.value="custom";custom.elements.questionTimerCustom.value="35";
+  custom.elements.startBtn.click();
+  let customRow=[...custom.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
+  let customActive=JSON.parse(customRow[1]).data.activeAttempt;
+  assert.equal(customActive.overallTimeLimitSeconds,1500,"custom overall timer is stored as seconds");
+  assert.equal(customActive.questionTimeLimitSeconds,35,"custom question timer is stored as seconds");
+  const firstQuestionDeadline=customActive.questionDeadlines["0"];
+  assert.ok(firstQuestionDeadline,"question timer starts on first view");
+  custom.elements.nextBtn.click();
+  customRow=[...custom.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
+  customActive=JSON.parse(customRow[1]).data.activeAttempt;
+  assert.ok(customActive.questionDeadlines["1"],"new question receives its own deadline");
+  custom.elements.mobilePreviousBtn.click();
+  customRow=[...custom.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
+  customActive=JSON.parse(customRow[1]).data.activeAttempt;
+  assert.equal(customActive.questionDeadlines["0"],firstQuestionDeadline,"revisiting a question never restarts its timer");
+  custom.elements.options.children[0].click();
+  custom.elements.options.children[1].click();
+  customRow=[...custom.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
+  customActive=JSON.parse(customRow[1]).data.activeAttempt;
+  assert.equal(customActive.answers[0].selectedOptionId,"b","a revisited answer can be changed before its deadline");
+  custom.elements.navigatorInlineBtn.click();
+  assert.equal(custom.elements.questionNavigatorGrid.children.length,2,"desktop navigator uses the same question list");
+  custom.elements.questionNavigatorGrid.children[1].click();
+  assert.equal(custom.elements.numberPill.textContent,"Question 2 / 2","question palette jumps to the selected question");
+
+  const expiring=makeEnvironment();
+  await delay();
+  expiring.modeButtons.find(button=>button.dataset.mode==="test").click();
+  expiring.elements.questionTimerSetting.value="15";
+  expiring.elements.startBtn.click();
+  let expiringRow=[...expiring.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
+  let expiringWrapped=JSON.parse(expiringRow[1]);
+  expiringWrapped.data.activeAttempt.questionDeadlines["0"]="2000-01-01T00:00:00.000Z";
+  expiring.values.set(expiringRow[0],JSON.stringify(expiringWrapped));
+  const afterExpiry=makeEnvironment(expiring.values);
+  await delay();
+  assert.equal(afterExpiry.elements.numberPill.textContent,"Question 2 / 2","expired question timer automatically advances to the next available question");
+  const expiredRow=[...afterExpiry.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
+  const expiredActive=JSON.parse(expiredRow[1]).data.activeAttempt;
+  assert.equal(expiredActive.answers[0].status,"unanswered","question timeout records unanswered status");
 
   const science=makeEnvironment(new Map(),"science");
   await delay();
@@ -179,5 +236,5 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   const scienceWrapped=JSON.parse(scienceLedger[1]);
   assert.equal(scienceWrapped.data.activeAttempt.subjectId,"science");
   assert.equal(scienceWrapped.data.activeAttempt.status,"in-progress");
-  console.log("Quiz integration tests passed: mobile question focus, timed-only duration control, answer autosave/recovery, completion, review-to-results navigation, PDF/Excel download access, Science registration and diagram rendering.");
+  console.log("Quiz integration tests passed: mobile question focus and navigator, custom overall/question timers, question timeout/lock, revisit without timer reset, answer changes, review downloads, autosave/recovery and existing integration.");
 })().catch(error=>{console.error(error);process.exitCode=1;});
