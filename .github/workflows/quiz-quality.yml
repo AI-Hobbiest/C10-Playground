@@ -1,0 +1,22 @@
+name: ExamGuru Quest quiz quality checks
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quiz-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate session timing and summary model
+        run: node tests/session-model.test.js
+      - name: Validate quiz timers, navigation and result flow
+        run: node tests/quiz-engine.test.js
+      - name: Validate responsive portal and dashboard shell
+        run: node tests/app-shell.test.js
