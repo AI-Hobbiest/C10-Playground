@@ -23,6 +23,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Run quiz regression tests
+        run: |
+          node tests/session-model.test.js
+          node tests/quiz-engine.test.js
+          node tests/app-shell.test.js
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
