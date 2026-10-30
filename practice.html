@@ -89,12 +89,150 @@
   .question-nav-sheet{border-radius:22px;margin:0 18px 24px}
 }
 
+
+/* ExamGuru Quest — calm pastel exam experience (lavender + sage + warm yellow). */
+.eg-quiz-page{
+  --eg-ink:#28263a;--eg-muted:#77748a;--eg-lavender:#eee8fb;--eg-lavender-strong:#7257b8;
+  --eg-lavender-line:#dcd2f1;--eg-green:#e3f2e9;--eg-green-strong:#2d8a62;
+  --eg-yellow:#fff2ce;--eg-yellow-strong:#ad7920;--eg-paper:#fbfcfa;--eg-line:#e7e5ec;
+  color:var(--eg-ink)!important;background:
+    radial-gradient(ellipse at 9% 9%,rgba(220,241,229,.72),transparent 28rem),
+    radial-gradient(ellipse at 92% 4%,rgba(234,225,249,.72),transparent 32rem),
+    #f7faf7!important;
+}
+.eg-quiz-page header{
+  color:var(--eg-ink)!important;
+  background:linear-gradient(112deg,#f1ecfb 0%,#f8f6fc 56%,#edf6f0 100%)!important;
+  border-bottom:1px solid #e6e1ef;box-shadow:0 8px 26px rgba(62,54,91,.045);
+  padding:25px max(140px,calc((100vw - 1100px)/2)) 22px max(18px,calc((100vw - 1100px)/2))!important;
+}
+.eg-quiz-page header a,.eg-quiz-page header a:visited{color:#665398!important;opacity:.92}
+.eg-quiz-page header .eyebrow{color:#7665a1!important;opacity:1;letter-spacing:.12em}
+.eg-quiz-page header h1{color:#29263d!important;font-weight:800;letter-spacing:-.035em}
+.eg-quiz-page header p{color:#77748a!important;max-width:760px}
+.eg-quiz-page .wrap{max-width:1160px;color:var(--eg-ink);padding-bottom:24px}
+.eg-quiz-page .topstats{gap:13px}
+.eg-quiz-page .topstats .stat{
+  border:1px solid var(--eg-line)!important;border-radius:18px!important;
+  box-shadow:0 8px 24px rgba(60,54,88,.045)!important;padding:15px 17px;
+}
+.eg-quiz-page .topstats .stat:nth-child(1){background:linear-gradient(135deg,#f3effb,#fff)}
+.eg-quiz-page .topstats .stat:nth-child(2){background:linear-gradient(135deg,#e9f5ed,#fff)}
+.eg-quiz-page .topstats .stat:nth-child(3){background:linear-gradient(135deg,#fff5d9,#fff)}
+.eg-quiz-page .topstats .stat strong{color:#302b48}
+.eg-quiz-page .layout{gap:17px;align-items:start}
+.eg-quiz-page .panel,.eg-quiz-page .quiz{
+  border:1px solid var(--eg-line)!important;border-radius:21px!important;
+  box-shadow:0 12px 32px rgba(59,53,84,.055)!important;background:rgba(255,255,255,.94);
+}
+.eg-quiz-page .panel{padding:19px;background:linear-gradient(155deg,#fff,#f7f4fc)}
+.eg-quiz-page .panel h2,.eg-quiz-page .quiz h2{color:#302c45}
+.eg-quiz-page .label{color:#514a68}
+.eg-quiz-page .hint{border:1px solid #e4dff0!important;background:#f6f3fb!important;color:#655d7b!important;border-radius:13px}
+.eg-quiz-page .mode button{border:1px solid #e3dfeb!important;background:#fff!important;color:#504b62!important;border-radius:12px}
+.eg-quiz-page .mode button.active{background:#eee8fb!important;border-color:#c8b9e9!important;color:#5b438f!important;box-shadow:inset 0 0 0 1px rgba(114,87,184,.08)}
+.eg-quiz-page select,.eg-quiz-page input,.eg-quiz-page textarea{
+  border:1px solid #ddd8e9!important;background:#fff!important;color:#302c45!important;
+}
+.eg-quiz-page .time-controls{background:#f8f6fc!important;border-color:#e4deef!important;border-radius:14px}
+.eg-quiz-page .time-controls summary{color:#51466e}
+.eg-quiz-page .quiz{padding:clamp(19px,3vw,30px);background:linear-gradient(150deg,#fff 0%,#fdfcff 66%,#f6faf7 100%)}
+.eg-quiz-page .quiztop .pill{background:#f0edf7!important;color:#66568c!important;border:1px solid #e5deef}
+.eg-quiz-page .quiztop #chapterPill{background:#eaf4ee!important;color:#397457!important;border-color:#d8eadf}
+.eg-quiz-page .progress{background:#e9e5f0!important;border-radius:99px}
+.eg-quiz-page .progress i{background:linear-gradient(90deg,#8d78c5,#b5a4d9,#8fc8a5)!important}
+.eg-quiz-page .qtext{color:#2d293f;letter-spacing:-.012em}
+.eg-quiz-page .opt{
+  border:1.5px solid #e4e1eb!important;border-radius:15px!important;background:#fff!important;
+  color:#302d41!important;padding:14px 15px;transition:border-color .14s ease,background .14s ease,transform .14s ease;
+}
+.eg-quiz-page .opt:hover{border-color:#cbbde8!important;background:#fbf9ff!important}
+.eg-quiz-page .opt.selected,.eg-quiz-page .opt[aria-pressed="true"]{
+  border-color:#b9a8df!important;background:#f0eafb!important;color:#45356d!important;
+  box-shadow:0 0 0 2px rgba(114,87,184,.09)!important;
+}
+.eg-quiz-page .letter{background:#eee8f8!important;color:#65508f!important;border-radius:9px}
+.eg-quiz-page .opt.correct{border-color:#9dcfb0!important;background:#edf7f0!important;color:#285f42!important}
+.eg-quiz-page .opt.wrong{border-color:#e7aaaa!important;background:#fff2f1!important;color:#853c3c!important}
+.eg-quiz-page .btn,.eg-quiz-page button.btn{
+  border-radius:12px!important;background:linear-gradient(115deg,#7056b4,#8a74c9)!important;
+  color:#fff!important;box-shadow:0 6px 15px rgba(101,79,157,.15)!important;
+}
+.eg-quiz-page .btn.secondary,.eg-quiz-page button.secondary{
+  background:#f0ebf9!important;color:#59477f!important;border:1px solid #e0d7ef!important;box-shadow:none!important;
+}
+.eg-quiz-page .btn:focus-visible,.eg-quiz-page button:focus-visible,.eg-quiz-page a:focus-visible,
+.eg-quiz-page select:focus-visible,.eg-quiz-page input:focus-visible{outline:3px solid rgba(126,103,183,.55)!important;outline-offset:3px}
+.eg-quiz-page #timerPill,.eg-quiz-page #questionTimerPill{
+  min-height:42px;padding:9px 15px;border-radius:14px!important;
+  background:#eee8fb!important;color:#5d498b!important;border:1px solid #ddd2f0!important;
+  box-shadow:none!important;font-weight:850;letter-spacing:.015em;
+}
+.eg-quiz-page #timerPill{background:#fff2ce!important;color:#795a1b!important;border-color:#f1dfaa!important}
+.eg-quiz-page #timerPill.timer-warning,.eg-quiz-page #questionTimerPill.timer-warning{
+  background:#ffe8b7!important;color:#7c4f0b!important;border-color:#e9c875!important;animation:timerPulse 1.8s ease-in-out infinite;
+}
+.eg-quiz-page #timerPill.timer-danger,.eg-quiz-page #questionTimerPill.timer-danger{
+  background:#ffe5e7!important;color:#9b3040!important;border-color:#efb5bd!important;animation:timerPulse .75s ease-in-out infinite;
+}
+.eg-quiz-page .question-nav-dock{
+  background:rgba(250,249,253,.97)!important;border-top:1px solid #e6e0ee!important;
+  box-shadow:0 -7px 24px rgba(54,47,78,.09)!important;backdrop-filter:blur(12px);
+}
+.eg-quiz-page .question-nav-sheet{
+  background:linear-gradient(150deg,#fbfaff,#f3f8f4)!important;color:var(--eg-ink);
+  border:1px solid #e5e0ed;box-shadow:0 -14px 48px rgba(43,37,66,.16);
+}
+.eg-quiz-page .question-nav-heading h2{color:#302b45}
+.eg-quiz-page .question-nav-handle{background:#d7d0e4}
+.eg-quiz-page .question-nav-item{border:1px solid #e4e1e9;background:#fff;color:#4d4a5c;border-radius:13px}
+.eg-quiz-page .question-nav-item.answered{background:#e3f2e9;border-color:#b7d9c3;color:#2d714d}
+.eg-quiz-page .question-nav-item.skipped{background:#fff2ce;border-color:#efd99a;color:#8d681c}
+.eg-quiz-page .question-nav-item.current{outline:2px solid #8c75c2;outline-offset:1px;background:#eee8fb;color:#5b438f}
+.eg-quiz-page .question-nav-item.marked:after{color:#a8751b}
+.eg-quiz-page .question-nav-item.locked{background:#eff0f1;border-color:#d7d8dc;color:#777}
+.eg-quiz-page .question-nav-legend{color:#77748a}
+.eg-quiz-page .question-nav-legend i.answered{background:#9fcfb0}
+.eg-quiz-page .question-nav-legend i.skipped,.eg-quiz-page .question-nav-legend i.marked{background:#edcc75}
+.eg-quiz-page .question-nav-legend i.current{background:#8a70c2}
+.eg-quiz-page .question-nav-legend i.locked{background:#aeb4ba}
+.eg-quiz-page .question-nav-actions .btn:first-child{background:#eee8fb!important;color:#59477f!important}
+.eg-quiz-page .score{border-color:#cfe8d7!important;background:#f8fcf9}
+.eg-quiz-page .topic{border-color:#e6e1ed!important;background:linear-gradient(145deg,#fff,#f8f5fc);border-radius:15px}
+.eg-quiz-page .good{background:#e7f5eb;color:#2d6f4c}
+.eg-quiz-page .bad{background:#fff0ef;color:#983f43}
+@media(max-width:760px){
+  .eg-quiz-page header{padding:67px 18px 20px!important}
+  .eg-quiz-page .wrap{margin-top:15px;padding-left:14px;padding-right:14px}
+  .eg-quiz-page .topstats{gap:7px}
+  .eg-quiz-page .topstats .stat{padding:11px 9px;border-radius:14px!important}
+  .eg-quiz-page .topstats .stat strong{font-size:1.05rem}
+  .eg-quiz-page .topstats .stat span{font-size:.7rem;line-height:1.25}
+  .eg-quiz-page .quiz{border-radius:18px!important;padding:17px 15px}
+  .eg-quiz-page .quiztop{gap:7px}
+  .eg-quiz-page .quiztop .pill{font-size:.7rem;padding:6px 8px}
+  .eg-quiz-page .question-nav-dock:not(.hide){padding:9px 12px max(9px,env(safe-area-inset-bottom))}
+  .eg-quiz-page .question-nav-dock .btn{min-height:46px}
+  .eg-quiz-page .question-nav-sheet{background:linear-gradient(160deg,#fbfaff,#f1f7f2)!important}
+  .eg-quiz-page .question-nav-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+}
+@media(max-width:390px){
+  .eg-quiz-page .topstats .stat span{font-size:.65rem}
+  .eg-quiz-page .question-nav-dock{grid-template-columns:.95fr 1.15fr .95fr!important;gap:6px}
+  .eg-quiz-page .question-nav-dock .btn{font-size:.78rem;padding:8px 5px}
+}
+@media(prefers-reduced-motion:reduce){
+  .eg-quiz-page .opt{transition:none}
+  .eg-quiz-page #timerPill.timer-warning,.eg-quiz-page #timerPill.timer-danger,
+  .eg-quiz-page #questionTimerPill.timer-warning,.eg-quiz-page #questionTimerPill.timer-danger{animation:none}
+}
+
 </style>
 <link rel="stylesheet" href="./css/branding.css">
 <link rel="stylesheet" href="./css/app-shell.css">
 <link rel="stylesheet" href="./css/question-media.css">
 </head>
-<body>
+<body class="eg-quiz-page">
 <header><a href="./">← All subjects</a><div class="eyebrow" id="classEyebrow">ExamGuru Quest · CBSE Class 10</div><h1><span id="subjectIcon">📚</span> <span id="subjectTitle">Practice</span></h1><p id="subjectSubtitle">Choose a chapter and practise at your pace.</p><div class="brand-signature">Conceptualised by <strong>JP Ganathe</strong></div></header>
 <main class="wrap">
 <div class="topstats"><div class="stat"><strong id="chapterTotal">—</strong><span>chapters / topics</span></div><div class="stat"><strong id="questionTotal">—</strong><span>original starter MCQs</span></div><div class="stat"><strong id="overallStat">0%</strong><span>accuracy on this device</span></div></div>
