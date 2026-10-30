@@ -42,6 +42,7 @@ assert.ok(science.includes("practice.html?subject=science"),"Science compatibili
 assert.ok(science.includes("window.location.replace"),"Science redirects promptly instead of loading the retired standalone module");
 assert.ok(dashboard.includes("./css/app-shell.css"));
 assert.ok(dashboard.includes("./js/app-shell.js"));
+assert.ok(dashboard.includes("level-orb")&&dashboard.includes("transform:none"),"dashboard level badge square uses a centred, unrotated layout");
 assert.ok(dashboard.includes("./js/page-access.js"),"dashboard loads the sign-in guard");
 assert.ok(dashboard.includes("./js/student-auth.js"),"dashboard can validate the published student account");
 for(const section of ["dashboard","rewards"])assert.ok(dashboard.includes('id="'+section+'"'));
