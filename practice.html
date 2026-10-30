@@ -63,13 +63,14 @@
 .question-nav-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}
 .question-nav-item{min-height:46px;border:1px solid #dce4eb;border-radius:11px;background:#fff;color:var(--ink);font:inherit;font-weight:800;cursor:pointer;position:relative}
 .question-nav-item.answered{background:#eaf7ef;border-color:#9acdad;color:#216544}
+.question-nav-item.skipped{background:#fff7e7;border-color:#e7c77e;color:#91640d}
 .question-nav-item.current{outline:2px solid #6250e8;outline-offset:1px;background:#efedff;color:#5140bd}
 .question-nav-item.marked:after{content:"⚑";position:absolute;right:4px;top:1px;font-size:.65rem;color:#96680e}
 .question-nav-item.locked{background:#f1f2f4;border-color:#c9cdd2;color:#777}
 .question-nav-legend{display:flex;flex-wrap:wrap;gap:10px 15px;margin:15px 0;color:var(--muted);font-size:.75rem}
 .question-nav-legend span{display:inline-flex;align-items:center;gap:5px}
 .question-nav-legend i{width:10px;height:10px;border-radius:3px;background:#e3e7eb;display:inline-block}
-.question-nav-legend i.answered{background:#9acdad}.question-nav-legend i.current{background:#6250e8}.question-nav-legend i.marked{background:#e9bd62}.question-nav-legend i.locked{background:#aeb4ba}
+.question-nav-legend i.answered{background:#9acdad}.question-nav-legend i.skipped{background:#e7c77e}.question-nav-legend i.current{background:#6250e8}.question-nav-legend i.marked{background:#e9bd62}.question-nav-legend i.locked{background:#aeb4ba}
 .question-nav-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px}
 @media(max-width:760px){
   .time-control-grid{grid-template-columns:1fr}
@@ -164,7 +165,7 @@
     <div class="question-nav-handle"></div>
     <div class="question-nav-heading"><div><h2 id="questionNavigatorTitle">Question navigator</h2><p class="muted" id="navigatorSummary">0 answered</p></div><button class="btn secondary" id="closeQuestionNavigator" type="button" aria-label="Close navigator">✕</button></div>
     <div class="question-nav-grid" id="questionNavigatorGrid"></div>
-    <div class="question-nav-legend"><span><i class="answered"></i> Answered</span><span><i class="unanswered"></i> Unanswered</span><span><i class="current"></i> Current</span><span><i class="marked"></i> Marked</span><span><i class="locked"></i> Time expired</span></div>
+    <div class="question-nav-legend"><span><i class="answered"></i> Answered</span><span><i class="unanswered"></i> Unanswered</span><span><i class="skipped"></i> Skipped</span><span><i class="current"></i> Current</span><span><i class="marked"></i> Marked</span><span><i class="locked"></i> Time expired</span></div>
     <div class="question-nav-actions"><button class="btn secondary" id="navigatorReturnBtn" type="button">Return to question</button><button class="btn" id="navigatorSubmitBtn" type="button">Submit quiz</button></div>
   </section>
 </div>
