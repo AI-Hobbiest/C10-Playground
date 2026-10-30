@@ -189,7 +189,8 @@ function syncModeControls(){
   const overallCustom=$("overallTimerCustom"),overallLabel=$("overallCustomLabel");
   const questionCustom=$("questionTimerCustom"),questionLabel=$("questionCustomLabel");
   const timed=mode==="timed";
-  if(timed&&overall&&overall.value==="off")overall.value="1200";
+  if(timed&&overall&&overall.value==="off"){overall.value="1200";overall.dataset.timedDefault="true";}
+  else if(!timed&&overall&&overall.dataset.timedDefault==="true"){overall.value="off";overall.dataset.timedDefault="false";}
   if(overall){
     const off=overall.querySelector&&overall.querySelector('option[value="off"]');
     if(off)off.disabled=timed;
@@ -278,6 +279,7 @@ function renderQuestionNavigator(){
     if(i===index)button.classList.add("current");
     if(questionIsMarked(i))button.classList.add("marked");
     button.setAttribute("aria-label","Question "+(i+1)+(record&&record.status==="answered"?", answered":", not answered")+(expired?", time expired":"")+(questionIsMarked(i)?", marked for review":""));
+    button.disabled=expired;
     button.onclick=()=>{moveToQuestion(i);closeQuestionNavigator();};grid.appendChild(button);
   });
 }
@@ -547,7 +549,7 @@ function skip(){
 function next(){
   if(!currentAttempt)return;
   if(index<session.length-1)moveToQuestion(index+1);
-  else finish("submitted",false);
+  else confirmSubmit();
 }
 function previousQuestion(){if(currentAttempt&&index>0)moveToQuestion(index-1);}
 function confirmSubmit(){
@@ -732,7 +734,8 @@ function init(){
   $("closeQuestionNavigator").onclick=closeQuestionNavigator;$("questionNavigatorBackdrop").onclick=closeQuestionNavigator;
   $("navigatorReturnBtn").onclick=closeQuestionNavigator;$("navigatorSubmitBtn").onclick=()=>{closeQuestionNavigator();confirmSubmit();};
   $("markReviewBtn").onclick=toggleQuestionMarked;
-  $("overallTimerSetting").onchange=syncModeControls;$("questionTimerSetting").onchange=syncModeControls;
+  $("overallTimerSetting").onchange=()=>{$("overallTimerSetting").dataset.timedDefault="false";syncModeControls();};
+  $("questionTimerSetting").onchange=syncModeControls;
   $("reviewBtn").onclick=reviewMissed;$("clearBtn").onclick=resetProgress;
   $("againBtn").onclick=start;$("reviewAnswersBtn").onclick=showReview;$("reportPdfBtn").onclick=downloadTestReportPdf;$("reportExcelBtn").onclick=downloadTestReportExcel;$("reviewPdfBtn").onclick=downloadTestReportPdf;$("reviewExcelBtn").onclick=downloadTestReportExcel;$("backBtn").onclick=()=>show("results");$("retrySetBtn").onclick=retrySessionMissed;
   $("chapter").onchange=()=>{if(!chapters.length)return;syncChapterPickerFromSelect();const chosen=selectedChapters();const count=chosen.reduce((sum,chapter)=>sum+chapter.questions.length,0);setText("modeHint",count+" questions available across "+chosen.length+" selected chapter(s).");};
