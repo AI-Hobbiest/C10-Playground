@@ -276,10 +276,12 @@ function renderQuestionNavigator(){
     const button=document.createElement("button");button.type="button";button.className="question-nav-item";button.textContent=String(i+1);
     const expired=isQuestionExpired(i),record=currentAttempt.answers[i];
     if(record&&record.status==="answered")button.classList.add("answered");
+    if(record&&record.status==="skipped")button.classList.add("skipped");
     if(expired)button.classList.add("locked");
     if(i===index)button.classList.add("current");
     if(questionIsMarked(i))button.classList.add("marked");
-    button.setAttribute("aria-label","Question "+(i+1)+(record&&record.status==="answered"?", answered":", not answered")+(expired?", time expired":"")+(questionIsMarked(i)?", marked for review":""));
+    const stateLabel=!record||record.status==="unanswered"?"not answered":record.status==="skipped"?"skipped":"answered";
+    button.setAttribute("aria-label","Question "+(i+1)+", "+stateLabel+(expired?", time expired":"")+(questionIsMarked(i)?", marked for review":""));
     button.disabled=expired;
     button.onclick=()=>{moveToQuestion(i);closeQuestionNavigator();};grid.appendChild(button);
   });
