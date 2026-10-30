@@ -57,7 +57,14 @@ const shuffle = array => {
 };
 const keyFor = question => window.C10QuestionBank.keyFor(question,bankId);
 const clone = value => JSON.parse(JSON.stringify(value));
-function show(id){["welcome","session","results","review"].forEach(name=>$(name).classList.toggle("hide",name!==id));}
+function show(id){
+  ["welcome","session","results","review"].forEach(name=>$(name).classList.toggle("hide",name!==id));
+  const quizActive=["session","results","review"].includes(id),layout=$("practiceLayout");
+  if(layout)layout.classList.toggle("quiz-active",quizActive);
+  if(quizActive&&window.matchMedia&&window.matchMedia("(max-width: 760px)").matches){
+    const panel=$("quizPanel");if(panel&&typeof panel.scrollIntoView==="function")panel.scrollIntoView({behavior:"smooth",block:"start"});
+  }
+}
 function setText(id,value){$(id).textContent=String(value);}
 function updateStats(){
   const total=progress.answered,accuracy=total?Math.round(progress.correct/total*100):0;
@@ -171,15 +178,15 @@ function prioritizeUnseenQuestions(pool, desiredCount){
   const required=desiredCount===0?pool.length:Math.min(desiredCount,pool.length);
   return unseen.length>=required?unseen.concat(previouslySeen):unseen.concat(previouslySeen);
 }
+function syncModeControls(){
+  const timingField=$("timingField");if(timingField)timingField.hidden=mode!=="timed";
+  if(mode==="timed"&& !["600","1200","1800","3600"].includes($("timerSetting").value))$("timerSetting").value="1200";
+}
 function selectedTiming(){
+  if(mode!=="timed")return {timingMode:"elapsed",timeLimitSeconds:null};
   let choice=$("timerSetting").value;
-  if(mode==="timed" && (choice==="off" || choice==="elapsed")){
-    choice="1200";$("timerSetting").value=choice;
-  }
-  if(["600","1200","1800","3600"].includes(choice)){
-    return {timingMode:"countdown",timeLimitSeconds:Number(choice)};
-  }
-  return {timingMode:choice==="elapsed"?"elapsed":"off",timeLimitSeconds:null};
+  if(!["600","1200","1800","3600"].includes(choice)){choice="1200";$("timerSetting").value=choice;}
+  return {timingMode:"countdown",timeLimitSeconds:Number(choice)};
 }
 function buildAttempt(questionPool){
   const timing=selectedTiming(),startedAt=new Date().toISOString();
@@ -236,7 +243,8 @@ function restoreAttempt(saved){
     mode=saved.uiMode||({ "mixed-practice":"random","timed-exam":"timed","practice":"retry" }[saved.mode]||saved.mode||"learn");
     document.querySelectorAll("[data-mode]").forEach(button=>button.classList.toggle("active",button.dataset.mode===mode));
     if(saved.timingMode==="countdown")$("timerSetting").value=String(saved.timeLimitSeconds||1200);
-    else $("timerSetting").value=saved.timingMode||"off";
+    else if(mode==="timed")$("timerSetting").value="1200";
+    syncModeControls();
     $("chapter").value=String(Math.max(0,chapters.findIndex(chapter=>chapter.chapterKey===session[index].chapterKey)));
     syncChapterPickerFromSelect();
     setText("status","Your saved session and answers have been restored.");$("status").classList.remove("hide");
@@ -543,9 +551,10 @@ function init(){
   initQuestionImageViewer();
   if(!config){setText("status","Unknown subject link.");$("status").classList.remove("hide");return;}
   if(!(CLASS_SUBJECTS[classId]||[]).includes(subject)){setText("status","The selected subject bank is not published for Class "+classId+" yet.");$("status").classList.remove("hide");return;}
+  syncModeControls();
   document.querySelectorAll("[data-mode]").forEach(button=>button.onclick=()=>{
     if(ledger.activeAttempt&&ledger.activeAttempt.status==="in-progress"){setText("modeHint","Finish or resume the saved session before changing mode.");return;}
-    mode=button.dataset.mode;document.querySelectorAll("[data-mode]").forEach(item=>item.classList.toggle("active",item===button));
+    mode=button.dataset.mode;document.querySelectorAll("[data-mode]").forEach(item=>item.classList.toggle("active",item===button));syncModeControls();
     const hints={learn:"Learn mode explains each answer immediately.",test:"Test mode holds feedback until submission and saves answers as you go.",retry:"Retry questions previously answered incorrectly in the chosen chapter.",random:"Mixed practice draws questions across your selected chapters.",timed:"Timed exam holds feedback until submission and automatically submits when the countdown reaches zero."};
     setText("modeHint",hints[mode]);
     if(mode==="timed"&&["off","elapsed"].includes($("timerSetting").value))$("timerSetting").value="1200";
@@ -553,7 +562,7 @@ function init(){
   $("startBtn").onclick=start;$("nextBtn").onclick=next;$("skipBtn").onclick=skip;
   $("submitBtn").onclick=()=>finish("submitted",true);
   $("reviewBtn").onclick=reviewMissed;$("clearBtn").onclick=resetProgress;
-  $("againBtn").onclick=start;$("reviewAnswersBtn").onclick=showReview;$("reportPdfBtn").onclick=downloadTestReportPdf;$("reportExcelBtn").onclick=downloadTestReportExcel;$("backBtn").onclick=()=>show("welcome");$("retrySetBtn").onclick=retrySessionMissed;
+  $("againBtn").onclick=start;$("reviewAnswersBtn").onclick=showReview;$("reportPdfBtn").onclick=downloadTestReportPdf;$("reportExcelBtn").onclick=downloadTestReportExcel;$("reviewPdfBtn").onclick=downloadTestReportPdf;$("reviewExcelBtn").onclick=downloadTestReportExcel;$("backBtn").onclick=()=>show("results");$("retrySetBtn").onclick=retrySessionMissed;
   $("chapter").onchange=()=>{if(!chapters.length)return;syncChapterPickerFromSelect();const chosen=selectedChapters();const count=chosen.reduce((sum,chapter)=>sum+chapter.questions.length,0);setText("modeHint",count+" questions available across "+chosen.length+" selected chapter(s).");};
   $("chapterPickerToggle").onclick=()=>{const panel=$("chapterPickerPanel"),open=panel.hidden;panel.hidden=!open;$("chapterPickerToggle").setAttribute("aria-expanded",String(open));};
   $("selectAllChapters").onclick=()=>{Array.from($("chapter").options).forEach(option=>option.selected=true);syncChapterPickerFromSelect();setText("modeHint","All "+chapters.length+" chapters selected.");};
