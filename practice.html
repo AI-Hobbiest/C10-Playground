@@ -38,6 +38,55 @@
 .opt[aria-pressed="true"]{border-color:#5140b7;background:#f1efff;box-shadow:0 0 0 2px rgba(81,64,183,.12)}#timingField[hidden]{display:none!important}
 @keyframes timerPulse{50%{transform:scale(1.025);box-shadow:0 8px 24px rgba(174,45,69,.25)}}
 @media(prefers-reduced-motion:reduce){#timerPill.timer-warning,#timerPill.timer-danger{animation:none}}
+
+/* Configurable overall and per-question timer controls. */
+.time-controls{margin-top:14px;border:1px solid var(--line);border-radius:12px;background:#fbfcff;padding:11px 12px}
+.time-controls summary{cursor:pointer;font-weight:800;font-size:.88rem;color:var(--ink)}
+.time-control-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:9px}
+.time-control-grid>div{min-width:0}
+.time-controls input{width:100%;padding:10px 11px;border:1px solid #cbd9e2;border-radius:10px;font:inherit;background:#fff}
+.time-controls [hidden]{display:none!important}
+.question-tools{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.question-tools .qtext{flex:1}
+.mark-review-btn{white-space:nowrap;flex:none}
+.mark-review-btn[aria-pressed="true"]{background:#fff5dd;color:#875c08;border:1px solid #e5c36e}
+.nav-inline-trigger{margin-left:auto}
+.question-nav-dock{display:none}
+.question-nav-overlay{position:fixed;inset:0;z-index:1200;display:flex;align-items:flex-end;justify-content:center}
+.question-nav-overlay.hide{display:none!important}
+.question-nav-backdrop{position:absolute;inset:0;border:0;background:rgba(19,17,42,.52);cursor:pointer}
+.question-nav-sheet{position:relative;z-index:1;width:min(680px,100%);max-height:min(78vh,760px);overflow:auto;background:#fff;color:var(--ink);border-radius:22px 22px 0 0;padding:12px 18px max(18px,env(safe-area-inset-bottom));box-shadow:0 -14px 48px rgba(19,17,42,.22)}
+.question-nav-handle{width:44px;height:5px;border-radius:99px;background:#d6dce3;margin:0 auto 14px}
+.question-nav-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px}
+.question-nav-heading h2{margin:0 0 4px;font-size:1.08rem}
+.question-nav-heading .muted{margin:0}
+.question-nav-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}
+.question-nav-item{min-height:46px;border:1px solid #dce4eb;border-radius:11px;background:#fff;color:var(--ink);font:inherit;font-weight:800;cursor:pointer;position:relative}
+.question-nav-item.answered{background:#eaf7ef;border-color:#9acdad;color:#216544}
+.question-nav-item.current{outline:2px solid #6250e8;outline-offset:1px;background:#efedff;color:#5140bd}
+.question-nav-item.marked:after{content:"⚑";position:absolute;right:4px;top:1px;font-size:.65rem;color:#96680e}
+.question-nav-item.locked{background:#f1f2f4;border-color:#c9cdd2;color:#777}
+.question-nav-legend{display:flex;flex-wrap:wrap;gap:10px 15px;margin:15px 0;color:var(--muted);font-size:.75rem}
+.question-nav-legend span{display:inline-flex;align-items:center;gap:5px}
+.question-nav-legend i{width:10px;height:10px;border-radius:3px;background:#e3e7eb;display:inline-block}
+.question-nav-legend i.answered{background:#9acdad}.question-nav-legend i.current{background:#6250e8}.question-nav-legend i.marked{background:#e9bd62}.question-nav-legend i.locked{background:#aeb4ba}
+.question-nav-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+@media(max-width:760px){
+  .time-control-grid{grid-template-columns:1fr}
+  .question-tools{display:block}
+  .mark-review-btn{margin:-4px 0 12px}
+  .nav-inline-trigger{display:none}
+  .question-nav-dock:not(.hide){position:fixed;display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:8px;left:0;right:0;bottom:0;z-index:1100;padding:9px 12px max(9px,env(safe-area-inset-bottom));background:rgba(255,255,255,.97);border-top:1px solid #dce5ed;box-shadow:0 -6px 24px rgba(16,41,61,.12)}
+  .question-nav-dock .btn{min-height:45px;padding:9px 8px;font-size:.84rem}
+  #session{padding-bottom:76px}
+  .question-nav-sheet{max-height:78vh;padding-left:15px;padding-right:15px}
+  .question-nav-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+  .question-nav-item{min-height:44px}
+}
+@media(min-width:761px){
+  .question-nav-sheet{border-radius:22px;margin:0 18px 24px}
+}
+
 </style>
 <link rel="stylesheet" href="./css/branding.css">
 <link rel="stylesheet" href="./css/app-shell.css">
@@ -61,7 +110,28 @@
 <select id="chapter" class="chapter-native-select" multiple size="6" aria-hidden="true" tabindex="-1" aria-describedby="chapterHelp"><option>Loading…</option></select>
 <p class="muted" id="chapterHelp">Tap a chapter to include or remove it. You can select several chapters for a mixed practice session.</p>
 <label class="label">Practice mode</label><div class="mode"><button class="active" data-mode="learn">Learn</button><button data-mode="test">Test</button><button data-mode="retry">Retry missed</button><button data-mode="random">Mixed practice</button><button data-mode="timed">Timed exam</button></div>
-<div id="timingField" hidden><label class="label" for="timerSetting">Exam duration</label><select id="timerSetting"><option value="600">10 minutes</option><option value="1200" selected>20 minutes</option><option value="1800">30 minutes</option><option value="3600">60 minutes</option></select><p class="muted">Timed exams submit automatically when the countdown reaches zero. Time spent is recorded automatically in other modes.</p></div>
+<details class="time-controls" id="timingControls">
+  <summary>Time controls <span class="muted">· optional outside Timed Exam</span></summary>
+  <div class="time-control-grid">
+    <div id="overallTimerField">
+      <label class="label" for="overallTimerSetting">Overall quiz timer</label>
+      <select id="overallTimerSetting">
+        <option value="off">No countdown</option><option value="600">10 minutes</option><option value="1200" selected>20 minutes</option><option value="1800">30 minutes</option><option value="3600">60 minutes</option><option value="custom">Custom duration</option>
+      </select>
+      <label class="label" for="overallTimerCustom" id="overallCustomLabel" hidden>Custom minutes</label>
+      <input id="overallTimerCustom" type="number" min="1" max="240" step="1" value="30" inputmode="numeric" hidden>
+    </div>
+    <div id="questionTimerField">
+      <label class="label" for="questionTimerSetting">Question timer</label>
+      <select id="questionTimerSetting">
+        <option value="off" selected>No question countdown</option><option value="15">15 seconds</option><option value="30">30 seconds</option><option value="45">45 seconds</option><option value="60">60 seconds</option><option value="90">90 seconds</option><option value="120">2 minutes</option><option value="custom">Custom duration</option>
+      </select>
+      <label class="label" for="questionTimerCustom" id="questionCustomLabel" hidden>Custom seconds</label>
+      <input id="questionTimerCustom" type="number" min="5" max="300" step="5" value="45" inputmode="numeric" hidden>
+    </div>
+  </div>
+  <p class="muted" id="timingHelp">Timers are optional. A question's clock starts the first time it is opened and continues while you move between questions.</p>
+</details>
 <label class="label" for="length">Questions per session</label><select id="length"><option value="5">5 · Quick</option><option value="10" selected>10 · Standard</option><option value="20">20 · Focus</option><option value="50">50 · Deep practice</option><option value="0">All available</option></select>
 <div class="btnrow"><button class="btn" id="startBtn">Start practice →</button></div><div class="hint" id="modeHint">Loading the chapter bank…</div>
 <hr style="border:0;border-top:1px solid var(--line);margin:18px 0"><h2>Student space</h2><p class="muted">Manage your learner details and view completed test history.</p><div class="btnrow"><a class="btn secondary" href="./profile.html">My profile &amp; history →</a></div><hr style="border:0;border-top:1px solid var(--line);margin:18px 0"><h2>My progress</h2><div class="muted" id="progressText">Scores and missed questions are saved on this device.</div><div class="btnrow"><button class="btn secondary" id="reviewBtn">Review missed</button><button class="btn secondary" id="clearBtn">Reset progress</button></div><p class="muted">Progress stays in this browser on this device. It does not sync to another phone or computer.</p>
@@ -69,10 +139,35 @@
 <section class="quiz" id="quizPanel" aria-live="polite">
 <div id="status" class="muted hide"></div>
 <div id="welcome"><div class="eyebrow" style="color:#5b7285">Ready when you are</div><h2 style="font-size:1.8rem;margin-top:10px">Build understanding, one question at a time.</h2><p class="muted">Choose a chapter and start practice. Learn mode explains each answer immediately. Test mode holds feedback until the end. Retry missed brings back questions you previously answered incorrectly.</p><div class="topicgrid"><div class="topic"><strong>🧠 Learn</strong><span>Instant feedback and explanations</span></div><div class="topic"><strong>⏱️ Test</strong><span>Answer first, review afterwards</span></div><div class="topic"><strong>🔁 Retry missed</strong><span>Focus on concepts to strengthen</span></div><div class="topic"><strong>📈 Progress</strong><span>Track attempts on this device</span></div></div><div class="hint">The other subject banks are a starter set and will be expanded chapter by chapter. Check your school’s latest syllabus before exam revision.</div></div>
-<div id="session" class="hide"><div class="quiztop"><span class="pill" id="chapterPill">Chapter</span><span class="pill" id="numberPill">Question 1 / 10</span><span class="pill" id="difficultyPill">Medium</span><span class="pill hide" id="timerPill">Elapsed · 00:00</span></div><div class="progress"><i id="progressBar"></i></div><p class="qtext" id="questionText"></p><div id="questionMedia" class="question-media hide" aria-label="Question diagrams"></div><div class="answers" id="options"></div><div id="feedback"></div><div class="foot"><span class="muted" id="sessionHint">Choose one answer.</span><div class="btnrow" style="margin:0"><button class="btn secondary" id="skipBtn">Skip</button><button class="btn secondary" id="submitBtn">Submit now</button><button class="btn" id="nextBtn" disabled>Next →</button></div></div></div>
+<div id="session" class="hide">
+  <div class="quiztop">
+    <span class="pill" id="chapterPill">Chapter</span><span class="pill" id="numberPill">Question 1 / 10</span><span class="pill" id="difficultyPill">Medium</span>
+    <span class="pill hide" id="timerPill">Elapsed · 00:00</span><span class="pill hide" id="questionTimerPill">Question · 00:00</span>
+    <button class="btn secondary nav-inline-trigger" id="navigatorInlineBtn" type="button">Questions ▦</button>
+  </div>
+  <div class="progress"><i id="progressBar"></i></div>
+  <div class="question-tools"><p class="qtext" id="questionText"></p><button class="btn secondary mark-review-btn" id="markReviewBtn" type="button" aria-pressed="false">⚑ Mark for review</button></div>
+  <div id="questionMedia" class="question-media hide" aria-label="Question diagrams"></div><div class="answers" id="options"></div><div id="feedback"></div>
+  <div class="foot"><span class="muted" id="sessionHint">Choose one answer.</span><div class="btnrow" style="margin:0"><button class="btn secondary" id="skipBtn">Skip</button><button class="btn secondary" id="submitBtn">Submit quiz</button><button class="btn" id="nextBtn">Next →</button></div></div>
+</div>
 <div id="results" class="hide"><div class="result"><div class="eyebrow" style="color:#5b7285">Session complete</div><div class="score"><div><strong id="scorePct">0%</strong><br><span>correct</span></div></div><h2 id="resultTitle">Nice work!</h2><p class="muted" id="resultCopy"></p><div class="topicgrid" id="resultStats"></div><div class="btnrow" style="justify-content:center"><button class="btn" id="againBtn">Practise again</button><button class="btn secondary" id="reviewAnswersBtn">Review answers</button><button class="btn secondary" id="reportPdfBtn">Download report · PDF</button><button class="btn secondary" id="reportExcelBtn">Download report · Excel</button></div></div></div>
 <div id="review" class="hide"><div class="quiztop"><h2>Review your answers</h2><span class="pill" id="reviewPill"></span></div><div id="reviewList"></div><div class="btnrow"><button class="btn" id="backBtn">Back to results</button><button class="btn secondary" id="reviewPdfBtn">Download report · PDF</button><button class="btn secondary" id="reviewExcelBtn">Download report · Excel</button><button class="btn secondary" id="retrySetBtn">Retry missed in this session</button></div></div>
 </section></div></main>
+<div id="questionNavDock" class="question-nav-dock hide" aria-label="Question navigation">
+  <button class="btn secondary" id="mobilePreviousBtn" type="button">← Previous</button>
+  <button class="btn secondary" id="mobileNavigatorBtn" type="button">▦ Questions</button>
+  <button class="btn" id="mobileNextBtn" type="button">Next →</button>
+</div>
+<div id="questionNavigatorOverlay" class="question-nav-overlay hide">
+  <button class="question-nav-backdrop" id="questionNavigatorBackdrop" type="button" aria-label="Close question navigator"></button>
+  <section class="question-nav-sheet" role="dialog" aria-modal="true" aria-labelledby="questionNavigatorTitle">
+    <div class="question-nav-handle"></div>
+    <div class="question-nav-heading"><div><h2 id="questionNavigatorTitle">Question navigator</h2><p class="muted" id="navigatorSummary">0 answered</p></div><button class="btn secondary" id="closeQuestionNavigator" type="button" aria-label="Close navigator">✕</button></div>
+    <div class="question-nav-grid" id="questionNavigatorGrid"></div>
+    <div class="question-nav-legend"><span><i class="answered"></i> Answered</span><span><i class="unanswered"></i> Unanswered</span><span><i class="current"></i> Current</span><span><i class="marked"></i> Marked</span><span><i class="locked"></i> Time expired</span></div>
+    <div class="question-nav-actions"><button class="btn secondary" id="navigatorReturnBtn" type="button">Return to question</button><button class="btn" id="navigatorSubmitBtn" type="button">Submit quiz</button></div>
+  </section>
+</div>
 <div id="imageViewer" class="image-viewer hide" role="dialog" aria-modal="true" aria-label="Enlarged question image" tabindex="-1">
 <div class="image-viewer-card">
 <button type="button" id="imageViewerClose" class="image-viewer-close" aria-label="Close enlarged image">×</button>
