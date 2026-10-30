@@ -61,6 +61,8 @@ function show(id){
   ["welcome","session","results","review"].forEach(name=>$(name).classList.toggle("hide",name!==id));
   const quizActive=["session","results","review"].includes(id),layout=$("practiceLayout");
   if(layout)layout.classList.toggle("quiz-active",quizActive);
+  const dock=$("questionNavDock");if(dock)dock.classList.toggle("hide",id!=="session");
+  if(id!=="session")closeQuestionNavigator();
   if(quizActive&&window.matchMedia&&window.matchMedia("(max-width: 760px)").matches){
     const panel=$("quizPanel");if(panel&&typeof panel.scrollIntoView==="function")panel.scrollIntoView({behavior:"smooth",block:"start"});
   }
@@ -178,15 +180,139 @@ function prioritizeUnseenQuestions(pool, desiredCount){
   const required=desiredCount===0?pool.length:Math.min(desiredCount,pool.length);
   return unseen.length>=required?unseen.concat(previouslySeen):unseen.concat(previouslySeen);
 }
+function boundedNumber(value,min,max,fallback){
+  const number=Number(value);
+  return Number.isFinite(number)?Math.max(min,Math.min(max,Math.round(number))):fallback;
+}
 function syncModeControls(){
-  const timingField=$("timingField");if(timingField)timingField.hidden=mode!=="timed";
-  if(mode==="timed"&& !["600","1200","1800","3600"].includes($("timerSetting").value))$("timerSetting").value="1200";
+  const overall=$("overallTimerSetting"),question=$("questionTimerSetting");
+  const overallCustom=$("overallTimerCustom"),overallLabel=$("overallCustomLabel");
+  const questionCustom=$("questionTimerCustom"),questionLabel=$("questionCustomLabel");
+  const timed=mode==="timed";
+  if(timed&&overall&&overall.value==="off")overall.value="1200";
+  if(overall){
+    const off=overall.querySelector&&overall.querySelector('option[value="off"]');
+    if(off)off.disabled=timed;
+  }
+  if(overallCustom)overallCustom.hidden=!overall||overall.value!=="custom";
+  if(overallLabel)overallLabel.hidden=!overall||overall.value!=="custom";
+  if(questionCustom)questionCustom.hidden=!question||question.value!=="custom";
+  if(questionLabel)questionLabel.hidden=!question||question.value!=="custom";
+  const controls=$("timingControls");if(controls&&timed)controls.open=true;
+  const help=$("timingHelp");
+  if(help)help.textContent=timed
+    ?"Timed Exam requires an overall countdown. An optional question timer also locks each question when its own time expires."
+    :"Overall and question timers are optional. A question clock starts when first opened and keeps running while you navigate away.";
 }
 function selectedTiming(){
-  if(mode!=="timed")return {timingMode:"elapsed",timeLimitSeconds:null};
-  let choice=$("timerSetting").value;
-  if(!["600","1200","1800","3600"].includes(choice)){choice="1200";$("timerSetting").value=choice;}
-  return {timingMode:"countdown",timeLimitSeconds:Number(choice)};
+  let overallChoice=$("overallTimerSetting").value;
+  if(mode==="timed"&&overallChoice==="off"){overallChoice="1200";$("overallTimerSetting").value=overallChoice;}
+  const overallTimeLimitSeconds=overallChoice==="off"?null:
+    overallChoice==="custom"?boundedNumber($("overallTimerCustom").value,1,240,30)*60:Number(overallChoice);
+  const questionChoice=$("questionTimerSetting").value;
+  const questionTimeLimitSeconds=questionChoice==="off"?null:
+    questionChoice==="custom"?boundedNumber($("questionTimerCustom").value,5,300,45):Number(questionChoice);
+  return {overallTimeLimitSeconds,questionTimeLimitSeconds};
+}
+function ensureQuestionDeadline(questionIndex){
+  if(!currentAttempt||!currentAttempt.questionTimeLimitSeconds)return;
+  currentAttempt.questionDeadlines=currentAttempt.questionDeadlines||{};
+  if(!currentAttempt.questionDeadlines[String(questionIndex)]){
+    currentAttempt.questionDeadlines[String(questionIndex)]=new Date(Date.now()+currentAttempt.questionTimeLimitSeconds*1000).toISOString();
+    persistCurrentAttempt();
+  }
+}
+function questionRemaining(questionIndex){
+  const deadline=currentAttempt&&currentAttempt.questionDeadlines&&currentAttempt.questionDeadlines[String(questionIndex)];
+  return deadline?window.C10SessionModel.remainingSeconds(deadline,Date.now()):null;
+}
+function isQuestionExpired(questionIndex){
+  const remaining=questionRemaining(questionIndex);
+  return remaining!==null&&remaining===0;
+}
+function markTimedOutUnanswered(questionIndex){
+  if(!currentAttempt||currentAttempt.answers[questionIndex])return;
+  const question=session[questionIndex];
+  const record=window.C10SessionModel.makeAnswerRecord({
+    answerRecordId:window.C10Storage.createId(),attemptId:currentAttempt.attemptId,questionId:keyFor(question),
+    selectedOptionId:null,selectedOptionText:null,correctOptionId:question.correctOptionId,
+    correctOptionText:question.options[question.answer],status:"unanswered",answeredAt:null,timeSpentSeconds:0
+  });
+  currentAttempt.answers[questionIndex]=record;answers[questionIndex]=runtimeAnswer(record,question);
+  upsertAnswerRecord(record);
+  const id=keyFor(question);progress.missed=[...new Set([...(progress.missed||[]),id])];saveProgress();
+}
+function processQuestionTimeouts(){
+  if(!currentAttempt||!currentAttempt.questionTimeLimitSeconds)return;
+  let changed=false;
+  currentAttempt.questionDeadlines=currentAttempt.questionDeadlines||{};
+  for(let i=0;i<session.length;i++){
+    if(isQuestionExpired(i)&&!currentAttempt.answers[i]){markTimedOutUnanswered(i);changed=true;}
+  }
+  if(changed)persistCurrentAttempt();
+}
+function questionIsMarked(questionIndex){
+  return !!(currentAttempt&&Array.isArray(currentAttempt.markedQuestionIndexes)&&currentAttempt.markedQuestionIndexes.includes(questionIndex));
+}
+function updateQuestionNavigation(){
+  if(!currentAttempt)return;
+  const dock=$("questionNavDock");if(dock)dock.classList.remove("hide");
+  const previous=$("mobilePreviousBtn"),nextButton=$("mobileNextBtn");
+  if(previous)previous.disabled=index<=0;
+  if(nextButton){nextButton.textContent=index===session.length-1?"Submit quiz":"Next →";nextButton.disabled=false;}
+  const mark=$("markReviewBtn");
+  if(mark){mark.setAttribute("aria-pressed",String(questionIsMarked(index)));mark.textContent=questionIsMarked(index)?"⚑ Marked for review":"⚑ Mark for review";}
+}
+function renderQuestionNavigator(){
+  if(!currentAttempt)return;
+  const grid=$("questionNavigatorGrid");if(!grid)return;
+  grid.innerHTML="";
+  const answeredCount=currentAttempt.answers.filter(record=>record&&record.status==="answered").length;
+  const markedCount=(currentAttempt.markedQuestionIndexes||[]).length;
+  setText("navigatorSummary",answeredCount+" answered · "+markedCount+" marked for review");
+  session.forEach((question,i)=>{
+    const button=document.createElement("button");button.type="button";button.className="question-nav-item";button.textContent=String(i+1);
+    const expired=isQuestionExpired(i),record=currentAttempt.answers[i];
+    if(record&&record.status==="answered")button.classList.add("answered");
+    if(expired)button.classList.add("locked");
+    if(i===index)button.classList.add("current");
+    if(questionIsMarked(i))button.classList.add("marked");
+    button.setAttribute("aria-label","Question "+(i+1)+(record&&record.status==="answered"?", answered":", not answered")+(expired?", time expired":"")+(questionIsMarked(i)?", marked for review":""));
+    button.onclick=()=>{moveToQuestion(i);closeQuestionNavigator();};grid.appendChild(button);
+  });
+}
+function openQuestionNavigator(){
+  if(!currentAttempt)return;
+  processQuestionTimeouts();renderQuestionNavigator();$("questionNavigatorOverlay").classList.remove("hide");
+  const close=$("closeQuestionNavigator");if(close&&typeof close.focus==="function")close.focus();
+}
+function closeQuestionNavigator(){
+  const overlay=$("questionNavigatorOverlay");if(overlay)overlay.classList.add("hide");
+}
+function moveToQuestion(targetIndex){
+  if(!currentAttempt||!Number.isInteger(targetIndex)||targetIndex<0||targetIndex>=session.length)return;
+  index=targetIndex;currentAttempt.currentIndex=index;currentAttempt.questionStartedAt=new Date().toISOString();
+  ensureQuestionDeadline(index);processQuestionTimeouts();persistCurrentAttempt();renderQuestion();
+}
+function toggleQuestionMarked(){
+  if(!currentAttempt)return;
+  currentAttempt.markedQuestionIndexes=Array.isArray(currentAttempt.markedQuestionIndexes)?currentAttempt.markedQuestionIndexes:[];
+  if(questionIsMarked(index))currentAttempt.markedQuestionIndexes=currentAttempt.markedQuestionIndexes.filter(value=>value!==index);
+  else currentAttempt.markedQuestionIndexes.push(index);
+  persistCurrentAttempt();updateQuestionNavigation();
+  if(!$("questionNavigatorOverlay").classList.contains("hide"))renderQuestionNavigator();
+}
+function advanceAfterQuestionTimeout(expiredIndex){
+  processQuestionTimeouts();
+  const candidates=[];
+  for(let step=1;step<session.length;step++){
+    const candidate=(expiredIndex+step)%session.length;
+    if(!isQuestionExpired(candidate))candidates.push(candidate);
+  }
+  const nextUnanswered=candidates.find(candidate=>!currentAttempt.answers[candidate]||currentAttempt.answers[candidate].status!=="answered");
+  const nextIndex=nextUnanswered===undefined?candidates[0]:nextUnanswered;
+  if(nextIndex===undefined){finish("submitted",false);return;}
+  moveToQuestion(nextIndex);
 }
 function buildAttempt(questionPool){
   const timing=selectedTiming(),startedAt=new Date().toISOString();
@@ -199,8 +325,11 @@ function buildAttempt(questionPool){
     mode:({learn:"learn",test:"test",retry:"practice",random:"mixed-practice",timed:"timed-exam"})[mode]||"learn",
     uiMode:mode,source:{type:mode==="random"?"subject-bank":chosen.length>1?"chapter-set":"chapter-bank",sourceId:mode==="random"?subject+"-all":chapterIds.join(","),subjectIds:[subject],chapterIds},
     questionBankVersion:"legacy-bank-v1",
-    status:"in-progress",startedAt,submittedAt:null,durationSeconds:null,timeLimitSeconds:timing.timeLimitSeconds,
-    timingMode:timing.timingMode,deadlineAt:timing.timingMode==="countdown"?new Date(Date.now()+timing.timeLimitSeconds*1000).toISOString():null,
+    status:"in-progress",startedAt,submittedAt:null,durationSeconds:null,
+    timeLimitSeconds:timing.overallTimeLimitSeconds,overallTimeLimitSeconds:timing.overallTimeLimitSeconds,
+    timingMode:timing.overallTimeLimitSeconds===null?"elapsed":"countdown",
+    deadlineAt:timing.overallTimeLimitSeconds===null?null:new Date(Date.now()+timing.overallTimeLimitSeconds*1000).toISOString(),
+    questionTimeLimitSeconds:timing.questionTimeLimitSeconds,questionDeadlines:{},markedQuestionIndexes:[],
     score:null,maxScore:questionPool.length,correctCount:null,questionCount:questionPool.length,
     questionIds:questionPool.map(keyFor),answerRecordIds:[],questions:clone(questionPool),answers:Array(questionPool.length).fill(null),
     currentIndex:0,questionStartedAt:startedAt
@@ -242,14 +371,20 @@ function restoreAttempt(saved){
     index=Math.max(0,Math.min(Number(saved.currentIndex)||0,session.length-1));
     mode=saved.uiMode||({ "mixed-practice":"random","timed-exam":"timed","practice":"retry" }[saved.mode]||saved.mode||"learn");
     document.querySelectorAll("[data-mode]").forEach(button=>button.classList.toggle("active",button.dataset.mode===mode));
-    if(saved.timingMode==="countdown")$("timerSetting").value=String(saved.timeLimitSeconds||1200);
-    else if(mode==="timed")$("timerSetting").value="1200";
+    const overallLimit=saved.overallTimeLimitSeconds!==undefined?saved.overallTimeLimitSeconds:(saved.timingMode==="countdown"?saved.timeLimitSeconds:null);
+    const overallPresets=["600","1200","1800","3600"];
+    $("overallTimerSetting").value=overallLimit===null?"off":overallPresets.includes(String(overallLimit))?String(overallLimit):"custom";
+    if(overallLimit!==null&&!overallPresets.includes(String(overallLimit)))$("overallTimerCustom").value=String(Math.round(Number(overallLimit)/60));
+    const questionLimit=Number(saved.questionTimeLimitSeconds)||0,questionPresets=["15","30","45","60","90","120"];
+    $("questionTimerSetting").value=!questionLimit?"off":questionPresets.includes(String(questionLimit))?String(questionLimit):"custom";
+    if(questionLimit&&!questionPresets.includes(String(questionLimit)))$("questionTimerCustom").value=String(questionLimit);
+    if(mode==="timed"&&$("overallTimerSetting").value==="off")$("overallTimerSetting").value="1200";
     syncModeControls();
     $("chapter").value=String(Math.max(0,chapters.findIndex(chapter=>chapter.chapterKey===session[index].chapterKey)));
     syncChapterPickerFromSelect();
     setText("status","Your saved session and answers have been restored.");$("status").classList.remove("hide");
-    show("session");renderQuestion();startClock();
-    if(saved.timingMode==="countdown" && window.C10SessionModel.remainingSeconds(saved.deadlineAt,Date.now())===0)finish("timed-out",false);
+    show("session");ensureQuestionDeadline(index);renderQuestion();startClock();
+    if(saved.deadlineAt && window.C10SessionModel.remainingSeconds(saved.deadlineAt,Date.now())===0)finish("timed-out",false);
   }catch(error){
     ledger.activeAttempt=null;saveLedger();
     currentAttempt=null;setText("status","An older saved session could not be resumed. Your completed attempts remain saved.");$("status").classList.remove("hide");
@@ -304,7 +439,9 @@ function initQuestionImageViewer(){
 }
 function renderQuestion(){
   if(!currentAttempt||!session[index])return;
-  const question=session[index];const previous=answers[index];picked=previous?(previous.status==="skipped"?-1:previous.selected):null;
+  ensureQuestionDeadline(index);processQuestionTimeouts();
+  const question=session[index],previous=answers[index],locked=isQuestionExpired(index);
+  picked=previous?(previous.status==="skipped"?-1:previous.selected):null;
   const chapter=chapters.find(item=>item.chapter_no===question.chapter_no);
   setText("chapterPill",chapter?chapter.title:question.chapterTitle);
   setText("numberPill","Question "+(index+1)+" / "+session.length);
@@ -320,23 +457,34 @@ function renderQuestion(){
     if(previous&&i===previous.selected)button.classList.add("selected");
     if(previous&&mode!=="test"&&mode!=="timed"&&i===question.answer)button.classList.add("correct");
     if(previous&&mode!=="test"&&mode!=="timed"&&i===previous.selected&&!previous.correct)button.classList.add("wrong");
-    button.disabled=false;
+    button.disabled=locked;
     button.setAttribute("aria-pressed",String(!!previous&&i===previous.selected));
     button.onclick=()=>choose(i);
     $("options").appendChild(button);
   });
-  if(previous && mode!=="test"&&mode!=="timed"){
+  if(locked){
+    const box=document.createElement("div");box.className="feedback bad";
+    const title=document.createElement("strong");title.textContent="Question time expired. ";
+    const explanation=document.createElement("span");explanation.textContent=previous&&previous.status==="answered"?"Your saved answer is locked.":"This question is locked as unanswered.";
+    box.append(title,explanation);$("feedback").appendChild(box);
+  }else if(previous && mode!=="test"&&mode!=="timed"){
     const box=document.createElement("div");box.className="feedback "+(previous.correct?"good":"bad");
     const title=document.createElement("strong");title.textContent=previous.status==="skipped"?"Skipped. ":previous.correct?"Correct! ":"Not quite. ";
     const explanation=document.createElement("span");explanation.textContent=question.explanation||"Review the idea and try a similar question.";
     box.append(title,explanation);$("feedback").appendChild(box);
   }
-  setText("sessionHint",mode==="test"||mode==="timed"?(previous?"Answer saved. Select another option to change it before moving on.":"Choose an answer. You can change it before moving on."):(previous?"Your answer is saved. Select another option to change it, or continue when ready.":"Choose one answer; you can change it before moving on."));
-  $("nextBtn").disabled=picked===null;
-  $("nextBtn").textContent=index===session.length-1?"Finish session ✓":"Next question →";
-  $("skipBtn").disabled=picked!==null;
-  $("submitBtn").textContent=index===session.length-1?"Submit session":"Submit now";
+  setText("sessionHint",locked?"This question's time has expired. You may review it, but the answer can no longer be changed.":mode==="test"||mode==="timed"?(previous?"Answer saved. You may change it until the question timer expires.":"Choose an answer. You can revisit it while the timer permits."):(previous?"Your answer is saved. Select another option to change it, or continue when ready.":"Choose one answer; you can change it before moving on."));
+  $("nextBtn").disabled=false;$("nextBtn").textContent=index===session.length-1?"Submit session ✓":"Next question →";
+  $("skipBtn").disabled=locked||picked!==null;$("submitBtn").textContent="Submit quiz";
+  const questionTimer=$("questionTimerPill"),remaining=questionRemaining(index);
+  if(questionTimer){
+    questionTimer.classList.toggle("hide",remaining===null);
+    if(remaining!==null)setText("questionTimerPill","QUESTION TIME  "+window.C10SessionModel.formatDuration(remaining));
+    questionTimer.classList.toggle("timer-warning",remaining!==null&&remaining<=10&&remaining>5);
+    questionTimer.classList.toggle("timer-danger",remaining!==null&&remaining<=5);
+  }
   if(!currentAttempt.questionStartedAt){currentAttempt.questionStartedAt=new Date().toISOString();persistCurrentAttempt();}
+  updateQuestionNavigation();
 }
 function recordSelectedAnswer(selected,status){
   const question=session[index],now=new Date().toISOString();
@@ -371,6 +519,7 @@ function recordSelectedAnswer(selected,status){
 }
 function choose(optionIndex){
   if(!currentAttempt||currentAttempt.status!=="in-progress")return;
+  if(isQuestionExpired(index)){renderQuestion();return;}
   if(!Number.isInteger(optionIndex)||optionIndex<0||optionIndex>=session[index].options.length)return;
   recordSelectedAnswer(optionIndex,"answered");
   const question=session[index],correct=answers[index].correct;
@@ -392,36 +541,53 @@ function choose(optionIndex){
   }
 }
 function skip(){
-  if(picked!==null||!currentAttempt)return;
+  if(picked!==null||!currentAttempt||isQuestionExpired(index))return;
   recordSelectedAnswer(null,"skipped");next();
 }
 function next(){
-  if(!currentAttempt||picked===null)return;
-  if(index<session.length-1){
-    index++;currentAttempt.currentIndex=index;currentAttempt.questionStartedAt=new Date().toISOString();
-    persistCurrentAttempt();renderQuestion();
-  }else finish("submitted",false);
+  if(!currentAttempt)return;
+  if(index<session.length-1)moveToQuestion(index+1);
+  else finish("submitted",false);
+}
+function previousQuestion(){if(currentAttempt&&index>0)moveToQuestion(index-1);}
+function confirmSubmit(){
+  if(!currentAttempt)return;
+  const unanswered=currentAttempt.answers.filter(record=>!record||record.status!=="answered").length;
+  const marked=(currentAttempt.markedQuestionIndexes||[]).length,details=[];
+  if(unanswered)details.push(unanswered+" unanswered");
+  if(marked)details.push(marked+" marked for review");
+  finish("submitted",true,"Submit this quiz now?"+(details.length?" You still have "+details.join(" and ")+".":"")+" Your answers will be final.");
 }
 function stopClock(){if(clockHandle!==null){clearInterval(clockHandle);clockHandle=null;}}
 function tickClock(){
   if(!currentAttempt||currentAttempt.status!=="in-progress"){stopClock();return;}
-  if(currentAttempt.timingMode==="countdown"){
+  processQuestionTimeouts();
+  if(currentAttempt.deadlineAt){
     const remaining=window.C10SessionModel.remainingSeconds(currentAttempt.deadlineAt,Date.now());
-    setText("timerPill","TIME LEFT  "+window.C10SessionModel.formatDuration(remaining));
+    setText("timerPill","QUIZ TIME  "+window.C10SessionModel.formatDuration(remaining));
     $("timerPill").classList.remove("hide");$("timerPill").classList.toggle("timer-warning",remaining<=60);$("timerPill").classList.toggle("timer-danger",remaining<=15);
-    if(remaining===0)finish("timed-out",false);
-  }else if(currentAttempt.timingMode==="elapsed"){
+    if(remaining===0){finish("timed-out",false);return;}
+  }else{
     const elapsed=window.C10SessionModel.secondsBetween(currentAttempt.startedAt,new Date().toISOString());
     setText("timerPill","ELAPSED  "+window.C10SessionModel.formatDuration(elapsed));
     $("timerPill").classList.remove("hide");$("timerPill").classList.remove("timer-warning","timer-danger");
-  }else{
-    $("timerPill").classList.add("hide");$("timerPill").classList.remove("timer-warning","timer-danger");
   }
+  const remaining=questionRemaining(index),questionPill=$("questionTimerPill");
+  if(questionPill){
+    questionPill.classList.toggle("hide",remaining===null);
+    if(remaining!==null){
+      setText("questionTimerPill","QUESTION TIME  "+window.C10SessionModel.formatDuration(remaining));
+      questionPill.classList.toggle("timer-warning",remaining<=10&&remaining>5);
+      questionPill.classList.toggle("timer-danger",remaining<=5);
+      if(remaining===0){advanceAfterQuestionTimeout(index);return;}
+    }
+  }
+  if(!$("questionNavigatorOverlay").classList.contains("hide"))renderQuestionNavigator();
 }
 function startClock(){stopClock();tickClock();clockHandle=setInterval(tickClock,1000);}
-function finish(status="submitted",askConfirmation=false){
+function finish(status="submitted",askConfirmation=false,confirmationMessage){
   if(!currentAttempt||currentAttempt.status!=="in-progress")return;
-  if(askConfirmation&&!confirm(status==="submitted"?"Submit this session now? Unanswered questions will be marked unanswered.":"End this session?"))return;
+  if(askConfirmation&&!confirm(confirmationMessage||"Submit this session now? Unanswered questions will be marked unanswered."))return;
   stopClock();
   const now=new Date().toISOString();
   session.forEach((question,i)=>{
@@ -528,7 +694,7 @@ function reviewMissed(){
   const missed=allQuestions().filter(question=>progress.missed.includes(keyFor(question))&&question.chapter_no===chapter.chapter_no);
   if(!missed.length){setText("modeHint","There are no missed questions in this chapter. Try a practice session first.");return;}
   mode="retry";document.querySelectorAll("[data-mode]").forEach(button=>button.classList.toggle("active",button.dataset.mode===mode));
-  $("timerSetting").value="elapsed";
+  $("overallTimerSetting").value="off";$("questionTimerSetting").value="off";syncModeControls();
   session=shuffle(missed);index=0;picked=null;answers=Array(session.length).fill(null);
   currentAttempt=buildAttempt(session);ledger.activeAttempt=currentAttempt;saveLedger();
   currentAttempt.questionStartedAt=new Date().toISOString();persistCurrentAttempt();show("session");renderQuestion();startClock();
@@ -537,7 +703,7 @@ function retrySessionMissed(){
   const keys=new Set(lastMissed.map(question=>keyFor(question)));
   session=shuffle(allQuestions().filter(question=>keys.has(keyFor(question))));
   if(!session.length){setText("resultCopy","No missed questions from this round — try a new chapter or mixed practice.");return;}
-  mode="retry";$("timerSetting").value="elapsed";index=0;picked=null;answers=Array(session.length).fill(null);
+  mode="retry";$("overallTimerSetting").value="off";$("questionTimerSetting").value="off";syncModeControls();index=0;picked=null;answers=Array(session.length).fill(null);
   currentAttempt=buildAttempt(session);ledger.activeAttempt=currentAttempt;saveLedger();
   currentAttempt.questionStartedAt=new Date().toISOString();persistCurrentAttempt();show("session");renderQuestion();startClock();
 }
@@ -557,10 +723,16 @@ function init(){
     mode=button.dataset.mode;document.querySelectorAll("[data-mode]").forEach(item=>item.classList.toggle("active",item===button));syncModeControls();
     const hints={learn:"Learn mode explains each answer immediately.",test:"Test mode holds feedback until submission and saves answers as you go.",retry:"Retry questions previously answered incorrectly in the chosen chapter.",random:"Mixed practice draws questions across your selected chapters.",timed:"Timed exam holds feedback until submission and automatically submits when the countdown reaches zero."};
     setText("modeHint",hints[mode]);
-    if(mode==="timed"&&["off","elapsed"].includes($("timerSetting").value))$("timerSetting").value="1200";
+    if(mode==="timed"&&$("overallTimerSetting").value==="off")$("overallTimerSetting").value="1200";
   });
   $("startBtn").onclick=start;$("nextBtn").onclick=next;$("skipBtn").onclick=skip;
-  $("submitBtn").onclick=()=>finish("submitted",true);
+  $("submitBtn").onclick=confirmSubmit;
+  $("mobilePreviousBtn").onclick=previousQuestion;$("mobileNextBtn").onclick=()=>index===session.length-1?confirmSubmit():next();
+  $("mobileNavigatorBtn").onclick=openQuestionNavigator;$("navigatorInlineBtn").onclick=openQuestionNavigator;
+  $("closeQuestionNavigator").onclick=closeQuestionNavigator;$("questionNavigatorBackdrop").onclick=closeQuestionNavigator;
+  $("navigatorReturnBtn").onclick=closeQuestionNavigator;$("navigatorSubmitBtn").onclick=()=>{closeQuestionNavigator();confirmSubmit();};
+  $("markReviewBtn").onclick=toggleQuestionMarked;
+  $("overallTimerSetting").onchange=syncModeControls;$("questionTimerSetting").onchange=syncModeControls;
   $("reviewBtn").onclick=reviewMissed;$("clearBtn").onclick=resetProgress;
   $("againBtn").onclick=start;$("reviewAnswersBtn").onclick=showReview;$("reportPdfBtn").onclick=downloadTestReportPdf;$("reportExcelBtn").onclick=downloadTestReportExcel;$("reviewPdfBtn").onclick=downloadTestReportPdf;$("reviewExcelBtn").onclick=downloadTestReportExcel;$("backBtn").onclick=()=>show("results");$("retrySetBtn").onclick=retrySessionMissed;
   $("chapter").onchange=()=>{if(!chapters.length)return;syncChapterPickerFromSelect();const chosen=selectedChapters();const count=chosen.reduce((sum,chapter)=>sum+chapter.questions.length,0);setText("modeHint",count+" questions available across "+chosen.length+" selected chapter(s).");};
