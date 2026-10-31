@@ -265,10 +265,14 @@ const delay=()=>new Promise(resolve=>setImmediate(resolve));
   const afterExpiry=makeEnvironment(expiring.values);
   await delay();
   assert.equal(afterExpiry.elements.numberPill.textContent,"Question 1 / 2","expired pace target does not automatically advance the question");
+  assert.equal(afterExpiry.elements.options.children[0].disabled,false,"expired pace target never disables answer choices");
   afterExpiry.elements.options.children[0].click();
   const expiredRow=[...afterExpiry.values.entries()].find(([key])=>key.includes("test-attempt-ledger")&&key.endsWith("mathematics"));
   const expiredActive=JSON.parse(expiredRow[1]).data.activeAttempt;
   assert.ok(expiredActive.answers[0],"question remains editable after the pace target expires");
+  afterExpiry.elements.mobileNavigatorBtn.click();
+  assert.equal(afterExpiry.elements.questionNavigatorGrid.children[0].disabled,false,"pace reached does not disable navigator jump");
+  assert.ok(afterExpiry.elements.questionNavigatorGrid.children[0].attributes["aria-label"].includes("suggested pace reached"));
 
   const science=makeEnvironment(new Map(),"science");
   await delay();

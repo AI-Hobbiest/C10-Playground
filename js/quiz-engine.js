@@ -270,15 +270,15 @@ function renderQuestionNavigator(){
   setText("navigatorSummary",answeredCount+" answered · "+skippedCount+" skipped · "+markedCount+" marked");
   session.forEach((question,i)=>{
     const button=document.createElement("button");button.type="button";button.className="question-nav-item";button.textContent=String(i+1);
-    const expired=isQuestionExpired(i),record=currentAttempt.answers[i];
+    const paceReached=isQuestionExpired(i),record=currentAttempt.answers[i];
     if(record&&record.status==="answered")button.classList.add("answered");
     if(record&&record.status==="skipped")button.classList.add("skipped");
-    if(expired)button.classList.add("locked");
+    if(paceReached)button.classList.add("pace-reached");
     if(i===index)button.classList.add("current");
     if(questionIsMarked(i))button.classList.add("marked");
     const stateLabel=!record||record.status==="unanswered"?"not answered":record.status==="skipped"?"skipped":"answered";
-    button.setAttribute("aria-label","Question "+(i+1)+", "+stateLabel+(expired?", time expired":"")+(questionIsMarked(i)?", marked for review":""));
-    button.disabled=expired;
+    button.setAttribute("aria-label","Question "+(i+1)+", "+stateLabel+(paceReached?", suggested pace reached":"")+(questionIsMarked(i)?", marked for review":""));
+    button.disabled=false;
     button.onclick=()=>{moveToQuestion(i);closeQuestionNavigator();};grid.appendChild(button);
   });
 }
@@ -480,7 +480,7 @@ function renderQuestion(){
   const questionTimer=$("questionTimerPill"),remaining=questionRemaining(index);
   if(questionTimer){
     questionTimer.classList.toggle("hide",remaining===null);
-    if(remaining!==null)setText("questionTimerPill",(remaining===0?"PACE TARGET":"QUESTION TIME")+"  "+window.C10SessionModel.formatDuration(remaining));
+    if(remaining!==null)setText("questionTimerPill",(remaining===0?"PACE REACHED":"PACE LEFT")+"  "+window.C10SessionModel.formatDuration(remaining));
     questionTimer.classList.toggle("timer-warning",remaining!==null&&remaining<=10&&remaining>5);
     questionTimer.classList.toggle("timer-danger",remaining!==null&&remaining<=5);
   }
@@ -520,7 +520,7 @@ function recordSelectedAnswer(selected,status){
 }
 function choose(optionIndex){
   if(!currentAttempt||currentAttempt.status!=="in-progress")return;
-  if(isQuestionExpired(index)){renderQuestion();return;}
+  
   if(!Number.isInteger(optionIndex)||optionIndex<0||optionIndex>=session[index].options.length)return;
   recordSelectedAnswer(optionIndex,"answered");
   const question=session[index],correct=answers[index].correct;
@@ -542,7 +542,7 @@ function choose(optionIndex){
   }
 }
 function skip(){
-  if(picked!==null||!currentAttempt||isQuestionExpired(index))return;
+  if(picked!==null||!currentAttempt)return;
   recordSelectedAnswer(null,"skipped");next();
 }
 function next(){
@@ -579,7 +579,7 @@ function tickClock(){
   if(questionPill){
     questionPill.classList.toggle("hide",remaining===null);
     if(remaining!==null){
-      setText("questionTimerPill","QUESTION TIME  "+window.C10SessionModel.formatDuration(remaining));
+      setText("questionTimerPill",(remaining===0?"PACE REACHED":"PACE LEFT")+"  "+window.C10SessionModel.formatDuration(remaining));
       questionPill.classList.toggle("timer-warning",remaining<=10&&remaining>5);
       questionPill.classList.toggle("timer-danger",remaining<=5);
       // Advisory timer: zero means the suggested pace has elapsed; keep the question editable.

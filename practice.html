@@ -107,6 +107,8 @@
 .eg-quiz-page .btn:focus-visible,.eg-quiz-page button:focus-visible,.eg-quiz-page a:focus-visible,.eg-quiz-page select:focus-visible,.eg-quiz-page input:focus-visible{outline:3px solid rgba(64,84,156,.5)!important;outline-offset:3px}
 @media(max-width:760px){.eg-quiz-page header{padding:67px 18px 20px!important}.eg-quiz-page .wrap{margin-top:15px;padding-left:14px;padding-right:14px}.eg-quiz-page .topstats{gap:7px}.eg-quiz-page .topstats .stat{padding:11px 9px;border-radius:14px!important}.eg-quiz-page .topstats .stat strong{font-size:1.05rem}.eg-quiz-page .topstats .stat span{font-size:.7rem;line-height:1.25}.eg-quiz-page .quiz{border-radius:16px!important;padding:17px 15px}.eg-quiz-page .question-nav-grid{grid-template-columns:repeat(5,minmax(0,1fr))}}
 
+
+.eg-quiz-page .question-nav-item.pace-reached{box-shadow:inset 0 0 0 2px #e5bd61;background:#fff8e8;color:#775717}
 </style>
 <link rel="stylesheet" href="./css/branding.css">
 <link rel="stylesheet" href="./css/app-shell.css">
@@ -142,7 +144,7 @@
       <input id="overallTimerCustom" type="number" min="1" max="240" step="1" value="30" inputmode="numeric" hidden>
     </div>
     <div id="questionTimerField">
-      <label class="label" for="questionTimerSetting">Question timer</label>
+      <label class="label" for="questionTimerSetting">Question pace guide</label>
       <select id="questionTimerSetting">
         <option value="off" selected>No question countdown</option><option value="15">15 seconds</option><option value="30">30 seconds</option><option value="45">45 seconds</option><option value="60">60 seconds</option><option value="90">90 seconds</option><option value="120">2 minutes</option><option value="custom">Custom duration</option>
       </select>
@@ -150,7 +152,7 @@
       <input id="questionTimerCustom" type="number" min="5" max="300" step="5" value="45" inputmode="numeric" hidden>
     </div>
   </div>
-  <p class="muted" id="timingHelp">Timers are optional. A question's clock starts the first time it is opened and continues while you move between questions.</p>
+  <p class="muted" id="timingHelp">Overall time is the hard deadline. The optional question pace guide starts when you first open a question and keeps counting while you navigate away; reaching zero never locks or skips it.</p>
 </details>
 <label class="label" for="length">Questions per session</label><select id="length"><option value="5">5 · Quick</option><option value="10" selected>10 · Standard</option><option value="20">20 · Focus</option><option value="50">50 · Deep practice</option><option value="0">All available</option></select>
 <div class="btnrow"><button class="btn" id="startBtn">Start practice →</button></div><div class="hint" id="modeHint">Loading the chapter bank…</div>
@@ -162,7 +164,7 @@
 <div id="session" class="hide">
   <div class="quiztop">
     <span class="pill" id="chapterPill">Chapter</span><span class="pill" id="numberPill">Question 1 / 10</span><span class="pill" id="difficultyPill">Medium</span>
-    <span class="pill hide" id="timerPill">Elapsed · 00:00</span><span class="pill hide" id="questionTimerPill">Question · 00:00</span>
+    <span class="pill hide" id="timerPill">Elapsed · 00:00</span><span class="pill hide" id="questionTimerPill">Pace left · 00:00</span>
     <button class="btn secondary nav-inline-trigger" id="navigatorInlineBtn" type="button">Questions ▦</button>
   </div>
   <div class="progress"><i id="progressBar"></i></div>
