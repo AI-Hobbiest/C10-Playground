@@ -202,8 +202,8 @@ function syncModeControls(){
   const controls=$("timingControls");if(controls&&timed)controls.open=true;
   const help=$("timingHelp");
   if(help)help.textContent=timed
-    ?"Timed Exam requires an overall countdown. An optional question timer also locks each question when its own time expires."
-    :"Overall and question timers are optional. A question clock starts when first opened and keeps running while you navigate away.";
+    ?"Timed Exam requires an overall countdown. An optional question timer is a pace indicator; only the overall quiz deadline ends the exam."
+    :"Overall and question timers are optional. A question clock is a pace indicator and does not lock answers.";
 }
 function selectedTiming(){
   let overallChoice=$("overallTimerSetting").value;
@@ -244,13 +244,9 @@ function markTimedOutUnanswered(questionIndex){
   const id=keyFor(question);progress.missed=[...new Set([...(progress.missed||[]),id])];saveProgress();
 }
 function processQuestionTimeouts(){
-  if(!currentAttempt||!currentAttempt.questionTimeLimitSeconds)return;
-  let changed=false;
-  currentAttempt.questionDeadlines=currentAttempt.questionDeadlines||{};
-  for(let i=0;i<session.length;i++){
-    if(isQuestionExpired(i)&&!currentAttempt.answers[i]){markTimedOutUnanswered(i);changed=true;}
-  }
-  if(changed)persistCurrentAttempt();
+  // Question timing is intentionally advisory. Expiry highlights pacing but never
+  // auto-skips, records an unanswered answer, or locks a question.
+  return;
 }
 function questionIsMarked(questionIndex){
   return !!(currentAttempt&&Array.isArray(currentAttempt.markedQuestionIndexes)&&currentAttempt.markedQuestionIndexes.includes(questionIndex));
@@ -445,7 +441,7 @@ function initQuestionImageViewer(){
 function renderQuestion(){
   if(!currentAttempt||!session[index])return;
   ensureQuestionDeadline(index);processQuestionTimeouts();
-  const question=session[index],previous=answers[index],locked=isQuestionExpired(index);
+  const question=session[index],previous=answers[index],locked=false;
   picked=previous?(previous.status==="skipped"?-1:previous.selected):null;
   const chapter=chapters.find(item=>item.chapter_no===question.chapter_no);
   setText("chapterPill",chapter?chapter.title:question.chapterTitle);
@@ -478,13 +474,13 @@ function renderQuestion(){
     const explanation=document.createElement("span");explanation.textContent=question.explanation||"Review the idea and try a similar question.";
     box.append(title,explanation);$("feedback").appendChild(box);
   }
-  setText("sessionHint",locked?"This question's time has expired. You may review it, but the answer can no longer be changed.":mode==="test"||mode==="timed"?(previous?"Answer saved. You may change it until the question timer expires.":"Choose an answer. You can revisit it while the timer permits."):(previous?"Your answer is saved. Select another option to change it, or continue when ready.":"Choose one answer; you can change it before moving on."));
+  setText("sessionHint",mode==="test"||mode==="timed"?(previous?"Answer saved. You may change it until the overall quiz time expires.":"Choose an answer. You can revisit it while overall quiz time remains."):(previous?"Your answer is saved. Select another option to change it, or continue when ready.":"Choose one answer; you can change it before moving on."));
   $("nextBtn").disabled=false;$("nextBtn").textContent=index===session.length-1?"Submit session ✓":"Next question →";
   $("skipBtn").disabled=locked||picked!==null;$("submitBtn").textContent="Submit quiz";
   const questionTimer=$("questionTimerPill"),remaining=questionRemaining(index);
   if(questionTimer){
     questionTimer.classList.toggle("hide",remaining===null);
-    if(remaining!==null)setText("questionTimerPill","QUESTION TIME  "+window.C10SessionModel.formatDuration(remaining));
+    if(remaining!==null)setText("questionTimerPill",(remaining===0?"PACE TARGET":"QUESTION TIME")+"  "+window.C10SessionModel.formatDuration(remaining));
     questionTimer.classList.toggle("timer-warning",remaining!==null&&remaining<=10&&remaining>5);
     questionTimer.classList.toggle("timer-danger",remaining!==null&&remaining<=5);
   }
@@ -586,7 +582,7 @@ function tickClock(){
       setText("questionTimerPill","QUESTION TIME  "+window.C10SessionModel.formatDuration(remaining));
       questionPill.classList.toggle("timer-warning",remaining<=10&&remaining>5);
       questionPill.classList.toggle("timer-danger",remaining<=5);
-      if(remaining===0){advanceAfterQuestionTimeout(index);return;}
+      // Advisory timer: zero means the suggested pace has elapsed; keep the question editable.
     }
   }
   if(!$("questionNavigatorOverlay").classList.contains("hide"))renderQuestionNavigator();
